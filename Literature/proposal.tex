@@ -1,0 +1,251 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\setlist[itemize]{leftmargin=1.4em,topsep=2pt,itemsep=2pt}
+\setlist[enumerate]{leftmargin=1.6em,topsep=2pt,itemsep=3pt}
+
+\newcommand{\Iz}{I_{0}}
+\newcommand{\phz}{\varphi_{0}}
+\newcommand{\Vp}{V_{\mathrm{M+}}}
+\newcommand{\Vm}{V_{\mathrm{M-}}}
+\newcommand{\Resp}{\mathcal{R}}
+
+\title{\vspace{-1.5em}Experimental Proposal: Measurement of the Total Optical
+Intensity and Static Phase Bias of the AWA TFLN Electro-Optic THz Sensor}
+\author{BeamNetUS / SULI THz Diagnostics}
+\date{\today}
+
+\begin{document}
+\maketitle
+\vspace{-1em}
+
+\section{Purpose}
+
+The experiment at the Argonne Wakefield Accelerator performed previously yielded
+results that are not able to be interpreted fully without further parameters that can
+only be obtained experimentally. Specifically, the combined laser intensity from both
+branches of the TFLN sensor and the internal phase bias are unknown currently, and
+these parameters are required to perform an accurate analysis of the electric field of
+the coherent transition radiation incident on the sensor. The purpose of this
+experiment is to determine these parameters by recreating the necessary components of
+the previously performed experiment and performing measurements.
+
+The two unknown parameters are the total optical intensity reaching the balanced
+photodiode pair, $\Iz$, and the static phase bias of the Mach--Zehnder interferometer,
+$\phz$. Both are properties of the laser, fiber, and device together, not of the
+electron beam. The slope that converts a recorded scope voltage into an electro-optic
+phase shift scales as $\Iz \sin(2\phz)$, so an uncertainty in either parameter carries
+through directly into the recovered field. Neither was recorded during the previous
+runs, which is why a dedicated measurement is needed.
+
+These parameters cannot be read from a specification. The TFLN device is a poled
+Mach--Zehnder interferometer: during fabrication one arm is domain-inverted by applying
+a field above the lithium-niobate coercive field of about 22 kV/mm, after which the
+poling electrodes are removed. The finished sensor has no bias electrodes and is
+operated with no applied bias. The static phase bias is therefore set only by passive
+effects, including residual fabrication imbalance, the fiber and polarization state, and
+thermal drift. It must be measured in place, and it may change between runs.
+
+\section{Measurement Principle}
+
+When no THz field is present, the two complementary outputs of the interferometer carry
+optical powers
+\begin{equation}
+  P_{1} = \Iz \cos^{2}\!\phz, \qquad P_{2} = \Iz \sin^{2}\!\phz,
+\end{equation}
+so that
+\begin{equation}
+  P_{1}+P_{2} = \Iz, \qquad P_{1}-P_{2} = \Iz \cos(2\phz).
+\end{equation}
+Diode 1 feeds the MONITOR$+$ output and diode 2 feeds the MONITOR$-$ output, while the
+RF output reports the difference between the two. The DC-coupled MONITOR voltages are
+\begin{equation}
+  \Vp = \Resp\,G_{\mathrm{M}}\,P_{1}, \qquad \Vm = \Resp\,G_{\mathrm{M}}\,P_{2},
+\end{equation}
+where $\Resp$ is the photodiode responsivity at 1550 nm (about 1 A/W) and
+$G_{\mathrm{M}}$ is the MONITOR transimpedance gain (10 kV/A into a high-impedance load,
+or 1.55 V/mW into 50 $\Omega$).
+
+The two MONITOR readings determine both unknowns. The total intensity is
+\begin{equation}
+  \Iz = \frac{\Vp + \Vm}{\Resp\,G_{\mathrm{M}}}, \label{eq:I0}
+\end{equation}
+and the static phase bias follows from the balance of the two arms,
+\begin{equation}
+  \cos(2\phz) = \frac{\Vp - \Vm}{\Vp + \Vm}, \qquad
+  \phz = \tfrac{1}{2}\arccos\!\left(\frac{\Vp - \Vm}{\Vp + \Vm}\right). \label{eq:phi0}
+\end{equation}
+Equation \eqref{eq:phi0} is a ratio, so the bias angle does not depend on the
+responsivity, the gain, or the intensity. Equal MONITOR readings mean the device sits
+at quadrature ($\phz = 45^\circ$), where the response to a small phase shift is largest;
+a large imbalance means it sits near a cosine extremum, where the response is small. The
+bias factor that sets the slope is
+\begin{equation}
+  s \equiv \sin(2\phz) = \sqrt{1-\left(\frac{\Vp-\Vm}{\Vp+\Vm}\right)^{2}}
+    = \frac{2\sqrt{\Vp\,\Vm}}{\Vp+\Vm}. \label{eq:s}
+\end{equation}
+
+The quantity used in the downstream analysis is the BPD calibration slope, the RF output
+voltage per radian of electro-optic phase,
+\begin{equation}
+  K_{\mathrm{BPD}} = 2\,G_{\mathrm{eff}}\,\Resp\,\Iz\,\sin(2\phz),
+\end{equation}
+where $G_{\mathrm{eff}}$ is the RF-output effective gain ($G_{\mathrm{switch}}/2$ into
+50 $\Omega$). Substituting \eqref{eq:I0} and \eqref{eq:s}, the responsivity and the
+intensity cancel, and the calibration reduces to
+\begin{equation}
+  K_{\mathrm{BPD}} = 4\,\frac{G_{\mathrm{eff}}}{G_{\mathrm{M}}}\,\sqrt{\Vp\,\Vm}.
+  \label{eq:Kbox}
+\end{equation}
+This is the result that motivates the measurement. The full voltage-to-phase calibration
+is fixed by the two recorded MONITOR voltages and the known ratio of the RF and MONITOR
+gains. The responsivity and the absolute intensity, which were the two largest sources
+of uncertainty in the prior analysis, drop out of $K_{\mathrm{BPD}}$ as long as the
+MONITOR and RF outputs are recorded at the same time. The gain-switch position is the
+one parameter that still must be recorded by hand.
+
+\section{Equipment}
+
+The laser setup at the Argonne Wakefield Accelerator is a fiber-coupled erbium-doped
+laser, operating at 81.25 MHz with 100 mW average power delivered in 70-fs pulses. The
+laser operates at 1550 nm.
+
+Partow Technologies developed a thin-film lithium niobate (TFLN) electro-optic sensor
+that uses a Mach--Zehnder interferometer to induce an electric-field-dependent phase
+modulation on incident laser light. The device is fiber-coupled, has two complementary
+outputs, and has a measured optical insertion loss of $-13$ dB at 1550 nm.
+
+Detection of the MZI outputs is performed by a Thorlabs PDB450C-AC balanced photodiode.
+This device measures the intensity of two incident fiber-coupled sources and reports the
+difference between the two through a balanced RF output. It also provides individual
+monitor outputs for the two separate diode channels. The RF output is AC-coupled with a
+switched transimpedance gain of $10^{3}$ to $10^{7}$ V/A. The MONITOR$+$ and MONITOR$-$
+outputs are DC-coupled at 10 kV/A with a bandwidth of DC to 1 MHz.
+
+The acquisition system is an oscilloscope with at least three channels. The RF output is
+placed on a 50 $\Omega$-terminated channel. The MONITOR outputs are placed on
+high-impedance (1 M$\Omega$) channels or read with a precision DVM, which is sufficient
+for their DC-to-1-MHz bandwidth and avoids the factor-of-two attenuation of a 50 $\Omega$
+input. The fiber link uses the same type and length of polarization-maintaining fiber as
+the AWA setup, nominally 25 m, to reproduce the optical loss and polarization
+conditions. A calibrated 1550 nm optical power meter is used for the intensity
+cross-check.
+
+\section{Experimental Arrangements}
+
+The optical path outlined in ``Implementation of a 1550-nm Laser System for Beam
+Characterization at the Argonne Wakefield Accelerator'' should be recreated as
+faithfully as possible, without installation at the accelerator. The laser should be
+coupled to the TFLN sensor with the same type and quantity of fiber cabling. The two MZI
+outputs should be connected to the two inputs of the PDB450C-AC. All three RF outputs
+should be monitored by the oscilloscope: the balanced output, MONITOR$+$, and
+MONITOR$-$. The laser should be powered on in the same operational state as before, the
+gain-switch position should be recorded, and results should be recorded.
+
+\subsection{Primary measurement}
+With no THz field present, the MONITOR$+$ voltage, the MONITOR$-$ voltage, and the RF
+baseline voltage should be recorded at the same time. The intensity $\Iz$ is then
+computed from \eqref{eq:I0}, the static phase bias $\phz$ from \eqref{eq:phi0}, the bias
+factor $s$ from \eqref{eq:s}, and the calibration $K_{\mathrm{BPD}}$ from
+\eqref{eq:Kbox}. As an internal check, the recorded RF baseline should satisfy
+$V_{\mathrm{RF,0}} = (G_{\mathrm{eff}}/G_{\mathrm{M}})(\Vp-\Vm)$, which confirms the gain
+ratio and the channel assignments.
+
+\subsection{Intensity cross-check}
+The total optical power at the device input should be measured with the calibrated power
+meter and propagated through the $-13$ dB insertion loss to predict
+$\Iz \approx 0.05 \times P_{\mathrm{in}}$. This value should be compared with the
+intensity obtained from the MONITOR readings. Agreement bounds the systematic error on
+the intensity scale, and a disagreement points to its cause, such as an incorrect
+insertion loss, a nonlinear MONITOR response, or a responsivity offset.
+
+\subsection{Auxiliary measurements}
+\begin{itemize}
+  \item Responsivity cross-calibration. The laser should be connected directly to one
+        BPD input through a calibrated attenuator, and the MONITOR reading compared with
+        the power meter, to fix the responsivity at 1550 nm to about 5 percent. This
+        improves the intensity from \eqref{eq:I0} but is not required for the
+        calibration in \eqref{eq:Kbox}.
+  \item Linearity and saturation check. The launched power should be varied to confirm
+        that the MONITOR voltages scale linearly. The MONITOR stage saturates near 1 mW
+        of optical power per diode, as discussed below.
+  \item Drift characterization. The MONITOR voltages should be logged over tens of
+        minutes to hours to measure how quickly the phase bias wanders. This sets how
+        often the bias must be re-sampled during a beam run.
+  \item Bypass baseline. The full chain may be recorded with the sensor removed, with
+        the laser sent into the BPD through the rest of the optics, to give an upper
+        bound on the intensity. The ratio of this reading to the in-device reading gives
+        a measured insertion loss to compare against the $-13$ dB value.
+\end{itemize}
+
+\section{Analysis}
+
+For each acquisition, the intensity $\Iz$, the phase bias $\phz$, the bias factor
+$s = \sin(2\phz)$, and the calibration $K_{\mathrm{BPD}}$ should be reported with
+uncertainties propagated from the measured voltages and the datasheet gains. From
+\eqref{eq:Kbox} the relative uncertainty in the calibration is
+\begin{equation}
+  \frac{\delta K_{\mathrm{BPD}}}{K_{\mathrm{BPD}}}
+   = \sqrt{\left(\frac{\delta(G_{\mathrm{eff}}/G_{\mathrm{M}})}{G_{\mathrm{eff}}/G_{\mathrm{M}}}\right)^{2}
+   + \tfrac{1}{4}\left(\frac{\delta\Vp}{\Vp}\right)^{2}
+   + \tfrac{1}{4}\left(\frac{\delta\Vm}{\Vm}\right)^{2}},
+\end{equation}
+so few-percent voltage readings give a few-percent calibration. The intensity from the
+MONITOR readings and from the power meter should agree within their combined error, and
+the spread between them is reported as the systematic uncertainty on the intensity
+scale.
+
+\section{Feasibility}
+
+Prior records indicate about 24 mW at the fiber-link exit. Through the $-13$ dB device,
+about 1.2 mW reaches the BPD, or roughly 0.6 mW per diode. The expected MONITOR levels
+are about 6 V into a high-impedance load, or about 0.9 V into 50 $\Omega$, per arm, which
+are comfortably readable.
+
+The main feasibility risk is saturation. At 0.6 mW per diode the MONITOR stage is at
+about 60 percent of its 1 mW saturation point. If the linearity check fails, the launched
+power should be attenuated, or the coupling reduced, until both arms are in the linear
+regime. Because the phase bias in \eqref{eq:phi0} is a ratio and the calibration in
+\eqref{eq:Kbox} uses the geometric mean of the two MONITOR voltages, moderate
+attenuation does not bias the result as long as both arms stay linear.
+
+A well-fabricated fiber-coupled interferometer is usually delivered near quadrature, so
+the two MONITOR readings are expected to be similar and the bias factor close to one. The
+measurement will confirm whether the AWA device sits near maximum sensitivity or has
+drifted toward an extremum.
+
+\section{Limitations and Implications}
+
+The phase bias is passive and temperature-dependent, so the value measured on the bench
+need not equal the value during any past AWA run. The bench experiment establishes the
+method, the baseline values, and the drift rate, rather than a retroactive phase bias for
+archived data.
+
+If the intensity proves reproducible, set by the laser power and the fiber coupling, then
+for an archived run the recorded RF baseline and the assumed gain give that run's bias
+through $\cos(2\phz) = V_{\mathrm{RF,0}}/(G_{\mathrm{eff}}\Resp\Iz)$. This is offered as a
+bounded estimate, with reproducibility verified by repeating the primary measurement
+across re-couplings.
+
+The decisive outcome is a standing acquisition requirement for all future beam
+campaigns: record MONITOR$+$, MONITOR$-$, and the RF output at the same time, along with
+the gain-switch position. Equation \eqref{eq:Kbox} then gives an absolute,
+responsivity-independent field calibration for every shot, which closes the largest open
+uncertainty in the AWA electro-optic sampling analysis.
+
+\section{Summary}
+
+By recreating the AWA optical chain on the bench and recording the two PDB450C-AC MONITOR
+outputs alongside the RF output, this experiment measures the total optical intensity and
+the static phase bias directly, checks the intensity against a power-meter measurement,
+and shows that the voltage-to-phase calibration is fixed by the two MONITOR voltages and
+the known detector gain ratio. The result both constrains the existing dataset and
+defines the acquisition protocol that makes future electro-optic sampling data
+absolutely calibratable.
+
+\end{document}
