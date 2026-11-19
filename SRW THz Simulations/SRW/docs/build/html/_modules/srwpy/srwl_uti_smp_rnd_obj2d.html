@@ -1,0 +1,1100 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.srwl_uti_smp_rnd_obj2d &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.srwl_uti_smp_rnd_obj2d</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.srwl_uti_smp_rnd_obj2d</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="c1">#############################################################################</span>
+<span class="c1"># Generate a 2D random pattern of disks</span>
+<span class="c1"># Authors/Contributors: Yugang Zhang, Rebecca Ann Coles</span>
+<span class="c1"># March 01, 2019</span>
+<span class="c1"># April 11, 2020</span>
+<span class="c1">#############################################################################</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">random</span> <span class="c1">#OC01082020</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">skimage.draw</span><span class="w"> </span><span class="kn">import</span> <span class="n">polygon</span><span class="p">,</span> <span class="n">ellipse</span> <span class="c1">#HG16062025</span>
+<span class="c1">#from skimage.draw import polygon, circle, ellipse</span>
+
+<span class="c1"># ********************** Get the distance between point jj and the other points</span>
+<div class="viewcode-block" id="get_r1j">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_r1j">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_r1j</span><span class="p">(</span> <span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">jj</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Used with Yugang random walk function.</span>
+<span class="sd">    Get the distance between point jj and the other points</span>
+
+<span class="sd">    :param px: mesgrid, coordination of x, shape will be [point number, point number]</span>
+<span class="sd">    :param py: mesgrid, coordination of y, shape will be [point number, point number]</span>
+<span class="sd">    :param jj: the index of the position</span>
+<span class="sd">    :return: the distance between the j and other points, shape be point number -1</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="n">pxf</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span> <span class="n">px</span> <span class="p">)</span>
+    <span class="n">pyf</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span> <span class="n">py</span> <span class="p">)</span>
+    <span class="n">pxn</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span> <span class="n">pxf</span><span class="p">,</span> <span class="n">jj</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">pyn</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span> <span class="n">pyf</span><span class="p">,</span> <span class="n">jj</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">dd</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span>  <span class="p">(</span> <span class="n">pxn</span> <span class="o">-</span> <span class="n">pxf</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="p">(</span> <span class="n">pyn</span> <span class="o">-</span> <span class="n">pyf</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="p">)</span>
+    <span class="k">return</span> <span class="n">dd</span></div>
+
+
+
+<span class="c1"># ********************** Check the distance between point jj and other points </span>
+<div class="viewcode-block" id="chk_r1j_rmin">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.chk_r1j_rmin">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">chk_r1j_rmin</span><span class="p">(</span><span class="n">px</span><span class="p">,</span><span class="n">py</span><span class="p">,</span> <span class="n">jj</span><span class="p">,</span> <span class="n">rmin</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Used with Yugang random walk function.</span>
+<span class="sd">    Check the distance between point j and other points if all the distances </span>
+<span class="sd">    larger than rmin, return True.</span>
+
+<span class="sd">    :param px: mesgrid, coordination of x, shape will be [point number, point number]</span>
+<span class="sd">    :param py: mesgrid, coordination of y, shape will be [point number, point number]</span>
+<span class="sd">    :param jj: the index of the position</span>
+<span class="sd">    :param rmin: the object minimum distance from other objects.</span>
+<span class="sd">    :return: bool, True = distance is smaller than rmin, need to move position.</span>
+<span class="sd">        False = distance larger than rmin, no need to move position.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="n">r1j</span> <span class="o">=</span> <span class="n">get_r1j</span><span class="p">(</span> <span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">jj</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span> <span class="n">r1j</span> <span class="o">&lt;</span> <span class="n">rmin</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">:</span>  <span class="c1">#distance smaller than rmin, need to move position </span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span></div>
+
+
+
+<span class="c1"># ********************** Move 2D points with random direction and with amplitue as amp for each step</span>
+<div class="viewcode-block" id="mv_2D">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.mv_2D">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">mv_2D</span><span class="p">(</span> <span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">amp</span><span class="p">):</span> 
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Used with Yugang random walk function.</span>
+<span class="sd">    Move 2D points with random direction and with amplitue as amp for each step </span>
+<span class="sd">    </span>
+<span class="sd">    :param px: mesgrid, coordination of x, shape will be [point number, point number]</span>
+<span class="sd">    :param py: mesgrid, coordination of y, shape will be [point number, point number]</span>
+<span class="sd">    :param amp: amplitue of each step.</span>
+<span class="sd">    :return: px/py mesgrid, coordination of x/y, shape will be [point number, point number]</span>
+<span class="sd">        or px/py: one float, in case of move one point</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="n">NA</span><span class="o">=</span><span class="kc">False</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">px</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">)</span> <span class="p">):</span>
+        <span class="n">px</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span> <span class="p">[</span><span class="n">px</span><span class="p">])</span>
+        <span class="n">py</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span> <span class="p">[</span><span class="n">py</span><span class="p">]</span> <span class="p">)</span>
+        <span class="n">NA</span> <span class="o">=</span> <span class="kc">True</span>
+
+    <span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">,(</span><span class="nb">len</span><span class="p">(</span><span class="n">px</span><span class="p">),</span><span class="nb">len</span><span class="p">(</span><span class="n">py</span><span class="p">)))</span> <span class="o">*</span> <span class="mi">2</span><span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+    <span class="n">dx</span> <span class="o">=</span> <span class="n">amp</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span> <span class="n">theta</span> <span class="p">)</span>
+    <span class="n">dy</span> <span class="o">=</span> <span class="n">amp</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span> <span class="n">theta</span> <span class="p">)</span> 
+
+    <span class="k">if</span> <span class="n">NA</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">px</span><span class="o">+</span><span class="n">dx</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span> <span class="p">(</span><span class="n">py</span><span class="o">+</span><span class="n">dy</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">px</span> <span class="o">+</span> <span class="n">dx</span><span class="p">,</span> <span class="n">py</span> <span class="o">+</span> <span class="n">dy</span></div>
+
+
+
+<span class="c1"># ********************** Simulate a 2D random walk </span>
+<div class="viewcode-block" id="get_rnd_2D">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_rnd_2D">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_rnd_2D</span><span class="p">(</span> <span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">amp</span><span class="p">,</span> <span class="n">rmin</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">try_max</span><span class="o">=</span><span class="mi">1000</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Yugang&#39;s random walk function.</span>
+<span class="sd">    Simulate a 2D random walk. Each of the 2D points, for each step, move with </span>
+<span class="sd">    random direction and with amplitue as amp.</span>
+
+<span class="sd">    :param px: mesgrid, coordination of x, shape will be [point number, point number]</span>
+<span class="sd">    :param py: mesgrid, coordination of y, shape will be [point number, point number]</span>
+<span class="sd">    :param amp: amplitue of each step.</span>
+<span class="sd">    :param rmin: the object minimum distance from other objects.</span>
+<span class="sd">    :param try_max: try number to acheive rmin, if can&#39;t achevie print that point</span>
+<span class="sd">    :return: px/py mesgrid, coordination of x/y, shape will be [point number, point number]</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="n">px</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">px</span><span class="p">)</span>
+    <span class="n">py</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">py</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span> <span class="n">px</span><span class="o">.</span><span class="n">size</span><span class="p">):</span>
+        <span class="n">trys</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">mov</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">while</span> <span class="n">mov</span><span class="p">:</span>
+            <span class="n">px</span><span class="p">[</span><span class="n">ii</span><span class="p">],</span> <span class="n">py</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">=</span>  <span class="n">mv_2D</span><span class="p">(</span> <span class="n">px</span><span class="p">[</span><span class="n">ii</span><span class="p">],</span> <span class="n">py</span><span class="p">[</span><span class="n">ii</span><span class="p">],</span> <span class="n">amp</span><span class="p">)</span>
+            <span class="n">mov</span> <span class="o">=</span> <span class="n">chk_r1j_rmin</span><span class="p">(</span><span class="n">px</span><span class="p">,</span><span class="n">py</span><span class="p">,</span> <span class="n">ii</span><span class="p">,</span> <span class="n">rmin</span><span class="p">)</span>
+            <span class="n">trys</span> <span class="o">+=</span><span class="mi">1</span>
+            <span class="k">if</span> <span class="n">trys</span> <span class="o">&gt;</span> <span class="n">try_max</span><span class="p">:</span>
+                <span class="n">mov</span> <span class="o">=</span> <span class="kc">False</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">ii</span><span class="p">,</span> <span class="s1">&#39;Not satify the rmin distance&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">px</span><span class="p">,</span><span class="n">py</span></div>
+
+
+
+<div class="viewcode-block" id="uni_rnd_seed">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.uni_rnd_seed">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uni_rnd_seed</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">rx_pixels</span><span class="p">,</span> <span class="n">ry_pixels</span><span class="p">,</span> <span class="n">obj_max_size</span><span class="p">,</span> <span class="n">min_dist</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">_seed</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span> <span class="c1">#OC01082020</span>
+<span class="c1">#def uni_rnd_seed(num, rx_pixels, ry_pixels, obj_max_size, min_dist=16): #RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Uniform Random Seed Object Locations</span>
+<span class="sd">    Evenly space &quot;num&quot; points over a (rx, ry) grid.</span>
+
+<span class="sd">    :param num: particle number.</span>
+<span class="sd">    :param rx_pixels: range of the horizontal coordinate [pixels] for which </span>
+<span class="sd">        the transmission is defined.</span>
+<span class="sd">    :param ry_pixels: range of the vertical coordinate [pixels] for which </span>
+<span class="sd">        the transmission is defined.</span>
+<span class="sd">    :param _obj_size_max: maximum allowed size of objects [pixels]</span>
+<span class="sd">    :param min_dist = 16: minimum distance [pixels] between objects.    </span>
+
+<span class="sd">    For num_x points in x-direction with spacing delta_x in a 2D array of width</span>
+<span class="sd">    &quot;w&quot; and height &quot;h&quot;:</span>
+<span class="sd">        num_x = sqrt[(w/h)*num + (w-h)^2 / (4*h^2)] - [(w-h) / (2*h)]</span>
+<span class="sd">        </span>
+<span class="sd">    For num_y points in y-direction with spacing delta_y in a 2D array of width</span>
+<span class="sd">    &quot;w&quot; and height &quot;h&quot;:</span>
+<span class="sd">        num_y = num / num_x</span>
+
+<span class="sd">    To get (x,y) point pairs you need delta_x = delta_y. If delta_x != delta_y</span>
+<span class="sd">    for num objects, num is reduced until delta_x = delta_y.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="c1"># Get spacing (delta) between points. </span>
+    <span class="c1">#  If spacing can&#39;t be compleated with the requested</span>
+    <span class="c1">#  number of points, the density of points will be reduced until </span>
+    <span class="c1">#  the points can all be uniformly spaced.</span>
+    <span class="n">final_num_points</span> <span class="o">=</span> <span class="n">num</span> <span class="c1">#initalize to maximum number of points</span>
+    <span class="n">delta_x</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#initalize to delta_x != delta_y</span>
+    <span class="n">delta_y</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#initalize to delta_x != delta_y</span>
+    <span class="n">dist_edge</span> <span class="o">=</span> <span class="n">obj_max_size</span><span class="o">*</span><span class="mi">2</span> <span class="c1">#minimum distance of an object from the edge of the surface</span>
+    <span class="n">rx_boundry</span> <span class="o">=</span> <span class="n">rx_pixels</span><span class="o">-</span><span class="n">dist_edge</span><span class="o">*</span><span class="mi">2</span> <span class="c1">#end edge boundry for objects</span>
+    <span class="n">ry_boundry</span> <span class="o">=</span> <span class="n">ry_pixels</span><span class="o">-</span><span class="n">dist_edge</span><span class="o">*</span><span class="mi">2</span> <span class="c1">#top edge boundry for objects</span>
+
+    <span class="k">while</span> <span class="n">delta_x</span> <span class="o">!=</span> <span class="n">delta_y</span><span class="p">:</span> <span class="c1">#delta_x=delta_y needed to evenly spread objects</span>
+        <span class="n">num_x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span> <span class="p">(</span><span class="n">rx_boundry</span><span class="o">/</span><span class="n">ry_boundry</span><span class="p">)</span><span class="o">*</span><span class="n">final_num_points</span> <span class="o">+</span> 
+                            <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">((</span><span class="n">rx_boundry</span><span class="o">-</span><span class="n">ry_boundry</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span> <span class="o">/</span> 
+                            <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">((</span><span class="mi">4</span><span class="o">*</span><span class="n">ry_boundry</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span> <span class="p">)</span> <span class="o">-</span> 
+                            <span class="p">(</span><span class="n">rx_boundry</span><span class="o">-</span><span class="n">ry_boundry</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">ry_boundry</span><span class="p">))</span>
+        <span class="n">num_y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">final_num_points</span><span class="o">/</span><span class="n">num_x</span><span class="p">)</span>
+        <span class="n">delta_x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">rx_boundry</span><span class="o">/</span><span class="p">(</span><span class="n">num_x</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
+        <span class="n">delta_y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">ry_boundry</span><span class="o">/</span><span class="p">(</span><span class="n">num_y</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">delta_x</span> <span class="o">!=</span> <span class="n">delta_y</span><span class="p">:</span>
+            <span class="c1"># return a default set of objects if delta_x=delta_y fails</span>
+            <span class="k">if</span> <span class="n">final_num_points</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">delta_x</span> <span class="o">=</span> <span class="n">delta_y</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="n">final_num_points</span> <span class="o">=</span> <span class="n">final_num_points</span><span class="o">/</span><span class="mi">2</span>
+            <span class="c1"># reduce num until delta_x=delta_y</span>
+            <span class="n">final_num_points</span> <span class="o">=</span> <span class="n">final_num_points</span><span class="o">-</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># if delta_x=delta_y, set delta</span>
+            <span class="n">delta</span> <span class="o">=</span> <span class="n">delta_x</span>
+
+    <span class="c1"># Construct px and py made up of uniformly spaced points in (rx, ry)</span>
+    <span class="n">px_edge</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#x coord list of uniformly spaced points</span>
+    <span class="n">py_edge</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#y coord list of uniformly spaced points</span>
+    <span class="n">rows</span> <span class="o">=</span> <span class="n">num_y</span> <span class="c1">#number of rows (y values)</span>
+    <span class="n">columns</span> <span class="o">=</span> <span class="n">num_x</span> <span class="c1">#number of columns (x values) </span>
+    <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">rows</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="c1">#fill px and py with uniformly spaced points (row by row)</span>
+        <span class="n">row_value</span> <span class="o">=</span> <span class="n">ii</span><span class="o">*</span><span class="n">delta</span>
+        <span class="k">for</span> <span class="n">jj</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">columns</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+            <span class="n">px_edge</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">jj</span><span class="o">*</span><span class="n">delta</span><span class="p">)</span>
+            <span class="n">py_edge</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">row_value</span><span class="p">)</span>
+
+    <span class="c1"># Enforce object distance from left an bottom surface boundry        </span>
+    <span class="n">px</span> <span class="o">=</span> <span class="p">[</span><span class="n">kk</span><span class="o">+</span><span class="n">dist_edge</span> <span class="k">for</span> <span class="n">kk</span> <span class="ow">in</span> <span class="n">px_edge</span><span class="p">]</span>
+    <span class="n">py</span> <span class="o">=</span> <span class="p">[</span><span class="n">kk</span><span class="o">+</span><span class="n">dist_edge</span> <span class="k">for</span> <span class="n">kk</span> <span class="ow">in</span> <span class="n">py_edge</span><span class="p">]</span>
+
+    <span class="c1"># Create random noise to perturb points</span>
+    <span class="n">minimum_movement</span> <span class="o">=</span> <span class="n">obj_max_size</span> <span class="o">+</span> <span class="n">min_dist</span>
+    <span class="k">if</span> <span class="n">delta</span> <span class="o">&lt;=</span> <span class="n">minimum_movement</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Warning: object_maximum_size + minimum_dist_between_obj is&quot;</span> 
+              <span class="s2">&quot; greater than perfectly uniform object spaceing. To preserve&quot;</span>
+              <span class="o">+</span> <span class="s2">&quot; minimum_dist_between_obj you will need to reduce object_maximum_size&quot;</span>
+              <span class="o">+</span> <span class="s2">&quot; or decrease object density.&quot;</span><span class="p">)</span>
+
+    <span class="c1">#OC01082020</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_seed</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">_seed</span><span class="p">,</span> <span class="nb">int</span><span class="p">)):</span> <span class="c1">#Other seeding options?</span>
+            <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">_seed</span><span class="p">)</span>
+        
+    <span class="n">noise</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">low</span><span class="o">=</span><span class="n">minimum_movement</span><span class="p">,</span>
+                              <span class="n">high</span><span class="o">=</span><span class="n">delta</span><span class="p">,</span>
+                              <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">px</span><span class="p">),</span> <span class="mi">2</span><span class="p">))</span>
+
+    <span class="c1">#add noise to px and py</span>
+    <span class="n">px</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">px</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+    <span class="n">py</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">py</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span> 
+    <span class="n">px</span> <span class="o">+=</span> <span class="n">noise</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">py</span> <span class="o">+=</span> <span class="n">noise</span><span class="p">[:,</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">py</span><span class="p">,</span> <span class="n">px</span></div>
+
+
+<span class="c1"># ********************** Place shape on meshgrid</span>
+<div class="viewcode-block" id="on_pxy">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.on_pxy">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">on_pxy</span><span class="p">(</span><span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">bx</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">by</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+           <span class="n">_obj_type</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+           <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+           <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_seed</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#OC01082020</span>
+           <span class="c1">#_obj_par1 = None, _obj_par2 = None): #RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Place shapes on (px,py) points</span>
+
+<span class="sd">    :param px: mesgrid, coordination of x, shape will be [point number, point number]</span>
+<span class="sd">    :param py: mesgrid, coordination of y, shape will be [point number, point number]</span>
+<span class="sd">    :param bx: box size (x), namely each frame size [array size (pixels)]</span>
+<span class="sd">    :param by: box size (y), namely each frame size [array size (pixels)]</span>
+<span class="sd">    :param _obj_type = 1: shape of objects. </span>
+<span class="sd">        Choices: 1=rectangle, 2=ellipse, 3=triangle, 4=polygon, 5=random_shapes</span>
+<span class="sd">    :param _obj_size_min = 10: minimum allowed size of objects [pixels]</span>
+<span class="sd">    :param _obj_size_max = 10: maximum allowed size of objects [pixels]</span>
+<span class="sd">    :param _size_dist = 1: distribution of sizes. </span>
+<span class="sd">        Choices are: 1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _ang_min = 0: minimum rotation angle of shape [degrees].</span>
+<span class="sd">    :param _ang_max = 0: maximum rotation angle of shape [degrees].</span>
+<span class="sd">    :param _ang_dist = 1: distribution of rotation angle. </span>
+<span class="sd">        Choices are: 1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _obj_par1 = None: </span>
+<span class="sd">        rectangle: ratio of width to length (length is the longest dimension). </span>
+<span class="sd">            Leaving value as None will give 1.0 (square) as width to length </span>
+<span class="sd">            ratio unless _obj_par2 = True is selected to randomize the </span>
+<span class="sd">            width to length ratio.</span>
+<span class="sd">        ellipse: ratio of minor to major semi-axes. </span>
+<span class="sd">            Leaving value as None will give 1.0 (circle) as minor to major </span>
+<span class="sd">            semi-axes ratio unless _obj_par2 = True is selected to </span>
+<span class="sd">            randomize the minor to major semi-axes ratio.</span>
+<span class="sd">        triangle: ratio of height (y, or &quot;opposite&quot;) to width (x, or adjunct). </span>
+<span class="sd">            Leaving value as None will give 1.0 (1/1) as height to width </span>
+<span class="sd">            ratio unless _obj_par2 = True is selected to randomize the </span>
+<span class="sd">            height to width ratio (default is an equilateral triangle).</span>
+<span class="sd">        regular polygon: number of polygon vertices.</span>
+<span class="sd">            Leaving value as None will give a hexagon (6 sides)</span>
+<span class="sd">            unless _obj_par2 = True is selected to randomize the numer of </span>
+<span class="sd">            polygon vertices. Max vertices = 12.</span>
+<span class="sd">        random shapes: Which shapes to randomly generate.</span>
+<span class="sd">            Choices are:</span>
+<span class="sd">                [1=&#39;rectangle&#39;,2=&#39;ellipse&#39;,3=&#39;triangle&#39;,4=&#39;polygon&#39;].</span>
+<span class="sd">            Leaving value as None will give all shape options as:[1,2,3,4]</span>
+<span class="sd">    :param _obj_par2 = None:</span>
+<span class="sd">        rectangle: value set to True will randomize the width to length ratio.</span>
+<span class="sd">        ellipse: Value set to True will randomize the minor to major semi-axes ratio.</span>
+<span class="sd">        triangle: value set to True will randomize the height (y, or &quot;opposite&quot;)</span>
+<span class="sd">            to width (x, or adjunct) ratio.</span>
+<span class="sd">        regular polygon: Value set to True will randomize the numer of polygon </span>
+<span class="sd">            vertices.</span>
+<span class="sd">    :return:array with shapes at (px,py) locations.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="k">if</span> <span class="n">by</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">by</span> <span class="o">=</span> <span class="n">bx</span>
+    <span class="n">dd</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span> <span class="p">[</span><span class="n">bx</span><span class="p">,</span><span class="n">by</span><span class="p">]</span> <span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="nb">bool</span><span class="p">)</span>
+
+    <span class="c1">#OC01082020</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_seed</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">_seed</span><span class="p">,</span> <span class="nb">int</span><span class="p">)):</span> <span class="c1">#Other seeding options?</span>
+            <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">_seed</span><span class="p">)</span>
+            <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">_seed</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">px</span><span class="o">.</span><span class="n">size</span><span class="p">):</span> 
+        <span class="n">cx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">px</span><span class="p">)[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">cy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">py</span><span class="p">)[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">xx</span><span class="p">,</span> <span class="n">yy</span> <span class="o">=</span> <span class="n">get_shape</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_obj_type</span> <span class="o">=</span> <span class="n">_obj_type</span><span class="p">,</span> 
+                           <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                           <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span>
+                           <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span>
+        <span class="n">ww</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span> <span class="p">(</span> <span class="p">(</span><span class="n">xx</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">)</span>  <span class="o">&amp;</span> <span class="p">(</span><span class="n">xx</span><span class="o">&lt;</span><span class="n">bx</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">yy</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">yy</span><span class="o">&lt;</span><span class="n">by</span><span class="p">)</span> <span class="p">)</span> <span class="p">)</span>            
+        <span class="n">dd</span><span class="p">[</span><span class="n">xx</span><span class="p">[</span><span class="n">ww</span><span class="p">],</span><span class="n">yy</span><span class="p">[</span><span class="n">ww</span><span class="p">]]</span><span class="o">=</span><span class="mi">1</span> 
+
+    <span class="k">return</span> <span class="n">dd</span></div>
+
+
+
+<span class="c1"># ********************** Get shape in accordance with user specified parameters.</span>
+<div class="viewcode-block" id="get_shape">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_shape">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_shape</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> 
+              <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+              <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+              <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Get shape in accordance with user specified parameters.</span>
+
+<span class="sd">    :param cx: x coordinate of object center.</span>
+<span class="sd">    :param cy: y coordinate of object center.</span>
+<span class="sd">    :param _obj_type = 1: shape of objects. Choices are: </span>
+<span class="sd">        1=rectangle, 2=ellipse, 3=triangle, 4=ploygon, 5=random_shapes</span>
+<span class="sd">    :param _obj_size_min = 10: minimum allowed size of objects [pixels]</span>
+<span class="sd">    :param _obj_size_max = 10: maximum allowed size of objects [pixels]</span>
+<span class="sd">    :param _size_dist = 1: distribution of sizes. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _ang_min = 0: minimum rotation angle of objects [degrees].</span>
+<span class="sd">    :param _ang_max = 0: maximum rotation angle of objects [degrees].</span>
+<span class="sd">    :param _ang_dist = 1: distribution of rotation angle. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _obj_par1 = None: </span>
+<span class="sd">        rectangle: ratio of width to length (length is the longest dimension). </span>
+<span class="sd">            Leaving value as None will give 1.0 (square) as width to length </span>
+<span class="sd">            ratio unless _obj_par2 = True is selected to randomize the </span>
+<span class="sd">            width to length ratio.</span>
+<span class="sd">        ellipse: ratio of minor to major semi-axes. </span>
+<span class="sd">            Leaving value as None will give 1.0 (circle) as minor to major </span>
+<span class="sd">            semi-axes ratio unless _obj_par2 = True is selected to </span>
+<span class="sd">            randomize the minor to major semi-axes ratio.</span>
+<span class="sd">        triangle: ratio of height (y, or &quot;opposite&quot;) to width (x, or adjunct). </span>
+<span class="sd">            Leaving value as None will give 1.0 (1/1) as height to width </span>
+<span class="sd">            ratio unless _obj_par2 = True is selected to randomize the </span>
+<span class="sd">            height to width ratio (default is an equilateral triangle).</span>
+<span class="sd">        regular polygon: number of polygon vertices.</span>
+<span class="sd">            Leaving value as None will give a hexagon (6 sides)</span>
+<span class="sd">            unless _obj_par2 = True is selected to randomize the numer of </span>
+<span class="sd">            polygon vertices.</span>
+<span class="sd">        random shapes: Which shapes to randomly generate.</span>
+<span class="sd">            Choices are [1=&#39;rectangle&#39;,2=&#39;ellipse&#39;,3=&#39;triangle&#39;,4=&#39;polygon&#39;].</span>
+<span class="sd">            Leaving value as None will give all shape options as:</span>
+<span class="sd">                [1,2,3,4]</span>
+<span class="sd">    :param _obj_par2 = None:</span>
+<span class="sd">        rectangle: value set to True will randomize the width </span>
+<span class="sd">            to length ratio.</span>
+<span class="sd">        ellipse: Value set to True will randomize the minor to major </span>
+<span class="sd">            semi-axes ratio.</span>
+<span class="sd">        triangle: value set to True will randomize the height (y, or &quot;opposite&quot;)</span>
+<span class="sd">            to width (x, or adjunct) ratio.</span>
+<span class="sd">        regular polygon: Value set to True will randomize the numer of </span>
+<span class="sd">            polygon vertices. Max vertices = 12.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="k">if</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span> <span class="c1">#rectangle</span>
+        <span class="k">return</span> <span class="n">get_rec</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> 
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span> 
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> 
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> 
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span> 
+                       <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span> 
+                       <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span>   
+    <span class="k">elif</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span> <span class="c1">#ellipse</span>
+        <span class="k">return</span> <span class="n">get_elp</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> 
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> 
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> 
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span> 
+                       <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span> 
+                       <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span>  
+    <span class="k">elif</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span> <span class="c1">#triangle</span>
+        <span class="k">return</span> <span class="n">get_tri</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> 
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> 
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> 
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span> 
+                       <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span> 
+                       <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span> <span class="c1">#polygon</span>
+        <span class="k">return</span> <span class="n">get_pol</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> 
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> 
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> 
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span> 
+                       <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span> 
+                       <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span> 
+    <span class="k">elif</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span> <span class="c1">#random</span>
+        <span class="k">return</span> <span class="n">get_rnd</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> 
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span> 
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> 
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> 
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span> 
+                       <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c1">#ellipse</span>
+        <span class="k">return</span> <span class="n">get_elp</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> 
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> 
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> 
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span> 
+                       <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span> 
+                       <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span></div>
+
+
+<span class="c1"># ********************** Create rectangle</span>
+<div class="viewcode-block" id="get_rec">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_rec">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_rec</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Rectangles</span>
+
+<span class="sd">    :param cx: x coordinate of rectangle center.</span>
+<span class="sd">    :param cy: y coordinate of rectangle center.</span>
+<span class="sd">    :param _obj_size_min = 10: minimum allowed size of rectangle [pixels]</span>
+<span class="sd">    :param _obj_size_max = 10: maximum allowed size of rectangle [pixels]</span>
+<span class="sd">    :param _size_dist = 1: distribution of sizes. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _ang_min = 0: minimum rotation angle of rectangle [degrees].</span>
+<span class="sd">    :param _ang_max = 0: maximum rotation angle of rectangle [degrees].</span>
+<span class="sd">    :param _ang_dist = 1: distribution of rotation angle. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _obj_par1 = None: ratio of width to length (length is the </span>
+<span class="sd">        longest dimension). Leaving value as None will give 1.0 (square) as </span>
+<span class="sd">        width to length ratio unless _obj_par2 = True is selected to </span>
+<span class="sd">        randomize the width to length ratio.</span>
+<span class="sd">    :param _obj_par2 = None: value set to True will randomize the width </span>
+<span class="sd">        to length ratio.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c1">#Use _obj_par1 (width to length ratio) or create random ratio </span>
+    <span class="c1"># if _obj_par2 = True</span>
+    <span class="n">default_side_ratio</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># 1/1 Square</span>
+    <span class="n">width</span><span class="p">,</span> <span class="n">length</span> <span class="o">=</span> <span class="n">obj_opt_par</span><span class="p">(</span><span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+                                <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                                <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                                <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                                <span class="n">_default_axis_ratio</span> <span class="o">=</span> <span class="n">default_side_ratio</span><span class="p">,</span>
+                                <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span>
+                                <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span>
+    
+    <span class="c1">#Create rectangle and get vertices</span>
+    <span class="n">_rows</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">cy</span><span class="o">-</span><span class="p">(</span><span class="n">width</span><span class="p">),</span> <span class="n">cy</span><span class="o">-</span><span class="p">(</span><span class="n">width</span><span class="p">),</span> 
+                      <span class="n">cy</span><span class="o">+</span><span class="p">(</span><span class="n">width</span><span class="p">),</span> <span class="n">cy</span><span class="o">+</span><span class="p">(</span><span class="n">width</span><span class="p">)])</span>
+    <span class="n">_columns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">cx</span><span class="o">-</span><span class="p">(</span><span class="n">length</span><span class="p">),</span> <span class="n">cx</span><span class="o">+</span><span class="p">(</span><span class="n">length</span><span class="p">),</span> 
+                         <span class="n">cx</span><span class="o">+</span><span class="p">(</span><span class="n">length</span><span class="p">),</span> <span class="n">cx</span><span class="o">-</span><span class="p">(</span><span class="n">length</span><span class="p">)])</span>
+
+    <span class="c1">##Rotate the coordinates of vertices of the rectangle</span>
+    <span class="c1"># Rotate a point counterclockwise by a given angle (degrees) around center</span>
+    <span class="n">rotated_rows</span><span class="p">,</span> <span class="n">rotated_columns</span> <span class="o">=</span> <span class="n">rot_obj_vert</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_rows</span><span class="p">,</span> <span class="n">_columns</span><span class="p">,</span>
+                                                 <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span>
+                                                 <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+
+    <span class="c1">#Create rectangle (will use poloygon function so that we can create the rotated object)</span>
+    <span class="k">return</span> <span class="n">polygon</span><span class="p">(</span><span class="n">rotated_rows</span><span class="p">,</span> <span class="n">rotated_columns</span><span class="p">)</span> </div>
+
+
+
+<span class="c1"># ********************** Create ellipse    </span>
+<div class="viewcode-block" id="get_elp">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_elp">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_elp</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Ellipses</span>
+
+<span class="sd">    :param cx = x: coordinate of ellipse center.</span>
+<span class="sd">    :param cy = y: coordinate of ellipse center.</span>
+<span class="sd">    :param _obj_size_min = 10: minimum allowed size of ellipse [pixels]</span>
+<span class="sd">    :param _obj_size_max = 10: maximum allowed size of ellipse [pixels]</span>
+<span class="sd">    :param _size_dist = 1: distribution of sizes. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _ang_min = 0: minimum rotation angle of ellipse [degrees].</span>
+<span class="sd">    :param _ang_max = 0: maximum rotation angle of ellipse [degrees].</span>
+<span class="sd">    :param _ang_dist = 1: distribution of rotation angle. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _obj_par1 = None: ratio of minor to major semi-axes. Leaving </span>
+<span class="sd">        value as None will give 1.0 (circle) as minor to major semi-axes </span>
+<span class="sd">        ratio unless _obj_par2 = True is selected to randomize the ratio.</span>
+<span class="sd">    :param _obj_par2 = None: value set to True will randomize the minor </span>
+<span class="sd">        to major semi-axes ratio.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c1">#Use _obj_par1 (minor to major semi-axes ratio) or create </span>
+    <span class="c1">#  random ratio if _obj_par2 = True</span>
+    <span class="n">default_axis_ratio</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="c1">#circle</span>
+    <span class="n">r_radius</span><span class="p">,</span> <span class="n">c_radius</span> <span class="o">=</span> <span class="n">obj_opt_par</span><span class="p">(</span><span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
+                                     <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                                     <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                                     <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                                     <span class="n">_default_axis_ratio</span> <span class="o">=</span> <span class="n">default_axis_ratio</span><span class="p">,</span>
+                                     <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span>
+                                     <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span> <span class="c1">#minor axis, major axis</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">_ang_max</span> <span class="o">&gt;=</span> <span class="n">_ang_min</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Maximum angle of rotation is less than than minimum angle of rotation&quot;</span><span class="p">)</span>
+
+    <span class="c1">#Select random rotation angle for ellipse</span>
+    <span class="n">_obj_ang</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> <span class="n">_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+
+    <span class="c1">#Create ellipse</span>
+    <span class="k">return</span> <span class="n">ellipse</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">r_radius</span><span class="p">,</span> <span class="n">c_radius</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="o">-</span><span class="n">_obj_ang</span><span class="p">))</span></div>
+
+
+
+<span class="c1"># ********************** Create triangle</span>
+<div class="viewcode-block" id="get_tri">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_tri">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_tri</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Triangles</span>
+
+<span class="sd">    :param cx: x coordinate of triangle center.</span>
+<span class="sd">    :param cy: y coordinate of triangle center.</span>
+<span class="sd">    :param _obj_size_min = 10: minimum allowed size of triangle [pixels]</span>
+<span class="sd">    :param _obj_size_max = 10: maximum allowed size of triangle [pixels]</span>
+<span class="sd">    :param _size_dist = 1: distribution of sizes. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _ang_min = 0: minimum rotation angle of triangle [degrees].</span>
+<span class="sd">    :param _ang_max = 0: maximum rotation angle of triangle [degrees].</span>
+<span class="sd">    :param _ang_dist = 1: distribution of rotation angle. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _obj_par1 = None: ratio of height (y, or &quot;opposite&quot;) to width </span>
+<span class="sd">        (x, or adjunct). Leaving value as None will give 1.0 (1/1) as </span>
+<span class="sd">        height to width ratio unless _obj_par2 = True is selected </span>
+<span class="sd">        to randomize the height to width ratio (default is an </span>
+<span class="sd">        equilateral triangle).</span>
+<span class="sd">    :param _obj_par2 = None: value set to True will randomize the height </span>
+<span class="sd">        to width ratio.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c1">#Use _obj_par1 (height (y, or &quot;opposite&quot;) to width (x, or adjunct) </span>
+    <span class="c1">#  ratio) or create random ratio if _obj_par2 = True</span>
+    <span class="n">default_side_ratio</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="c1">#1/1 equilateral triangle</span>
+    <span class="n">height</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="n">obj_opt_par</span><span class="p">(</span><span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
+                                <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                                <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                                <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                                <span class="n">_default_axis_ratio</span> <span class="o">=</span> <span class="n">default_side_ratio</span><span class="p">,</span>
+                                <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span>
+                                <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span>
+
+    <span class="c1">#Create triangle and get vertices</span>
+    <span class="n">_rows</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">cy</span><span class="o">-</span><span class="p">(</span><span class="n">height</span><span class="p">),</span> <span class="n">cy</span><span class="o">+</span><span class="p">(</span><span class="n">height</span><span class="p">),</span> <span class="n">cy</span><span class="o">+</span><span class="p">(</span><span class="n">height</span><span class="p">)])</span>
+    <span class="n">_columns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">cx</span><span class="o">-</span><span class="p">(</span><span class="n">width</span><span class="p">),</span> <span class="n">cx</span><span class="o">+</span><span class="p">(</span><span class="n">width</span><span class="p">),</span> <span class="n">cx</span><span class="o">-</span><span class="p">(</span><span class="n">width</span><span class="p">)])</span>
+
+    <span class="c1">##Rotate the coordinates of vertices of the triangle</span>
+    <span class="c1"># Rotate a point counterclockwise by a given angle (degrees) around center</span>
+    <span class="n">rotated_rows</span><span class="p">,</span> <span class="n">rotated_columns</span> <span class="o">=</span> <span class="n">rot_obj_vert</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_rows</span><span class="p">,</span> <span class="n">_columns</span><span class="p">,</span>
+                                                 <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span>
+                                                 <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span>
+                                                 <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+
+    <span class="c1">#Create triangle (will use poloygon function so that we can create the rotated the object)</span>
+    <span class="k">return</span> <span class="n">polygon</span><span class="p">(</span><span class="n">rotated_rows</span><span class="p">,</span> <span class="n">rotated_columns</span><span class="p">)</span>    </div>
+
+
+
+<span class="c1"># ********************** Create polygon</span>
+<div class="viewcode-block" id="get_pol">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_pol">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_pol</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Regular Polygon</span>
+
+<span class="sd">    :param cx: x coordinate of polygon center.</span>
+<span class="sd">    :param cy: y coordinate of polygon center.</span>
+<span class="sd">    :param _obj_size_min = 10: minimum allowed size of polygon [pixels].</span>
+<span class="sd">    :param _obj_size_max = 10: maximum allowed size of polygon [pixels].</span>
+<span class="sd">    :param _size_dist = 1: distribution of sizes. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _ang_min = 0: minimum rotation angle of ploygon [degrees].</span>
+<span class="sd">    :param _ang_max = 0: maximum rotation angle of polygon [degrees].</span>
+<span class="sd">    :param _ang_dist = 1: distribution of rotation angle. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _obj_par1 = None: number of polygon vertices.</span>
+<span class="sd">        Leaving value as None will give a hexagon (6 sides) unless </span>
+<span class="sd">        _obj_par2 = True is selected to randomize the numer of polygon </span>
+<span class="sd">        vertices.</span>
+<span class="sd">    :param _obj_par2 = None: Value set to True will randomize the numer </span>
+<span class="sd">        of polygon vertices. Max vertices = 12.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c1">#Use _obj_par1 (number of vertices) to get radius and num_polygon_vertices</span>
+    <span class="c1">#  or create random number of vertices if _obj_par2 = True</span>
+    <span class="c1">#  Function &quot;obj_opt_par&quot; sets the default number of regular polygon</span>
+    <span class="c1">#  vertices to &quot;num_polygon_vertices = 6&quot; (hexagon).</span>
+    <span class="n">radius</span><span class="p">,</span> <span class="n">num_polygon_vertices</span> <span class="o">=</span> <span class="n">obj_opt_par</span><span class="p">(</span><span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span>
+                                               <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                                               <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                                               <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                                               <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span>
+                                               <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">)</span>
+
+    <span class="c1">#Create regular polygon and get vertices</span>
+    <span class="c1"># rr = radius, ii = vertex, nn = total vertices, aa = angle</span>
+    <span class="c1"># vx = cx + rr * cos(2 * pi * ii / nn + aa)</span>
+    <span class="c1"># vy = cy + rr * sin(2 * pi * ii / nn + aa)</span>
+    <span class="n">_columns</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#x values</span>
+    <span class="n">_rows</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#y values</span>
+    <span class="n">aa</span> <span class="o">=</span> <span class="mi">360</span><span class="o">/</span><span class="n">num_polygon_vertices</span>
+    <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_polygon_vertices</span><span class="p">):</span>
+        <span class="n">_columns</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">cx</span> <span class="o">+</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">/</span> <span class="n">num_polygon_vertices</span> <span class="o">+</span> <span class="n">aa</span><span class="p">)))</span>
+        <span class="n">_rows</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">cy</span> <span class="o">+</span> <span class="n">radius</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">ii</span> <span class="o">/</span> <span class="n">num_polygon_vertices</span> <span class="o">+</span> <span class="n">aa</span><span class="p">)))</span>
+
+    <span class="c1">##Rotate the coordinates of vertices of the regular polygon</span>
+    <span class="c1"># Rotate a point counterclockwise by a given angle (degrees) around center</span>
+    <span class="n">rotated_rows</span><span class="p">,</span> <span class="n">rotated_columns</span> <span class="o">=</span> <span class="n">rot_obj_vert</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> 
+                                                 <span class="n">_rows</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">_rows</span><span class="p">),</span> 
+                                                 <span class="n">_columns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">_columns</span><span class="p">),</span> 
+                                                 <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> 
+                                                 <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> 
+                                                 <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+
+    <span class="c1">#Create polygon</span>
+    <span class="k">return</span> <span class="n">polygon</span><span class="p">(</span><span class="n">rotated_rows</span><span class="p">,</span> <span class="n">rotated_columns</span><span class="p">)</span>  </div>
+
+
+
+<span class="c1"># ********************** Create random shape</span>
+<div class="viewcode-block" id="get_rnd">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_rnd">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_rnd</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Random Shapes</span>
+
+<span class="sd">    :param cx: x coordinate of shape center.</span>
+<span class="sd">    :param cy: y coordinate of shape center.</span>
+<span class="sd">    :param _obj_size_min = 10: minimum allowed size of shape [pixels].</span>
+<span class="sd">    :param _obj_size_max = 10: maximum allowed size of shape [pixels].</span>
+<span class="sd">    :param _size_dist = 1: distribution of sizes. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _ang_min = 0: minimum rotation angle of shape [degrees].</span>
+<span class="sd">    :param _ang_max = 0: maximum rotation angle of shape [degrees].</span>
+<span class="sd">    :param _ang_dist = 1: distribution of rotation angle. Choices are: </span>
+<span class="sd">        1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _obj_par1 = None: Which shapes to randomly generate.</span>
+<span class="sd">        Choices are [1=&#39;rectangle&#39;,2=&#39;ellipse&#39;,3=&#39;triangle&#39;,4=&#39;polygon&#39;].</span>
+<span class="sd">        Leaving value as None will give all shape options as: [1,2,3,4]</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c1">#Use _obj_par1 to get random shape from list of shapes</span>
+    <span class="n">random_shape</span> <span class="o">=</span> <span class="n">obj_opt_par</span><span class="p">(</span> <span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span> <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">)</span>
+
+    <span class="c1">#Generate shape</span>
+    <span class="k">if</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span> <span class="c1">#rectangle</span>
+        <span class="k">return</span> <span class="n">get_rec</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span>
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span>
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span>
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span> <span class="c1">#ellipse</span>
+        <span class="k">return</span> <span class="n">get_elp</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span>
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span>
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span>
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span> <span class="c1">#triangle</span>
+        <span class="k">return</span> <span class="n">get_tri</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span>
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span>
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span>
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span> <span class="c1">#polygon</span>
+        <span class="k">return</span> <span class="n">get_pol</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span>
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span>
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span>
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c1">#ellipse</span>
+        <span class="k">return</span> <span class="n">get_elp</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span>
+                       <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+                       <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+                       <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                       <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span>
+                       <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span>
+                       <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span></div>
+
+
+
+<span class="c1"># ********************** Use optional object parameters to get optional shape parameters</span>
+<div class="viewcode-block" id="obj_opt_par">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.obj_opt_par">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">obj_opt_par</span><span class="p">(</span><span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+                <span class="n">_default_axis_ratio</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span> <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Object Optional Parameters</span>
+
+<span class="sd">        :param _obj_type = 1: shape of objects. Choices are: </span>
+<span class="sd">            1=rectangle, 2=ellipse, 3=triangle, 4=polygon, 5=random_shapes</span>
+<span class="sd">        :param _obj_size_min = 10: minimum allowed size of rectangle [pixels]</span>
+<span class="sd">        :param _obj_size_max = 10: maximum allowed size of rectangle [pixels]</span>
+<span class="sd">        :param _size_dist = 1: distribution of sizes. Choices are: </span>
+<span class="sd">            1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">        :param _obj_par1 = None: </span>
+<span class="sd">            rectangle: ratio of width to length (length is the </span>
+<span class="sd">                longest dimension). </span>
+<span class="sd">                Leaving value as None will give 1.0 (square) as width to length </span>
+<span class="sd">                ratio unless _obj_par2 = True is selected to randomize the </span>
+<span class="sd">                width to length ratio.</span>
+<span class="sd">            ellipse: ratio of minor to major semi-axes. </span>
+<span class="sd">                Leaving value as None will give 1.0 (circle) as minor to major </span>
+<span class="sd">                semi-axes ratio unless _obj_par2 = True is selected to </span>
+<span class="sd">                randomize the minor to major semi-axes ratio.</span>
+<span class="sd">            triangle: ratio of height (y, or &quot;opposite&quot;) to width </span>
+<span class="sd">                (x, or adjunct). Leaving value as None will give 1.0 (1/1) as </span>
+<span class="sd">                height to width ratio unless _obj_par2 = True is selected </span>
+<span class="sd">                to randomize the height to width ratio (default is an </span>
+<span class="sd">                equilateral triangle).</span>
+<span class="sd">            regular polygon: number of sides for polygon.</span>
+<span class="sd">                Leaving value as None will give a hexagon (6 sides)</span>
+<span class="sd">                unless _obj_par2 = True is selected to randomize the numer of </span>
+<span class="sd">                polygon vertices.</span>
+<span class="sd">            random shapes: Which shapes to randomly generate.</span>
+<span class="sd">                Choices are [1=&#39;rectangle&#39;,2=&#39;ellipse&#39;,3=&#39;triangle&#39;,4=&#39;polygon&#39;].</span>
+<span class="sd">                Leaving value as None will give all shape options as:</span>
+<span class="sd">                    [1,2,3,4]</span>
+<span class="sd">        :param _obj_par2 = None:</span>
+<span class="sd">            rectangle: value set to True will randomize the width </span>
+<span class="sd">                to length ratio.</span>
+<span class="sd">            ellipse: Value set to True will randomize the minor to major </span>
+<span class="sd">                semi-axes ratio.</span>
+<span class="sd">            triangle: None: value set to True will randomize the height </span>
+<span class="sd">                to width ratio.</span>
+<span class="sd">            regular polygon: Value set to True will randomize the numer of polygon </span>
+<span class="sd">                vertices. Max vertices = 12.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c1">#Default number of regular polygon vertices</span>
+    <span class="n">num_polygon_vertices</span> <span class="o">=</span> <span class="mi">6</span> <span class="c1">#default: hexagon (all 6 sides)</span>
+    <span class="n">min_number_sides</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">max_number_sides</span> <span class="o">=</span> <span class="mi">12</span>
+
+    <span class="c1">#RECTANGLE, ELLIPSE, or TRIANGLE</span>
+    <span class="c1">#  Use _obj_par1 to get ratio, or create </span>
+    <span class="c1">#  random ratio if _obj_par2 = True</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">2</span> <span class="ow">or</span> 
+        <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">3</span><span class="p">):</span> <span class="c1">#rectangle, ellipse, or triangle</span>
+        <span class="k">if</span> <span class="p">((</span><span class="n">_obj_par1</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">_obj_par2</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span> <span class="ow">or</span> 
+            <span class="p">(</span><span class="n">_obj_par1</span> <span class="o">==</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">_obj_par2</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)):</span>
+            <span class="c1">#randomize width to length ratio</span>
+            <span class="n">larger</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                              <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                              <span class="n">_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">)</span>
+            <span class="n">smaller</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                               <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                               <span class="n">_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">)</span>             
+        <span class="k">elif</span> <span class="p">((</span><span class="n">_obj_par1</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">_obj_par2</span> <span class="o">==</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> 
+              <span class="p">(</span><span class="n">_obj_par1</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">_obj_par2</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> 
+              <span class="p">(</span><span class="n">_obj_par1</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">_obj_par2</span> <span class="o">==</span> <span class="kc">False</span><span class="p">)):</span>
+            <span class="c1">#use provided smaller to larger ratio</span>
+            <span class="c1">#  get random int between min and max for larger</span>
+            <span class="c1">#  use ratio to get associated int smaller</span>
+            <span class="k">if</span> <span class="n">_obj_size_min</span> <span class="o">==</span> <span class="n">_obj_size_max</span><span class="p">:</span>
+                <span class="n">larger</span> <span class="o">=</span> <span class="n">_obj_size_max</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">larger</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                                  <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                                  <span class="n">_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">)</span>
+            <span class="n">smaller</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">larger</span><span class="o">*</span><span class="n">_obj_par1</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span> 
+            <span class="c1">#define ratio as default</span>
+            <span class="c1">#  get random int between min and max for length</span>
+            <span class="c1">#  use default ratio to get assoceated smaller</span>
+            <span class="k">if</span> <span class="n">_obj_size_min</span> <span class="o">==</span> <span class="n">_obj_size_max</span><span class="p">:</span>
+                <span class="n">larger</span> <span class="o">=</span> <span class="n">_obj_size_max</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">larger</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                                  <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                                  <span class="n">_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">)</span>
+            <span class="n">smaller</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">larger</span><span class="o">*</span><span class="n">_default_axis_ratio</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">smaller</span><span class="p">,</span> <span class="n">larger</span>
+
+    <span class="c1">#POLYGON</span>
+    <span class="c1">#  Use _obj_par1 to get number of vertices, or create </span>
+    <span class="c1">#  random number of vertices if _obj_par2 = True</span>
+    <span class="k">if</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span> <span class="c1">#polygon</span>
+        <span class="c1">#Check if _obj_par2 == True</span>
+        <span class="k">if</span> <span class="n">_obj_par2</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">_obj_size_min</span> <span class="o">==</span> <span class="n">_obj_size_max</span><span class="p">:</span>
+                <span class="n">radius</span> <span class="o">=</span> <span class="n">_obj_size_min</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">radius</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                                  <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                                  <span class="n">_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">)</span>
+            <span class="c1"># use random number of polygon vertices.</span>
+            <span class="n">num_polygon_vertices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">min_number_sides</span><span class="p">,</span> 
+                                                     <span class="n">max_number_sides</span><span class="p">)</span>
+        <span class="c1">#else, check if _obj_par1 == an intiger</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_obj_par1</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">_obj_size_min</span> <span class="o">==</span> <span class="n">_obj_size_max</span><span class="p">:</span>
+                <span class="n">radius</span> <span class="o">=</span> <span class="n">_obj_size_min</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">radius</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                                  <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                                  <span class="n">_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">)</span>
+            <span class="c1"># use user provided number of polygon vertices.</span>
+            <span class="n">num_polygon_vertices</span> <span class="o">=</span> <span class="n">_obj_par1</span>
+        <span class="c1">#else, set sides to default</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">_obj_size_min</span> <span class="o">==</span> <span class="n">_obj_size_max</span><span class="p">:</span>
+                <span class="n">radius</span> <span class="o">=</span> <span class="n">_obj_size_min</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">radius</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_obj_size_min</span><span class="p">,</span> 
+                                  <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_obj_size_max</span><span class="p">,</span> 
+                                  <span class="n">_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">)</span>
+            <span class="c1"># use hexagon (all 6 sides same size)</span>
+            <span class="n">num_polygon_vertices</span> <span class="o">=</span> <span class="n">num_polygon_vertices</span>
+        <span class="k">return</span> <span class="n">radius</span><span class="p">,</span> <span class="n">num_polygon_vertices</span>
+
+    <span class="c1">#RANDOM</span>
+    <span class="c1">#  Select random shape from list of _obj_par1 shapes or default </span>
+    <span class="c1">#  (all shapes).</span>
+    <span class="c1">#  1  = rectangle, 2 = ellipse, 3 = triangle, 4 = polygon </span>
+    <span class="k">if</span> <span class="n">_obj_type</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span> <span class="c1">#random shapes</span>
+        <span class="c1">#Turn _obj_par1 into a list if user failed to enter it as a list</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_obj_par1</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span> 
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_obj_par1</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+                <span class="n">split_string</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
+                <span class="n">_obj_par1</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">split_string</span><span class="p">]</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_obj_par1</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">):</span>
+                <span class="n">_obj_par1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">_obj_par1</span><span class="p">)</span>                
+
+        <span class="c1">#Create list of possible shapes (in case user accidentally added </span>
+        <span class="c1">#    non-viable options to their list). If &quot;shape&quot; is in _obj_par1, </span>
+        <span class="c1">#    append &quot;shapes&quot; with shape number</span>
+        <span class="n">shape_options</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">_obj_par1</span> <span class="o">!=</span> <span class="kc">None</span> <span class="ow">and</span> <span class="p">((</span><span class="mi">1</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">)</span> <span class="ow">or</span>
+                                   <span class="p">(</span><span class="mi">2</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">)</span> <span class="ow">or</span>
+                                   <span class="p">(</span><span class="mi">3</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">)</span> <span class="ow">or</span>
+                                   <span class="p">(</span><span class="mi">4</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">))):</span>
+            <span class="k">if</span> <span class="mi">1</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">:</span>
+                <span class="n">shape_options</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1">#rectangle</span>
+            <span class="k">if</span> <span class="mi">2</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">:</span>
+                <span class="n">shape_options</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">#ellipse</span>
+            <span class="k">if</span> <span class="mi">3</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">:</span>
+                <span class="n">shape_options</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="c1">#triangle</span>
+            <span class="k">if</span> <span class="mi">4</span> <span class="ow">in</span> <span class="n">_obj_par1</span><span class="p">:</span>
+                <span class="n">shape_options</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span> <span class="c1">#polygon</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1">#[1=&#39;rectangle&#39;,2=&#39;ellipse&#39;,3=&#39;triangle&#39;,4=&#39;polygon&#39;]</span>
+            <span class="n">shape_options</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+ 
+        <span class="c1">#Get random shape from list</span>
+        <span class="c1">#[1=&#39;rectangle&#39;,2=&#39;ellipse&#39;,3=&#39;triangle&#39;,4=&#39;polygon&#39;]</span>
+        <span class="n">random_shape</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">shape_options</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">return</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1">#rectangle</span>
+        <span class="k">elif</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="k">return</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">#ellipse</span>
+        <span class="k">elif</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="k">return</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="c1">#triangle</span>
+        <span class="k">elif</span> <span class="n">random_shape</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="k">return</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span> <span class="c1">#polygon</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">#ellipse</span></div>
+
+
+
+<span class="c1"># ********************** Rotate vertices of an object counterclockwise by a given angle</span>
+<div class="viewcode-block" id="rot_obj_vert">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.rot_obj_vert">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">rot_obj_vert</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">_rows</span><span class="p">,</span> <span class="n">_columns</span><span class="p">,</span> <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">):</span> <span class="c1">#RAC25032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Rotate vertices counterclockwise by a given angle (degrees) around center.</span>
+<span class="sd">    Used for shapes: rectangle, square, polygon</span>
+
+<span class="sd">    Rotation Parameters</span>
+<span class="sd">        :param cx = x: coordinate of object center.</span>
+<span class="sd">        :param cy = y: coordinate of object center.</span>
+<span class="sd">        :param _rows: x coordinates of object vertices (array).</span>
+<span class="sd">        :param _columns: y coordinates of object vertices (array).</span>
+<span class="sd">        :param _ang_min = 0: minimum rotation angle of shape [degrees].</span>
+<span class="sd">        :param _ang_max = 0: maximum rotation angle of shape [degrees].</span>
+<span class="sd">        :param _ang_dist = 1: distribution of rotation angle. Choices are: </span>
+<span class="sd">            1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">_rows</span><span class="o">.</span><span class="n">size</span> <span class="o">==</span> <span class="n">_columns</span><span class="o">.</span><span class="n">size</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Can not rotate object. Number of row and column vertex coordinates are not equal&quot;</span><span class="p">)</span>
+        
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">_ang_max</span> <span class="o">&gt;=</span> <span class="n">_ang_min</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Maximum angle of rotation is larger than minimum angle of rotation&quot;</span><span class="p">)</span>
+
+    <span class="c1">#Rotate vertex coordinates</span>
+    <span class="n">rotated_columns</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#x values</span>
+    <span class="n">rotated_rows</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#y values</span>
+    <span class="k">if</span> <span class="n">_ang_max</span> <span class="o">==</span> <span class="n">_ang_min</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_rows</span><span class="o">.</span><span class="n">size</span><span class="p">):</span>
+            <span class="n">_angle</span> <span class="o">=</span> <span class="n">_ang_max</span>
+            <span class="n">rotated_columns</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">cx</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                       <span class="p">(</span><span class="n">_columns</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cx</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                       <span class="p">(</span><span class="n">_rows</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cy</span><span class="p">)))</span>
+            <span class="n">rotated_rows</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">cy</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                    <span class="p">(</span><span class="n">_columns</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cx</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                    <span class="p">(</span><span class="n">_rows</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cy</span><span class="p">)))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">_angle</span> <span class="o">=</span> <span class="n">get_dist</span><span class="p">(</span><span class="n">_min_value</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> <span class="n">_max_value</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> <span class="n">_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_rows</span><span class="o">.</span><span class="n">size</span><span class="p">):</span> <span class="c1">#Uniform Distribution Parameters</span>
+            <span class="n">rotated_columns</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">cx</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                       <span class="p">(</span><span class="n">_columns</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cx</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                       <span class="p">(</span><span class="n">_rows</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cy</span><span class="p">)))</span>
+            <span class="n">rotated_rows</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">cy</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                    <span class="p">(</span><span class="n">_columns</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cx</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="n">_angle</span><span class="p">))</span> <span class="o">*</span> 
+                                    <span class="p">(</span><span class="n">_rows</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">-</span> <span class="n">cy</span><span class="p">)))</span>
+
+    <span class="k">return</span> <span class="n">rotated_rows</span><span class="p">,</span> <span class="n">rotated_columns</span></div>
+
+
+
+<span class="c1"># ********************** Get value using a given distribution</span>
+<div class="viewcode-block" id="get_dist">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_dist">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_dist</span><span class="p">(</span><span class="n">_min_value</span><span class="p">,</span> <span class="n">_max_value</span><span class="p">,</span> <span class="n">_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">):</span> <span class="c1">#RAC30032020</span>
+<span class="w">    </span><span class="sd">&#39;&#39;&#39;Get value using a given distribution.</span>
+
+<span class="sd">    Distribution Parameters</span>
+<span class="sd">        :param _min_value = 0: minimum value.</span>
+<span class="sd">        :param _max_value = 0: maximum value.</span>
+<span class="sd">        :param _dist = 1: distribution of value selection. Choices are: </span>
+<span class="sd">            1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c1"># load package srwl_uti_dist</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">),</span> <span class="s1">&#39;..&#39;</span><span class="p">))</span>
+        <span class="kn">from</span><span class="w"> </span><span class="nn">uti_math</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_dist_uni</span><span class="p">,</span> <span class="n">get_dist_norm</span><span class="p">,</span> <span class="n">get_dist_schultz</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;uti_math functions: get_uni_rand, get_norm_dist, get_schulz_dist failed to load.&#39;</span><span class="p">)</span>
+
+    <span class="c1"># chose distribution method</span>
+    <span class="k">if</span> <span class="n">_dist</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span> <span class="c1">#Normal (Gaussian) Distribution Parameters</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">get_dist_norm</span><span class="p">(</span><span class="n">_min_value</span><span class="p">,</span> <span class="n">_max_value</span><span class="p">,</span> <span class="n">_scale</span><span class="o">=</span><span class="p">((</span><span class="n">_max_value</span><span class="o">-</span><span class="n">_min_value</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span><span class="p">))</span>
+    <span class="k">elif</span> <span class="n">_dist</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span> <span class="c1">#Flory–Schulz Distribution Parameters</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">get_dist_schultz</span><span class="p">(</span><span class="n">_min_value</span><span class="p">,</span> <span class="n">_max_value</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c1">#Uniform Distribution Parameters</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">get_dist_uni</span><span class="p">(</span><span class="n">_min_value</span><span class="p">,</span> <span class="n">_max_value</span><span class="p">)</span>  
+
+    <span class="k">return</span> <span class="n">value</span></div>
+
+
+
+
+
+
+
+
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

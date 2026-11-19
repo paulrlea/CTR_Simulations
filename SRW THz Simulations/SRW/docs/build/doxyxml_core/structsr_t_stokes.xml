@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_stokes" kind="struct" language="C++" prot="public">
+    <compoundname>srTStokes</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_stokes_1a19ccb9948617ccfc7e105ec3866e4772" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTStokes::s0</definition>
+        <argsstring></argsstring>
+        <name>s0</name>
+        <qualifiedname>srTStokes::s0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="139" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_stokes_1ad98ac4795d248d68e407945bb5ba56c4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTStokes::s1</definition>
+        <argsstring></argsstring>
+        <name>s1</name>
+        <qualifiedname>srTStokes::s1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="139" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_stokes_1a90d104941fe81e998f44ab2287a42c8e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTStokes::s2</definition>
+        <argsstring></argsstring>
+        <name>s2</name>
+        <qualifiedname>srTStokes::s2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="139" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_stokes_1afa901fff0fc6ace0a6f6d66e1250cbff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTStokes::s3</definition>
+        <argsstring></argsstring>
+        <name>s3</name>
+        <qualifiedname>srTStokes::s3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="139" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_stokes_1a5b9d1cb2b6302475fdcc279fa80398cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTStokes::srTStokes</definition>
+        <argsstring>(double In_s0=0., double In_s1=0., double In_s2=0., double In_s3=0.)</argsstring>
+        <name>srTStokes</name>
+        <qualifiedname>srTStokes::srTStokes</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>In_s0</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_s1</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_s2</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_s3</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="140" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_stokes_1ae995b6c9515b1d43b790cbb28f85349b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTStokes::ZeroAll</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroAll</name>
+        <qualifiedname>srTStokes::ZeroAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="145" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_stokes_1aa6a78ce07bc0228c33c153aa9a177d8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+        <definition>srTStokes &amp; srTStokes::operator+=</definition>
+        <argsstring>(const srTStokes &amp;AnotherStokes)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>srTStokes::operator+=</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>AnotherStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="150" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_stokes_1abe3628761dd967bddc3c453e09f1561a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+        <definition>srTStokes &amp; srTStokes::operator*=</definition>
+        <argsstring>(const double D)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>srTStokes::operator*=</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="155" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="155" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structsr_t_stokes_1a737103684552752fdb30069b4f5d559f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref></type>
+        <definition>srTStokes operator+</definition>
+        <argsstring>(const srTStokes &amp;E1, const srTStokes &amp;E2)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>srTStokes::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>E1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>E2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="161" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_stokes_1a5b27f29db2aa50d704f6657ff41e685c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref></type>
+        <definition>srTStokes operator-</definition>
+        <argsstring>(const srTStokes &amp;E1, const srTStokes &amp;E2)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>srTStokes::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>E1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>E2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="162" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_stokes_1a34fe30140cf5dcec0ed5f7f9aff3bf73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref></type>
+        <definition>srTStokes operator*</definition>
+        <argsstring>(double a, const srTStokes &amp;E)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>srTStokes::operator*</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>E</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="163" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_stokes_1a9347e9a0471274a4cc222d1e4f0c9389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref></type>
+        <definition>srTStokes operator*</definition>
+        <argsstring>(const srTStokes &amp;E, double a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>srTStokes::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="164" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_stokes_1ae1fbf22337296407160ca738462ec46c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int operator&lt;</definition>
+        <argsstring>(const srTStokes &amp;P1, const srTStokes &amp;P2)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>srTStokes::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>P1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>P2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="166" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_stokes_1a593932c8c637e7efc512fb447f269c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int operator==</definition>
+        <argsstring>(const srTStokes &amp;P1, const srTStokes &amp;P2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>srTStokes::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>P1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>P2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="167" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="191" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="138" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="138" bodyend="168"/>
+    <listofallmembers>
+      <member refid="structsr_t_stokes_1a34fe30140cf5dcec0ed5f7f9aff3bf73" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator*</name></member>
+      <member refid="structsr_t_stokes_1a9347e9a0471274a4cc222d1e4f0c9389" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator*</name></member>
+      <member refid="structsr_t_stokes_1abe3628761dd967bddc3c453e09f1561a" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator*=</name></member>
+      <member refid="structsr_t_stokes_1a737103684552752fdb30069b4f5d559f" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator+</name></member>
+      <member refid="structsr_t_stokes_1aa6a78ce07bc0228c33c153aa9a177d8a" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator+=</name></member>
+      <member refid="structsr_t_stokes_1a5b27f29db2aa50d704f6657ff41e685c" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator-</name></member>
+      <member refid="structsr_t_stokes_1ae1fbf22337296407160ca738462ec46c" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator&lt;</name></member>
+      <member refid="structsr_t_stokes_1a593932c8c637e7efc512fb447f269c60" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>operator==</name></member>
+      <member refid="structsr_t_stokes_1a19ccb9948617ccfc7e105ec3866e4772" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>s0</name></member>
+      <member refid="structsr_t_stokes_1ad98ac4795d248d68e407945bb5ba56c4" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>s1</name></member>
+      <member refid="structsr_t_stokes_1a90d104941fe81e998f44ab2287a42c8e" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>s2</name></member>
+      <member refid="structsr_t_stokes_1afa901fff0fc6ace0a6f6d66e1250cbff" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>s3</name></member>
+      <member refid="structsr_t_stokes_1a5b9d1cb2b6302475fdcc279fa80398cf" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>srTStokes</name></member>
+      <member refid="structsr_t_stokes_1ae995b6c9515b1d43b790cbb28f85349b" prot="public" virt="non-virtual"><scope>srTStokes</scope><name>ZeroAll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

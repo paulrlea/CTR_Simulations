@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_energy_azimuth_grid" kind="struct" language="C++" prot="public">
+    <compoundname>srTEnergyAzimuthGrid</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1aa4c954b9d09508463df2dbbbab523a4c" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTEnergyAzimuthGrid::Ne</definition>
+        <argsstring></argsstring>
+        <name>Ne</name>
+        <qualifiedname>srTEnergyAzimuthGrid::Ne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="66" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1aebf372f910aa155be24103997ee3944f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eStart</definition>
+        <argsstring></argsstring>
+        <name>eStart</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="67" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a29521def57c132afd4620ae713c474a2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eFin</definition>
+        <argsstring></argsstring>
+        <name>eFin</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eFin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="67" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a04fe47b34a7b63e9e6b3dfbc028d142c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eMinEff</definition>
+        <argsstring></argsstring>
+        <name>eMinEff</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eMinEff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="68" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1adcf9477a62612dcd979b7cede45fe020" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eMaxEff</definition>
+        <argsstring></argsstring>
+        <name>eMaxEff</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eMaxEff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="68" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1adf6112d62b4dfbd50ed7764c74467a9f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eCritForHarm</definition>
+        <argsstring></argsstring>
+        <name>eCritForHarm</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eCritForHarm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="69" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a4000e1cba2d144107805c7a8583c4bda" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTEnergyAzimuthGrid::NeExtraLeft</definition>
+        <argsstring></argsstring>
+        <name>NeExtraLeft</name>
+        <qualifiedname>srTEnergyAzimuthGrid::NeExtraLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="70" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1ab693cbb78e1771e51c1409426f1f7abd" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTEnergyAzimuthGrid::NeExtraRight</definition>
+        <argsstring></argsstring>
+        <name>NeExtraRight</name>
+        <qualifiedname>srTEnergyAzimuthGrid::NeExtraRight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="70" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a3044f4ef764db9fd6027969d81e3a1b5" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_energy_adjust_fin_grid_par" kindref="compound">srTEnergyAdjustFinGridPar</ref></type>
+        <definition>srTEnergyAdjustFinGridPar srTEnergyAzimuthGrid::EnergyAdjustFinGridPar</definition>
+        <argsstring></argsstring>
+        <name>EnergyAdjustFinGridPar</name>
+        <qualifiedname>srTEnergyAzimuthGrid::EnergyAdjustFinGridPar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="72" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a238072356cd284e73ac1a302c1649d1b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::PhiMin</definition>
+        <argsstring></argsstring>
+        <name>PhiMin</name>
+        <qualifiedname>srTEnergyAzimuthGrid::PhiMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="74" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1aa3fad88011db4c507fe90894a4e81c3c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::PhiMax</definition>
+        <argsstring></argsstring>
+        <name>PhiMax</name>
+        <qualifiedname>srTEnergyAzimuthGrid::PhiMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="74" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a5f40a6a2ba8ed26a77712d34c3fab2e6" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* srTEnergyAzimuthGrid::AmOfAzPoints</definition>
+        <argsstring></argsstring>
+        <name>AmOfAzPoints</name>
+        <qualifiedname>srTEnergyAzimuthGrid::AmOfAzPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="75" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a2bc767dc19e4b4ba940803825073b46d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTEnergyAzimuthGrid::AmsOfPointsOverPhiAreConstant</definition>
+        <argsstring></argsstring>
+        <name>AmsOfPointsOverPhiAreConstant</name>
+        <qualifiedname>srTEnergyAzimuthGrid::AmsOfPointsOverPhiAreConstant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="76" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a083dce33f704d27da9821904f4579993" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eStepToResolve</definition>
+        <argsstring></argsstring>
+        <name>eStepToResolve</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eStepToResolve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="78" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a0b55e9ca57457d84e2e7ac469daf3908" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::PhiLenToResolve</definition>
+        <argsstring></argsstring>
+        <name>PhiLenToResolve</name>
+        <qualifiedname>srTEnergyAzimuthGrid::PhiLenToResolve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="78" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a75da7ed65b908c4e7165ee9419f8a712" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eStepToResolveObsPixels</definition>
+        <argsstring></argsstring>
+        <name>eStepToResolveObsPixels</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eStepToResolveObsPixels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="80" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a028780ce21909c0b94174dcf1eb785bf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAzimuthGrid::eStepToResolveFinNperAndEnSpr</definition>
+        <argsstring></argsstring>
+        <name>eStepToResolveFinNperAndEnSpr</name>
+        <qualifiedname>srTEnergyAzimuthGrid::eStepToResolveFinNperAndEnSpr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="80" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a1991a2f31e8b01538aab610a504304fb" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTEnergyAzimuthGrid::EnsureEnResolvingObsPixels</definition>
+        <argsstring></argsstring>
+        <name>EnsureEnResolvingObsPixels</name>
+        <qualifiedname>srTEnergyAzimuthGrid::EnsureEnResolvingObsPixels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="81" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a0dac0483e573b7f703cc960357dba13a" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier srTEnergyAzimuthGrid::IntOfInfNperData</definition>
+        <argsstring></argsstring>
+        <name>IntOfInfNperData</name>
+        <qualifiedname>srTEnergyAzimuthGrid::IntOfInfNperData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="82" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a5e9e14365f8d6cb89a9d5392fd9b6667" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTEnergyAzimuthGrid::CosLookUpArray</definition>
+        <argsstring></argsstring>
+        <name>CosLookUpArray</name>
+        <qualifiedname>srTEnergyAzimuthGrid::CosLookUpArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="84" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a60032f0152c52466fa8374878f29feb3" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTEnergyAzimuthGrid::SinLookUpArray</definition>
+        <argsstring></argsstring>
+        <name>SinLookUpArray</name>
+        <qualifiedname>srTEnergyAzimuthGrid::SinLookUpArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="84" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_azimuth_grid_1a282c3643d6bbb14a3f15e282691d815e" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_cos_and_sin_comp" kindref="compound">srTCosAndSinComp</ref></type>
+        <definition>srTCosAndSinComp srTEnergyAzimuthGrid::CosAndSinComp</definition>
+        <argsstring></argsstring>
+        <name>CosAndSinComp</name>
+        <qualifiedname>srTEnergyAzimuthGrid::CosAndSinComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="85" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_energy_azimuth_grid_1af47ba62bdd4508851cef13d037e4e6fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEnergyAzimuthGrid::srTEnergyAzimuthGrid</definition>
+        <argsstring>(double &amp;eStartIn, double &amp;eFinIn, long &amp;NeIn)</argsstring>
+        <name>srTEnergyAzimuthGrid</name>
+        <qualifiedname>srTEnergyAzimuthGrid::srTEnergyAzimuthGrid</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>eStartIn</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>eFinIn</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>NeIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="87" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="87" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_energy_azimuth_grid_1a352880f3c76c925b9a4eb73bc8de03d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEnergyAzimuthGrid::srTEnergyAzimuthGrid</definition>
+        <argsstring>()</argsstring>
+        <name>srTEnergyAzimuthGrid</name>
+        <qualifiedname>srTEnergyAzimuthGrid::srTEnergyAzimuthGrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="102" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="102" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_energy_azimuth_grid_1ad80075f6777f564c0807ea07ac663f93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEnergyAzimuthGrid::~srTEnergyAzimuthGrid</definition>
+        <argsstring>()</argsstring>
+        <name>~srTEnergyAzimuthGrid</name>
+        <qualifiedname>srTEnergyAzimuthGrid::~srTEnergyAzimuthGrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="111" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="111" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_energy_azimuth_grid_1a16f3306ed57bd4357cd136f103463c89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTEnergyAzimuthGrid::AllocateAmOfPointsArray</definition>
+        <argsstring>()</argsstring>
+        <name>AllocateAmOfPointsArray</name>
+        <qualifiedname>srTEnergyAzimuthGrid::AllocateAmOfPointsArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="119" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="119" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_energy_azimuth_grid_1a21048cfe42c4a2be5ba31b3fa91b5995" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEnergyAzimuthGrid::MakeAllAzPointsConstant</definition>
+        <argsstring>(int ConstAmOfPoints)</argsstring>
+        <name>MakeAllAzPointsConstant</name>
+        <qualifiedname>srTEnergyAzimuthGrid::MakeAllAzPointsConstant</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>ConstAmOfPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="132" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_energy_azimuth_grid_1a1c299e2ba7a330f88deda97cf37466c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTEnergyAzimuthGrid::SetUpCosAndSinLookUpArrays</definition>
+        <argsstring>()</argsstring>
+        <name>SetUpCosAndSinLookUpArrays</name>
+        <qualifiedname>srTEnergyAzimuthGrid::SetUpCosAndSinLookUpArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="140" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="25" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>srTCosAndSinComp</label>
+        <link refid="classsr_t_cos_and_sin_comp"/>
+      </node>
+      <node id="3">
+        <label>srTEFourier</label>
+        <link refid="structsr_t_e_fourier"/>
+      </node>
+      <node id="2">
+        <label>srTEnergyAdjustFinGridPar</label>
+        <link refid="structsr_t_energy_adjust_fin_grid_par"/>
+      </node>
+      <node id="1">
+        <label>srTEnergyAzimuthGrid</label>
+        <link refid="structsr_t_energy_azimuth_grid"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>EnergyAdjustFinGridPar</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>IntOfInfNperData</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>CosAndSinComp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="65" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="65" bodyend="141"/>
+    <listofallmembers>
+      <member refid="structsr_t_energy_azimuth_grid_1a16f3306ed57bd4357cd136f103463c89" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>AllocateAmOfPointsArray</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a5f40a6a2ba8ed26a77712d34c3fab2e6" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>AmOfAzPoints</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a2bc767dc19e4b4ba940803825073b46d" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>AmsOfPointsOverPhiAreConstant</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a282c3643d6bbb14a3f15e282691d815e" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>CosAndSinComp</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a5e9e14365f8d6cb89a9d5392fd9b6667" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>CosLookUpArray</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1adf6112d62b4dfbd50ed7764c74467a9f" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eCritForHarm</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a29521def57c132afd4620ae713c474a2" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eFin</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1adcf9477a62612dcd979b7cede45fe020" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eMaxEff</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a04fe47b34a7b63e9e6b3dfbc028d142c" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eMinEff</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a3044f4ef764db9fd6027969d81e3a1b5" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>EnergyAdjustFinGridPar</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a1991a2f31e8b01538aab610a504304fb" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>EnsureEnResolvingObsPixels</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1aebf372f910aa155be24103997ee3944f" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eStart</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a083dce33f704d27da9821904f4579993" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eStepToResolve</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a028780ce21909c0b94174dcf1eb785bf" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eStepToResolveFinNperAndEnSpr</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a75da7ed65b908c4e7165ee9419f8a712" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>eStepToResolveObsPixels</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a0dac0483e573b7f703cc960357dba13a" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>IntOfInfNperData</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a21048cfe42c4a2be5ba31b3fa91b5995" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>MakeAllAzPointsConstant</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1aa4c954b9d09508463df2dbbbab523a4c" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>Ne</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a4000e1cba2d144107805c7a8583c4bda" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>NeExtraLeft</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1ab693cbb78e1771e51c1409426f1f7abd" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>NeExtraRight</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a0b55e9ca57457d84e2e7ac469daf3908" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>PhiLenToResolve</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1aa3fad88011db4c507fe90894a4e81c3c" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>PhiMax</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a238072356cd284e73ac1a302c1649d1b" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>PhiMin</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a1c299e2ba7a330f88deda97cf37466c3" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>SetUpCosAndSinLookUpArrays</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a60032f0152c52466fa8374878f29feb3" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>SinLookUpArray</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1af47ba62bdd4508851cef13d037e4e6fe" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>srTEnergyAzimuthGrid</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1a352880f3c76c925b9a4eb73bc8de03d1" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>srTEnergyAzimuthGrid</name></member>
+      <member refid="structsr_t_energy_azimuth_grid_1ad80075f6777f564c0807ea07ac663f93" prot="public" virt="non-virtual"><scope>srTEnergyAzimuthGrid</scope><name>~srTEnergyAzimuthGrid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_trj_arrays_aux" kind="class" language="C++" prot="public">
+    <compoundname>srTTrjArraysAux</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1aef99aa17bf9347389e5e446466c7199c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjArraysAux::SmallDataCont[LEN_SMALL_CONT]</definition>
+        <argsstring>[LEN_SMALL_CONT]</argsstring>
+        <name>SmallDataCont</name>
+        <qualifiedname>srTTrjArraysAux::SmallDataCont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="28" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a7e34fd4120334d9436350dd8bb4ae232" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTTrjArraysAux::BxArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>BxArrP</name>
+        <qualifiedname>srTTrjArraysAux::BxArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="32" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a60176e9aa1dff5a76e40407c56ae98af" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::BtxArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>BtxArrP</name>
+        <qualifiedname>srTTrjArraysAux::BtxArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="32" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a14f4d472f529d923087c7fd0c3a53f58" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::XArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>XArrP</name>
+        <qualifiedname>srTTrjArraysAux::XArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="32" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a8a54f466080abff6152cb5cc97716b6c" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::IntBtxE2ArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>IntBtxE2ArrP</name>
+        <qualifiedname>srTTrjArraysAux::IntBtxE2ArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="32" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1aee27d7c50e62f7f26207a9b3aefa0cd0" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::dBxdsArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>dBxdsArrP</name>
+        <qualifiedname>srTTrjArraysAux::dBxdsArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="32" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1ae1c19df524849d2956adc7d3b5b80c25" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTTrjArraysAux::BzArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>BzArrP</name>
+        <qualifiedname>srTTrjArraysAux::BzArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="33" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a888d73363b980f84acfcde53a197dc7e" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::BtzArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>BtzArrP</name>
+        <qualifiedname>srTTrjArraysAux::BtzArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="33" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a6793f2a156ebc1f938c55374dcb4860f" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::ZArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>ZArrP</name>
+        <qualifiedname>srTTrjArraysAux::ZArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="33" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a8b79ece7c18935d3a9467fa1b62a88e6" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::IntBtzE2ArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>IntBtzE2ArrP</name>
+        <qualifiedname>srTTrjArraysAux::IntBtzE2ArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="33" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a495e05e9ca90737388fbf49cedff11a1" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjArraysAux::dBzdsArrP[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>dBzdsArrP</name>
+        <qualifiedname>srTTrjArraysAux::dBzdsArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="33" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a30ef72c09bcffc1c466feb77a831ca97" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTTrjArraysAux::LevIsActuallyAlloc[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>LevIsActuallyAlloc</name>
+        <qualifiedname>srTTrjArraysAux::LevIsActuallyAlloc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="34" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1a9a414d7f7aa04c4a3f99af70bc569ad0" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTTrjArraysAux::LevelIsFilled[LEN_POINTERS]</definition>
+        <argsstring>[LEN_POINTERS]</argsstring>
+        <name>LevelIsFilled</name>
+        <qualifiedname>srTTrjArraysAux::LevelIsFilled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="34" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_arrays_aux_1ac3ba281de02ab5e50ebec248c260f946" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTTrjArraysAux::AmOfPointsOnZeroLevel</definition>
+        <argsstring></argsstring>
+        <name>AmOfPointsOnZeroLevel</name>
+        <qualifiedname>srTTrjArraysAux::AmOfPointsOnZeroLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="37" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a051e1c8bfd699d3383336c09d92bad3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjArraysAux::srTTrjArraysAux</definition>
+        <argsstring>(int InAmOfPointsOnZeroLevel=5)</argsstring>
+        <name>srTTrjArraysAux</name>
+        <qualifiedname>srTTrjArraysAux::srTTrjArraysAux</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>InAmOfPointsOnZeroLevel</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="39" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1aec9f0499f9ac3d5f43126e8418147cd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjArraysAux::~srTTrjArraysAux</definition>
+        <argsstring>()</argsstring>
+        <name>~srTTrjArraysAux</name>
+        <qualifiedname>srTTrjArraysAux::~srTTrjArraysAux</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="43" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a282c1261402ef0312c1525c1c30fca42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjArraysAux::Initialize</definition>
+        <argsstring>(long long InAmOfPointsOnZeroLevel)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTTrjArraysAux::Initialize</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>InAmOfPointsOnZeroLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="49" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="49" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1adef66deaaf5bb893077e8989ec078eab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjArraysAux::Reset</definition>
+        <argsstring>(long long InAmOfPointsOnZeroLevel)</argsstring>
+        <name>Reset</name>
+        <qualifiedname>srTTrjArraysAux::Reset</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>InAmOfPointsOnZeroLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="59" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1ad1915075eafd09f465d1307c3b2bcd25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjArraysAux::AllocateArraysOnLevels</definition>
+        <argsstring>(int StLevNo, int FiLevNo)</argsstring>
+        <name>AllocateArraysOnLevels</name>
+        <qualifiedname>srTTrjArraysAux::AllocateArraysOnLevels</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>StLevNo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>FiLevNo</declname>
+        </param>
+        <briefdescription>
+<para>File: srtrjaux.cpp Description: Auxiliary structures for Electron Trajectory calculation Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="65" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.cpp" bodystart="18" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a0645c36fd6e4fc1c8bcf9f0e7ae19c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjArraysAux::AllocateArraysOnThisLevelNeglectingOthers</definition>
+        <argsstring>(int LevNo)</argsstring>
+        <name>AllocateArraysOnThisLevelNeglectingOthers</name>
+        <qualifiedname>srTTrjArraysAux::AllocateArraysOnThisLevelNeglectingOthers</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="66" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.cpp" bodystart="65" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a5fcf18477d5f75b699e9f9cffcf7f477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjArraysAux::DeallocateArraysOnLevel</definition>
+        <argsstring>(int LevNo)</argsstring>
+        <name>DeallocateArraysOnLevel</name>
+        <qualifiedname>srTTrjArraysAux::DeallocateArraysOnLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="68" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="68" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a6215ac579b97b4161c7f00d655cf3f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjArraysAux::DeallocateArrays</definition>
+        <argsstring>()</argsstring>
+        <name>DeallocateArrays</name>
+        <qualifiedname>srTTrjArraysAux::DeallocateArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="81" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1af265f20507ec7bfbf4b30a035a267996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjArraysAux::FillLevel</definition>
+        <argsstring>(int LevNo, double sStart, double sEnd, srTGenTrjHndl &amp;TrjHndl)</argsstring>
+        <name>FillLevel</name>
+        <qualifiedname>srTTrjArraysAux::FillLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevNo</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEnd</declname>
+        </param>
+        <param>
+          <type>srTGenTrjHndl &amp;</type>
+          <declname>TrjHndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="86" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="86" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a06517df3794ca0cc0432001ca4508ae8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjArraysAux::FillNextAndDestroyPrevLevel</definition>
+        <argsstring>(int LevNo, double sStart, double sEnd, srTTrjDat *TrjDatPtr)</argsstring>
+        <name>FillNextAndDestroyPrevLevel</name>
+        <qualifiedname>srTTrjArraysAux::FillNextAndDestroyPrevLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevNo</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>TrjDatPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="101" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="101" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a62495d1cfa4f3f8da509af5a6088b8b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long srTTrjArraysAux::AmOfPointsOnLevel</definition>
+        <argsstring>(int LevNo)</argsstring>
+        <name>AmOfPointsOnLevel</name>
+        <qualifiedname>srTTrjArraysAux::AmOfPointsOnLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="117" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="117" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a6cc8cb782b6afcaddfe5cdb2c7f1b29b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long srTTrjArraysAux::TotAmOfPointsIncludingTheLevel</definition>
+        <argsstring>(int LevNo)</argsstring>
+        <name>TotAmOfPointsIncludingTheLevel</name>
+        <qualifiedname>srTTrjArraysAux::TotAmOfPointsIncludingTheLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="123" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_arrays_aux_1a796cee78d44e56c94d577d221d8988e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjArraysAux::SetupPtrs_Btx_X_IntBtxE2_Bx_Btz_Z_IntBtzE2_Bz</definition>
+        <argsstring>(int LevNo, double ***TrjPtrs)</argsstring>
+        <name>SetupPtrs_Btx_X_IntBtxE2_Bx_Btz_Z_IntBtzE2_Bz</name>
+        <qualifiedname>srTTrjArraysAux::SetupPtrs_Btx_X_IntBtxE2_Bx_Btz_Z_IntBtzE2_Bz</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevNo</declname>
+        </param>
+        <param>
+          <type>double ***</type>
+          <declname>TrjPtrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="128" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="128" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" line="26" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h" bodystart="26" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classsr_t_trj_arrays_aux_1ad1915075eafd09f465d1307c3b2bcd25" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>AllocateArraysOnLevels</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a0645c36fd6e4fc1c8bcf9f0e7ae19c08" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>AllocateArraysOnThisLevelNeglectingOthers</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a62495d1cfa4f3f8da509af5a6088b8b3" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>AmOfPointsOnLevel</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1ac3ba281de02ab5e50ebec248c260f946" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>AmOfPointsOnZeroLevel</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a60176e9aa1dff5a76e40407c56ae98af" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>BtxArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a888d73363b980f84acfcde53a197dc7e" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>BtzArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a7e34fd4120334d9436350dd8bb4ae232" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>BxArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1ae1c19df524849d2956adc7d3b5b80c25" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>BzArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1aee27d7c50e62f7f26207a9b3aefa0cd0" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>dBxdsArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a495e05e9ca90737388fbf49cedff11a1" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>dBzdsArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a6215ac579b97b4161c7f00d655cf3f31" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>DeallocateArrays</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a5fcf18477d5f75b699e9f9cffcf7f477" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>DeallocateArraysOnLevel</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1af265f20507ec7bfbf4b30a035a267996" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>FillLevel</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a06517df3794ca0cc0432001ca4508ae8" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>FillNextAndDestroyPrevLevel</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a282c1261402ef0312c1525c1c30fca42" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>Initialize</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a8a54f466080abff6152cb5cc97716b6c" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>IntBtxE2ArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a8b79ece7c18935d3a9467fa1b62a88e6" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>IntBtzE2ArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a9a414d7f7aa04c4a3f99af70bc569ad0" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>LevelIsFilled</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a30ef72c09bcffc1c466feb77a831ca97" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>LevIsActuallyAlloc</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1adef66deaaf5bb893077e8989ec078eab" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>Reset</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a796cee78d44e56c94d577d221d8988e4" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>SetupPtrs_Btx_X_IntBtxE2_Bx_Btz_Z_IntBtzE2_Bz</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1aef99aa17bf9347389e5e446466c7199c" prot="private" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>SmallDataCont</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a051e1c8bfd699d3383336c09d92bad3d" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>srTTrjArraysAux</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a6cc8cb782b6afcaddfe5cdb2c7f1b29b" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>TotAmOfPointsIncludingTheLevel</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a14f4d472f529d923087c7fd0c3a53f58" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>XArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1a6793f2a156ebc1f938c55374dcb4860f" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>ZArrP</name></member>
+      <member refid="classsr_t_trj_arrays_aux_1aec9f0499f9ac3d5f43126e8418147cd7" prot="public" virt="non-virtual"><scope>srTTrjArraysAux</scope><name>~srTTrjArraysAux</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

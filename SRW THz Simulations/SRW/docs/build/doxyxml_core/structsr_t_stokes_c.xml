@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_stokes_c" kind="struct" language="C++" prot="public">
+    <compoundname>srTStokesC</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_stokes_c_1aafc3f363d93afda300b3fbb3f6db9ac5" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTStokesC::s0</definition>
+        <argsstring></argsstring>
+        <name>s0</name>
+        <qualifiedname>srTStokesC::s0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="199" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_stokes_c_1a677649f311e7c3bbfd9936e72c227678" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTStokesC::s1</definition>
+        <argsstring></argsstring>
+        <name>s1</name>
+        <qualifiedname>srTStokesC::s1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="199" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_stokes_c_1acca4b5d4a8f8bf02b063fc7abc2f1c79" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTStokesC::s2</definition>
+        <argsstring></argsstring>
+        <name>s2</name>
+        <qualifiedname>srTStokesC::s2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="199" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_stokes_c_1a7d5acddafe9e9ad21932b868fea18848" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTStokesC::s3</definition>
+        <argsstring></argsstring>
+        <name>s3</name>
+        <qualifiedname>srTStokesC::s3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="199" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="198" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="198" bodyend="200"/>
+    <listofallmembers>
+      <member refid="structsr_t_stokes_c_1aafc3f363d93afda300b3fbb3f6db9ac5" prot="public" virt="non-virtual"><scope>srTStokesC</scope><name>s0</name></member>
+      <member refid="structsr_t_stokes_c_1a677649f311e7c3bbfd9936e72c227678" prot="public" virt="non-virtual"><scope>srTStokesC</scope><name>s1</name></member>
+      <member refid="structsr_t_stokes_c_1acca4b5d4a8f8bf02b063fc7abc2f1c79" prot="public" virt="non-virtual"><scope>srTStokesC</scope><name>s2</name></member>
+      <member refid="structsr_t_stokes_c_1a7d5acddafe9e9ad21932b868fea18848" prot="public" virt="non-virtual"><scope>srTStokesC</scope><name>s3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

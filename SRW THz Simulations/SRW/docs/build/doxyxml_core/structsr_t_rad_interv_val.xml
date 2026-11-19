@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_interv_val" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadIntervVal</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_interv_val_1aa2448bd2598cf51ce19a1c945bae30d1" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTRadIntervVal::InitLevelNo</definition>
+        <argsstring></argsstring>
+        <name>InitLevelNo</name>
+        <qualifiedname>srTRadIntervVal::InitLevelNo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="317" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_interv_val_1a34472202f9511f19694f59d6d148d619" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTRadIntervVal::SecondInt</definition>
+        <argsstring></argsstring>
+        <name>SecondInt</name>
+        <qualifiedname>srTRadIntervVal::SecondInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="317" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_interv_val_1a223df2feb21bc04fa3498a4b84118815" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntervVal::sStart</definition>
+        <argsstring></argsstring>
+        <name>sStart</name>
+        <qualifiedname>srTRadIntervVal::sStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="318" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_interv_val_1ae8b32e5d761e48835579ab54b6dcc3fb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntervVal::sEnd</definition>
+        <argsstring></argsstring>
+        <name>sEnd</name>
+        <qualifiedname>srTRadIntervVal::sEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="318" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="315" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="315" bodyend="319"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_interv_val_1aa2448bd2598cf51ce19a1c945bae30d1" prot="public" virt="non-virtual"><scope>srTRadIntervVal</scope><name>InitLevelNo</name></member>
+      <member refid="structsr_t_rad_interv_val_1a34472202f9511f19694f59d6d148d619" prot="public" virt="non-virtual"><scope>srTRadIntervVal</scope><name>SecondInt</name></member>
+      <member refid="structsr_t_rad_interv_val_1ae8b32e5d761e48835579ab54b6dcc3fb" prot="public" virt="non-virtual"><scope>srTRadIntervVal</scope><name>sEnd</name></member>
+      <member refid="structsr_t_rad_interv_val_1a223df2feb21bc04fa3498a4b84118815" prot="public" virt="non-virtual"><scope>srTRadIntervVal</scope><name>sStart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_interpol_aux_f__1_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTInterpolAuxF_1D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_interpol_aux_f__1_d_1a64b0e397c468c0173b7e1643ee23ff31" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTInterpolAuxF_1D::f0</definition>
+        <argsstring></argsstring>
+        <name>f0</name>
+        <qualifiedname>srTInterpolAuxF_1D::f0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1707" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux_f__1_d_1af0ff654533cbe096746b109aed3c0779" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTInterpolAuxF_1D::f1</definition>
+        <argsstring></argsstring>
+        <name>f1</name>
+        <qualifiedname>srTInterpolAuxF_1D::f1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1707" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux_f__1_d_1a3a2729bd3bc5442d30d109f002133b9f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTInterpolAuxF_1D::f2</definition>
+        <argsstring></argsstring>
+        <name>f2</name>
+        <qualifiedname>srTInterpolAuxF_1D::f2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1707" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux_f__1_d_1a9546d50caa884460ec018924465c3efd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTInterpolAuxF_1D::f3</definition>
+        <argsstring></argsstring>
+        <name>f3</name>
+        <qualifiedname>srTInterpolAuxF_1D::f3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1707" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux_f__1_d_1a4d5e1d3abac0abd75b9dfc3101536b4f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTInterpolAuxF_1D::fAvg</definition>
+        <argsstring></argsstring>
+        <name>fAvg</name>
+        <qualifiedname>srTInterpolAuxF_1D::fAvg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1708" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1708" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux_f__1_d_1a3e58e690474caef218cb094ed4a08786" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTInterpolAuxF_1D::fNorm</definition>
+        <argsstring></argsstring>
+        <name>fNorm</name>
+        <qualifiedname>srTInterpolAuxF_1D::fNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1708" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1708" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_interpol_aux_f__1_d_1a89f6ba69a20f702fd217c0503acdb11b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTInterpolAuxF_1D::SetUpAvg</definition>
+        <argsstring>()</argsstring>
+        <name>SetUpAvg</name>
+        <qualifiedname>srTInterpolAuxF_1D::SetUpAvg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1710" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1710" bodyend="1713"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_interpol_aux_f__1_d_1ae3a9e79a4f3cb4e7a1b45b3e23debb0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTInterpolAuxF_1D::NormalizeByAvg</definition>
+        <argsstring>()</argsstring>
+        <name>NormalizeByAvg</name>
+        <qualifiedname>srTInterpolAuxF_1D::NormalizeByAvg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1714" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1714" bodyend="1725"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1705" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1705" bodyend="1726"/>
+    <listofallmembers>
+      <member refid="structsr_t_interpol_aux_f__1_d_1a64b0e397c468c0173b7e1643ee23ff31" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>f0</name></member>
+      <member refid="structsr_t_interpol_aux_f__1_d_1af0ff654533cbe096746b109aed3c0779" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>f1</name></member>
+      <member refid="structsr_t_interpol_aux_f__1_d_1a3a2729bd3bc5442d30d109f002133b9f" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>f2</name></member>
+      <member refid="structsr_t_interpol_aux_f__1_d_1a9546d50caa884460ec018924465c3efd" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>f3</name></member>
+      <member refid="structsr_t_interpol_aux_f__1_d_1a4d5e1d3abac0abd75b9dfc3101536b4f" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>fAvg</name></member>
+      <member refid="structsr_t_interpol_aux_f__1_d_1a3e58e690474caef218cb094ed4a08786" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>fNorm</name></member>
+      <member refid="structsr_t_interpol_aux_f__1_d_1ae3a9e79a4f3cb4e7a1b45b3e23debb0d" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>NormalizeByAvg</name></member>
+      <member refid="structsr_t_interpol_aux_f__1_d_1a89f6ba69a20f702fd217c0503acdb11b" prot="public" virt="non-virtual"><scope>srTInterpolAuxF_1D</scope><name>SetUpAvg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

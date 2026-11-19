@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_s_r_w_rad_struct_wave_names" kind="struct" language="C++" prot="public">
+    <compoundname>srTSRWRadStructWaveNames</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1af47146715040afbc28670d80271461bd" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameRad[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameRad</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameRad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="658" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1ae98b3bf5a238d63244bd6be5486f47d2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameRadX[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameRadX</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameRadX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="659" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="659" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1a00418a55be26b8f02d656f8a96ba4563" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameRadZ[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameRadZ</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameRadZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="659" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="659" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1a3abe8b4d3b2b172c594413a5aa177108" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameElecBeam[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameElecBeam</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameElecBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="660" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="660" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1a4b97c85e8b95fcbbb174b789fb843eaf" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameTrj[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameTrj</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="660" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="660" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1a537acb54d7168510034c5957b78ec79d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::Name4x4PropMatr[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>Name4x4PropMatr</name>
+        <qualifiedname>srTSRWRadStructWaveNames::Name4x4PropMatr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="661" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1a5294111ad53d4f4f40925866c1e00103" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameMomX[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameMomX</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="662" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1a181ab9179cd3d145db068e183459fb5d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameMomZ[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameMomZ</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="662" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_struct_wave_names_1a8f567d7189a8d6aa2a34a7219d9d494d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadStructWaveNames::NameWfrAuxData[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameWfrAuxData</name>
+        <qualifiedname>srTSRWRadStructWaveNames::NameWfrAuxData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="663" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="663" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_s_r_w_rad_struct_wave_names_1a393b67dcc2c8c5c14c112bf4280a7d9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTSRWRadStructWaveNames::srTSRWRadStructWaveNames</definition>
+        <argsstring>()</argsstring>
+        <name>srTSRWRadStructWaveNames</name>
+        <qualifiedname>srTSRWRadStructWaveNames::srTSRWRadStructWaveNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="665" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="665" bodyend="673"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="656" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="656" bodyend="674"/>
+    <listofallmembers>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a537acb54d7168510034c5957b78ec79d" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>Name4x4PropMatr</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a3abe8b4d3b2b172c594413a5aa177108" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameElecBeam</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a5294111ad53d4f4f40925866c1e00103" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameMomX</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a181ab9179cd3d145db068e183459fb5d" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameMomZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1af47146715040afbc28670d80271461bd" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameRad</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1ae98b3bf5a238d63244bd6be5486f47d2" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameRadX</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a00418a55be26b8f02d656f8a96ba4563" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameRadZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a4b97c85e8b95fcbbb174b789fb843eaf" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameTrj</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a8f567d7189a8d6aa2a34a7219d9d494d" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>NameWfrAuxData</name></member>
+      <member refid="structsr_t_s_r_w_rad_struct_wave_names_1a393b67dcc2c8c5c14c112bf4280a7d9c" prot="public" virt="non-virtual"><scope>srTSRWRadStructWaveNames</scope><name>srTSRWRadStructWaveNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

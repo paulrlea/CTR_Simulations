@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptelm__gpu_8h" kind="file" language="C++">
+    <compoundname>sroptelm_gpu.h</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_OFFLOAD_GPU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SROPTELMGPU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SROPTELMGPU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;cuda_runtime.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sroptelm.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;srradstr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;srstraux.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__CUDACC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combinedE&gt;<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">__global__<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">__launch_bounds__(256)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//RadPointModifierParallel_Kernel(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>void*<sp/>pBufVars,<sp/>T*<sp/>tgt_obj,<sp/>int<sp/>xStart,<sp/>int<sp/>xFin,<sp/>int<sp/>zStart,<sp/>int<sp/>zFin)<sp/>//HG27072024<sp/>Redesigned<sp/>entire<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">TraverseRadZXEParallel_Kernel(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pBufVars,<sp/>T*<sp/>tgt_obj,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xStart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xFin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zStart,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zFin)<sp/></highlight><highlight class="comment">//HG14042026</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ie<sp/>=<sp/>(blockIdx.x<sp/>*<sp/>blockDim.x<sp/>+<sp/>threadIdx.x);<sp/></highlight><highlight class="comment">//ne<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ix<sp/>=<sp/>(blockIdx.y<sp/>*<sp/>blockDim.y<sp/>+<sp/>threadIdx.y)<sp/>+<sp/>xStart;<sp/></highlight><highlight class="comment">//nx<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iz<sp/>=<sp/>(blockIdx.z<sp/>*<sp/>blockDim.z<sp/>+<sp/>threadIdx.z)<sp/>+<sp/>zStart;<sp/></highlight><highlight class="comment">//nz<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ne<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(combinedE)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ne<sp/>=<sp/>pRadAccessData-&gt;ne;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ie<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ix<sp/>&lt;<sp/>xFin<sp/>&amp;&amp;<sp/>iz<sp/>&lt;<sp/>zFin<sp/>&amp;&amp;<sp/>ie<sp/>&lt;<sp/>pRadAccessData-&gt;ne)<sp/></highlight><highlight class="comment">//HG27072024<sp/>changed<sp/>RadAccessData<sp/>to<sp/>pRadAccessData</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref><sp/>EPtrs;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref><sp/>EXZ;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.z<sp/>=<sp/>pRadAccessData-&gt;zStart<sp/>+<sp/>iz<sp/>*<sp/>pRadAccessData-&gt;zStep;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.x<sp/>=<sp/>pRadAccessData-&gt;xStart<sp/>+<sp/>ix<sp/>*<sp/>pRadAccessData-&gt;xStep;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.e<sp/>=<sp/>pRadAccessData-&gt;eStart<sp/>+<sp/>ie<sp/>*<sp/>pRadAccessData-&gt;eStep;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.aux_offset<sp/>=<sp/>pRadAccessData-&gt;ne<sp/>*<sp/>pRadAccessData-&gt;nx<sp/>*<sp/>2<sp/>*<sp/>iz<sp/>+<sp/>pRadAccessData-&gt;ne<sp/>*<sp/>2<sp/>*<sp/>ix<sp/>+<sp/>ie<sp/>*<sp/>2;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadX<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExRe<sp/>=<sp/>pRadAccessData-&gt;pBaseRadX<sp/>+<sp/>EXZ.aux_offset;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExIm<sp/>=<sp/>EPtrs.pExRe<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExRe<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExIm<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadZ<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzRe<sp/>=<sp/>pRadAccessData-&gt;pBaseRadZ<sp/>+<sp/>EXZ.aux_offset;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzIm<sp/>=<sp/>EPtrs.pEzRe<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzRe<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzIm<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tgt_obj-&gt;RadPointModifierPortable(EXZ,<sp/>EPtrs,<sp/>pBufVars);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(ie=1;<sp/>ie<sp/>&lt;<sp/>ne;<sp/>ie++)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.e<sp/>+=<sp/>pRadAccessData-&gt;eStep;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.aux_offset<sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadX<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExRe<sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExIm<sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadZ<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzRe<sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzIm<sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tgt_obj-&gt;RadPointModifierPortable(EXZ,<sp/>EPtrs,<sp/>pBufVars);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//int<sp/>RadPointModifierParallelImpl(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>void*<sp/>pBufVars,<sp/>long<sp/>pBufVarsSz,<sp/>T*<sp/>tgt_obj,<sp/>TGPUUsageArg*<sp/>pGPU,<sp/>int<sp/>*pRegion=0,<sp/>bool<sp/>combinedE=false)<sp/>//HG29072024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TraverseRadZXEParallelImpl(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pBufVars,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>pBufVarsSz,<sp/>T*<sp/>tgt_obj,<sp/>TGPUUsageArg*<sp/>pGPU,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*pRegion=0,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combinedE=</highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/></highlight><highlight class="comment">//HG14042026</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadX<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadX<sp/>=<sp/>CAuxGPU::ToDevice(pGPU,<sp/>pRadAccessData-&gt;pBaseRadX,<sp/>2*pRadAccessData-&gt;ne*pRadAccessData-&gt;nx*pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>pRadAccessData-&gt;pBaseRadX);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadZ<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadZ<sp/>=<sp/>CAuxGPU::ToDevice(pGPU,<sp/>pRadAccessData-&gt;pBaseRadZ,<sp/>2*pRadAccessData-&gt;ne*pRadAccessData-&gt;nx*pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>pRadAccessData-&gt;pBaseRadZ);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData_dev<sp/>=<sp/>CAuxGPU::ToDevice(pGPU,<sp/>pRadAccessData,<sp/>1,<sp/>CAuxGPU::DISCARD_HOST);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>T*<sp/>local_copy<sp/>=<sp/>CAuxGPU::ToDevice(pGPU,<sp/>tgt_obj,<sp/>1,<sp/>CAuxGPU::DISCARD_HOST);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>pRadAccessData_dev,<sp/>local_copy);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pBufVars_dev<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pBufVarsSz<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pBufVars_dev<sp/>=<sp/>CAuxGPU::ToDevice(pGPU,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)pBufVars,<sp/>pBufVarsSz,<sp/>CAuxGPU::DISCARD_HOST);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>pBufVars_dev);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xStart<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xFin<sp/>=<sp/>pRadAccessData-&gt;nx;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zStart<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zFin<sp/>=<sp/>pRadAccessData-&gt;nz;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//HG30072024<sp/>Allow<sp/>for<sp/>specifying<sp/>a<sp/>region<sp/>to<sp/>skip<sp/>or<sp/>to<sp/>only<sp/>process<sp/>within<sp/>the<sp/>region,<sp/>reduces<sp/>extra<sp/>operations<sp/>for<sp/>propagators<sp/>like<sp/>apertures<sp/>and<sp/>obstacles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HandleInSingleLaunch<sp/>=<sp/>(pRegion<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!HandleInSingleLaunch)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRegion[4]<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xStart<sp/>=<sp/>pRegion[0];</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xFin<sp/>=<sp/>pRegion[1];</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zStart<sp/>=<sp/>pRegion[2];</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zFin<sp/>=<sp/>pRegion[3];</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HandleInSingleLaunch<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*kern)(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*,<sp/>T*,<sp/>int,<sp/>int,<sp/>int,<sp/>int)<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(combinedE)<sp/>kern<sp/>=<sp/>RadPointModifierParallel_Kernel&lt;T,<sp/>true&gt;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(combinedE)<sp/>kern<sp/>=<sp/>TraverseRadZXEParallel_Kernel&lt;T,<sp/>true&gt;;<sp/></highlight><highlight class="comment">//HG14042026</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//else<sp/>kern<sp/>=<sp/>RadPointModifierParallel_Kernel&lt;T,<sp/>false&gt;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>kern<sp/>=<sp/>TraverseRadZXEParallel_Kernel&lt;T,<sp/>false&gt;;<sp/></highlight><highlight class="comment">//HG14042026</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(HandleInSingleLaunch)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>blocks(combinedE<sp/>?<sp/>1<sp/>:<sp/>pRadAccessData-&gt;ne,<sp/>xFin<sp/>-<sp/>xStart,<sp/>zFin<sp/>-<sp/>zStart);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>threads(1);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::CalcLaunchDims(kern,<sp/>blocks,<sp/>blocks,<sp/>threads);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kern&lt;&lt;&lt;blocks,<sp/>threads<sp/>&gt;&gt;&gt;<sp/>(pRadAccessData_dev,<sp/>pBufVars_dev,<sp/>local_copy,<sp/>xStart,<sp/>xFin,<sp/>zStart,<sp/>zFin);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Have<sp/>to<sp/>split<sp/>into<sp/>4<sp/>kernel<sp/>launches<sp/>to<sp/>skip<sp/>the<sp/>specified<sp/>region,<sp/>run<sp/>them<sp/>in<sp/>parallel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cudaStream_t<sp/>stream1<sp/>=<sp/>(cudaStream_t)CAuxGPU::GetComputeStream(pGPU,<sp/>0);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cudaStream_t<sp/>stream2<sp/>=<sp/>(cudaStream_t)CAuxGPU::GetComputeStream(pGPU,<sp/>1);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cudaStream_t<sp/>stream3<sp/>=<sp/>(cudaStream_t)CAuxGPU::GetComputeStream(pGPU,<sp/>2);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::SyncComputeStream(pGPU,<sp/>0,<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)stream1);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::SyncComputeStream(pGPU,<sp/>0,<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)stream2);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::SyncComputeStream(pGPU,<sp/>0,<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)stream3);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>blocks0(combinedE<sp/>?<sp/>1<sp/>:<sp/>pRadAccessData-&gt;ne,<sp/>pRegion[0],<sp/>pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>blocks1(combinedE<sp/>?<sp/>1<sp/>:<sp/>pRadAccessData-&gt;ne,<sp/>pRadAccessData-&gt;nx<sp/>-<sp/>pRegion[1],<sp/>pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>blocks2(combinedE<sp/>?<sp/>1<sp/>:<sp/>pRadAccessData-&gt;ne,<sp/>pRegion[1]<sp/>-<sp/>pRegion[0],<sp/>pRadAccessData-&gt;nz<sp/>-<sp/>pRegion[3]);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>blocks3(combinedE<sp/>?<sp/>1<sp/>:<sp/>pRadAccessData-&gt;ne,<sp/>pRegion[1]<sp/>-<sp/>pRegion[0],<sp/>pRegion[2]);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>threads0(1);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>threads1(1);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>threads2(1);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dim3<sp/>threads3(1);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(blocks0.y<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>blocks0.z<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::CalcLaunchDims(kern,<sp/>blocks0,<sp/>blocks0,<sp/>threads0);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kern&lt;&lt;&lt;blocks0,<sp/>threads0<sp/>&gt;&gt;&gt;<sp/>(pRadAccessData_dev,<sp/>pBufVars_dev,<sp/>local_copy,<sp/>0,<sp/>pRegion[0],<sp/>0,<sp/>pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(blocks1.y<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>blocks1.z<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::CalcLaunchDims(kern,<sp/>blocks1,<sp/>blocks1,<sp/>threads1);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kern&lt;&lt;&lt;blocks1,<sp/>threads1,<sp/>0,<sp/>stream1<sp/>&gt;&gt;&gt;<sp/>(pRadAccessData_dev,<sp/>pBufVars_dev,<sp/>local_copy,<sp/>pRegion[1],<sp/>pRadAccessData-&gt;nx,<sp/>0,<sp/>pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(blocks2.y<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>blocks2.z<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::CalcLaunchDims(kern,<sp/>blocks2,<sp/>blocks2,<sp/>threads2);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kern&lt;&lt;&lt;blocks2,<sp/>threads2,<sp/>0,<sp/>stream2<sp/>&gt;&gt;&gt;<sp/>(pRadAccessData_dev,<sp/>pBufVars_dev,<sp/>local_copy,<sp/>pRegion[0],<sp/>pRegion[1],<sp/>pRegion[3],<sp/>pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(blocks3.y<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>blocks3.z<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::CalcLaunchDims(kern,<sp/>blocks3,<sp/>blocks3,<sp/>threads3);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kern&lt;&lt;&lt;blocks3,<sp/>threads3,<sp/>0,<sp/>stream3<sp/>&gt;&gt;&gt;<sp/>(pRadAccessData_dev,<sp/>pBufVars_dev,<sp/>local_copy,<sp/>pRegion[0],<sp/>pRegion[1],<sp/>0,<sp/>pRegion[2]);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::SyncComputeStream(pGPU,<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)stream1,<sp/>0);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::SyncComputeStream(pGPU,<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)stream2,<sp/>0);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::SyncComputeStream(pGPU,<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)stream3,<sp/>0);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>CAuxGPU::MarkUpdatedBatch(pGPU,<sp/>CAuxGPU::DEVICE,<sp/>pRadAccessData-&gt;pBaseRadX,<sp/>pRadAccessData-&gt;pBaseRadZ,<sp/>pRadAccessData_dev,<sp/>pBufVars_dev,<sp/>local_copy);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pBufVarsSz<sp/>&gt;<sp/>0)<sp/>CAuxGPU::ToHostAndFree(pGPU,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)pBufVars_dev);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>CAuxGPU::ToHostAndFree(pGPU,<sp/>pRadAccessData_dev);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>CAuxGPU::ToHostAndFree(pGPU,<sp/>local_copy);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadX<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadX<sp/>=<sp/>CAuxGPU::GetHostPtr(pGPU,<sp/>pRadAccessData-&gt;pBaseRadX);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pRadAccessData-&gt;pBaseRadZ<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadZ<sp/>=<sp/>CAuxGPU::GetHostPtr(pGPU,<sp/>pRadAccessData-&gt;pBaseRadZ);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment">//template&lt;class<sp/>T&gt;<sp/>__global__<sp/>void<sp/>RadPointModifierParallel_Kernel(srTSRWRadStructAccessData<sp/>RadAccessData,<sp/>void*<sp/>pBufVars,<sp/>T*<sp/>tgt_obj)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>int<sp/>ix<sp/>=<sp/>(blockIdx.x<sp/>*<sp/>blockDim.x<sp/>+<sp/>threadIdx.x);<sp/>//nx<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>int<sp/>iz<sp/>=<sp/>(blockIdx.y<sp/>*<sp/>blockDim.y<sp/>+<sp/>threadIdx.y);<sp/>//nz<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(ix<sp/>&lt;<sp/>RadAccessData.nx<sp/>&amp;&amp;<sp/>iz<sp/>&lt;<sp/>RadAccessData.nz)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>srTEFieldPtrs<sp/>EPtrs;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>srTEXZ<sp/>EXZ;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>EXZ.z<sp/>=<sp/>RadAccessData.zStart<sp/>+<sp/>iz<sp/>*<sp/>RadAccessData.zStep;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>EXZ.x<sp/>=<sp/>RadAccessData.xStart<sp/>+<sp/>ix<sp/>*<sp/>RadAccessData.xStep;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>ie<sp/>=<sp/>0;<sp/>ie<sp/>&lt;<sp/>RadAccessData.ne;<sp/>ie++)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.e<sp/>=<sp/>RadAccessData.eStart<sp/>+<sp/>ie<sp/>*<sp/>RadAccessData.eStep;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.aux_offset<sp/>=<sp/>RadAccessData.ne<sp/>*<sp/>RadAccessData.nx<sp/>*<sp/>2<sp/>*<sp/>iz<sp/>+<sp/>RadAccessData.ne<sp/>*<sp/>2<sp/>*<sp/>ix<sp/>+<sp/>ie<sp/>*<sp/>2;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(RadAccessData.pBaseRadX<sp/>!=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExRe<sp/>=<sp/>RadAccessData.pBaseRadX<sp/>+<sp/>EXZ.aux_offset;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExIm<sp/>=<sp/>EPtrs.pExRe<sp/>+<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExRe<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pExIm<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(RadAccessData.pBaseRadZ<sp/>!=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzRe<sp/>=<sp/>RadAccessData.pBaseRadZ<sp/>+<sp/>EXZ.aux_offset;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzIm<sp/>=<sp/>EPtrs.pEzRe<sp/>+<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzRe<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EPtrs.pEzIm<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tgt_obj-&gt;RadPointModifierPortable(EXZ,<sp/>EPtrs,<sp/>pBufVars);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="comment">//template&lt;class<sp/>T&gt;<sp/>int<sp/>RadPointModifierParallelImpl(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>void*<sp/>pBufVars,<sp/>long<sp/>pBufVarsSz,<sp/>T*<sp/>tgt_obj,<sp/>TGPUUsageArg*<sp/>pGPU)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>const<sp/>int<sp/>bs<sp/>=<sp/>256;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>dim3<sp/>blocks(pRadAccessData-&gt;nx<sp/>/<sp/>bs<sp/>+<sp/>((pRadAccessData-&gt;nx<sp/>&amp;<sp/>(bs<sp/>-<sp/>1))<sp/>!=<sp/>0),<sp/>pRadAccessData-&gt;nz);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>dim3<sp/>threads(bs,<sp/>1);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(pRadAccessData-&gt;pBaseRadX<sp/>!=<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadX<sp/>=<sp/>(float*)CAuxGPU::ToDevice(pGPU,<sp/>pRadAccessData-&gt;pBaseRadX,<sp/>2*pRadAccessData-&gt;ne*pRadAccessData-&gt;nx*pRadAccessData-&gt;nz*sizeof(float));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>pRadAccessData-&gt;pBaseRadX);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(pRadAccessData-&gt;pBaseRadZ<sp/>!=<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadZ<sp/>=<sp/>(float*)CAuxGPU::ToDevice(pGPU,<sp/>pRadAccessData-&gt;pBaseRadZ,<sp/>2*pRadAccessData-&gt;ne*pRadAccessData-&gt;nx*pRadAccessData-&gt;nz*sizeof(float));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>pRadAccessData-&gt;pBaseRadZ);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>T*<sp/>local_copy<sp/>=<sp/>(T*)CAuxGPU::ToDevice(pGPU,<sp/>tgt_obj,<sp/>sizeof(T));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>local_copy);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//cudaMalloc(&amp;local_copy,<sp/>sizeof(T));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//cudaMemcpy(local_copy,<sp/>tgt_obj,<sp/>sizeof(T),<sp/>cudaMemcpyHostToDevice);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>void*<sp/>pBufVars_dev<sp/>=<sp/>NULL;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(pBufVarsSz<sp/>&gt;<sp/>0){</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>pBufVars_dev<sp/>=<sp/>CAuxGPU::ToDevice(pGPU,<sp/>pBufVars,<sp/>pBufVarsSz);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>CAuxGPU::EnsureDeviceMemoryReady(pGPU,<sp/>pBufVars_dev);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>RadPointModifierParallel_Kernel&lt;T&gt;<sp/>&lt;&lt;<sp/>&lt;blocks,<sp/>threads<sp/>&gt;&gt;<sp/>&gt;<sp/>(*pRadAccessData,<sp/>pBufVars_dev,<sp/>local_copy);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//cudaDeviceSynchronize();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//cudaFreeAsync(local_copy,<sp/>0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(pBufVarsSz<sp/>&gt;<sp/>0)<sp/>CAuxGPU::ToHostAndFree(pGPU,<sp/>pBufVars_dev,<sp/>pBufVarsSz,<sp/>true);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CAuxGPU::ToHostAndFree(pGPU,<sp/>local_copy,<sp/>sizeof(T),<sp/>true);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CAuxGPU::MarkUpdated(pGPU,<sp/>pRadAccessData-&gt;pBaseRadX,<sp/>true,<sp/>false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>CAuxGPU::MarkUpdated(pGPU,<sp/>pRadAccessData-&gt;pBaseRadZ,<sp/>true,<sp/>false);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="284"><highlight class="comment">//<sp/><sp/>if<sp/>(pRadAccessData-&gt;pBaseRadX<sp/>!=<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadX<sp/>=<sp/>(float*)CAuxGPU::GetHostPtr(pGPU,<sp/>pRadAccessData-&gt;pBaseRadX);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>if<sp/>(pRadAccessData-&gt;pBaseRadZ<sp/>!=<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;pBaseRadZ<sp/>=<sp/>(float*)CAuxGPU::GetHostPtr(pGPU,<sp/>pRadAccessData-&gt;pBaseRadZ);</highlight></codeline>
+<codeline lineno="289"><highlight class="comment">//</highlight></codeline>
+<codeline lineno="300"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//__SROPTELMGPU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptelm_gpu.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="struct_t_aux_param_for_integ_c_s_r" kind="struct" language="C++" prot="public">
+    <compoundname>TAuxParamForIntegCSR</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a278713140fb7a8fd3582c787a6a07b6b" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> *</type>
+        <definition>srTEFourier* TAuxParamForIntegCSR::arrEw</definition>
+        <argsstring></argsstring>
+        <name>arrEw</name>
+        <qualifiedname>TAuxParamForIntegCSR::arrEw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="103" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a17cedc4d57d10a71e41731f93a3d895d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pi</definition>
+        <argsstring></argsstring>
+        <name>pi</name>
+        <qualifiedname>TAuxParamForIntegCSR::pi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="105" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ad8b0695b9ab38851d3f3dd087aa5f9df" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::half_pi</definition>
+        <argsstring></argsstring>
+        <name>half_pi</name>
+        <qualifiedname>TAuxParamForIntegCSR::half_pi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="105" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ab6792f376b3aef304e18cb78deca41a3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::sqrt_pi</definition>
+        <argsstring></argsstring>
+        <name>sqrt_pi</name>
+        <qualifiedname>TAuxParamForIntegCSR::sqrt_pi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="105" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a98612a12dd40a3e3f5592f8b611d6c9b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::half_sqrt_pi</definition>
+        <argsstring></argsstring>
+        <name>half_sqrt_pi</name>
+        <qualifiedname>TAuxParamForIntegCSR::half_sqrt_pi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="105" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ae6e73f419c16545518f0c0c9b47b7dd2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::two_sqrt_pi</definition>
+        <argsstring></argsstring>
+        <name>two_sqrt_pi</name>
+        <qualifiedname>TAuxParamForIntegCSR::two_sqrt_pi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="105" column="40" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a06a651b9d6edeb59b7944a54cb9a267d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::piE2</definition>
+        <argsstring></argsstring>
+        <name>piE2</name>
+        <qualifiedname>TAuxParamForIntegCSR::piE2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="105" column="52" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ad868ca2988f176776ca57a44c2223d27" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::half_k_d_e</definition>
+        <argsstring></argsstring>
+        <name>half_k_d_e</name>
+        <qualifiedname>TAuxParamForIntegCSR::half_k_d_e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="106" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1aa686defc97373964e7a56a806d2fc191" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::k_d_e</definition>
+        <argsstring></argsstring>
+        <name>k_d_e</name>
+        <qualifiedname>TAuxParamForIntegCSR::k_d_e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="106" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1af258da31c67eaf3905692b8d63999ef7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pxx</definition>
+        <argsstring></argsstring>
+        <name>pxx</name>
+        <qualifiedname>TAuxParamForIntegCSR::pxx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="108" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1abe49560893e1625ffc582442897bfe60" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pzz</definition>
+        <argsstring></argsstring>
+        <name>pzz</name>
+        <qualifiedname>TAuxParamForIntegCSR::pzz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="108" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1aecd5ffba73932c3f98ca3aeec9bf745a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pxx1</definition>
+        <argsstring></argsstring>
+        <name>pxx1</name>
+        <qualifiedname>TAuxParamForIntegCSR::pxx1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="108" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a6dd6018a9fba523037eaa5db7958e6a7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pzz1</definition>
+        <argsstring></argsstring>
+        <name>pzz1</name>
+        <qualifiedname>TAuxParamForIntegCSR::pzz1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="108" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1aa7effda882a7cc99997c067d3bba4c42" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::px1x1</definition>
+        <argsstring></argsstring>
+        <name>px1x1</name>
+        <qualifiedname>TAuxParamForIntegCSR::px1x1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="108" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a0daac50ad6a29043bd3dc1bfc4c4477b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pz1z1</definition>
+        <argsstring></argsstring>
+        <name>pz1z1</name>
+        <qualifiedname>TAuxParamForIntegCSR::pz1z1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="108" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a41bfd23436621f0b912815838ca85c59" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pxz</definition>
+        <argsstring></argsstring>
+        <name>pxz</name>
+        <qualifiedname>TAuxParamForIntegCSR::pxz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="109" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ade4b2bcf756b557fbe53d035dd8f7239" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::px1z</definition>
+        <argsstring></argsstring>
+        <name>px1z</name>
+        <qualifiedname>TAuxParamForIntegCSR::px1z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="109" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1afd0b2e6ed64ccf036e9a590f77c4b5c6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pxz1</definition>
+        <argsstring></argsstring>
+        <name>pxz1</name>
+        <qualifiedname>TAuxParamForIntegCSR::pxz1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="109" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a46525ecc324aa1392d71df3b31fb8de0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::px1z1</definition>
+        <argsstring></argsstring>
+        <name>px1z1</name>
+        <qualifiedname>TAuxParamForIntegCSR::px1z1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="109" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ac157462f34517142a3a232752a5dda24" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pxg</definition>
+        <argsstring></argsstring>
+        <name>pxg</name>
+        <qualifiedname>TAuxParamForIntegCSR::pxg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="110" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a928581f226ae2460fd49e43fdf99468d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pzg</definition>
+        <argsstring></argsstring>
+        <name>pzg</name>
+        <qualifiedname>TAuxParamForIntegCSR::pzg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="110" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a74f6dcd06c66e55d66273cc10afd13cb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::px1g</definition>
+        <argsstring></argsstring>
+        <name>px1g</name>
+        <qualifiedname>TAuxParamForIntegCSR::px1g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="110" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1af14e1a8266496408673f4a82e1809673" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pz1g</definition>
+        <argsstring></argsstring>
+        <name>pz1g</name>
+        <qualifiedname>TAuxParamForIntegCSR::pz1g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="110" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a423adff5927bf5ab91fe0b5755f0afc0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pxs</definition>
+        <argsstring></argsstring>
+        <name>pxs</name>
+        <qualifiedname>TAuxParamForIntegCSR::pxs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="111" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ad53892d2d58e56946f11387935adbc3b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pzs</definition>
+        <argsstring></argsstring>
+        <name>pzs</name>
+        <qualifiedname>TAuxParamForIntegCSR::pzs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="111" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a3a6bdaa96d898a1e63b76da09bdab339" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::px1s</definition>
+        <argsstring></argsstring>
+        <name>px1s</name>
+        <qualifiedname>TAuxParamForIntegCSR::px1s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="111" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a957930d58b66c19574c98a36dab62837" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pz1s</definition>
+        <argsstring></argsstring>
+        <name>pz1s</name>
+        <qualifiedname>TAuxParamForIntegCSR::pz1s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="111" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a29479667db8dfa85fa60beaf23fb9088" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::psg</definition>
+        <argsstring></argsstring>
+        <name>psg</name>
+        <qualifiedname>TAuxParamForIntegCSR::psg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="112" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ab643ab03daaef5c470036744fc310960" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pss</definition>
+        <argsstring></argsstring>
+        <name>pss</name>
+        <qualifiedname>TAuxParamForIntegCSR::pss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="112" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a1129dcffaa2a026fc5a7c34a6762af11" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::pgg</definition>
+        <argsstring></argsstring>
+        <name>pgg</name>
+        <qualifiedname>TAuxParamForIntegCSR::pgg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="112" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ab1d91b742e0bf7362dd9c34b37b39324" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::constW1</definition>
+        <argsstring></argsstring>
+        <name>constW1</name>
+        <qualifiedname>TAuxParamForIntegCSR::constW1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="114" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a4b5980e655ce62e3bd8b645ca04e8444" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::constW2</definition>
+        <argsstring></argsstring>
+        <name>constW2</name>
+        <qualifiedname>TAuxParamForIntegCSR::constW2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="114" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a2082495ec0ef2727df688425380953f5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::constW3a</definition>
+        <argsstring></argsstring>
+        <name>constW3a</name>
+        <qualifiedname>TAuxParamForIntegCSR::constW3a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="114" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1abf1c6bf8ab8726b1716ff98e11a19a2a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::constW3b</definition>
+        <argsstring></argsstring>
+        <name>constW3b</name>
+        <qualifiedname>TAuxParamForIntegCSR::constW3b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="114" column="33" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1ad967bf049eb5b20a7eceee66ade7b6c9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::constW4b</definition>
+        <argsstring></argsstring>
+        <name>constW4b</name>
+        <qualifiedname>TAuxParamForIntegCSR::constW4b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="114" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a6ad5c57fa2c941653033e9b0742ddaf6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::constW5</definition>
+        <argsstring></argsstring>
+        <name>constW5</name>
+        <qualifiedname>TAuxParamForIntegCSR::constW5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="114" column="51" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a4e43b7b71ae84f22c93d9e1881435bbc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::constQ6</definition>
+        <argsstring></argsstring>
+        <name>constQ6</name>
+        <qualifiedname>TAuxParamForIntegCSR::constQ6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="114" column="59" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a9f8f87b63597f79cac9f22072c3c4b84" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::cf</definition>
+        <argsstring></argsstring>
+        <name>cf</name>
+        <qualifiedname>TAuxParamForIntegCSR::cf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="115" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_aux_param_for_integ_c_s_r_1a498570675e861b8f74e9172449120d10" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TAuxParamForIntegCSR::cn</definition>
+        <argsstring></argsstring>
+        <name>cn</name>
+        <qualifiedname>TAuxParamForIntegCSR::cn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="115" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_t_aux_param_for_integ_c_s_r_1a476a7dd0a700c8ca452bbfd16a98aad2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TAuxParamForIntegCSR::TAuxParamForIntegCSR</definition>
+        <argsstring>()</argsstring>
+        <name>TAuxParamForIntegCSR</name>
+        <qualifiedname>TAuxParamForIntegCSR::TAuxParamForIntegCSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="117" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_t_aux_param_for_integ_c_s_r_1a02809387b3529dade4b3e86bac060b9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TAuxParamForIntegCSR::~TAuxParamForIntegCSR</definition>
+        <argsstring>()</argsstring>
+        <name>~TAuxParamForIntegCSR</name>
+        <qualifiedname>TAuxParamForIntegCSR::~TAuxParamForIntegCSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="121" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_t_aux_param_for_integ_c_s_r_1ac9e89de7463566ad7ae08a7835e05d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TAuxParamForIntegCSR::allocateArrays</definition>
+        <argsstring>(int meth, long long ns)</argsstring>
+        <name>allocateArrays</name>
+        <qualifiedname>TAuxParamForIntegCSR::allocateArrays</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>meth</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="127" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="127" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_t_aux_param_for_integ_c_s_r_1a8b50c6a11d0a1fa2a22263c40860cf5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TAuxParamForIntegCSR::disposeArrays</definition>
+        <argsstring>()</argsstring>
+        <name>disposeArrays</name>
+        <qualifiedname>TAuxParamForIntegCSR::disposeArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="139" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_t_aux_param_for_integ_c_s_r_1a342a17b1d3a21b5df35c10079ae12f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TAuxParamForIntegCSR::setupConstParams</definition>
+        <argsstring>(srTEbmDat &amp;eBeam)</argsstring>
+        <name>setupConstParams</name>
+        <qualifiedname>TAuxParamForIntegCSR::setupConstParams</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>eBeam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="143" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.cpp" bodystart="26" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TAuxParamForIntegCSR</label>
+        <link refid="struct_t_aux_param_for_integ_c_s_r"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>arrEw</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTEFourier</label>
+        <link refid="structsr_t_e_fourier"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="101" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="101" bodyend="144"/>
+    <listofallmembers>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ac9e89de7463566ad7ae08a7835e05d0b" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>allocateArrays</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a278713140fb7a8fd3582c787a6a07b6b" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>arrEw</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a9f8f87b63597f79cac9f22072c3c4b84" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>cf</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a498570675e861b8f74e9172449120d10" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>cn</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a4e43b7b71ae84f22c93d9e1881435bbc" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>constQ6</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ab1d91b742e0bf7362dd9c34b37b39324" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>constW1</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a4b5980e655ce62e3bd8b645ca04e8444" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>constW2</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a2082495ec0ef2727df688425380953f5" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>constW3a</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1abf1c6bf8ab8726b1716ff98e11a19a2a" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>constW3b</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ad967bf049eb5b20a7eceee66ade7b6c9" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>constW4b</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a6ad5c57fa2c941653033e9b0742ddaf6" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>constW5</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a8b50c6a11d0a1fa2a22263c40860cf5a" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>disposeArrays</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ad868ca2988f176776ca57a44c2223d27" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>half_k_d_e</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ad8b0695b9ab38851d3f3dd087aa5f9df" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>half_pi</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a98612a12dd40a3e3f5592f8b611d6c9b" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>half_sqrt_pi</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1aa686defc97373964e7a56a806d2fc191" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>k_d_e</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a1129dcffaa2a026fc5a7c34a6762af11" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pgg</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a17cedc4d57d10a71e41731f93a3d895d" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pi</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a06a651b9d6edeb59b7944a54cb9a267d" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>piE2</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a29479667db8dfa85fa60beaf23fb9088" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>psg</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ab643ab03daaef5c470036744fc310960" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pss</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a74f6dcd06c66e55d66273cc10afd13cb" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>px1g</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a3a6bdaa96d898a1e63b76da09bdab339" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>px1s</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1aa7effda882a7cc99997c067d3bba4c42" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>px1x1</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ade4b2bcf756b557fbe53d035dd8f7239" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>px1z</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a46525ecc324aa1392d71df3b31fb8de0" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>px1z1</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ac157462f34517142a3a232752a5dda24" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pxg</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a423adff5927bf5ab91fe0b5755f0afc0" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pxs</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1af258da31c67eaf3905692b8d63999ef7" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pxx</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1aecd5ffba73932c3f98ca3aeec9bf745a" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pxx1</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a41bfd23436621f0b912815838ca85c59" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pxz</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1afd0b2e6ed64ccf036e9a590f77c4b5c6" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pxz1</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1af14e1a8266496408673f4a82e1809673" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pz1g</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a957930d58b66c19574c98a36dab62837" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pz1s</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a0daac50ad6a29043bd3dc1bfc4c4477b" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pz1z1</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a928581f226ae2460fd49e43fdf99468d" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pzg</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ad53892d2d58e56946f11387935adbc3b" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pzs</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1abe49560893e1625ffc582442897bfe60" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pzz</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a6dd6018a9fba523037eaa5db7958e6a7" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>pzz1</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a342a17b1d3a21b5df35c10079ae12f5f" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>setupConstParams</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ab6792f376b3aef304e18cb78deca41a3" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>sqrt_pi</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a476a7dd0a700c8ca452bbfd16a98aad2" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>TAuxParamForIntegCSR</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1ae6e73f419c16545518f0c0c9b47b7dd2" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>two_sqrt_pi</name></member>
+      <member refid="struct_t_aux_param_for_integ_c_s_r_1a02809387b3529dade4b3e86bac060b9b" prot="public" virt="non-virtual"><scope>TAuxParamForIntegCSR</scope><name>~TAuxParamForIntegCSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

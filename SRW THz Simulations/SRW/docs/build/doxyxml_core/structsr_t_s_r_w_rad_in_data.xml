@@ -1,0 +1,1105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_s_r_w_rad_in_data" kind="struct" language="C++" prot="public">
+    <compoundname>srTSRWRadInData</compoundname>
+    <includes refid="srradind_8h" local="no">srradind.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1ab17827694c3ce8ab7e12eca3cde894da" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTSRWRadInData::pBaseRadX</definition>
+        <argsstring></argsstring>
+        <name>pBaseRadX</name>
+        <qualifiedname>srTSRWRadInData::pBaseRadX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="40" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a4e290bf3d9352d65532ec9d75c7a1758" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * srTSRWRadInData::pBaseRadZ</definition>
+        <argsstring></argsstring>
+        <name>pBaseRadZ</name>
+        <qualifiedname>srTSRWRadInData::pBaseRadZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="40" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1ac03cef3bc2375068f2487e521e5c89d1" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wRad</definition>
+        <argsstring></argsstring>
+        <name>wRad</name>
+        <qualifiedname>srTSRWRadInData::wRad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="41" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a489f14f563fbe1e46bae39c1349c5eff" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wRadX</definition>
+        <argsstring></argsstring>
+        <name>wRadX</name>
+        <qualifiedname>srTSRWRadInData::wRadX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="41" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a1bc3f04a4da3992fd389186931ed0c65" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wRadZ</definition>
+        <argsstring></argsstring>
+        <name>wRadZ</name>
+        <qualifiedname>srTSRWRadInData::wRadZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="41" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a7db0d5d6067133e093c0b6c4a556a6d6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hStateRadX</definition>
+        <argsstring></argsstring>
+        <name>hStateRadX</name>
+        <qualifiedname>srTSRWRadInData::hStateRadX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="42" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1adcbe03b7e4531c5711a5944fffd2c967" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hStateRadZ</definition>
+        <argsstring></argsstring>
+        <name>hStateRadZ</name>
+        <qualifiedname>srTSRWRadInData::hStateRadZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="42" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a6a79fc7be9e4e63893a835d8c8c3dc32" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::eStep</definition>
+        <argsstring></argsstring>
+        <name>eStep</name>
+        <qualifiedname>srTSRWRadInData::eStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="43" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a5ce7b145408c2bc8a21fd263bb07bcf8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::eStart</definition>
+        <argsstring></argsstring>
+        <name>eStart</name>
+        <qualifiedname>srTSRWRadInData::eStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="43" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aa92758b9e6c8cd80275cdddb46aeca02" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::xStep</definition>
+        <argsstring></argsstring>
+        <name>xStep</name>
+        <qualifiedname>srTSRWRadInData::xStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="43" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1ad5c227a0c057c6cad1bf9835c08139a9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::xStart</definition>
+        <argsstring></argsstring>
+        <name>xStart</name>
+        <qualifiedname>srTSRWRadInData::xStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="43" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aa0163b8620f034dc5dd9174f8f3b7e75" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::zStep</definition>
+        <argsstring></argsstring>
+        <name>zStep</name>
+        <qualifiedname>srTSRWRadInData::zStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="43" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a5405fcf15ef061812e982399c56ded9f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::zStart</definition>
+        <argsstring></argsstring>
+        <name>zStart</name>
+        <qualifiedname>srTSRWRadInData::zStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="43" column="40" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a27dd4be60f0972410e17d9ab75d21ba1" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTSRWRadInData::ne</definition>
+        <argsstring></argsstring>
+        <name>ne</name>
+        <qualifiedname>srTSRWRadInData::ne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="44" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a514b3a55b29338658b8612be3c182f9e" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTSRWRadInData::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <qualifiedname>srTSRWRadInData::nx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="44" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a7867c8410305d2db91ac587e11e9041b" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTSRWRadInData::nz</definition>
+        <argsstring></argsstring>
+        <name>nz</name>
+        <qualifiedname>srTSRWRadInData::nz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="44" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1afc31712c4abfffb29ebe1d86a22d497f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::RobsX</definition>
+        <argsstring></argsstring>
+        <name>RobsX</name>
+        <qualifiedname>srTSRWRadInData::RobsX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="50" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a02ef74083a6cfbe80bcbd32587de741c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::RobsZ</definition>
+        <argsstring></argsstring>
+        <name>RobsZ</name>
+        <qualifiedname>srTSRWRadInData::RobsZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="50" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a3dcfe37e60b919fe87662964255a57e6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::RobsXAbsErr</definition>
+        <argsstring></argsstring>
+        <name>RobsXAbsErr</name>
+        <qualifiedname>srTSRWRadInData::RobsXAbsErr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="51" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a7af4a3de93fd305c693b189f11f0a0f1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::RobsZAbsErr</definition>
+        <argsstring></argsstring>
+        <name>RobsZAbsErr</name>
+        <qualifiedname>srTSRWRadInData::RobsZAbsErr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="51" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a7c6adcb174a51aab237e60707f124893" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::xc</definition>
+        <argsstring></argsstring>
+        <name>xc</name>
+        <qualifiedname>srTSRWRadInData::xc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="52" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a0f1ddf37e992cefa5c63dae37246592f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::zc</definition>
+        <argsstring></argsstring>
+        <name>zc</name>
+        <qualifiedname>srTSRWRadInData::zc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="52" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aa0cb8deefca96d7b4604bba2257231cf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::xWfrMin</definition>
+        <argsstring></argsstring>
+        <name>xWfrMin</name>
+        <qualifiedname>srTSRWRadInData::xWfrMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="53" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1af694a151d174eb6dd458986e0aed8db6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::xWfrMax</definition>
+        <argsstring></argsstring>
+        <name>xWfrMax</name>
+        <qualifiedname>srTSRWRadInData::xWfrMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="53" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a99b2b0757a6d76c6a2938d831e5c3eae" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::zWfrMin</definition>
+        <argsstring></argsstring>
+        <name>zWfrMin</name>
+        <qualifiedname>srTSRWRadInData::zWfrMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="53" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a568552c06d7431361b3187c048ea00fc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::zWfrMax</definition>
+        <argsstring></argsstring>
+        <name>zWfrMax</name>
+        <qualifiedname>srTSRWRadInData::zWfrMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="53" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a67482b910d145bc39fb460ee54ed0145" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::UnderSamplingX</definition>
+        <argsstring></argsstring>
+        <name>UnderSamplingX</name>
+        <qualifiedname>srTSRWRadInData::UnderSamplingX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="56" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a8ce51f9bcd62c9943377a34ddd93f37b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::UnderSamplingZ</definition>
+        <argsstring></argsstring>
+        <name>UnderSamplingZ</name>
+        <qualifiedname>srTSRWRadInData::UnderSamplingZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="56" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a68c8acb9944abb31cfaa27dd2b2b62e2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::AllowAutoSwitchToPropInUnderSamplingMode</definition>
+        <argsstring></argsstring>
+        <name>AllowAutoSwitchToPropInUnderSamplingMode</name>
+        <qualifiedname>srTSRWRadInData::AllowAutoSwitchToPropInUnderSamplingMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="57" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a0c73ef239890edc42c36c90cdbee15d7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::InvUnderSamplingThreshold</definition>
+        <argsstring></argsstring>
+        <name>InvUnderSamplingThreshold</name>
+        <qualifiedname>srTSRWRadInData::InvUnderSamplingThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="58" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1abbcb238e33b232fb4b416040b1ae2b9c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::Pres</definition>
+        <argsstring></argsstring>
+        <name>Pres</name>
+        <qualifiedname>srTSRWRadInData::Pres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="64" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aa484d84df15c4deff3c5922465e293be" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::PresT</definition>
+        <argsstring></argsstring>
+        <name>PresT</name>
+        <qualifiedname>srTSRWRadInData::PresT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="65" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a9e52c12252103ba709f7822be3d6a392" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::LengthUnit</definition>
+        <argsstring></argsstring>
+        <name>LengthUnit</name>
+        <qualifiedname>srTSRWRadInData::LengthUnit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="66" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a82d5e06a8efd404c16f9ed2ea4430f06" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::PhotEnergyUnit</definition>
+        <argsstring></argsstring>
+        <name>PhotEnergyUnit</name>
+        <qualifiedname>srTSRWRadInData::PhotEnergyUnit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="67" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1ae2f8b4d2100e6659b9e7051dfc1df976" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::ElecFldUnit</definition>
+        <argsstring></argsstring>
+        <name>ElecFldUnit</name>
+        <qualifiedname>srTSRWRadInData::ElecFldUnit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="68" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a91fa8f16ff7a9b3c1476ce387bc0a057" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWRadInData::avgPhotEn</definition>
+        <argsstring></argsstring>
+        <name>avgPhotEn</name>
+        <qualifiedname>srTSRWRadInData::avgPhotEn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="69" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aaccf20f377dc755cf66ffb846746d8a5" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTSRWRadInData::pElecBeam</definition>
+        <argsstring></argsstring>
+        <name>pElecBeam</name>
+        <qualifiedname>srTSRWRadInData::pElecBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="76" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a1a469a422d993a4140171a0d40516f8c" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wElecBeam</definition>
+        <argsstring></argsstring>
+        <name>wElecBeam</name>
+        <qualifiedname>srTSRWRadInData::wElecBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="77" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1abbe83cc11dd3e3eb27e5b02c112dde40" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hStateElecBeam</definition>
+        <argsstring></argsstring>
+        <name>hStateElecBeam</name>
+        <qualifiedname>srTSRWRadInData::hStateElecBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="78" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a6a11327d60915cbb8b937418580f65f4" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wTrj</definition>
+        <argsstring></argsstring>
+        <name>wTrj</name>
+        <qualifiedname>srTSRWRadInData::wTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="80" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a36eba0acbbf12bf47f7656ce1354ed20" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hStateTrj</definition>
+        <argsstring></argsstring>
+        <name>hStateTrj</name>
+        <qualifiedname>srTSRWRadInData::hStateTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="81" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a6d259576520d35f5677385b2809a8a88" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTSRWRadInData::p4x4PropMatr</definition>
+        <argsstring></argsstring>
+        <name>p4x4PropMatr</name>
+        <qualifiedname>srTSRWRadInData::p4x4PropMatr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="85" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a87c2105352ea9f8c61355bf892af02f9" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::w4x4PropMatr</definition>
+        <argsstring></argsstring>
+        <name>w4x4PropMatr</name>
+        <qualifiedname>srTSRWRadInData::w4x4PropMatr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="86" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a328594f8067906909b76e264b9125986" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hState4x4PropMatr</definition>
+        <argsstring></argsstring>
+        <name>hState4x4PropMatr</name>
+        <qualifiedname>srTSRWRadInData::hState4x4PropMatr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="87" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a05cffc04933a8b59a262d2ef27020215" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTSRWRadInData::pMomX</definition>
+        <argsstring></argsstring>
+        <name>pMomX</name>
+        <qualifiedname>srTSRWRadInData::pMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="92" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1ab147b7c8d40b4da3e24d1b4ab6c06559" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTSRWRadInData::pMomZ</definition>
+        <argsstring></argsstring>
+        <name>pMomZ</name>
+        <qualifiedname>srTSRWRadInData::pMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="92" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a20573e0dce1ce2e11b7ae7be066ce904" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wMomX</definition>
+        <argsstring></argsstring>
+        <name>wMomX</name>
+        <qualifiedname>srTSRWRadInData::wMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="93" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a3e0079dd19feab8a470a0c44c768a06f" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wMomZ</definition>
+        <argsstring></argsstring>
+        <name>wMomZ</name>
+        <qualifiedname>srTSRWRadInData::wMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="93" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aead25f46b68994608c9785a2a1123ba3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hStateMomX</definition>
+        <argsstring></argsstring>
+        <name>hStateMomX</name>
+        <qualifiedname>srTSRWRadInData::hStateMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="94" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a69220a64a67a89c52ac9c71576ff59bc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hStateMomZ</definition>
+        <argsstring></argsstring>
+        <name>hStateMomZ</name>
+        <qualifiedname>srTSRWRadInData::hStateMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="94" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a5370ccf00c575e7a5cbdfbbe9013b595" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTSRWRadInData::pWfrAuxData</definition>
+        <argsstring></argsstring>
+        <name>pWfrAuxData</name>
+        <qualifiedname>srTSRWRadInData::pWfrAuxData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="98" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a826e79140b4796bd03d0c8cc71a7c027" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWRadInData::wWfrAuxData</definition>
+        <argsstring></argsstring>
+        <name>wWfrAuxData</name>
+        <qualifiedname>srTSRWRadInData::wWfrAuxData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="99" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1ad669f689c1ff7afc86cb085a3fe7e7e4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWRadInData::hStateWfrAuxData</definition>
+        <argsstring></argsstring>
+        <name>hStateWfrAuxData</name>
+        <qualifiedname>srTSRWRadInData::hStateWfrAuxData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="100" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a381b38b066d13799e60297ef23f22d92" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameRad[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameRad</name>
+        <qualifiedname>srTSRWRadInData::NameRad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="103" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aabb17c29b1f907a9c0d2e078ee383ce6" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameRadX[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameRadX</name>
+        <qualifiedname>srTSRWRadInData::NameRadX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="104" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a340c534dc137bbddc38b2c96db11d97b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameRadZ[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameRadZ</name>
+        <qualifiedname>srTSRWRadInData::NameRadZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="104" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a2fa2cecf37a16975696d51b19ca3b8dc" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameElecBeam[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameElecBeam</name>
+        <qualifiedname>srTSRWRadInData::NameElecBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="105" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1ad88536358e02ae46c45e4d5201cb4261" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameTrj[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameTrj</name>
+        <qualifiedname>srTSRWRadInData::NameTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="105" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a1b36e5d7231315d94020420f910a8ec4" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::Name4x4PropMatr[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>Name4x4PropMatr</name>
+        <qualifiedname>srTSRWRadInData::Name4x4PropMatr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="106" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1af2fa851d67d9bbb7105794cfec53145d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameMomX[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameMomX</name>
+        <qualifiedname>srTSRWRadInData::NameMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="107" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a2b8cb9ff761d51e9a426df63c93c4424" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameMomZ[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameMomZ</name>
+        <qualifiedname>srTSRWRadInData::NameMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="107" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a960527abc5541ede98bd969303d2ebfb" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::NameWfrAuxData[MAX_OBJ_NAME+1]</definition>
+        <argsstring>[MAX_OBJ_NAME+1]</argsstring>
+        <name>NameWfrAuxData</name>
+        <qualifiedname>srTSRWRadInData::NameWfrAuxData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="108" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a47e2c1335e4eb8e46e73ce8a7b3b0f7b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wRad_</definition>
+        <argsstring></argsstring>
+        <name>wRad_</name>
+        <qualifiedname>srTSRWRadInData::wRad_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="111" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a7c61ee56f038d0ce93caa97ef5408dab" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wRadX_</definition>
+        <argsstring></argsstring>
+        <name>wRadX_</name>
+        <qualifiedname>srTSRWRadInData::wRadX_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="112" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a71a3444f3576d4da4b7fd207c3c86d11" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wRadZ_</definition>
+        <argsstring></argsstring>
+        <name>wRadZ_</name>
+        <qualifiedname>srTSRWRadInData::wRadZ_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="112" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1af9f89486c13e2035929063cab75a5d78" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wElecBeam_</definition>
+        <argsstring></argsstring>
+        <name>wElecBeam_</name>
+        <qualifiedname>srTSRWRadInData::wElecBeam_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="113" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1aca58329b788ec2b85fda6e5399486c2b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wTrj_</definition>
+        <argsstring></argsstring>
+        <name>wTrj_</name>
+        <qualifiedname>srTSRWRadInData::wTrj_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="113" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1af0ac0b06eceabe2590a98dcc795a6864" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::w4x4PropMatr_</definition>
+        <argsstring></argsstring>
+        <name>w4x4PropMatr_</name>
+        <qualifiedname>srTSRWRadInData::w4x4PropMatr_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="114" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a51c558c0830d4658548aca485195e5ba" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wMomX_</definition>
+        <argsstring></argsstring>
+        <name>wMomX_</name>
+        <qualifiedname>srTSRWRadInData::wMomX_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="115" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a472854b12e7ef06a429d6bd8aae76d6a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wMomZ_</definition>
+        <argsstring></argsstring>
+        <name>wMomZ_</name>
+        <qualifiedname>srTSRWRadInData::wMomZ_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="115" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_rad_in_data_1a9eec57751e6f6cc696b97e395410a4d3" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSRWRadInData::wWfrAuxData_</definition>
+        <argsstring></argsstring>
+        <name>wWfrAuxData_</name>
+        <qualifiedname>srTSRWRadInData::wWfrAuxData_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="116" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_s_r_w_rad_in_data_1a42c6f1ad0013c41f50bca5a25ead132b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTSRWRadInData::srTSRWRadInData</definition>
+        <argsstring>()</argsstring>
+        <name>srTSRWRadInData</name>
+        <qualifiedname>srTSRWRadInData::srTSRWRadInData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="118" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="118" bodyend="145"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srradind_8h_source" kindref="compound">srradind.h</ref> Description: Auxiliary SR calculation related structures (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="35" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="35" bodyend="147"/>
+    <listofallmembers>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a68c8acb9944abb31cfaa27dd2b2b62e2" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>AllowAutoSwitchToPropInUnderSamplingMode</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a91fa8f16ff7a9b3c1476ce387bc0a057" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>avgPhotEn</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1ae2f8b4d2100e6659b9e7051dfc1df976" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>ElecFldUnit</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a5ce7b145408c2bc8a21fd263bb07bcf8" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>eStart</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a6a79fc7be9e4e63893a835d8c8c3dc32" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>eStep</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a328594f8067906909b76e264b9125986" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hState4x4PropMatr</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1abbe83cc11dd3e3eb27e5b02c112dde40" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hStateElecBeam</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aead25f46b68994608c9785a2a1123ba3" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hStateMomX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a69220a64a67a89c52ac9c71576ff59bc" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hStateMomZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a7db0d5d6067133e093c0b6c4a556a6d6" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hStateRadX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1adcbe03b7e4531c5711a5944fffd2c967" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hStateRadZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a36eba0acbbf12bf47f7656ce1354ed20" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hStateTrj</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1ad669f689c1ff7afc86cb085a3fe7e7e4" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>hStateWfrAuxData</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a0c73ef239890edc42c36c90cdbee15d7" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>InvUnderSamplingThreshold</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a9e52c12252103ba709f7822be3d6a392" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>LengthUnit</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a1b36e5d7231315d94020420f910a8ec4" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>Name4x4PropMatr</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a2fa2cecf37a16975696d51b19ca3b8dc" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameElecBeam</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1af2fa851d67d9bbb7105794cfec53145d" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameMomX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a2b8cb9ff761d51e9a426df63c93c4424" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameMomZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a381b38b066d13799e60297ef23f22d92" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameRad</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aabb17c29b1f907a9c0d2e078ee383ce6" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameRadX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a340c534dc137bbddc38b2c96db11d97b" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameRadZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1ad88536358e02ae46c45e4d5201cb4261" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameTrj</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a960527abc5541ede98bd969303d2ebfb" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>NameWfrAuxData</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a27dd4be60f0972410e17d9ab75d21ba1" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>ne</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a514b3a55b29338658b8612be3c182f9e" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>nx</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a7867c8410305d2db91ac587e11e9041b" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>nz</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a6d259576520d35f5677385b2809a8a88" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>p4x4PropMatr</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1ab17827694c3ce8ab7e12eca3cde894da" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>pBaseRadX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a4e290bf3d9352d65532ec9d75c7a1758" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>pBaseRadZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aaccf20f377dc755cf66ffb846746d8a5" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>pElecBeam</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a82d5e06a8efd404c16f9ed2ea4430f06" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>PhotEnergyUnit</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a05cffc04933a8b59a262d2ef27020215" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>pMomX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1ab147b7c8d40b4da3e24d1b4ab6c06559" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>pMomZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1abbcb238e33b232fb4b416040b1ae2b9c" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>Pres</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aa484d84df15c4deff3c5922465e293be" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>PresT</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a5370ccf00c575e7a5cbdfbbe9013b595" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>pWfrAuxData</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1afc31712c4abfffb29ebe1d86a22d497f" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>RobsX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a3dcfe37e60b919fe87662964255a57e6" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>RobsXAbsErr</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a02ef74083a6cfbe80bcbd32587de741c" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>RobsZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a7af4a3de93fd305c693b189f11f0a0f1" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>RobsZAbsErr</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a42c6f1ad0013c41f50bca5a25ead132b" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>srTSRWRadInData</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a67482b910d145bc39fb460ee54ed0145" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>UnderSamplingX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a8ce51f9bcd62c9943377a34ddd93f37b" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>UnderSamplingZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a87c2105352ea9f8c61355bf892af02f9" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>w4x4PropMatr</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1af0ac0b06eceabe2590a98dcc795a6864" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>w4x4PropMatr_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a1a469a422d993a4140171a0d40516f8c" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wElecBeam</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1af9f89486c13e2035929063cab75a5d78" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wElecBeam_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a20573e0dce1ce2e11b7ae7be066ce904" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wMomX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a51c558c0830d4658548aca485195e5ba" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wMomX_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a3e0079dd19feab8a470a0c44c768a06f" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wMomZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a472854b12e7ef06a429d6bd8aae76d6a" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wMomZ_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1ac03cef3bc2375068f2487e521e5c89d1" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wRad</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a47e2c1335e4eb8e46e73ce8a7b3b0f7b" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wRad_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a489f14f563fbe1e46bae39c1349c5eff" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wRadX</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a7c61ee56f038d0ce93caa97ef5408dab" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wRadX_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a1bc3f04a4da3992fd389186931ed0c65" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wRadZ</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a71a3444f3576d4da4b7fd207c3c86d11" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wRadZ_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a6a11327d60915cbb8b937418580f65f4" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wTrj</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aca58329b788ec2b85fda6e5399486c2b" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wTrj_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a826e79140b4796bd03d0c8cc71a7c027" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wWfrAuxData</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a9eec57751e6f6cc696b97e395410a4d3" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>wWfrAuxData_</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a7c6adcb174a51aab237e60707f124893" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>xc</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1ad5c227a0c057c6cad1bf9835c08139a9" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>xStart</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aa92758b9e6c8cd80275cdddb46aeca02" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>xStep</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1af694a151d174eb6dd458986e0aed8db6" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>xWfrMax</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aa0cb8deefca96d7b4604bba2257231cf" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>xWfrMin</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a0f1ddf37e992cefa5c63dae37246592f" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>zc</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a5405fcf15ef061812e982399c56ded9f" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>zStart</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1aa0163b8620f034dc5dd9174f8f3b7e75" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>zStep</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a568552c06d7431361b3187c048ea00fc" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>zWfrMax</name></member>
+      <member refid="structsr_t_s_r_w_rad_in_data_1a99b2b0757a6d76c6a2938d831e5c3eae" prot="public" virt="non-virtual"><scope>srTSRWRadInData</scope><name>zWfrMin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

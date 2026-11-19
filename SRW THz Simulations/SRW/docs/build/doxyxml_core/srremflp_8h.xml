@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srremflp_8h" kind="file" language="C++">
+    <compoundname>srremflp.h</compoundname>
+    <includes refid="srstraux_8h" local="yes">srstraux.h</includes>
+    <includedby refid="srremflp_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.cpp</includedby>
+    <incdepgraph>
+      <node id="16">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="6">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h</label>
+        <link refid="srremflp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="13">
+        <label>ctype.h</label>
+      </node>
+      <node id="14">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="15">
+        <label>gmvect.h</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>math.h</label>
+      </node>
+      <node id="9">
+        <label>smartptr.h</label>
+      </node>
+      <node id="5">
+        <label>srigorre.h</label>
+      </node>
+      <node id="18">
+        <label>srinterf.h</label>
+      </node>
+      <node id="21">
+        <label>srwlib.h</label>
+      </node>
+      <node id="10">
+        <label>stlstart.h</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="12">
+        <label>string.h</label>
+      </node>
+      <node id="22">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classsr_t_aux_remove_flips" prot="public">srTAuxRemoveFlips</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRREMFLP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRREMFLP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srstraux.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classsr_t_aux_remove_flips" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_aux_remove_flips" kindref="compound">srTAuxRemoveFlips</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classsr_t_aux_remove_flips_1a251a72476ba42249ca3cfcb1b0d38a60" kindref="member">GenRemoveFlips</ref>(<ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref>&amp;<sp/>WaveData);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>RemoveFlips1D(DOUBLE*<sp/>pData,<sp/>long<sp/>long<sp/>Np,<sp/>long<sp/>long<sp/>i0,<sp/>double<sp/>Phi0);<sp/>//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RemoveFlips1D(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Np,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Phi0);<sp/></highlight><highlight class="comment">//OC26112019<sp/>(related<sp/>to<sp/>SRW<sp/>port<sp/>to<sp/>IGOR<sp/>XOP8<sp/>on<sp/>Mac)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>RemoveFlips1D(DOUBLE*<sp/>pData,<sp/>long<sp/>Np,<sp/>long<sp/>i0,<sp/>double<sp/>Phi0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RemoveFlips1D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>pData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Np,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Phi0);<sp/></highlight><highlight class="comment">//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>RemoveFlips1D(float*<sp/>pData,<sp/>long<sp/>Np,<sp/>long<sp/>i0,<sp/>double<sp/>Phi0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RemoveFlips2D_D(<ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref>&amp;<sp/>WaveData);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RemoveFlips2D_F(<ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref>&amp;<sp/>WaveData);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h"/>
+  </compounddef>
+</doxygen>

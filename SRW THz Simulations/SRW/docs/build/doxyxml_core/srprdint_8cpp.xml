@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srprdint_8cpp" kind="file" language="C++">
+    <compoundname>srprdint.cpp</compoundname>
+    <includes refid="srprdint_8h" local="yes">srprdint.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="25">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.cpp</label>
+        <link refid="srprdint_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srprdint.h</label>
+        <link refid="srprdint_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="24">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="29">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="28">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="15">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="16">
+        <label>gmvect.h</label>
+      </node>
+      <node id="9">
+        <label>map</label>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="27">
+        <label>objcont.h</label>
+      </node>
+      <node id="10">
+        <label>smartptr.h</label>
+      </node>
+      <node id="6">
+        <label>srigorre.h</label>
+      </node>
+      <node id="19">
+        <label>srinterf.h</label>
+      </node>
+      <node id="22">
+        <label>srwlib.h</label>
+      </node>
+      <node id="11">
+        <label>stlstart.h</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+      <node id="23">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__IGOR_PRO__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srigintr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srprdint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//srTPartAutoRadInt::srTPartAutoRadInt(srTTrjDat*<sp/>InTrjDatPtr,<sp/>srTWfrSmp*<sp/>InDistrInfoDatPtr,<sp/>srLambXYZ*<sp/>InObsCoorPtr,<sp/>double<sp/>In_sStart,<sp/>double<sp/>In_sFin,<sp/>double<sp/>In_sRelPrec,<sp/>int<sp/>InNpOnZeroLevel)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="classsr_t_part_auto_rad_int_1a452a4cda4c0da1c0af6bc7dfbfbc2792" kindref="member">srTPartAutoRadInt::srTPartAutoRadInt</ref>(<ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*<sp/>InTrjDatPtr,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>InDistrInfoDatPtr,<sp/><ref refid="structsr_lamb_x_y_z" kindref="compound">srLambXYZ</ref>*<sp/>InObsCoorPtr,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>In_sStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>In_sFin,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>In_sRelPrec,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>InNpOnZeroLevel)<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>TrjDatPtr<sp/>=<sp/>InTrjDatPtr;<sp/>DistrInfoDatPtr<sp/>=<sp/>InDistrInfoDatPtr;<sp/>ObsCoorPtr<sp/>=<sp/>InObsCoorPtr;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>sIntegStart<sp/>=<sp/>In_sStart;<sp/>sIntegFin<sp/>=<sp/>In_sFin;<sp/>sIntegRelPrec<sp/>=<sp/>In_sRelPrec;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>NpOnZeroLevel<sp/>=<sp/>InNpOnZeroLevel;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>AuxDataPtr<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>SomethingIsWrong<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>TwoNpOnZeroLevel_mi_1<sp/>=<sp/>2*NpOnZeroLevel<sp/>-<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>TwoNpOnZeroLevel_mi_1<sp/>=<sp/>2*NpOnZeroLevel<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufStPtr,<sp/>*BufPtr;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TwoNpOnZeroLevel_mi_1*16<sp/>&lt;<sp/>1000)<sp/>BufStPtr<sp/>=<sp/>AuxDataArray;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AuxDataPtr<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[TwoNpOnZeroLevel_mi_1*16];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(AuxDataPtr<sp/>==<sp/>0)<sp/>{<sp/>Send.ErrorMessage(&quot;SR::Error900&quot;);<sp/>SomethingIsWrong<sp/>=<sp/>1;<sp/>return;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(AuxDataPtr<sp/>==<sp/>0)<sp/>{<sp/>SomethingIsWrong<sp/>=<sp/>1;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BufStPtr<sp/>=<sp/>AuxDataPtr;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>BufPtr<sp/>=<sp/>BufStPtr<sp/>+<sp/>TwoNpOnZeroLevel_mi_1*8;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufBtxArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>TwoNpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufXArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>TwoNpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufIntBtxE2ArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>TwoNpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufBxArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>TwoNpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufBtzArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>TwoNpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufZArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>TwoNpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufIntBtzE2ArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>TwoNpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BufBzArrP<sp/>=<sp/>BufPtr;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>TrjDatPtr-&gt;CompTotalTrjData(sIntegStart,<sp/>sIntegFin,<sp/>TwoNpOnZeroLevel_mi_1,<sp/>BufBtxArrP,<sp/>BufBtzArrP,<sp/>BufXArrP,<sp/>BufZArrP,<sp/>BufIntBtxE2ArrP,<sp/>BufIntBtzE2ArrP,<sp/>BufBxArrP,<sp/>BufBzArrP);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>NpOnZeroLevel_mi_1<sp/>=<sp/>NpOnZeroLevel<sp/>-<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NpOnZeroLevel_mi_1<sp/>=<sp/>NpOnZeroLevel<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*TrTotDat<sp/>=<sp/>BufStPtr<sp/>+<sp/>TwoNpOnZeroLevel_mi_1*8;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k=0;<sp/>k&lt;8;<sp/>k++)<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*TrLev0<sp/>=<sp/>BufStPtr<sp/>+<sp/>NpOnZeroLevel*k,<sp/>*TrLev1<sp/>=<sp/>BufStPtr<sp/>+<sp/>NpOnZeroLevel*8<sp/>+<sp/>NpOnZeroLevel_mi_1*k;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for(int<sp/>i=0;<sp/>i&lt;NpOnZeroLevel_mi_1;<sp/>i++)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;NpOnZeroLevel_mi_1;<sp/>i++)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(TrLev0++)<sp/>=<sp/>*(TrTotDat++);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(TrLev1++)<sp/>=<sp/>*(TrTotDat++);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(TrLev0++)<sp/>=<sp/>*(TrTotDat++);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>BufPtr<sp/>=<sp/>BufStPtr;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>*BtxArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>*XArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>*IntBtxE2ArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>*BxArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>*BtzArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>*ZArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>*IntBtzE2ArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>*BzArrP<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>*(BtxArrP+1)<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>*(XArrP+1)<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>*(IntBtxE2ArrP+1)<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>*(BxArrP+1)<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>*(BtzArrP+1)<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>*(ZArrP+1)<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>*(IntBtzE2ArrP+1)<sp/>=<sp/>BufPtr;<sp/>BufPtr<sp/>+=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>*(BzArrP+1)<sp/>=<sp/>BufPtr;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>*AmOfPointsOnLevel<sp/>=<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>*(AmOfPointsOnLevel+1)<sp/>=<sp/>NpOnZeroLevel_mi_1;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j=2;<sp/>j&lt;50;<sp/>j++)<sp/>*(AmOfPointsOnLevel+j)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>NumberOfLevelsFilled<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>MaxFluxDensVal<sp/>=<sp/>CurrentAbsPrec<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>wfe<sp/>=<sp/>7./15.;<sp/>wf1<sp/>=<sp/>16./15.;<sp/>wf2<sp/>=<sp/>14./15.;<sp/>wd<sp/>=<sp/>1./15.;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>PI<sp/>=<sp/>3.141592653590;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>TwoPI<sp/>=<sp/>2.*PI;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>ThreePIdTwo<sp/>=<sp/>1.5*PI;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>FivePIdFour<sp/>=<sp/>1.25*PI;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>HalfPI<sp/>=<sp/>0.5*<sp/>PI;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>One_dTwoPI<sp/>=<sp/>1./TwoPI;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>PIm10e6<sp/>=<sp/>PI*1.E+06;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>PIm10e6dEnCon<sp/>=<sp/>PIm10e6*0.80654658;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>TenEm6dTwoPI<sp/>=<sp/>1.E-06/TwoPI;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>a2c<sp/>=<sp/>-0.5;<sp/>a4c<sp/>=<sp/>1./24.;<sp/>a6c<sp/>=<sp/>-1./720.;<sp/>a8c<sp/>=<sp/>1./40320.;<sp/>a10c<sp/>=<sp/>-1./3628800.;<sp/>a12c<sp/>=<sp/>1./479001600.;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>a3s<sp/>=<sp/>-1./6.;<sp/>a5s<sp/>=<sp/>1./120.;<sp/>a7s<sp/>=<sp/>-1./5040.;<sp/>a9s<sp/>=<sp/>1./362880.;<sp/>a11s<sp/>=<sp/>-1./39916800.;<sp/>a13s<sp/>=<sp/>1./6227020800.;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srTPartAutoRadInt::Integrate(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>OutIntXRe,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>OutIntXIm,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>OutIntZRe,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>OutIntZIm,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>InEdgeFunDer)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ActNormConst<sp/>=<sp/>(DistrInfoDatPtr-&gt;TreatLambdaAsEnergyIn_eV)?<sp/>DistrInfoDatPtr-&gt;NormalizingConst*ObsCoorPtr-&gt;Lamb*0.80654658E-03<sp/>:<sp/>DistrInfoDatPtr-&gt;NormalizingConst/ObsCoorPtr-&gt;Lamb;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PIm10e9_d_Lamb<sp/>=<sp/>(DistrInfoDatPtr-&gt;TreatLambdaAsEnergyIn_eV)?<sp/>PIm10e6dEnCon*ObsCoorPtr-&gt;Lamb<sp/>:<sp/>PIm10e6*1000./ObsCoorPtr-&gt;Lamb;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>NearField<sp/>=<sp/>(DistrInfoDatPtr-&gt;CoordOrAngPresentation<sp/>==<sp/>CoordPres);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EdgeFunDer[16];</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>EdgeFunDerNotComputed<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(InEdgeFunDer<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k=0;<sp/>k&lt;16;<sp/>k++)<sp/>EdgeFunDer[k]<sp/>=<sp/>InEdgeFunDer[k];</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDerNotComputed<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>NpOnLevel<sp/>=<sp/>NpOnZeroLevel<sp/>-<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NpOnLevel<sp/>=<sp/>NpOnZeroLevel<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStep<sp/>=<sp/>(sIntegFin<sp/>-<sp/>sIntegStart)/NpOnLevel;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Ax,<sp/>Az,<sp/>Ph,<sp/>CosPh,<sp/>SinPh,<sp/>PhPrev,<sp/>PhInit;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xObs<sp/>=<sp/>ObsCoorPtr-&gt;x,<sp/>yObs<sp/>=<sp/>ObsCoorPtr-&gt;y,<sp/>zObs<sp/>=<sp/>ObsCoorPtr-&gt;z,<sp/>GmEm2<sp/>=<sp/>TrjDatPtr-&gt;EbmDat.GammaEm2;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>One_d_ymis,<sp/>xObs_mi_x,<sp/>zObs_mi_z,<sp/>Nx,<sp/>Nz,<sp/>Btx_mi_Nx,<sp/>Btz_mi_Nz,<sp/>dPhds,<sp/>dAxds,<sp/>dAzds;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AngPhConst,<sp/>Two_xObs,<sp/>Two_zObs;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Sum1XRe=0.,<sp/>Sum1XIm=0.,<sp/>Sum1ZRe=0.,<sp/>Sum1ZIm=0.,<sp/>Sum2XRe=0.,<sp/>Sum2XIm=0.,<sp/>Sum2ZRe=0.,<sp/>Sum2ZIm=0.;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>wFxRe,<sp/>wFxIm,<sp/>wFzRe,<sp/>wFzIm;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pBtx<sp/>=<sp/>*BtxArrP,<sp/>*pBtz<sp/>=<sp/>*BtzArrP,<sp/>*pX<sp/>=<sp/>*XArrP,<sp/>*pZ<sp/>=<sp/>*ZArrP,<sp/>*pIntBtxE2<sp/>=<sp/>*IntBtxE2ArrP,<sp/>*pIntBtzE2<sp/>=<sp/>*IntBtzE2ArrP;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NearField)<sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./(yObs<sp/>-<sp/>sIntegStart);<sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xObs_mi_x<sp/>=<sp/>xObs<sp/>-<sp/>*(pX++);<sp/>zObs_mi_z<sp/>=<sp/>zObs<sp/>-<sp/>*(pZ++);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>xObs_mi_x*One_d_ymis,<sp/>Nz<sp/>=<sp/>zObs_mi_z*One_d_ymis;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(sIntegStart*GmEm2<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>+<sp/>xObs_mi_x*Nx<sp/>+<sp/>zObs_mi_z*Nz);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Btx_mi_Nx<sp/>=<sp/>*(pBtx++)<sp/>-<sp/>Nx;<sp/>Btz_mi_Nz<sp/>=<sp/>*(pBtz++)<sp/>-<sp/>Nz;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>Btx_mi_Nx*One_d_ymis;<sp/>Az<sp/>=<sp/>Btz_mi_Nz*One_d_ymis;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AngPhConst<sp/>=<sp/>GmEm2<sp/>+<sp/>xObs*xObs<sp/>+<sp/>zObs*zObs;<sp/>Two_xObs<sp/>=<sp/>2.*xObs;<sp/>Two_zObs<sp/>=<sp/>2.*zObs;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(sIntegStart*AngPhConst<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>-<sp/>(Two_xObs*(*(pX++))<sp/>+<sp/>Two_zObs*(*(pZ++))));</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>*(pBtx++)<sp/>-<sp/>xObs;<sp/>Az<sp/>=<sp/>*(pBtz++)<sp/>-<sp/>zObs;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>PhInit<sp/>=<sp/>Ph;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EdgeFunDerNotComputed)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NearField)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dPhds<sp/>=<sp/>PIm10e9_d_Lamb*(GmEm2<sp/>+<sp/>Btx_mi_Nx*Btx_mi_Nx<sp/>+<sp/>Btz_mi_Nz*Btz_mi_Nz);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAxds<sp/>=<sp/>(2.*Ax<sp/>+<sp/>(TrjDatPtr-&gt;BetaNormConst)*(**BzArrP))*One_d_ymis;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAzds<sp/>=<sp/>(2.*Az<sp/>+<sp/>(-TrjDatPtr-&gt;BetaNormConst)*(**BxArrP))*One_d_ymis;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dPhds<sp/>=<sp/>PIm10e9_d_Lamb*(GmEm2<sp/>+<sp/>Ax*Ax<sp/>+<sp/>Az*Az);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAxds<sp/>=<sp/>(TrjDatPtr-&gt;BetaNormConst)*(**BzArrP);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAzds<sp/>=<sp/>(-TrjDatPtr-&gt;BetaNormConst)*(**BxArrP);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CosAndSin(Ph,<sp/>CosPh,<sp/>SinPh);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wFxRe<sp/>=<sp/>Ax*CosPh;<sp/>wFxIm<sp/>=<sp/>Ax*SinPh;<sp/>wFzRe<sp/>=<sp/>Az*CosPh;<sp/>wFzIm<sp/>=<sp/>Az*SinPh;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dPhdsSinPh<sp/>=<sp/>dPhds*SinPh,<sp/>dPhdsCosPh<sp/>=<sp/>dPhds*CosPh;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[4]<sp/>=<sp/>dAxds*CosPh<sp/>-<sp/>Ax*dPhdsSinPh;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[5]<sp/>=<sp/>dAxds*SinPh<sp/>+<sp/>Ax*dPhdsCosPh;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[6]<sp/>=<sp/>dAzds*CosPh<sp/>-<sp/>Az*dPhdsSinPh;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[7]<sp/>=<sp/>dAzds*SinPh<sp/>+<sp/>Az*dPhdsCosPh;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wFxRe<sp/>=<sp/>*EdgeFunDer;<sp/>wFxIm<sp/>=<sp/>EdgeFunDer[1];<sp/>wFzRe<sp/>=<sp/>EdgeFunDer[2];<sp/>wFzIm<sp/>=<sp/>EdgeFunDer[3];</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>AmOfLoops<sp/>=<sp/>(NpOnZeroLevel<sp/>-<sp/>3)<sp/>&gt;&gt;<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>AmOfLoops<sp/>=<sp/>(NpOnZeroLevel<sp/>-<sp/>3)<sp/>&gt;&gt;<sp/>1;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s<sp/>=<sp/>sIntegStart<sp/>+<sp/>sStep;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for(int<sp/>i=0;<sp/>i&lt;AmOfLoops;<sp/>i++)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;AmOfLoops;<sp/>i++)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NearField)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./(yObs<sp/>-<sp/>s);<sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xObs_mi_x<sp/>=<sp/>xObs<sp/>-<sp/>*(pX++);<sp/>zObs_mi_z<sp/>=<sp/>zObs<sp/>-<sp/>*(pZ++);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>xObs_mi_x*One_d_ymis,<sp/>Nz<sp/>=<sp/>zObs_mi_z*One_d_ymis;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*GmEm2<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>+<sp/>xObs_mi_x*Nx<sp/>+<sp/>zObs_mi_z*Nz);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>(*(pBtx++)<sp/>-<sp/>Nx)*One_d_ymis;<sp/>Az<sp/>=<sp/>(*(pBtz++)<sp/>-<sp/>Nz)*One_d_ymis;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*AngPhConst<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>-<sp/>(Two_xObs*(*(pX++))<sp/>+<sp/>Two_zObs*(*(pZ++))));</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>*(pBtx++)<sp/>-<sp/>xObs;<sp/>Az<sp/>=<sp/>*(pBtz++)<sp/>-<sp/>zObs;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CosAndSin(Ph,<sp/>CosPh,<sp/>SinPh);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sum1XRe<sp/>+=<sp/>Ax*CosPh;<sp/>Sum1XIm<sp/>+=<sp/>Ax*SinPh;<sp/>Sum1ZRe<sp/>+=<sp/>Az*CosPh;<sp/>Sum1ZIm<sp/>+=<sp/>Az*SinPh;<sp/>s<sp/>+=<sp/>sStep;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NearField)<sp/></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./(yObs<sp/>-<sp/>s);<sp/></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xObs_mi_x<sp/>=<sp/>xObs<sp/>-<sp/>*(pX++);<sp/>zObs_mi_z<sp/>=<sp/>zObs<sp/>-<sp/>*(pZ++);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>xObs_mi_x*One_d_ymis,<sp/>Nz<sp/>=<sp/>zObs_mi_z*One_d_ymis;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*GmEm2<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>+<sp/>xObs_mi_x*Nx<sp/>+<sp/>zObs_mi_z*Nz);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>(*(pBtx++)<sp/>-<sp/>Nx)*One_d_ymis;<sp/>Az<sp/>=<sp/>(*(pBtz++)<sp/>-<sp/>Nz)*One_d_ymis;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*AngPhConst<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>-<sp/>(Two_xObs*(*(pX++))<sp/>+<sp/>Two_zObs*(*(pZ++))));</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>*(pBtx++)<sp/>-<sp/>xObs;<sp/>Az<sp/>=<sp/>*(pBtz++)<sp/>-<sp/>zObs;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CosAndSin(Ph,<sp/>CosPh,<sp/>SinPh);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sum2XRe<sp/>+=<sp/>Ax*CosPh;<sp/>Sum2XIm<sp/>+=<sp/>Ax*SinPh;<sp/>Sum2ZRe<sp/>+=<sp/>Az*CosPh;<sp/>Sum2ZIm<sp/>+=<sp/>Az*SinPh;<sp/>s<sp/>+=<sp/>sStep;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NearField)<sp/></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./(yObs<sp/>-<sp/>s);<sp/></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xObs_mi_x<sp/>=<sp/>xObs<sp/>-<sp/>*(pX++);<sp/>zObs_mi_z<sp/>=<sp/>zObs<sp/>-<sp/>*(pZ++);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>xObs_mi_x*One_d_ymis,<sp/>Nz<sp/>=<sp/>zObs_mi_z*One_d_ymis;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*GmEm2<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>+<sp/>xObs_mi_x*Nx<sp/>+<sp/>zObs_mi_z*Nz);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>(*(pBtx++)<sp/>-<sp/>Nx)*One_d_ymis;<sp/>Az<sp/>=<sp/>(*(pBtz++)<sp/>-<sp/>Nz)*One_d_ymis;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*AngPhConst<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>-<sp/>(Two_xObs*(*(pX++))<sp/>+<sp/>Two_zObs*(*(pZ++))));</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>*(pBtx++)<sp/>-<sp/>xObs;<sp/>Az<sp/>=<sp/>*(pBtz++)<sp/>-<sp/>zObs;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>CosAndSin(Ph,<sp/>CosPh,<sp/>SinPh);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>Sum1XRe<sp/>+=<sp/>Ax*CosPh;<sp/>Sum1XIm<sp/>+=<sp/>Ax*SinPh;<sp/>Sum1ZRe<sp/>+=<sp/>Az*CosPh;<sp/>Sum1ZIm<sp/>+=<sp/>Az*SinPh;<sp/>s<sp/>+=<sp/>sStep;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EdgeFunDerNotComputed)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NearField)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./(yObs<sp/>-<sp/>s);<sp/></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xObs_mi_x<sp/>=<sp/>xObs<sp/>-<sp/>*pX;<sp/>zObs_mi_z<sp/>=<sp/>zObs<sp/>-<sp/>*pZ;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>xObs_mi_x*One_d_ymis,<sp/>Nz<sp/>=<sp/>zObs_mi_z*One_d_ymis;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*GmEm2<sp/>+<sp/>*pIntBtxE2<sp/>+<sp/>*pIntBtzE2<sp/>+<sp/>xObs_mi_x*Nx<sp/>+<sp/>zObs_mi_z*Nz);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Btx_mi_Nx<sp/>=<sp/>*pBtx<sp/>-<sp/>Nx;<sp/>Btz_mi_Nz<sp/>=<sp/>*pBtz<sp/>-<sp/>Nz;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>Btx_mi_Nx*One_d_ymis;<sp/>Az<sp/>=<sp/>Btz_mi_Nz*One_d_ymis;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dPhds<sp/>=<sp/>PIm10e9_d_Lamb*(GmEm2<sp/>+<sp/>Btx_mi_Nx*Btx_mi_Nx<sp/>+<sp/>Btz_mi_Nz*Btz_mi_Nz);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAxds<sp/>=<sp/>(2.*Ax<sp/>+<sp/>(TrjDatPtr-&gt;BetaNormConst)*((*BzArrP)[NpOnLevel]))*One_d_ymis;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAzds<sp/>=<sp/>(2.*Az<sp/>+<sp/>(-TrjDatPtr-&gt;BetaNormConst)*((*BxArrP)[NpOnLevel]))*One_d_ymis;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*AngPhConst<sp/>+<sp/>*pIntBtxE2<sp/>+<sp/>*pIntBtzE2<sp/>-<sp/>(Two_xObs*(*pX)<sp/>+<sp/>Two_zObs*(*pZ)));</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>*pBtx<sp/>-<sp/>xObs;<sp/>Az<sp/>=<sp/>*pBtz<sp/>-<sp/>zObs;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dPhds<sp/>=<sp/>PIm10e9_d_Lamb*(GmEm2<sp/>+<sp/>Ax*Ax<sp/>+<sp/>Az*Az);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAxds<sp/>=<sp/>(TrjDatPtr-&gt;BetaNormConst)*((*BzArrP)[NpOnLevel]);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dAzds<sp/>=<sp/>(-TrjDatPtr-&gt;BetaNormConst)*((*BxArrP)[NpOnLevel]);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CosAndSin(Ph,<sp/>CosPh,<sp/>SinPh);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wFxRe<sp/>+=<sp/>Ax*CosPh;<sp/>wFxIm<sp/>+=<sp/>Ax*SinPh;<sp/>wFzRe<sp/>+=<sp/>Az*CosPh;<sp/>wFzIm<sp/>+=<sp/>Az*SinPh;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dPhdsSinPh<sp/>=<sp/>dPhds*SinPh,<sp/>dPhdsCosPh<sp/>=<sp/>dPhds*CosPh;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[12]<sp/>=<sp/>dAxds*CosPh<sp/>-<sp/>Ax*dPhdsSinPh;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[13]<sp/>=<sp/>dAxds*SinPh<sp/>+<sp/>Ax*dPhdsCosPh;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[14]<sp/>=<sp/>dAzds*CosPh<sp/>-<sp/>Az*dPhdsSinPh;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeFunDer[15]<sp/>=<sp/>dAzds*SinPh<sp/>+<sp/>Az*dPhdsCosPh;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wFxRe<sp/>+=<sp/>EdgeFunDer[8];<sp/>wFxIm<sp/>+=<sp/>EdgeFunDer[9];<sp/>wFzRe<sp/>+=<sp/>EdgeFunDer[10];<sp/>wFzIm<sp/>+=<sp/>EdgeFunDer[11];</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>wFxRe<sp/>*=<sp/>wfe;<sp/>wFxIm<sp/>*=<sp/>wfe;<sp/>wFzRe<sp/>*=<sp/>wfe;<sp/>wFzIm<sp/>*=<sp/>wfe;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>wDifDerXRe<sp/>=<sp/>wd*(EdgeFunDer[4]<sp/>-<sp/>EdgeFunDer[12]),<sp/>wDifDerXIm<sp/>=<sp/>wd*(EdgeFunDer[5]<sp/>-<sp/>EdgeFunDer[13]);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>wDifDerZRe<sp/>=<sp/>wd*(EdgeFunDer[6]<sp/>-<sp/>EdgeFunDer[14]),<sp/>wDifDerZIm<sp/>=<sp/>wd*(EdgeFunDer[7]<sp/>-<sp/>EdgeFunDer[15]);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ActNormConstStep<sp/>=<sp/>ActNormConst*sStep;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>IntXRe<sp/>=<sp/>ActNormConstStep*(wFxRe<sp/>+<sp/>wf1*Sum1XRe<sp/>+<sp/>wf2*Sum2XRe<sp/>+<sp/>sStep*wDifDerXRe);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>IntXIm<sp/>=<sp/>ActNormConstStep*(wFxIm<sp/>+<sp/>wf1*Sum1XIm<sp/>+<sp/>wf2*Sum2XIm<sp/>+<sp/>sStep*wDifDerXIm);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>IntZRe<sp/>=<sp/>ActNormConstStep*(wFzRe<sp/>+<sp/>wf1*Sum1ZRe<sp/>+<sp/>wf2*Sum2ZRe<sp/>+<sp/>sStep*wDifDerZRe);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>IntZIm<sp/>=<sp/>ActNormConstStep*(wFzIm<sp/>+<sp/>wf1*Sum1ZIm<sp/>+<sp/>wf2*Sum2ZIm<sp/>+<sp/>sStep*wDifDerZIm);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SqNorm<sp/>=<sp/>IntXRe*IntXRe<sp/>+<sp/>IntXIm*IntXIm<sp/>+<sp/>IntZRe*IntZRe<sp/>+<sp/>IntZIm*IntZIm;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LevelNo<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>NotFinishedYet<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(NotFinishedYet)</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sum2XRe<sp/>+=<sp/>Sum1XRe;<sp/>Sum2XIm<sp/>+=<sp/>Sum1XIm;<sp/>Sum2ZRe<sp/>+=<sp/>Sum1ZRe;<sp/>Sum2ZIm<sp/>+=<sp/>Sum1ZIm;<sp/></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sum1XRe<sp/>=<sp/>Sum1XIm<sp/>=<sp/>Sum1ZRe<sp/>=<sp/>Sum1ZIm<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ThisMayBeTheLastLoop<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PhPrev<sp/>=<sp/>PhInit;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LevelNo++;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HalfStep<sp/>=<sp/>0.5*sStep;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>sIntegStart<sp/>+<sp/>HalfStep;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NumberOfLevelsFilled<sp/>&lt;=<sp/>LevelNo)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>FillNextLevel(LevelNo,<sp/>s,<sp/>sIntegFin<sp/>-<sp/>HalfStep,<sp/>NpOnLevel))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pBtx<sp/>=<sp/>BtxArrP[LevelNo],<sp/>pBtz<sp/>=<sp/>BtzArrP[LevelNo],<sp/>pX<sp/>=<sp/>XArrP[LevelNo],<sp/>pZ<sp/>=<sp/>ZArrP[LevelNo],<sp/>pIntBtxE2<sp/>=<sp/>IntBtxE2ArrP[LevelNo],<sp/>pIntBtzE2<sp/>=<sp/>IntBtzE2ArrP[LevelNo];</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for(int<sp/>i=0;<sp/>i&lt;NpOnLevel;<sp/>i++)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;NpOnLevel;<sp/>i++)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NearField)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./(yObs<sp/>-<sp/>s);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xObs_mi_x<sp/>=<sp/>xObs<sp/>-<sp/>*(pX++);<sp/>zObs_mi_z<sp/>=<sp/>zObs<sp/>-<sp/>*(pZ++);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>xObs_mi_x*One_d_ymis,<sp/>Nz<sp/>=<sp/>zObs_mi_z*One_d_ymis;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*GmEm2<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>+<sp/>xObs_mi_x*Nx<sp/>+<sp/>zObs_mi_z*Nz);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>(*(pBtx++)<sp/>-<sp/>Nx)*One_d_ymis;<sp/>Az<sp/>=<sp/>(*(pBtz++)<sp/>-<sp/>Nz)*One_d_ymis;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ph<sp/>=<sp/>PIm10e9_d_Lamb*(s*AngPhConst<sp/>+<sp/>*(pIntBtxE2++)<sp/>+<sp/>*(pIntBtzE2++)<sp/>-<sp/>(Two_xObs*(*(pX++))<sp/>+<sp/>Two_zObs*(*(pZ++))));</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ax<sp/>=<sp/>*(pBtx++)<sp/>-<sp/>xObs;<sp/>Az<sp/>=<sp/>*(pBtz++)<sp/>-<sp/>zObs;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CosAndSin(Ph,<sp/>CosPh,<sp/>SinPh);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sum1XRe<sp/>+=<sp/>Ax*CosPh;<sp/>Sum1XIm<sp/>+=<sp/>Ax*SinPh;<sp/>Sum1ZRe<sp/>+=<sp/>Az*CosPh;<sp/>Sum1ZIm<sp/>+=<sp/>Az*SinPh;<sp/>s<sp/>+=<sp/>sStep;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Ph<sp/>-<sp/>PhPrev<sp/>&gt;<sp/>FivePIdFour)<sp/>ThisMayBeTheLastLoop<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PhPrev<sp/>=<sp/>Ph;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ActNormConstHalfStep<sp/>=<sp/>ActNormConst*HalfStep;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LocIntXRe<sp/>=<sp/>ActNormConstHalfStep*(wFxRe<sp/>+<sp/>wf1*Sum1XRe<sp/>+<sp/>wf2*Sum2XRe<sp/>+<sp/>HalfStep*wDifDerXRe);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LocIntXIm<sp/>=<sp/>ActNormConstHalfStep*(wFxIm<sp/>+<sp/>wf1*Sum1XIm<sp/>+<sp/>wf2*Sum2XIm<sp/>+<sp/>HalfStep*wDifDerXIm);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LocIntZRe<sp/>=<sp/>ActNormConstHalfStep*(wFzRe<sp/>+<sp/>wf1*Sum1ZRe<sp/>+<sp/>wf2*Sum2ZRe<sp/>+<sp/>HalfStep*wDifDerZRe);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LocIntZIm<sp/>=<sp/>ActNormConstHalfStep*(wFzIm<sp/>+<sp/>wf1*Sum1ZIm<sp/>+<sp/>wf2*Sum2ZIm<sp/>+<sp/>HalfStep*wDifDerZIm);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LocSqNorm<sp/>=<sp/>LocIntXRe*LocIntXRe<sp/>+<sp/>LocIntXIm*LocIntXIm<sp/>+<sp/>LocIntZRe*LocIntZRe<sp/>+<sp/>LocIntZIm*LocIntZIm;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ThisMayBeTheLastLoop)</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>TestVal<sp/>=<sp/>::fabs(LocSqNorm<sp/>-<sp/>SqNorm);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MaxFluxDensVal<sp/>&gt;<sp/>0)<sp/>NotFinishedYet<sp/>=<sp/>(TestVal<sp/>&gt;<sp/>CurrentAbsPrec);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>NotFinishedYet<sp/>=<sp/>(TestVal/LocSqNorm<sp/>&gt;<sp/>sIntegRelPrec);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IntXRe<sp/>=<sp/>LocIntXRe;<sp/>IntXIm<sp/>=<sp/>LocIntXIm;<sp/>IntZRe<sp/>=<sp/>LocIntZRe;<sp/>IntZIm<sp/>=<sp/>LocIntZIm;<sp/>SqNorm<sp/>=<sp/>LocSqNorm;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sStep<sp/>=<sp/>HalfStep;<sp/>NpOnLevel<sp/>*=<sp/>2;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>OutIntXRe<sp/>+=<sp/>IntXRe;<sp/>OutIntXIm<sp/>+=<sp/>IntXIm;<sp/>OutIntZRe<sp/>+=<sp/>IntZRe;<sp/>OutIntZIm<sp/>+=<sp/>IntZIm;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MaxFluxDensVal<sp/>&lt;<sp/>SqNorm)<sp/></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MaxFluxDensVal<sp/>=<sp/>SqNorm;<sp/>CurrentAbsPrec<sp/>=<sp/>sIntegRelPrec*MaxFluxDensVal;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.cpp"/>
+  </compounddef>
+</doxygen>

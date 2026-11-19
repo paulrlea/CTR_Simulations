@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srobject_8h" kind="file" language="C++">
+    <compoundname>srobject.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">map</includes>
+    <includes local="yes">smartptr.h</includes>
+    <includes local="yes">stlstart.h</includes>
+    <includedby refid="srebmdat_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h</includedby>
+    <includedby refid="srgsnbm_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h</includedby>
+    <includedby refid="srmagcnt_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h</includedby>
+    <includedby refid="srmagelem_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagelem.h</includedby>
+    <includedby refid="srmagfld_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h</includedby>
+    <includedby refid="srmatsta_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h</includedby>
+    <includedby refid="sroptelm_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptelm.h</includedby>
+    <includedby refid="srradstr_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradstr.h</includedby>
+    <includedby refid="srwfrsmp_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h</label>
+        <link refid="srobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>smartptr.h</label>
+      </node>
+      <node id="5">
+        <label>stlstart.h</label>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="12">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h</label>
+        <link refid="srcradint_8h_source"/>
+      </node>
+      <node id="5">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h</label>
+        <link refid="srctrjdt_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sremitpr.h</label>
+        <link refid="sremitpr_8h_source"/>
+      </node>
+      <node id="3">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h</label>
+        <link refid="srgsnbm_8h_source"/>
+      </node>
+      <node id="4">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h</label>
+        <link refid="srisosrc_8h_source"/>
+      </node>
+      <node id="17">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h</label>
+        <link refid="srmagcnt_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h</label>
+        <link refid="srmatsta_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h</label>
+        <link refid="srobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptang.h</label>
+        <link refid="sroptang_8h_source"/>
+      </node>
+      <node id="33">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptapt.h</label>
+        <link refid="sroptapt_8h_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h</label>
+        <link refid="sroptcnt_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h</label>
+        <link refid="sroptcryst_8h_source"/>
+      </node>
+      <node id="31">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h</label>
+        <link refid="sroptdrf_8h_source"/>
+      </node>
+      <node id="26">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h</label>
+        <link refid="sroptgrat_8h_source"/>
+      </node>
+      <node id="36">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgtr.h</label>
+        <link refid="sroptgtr_8h_source"/>
+      </node>
+      <node id="37">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h</label>
+        <link refid="sropthck_8h_source"/>
+      </node>
+      <node id="44">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptmat.h</label>
+        <link refid="sroptmat_8h_source"/>
+      </node>
+      <node id="38">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptpsh.h</label>
+        <link refid="sroptpsh_8h_source"/>
+      </node>
+      <node id="32">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h</label>
+        <link refid="sroptsmr_8h_source"/>
+      </node>
+      <node id="34">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h</label>
+        <link refid="sroptwgr_8h_source"/>
+      </node>
+      <node id="39">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzp.h</label>
+        <link refid="sroptzp_8h_source"/>
+      </node>
+      <node id="40">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzps.h</label>
+        <link refid="sroptzps_8h_source"/>
+      </node>
+      <node id="9">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h</label>
+        <link refid="srpersto_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h</label>
+        <link refid="srpowden_8h_source"/>
+      </node>
+      <node id="19">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h</label>
+        <link refid="srprdint_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h</label>
+        <link refid="srpropme_8h_source"/>
+      </node>
+      <node id="8">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srptrjdt.h</label>
+        <link refid="srptrjdt_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h</label>
+        <link refid="srradinc_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradint.h</label>
+        <link refid="srradint_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h</label>
+        <link refid="srradmnp_8h_source"/>
+      </node>
+      <node id="47">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h</label>
+        <link refid="srremflp_8h_source"/>
+      </node>
+      <node id="13">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h</label>
+        <link refid="srsase_8h_source"/>
+      </node>
+      <node id="10">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h</label>
+        <link refid="srsend_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h</label>
+        <link refid="srstowig_8h_source"/>
+      </node>
+      <node id="23">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h</label>
+        <link refid="srthckbm_8h_source"/>
+      </node>
+      <node id="21">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h</label>
+        <link refid="srtrjaux_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h</label>
+        <link refid="srtrjdat3d_8h_source"/>
+      </node>
+      <node id="48">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_c_gen_object" prot="public">CGenObject</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="srobject_8h_1a289ff926b31bc4135c4235036388c12b" prot="public" static="no">
+        <type>CSmartPtr&lt; <ref refid="class_c_gen_object" kindref="compound">CGenObject</ref> &gt;</type>
+        <definition>typedef CSmartPtr&lt;CGenObject&gt; CHGenObj</definition>
+        <argsstring></argsstring>
+        <name>CHGenObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="42" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="srobject_8h_1a1bbe48d54269025dce4d7561af6d514f" prot="public" static="no">
+        <type>map&lt; int, CHGenObj, less&lt; int &gt; &gt;</type>
+        <definition>typedef map&lt;int, CHGenObj, less&lt;int&gt; &gt; CMHGenObj</definition>
+        <argsstring></argsstring>
+        <name>CMHGenObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="47" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SROBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SROBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;smartptr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//using<sp/>namespace<sp/>std;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stlstart.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_c_gen_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_gen_object" kindref="compound">CGenObject</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Name;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_c_gen_object" kindref="compound">CGenObject</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_c_gen_object" kindref="compound">CGenObject</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>InName)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(InName<sp/>!=<sp/>0)<sp/>Name<sp/>+=<sp/>InName;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_c_gen_object" kindref="compound">~CGenObject</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sign(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(x<sp/>&lt;<sp/>0)?<sp/>-1<sp/>:<sp/>1;}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>CSmartPtr&lt;CGenObject&gt;<sp/>CHGenObj;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__GCC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>map<sp/>&lt;int,<sp/>CHGenObj,<sp/>less&lt;int&gt;<sp/>&gt;<sp/>CMHGenObj;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>map<sp/>&lt;int,<sp/>CHGenObj,<sp/>less&lt;int&gt;<sp/>&gt;<sp/>CMHGenObj;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h"/>
+  </compounddef>
+</doxygen>

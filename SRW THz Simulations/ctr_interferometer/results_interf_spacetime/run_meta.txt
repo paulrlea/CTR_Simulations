@@ -1,0 +1,13 @@
+ctr_interferometer space-time reconstruction (absolute units)
+n_freq=161/161  f=10.0-400.0 GHz  dfreq=2.438 GHz
+charge_nC=10.0  N_electrons=6.2415e+10  gamma=117.42
+dW_domega_single=2.1845e-36 J*s  sigma_t_ps=2.0
+golay_aperture_m=0.005  aperture_px=5449
+W_arm_J=5.944405e-06  (single-arm pulse energy through aperture)
+baseline_energy_J=1.188881e-05  ZPD_energy_J=2.377762e-05
+peak_inst_power_W=2.657546e+06  single_arm_peak_power_W=6.643866e+05
+dt_ps=1.251  n_time=328  tau_max_ps=150.0  t_win_ps=185.0
+zpd_stage_offset_mm=13.005  etalon_recurrence_ps=39.03
+detector_z_m=0.9426
+NOTE: absolute magnitude is order-of-magnitude (single-electron TR model +
+coherent N^2|F|^2 scaling); shapes are robust.

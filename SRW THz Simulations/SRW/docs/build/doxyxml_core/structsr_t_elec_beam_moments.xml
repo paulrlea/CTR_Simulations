@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_elec_beam_moments" kind="struct" language="C++" prot="public">
+    <compoundname>srTElecBeamMoments</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a8da0e3b3668097bb9bf50ea2b09c78a7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::E</definition>
+        <argsstring></argsstring>
+        <name>E</name>
+        <qualifiedname>srTElecBeamMoments::E</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1240" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a191ae1836bfa6be8ab9ba0eb2f4fcd3f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mx</definition>
+        <argsstring></argsstring>
+        <name>Mx</name>
+        <qualifiedname>srTElecBeamMoments::Mx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1240" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1abbb0a3c36e8cf4d2414cdb4efe651928" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxp</definition>
+        <argsstring></argsstring>
+        <name>Mxp</name>
+        <qualifiedname>srTElecBeamMoments::Mxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1240" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a550075132012a927cbebf5449da8e0c0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mz</definition>
+        <argsstring></argsstring>
+        <name>Mz</name>
+        <qualifiedname>srTElecBeamMoments::Mz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1240" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a103c6698fe60f916dcf67d0afba7c991" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mzp</definition>
+        <argsstring></argsstring>
+        <name>Mzp</name>
+        <qualifiedname>srTElecBeamMoments::Mzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1240" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a44c67b48c87f0e7b7b0f55705ee8bf68" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mee</definition>
+        <argsstring></argsstring>
+        <name>Mee</name>
+        <qualifiedname>srTElecBeamMoments::Mee</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1241" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1aa2673be0011ae360c74358c95e259df3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxx</definition>
+        <argsstring></argsstring>
+        <name>Mxx</name>
+        <qualifiedname>srTElecBeamMoments::Mxx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1242" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1adedbcb90f1fc3d786bc5bdea70a7f63d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxxp</definition>
+        <argsstring></argsstring>
+        <name>Mxxp</name>
+        <qualifiedname>srTElecBeamMoments::Mxxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1242" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1ac60aa6d945aa92796cd96819d33e6a79" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxpxp</definition>
+        <argsstring></argsstring>
+        <name>Mxpxp</name>
+        <qualifiedname>srTElecBeamMoments::Mxpxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1242" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a1f3c31a89aa0583ed46f6e833df20d88" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mzz</definition>
+        <argsstring></argsstring>
+        <name>Mzz</name>
+        <qualifiedname>srTElecBeamMoments::Mzz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1242" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1ad3c7ca29c781b28d8002d3e2cc75586b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mzzp</definition>
+        <argsstring></argsstring>
+        <name>Mzzp</name>
+        <qualifiedname>srTElecBeamMoments::Mzzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1242" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a35937ab0b4200120e934f467d8d56ee9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mzpzp</definition>
+        <argsstring></argsstring>
+        <name>Mzpzp</name>
+        <qualifiedname>srTElecBeamMoments::Mzpzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1242" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1ac52de94a261fcac61be1fe5ea3b85a52" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxz</definition>
+        <argsstring></argsstring>
+        <name>Mxz</name>
+        <qualifiedname>srTElecBeamMoments::Mxz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1243" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1ae1db9e11db8823bbd2cd80fd13e88b93" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxpz</definition>
+        <argsstring></argsstring>
+        <name>Mxpz</name>
+        <qualifiedname>srTElecBeamMoments::Mxpz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1243" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1a31bd78ee5c719c177b814fd87337902f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxzp</definition>
+        <argsstring></argsstring>
+        <name>Mxzp</name>
+        <qualifiedname>srTElecBeamMoments::Mxzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1243" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_elec_beam_moments_1ae38d8fdb82f4e4bba5c482932277ad48" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTElecBeamMoments::Mxpzp</definition>
+        <argsstring></argsstring>
+        <name>Mxpzp</name>
+        <qualifiedname>srTElecBeamMoments::Mxpzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1243" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1243" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_elec_beam_moments_1a97cc81eb16e362585a624322896a8b03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTElecBeamMoments::srTElecBeamMoments</definition>
+        <argsstring>(double *pElecBeamData)</argsstring>
+        <name>srTElecBeamMoments</name>
+        <qualifiedname>srTElecBeamMoments::srTElecBeamMoments</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pElecBeamData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1245" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1245" bodyend="1271"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_elec_beam_moments_1a9218b95ef4b984aa1c5f6c5f2ea96286" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTElecBeamMoments::srTElecBeamMoments</definition>
+        <argsstring>(srTEbmDat *pEbm)</argsstring>
+        <name>srTElecBeamMoments</name>
+        <qualifiedname>srTElecBeamMoments::srTElecBeamMoments</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pEbm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1273" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1273" bodyend="1292"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_elec_beam_moments_1a0d5db4e42a9dee1cdcee8448b6ab87ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTElecBeamMoments::srTElecBeamMoments</definition>
+        <argsstring>()</argsstring>
+        <name>srTElecBeamMoments</name>
+        <qualifiedname>srTElecBeamMoments::srTElecBeamMoments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1294" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1294" bodyend="1294"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_elec_beam_moments_1a44be1eeacdd0921b63485dad22331f81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTElecBeamMoments::ZeroAll</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroAll</name>
+        <qualifiedname>srTElecBeamMoments::ZeroAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1296" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1296" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_elec_beam_moments_1a4d4e3f583c663d0fde829e6c096187f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTElecBeamMoments::OutData</definition>
+        <argsstring>(srTEbmDat *pEbm)</argsstring>
+        <name>OutData</name>
+        <qualifiedname>srTElecBeamMoments::OutData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pEbm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1304" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1304" bodyend="1322"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1235" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1235" bodyend="1323"/>
+    <listofallmembers>
+      <member refid="structsr_t_elec_beam_moments_1a8da0e3b3668097bb9bf50ea2b09c78a7" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>E</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a44c67b48c87f0e7b7b0f55705ee8bf68" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mee</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a191ae1836bfa6be8ab9ba0eb2f4fcd3f" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mx</name></member>
+      <member refid="structsr_t_elec_beam_moments_1abbb0a3c36e8cf4d2414cdb4efe651928" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1ac60aa6d945aa92796cd96819d33e6a79" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxpxp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1ae1db9e11db8823bbd2cd80fd13e88b93" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxpz</name></member>
+      <member refid="structsr_t_elec_beam_moments_1ae38d8fdb82f4e4bba5c482932277ad48" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxpzp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1aa2673be0011ae360c74358c95e259df3" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxx</name></member>
+      <member refid="structsr_t_elec_beam_moments_1adedbcb90f1fc3d786bc5bdea70a7f63d" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxxp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1ac52de94a261fcac61be1fe5ea3b85a52" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxz</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a31bd78ee5c719c177b814fd87337902f" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mxzp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a550075132012a927cbebf5449da8e0c0" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mz</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a103c6698fe60f916dcf67d0afba7c991" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mzp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a35937ab0b4200120e934f467d8d56ee9" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mzpzp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a1f3c31a89aa0583ed46f6e833df20d88" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mzz</name></member>
+      <member refid="structsr_t_elec_beam_moments_1ad3c7ca29c781b28d8002d3e2cc75586b" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>Mzzp</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a4d4e3f583c663d0fde829e6c096187f8" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>OutData</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a97cc81eb16e362585a624322896a8b03" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>srTElecBeamMoments</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a9218b95ef4b984aa1c5f6c5f2ea96286" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>srTElecBeamMoments</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a0d5db4e42a9dee1cdcee8448b6ab87ed" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>srTElecBeamMoments</name></member>
+      <member refid="structsr_t_elec_beam_moments_1a44be1eeacdd0921b63485dad22331f81" prot="public" virt="non-virtual"><scope>srTElecBeamMoments</scope><name>ZeroAll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

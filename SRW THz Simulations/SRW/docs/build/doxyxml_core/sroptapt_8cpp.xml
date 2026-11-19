@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptapt_8cpp" kind="file" language="C++">
+    <compoundname>sroptapt.cpp</compoundname>
+    <includes refid="sroptapt_8h" local="yes">sroptapt.h</includes>
+    <incdepgraph>
+      <node id="21">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="14">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptapt.cpp</label>
+        <link refid="sroptapt_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptapt.h</label>
+        <link refid="sroptapt_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="6">
+        <label>cstdlib</label>
+      </node>
+      <node id="20">
+        <label>ctype.h</label>
+      </node>
+      <node id="7">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="8">
+        <label>gmvect.h</label>
+      </node>
+      <node id="28">
+        <label>list</label>
+      </node>
+      <node id="16">
+        <label>map</label>
+      </node>
+      <node id="12">
+        <label>math.h</label>
+      </node>
+      <node id="9">
+        <label>smartptr.h</label>
+      </node>
+      <node id="13">
+        <label>srigorre.h</label>
+      </node>
+      <node id="23">
+        <label>srinterf.h</label>
+      </node>
+      <node id="26">
+        <label>srwlib.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="17">
+        <label>stlstart.h</label>
+      </node>
+      <node id="15">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>string.h</label>
+      </node>
+      <node id="27">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptapt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classsr_t_aperture_1a22be635fb0a8bbc3b63b08ca721111b9" kindref="member">srTAperture::TraverseRadZXE_TracingZeroField</ref>(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pEx0<sp/>=<sp/>pRadAccessData-&gt;pBaseRadX;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pEz0<sp/>=<sp/>pRadAccessData-&gt;pBaseRadZ;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>PerX<sp/>=<sp/>pRadAccessData-&gt;ne<sp/>&lt;&lt;<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>PerZ<sp/>=<sp/>PerX*pRadAccessData-&gt;nx;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>PerX<sp/>=<sp/>pRadAccessData-&gt;ne<sp/>&lt;&lt;<sp/>1;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>PerZ<sp/>=<sp/>PerX*pRadAccessData-&gt;nx;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref><sp/>EFieldPtrs;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref><sp/>EXZ;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>EXZ.z<sp/>=<sp/>pRadAccessData-&gt;zStart;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>izPerZ<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>izPerZ<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>ixStartNonZeroOld<sp/>=<sp/>pRadAccessData-&gt;nx<sp/>+<sp/>1,<sp/>izStartNonZeroOld<sp/>=<sp/>-1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ixStartNonZeroOld<sp/>=<sp/>pRadAccessData-&gt;nx<sp/>+<sp/>1,<sp/>izStartNonZeroOld<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>ixStartZeroAgainOld<sp/>=<sp/>-1,<sp/>izStartZeroAgainOld<sp/>=<sp/>-1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ixStartZeroAgainOld<sp/>=<sp/>-1,<sp/>izStartZeroAgainOld<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>ixStartNonZeroNew<sp/>=<sp/>pRadAccessData-&gt;nx<sp/>+<sp/>1,<sp/>izStartNonZeroNew<sp/>=<sp/>-1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ixStartNonZeroNew<sp/>=<sp/>pRadAccessData-&gt;nx<sp/>+<sp/>1,<sp/>izStartNonZeroNew<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>ixStartZeroAgainNew<sp/>=<sp/>-1,<sp/>izStartZeroAgainNew<sp/>=<sp/>-1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ixStartZeroAgainNew<sp/>=<sp/>-1,<sp/>izStartZeroAgainNew<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>zPrevOldWasZero<sp/>=<sp/>1,<sp/>zPrevNewWasZero<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for(int<sp/>iz=0;<sp/>iz&lt;pRadAccessData-&gt;nz;<sp/>iz++)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>iz=0;<sp/>iz&lt;pRadAccessData-&gt;nz;<sp/>iz++)<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pEx_StartForX<sp/>=<sp/>pEx0<sp/>+<sp/>izPerZ;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pEz_StartForX<sp/>=<sp/>pEz0<sp/>+<sp/>izPerZ;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.x<sp/>=<sp/>pRadAccessData-&gt;xStart;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>ixPerX<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ixPerX<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>xPrevOldWasZero<sp/>=<sp/>1,<sp/>xPrevNewWasZero<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>ixStartNonZeroOldLoc<sp/>=<sp/>-1,<sp/>ixStartZeroAgainOldLoc<sp/>=<sp/>-1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ixStartNonZeroOldLoc<sp/>=<sp/>-1,<sp/>ixStartZeroAgainOldLoc<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>ixStartNonZeroNewLoc<sp/>=<sp/>-1,<sp/>ixStartZeroAgainNewLoc<sp/>=<sp/>-1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ixStartNonZeroNewLoc<sp/>=<sp/>-1,<sp/>ixStartZeroAgainNewLoc<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for(int<sp/>ix=0;<sp/>ix&lt;pRadAccessData-&gt;nx;<sp/>ix++)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ix=0;<sp/>ix&lt;pRadAccessData-&gt;nx;<sp/>ix++)<sp/></highlight><highlight class="comment">//OC03082023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pEx_StartForE<sp/>=<sp/>pEx_StartForX<sp/>+<sp/>ixPerX;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pEz_StartForE<sp/>=<sp/>pEz_StartForX<sp/>+<sp/>ixPerX;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.e<sp/>=<sp/>pRadAccessData-&gt;eStart;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>iePerE<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>iePerE<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>EFieldOldWasNonZero<sp/>=<sp/>0,<sp/>EFieldNewIsNonZero<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ie=0;<sp/>ie&lt;pRadAccessData-&gt;ne;<sp/>ie++)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFieldPtrs.pExRe<sp/>=<sp/>pEx_StartForE<sp/>+<sp/>iePerE;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFieldPtrs.pExIm<sp/>=<sp/>EFieldPtrs.pExRe<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFieldPtrs.pEzRe<sp/>=<sp/>pEz_StartForE<sp/>+<sp/>iePerE;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFieldPtrs.pEzIm<sp/>=<sp/>EFieldPtrs.pEzRe<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>EFieldOldWasNonZeroLoc<sp/>=<sp/>!((*(EFieldPtrs.pExRe)<sp/>==<sp/>0.)<sp/>&amp;&amp;<sp/>(*(EFieldPtrs.pExIm)<sp/>==<sp/>0.)<sp/>&amp;&amp;<sp/>(*(EFieldPtrs.pEzRe)<sp/>==<sp/>0.)<sp/>&amp;&amp;<sp/>(*(EFieldPtrs.pEzIm)<sp/>==<sp/>0.));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EFieldOldWasNonZeroLoc)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadPointModifier(EXZ,<sp/>EFieldPtrs);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFieldOldWasNonZero<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFieldNewIsNonZero<sp/>=<sp/>!((*(EFieldPtrs.pExRe)<sp/>==<sp/>0.)<sp/>&amp;&amp;<sp/>(*(EFieldPtrs.pExIm)<sp/>==<sp/>0.)<sp/>&amp;&amp;<sp/>(*(EFieldPtrs.pEzRe)<sp/>==<sp/>0.)<sp/>&amp;&amp;<sp/>(*(EFieldPtrs.pEzIm)<sp/>==<sp/>0.));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iePerE<sp/>+=<sp/>2;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.e<sp/>+=<sp/>pRadAccessData-&gt;eStep;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EFieldOldWasNonZero<sp/>&amp;&amp;<sp/>xPrevOldWasZero)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ixStartNonZeroOldLoc<sp/>=<sp/>ix;<sp/>xPrevOldWasZero<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((!EFieldOldWasNonZero)<sp/>&amp;&amp;<sp/>(!xPrevOldWasZero))</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ixStartZeroAgainOldLoc<sp/>=<sp/>ix;<sp/>xPrevOldWasZero<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EFieldNewIsNonZero<sp/>&amp;&amp;<sp/>xPrevNewWasZero)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ixStartNonZeroNewLoc<sp/>=<sp/>ix;<sp/>xPrevNewWasZero<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((!EFieldNewIsNonZero)<sp/>&amp;&amp;<sp/>(!xPrevNewWasZero))</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ixStartZeroAgainNewLoc<sp/>=<sp/>ix;<sp/>xPrevNewWasZero<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ixPerX<sp/>+=<sp/>PerX;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.x<sp/>+=<sp/>pRadAccessData-&gt;xStep;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ixStartZeroAgainOldLoc<sp/>==<sp/>-1)<sp/>ixStartZeroAgainOldLoc<sp/>=<sp/>pRadAccessData-&gt;nx;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ixStartZeroAgainNewLoc<sp/>==<sp/>-1)<sp/>ixStartZeroAgainNewLoc<sp/>=<sp/>pRadAccessData-&gt;nx;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroOldLoc<sp/>!=<sp/>-1)<sp/>&amp;&amp;<sp/>(ixStartNonZeroOldLoc<sp/>&lt;<sp/>ixStartNonZeroOld))<sp/>ixStartNonZeroOld<sp/>=<sp/>ixStartNonZeroOldLoc;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartZeroAgainOldLoc<sp/>!=<sp/>-1)<sp/>&amp;&amp;<sp/>(ixStartZeroAgainOldLoc<sp/>&gt;<sp/>ixStartZeroAgainOld))<sp/>ixStartZeroAgainOld<sp/>=<sp/>ixStartZeroAgainOldLoc;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroOldLoc<sp/>!=<sp/>-1)<sp/>&amp;&amp;<sp/>zPrevOldWasZero)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>izStartNonZeroOld<sp/>=<sp/>iz;<sp/>zPrevOldWasZero<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroOldLoc<sp/>==<sp/>-1)<sp/>&amp;&amp;<sp/>(!zPrevOldWasZero))</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>izStartZeroAgainOld<sp/>=<sp/>iz;<sp/>zPrevOldWasZero<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroNewLoc<sp/>!=<sp/>-1)<sp/>&amp;&amp;<sp/>(ixStartNonZeroNewLoc<sp/>&lt;<sp/>ixStartNonZeroNew))<sp/>ixStartNonZeroNew<sp/>=<sp/>ixStartNonZeroNewLoc;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartZeroAgainNewLoc<sp/>!=<sp/>-1)<sp/>&amp;&amp;<sp/>(ixStartZeroAgainNewLoc<sp/>&gt;<sp/>ixStartZeroAgainNew))<sp/>ixStartZeroAgainNew<sp/>=<sp/>ixStartZeroAgainNewLoc;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroNewLoc<sp/>!=<sp/>-1)<sp/>&amp;&amp;<sp/>zPrevNewWasZero)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>izStartNonZeroNew<sp/>=<sp/>iz;<sp/>zPrevNewWasZero<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroNewLoc<sp/>==<sp/>-1)<sp/>&amp;&amp;<sp/>(!zPrevNewWasZero))</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>izStartZeroAgainNew<sp/>=<sp/>iz;<sp/>zPrevNewWasZero<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>izPerZ<sp/>+=<sp/>PerZ;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EXZ.z<sp/>+=<sp/>pRadAccessData-&gt;zStep;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(izStartZeroAgainOld<sp/>==<sp/>-1)<sp/>izStartZeroAgainOld<sp/>=<sp/>pRadAccessData-&gt;nz;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(izStartZeroAgainNew<sp/>==<sp/>-1)<sp/>izStartZeroAgainNew<sp/>=<sp/>pRadAccessData-&gt;nz;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroOld<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(ixStartNonZeroOld<sp/>&gt;=<sp/>pRadAccessData-&gt;nx))<sp/>ixStartNonZeroOld<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartZeroAgainOld<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(ixStartZeroAgainOld<sp/>&gt;=<sp/>pRadAccessData-&gt;nx))<sp/>ixStartZeroAgainOld<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartNonZeroNew<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(ixStartNonZeroNew<sp/>&gt;=<sp/>pRadAccessData-&gt;nx))<sp/>ixStartNonZeroNew<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ixStartZeroAgainNew<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(ixStartZeroAgainNew<sp/>&gt;=<sp/>pRadAccessData-&gt;nx))<sp/>ixStartZeroAgainNew<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((izStartNonZeroOld<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(izStartNonZeroOld<sp/>&gt;=<sp/>pRadAccessData-&gt;nz))<sp/>izStartNonZeroOld<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((izStartZeroAgainOld<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(izStartZeroAgainOld<sp/>&gt;=<sp/>pRadAccessData-&gt;nz))<sp/>izStartZeroAgainOld<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((izStartNonZeroNew<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(izStartNonZeroNew<sp/>&gt;=<sp/>pRadAccessData-&gt;nz))<sp/>izStartNonZeroNew<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((izStartZeroAgainNew<sp/>&lt;<sp/>0)<sp/>&amp;&amp;<sp/>(izStartZeroAgainNew<sp/>&gt;=<sp/>pRadAccessData-&gt;nz))<sp/>izStartZeroAgainNew<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>xStartNonZeroOld<sp/>=<sp/>pRadAccessData-&gt;xStart<sp/>+<sp/>ixStartNonZeroOld*pRadAccessData-&gt;xStep;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>zStartNonZeroOld<sp/>=<sp/>pRadAccessData-&gt;zStart<sp/>+<sp/>izStartNonZeroOld*pRadAccessData-&gt;zStep;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>xStartZeroAgainOld<sp/>=<sp/>pRadAccessData-&gt;xStart<sp/>+<sp/>ixStartZeroAgainOld*pRadAccessData-&gt;xStep;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>zStartZeroAgainOld<sp/>=<sp/>pRadAccessData-&gt;zStart<sp/>+<sp/>izStartZeroAgainOld*pRadAccessData-&gt;zStep;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>xStartNonZeroNew<sp/>=<sp/>pRadAccessData-&gt;xStart<sp/>+<sp/>ixStartNonZeroNew*pRadAccessData-&gt;xStep;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>zStartNonZeroNew<sp/>=<sp/>pRadAccessData-&gt;zStart<sp/>+<sp/>izStartNonZeroNew*pRadAccessData-&gt;zStep;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>xStartZeroAgainNew<sp/>=<sp/>pRadAccessData-&gt;xStart<sp/>+<sp/>ixStartZeroAgainNew*pRadAccessData-&gt;xStep;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>zStartZeroAgainNew<sp/>=<sp/>pRadAccessData-&gt;zStart<sp/>+<sp/>izStartZeroAgainNew*pRadAccessData-&gt;zStep;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srTAperture::TuneRadAfterPropMeth_1(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((xStartNonZeroOld<sp/>==<sp/>xStartZeroAgainOld)<sp/>||<sp/>(xStartNonZeroNew<sp/>==<sp/>xStartZeroAgainNew))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((zStartNonZeroOld<sp/>==<sp/>zStartZeroAgainOld)<sp/>||<sp/>(zStartNonZeroNew<sp/>==<sp/>zStartZeroAgainNew))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>XrNonZeroLeftOld<sp/>=<sp/>xStartNonZeroOld<sp/>-<sp/>pRadAccessData-&gt;xc;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>XrNonZeroLeftNew<sp/>=<sp/>xStartNonZeroNew<sp/>-<sp/>pRadAccessData-&gt;xc;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>XrNonZeroRightOld<sp/>=<sp/>xStartZeroAgainOld<sp/>-<sp/>pRadAccessData-&gt;xc;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>XrNonZeroRightNew<sp/>=<sp/>xStartZeroAgainNew<sp/>-<sp/>pRadAccessData-&gt;xc;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ZrNonZeroLeftOld<sp/>=<sp/>zStartNonZeroOld<sp/>-<sp/>pRadAccessData-&gt;zc;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ZrNonZeroLeftNew<sp/>=<sp/>zStartNonZeroNew<sp/>-<sp/>pRadAccessData-&gt;zc;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ZrNonZeroRightOld<sp/>=<sp/>zStartZeroAgainOld<sp/>-<sp/>pRadAccessData-&gt;zc;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ZrNonZeroRightNew<sp/>=<sp/>zStartZeroAgainNew<sp/>-<sp/>pRadAccessData-&gt;zc;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>Lambda_m<sp/>=<sp/>1.239854e-06/pRadAccessData-&gt;eStart;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Lambda_m<sp/>=<sp/>1.239842e-06/pRadAccessData-&gt;eStart;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pRadAccessData-&gt;PhotEnergyUnit<sp/>==<sp/>1)<sp/>Lambda_m<sp/>*=<sp/>0.001;<sp/></highlight><highlight class="comment">//<sp/>if<sp/>keV</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>XcNonZeroNew<sp/>=<sp/>0.5*(XrNonZeroLeftNew<sp/>+<sp/>XrNonZeroRightNew);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>XcNonZeroNewE2<sp/>=<sp/>XcNonZeroNew*XcNonZeroNew;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HorSizeEst1<sp/>=<sp/>(XrNonZeroRightNew*XrNonZeroRightNew<sp/>-<sp/>XcNonZeroNewE2)/(pRadAccessData-&gt;RobsX*Lambda_m);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HorSizeEst2<sp/>=<sp/>(XcNonZeroNewE2<sp/>-<sp/>XrNonZeroLeftNew*XrNonZeroLeftNew)/(pRadAccessData-&gt;RobsX*Lambda_m);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>HorSizeIsVerySmall<sp/>=<sp/>((::fabs(HorSizeEst1)<sp/>&lt;<sp/>1.)<sp/>&amp;&amp;<sp/>(::fabs(HorSizeEst2)<sp/>&lt;<sp/>1.));</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(HorSizeIsVerySmall)</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;RobsX<sp/>=<sp/>0.;<sp/>pRadAccessData-&gt;xc<sp/>=<sp/>0.5*(xStartNonZeroNew<sp/>+<sp/>xStartZeroAgainNew);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ZcNonZeroNew<sp/>=<sp/>0.5*(ZrNonZeroLeftNew<sp/>+<sp/>ZrNonZeroRightNew);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ZcNonZeroNewE2<sp/>=<sp/>ZcNonZeroNew*ZcNonZeroNew;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>VerSizeEst1<sp/>=<sp/>(ZrNonZeroRightNew*ZrNonZeroRightNew<sp/>-<sp/>ZcNonZeroNewE2)/(pRadAccessData-&gt;RobsZ*Lambda_m);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>VerSizeEst2<sp/>=<sp/>(ZcNonZeroNewE2<sp/>-<sp/>ZrNonZeroLeftNew*ZrNonZeroLeftNew)/(pRadAccessData-&gt;RobsZ*Lambda_m);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>VertSizeIsVerySmall<sp/>=<sp/>((::fabs(VerSizeEst1)<sp/>&lt;<sp/>1.)<sp/>&amp;&amp;<sp/>(::fabs(VerSizeEst2)<sp/>&lt;<sp/>1.));</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(VertSizeIsVerySmall)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRadAccessData-&gt;RobsZ<sp/>=<sp/>0.;<sp/>pRadAccessData-&gt;zc<sp/>=<sp/>0.5*(zStartNonZeroNew<sp/>+<sp/>zStartZeroAgainNew);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref><sp/>RadResize;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>RadResize.pxm<sp/>=<sp/>RadResize.pxd<sp/>=<sp/>RadResize.pzm<sp/>=<sp/>RadResize.pzd<sp/>=<sp/>1.;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PxLeft,<sp/>PxRight,<sp/>PzLeft,<sp/>PzRight;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((XrNonZeroLeftNew<sp/>&gt;=<sp/>0.)<sp/>||<sp/>(XrNonZeroLeftOld<sp/>&gt;=<sp/>0.))<sp/>PxLeft<sp/>=<sp/>-1.;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>PxLeft<sp/>=<sp/>XrNonZeroLeftNew/XrNonZeroLeftOld;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((XrNonZeroRightNew<sp/>&lt;=<sp/>0.)<sp/>||<sp/>(XrNonZeroRightOld<sp/>&lt;=<sp/>0.))<sp/>PxRight<sp/>=<sp/>-1.;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>PxRight<sp/>=<sp/>XrNonZeroRightNew/XrNonZeroRightOld;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ZrNonZeroLeftNew<sp/>&gt;=<sp/>0.)<sp/>||<sp/>(ZrNonZeroLeftOld<sp/>&gt;=<sp/>0.))<sp/>PzLeft<sp/>=<sp/>-1.;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>PzLeft<sp/>=<sp/>ZrNonZeroLeftNew/ZrNonZeroLeftOld;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((ZrNonZeroRightNew<sp/>&lt;=<sp/>0.)<sp/>||<sp/>(ZrNonZeroRightOld<sp/>&lt;=<sp/>0.))<sp/>PzRight<sp/>=<sp/>-1.;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>PzRight<sp/>=<sp/>ZrNonZeroRightNew/ZrNonZeroRightOld;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pxMax<sp/>=<sp/>(PxLeft<sp/>&gt;<sp/>PxRight)?<sp/>PxLeft<sp/>:<sp/>PxRight;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pzMax<sp/>=<sp/>(PzLeft<sp/>&gt;<sp/>PzRight)?<sp/>PzLeft<sp/>:<sp/>PzRight;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((pxMax<sp/>!=<sp/>-1.)<sp/>&amp;&amp;<sp/>(pzMax<sp/>!=<sp/>-1.))</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ResizeTol<sp/>=<sp/>0.15;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MinAmOfPoints<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>xResizeNeeded<sp/>=<sp/>(1.-<sp/>pxMax<sp/>&gt;<sp/>ResizeTol);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>zResizeNeeded<sp/>=<sp/>(1.-<sp/>pzMax<sp/>&gt;<sp/>ResizeTol);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xResizeNeeded)<sp/></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NewAmOfPo<sp/>=<sp/>(int)(pxMax*pRadAccessData-&gt;nx);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NewAmOfPo<sp/>&lt;<sp/>MinAmOfPoints)<sp/>pxMax<sp/>=<sp/>MinAmOfPoints/double(pRadAccessData-&gt;nx);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadResize.pxm<sp/>=<sp/>RadResize.pxd<sp/>=<sp/>pxMax;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(zResizeNeeded)<sp/></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NewAmOfPo<sp/>=<sp/>(int)(pzMax*pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NewAmOfPo<sp/>&lt;<sp/>MinAmOfPoints)<sp/>pzMax<sp/>=<sp/>MinAmOfPoints/double(pRadAccessData-&gt;nz);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadResize.pzm<sp/>=<sp/>RadResize.pzd<sp/>=<sp/>pzMax;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xResizeNeeded<sp/>||<sp/>zResizeNeeded)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>RadResizeGen(*pRadAccessData,<sp/>RadResize))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment">//int<sp/>srTAperture::PropagateRadMoments(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>srTMomentsRatios*<sp/>MomRatArray)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srTAperture::PropagateRadMoments(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/><ref refid="structsr_t_moments_ratios" kindref="compound">srTMomentsRatios</ref>*<sp/>MomRatArray,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pvGPU)<sp/></highlight><highlight class="comment">//HG27072024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FillMomRatios<sp/>=<sp/>(MomRatArray<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ratios" kindref="compound">srTMomentsRatios</ref>*<sp/>tMomRatArray<sp/>=<sp/>MomRatArray;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(FillMomRatios)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Offset<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ie=0;<sp/>ie&lt;pRadAccessData-&gt;ne;<sp/>ie++)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ptrs" kindref="compound">srTMomentsPtrs</ref><sp/>MomX(pRadAccessData-&gt;pMomX<sp/>+<sp/>Offset);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ptrs" kindref="compound">srTMomentsPtrs</ref><sp/>MomZ(pRadAccessData-&gt;pMomZ<sp/>+<sp/>Offset);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxxMomX<sp/>=<sp/>(1./MomX.SqrtMxx);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxpxpMomX<sp/>=<sp/>(1./MomX.SqrtMxpxp);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzzMomX<sp/>=<sp/>(1./MomX.SqrtMzz);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzpzpMomX<sp/>=<sp/>(1./MomX.SqrtMzpzp);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxxMomZ<sp/>=<sp/>(1./MomZ.SqrtMxx);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxpxpMomZ<sp/>=<sp/>(1./MomZ.SqrtMxpxp);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzzMomZ<sp/>=<sp/>(1./MomZ.SqrtMzz);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzpzpMomZ<sp/>=<sp/>(1./MomZ.SqrtMzpzp);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Offset<sp/>+=<sp/>10;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Offset<sp/>+=<sp/>11;<sp/></highlight><highlight class="comment">//OC071108</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray++;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray<sp/>=<sp/>MomRatArray;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Offset<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ie=0;<sp/>ie&lt;pRadAccessData-&gt;ne;<sp/>ie++)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ptrs" kindref="compound">srTMomentsPtrs</ref><sp/>MomX(pRadAccessData-&gt;pMomX<sp/>+<sp/>Offset);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ptrs" kindref="compound">srTMomentsPtrs</ref><sp/>MomZ(pRadAccessData-&gt;pMomZ<sp/>+<sp/>Offset);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>MomX_X<sp/>=<sp/>*(MomX.pX),<sp/>MomX_Z<sp/>=<sp/>*(MomX.pZ),<sp/>MomZ_X<sp/>=<sp/>*(MomZ.pX),<sp/>MomZ_Z<sp/>=<sp/>*(MomZ.pZ);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>MomX_SqrtMxx<sp/>=<sp/>MomX.SqrtMxx,<sp/>MomX_SqrtMzz<sp/>=<sp/>MomX.SqrtMzz,<sp/>MomZ_SqrtMxx<sp/>=<sp/>MomZ.SqrtMxx,<sp/>MomZ_SqrtMzz<sp/>=<sp/>MomZ.SqrtMzz;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MomX_X<sp/>=<sp/>*(MomX.pX),<sp/>MomX_Z<sp/>=<sp/>*(MomX.pZ),<sp/>MomZ_X<sp/>=<sp/>*(MomZ.pX),<sp/>MomZ_Z<sp/>=<sp/>*(MomZ.pZ);<sp/></highlight><highlight class="comment">//OC130311</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MomX_SqrtMxx<sp/>=<sp/>MomX.SqrtMxx,<sp/>MomX_SqrtMzz<sp/>=<sp/>MomX.SqrtMzz,<sp/>MomZ_SqrtMxx<sp/>=<sp/>MomZ.SqrtMxx,<sp/>MomZ_SqrtMzz<sp/>=<sp/>MomZ.SqrtMzz;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TransHndl.rep<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>PointMomX(MomX_X,<sp/>0.,<sp/>MomX_Z);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FromLabToLocFrame_Point(PointMomX);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomX_X<sp/>=<sp/>(PointMomX.x<sp/>+<sp/>TransvCenPoint.x);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomX_Z<sp/>=<sp/>(PointMomX.z<sp/>+<sp/>TransvCenPoint.y);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>VectMomX(MomX_SqrtMxx,<sp/>0.,<sp/>MomX_SqrtMzz);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FromLabToLocFrame_Vector(VectMomX);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomX_SqrtMxx<sp/>=<sp/>VectMomX.x;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomX_SqrtMzz<sp/>=<sp/>VectMomX.z;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>PointMomZ(MomZ_X,<sp/>0.,<sp/>MomZ_Z);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FromLabToLocFrame_Point(PointMomZ);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomZ_X<sp/>=<sp/>(PointMomZ.x<sp/>+<sp/>TransvCenPoint.x);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomZ_Z<sp/>=<sp/>(PointMomZ.z<sp/>+<sp/>TransvCenPoint.y);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>VectMomZ(MomZ_SqrtMxx,<sp/>0.,<sp/>MomZ_SqrtMzz);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FromLabToLocFrame_Vector(VectMomZ);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomZ_SqrtMxx<sp/>=<sp/>VectMomZ.x;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MomZ_SqrtMzz<sp/>=<sp/>VectMomZ.z;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>MomX_SqrtMxx_Mult<sp/>=<sp/>(float)(1.7*MomX_SqrtMxx),<sp/>MomX_SqrtMzz_Mult<sp/>=<sp/>(float)(1.7*MomX_SqrtMzz),<sp/>MomZ_SqrtMxx_Mult<sp/>=<sp/>(float)(1.7*MomZ_SqrtMxx),<sp/>MomZ_SqrtMzz_Mult<sp/>=<sp/>(float)(1.7*MomZ_SqrtMzz);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MomX_SqrtMxx_Mult<sp/>=<sp/>(1.7*MomX_SqrtMxx),<sp/>MomX_SqrtMzz_Mult<sp/>=<sp/>(1.7*MomX_SqrtMzz),<sp/>MomZ_SqrtMxx_Mult<sp/>=<sp/>(1.7*MomZ_SqrtMxx),<sp/>MomZ_SqrtMzz_Mult<sp/>=<sp/>(1.7*MomZ_SqrtMzz);<sp/></highlight><highlight class="comment">//OC130311</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(CheckIfMomentsShouldBeRecomputed(MomX_X,<sp/>MomX_Z,<sp/>MomZ_X,<sp/>MomZ_Z,<sp/>MomX_SqrtMxx_Mult,<sp/>MomX_SqrtMzz_Mult,<sp/>MomZ_SqrtMxx_Mult,<sp/>MomZ_SqrtMzz_Mult))</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(result<sp/>=<sp/>ComputeRadMoments(pRadAccessData))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>ComputeRadMoments(pRadAccessData,<sp/>pvGPU))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//HG27072024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Offset<sp/>+=<sp/>10;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Offset<sp/>+=<sp/>11;<sp/></highlight><highlight class="comment">//OC071108</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(FillMomRatios)</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Offset<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ie=0;<sp/>ie&lt;pRadAccessData-&gt;ne;<sp/>ie++)</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ptrs" kindref="compound">srTMomentsPtrs</ref><sp/>NewMomX(pRadAccessData-&gt;pMomX<sp/>+<sp/>Offset);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ptrs" kindref="compound">srTMomentsPtrs</ref><sp/>NewMomZ(pRadAccessData-&gt;pMomZ<sp/>+<sp/>Offset);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxxMomX<sp/>*=<sp/>NewMomX.SqrtMxx;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxpxpMomX<sp/>*=<sp/>NewMomX.SqrtMxpxp;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzzMomX<sp/>*=<sp/>NewMomX.SqrtMzz;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzpzpMomX<sp/>*=<sp/>NewMomX.SqrtMzpzp;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxxMomZ<sp/>*=<sp/>NewMomZ.SqrtMxx;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RxpxpMomZ<sp/>*=<sp/>NewMomZ.SqrtMxpxp;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzzMomZ<sp/>*=<sp/>NewMomZ.SqrtMzz;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray-&gt;RzpzpMomZ<sp/>*=<sp/>NewMomZ.SqrtMzpzp;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Offset<sp/>+=<sp/>10;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Offset<sp/>+=<sp/>11;<sp/></highlight><highlight class="comment">//OC071108</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray++;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight></codeline>
+<codeline lineno="450"><highlight class="comment">//*************************************************************************</highlight></codeline>
+<codeline lineno="553"><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptapt.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srctrjdt_8h" kind="file" language="C++">
+    <compoundname>srctrjdt.h</compoundname>
+    <includes refid="srgtrjdt_8h" local="yes">srgtrjdt.h</includes>
+    <includes refid="srmagfld_8h" local="yes">srmagfld.h</includes>
+    <includedby refid="srctrjdt_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.cpp</includedby>
+    <includedby refid="srpowden_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp</includedby>
+    <includedby refid="srradinc_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h</includedby>
+    <includedby refid="srsend_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h</label>
+        <link refid="srctrjdt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="2">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="20">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="26">
+        <label>ctype.h</label>
+      </node>
+      <node id="32">
+        <label>gminterp.h</label>
+      </node>
+      <node id="15">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="14">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="13">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="19">
+        <label>gmvect.h</label>
+      </node>
+      <node id="7">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>math.h</label>
+      </node>
+      <node id="12">
+        <label>objcont.h</label>
+      </node>
+      <node id="8">
+        <label>smartptr.h</label>
+      </node>
+      <node id="23">
+        <label>srigorre.h</label>
+      </node>
+      <node id="28">
+        <label>srinterf.h</label>
+      </node>
+      <node id="30">
+        <label>srwlib.h</label>
+      </node>
+      <node id="18">
+        <label>stdlib.h</label>
+      </node>
+      <node id="9">
+        <label>stlstart.h</label>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="25">
+        <label>string.h</label>
+      </node>
+      <node id="16">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h</label>
+        <link refid="srctrjdt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h</label>
+        <link refid="srpowden_8h_source"/>
+      </node>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h</label>
+        <link refid="srradinc_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsr_t_mag_field_constant" prot="public">srTMagFieldConstant</innerclass>
+    <innerclass refid="classsr_t_const_trj_dat" prot="public">srTConstTrjDat</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRCTRJDT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRCTRJDT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srgtrjdt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srmagfld.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classsr_t_mag_field_constant" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_mag_field_constant" kindref="compound">srTMagFieldConstant</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Bx,<sp/>Bz;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_field_constant" kindref="compound">srTMagFieldConstant</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InBx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InBz)<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bx<sp/>=<sp/>InBx;<sp/>Bz<sp/>=<sp/>InBz;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_field_constant" kindref="compound">srTMagFieldConstant</ref>()<sp/>{<sp/>Bx<sp/>=<sp/>Bz<sp/>=<sp/>0.;}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AnalyzeFieldSymmetry(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>FieldIsSymOverX,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>FieldIsSymOverZ)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>zFieldPresent<sp/>=<sp/>0,<sp/>xFieldPresent<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Bx<sp/>!=<sp/>0.)<sp/>xFieldPresent<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Bz<sp/>!=<sp/>0.)<sp/>zFieldPresent<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FieldIsSymOverX<sp/>=<sp/>FieldIsSymOverZ<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!xFieldPresent)<sp/>FieldIsSymOverZ<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!zFieldPresent)<sp/>FieldIsSymOverX<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>SetupTrjDat(srTTrjDat*)<sp/>//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref>*<sp/>CreateAndSetupNewTrjDat(<ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>*);<sp/></highlight><highlight class="comment">//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classsr_t_const_trj_dat" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_const_trj_dat" kindref="compound">srTConstTrjDat</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_field_constant" kindref="compound">srTMagFieldConstant</ref><sp/>MagConst;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_const_trj_dat" kindref="compound">srTConstTrjDat</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CheckIfHorOrVertFieldIsZero()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HorFieldIsNotZero<sp/>=<sp/>(MagConst.Bx<sp/>!=<sp/>0.);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VerFieldIsNotZero<sp/>=<sp/>(MagConst.Bz<sp/>!=<sp/>0.);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MagFieldPeriodicity()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;}<sp/></highlight><highlight class="comment">//<sp/>Non-periodic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>MagFieldIsConstant()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classsr_t_const_trj_dat_1ad03ed0bd6d56d987d5a63948983346a9" kindref="member">ConvertToArbTrjDat</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>Periodicity,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>&amp;,<sp/>srTGenTrjHndl&amp;);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineIntegLimitsForArbTrj(<ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>&amp;<sp/>DistrInfoDat,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>sStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>sEnd);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ShowLimitsAndInitInteg(<ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>&amp;<sp/>DistrInfoDat,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>LongIntType,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>sIntegStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>sIntegFin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>AmOfPer,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>doInit<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DetermineIntegLimitsForArbTrj(DistrInfoDat,<sp/>sIntegStart,<sp/>sIntegFin);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AmOfPer<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Make<sp/>any<sp/>initialization,<sp/>if<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h"/>
+  </compounddef>
+</doxygen>

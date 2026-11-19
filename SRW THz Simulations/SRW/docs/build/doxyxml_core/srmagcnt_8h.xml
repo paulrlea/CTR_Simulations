@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srmagcnt_8h" kind="file" language="C++">
+    <compoundname>srmagcnt.h</compoundname>
+    <includes refid="srobject_8h" local="yes">srobject.h</includes>
+    <includes local="yes">objcont.h</includes>
+    <includes refid="srmagfld_8h" local="yes">srmagfld.h</includes>
+    <includedby refid="srcradint_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h</includedby>
+    <includedby refid="srmagcnt_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.cpp</includedby>
+    <includedby refid="srmagfld_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp</includedby>
+    <includedby refid="srthckbm_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp</includedby>
+    <incdepgraph>
+      <node id="23">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="28">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h</label>
+        <link refid="srmagcnt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="15">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="22">
+        <label>ctype.h</label>
+      </node>
+      <node id="32">
+        <label>gminterp.h</label>
+      </node>
+      <node id="30">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="29">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="12">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="13">
+        <label>gmvect.h</label>
+      </node>
+      <node id="4">
+        <label>map</label>
+      </node>
+      <node id="18">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>objcont.h</label>
+      </node>
+      <node id="5">
+        <label>smartptr.h</label>
+      </node>
+      <node id="19">
+        <label>srigorre.h</label>
+      </node>
+      <node id="25">
+        <label>srinterf.h</label>
+      </node>
+      <node id="27">
+        <label>srwlib.h</label>
+      </node>
+      <node id="9">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>stlstart.h</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="21">
+        <label>string.h</label>
+      </node>
+      <node id="14">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h</label>
+        <link refid="srcradint_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h</label>
+        <link refid="srmagcnt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsr_t_mag_fld_cont" prot="public">srTMagFldCont</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="srmagcnt_8h_1aa61fb937556353caf89ee93c37ec5705" prot="public" static="no">
+        <type>struct SRWLStructMagneticFieldContainer</type>
+        <definition>typedef struct SRWLStructMagneticFieldContainer SRWLMagFldC</definition>
+        <argsstring></argsstring>
+        <name>SRWLMagFldC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h" line="26" column="47" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="srmagcnt_8h_1a8571bb759744f2be29ea1a1a07a567af" prot="public" static="no" extern="yes" mutable="no">
+        <type>CObjCont&lt; <ref refid="class_c_gen_object" kindref="compound">CGenObject</ref> &gt;</type>
+        <definition>CObjCont&lt;CGenObject&gt; gSRObjects</definition>
+        <argsstring></argsstring>
+        <name>gSRObjects</name>
+        <briefdescription>
+<para>File: <ref refid="srmagcnt_8h_source" kindref="compound">srmagcnt.h</ref> Description: Magnetic field container (header) Project: Synchrotron Radiation Workshop First release: 2010. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European XFEL, Hamburg, Germany All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar </para>
+</simplesect>
+<simplesect kind="version"><para>0.06 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h" line="23" column="17" declfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h" declline="23" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRMAGCNT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRMAGCNT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;objcont.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srmagfld.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>CObjCont&lt;CGenObject&gt;<sp/>gSRObjects;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SRWLStructMagneticFieldContainer;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SRWLStructMagneticFieldContainer<sp/>SRWLMagFldC;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classsr_t_mag_fld_cont" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>CObjCont&lt;CGenObject&gt;<sp/>gMagElems;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//vector&lt;TVector3d&gt;<sp/>mVectCenP;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>pMagElem,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nMagElem)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((pMagElem<sp/>==<sp/>0)<sp/>||<sp/>(nMagElem<sp/>&lt;=<sp/>0))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AddElements(pMagElem,<sp/>nMagElem);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//srTMagFldCont(const<sp/>SRWLMagFldC&amp;<sp/>inMagCnt,<sp/>const<sp/>TVector3d&amp;);<sp/>//SRWLIB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SRWLMagFldC&amp;<sp/>inMagCnt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TVector3d&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TVector3d&amp;,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>=0);<sp/></highlight><highlight class="comment">//SRWLIB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddElements(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>pMagElemInd,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nMagElem)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((pMagElemInd<sp/>==<sp/>0)<sp/>||<sp/>(nMagElem<sp/>&lt;=<sp/>0))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>tInd<sp/>=<sp/>pMagElemInd;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;nMagElem;<sp/>i++)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!gSRObjects.exists(*tInd))<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>SR_OBJECT_DOES_NOT_EXIST;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CSmartPtr&lt;CGenObject&gt;<sp/>hObj<sp/>=<sp/>gSRObjects.get(*tInd);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal"><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(hObj.ptr())<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>OBJECT_IS_NOT_MAG;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gMagElems.insert(*tInd,<sp/>hObj);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddElement(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CHGenObj&amp;<sp/>hMagElem)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gMagElems.insert(hMagElem);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>AmountOfMembers()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gMagElems.size();}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ComputeParticlePropagMatrix(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s,<sp/>TMatrix2d&amp;<sp/>Mx,<sp/>TMatrix2d&amp;<sp/>Mz)<sp/></highlight><highlight class="comment">//<sp/>virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mx.Str0.x<sp/>=<sp/>Mx.Str1.y<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mx.Str0.y<sp/>=<sp/>Mx.Str1.x<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mz.Str0.x<sp/>=<sp/>Mz.Str1.y<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mz.Str0.y<sp/>=<sp/>Mz.Str1.x<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(gMagElems.size()<sp/>&lt;=<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(CMHGenObj::const_iterator<sp/>iter<sp/>=<sp/>gMagElems.data.begin();<sp/>iter<sp/>!=<sp/>gMagElems.data.end();<sp/>++iter)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref>*<sp/>pMag<sp/>=<sp/>(<ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref>*)(((*iter).second).rep);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TMatrix2d<sp/>MxNext(1,0,1,0),<sp/>MzNext(1,0,1,0);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMag-&gt;ComputeParticlePropagMatrix(s,<sp/>MxNext,<sp/>MzNext);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mx<sp/>*=<sp/>MxNext;<sp/>Mz<sp/>*=<sp/>MzNext;<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>compB(TVector3d&amp;<sp/>inP,<sp/>TVector3d&amp;<sp/>outB)<sp/></highlight><highlight class="comment">//virtual<sp/>in<sp/>srTMagElem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(gMagElems.data.empty())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TVector3d<sp/>relP<sp/>=<sp/>inP<sp/>-<sp/>mCenP;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>Bloc<sp/>=<sp/>mTrans.TrVectField_inv(outB);<sp/></highlight><highlight class="comment">//OC170615</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>Ploc<sp/>=<sp/>mTrans.TrPoint_inv(inP);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(CMHGenObj::const_iterator<sp/>iter<sp/>=<sp/>gMagElems.data.begin();<sp/>iter<sp/>!=<sp/>gMagElems.data.end();<sp/>++iter)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//((srTMagElem*)((*iter).second.rep))-&gt;compB(relP,<sp/>outB);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((<ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref>*)((*iter).second.rep))-&gt;compB(Ploc,<sp/>Bloc);<sp/></highlight><highlight class="comment">//OC170615</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outB<sp/>=<sp/>mTrans.TrVectField(Bloc);<sp/></highlight><highlight class="comment">//OC170615</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>compB_i(TVector3d&amp;<sp/>inP,<sp/>TVector3d&amp;<sp/>outB,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)<sp/></highlight><highlight class="comment">//virtual<sp/>in<sp/>srTMagElem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//Calculates<sp/>Magnetic<sp/>field<sp/>of<sp/>i-th<sp/>element</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NOTE:<sp/>here<sp/>at<sp/>the<sp/>input<sp/>i<sp/>is<sp/>assumed<sp/>to<sp/>be<sp/>0-based<sp/>(whereas<sp/>in<sp/>gMagElems.data<sp/>it<sp/>seems<sp/>to<sp/>be<sp/>1-based)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//NOTE:<sp/>Space<sp/>transformation<sp/>applied<sp/>to<sp/>entire<sp/>container<sp/>is<sp/>taken<sp/>into<sp/>account<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(gMagElems.data.empty())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//srTMagElem<sp/>*pMag<sp/>=<sp/>(srTMagElem*)gMagElems.getPtr(i);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref><sp/>*pMag<sp/>=<sp/>(<ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref>*)gMagElems.getPtr(i<sp/>+<sp/>1);<sp/></highlight><highlight class="comment">//?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pMag<sp/>!=<sp/>0)<sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TVector3d<sp/>relP<sp/>=<sp/>inP<sp/>-<sp/>mCenP;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//pMag-&gt;compB(relP,<sp/>outB);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>Bloc<sp/>=<sp/>mTrans.TrVectField_inv(outB);<sp/></highlight><highlight class="comment">//OC170615</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>Ploc<sp/>=<sp/>mTrans.TrPoint_inv(inP);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMag-&gt;compB(Ploc,<sp/>Bloc);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outB<sp/>=<sp/>mTrans.TrVectField(Bloc);<sp/></highlight><highlight class="comment">//OC170615</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ComputeSR_Stokes(<ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>*<sp/>pElecBeam,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>pWfrSmp,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pPrcPar,<sp/><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>*<sp/>pStokes);<sp/></highlight><highlight class="comment">//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FilterOutTrUnifMagFld(<ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref>&amp;<sp/>MagTrUnifCont,<sp/><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref>&amp;<sp/>MagOptCont);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrepareContForParticlePropag();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SortContVsStartPos();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineLongStartAndEndPos();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gMagElems.size();}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h"/>
+  </compounddef>
+</doxygen>

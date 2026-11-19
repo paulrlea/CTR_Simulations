@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptsmr_8h" kind="file" language="C++">
+    <compoundname>sroptsmr.h</compoundname>
+    <includes refid="sroptcnt_8h" local="yes">sroptcnt.h</includes>
+    <includes refid="sroptfoc_8h" local="yes">sroptfoc.h</includes>
+    <includedby refid="sroptelm_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptelm.cpp</includedby>
+    <includedby refid="sroptsmr_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.cpp</includedby>
+    <incdepgraph>
+      <node id="20">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="13">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptcnt.h</label>
+        <link refid="sroptcnt_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h</label>
+        <link refid="sroptsmr_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="5">
+        <label>cstdlib</label>
+      </node>
+      <node id="19">
+        <label>ctype.h</label>
+      </node>
+      <node id="6">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="7">
+        <label>gmvect.h</label>
+      </node>
+      <node id="27">
+        <label>list</label>
+      </node>
+      <node id="15">
+        <label>map</label>
+      </node>
+      <node id="11">
+        <label>math.h</label>
+      </node>
+      <node id="8">
+        <label>smartptr.h</label>
+      </node>
+      <node id="12">
+        <label>srigorre.h</label>
+      </node>
+      <node id="22">
+        <label>srinterf.h</label>
+      </node>
+      <node id="25">
+        <label>srwlib.h</label>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="16">
+        <label>stlstart.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
+      </node>
+      <node id="18">
+        <label>string.h</label>
+      </node>
+      <node id="26">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classsr_t_spher_mirror" prot="public">srTSpherMirror</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SROPTSMR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SROPTSMR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptcnt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptfoc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classsr_t_spher_mirror" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_spher_mirror" kindref="compound">srTSpherMirror</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_focusing_elem" kindref="compound">srTFocusingElem</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>OutPlaneInLocFrame[2];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>ExRefInLabFrameBeforeProp,<sp/>EzRefInLabFrameBeforeProp;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CurvRad,<sp/>Dx,<sp/>Dy;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>UseSpherMirrorApprox;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>srTGenOptElemHndl<sp/>NativeApertureHndl;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>srTGenOptElemHndl<sp/>SpherMirrorApproxHndl;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_spher_mirror" kindref="compound">srTSpherMirror</ref>(srTStringVect*<sp/>pElemInfo)<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurvRad<sp/>=<sp/>atof((*pElemInfo)[1]);<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Dx<sp/>=<sp/>atof((*pElemInfo)[2]);<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Dy<sp/>=<sp/>atof((*pElemInfo)[3]);<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>BufString<sp/>=<sp/>(*pElemInfo)[4];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;Horizontal&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;Hor&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;Hor.&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;hor&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;hor.&quot;</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RotPlane<sp/>=<sp/></highlight><highlight class="charliteral">&apos;h&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;Vertical&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;Ver&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;Ver.&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;ver&quot;</highlight><highlight class="normal">))<sp/>||<sp/>(!strcmp(BufString,<sp/></highlight><highlight class="stringliteral">&quot;ver.&quot;</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RotPlane<sp/>=<sp/></highlight><highlight class="charliteral">&apos;v&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{<sp/>ErrorCode<sp/>=<sp/>ERROR_IN_OPTICAL_ELEMENT_DEFINITION;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Theta<sp/>=<sp/>atof((*pElemInfo)[5]);<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>r</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransvCenPoint.x<sp/>=<sp/>atof((*pElemInfo)[6]);<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransvCenPoint.y<sp/>=<sp/>atof((*pElemInfo)[7]);<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//const<sp/>double<sp/>Pi<sp/>=<sp/>3.1415926535898;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>HalfCurvRad<sp/>=<sp/>0.5*CurvRad;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CosTheta<sp/>=<sp/>cos(Theta);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FocDistX<sp/>=<sp/>(RotPlane<sp/>==<sp/></highlight><highlight class="charliteral">&apos;h&apos;</highlight><highlight class="normal">)?<sp/>HalfCurvRad*CosTheta<sp/>:<sp/>HalfCurvRad/CosTheta;<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FocDistZ<sp/>=<sp/>(RotPlane<sp/>==<sp/></highlight><highlight class="charliteral">&apos;v&apos;</highlight><highlight class="normal">)?<sp/>HalfCurvRad*CosTheta<sp/>:<sp/>HalfCurvRad/CosTheta;<sp/></highlight><highlight class="comment">//<sp/>input<sp/>in<sp/>m</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsr_t_shaped_opt_elem_1ab222a766dc8219bde4b125e0be63131f" kindref="member">SetupNativeTransformation</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsr_t_spher_mirror_1aff523cf859ea721c55a899e3ea27d437" kindref="member">SetupNativeAperture</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetupSpherMirrorApprox();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UseSpherMirrorApprox<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_spher_mirror" kindref="compound">srTSpherMirror</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsr_t_spher_mirror_1aff523cf859ea721c55a899e3ea27d437" kindref="member">SetupNativeAperture</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupSpherMirrorApprox();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PropagateRadiation(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>int<sp/>MethNo,<sp/>srTRadResizeVect&amp;<sp/>ResBeforeAndAfterVect)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PropagateRadiation(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>srTParPrecWfrPropag&amp;<sp/>ParPrecWfrPropag,<sp/>srTRadResizeVect&amp;<sp/>ResBeforeAndAfterVect)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PropagateRadiation(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/>srTParPrecWfrPropag&amp;<sp/>ParPrecWfrPropag,<sp/>srTRadResizeVect&amp;<sp/>ResBeforeAndAfterVect,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pvGPU=0)<sp/></highlight><highlight class="comment">//HG04122023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(UseSpherMirrorApprox)<sp/>return<sp/>((srTGenOptElem*)(SpherMirrorApproxHndl.rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>MethNo,<sp/>ResBeforeAndAfterVect);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(UseSpherMirrorApprox)<sp/>return<sp/>((srTGenOptElem*)(SpherMirrorApproxHndl.rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>ParPrecWfrPropag,<sp/>ResBeforeAndAfterVect);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(UseSpherMirrorApprox)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((<ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref>*)(SpherMirrorApproxHndl.rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>ParPrecWfrPropag,<sp/>ResBeforeAndAfterVect,<sp/>pvGPU);<sp/></highlight><highlight class="comment">//HG04122023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>&amp;MethNo<sp/>=<sp/>ParPrecWfrPropag.MethNo;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MethNo<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NativePropagateRadiationMeth_0(pRadAccessData);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MethNo<sp/>==<sp/>1)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NativePropagateRadiationMeth_1(pRadAccessData);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NativePropagateRadiationMeth_0(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>MethNo<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srTRadResizeVect<sp/>RadResizeVect;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srTParPrecWfrPropag<sp/>ManParPrecWfrPropag(0,<sp/>0,<sp/>0,<sp/>1.,<sp/>0.5);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(result<sp/>=<sp/>((srTGenOptElem*)(NativeApertureHndl.rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>MethNo,<sp/>RadResizeVect))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>((<ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref>*)(NativeApertureHndl.rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>ManParPrecWfrPropag,<sp/>RadResizeVect))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>PropagateRadMoments(pRadAccessData,<sp/>0))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pRadAccessData-&gt;Pres<sp/>!=<sp/>0)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>SetRadRepres(pRadAccessData,<sp/>0))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>PropagateByRays(pRadAccessData))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>PropagateWaveFrontRadius(pRadAccessData))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>Propagate4x4PropMatr(pRadAccessData))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NativePropagateRadiationMeth_1(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>MethNo<sp/>=<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srTRadResizeVect<sp/>RadResizeVect;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>srTParPrecWfrPropag<sp/>ParPrecWfrPropag(1,<sp/>1,<sp/>1,<sp/>1.,<sp/>0.5);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(result<sp/>=<sp/>((srTGenOptElem*)(NativeApertureHndl.rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>MethNo,<sp/>RadResizeVect))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>((<ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref>*)(NativeApertureHndl.rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>ParPrecWfrPropag,<sp/>RadResizeVect))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref><sp/>PostResize;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostResize.pxm<sp/>=<sp/>PostResize.pzm<sp/>=<sp/>PostResize.pxd<sp/>=<sp/>PostResize.pzd<sp/>=<sp/>1.;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/><ref refid="classsr_t_focusing_elem_1aecb2e065fb4a0eb8be6bb1a3267623e5" kindref="member">TuneRadForPropMeth_1</ref>(pRadAccessData,<sp/>PostResize))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pRadAccessData-&gt;Pres<sp/>!=<sp/>0)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>SetRadRepres(pRadAccessData,<sp/>0))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>PropagateByRays(pRadAccessData))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>PropagateWaveFrontRadius(pRadAccessData))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//const<sp/>double<sp/>ResizeTol<sp/>=<sp/>0.15;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>PostResizeNeeded<sp/>=<sp/>(::fabs(PostResize.pxm<sp/>-<sp/>1.)<sp/>||<sp/>::fabs(PostResize.pzm<sp/>-<sp/>1.)<sp/>||<sp/>::fabs(PostResize.pxd<sp/>-<sp/>1.)<sp/>||<sp/>::fabs(PostResize.pzd<sp/>-<sp/>1.));</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PostResizeNeeded)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>RadResizeGen(*pRadAccessData,<sp/>PostResize))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>Propagate4x4PropMatr(pRadAccessData))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SurfaceFunction(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xLoc,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yLoc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SurfNo)<sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SqRt<sp/>=<sp/>sqrt(CurvRad*CurvRad<sp/>-<sp/>xLoc*xLoc<sp/>-<sp/>yLoc*yLoc);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(CurvRad<sp/>&gt;=<sp/>0.)?<sp/>(CurvRad<sp/>-<sp/>SqRt)<sp/>:<sp/>(CurvRad<sp/>+<sp/>SqRt);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SurfaceNormalAtPoint(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xLoc,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yLoc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SurfNo,<sp/>TVector3d&amp;<sp/>N)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//<sp/>xLoc,<sp/>yLoc<sp/>-<sp/>Local<sp/>coord.;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>N<sp/>is<sp/>in<sp/>Local<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zLoc<sp/>=<sp/>SurfaceFunction(xLoc,<sp/>yLoc,<sp/>SurfNo);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>N.x<sp/>=<sp/>-xLoc;<sp/>N.y<sp/>=<sp/>-yLoc;<sp/>N.z<sp/>=<sp/>CurvRad<sp/>-<sp/>zLoc;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>N<sp/>=<sp/>(1./CurvRad)*N;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FindRayIntersectWithSurface(TVector3d*<sp/>Ray,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SurfNo,<sp/>TVector3d&amp;<sp/>LocP)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//<sp/>Assumes<sp/>Ray<sp/>in<sp/>Local<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Assumes<sp/>V<sp/>to<sp/>be<sp/>unit<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>&amp;R0<sp/>=<sp/>*Ray,<sp/>&amp;V<sp/>=<sp/>Ray[1];</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>VR0<sp/>=<sp/>V*R0;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0x0<sp/>=<sp/>R0.x*R0.x,<sp/>y0y0<sp/>=<sp/>R0.y*R0.y;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Buf1<sp/>=<sp/>-CurvRad*V.z<sp/>+<sp/>VR0;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SqRt<sp/>=<sp/>sqrt(Buf1*Buf1<sp/>-<sp/>(x0x0<sp/>+<sp/>y0y0<sp/>+<sp/>R0.z*(R0.z<sp/>-<sp/>2.*CurvRad)));</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SignR<sp/>=<sp/>(CurvRad<sp/>&gt;=<sp/>0.)?<sp/>1<sp/>:<sp/>-1;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>RVz_mi_VR0_p_SignRSqRt<sp/>=<sp/>CurvRad*V.z<sp/>-<sp/>VR0<sp/>+<sp/>SignR*SqRt;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LocP.x<sp/>=<sp/>V.x*RVz_mi_VR0_p_SignRSqRt<sp/>+<sp/>R0.x;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LocP.y<sp/>=<sp/>V.y*RVz_mi_VR0_p_SignRSqRt<sp/>+<sp/>R0.y;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LocP.z<sp/>=<sp/>V.z*RVz_mi_VR0_p_SignRSqRt<sp/>+<sp/>R0.z;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OneRayTrace(TVector3d*<sp/>InRay,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>OptPath,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>xOut,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>zOut)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//<sp/>Assumes<sp/>Ray<sp/>in<sp/>Natural<sp/>Lab<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gives<sp/>xOut,<sp/>zOut<sp/>in<sp/>Natural<sp/>Lab<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>Ray[2];<sp/>*Ray<sp/>=<sp/>*InRay;<sp/>Ray[1]<sp/>=<sp/>InRay[1];</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>&amp;R0<sp/>=<sp/>*Ray,<sp/>&amp;V<sp/>=<sp/>Ray[1];</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FromLabToLocFrame_Point(R0);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FromLabToLocFrame_Vector(V);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>LocP;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FindRayIntersectWithSurface(Ray,<sp/>0,<sp/>LocP);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>LocP_mi_R0<sp/>=<sp/>LocP<sp/>-<sp/>R0,<sp/>LocN;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OptPath<sp/>=<sp/>sqrt(LocP_mi_R0.x*LocP_mi_R0.x<sp/>+<sp/>LocP_mi_R0.y*LocP_mi_R0.y<sp/>+<sp/>LocP_mi_R0.z*LocP_mi_R0.z);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SurfaceNormalAtPoint(LocP.x,<sp/>LocP.y,<sp/>0,<sp/>LocN);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>R0<sp/>=<sp/>LocP;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReflectVect(LocN,<sp/>V);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FindLineIntersectWithPlane(OutPlaneInLocFrame,<sp/>Ray,<sp/>LocP);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LocP_mi_R0<sp/>=<sp/>LocP<sp/>-<sp/>R0;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OptPath<sp/>+=<sp/>sqrt(LocP_mi_R0.x*LocP_mi_R0.x<sp/>+<sp/>LocP_mi_R0.y*LocP_mi_R0.y<sp/>+<sp/>LocP_mi_R0.z*LocP_mi_R0.z);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FromLocToLabFrame_Point(LocP);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xOut<sp/>=<sp/>LocP*ExRefInLabFrameBeforeProp;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zOut<sp/>=<sp/>LocP*EzRefInLabFrameBeforeProp;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupInAndOutPlanes(TVector3d*,<sp/>TVector3d*);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RangeShouldBeAdjustedAtPropag()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;}<sp/></highlight><highlight class="comment">//<sp/>Or<sp/>switch<sp/>it<sp/>On</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ResolutionShouldBeAdjustedAtPropag()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h"/>
+  </compounddef>
+</doxygen>

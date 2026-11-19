@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_energy_adjust_fin_grid_par" kind="struct" language="C++" prot="public">
+    <compoundname>srTEnergyAdjustFinGridPar</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_energy_adjust_fin_grid_par_1aaa5a992284c577f92809d7e92012daae" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAdjustFinGridPar::keStep</definition>
+        <argsstring></argsstring>
+        <name>keStep</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::keStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="46" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_adjust_fin_grid_par_1a53d7abfc63425dadc8741d13a425d9d1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEnergyAdjustFinGridPar::eShift</definition>
+        <argsstring></argsstring>
+        <name>eShift</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::eShift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="46" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_adjust_fin_grid_par_1a14a80f1aef1f27377551c5ff87bd237a" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTEnergyAdjustFinGridPar::AmOfExtraStepsFromLeftAndRightOnTheOtherSide</definition>
+        <argsstring></argsstring>
+        <name>AmOfExtraStepsFromLeftAndRightOnTheOtherSide</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::AmOfExtraStepsFromLeftAndRightOnTheOtherSide</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="47" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_adjust_fin_grid_par_1a4dc2d6ea7080036f5855dda1e0f9920c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTEnergyAdjustFinGridPar::Multip</definition>
+        <argsstring></argsstring>
+        <name>Multip</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::Multip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="48" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_adjust_fin_grid_par_1a551adf2b5c95cb7651663cb37d3bad17" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTEnergyAdjustFinGridPar::AmStExtraLeft</definition>
+        <argsstring></argsstring>
+        <name>AmStExtraLeft</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::AmStExtraLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="49" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_adjust_fin_grid_par_1a0e2dd3f80d31186fe40d59ff078d8fcb" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTEnergyAdjustFinGridPar::AmStExtraRight</definition>
+        <argsstring></argsstring>
+        <name>AmStExtraRight</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::AmStExtraRight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="49" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_energy_adjust_fin_grid_par_1a2391c5f09b4d57d678abd5c1827da1b1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTEnergyAdjustFinGridPar::AmOfInitPoToIgnore</definition>
+        <argsstring></argsstring>
+        <name>AmOfInitPoToIgnore</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::AmOfInitPoToIgnore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="50" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_energy_adjust_fin_grid_par_1a462ded8768a6ff6346319469ee774632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEnergyAdjustFinGridPar::srTEnergyAdjustFinGridPar</definition>
+        <argsstring>()</argsstring>
+        <name>srTEnergyAdjustFinGridPar</name>
+        <qualifiedname>srTEnergyAdjustFinGridPar::srTEnergyAdjustFinGridPar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="52" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="52" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="45" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="45" bodyend="61"/>
+    <listofallmembers>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1a14a80f1aef1f27377551c5ff87bd237a" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>AmOfExtraStepsFromLeftAndRightOnTheOtherSide</name></member>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1a2391c5f09b4d57d678abd5c1827da1b1" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>AmOfInitPoToIgnore</name></member>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1a551adf2b5c95cb7651663cb37d3bad17" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>AmStExtraLeft</name></member>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1a0e2dd3f80d31186fe40d59ff078d8fcb" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>AmStExtraRight</name></member>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1a53d7abfc63425dadc8741d13a425d9d1" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>eShift</name></member>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1aaa5a992284c577f92809d7e92012daae" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>keStep</name></member>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1a4dc2d6ea7080036f5855dda1e0f9920c" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>Multip</name></member>
+      <member refid="structsr_t_energy_adjust_fin_grid_par_1a462ded8768a6ff6346319469ee774632" prot="public" virt="non-virtual"><scope>srTEnergyAdjustFinGridPar</scope><name>srTEnergyAdjustFinGridPar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

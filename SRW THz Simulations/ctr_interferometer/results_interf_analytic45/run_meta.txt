@@ -1,0 +1,42 @@
+path=ctr_interferometer (NEW), detector=golay (power), scope=CTR interferometric autocorrelation (beam diagnostic)
+source=ginzburg-frank_convolved_gaussian
+gf_tilt_model=analytic
+screen_tilt_deg=45.0
+crystal_pol_axis_deg=0.0
+gf_include_electron_term=True
+beam_energy_MeV=60.0
+bunch_charge_nC=10.0
+sigma_t_ps=2.0
+div_match=1.0
+gf_conv_sigma_m=0.002
+gf_conv_domain=field
+cap_range_factor=1.6
+window_enabled=True
+window_mode=slab
+window_n=1.95
+window_thickness_m=0.003
+window_alpha_per_cm_at_1THz=3.0
+L_foil_to_window_m=0.18415
+L_window_to_fold_m=0.18415
+L_fold_to_bs_m=0.3433826
+L_bs_to_delay_m=0.0340868
+L_bs_to_oap_m=0.0823976
+L_oap_to_detector_m=0.080391
+oap_focal_length_m=0.07353506351045484
+bs_R=0.3
+bs_T=0.3
+fold_mirror_dia_m=0.1016
+bs_dia_m=0.07619999999999999
+retro_mirror_dia_m=0.075
+oap_dia_m=0.07619999999999999
+channel_amp_at_150GHz=0.2827
+detector_z_m=0.9426
+golay_aperture_radius_m=0.005
+detector_ring_radius_m=0.0018
+power_captured_frac_at_nominal=0.682
+window_etalon_recurrence_ps=39.03
+L_bs_to_reference_m=0.047092
+zpd_stage_travel_m=0.013005 (=0.512in one-way)
+zpd_roundtrip_opd_m=0.026010 (=2x stage; =1.024in; tau0=86.76ps)
+delay_max_ps=205.1  n_tau=411  stage_travel_max_mm=30.75
+n_ok=161/161

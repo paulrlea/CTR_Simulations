@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptzp_8cpp" kind="file" language="C++">
+    <compoundname>sroptzp.cpp</compoundname>
+    <includes refid="sroptzp_8h" local="yes">sroptzp.h</includes>
+    <incdepgraph>
+      <node id="22">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="15">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzp.cpp</label>
+        <link refid="sroptzp_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptzp.h</label>
+        <link refid="sroptzp_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="7">
+        <label>cstdlib</label>
+      </node>
+      <node id="21">
+        <label>ctype.h</label>
+      </node>
+      <node id="8">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="9">
+        <label>gmvect.h</label>
+      </node>
+      <node id="29">
+        <label>list</label>
+      </node>
+      <node id="17">
+        <label>map</label>
+      </node>
+      <node id="13">
+        <label>math.h</label>
+      </node>
+      <node id="10">
+        <label>smartptr.h</label>
+      </node>
+      <node id="14">
+        <label>srigorre.h</label>
+      </node>
+      <node id="24">
+        <label>srinterf.h</label>
+      </node>
+      <node id="27">
+        <label>srwlib.h</label>
+      </node>
+      <node id="6">
+        <label>stdlib.h</label>
+      </node>
+      <node id="18">
+        <label>stlstart.h</label>
+      </node>
+      <node id="16">
+        <label>string</label>
+      </node>
+      <node id="20">
+        <label>string.h</label>
+      </node>
+      <node id="28">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptzp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsr_t_zone_plate_1afef72eb2ec2e80555bed5cf2b2ab0f10" kindref="member">srTZonePlate::DefineAttenModulConstants</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>m_aModH<sp/>=<sp/>m_bModH<sp/>=<sp/>m_cModH<sp/>=<sp/>m_dModH<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>m_ModH_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Nzones<sp/>&lt;=<sp/>1)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(m_ZoneHeightRatioExtToCen<sp/>&gt;=<sp/>0)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_ModH_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r1<sp/>=<sp/>sqrt(RnMaxe2/Nzones);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2<sp/>=<sp/>sqrt(RnMaxe2*2/Nzones);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rNm1<sp/>=<sp/>sqrt(RnMaxe2*(Nzones<sp/>-<sp/>1)/Nzones);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0<sp/>=<sp/>0.5*(r1<sp/>+<sp/>r2),<sp/>xe<sp/>=<sp/>0.5*(rNm1<sp/>+<sp/>RnMax);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1<sp/>=<sp/>0,<sp/>x2<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>h0<sp/>=<sp/>Thickness,<sp/>he<sp/>=<sp/>m_ZoneHeightRatioExtToCen*Thickness;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>h1<sp/>=<sp/>0,<sp/>h2<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((m_ZoneIntermedNum1<sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(m_ZoneHeightRatioIntermedToCen1<sp/>&gt;<sp/>0))</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ri1<sp/>=<sp/>sqrt(RnMaxe2*m_ZoneIntermedNum1/Nzones);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ri1p1<sp/>=<sp/>sqrt(RnMaxe2*(m_ZoneIntermedNum1<sp/>+<sp/>1)/Nzones);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x1<sp/>=<sp/>0.5*(ri1<sp/>+<sp/>ri1p1);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((x1<sp/>==<sp/>x0)<sp/>||<sp/>(x1<sp/>==<sp/>xe))<sp/>x1<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>=<sp/>m_ZoneHeightRatioIntermedToCen1*Thickness;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((m_ZoneIntermedNum2<sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(m_ZoneHeightRatioIntermedToCen2<sp/>&gt;<sp/>0))</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ri2<sp/>=<sp/>sqrt(RnMaxe2*m_ZoneIntermedNum2/Nzones);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ri2p1<sp/>=<sp/>sqrt(RnMaxe2*(m_ZoneIntermedNum2<sp/>+<sp/>1)/Nzones);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x2<sp/>=<sp/>0.5*(ri2<sp/>+<sp/>ri2p1);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((x2<sp/>==<sp/>x0)<sp/>||<sp/>(x2<sp/>==<sp/>xe)<sp/>||<sp/>(x2<sp/>==<sp/>x1))<sp/>x2<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h2<sp/>=<sp/>m_ZoneHeightRatioIntermedToCen2*Thickness;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((x0<sp/>!=<sp/>xe)<sp/>&amp;&amp;<sp/>(x0<sp/>!=<sp/>0)<sp/>&amp;&amp;<sp/>(xe<sp/>!=<sp/>0))</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0_mi_xe<sp/>=<sp/>(x0<sp/>-<sp/>xe);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inv_x0_mi_xe<sp/>=<sp/>1./x0_mi_xe;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((x1<sp/>!=<sp/>0)<sp/>&amp;&amp;<sp/>(x1<sp/>!=<sp/>x0)<sp/>&amp;&amp;<sp/>(x1<sp/>!=<sp/>xe))</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1_mi_xe<sp/>=<sp/>x1<sp/>-<sp/>xe,<sp/>x0_mi_x1<sp/>=<sp/>x0<sp/>-<sp/>x1;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inv_x1_mi_xe<sp/>=<sp/>1./x1_mi_xe,<sp/>inv_x0_mi_x1<sp/>=<sp/>1./x0_mi_x1;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((x2<sp/>!=<sp/>0)<sp/>&amp;&amp;<sp/>(x2<sp/>!=<sp/>x1)<sp/>&amp;&amp;<sp/>(x2<sp/>!=<sp/>x0)<sp/>&amp;&amp;<sp/>(x2<sp/>!=<sp/>xe))</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x2_mi_xe<sp/>=<sp/>x2<sp/>-<sp/>xe,<sp/>x0_mi_x2<sp/>=<sp/>x0<sp/>-<sp/>x2,<sp/>x1_mi_x2<sp/>=<sp/>x1<sp/>-<sp/>x2;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CommonMult6<sp/>=<sp/>1./(x0_mi_x1*x0_mi_x2*x1_mi_x2*x0_mi_xe*x1_mi_xe*x2_mi_xe);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_aModH<sp/>=<sp/>(-(he*x0_mi_x1*x0_mi_x2*x1_mi_x2)<sp/>+<sp/>h2*x0_mi_x1*x0_mi_xe*x1_mi_xe<sp/>-<sp/>(h1*x0_mi_x2*x0_mi_xe<sp/>-<sp/>h0*x1_mi_x2*x1_mi_xe)*x2_mi_xe)*CommonMult6;<sp/><sp/></highlight><highlight class="comment">//<sp/>/((x0_mi_x1)*(x0_mi_x2)*(x1_mi_x2)*(x0_mi_xe)*(x1_mi_xe)*(x2_mi_xe));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_bModH<sp/>=<sp/>(he*x0_mi_x1*x0_mi_x2*x1_mi_x2*(x0<sp/>+<sp/>x1<sp/>+<sp/>x2)<sp/>+<sp/>x2*(h1*x0*x0_mi_x2*(x0<sp/>+<sp/>x2)<sp/>+<sp/>h0*x1*(x2*x2<sp/>-<sp/>x1*x1))<sp/>-<sp/>(h1*(x0*x0*x0<sp/>-<sp/>x2*x2*x2)<sp/>+<sp/>h0*(x2*x2*x2<sp/>-<sp/>x1*x1*x1))*xe<sp/>+<sp/>(h1*x0_mi_x2<sp/>-<sp/>h0*x1_mi_x2)*xe*xe*xe<sp/>-<sp/>h2*x0_mi_x1*x0_mi_xe*x1_mi_xe*(x0<sp/>+<sp/>x1<sp/>+<sp/>xe))*CommonMult6;<sp/></highlight><highlight class="comment">//<sp/>/((x0<sp/>-<sp/>x1)*(x0<sp/>-<sp/>x2)*(x1<sp/>-<sp/>x2)*(x0<sp/>-<sp/>xe)*(x1<sp/>-<sp/>xe)*(x2<sp/>-<sp/>xe));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_cModH<sp/>=<sp/>(x2*x2*(h0*x1*x1*x1_mi_x2<sp/>-<sp/>h1*x0*x0*x0_mi_x2)<sp/>-<sp/>he*x0_mi_x1*x0_mi_x2*x1_mi_x2*(x1*x2<sp/>+<sp/>x0*(x1<sp/>+<sp/>x2))<sp/>+<sp/>(h1*(x0*x0*x0<sp/>-<sp/>x2*x2*x2)<sp/>+<sp/>h0*(x2*x2*x2<sp/>-<sp/>x1*x1*x1))*xe*xe<sp/>+<sp/>(h0*x1*x1<sp/>-<sp/>h1*x0*x0<sp/>+<sp/>(h1<sp/>-<sp/>h0)*x2*x2)*xe*xe*xe<sp/>+<sp/>h2*x0_mi_x1*x0_mi_xe*x1_mi_xe*(x1*xe<sp/>+<sp/>x0*(x1<sp/>+<sp/>xe)))*CommonMult6;<sp/></highlight><highlight class="comment">//<sp/>/((x0<sp/>-<sp/>x1)*(x0<sp/>-<sp/>x2)*(x1<sp/>-<sp/>x2)*(x0<sp/>-<sp/>xe)*(x1<sp/>-<sp/>xe)*(x2<sp/>-<sp/>xe));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_dModH<sp/>=<sp/>(he*x0*x0_mi_x1*x1*x0_mi_x2*x1_mi_x2*x2<sp/>+<sp/>(-(h2*x0*x0_mi_x1*x1*x0_mi_xe*x1_mi_xe)<sp/>+<sp/>x2*(h1*x0*x0_mi_x2*x0_mi_xe<sp/>-<sp/>h0*x1*x1_mi_x2*x1_mi_xe)*x2_mi_xe)*xe)*CommonMult6;<sp/></highlight><highlight class="comment">//<sp/>/((x0<sp/>-<sp/>x1)*(x0<sp/>-<sp/>x2)*(x1<sp/>-<sp/>x2)*(x0<sp/>-<sp/>xe)*(x1<sp/>-<sp/>xe)*(x2<sp/>-<sp/>xe));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CommonMult3<sp/>=<sp/>inv_x0_mi_x1*inv_x0_mi_xe*inv_x1_mi_xe;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_bModH<sp/>=<sp/>(he*x0_mi_x1<sp/>+<sp/>h0*x1_mi_xe<sp/>-<sp/>h1*x0_mi_xe)*CommonMult3;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_cModH<sp/>=<sp/>(he*(x1*x1<sp/>-<sp/>x0*x0)<sp/>+<sp/>h1*(x0*x0<sp/>-<sp/>xe*xe)<sp/>+<sp/>h0*(xe*xe<sp/>-<sp/>x1*x1))*CommonMult3;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_dModH<sp/>=<sp/>(he*x0*x0_mi_x1*x1<sp/>+<sp/>xe*(h0*x1*x1_mi_xe<sp/>-<sp/>h1*x0*x0_mi_xe))*CommonMult3;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_cModH<sp/>=<sp/>(h0<sp/>-<sp/>he)*inv_x0_mi_xe;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_dModH<sp/>=<sp/>(he*x0<sp/>-<sp/>h0*xe)*inv_x0_mi_xe;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzp.cpp"/>
+  </compounddef>
+</doxygen>

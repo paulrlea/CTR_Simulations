@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_contrib_interval" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadContribInterval</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1ab1e3f7dbf830aa12905c70d3907b57c0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Bx_St</definition>
+        <argsstring></argsstring>
+        <name>Bx_St</name>
+        <qualifiedname>srTRadContribInterval::Bx_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1ad963560027d0d510eb1d35f58cfb4177" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Bz_St</definition>
+        <argsstring></argsstring>
+        <name>Bz_St</name>
+        <qualifiedname>srTRadContribInterval::Bz_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a342b8abbebc9b0e8472263b79553f7a7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Btx_St</definition>
+        <argsstring></argsstring>
+        <name>Btx_St</name>
+        <qualifiedname>srTRadContribInterval::Btx_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a77bd2a152f7a60b29675d71e8e65f143" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Btz_St</definition>
+        <argsstring></argsstring>
+        <name>Btz_St</name>
+        <qualifiedname>srTRadContribInterval::Btz_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a83a366d75ebf99c605c413bc4050b6e1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::X_St</definition>
+        <argsstring></argsstring>
+        <name>X_St</name>
+        <qualifiedname>srTRadContribInterval::X_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a2a89352358bd81a21005ad985ca5032c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Z_St</definition>
+        <argsstring></argsstring>
+        <name>Z_St</name>
+        <qualifiedname>srTRadContribInterval::Z_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="39" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a31f906a7008ef615d460988f9ac95c0d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::IntBtxE2_St</definition>
+        <argsstring></argsstring>
+        <name>IntBtxE2_St</name>
+        <qualifiedname>srTRadContribInterval::IntBtxE2_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="44" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aca8b3982e29bbc454c9bcf8b48cf2958" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::IntBtzE2_St</definition>
+        <argsstring></argsstring>
+        <name>IntBtzE2_St</name>
+        <qualifiedname>srTRadContribInterval::IntBtzE2_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="59" column="56" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1afc70124af6177e68724a2843dc067b79" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Bx_Fi</definition>
+        <argsstring></argsstring>
+        <name>Bx_Fi</name>
+        <qualifiedname>srTRadContribInterval::Bx_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a29b6dbda69fc02f908a2aadb4f166323" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Bz_Fi</definition>
+        <argsstring></argsstring>
+        <name>Bz_Fi</name>
+        <qualifiedname>srTRadContribInterval::Bz_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aeff6b7f407e68a32e7f6fb29dd0d0e06" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Btx_Fi</definition>
+        <argsstring></argsstring>
+        <name>Btx_Fi</name>
+        <qualifiedname>srTRadContribInterval::Btx_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a3d50dfe8116eb71eae63f11df203f059" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Btz_Fi</definition>
+        <argsstring></argsstring>
+        <name>Btz_Fi</name>
+        <qualifiedname>srTRadContribInterval::Btz_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1ac427dc287edbddb5e9a5c9cae4a1d776" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::X_Fi</definition>
+        <argsstring></argsstring>
+        <name>X_Fi</name>
+        <qualifiedname>srTRadContribInterval::X_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a4aaa856b501b8313554c618b6ffed9d9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Z_Fi</definition>
+        <argsstring></argsstring>
+        <name>Z_Fi</name>
+        <qualifiedname>srTRadContribInterval::Z_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="39" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a786e4c45cf4a07043a5de6188f1cb4a8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::IntBtxE2_Fi</definition>
+        <argsstring></argsstring>
+        <name>IntBtxE2_Fi</name>
+        <qualifiedname>srTRadContribInterval::IntBtxE2_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="44" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a17a0268410e47a947a2983eecb1b5e91" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::IntBtzE2_Fi</definition>
+        <argsstring></argsstring>
+        <name>IntBtzE2_Fi</name>
+        <qualifiedname>srTRadContribInterval::IntBtzE2_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="60" column="56" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a834dea781bdac20a83bcc707e3e954c0" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTRadContribInterval::IndSt</definition>
+        <argsstring></argsstring>
+        <name>IndSt</name>
+        <qualifiedname>srTRadContribInterval::IndSt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="62" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a793949d85f66a4ae154ca508fc4f948e" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTRadContribInterval::IndFi</definition>
+        <argsstring></argsstring>
+        <name>IndFi</name>
+        <qualifiedname>srTRadContribInterval::IndFi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="62" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a388598da004d4aa8ba9028c1ffb0757a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Ph_St</definition>
+        <argsstring></argsstring>
+        <name>Ph_St</name>
+        <qualifiedname>srTRadContribInterval::Ph_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="64" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a3a14d535392a8b26bfd916c8a60afebd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::dPhds_St</definition>
+        <argsstring></argsstring>
+        <name>dPhds_St</name>
+        <qualifiedname>srTRadContribInterval::dPhds_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="64" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1af0de74b787512a95767aabc4ffe6d0f2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::d2Phds2_St</definition>
+        <argsstring></argsstring>
+        <name>d2Phds2_St</name>
+        <qualifiedname>srTRadContribInterval::d2Phds2_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="64" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aa0ef82910cfaa866724f94bb38b29886" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Ph_Fi</definition>
+        <argsstring></argsstring>
+        <name>Ph_Fi</name>
+        <qualifiedname>srTRadContribInterval::Ph_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="64" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aeffcd862a2478ccf3c0fc1c238d75c90" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::dPhds_Fi</definition>
+        <argsstring></argsstring>
+        <name>dPhds_Fi</name>
+        <qualifiedname>srTRadContribInterval::dPhds_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="64" column="40" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aa761de8e3f8cff138dc6f8f7f2a0a8d1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::d2Phds2_Fi</definition>
+        <argsstring></argsstring>
+        <name>d2Phds2_Fi</name>
+        <qualifiedname>srTRadContribInterval::d2Phds2_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="64" column="49" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a67da5bf5a8c4b2c426862cc159fc0e9a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Ax_St</definition>
+        <argsstring></argsstring>
+        <name>Ax_St</name>
+        <qualifiedname>srTRadContribInterval::Ax_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1ae8b1263275ad67bc545933b5efb6d993" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::dAxds_St</definition>
+        <argsstring></argsstring>
+        <name>dAxds_St</name>
+        <qualifiedname>srTRadContribInterval::dAxds_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1ae2f2c51321a995149653dfc315cc1656" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Az_St</definition>
+        <argsstring></argsstring>
+        <name>Az_St</name>
+        <qualifiedname>srTRadContribInterval::Az_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a9e5aa396e7f0dbe03da1d5422b75a406" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::dAzds_St</definition>
+        <argsstring></argsstring>
+        <name>dAzds_St</name>
+        <qualifiedname>srTRadContribInterval::dAzds_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a3d0839fbfd0b257bb4df3aecb37c6aa2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Ax_Fi</definition>
+        <argsstring></argsstring>
+        <name>Ax_Fi</name>
+        <qualifiedname>srTRadContribInterval::Ax_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a85854c43cc8a32499bb897696482d5ff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::dAxds_Fi</definition>
+        <argsstring></argsstring>
+        <name>dAxds_Fi</name>
+        <qualifiedname>srTRadContribInterval::dAxds_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="44" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a9b4227b655b52a9572756bfb9362d8d6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Az_Fi</definition>
+        <argsstring></argsstring>
+        <name>Az_Fi</name>
+        <qualifiedname>srTRadContribInterval::Az_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="53" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a4c44dfb85f2f9f966b655c73d9b34819" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::dAzds_Fi</definition>
+        <argsstring></argsstring>
+        <name>dAzds_Fi</name>
+        <qualifiedname>srTRadContribInterval::dAzds_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="65" column="59" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1ad1800bbecd3fb2bfcc2160dfe6baed05" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::CosPh_St</definition>
+        <argsstring></argsstring>
+        <name>CosPh_St</name>
+        <qualifiedname>srTRadContribInterval::CosPh_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="66" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1ac15a3d5141bd96b0461fcc9563b4d1a3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::SinPh_St</definition>
+        <argsstring></argsstring>
+        <name>SinPh_St</name>
+        <qualifiedname>srTRadContribInterval::SinPh_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="66" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aaa1dff4e7127c0532bea33c0aa76bc08" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::CosPh_Fi</definition>
+        <argsstring></argsstring>
+        <name>CosPh_Fi</name>
+        <qualifiedname>srTRadContribInterval::CosPh_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="66" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a3002a7c77529701b7997325bc17a658b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::SinPh_Fi</definition>
+        <argsstring></argsstring>
+        <name>SinPh_Fi</name>
+        <qualifiedname>srTRadContribInterval::SinPh_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="66" column="35" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aca476948f62d5364581c85f5fa49e172" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadContribInterval::PoIsGoodForAn_St</definition>
+        <argsstring></argsstring>
+        <name>PoIsGoodForAn_St</name>
+        <qualifiedname>srTRadContribInterval::PoIsGoodForAn_St</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="67" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a10d0af995933fd6622311640783c18e9" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadContribInterval::PoIsGoodForAn_Fi</definition>
+        <argsstring></argsstring>
+        <name>PoIsGoodForAn_Fi</name>
+        <qualifiedname>srTRadContribInterval::PoIsGoodForAn_Fi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="67" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a3fb8e36bbd069a54c22b56bab4c9b5db" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::SumReEx</definition>
+        <argsstring></argsstring>
+        <name>SumReEx</name>
+        <qualifiedname>srTRadContribInterval::SumReEx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="69" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a99b6aa85fedbff881052bc7132d307d6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::SumImEx</definition>
+        <argsstring></argsstring>
+        <name>SumImEx</name>
+        <qualifiedname>srTRadContribInterval::SumImEx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="69" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1aad9b4d3e90d9c74191a61b6df897a14f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::SumReEz</definition>
+        <argsstring></argsstring>
+        <name>SumReEz</name>
+        <qualifiedname>srTRadContribInterval::SumReEz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="69" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1afac90f1f6c7b65d53c850e069cf17d5f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::SumImEz</definition>
+        <argsstring></argsstring>
+        <name>SumImEz</name>
+        <qualifiedname>srTRadContribInterval::SumImEz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="69" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a3c97fc97c4dbbb5ab2e854b258cb011f" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier srTRadContribInterval::E</definition>
+        <argsstring></argsstring>
+        <name>E</name>
+        <qualifiedname>srTRadContribInterval::E</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="70" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1abe7ef573965a2c0eabb561a5987ba83d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::sc</definition>
+        <argsstring></argsstring>
+        <name>sc</name>
+        <qualifiedname>srTRadContribInterval::sc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="72" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a7f1f94704c39e8f7b275d3bd39ce571c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Xc</definition>
+        <argsstring></argsstring>
+        <name>Xc</name>
+        <qualifiedname>srTRadContribInterval::Xc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="72" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_contrib_interval_1a2b2dbea9417111da1a0f8d40ee6aa055" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadContribInterval::Zc</definition>
+        <argsstring></argsstring>
+        <name>Zc</name>
+        <qualifiedname>srTRadContribInterval::Zc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="72" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_rad_contrib_interval_1a6b059278ff98ae83436a044c4b8fda22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadContribInterval::srTRadContribInterval</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadContribInterval</name>
+        <qualifiedname>srTRadContribInterval::srTRadContribInterval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="74" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="74" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_contrib_interval_1a988da1e7192a164cbf7fe36b6a3d9a7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadContribInterval::OutLeftFuncs</definition>
+        <argsstring>(srTRadFuncsAndDers &amp;Funcs)</argsstring>
+        <name>OutLeftFuncs</name>
+        <qualifiedname>srTRadContribInterval::OutLeftFuncs</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_funcs_and_ders" kindref="compound">srTRadFuncsAndDers</ref> &amp;</type>
+          <declname>Funcs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="87" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="87" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_contrib_interval_1a5aa36dce84af9faf718bd26e11593fb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadContribInterval::OutRightFuncs</definition>
+        <argsstring>(srTRadFuncsAndDers &amp;Funcs)</argsstring>
+        <name>OutRightFuncs</name>
+        <qualifiedname>srTRadContribInterval::OutRightFuncs</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_funcs_and_ders" kindref="compound">srTRadFuncsAndDers</ref> &amp;</type>
+          <declname>Funcs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="94" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="94" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>srTEFourier</label>
+        <link refid="structsr_t_e_fourier"/>
+      </node>
+      <node id="1">
+        <label>srTRadContribInterval</label>
+        <link refid="structsr_t_rad_contrib_interval"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>E</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="57" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="57" bodyend="101"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_contrib_interval_1a3d0839fbfd0b257bb4df3aecb37c6aa2" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Ax_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a67da5bf5a8c4b2c426862cc159fc0e9a" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Ax_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a9b4227b655b52a9572756bfb9362d8d6" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Az_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1ae2f2c51321a995149653dfc315cc1656" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Az_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aeff6b7f407e68a32e7f6fb29dd0d0e06" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Btx_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a342b8abbebc9b0e8472263b79553f7a7" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Btx_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a3d50dfe8116eb71eae63f11df203f059" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Btz_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a77bd2a152f7a60b29675d71e8e65f143" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Btz_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1afc70124af6177e68724a2843dc067b79" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Bx_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1ab1e3f7dbf830aa12905c70d3907b57c0" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Bx_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a29b6dbda69fc02f908a2aadb4f166323" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Bz_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1ad963560027d0d510eb1d35f58cfb4177" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Bz_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aaa1dff4e7127c0532bea33c0aa76bc08" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>CosPh_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1ad1800bbecd3fb2bfcc2160dfe6baed05" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>CosPh_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aa761de8e3f8cff138dc6f8f7f2a0a8d1" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>d2Phds2_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1af0de74b787512a95767aabc4ffe6d0f2" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>d2Phds2_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a85854c43cc8a32499bb897696482d5ff" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>dAxds_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1ae8b1263275ad67bc545933b5efb6d993" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>dAxds_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a4c44dfb85f2f9f966b655c73d9b34819" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>dAzds_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a9e5aa396e7f0dbe03da1d5422b75a406" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>dAzds_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aeffcd862a2478ccf3c0fc1c238d75c90" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>dPhds_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a3a14d535392a8b26bfd916c8a60afebd" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>dPhds_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a3c97fc97c4dbbb5ab2e854b258cb011f" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>E</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a793949d85f66a4ae154ca508fc4f948e" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>IndFi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a834dea781bdac20a83bcc707e3e954c0" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>IndSt</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a786e4c45cf4a07043a5de6188f1cb4a8" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>IntBtxE2_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a31f906a7008ef615d460988f9ac95c0d" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>IntBtxE2_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a17a0268410e47a947a2983eecb1b5e91" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>IntBtzE2_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aca8b3982e29bbc454c9bcf8b48cf2958" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>IntBtzE2_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a988da1e7192a164cbf7fe36b6a3d9a7f" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>OutLeftFuncs</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a5aa36dce84af9faf718bd26e11593fb8" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>OutRightFuncs</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aa0ef82910cfaa866724f94bb38b29886" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Ph_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a388598da004d4aa8ba9028c1ffb0757a" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Ph_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a10d0af995933fd6622311640783c18e9" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>PoIsGoodForAn_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aca476948f62d5364581c85f5fa49e172" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>PoIsGoodForAn_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1abe7ef573965a2c0eabb561a5987ba83d" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>sc</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a3002a7c77529701b7997325bc17a658b" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>SinPh_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1ac15a3d5141bd96b0461fcc9563b4d1a3" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>SinPh_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a6b059278ff98ae83436a044c4b8fda22" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>srTRadContribInterval</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a99b6aa85fedbff881052bc7132d307d6" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>SumImEx</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1afac90f1f6c7b65d53c850e069cf17d5f" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>SumImEz</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a3fb8e36bbd069a54c22b56bab4c9b5db" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>SumReEx</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1aad9b4d3e90d9c74191a61b6df897a14f" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>SumReEz</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1ac427dc287edbddb5e9a5c9cae4a1d776" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>X_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a83a366d75ebf99c605c413bc4050b6e1" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>X_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a7f1f94704c39e8f7b275d3bd39ce571c" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Xc</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a4aaa856b501b8313554c618b6ffed9d9" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Z_Fi</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a2a89352358bd81a21005ad985ca5032c" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Z_St</name></member>
+      <member refid="structsr_t_rad_contrib_interval_1a2b2dbea9417111da1a0f8d40ee6aa055" prot="public" virt="non-virtual"><scope>srTRadContribInterval</scope><name>Zc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

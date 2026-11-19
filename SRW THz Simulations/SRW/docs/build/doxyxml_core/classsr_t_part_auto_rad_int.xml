@@ -1,0 +1,906 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_part_auto_rad_int" kind="class" language="C++" prot="public">
+    <compoundname>srTPartAutoRadInt</compoundname>
+    <includes refid="srprdint_8h" local="no">srprdint.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a44b61bec3473f0b1c8d2d688c5db1164" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::AuxDataArray[1000]</definition>
+        <argsstring>[1000]</argsstring>
+        <name>AuxDataArray</name>
+        <qualifiedname>srTPartAutoRadInt::AuxDataArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="24" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a24084aaf80182dc1f321fdbeefaaa674" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTPartAutoRadInt::AuxDataPtr</definition>
+        <argsstring></argsstring>
+        <name>AuxDataPtr</name>
+        <qualifiedname>srTPartAutoRadInt::AuxDataPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="25" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a022a344e672c51b9784643ed6b518820" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTPartAutoRadInt::BtxArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BtxArrP</name>
+        <qualifiedname>srTPartAutoRadInt::BtxArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="27" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a4ea948382f5fc044b0668ddfef59a979" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTPartAutoRadInt::XArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>XArrP</name>
+        <qualifiedname>srTPartAutoRadInt::XArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="27" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a417c635a89184c957c0773b546ccc1ad" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTPartAutoRadInt::IntBtxE2ArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>IntBtxE2ArrP</name>
+        <qualifiedname>srTPartAutoRadInt::IntBtxE2ArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="27" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1ac84491910c05de5bbd33a23e91b7d6ca" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTPartAutoRadInt::BxArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BxArrP</name>
+        <qualifiedname>srTPartAutoRadInt::BxArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="27" column="35" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1ae982e02cd375142e709d22346ac8fa4c" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTPartAutoRadInt::BtzArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BtzArrP</name>
+        <qualifiedname>srTPartAutoRadInt::BtzArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="28" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1aaac18dbcda438f551a8067116e3b6a5e" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTPartAutoRadInt::ZArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>ZArrP</name>
+        <qualifiedname>srTPartAutoRadInt::ZArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="28" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a5b8910d1d2421161f2485de4582236b3" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTPartAutoRadInt::IntBtzE2ArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>IntBtzE2ArrP</name>
+        <qualifiedname>srTPartAutoRadInt::IntBtzE2ArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="28" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1af3e0e7f02920bf22b63df07d87daf0ad" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTPartAutoRadInt::BzArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BzArrP</name>
+        <qualifiedname>srTPartAutoRadInt::BzArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="28" column="35" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a140aacc7916a5aa3bb00a2453808d679" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTPartAutoRadInt::AmOfPointsOnLevel[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>AmOfPointsOnLevel</name>
+        <qualifiedname>srTPartAutoRadInt::AmOfPointsOnLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="30" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a90ecf3853adfad5ed5d06809a5799eea" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTPartAutoRadInt::NumberOfLevelsFilled</definition>
+        <argsstring></argsstring>
+        <name>NumberOfLevelsFilled</name>
+        <qualifiedname>srTPartAutoRadInt::NumberOfLevelsFilled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="32" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a35ba3aa9619f26f87a993143560f79f3" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTPartAutoRadInt::NpOnZeroLevel</definition>
+        <argsstring></argsstring>
+        <name>NpOnZeroLevel</name>
+        <qualifiedname>srTPartAutoRadInt::NpOnZeroLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="32" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a93de3e5a7cee5ab9463730d04f3e242b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::sIntegStart</definition>
+        <argsstring></argsstring>
+        <name>sIntegStart</name>
+        <qualifiedname>srTPartAutoRadInt::sIntegStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="34" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a9769d0a1b8c8aef60d5bf4fcab217307" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::sIntegFin</definition>
+        <argsstring></argsstring>
+        <name>sIntegFin</name>
+        <qualifiedname>srTPartAutoRadInt::sIntegFin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="34" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a4f71ea414589eb105bba28fb8ec1ac40" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::sIntegStep</definition>
+        <argsstring></argsstring>
+        <name>sIntegStep</name>
+        <qualifiedname>srTPartAutoRadInt::sIntegStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="34" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a62187c847e8a84e57835f2871019bbac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::sIntegRelPrec</definition>
+        <argsstring></argsstring>
+        <name>sIntegRelPrec</name>
+        <qualifiedname>srTPartAutoRadInt::sIntegRelPrec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="34" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a6825023fdc43490942e744c6873e5571" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::MaxFluxDensVal</definition>
+        <argsstring></argsstring>
+        <name>MaxFluxDensVal</name>
+        <qualifiedname>srTPartAutoRadInt::MaxFluxDensVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="35" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1abec5fd16b503c46b811748e9b1358db5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::CurrentAbsPrec</definition>
+        <argsstring></argsstring>
+        <name>CurrentAbsPrec</name>
+        <qualifiedname>srTPartAutoRadInt::CurrentAbsPrec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="35" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1aa6904cf0eff6f3293c79f7feb16e2ac5" prot="private" static="no" mutable="no">
+        <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+        <definition>srTTrjDat* srTPartAutoRadInt::TrjDatPtr</definition>
+        <argsstring></argsstring>
+        <name>TrjDatPtr</name>
+        <qualifiedname>srTPartAutoRadInt::TrjDatPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="37" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1af4616d06a778909d0ba2f8a216a3da83" prot="private" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+        <definition>srTWfrSmp* srTPartAutoRadInt::DistrInfoDatPtr</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDatPtr</name>
+        <qualifiedname>srTPartAutoRadInt::DistrInfoDatPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="38" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a65af649e49ef0cbd5c3f6d6cb8ec4f36" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_lamb_x_y_z" kindref="compound">srLambXYZ</ref> *</type>
+        <definition>srLambXYZ* srTPartAutoRadInt::ObsCoorPtr</definition>
+        <argsstring></argsstring>
+        <name>ObsCoorPtr</name>
+        <qualifiedname>srTPartAutoRadInt::ObsCoorPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="39" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a6f61c3df704d4f905bd80d6345b082e7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::wfe</definition>
+        <argsstring></argsstring>
+        <name>wfe</name>
+        <qualifiedname>srTPartAutoRadInt::wfe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="43" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1afeca67077dde956e54136daacc28efb5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::wf1</definition>
+        <argsstring></argsstring>
+        <name>wf1</name>
+        <qualifiedname>srTPartAutoRadInt::wf1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="43" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a0a3a659ff1628d0037b52c19b035c25d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::wf2</definition>
+        <argsstring></argsstring>
+        <name>wf2</name>
+        <qualifiedname>srTPartAutoRadInt::wf2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="43" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1af5fb183005141eb31f8dff4fd95ac8ec" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::wd</definition>
+        <argsstring></argsstring>
+        <name>wd</name>
+        <qualifiedname>srTPartAutoRadInt::wd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="43" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1afaba669addb31bb1dd567e014314e5ba" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>srTPartAutoRadInt::PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a5c6f8782c38e4ed66cd61684795ac0bb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::TwoPI</definition>
+        <argsstring></argsstring>
+        <name>TwoPI</name>
+        <qualifiedname>srTPartAutoRadInt::TwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a701df4973c3063f9e54cce328efac44a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::ThreePIdTwo</definition>
+        <argsstring></argsstring>
+        <name>ThreePIdTwo</name>
+        <qualifiedname>srTPartAutoRadInt::ThreePIdTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a13d80b9dcfc09ba02c76a72dfc29332e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::FivePIdFour</definition>
+        <argsstring></argsstring>
+        <name>FivePIdFour</name>
+        <qualifiedname>srTPartAutoRadInt::FivePIdFour</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a4a6caf08e9a19e15ea1f82e9c0cf28d0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::HalfPI</definition>
+        <argsstring></argsstring>
+        <name>HalfPI</name>
+        <qualifiedname>srTPartAutoRadInt::HalfPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1aa638f8e353eeb678706f72b17ea81df6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::One_dTwoPI</definition>
+        <argsstring></argsstring>
+        <name>One_dTwoPI</name>
+        <qualifiedname>srTPartAutoRadInt::One_dTwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="48" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1af2f4482c795989865889f08e666547cb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::PIm10e6</definition>
+        <argsstring></argsstring>
+        <name>PIm10e6</name>
+        <qualifiedname>srTPartAutoRadInt::PIm10e6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="59" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a99e6598b53c7e0a5fa6bed9cfd407e1e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::PIm10e6dEnCon</definition>
+        <argsstring></argsstring>
+        <name>PIm10e6dEnCon</name>
+        <qualifiedname>srTPartAutoRadInt::PIm10e6dEnCon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="67" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1ae06ffe9e857a66eb9d56498a695fbdc7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::TenEm6dTwoPI</definition>
+        <argsstring></argsstring>
+        <name>TenEm6dTwoPI</name>
+        <qualifiedname>srTPartAutoRadInt::TenEm6dTwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="44" column="81" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a7e37d73368e84cb2476e5f45673a0943" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a2c</definition>
+        <argsstring></argsstring>
+        <name>a2c</name>
+        <qualifiedname>srTPartAutoRadInt::a2c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="45" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a8689589814f5c3176fbe20d9938b2ec5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a4c</definition>
+        <argsstring></argsstring>
+        <name>a4c</name>
+        <qualifiedname>srTPartAutoRadInt::a4c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="45" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1aedd9b76eea3ea997a658d4025fd67a70" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a6c</definition>
+        <argsstring></argsstring>
+        <name>a6c</name>
+        <qualifiedname>srTPartAutoRadInt::a6c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="45" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1aa98cdde0525e4041534485af0bad5f43" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a8c</definition>
+        <argsstring></argsstring>
+        <name>a8c</name>
+        <qualifiedname>srTPartAutoRadInt::a8c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="45" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a73292333330fa192be1bd9f80e670479" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a10c</definition>
+        <argsstring></argsstring>
+        <name>a10c</name>
+        <qualifiedname>srTPartAutoRadInt::a10c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="45" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a16960d2a66833a9c798d8f925a664e91" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a12c</definition>
+        <argsstring></argsstring>
+        <name>a12c</name>
+        <qualifiedname>srTPartAutoRadInt::a12c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="45" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1af36717ec45e2b049c221155286216b63" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a3s</definition>
+        <argsstring></argsstring>
+        <name>a3s</name>
+        <qualifiedname>srTPartAutoRadInt::a3s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="46" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1acb7854d25c01b0429ce00f560c069fa4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a5s</definition>
+        <argsstring></argsstring>
+        <name>a5s</name>
+        <qualifiedname>srTPartAutoRadInt::a5s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="46" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a8fb07f9325393ab6436732e0c09b3ed4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a7s</definition>
+        <argsstring></argsstring>
+        <name>a7s</name>
+        <qualifiedname>srTPartAutoRadInt::a7s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="46" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1ad8ea7f525ba9d4ca2e02d911824c216d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a9s</definition>
+        <argsstring></argsstring>
+        <name>a9s</name>
+        <qualifiedname>srTPartAutoRadInt::a9s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="46" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a1bd0db035ac2aa655b8ee55267a4c1e7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a11s</definition>
+        <argsstring></argsstring>
+        <name>a11s</name>
+        <qualifiedname>srTPartAutoRadInt::a11s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="46" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a89797030733dd431f8a321abf8d7f5db" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPartAutoRadInt::a13s</definition>
+        <argsstring></argsstring>
+        <name>a13s</name>
+        <qualifiedname>srTPartAutoRadInt::a13s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="46" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_part_auto_rad_int_1a34d2961015f025912d9553312bb7e0c6" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPartAutoRadInt::SomethingIsWrong</definition>
+        <argsstring></argsstring>
+        <name>SomethingIsWrong</name>
+        <qualifiedname>srTPartAutoRadInt::SomethingIsWrong</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="50" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_part_auto_rad_int_1a452a4cda4c0da1c0af6bc7dfbfbc2792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTPartAutoRadInt::srTPartAutoRadInt</definition>
+        <argsstring>(srTTrjDat *InTrjDatPtr, srTWfrSmp *InDistrInfoDatPtr, srLambXYZ *InObsCoorPtr, double In_sStart, double In_sFin, double In_sRelPrec, long long InNpOnZeroLevel)</argsstring>
+        <name>srTPartAutoRadInt</name>
+        <qualifiedname>srTPartAutoRadInt::srTPartAutoRadInt</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>InTrjDatPtr</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>InDistrInfoDatPtr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_lamb_x_y_z" kindref="compound">srLambXYZ</ref> *</type>
+          <declname>InObsCoorPtr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_sFin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_sRelPrec</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>InNpOnZeroLevel</declname>
+        </param>
+        <briefdescription>
+<para>File: srprdint.cpp Description: Auxiliary (obsolete?) SR calculation method from ~Arbitrary Transversely-Uniform Magnetic Field, in Near-Field observation conditions Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="53" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.cpp" bodystart="22" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_part_auto_rad_int_1aa1bad916fd480b4302aa39262787d9fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTPartAutoRadInt::~srTPartAutoRadInt</definition>
+        <argsstring>()</argsstring>
+        <name>~srTPartAutoRadInt</name>
+        <qualifiedname>srTPartAutoRadInt::~srTPartAutoRadInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="55" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_part_auto_rad_int_1a0f167372ff4c1db2551b0818e4671cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPartAutoRadInt::Integrate</definition>
+        <argsstring>(double &amp;IntXRe, double &amp;IntXIm, double &amp;IntZRe, double &amp;IntZIm, double *InEdgeFunDer=0)</argsstring>
+        <name>Integrate</name>
+        <qualifiedname>srTPartAutoRadInt::Integrate</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntXRe</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntXIm</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntZRe</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntZIm</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>InEdgeFunDer</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="61" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.cpp" bodystart="112" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_part_auto_rad_int_1a0af8dcb3258682f68d30f093c18a8c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTPartAutoRadInt::CosAndSin</definition>
+        <argsstring>(double x, double &amp;Cos, double &amp;Sin)</argsstring>
+        <name>CosAndSin</name>
+        <qualifiedname>srTPartAutoRadInt::CosAndSin</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Cos</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Sin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="63" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_part_auto_rad_int_1a8d7835d7b7a03358057d77089a491fec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPartAutoRadInt::FillNextLevel</definition>
+        <argsstring>(int LevelNo, double sStart, double sEnd, long long Np)</argsstring>
+        <name>FillNextLevel</name>
+        <qualifiedname>srTPartAutoRadInt::FillNextLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevelNo</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEnd</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="77" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="77" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srprdint_8h_source" kindref="compound">srprdint.h</ref> Description: Auxiliary (obsolete?) SR calculation method from ~Arbitrary Transversely-Uniform Magnetic Field, in Near-Field observation conditions (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" line="22" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h" bodystart="22" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classsr_t_part_auto_rad_int_1a73292333330fa192be1bd9f80e670479" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a10c</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a1bd0db035ac2aa655b8ee55267a4c1e7" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a11s</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a16960d2a66833a9c798d8f925a664e91" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a12c</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a89797030733dd431f8a321abf8d7f5db" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a13s</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a7e37d73368e84cb2476e5f45673a0943" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a2c</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1af36717ec45e2b049c221155286216b63" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a3s</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a8689589814f5c3176fbe20d9938b2ec5" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a4c</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1acb7854d25c01b0429ce00f560c069fa4" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a5s</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1aedd9b76eea3ea997a658d4025fd67a70" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a6c</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a8fb07f9325393ab6436732e0c09b3ed4" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a7s</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1aa98cdde0525e4041534485af0bad5f43" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a8c</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1ad8ea7f525ba9d4ca2e02d911824c216d" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>a9s</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a140aacc7916a5aa3bb00a2453808d679" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>AmOfPointsOnLevel</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a44b61bec3473f0b1c8d2d688c5db1164" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>AuxDataArray</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a24084aaf80182dc1f321fdbeefaaa674" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>AuxDataPtr</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a022a344e672c51b9784643ed6b518820" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>BtxArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1ae982e02cd375142e709d22346ac8fa4c" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>BtzArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1ac84491910c05de5bbd33a23e91b7d6ca" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>BxArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1af3e0e7f02920bf22b63df07d87daf0ad" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>BzArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a0af8dcb3258682f68d30f093c18a8c6f" prot="public" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1abec5fd16b503c46b811748e9b1358db5" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>CurrentAbsPrec</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1af4616d06a778909d0ba2f8a216a3da83" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>DistrInfoDatPtr</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a8d7835d7b7a03358057d77089a491fec" prot="public" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>FillNextLevel</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a13d80b9dcfc09ba02c76a72dfc29332e" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>FivePIdFour</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a4a6caf08e9a19e15ea1f82e9c0cf28d0" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>HalfPI</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a417c635a89184c957c0773b546ccc1ad" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>IntBtxE2ArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a5b8910d1d2421161f2485de4582236b3" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>IntBtzE2ArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a0f167372ff4c1db2551b0818e4671cea" prot="public" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>Integrate</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a6825023fdc43490942e744c6873e5571" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>MaxFluxDensVal</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a35ba3aa9619f26f87a993143560f79f3" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>NpOnZeroLevel</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a90ecf3853adfad5ed5d06809a5799eea" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>NumberOfLevelsFilled</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a65af649e49ef0cbd5c3f6d6cb8ec4f36" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>ObsCoorPtr</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1aa638f8e353eeb678706f72b17ea81df6" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>One_dTwoPI</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1afaba669addb31bb1dd567e014314e5ba" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>PI</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1af2f4482c795989865889f08e666547cb" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>PIm10e6</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a99e6598b53c7e0a5fa6bed9cfd407e1e" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>PIm10e6dEnCon</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a9769d0a1b8c8aef60d5bf4fcab217307" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>sIntegFin</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a62187c847e8a84e57835f2871019bbac" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>sIntegRelPrec</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a93de3e5a7cee5ab9463730d04f3e242b" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>sIntegStart</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a4f71ea414589eb105bba28fb8ec1ac40" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>sIntegStep</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a34d2961015f025912d9553312bb7e0c6" prot="public" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>SomethingIsWrong</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a452a4cda4c0da1c0af6bc7dfbfbc2792" prot="public" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>srTPartAutoRadInt</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1ae06ffe9e857a66eb9d56498a695fbdc7" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>TenEm6dTwoPI</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a701df4973c3063f9e54cce328efac44a" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>ThreePIdTwo</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1aa6904cf0eff6f3293c79f7feb16e2ac5" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>TrjDatPtr</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a5c6f8782c38e4ed66cd61684795ac0bb" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>TwoPI</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1af5fb183005141eb31f8dff4fd95ac8ec" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>wd</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1afeca67077dde956e54136daacc28efb5" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>wf1</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a0a3a659ff1628d0037b52c19b035c25d" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>wf2</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a6f61c3df704d4f905bd80d6345b082e7" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>wfe</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1a4ea948382f5fc044b0668ddfef59a979" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>XArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1aaac18dbcda438f551a8067116e3b6a5e" prot="private" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>ZArrP</name></member>
+      <member refid="classsr_t_part_auto_rad_int_1aa1bad916fd480b4302aa39262787d9fb" prot="public" virt="non-virtual"><scope>srTPartAutoRadInt</scope><name>~srTPartAutoRadInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

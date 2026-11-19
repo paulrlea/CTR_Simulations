@@ -1,0 +1,2092 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_send" kind="class" language="C++" prot="public">
+    <compoundname>srTSend</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_send_1a21bcfd5d485e573b272f2fd6b661a8fc" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSend::ProgressIndicatorShouldBeUsed</definition>
+        <argsstring></argsstring>
+        <name>ProgressIndicatorShouldBeUsed</name>
+        <qualifiedname>srTSend::ProgressIndicatorShouldBeUsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="112" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_send_1a5fb69f1743cf4866b84b74164e4876dd" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSend::ProgressIndicatorIsUsed</definition>
+        <argsstring></argsstring>
+        <name>ProgressIndicatorIsUsed</name>
+        <qualifiedname>srTSend::ProgressIndicatorIsUsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="113" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_send_1afe19df91c49e5b8369f1e0e5035407af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTSend::srTSend</definition>
+        <argsstring>()</argsstring>
+        <name>srTSend</name>
+        <qualifiedname>srTSend::srTSend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="116" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a728448013b20e5be53aba042ebae0e80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::ErrorMessage</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>ErrorMessage</name>
+        <qualifiedname>srTSend::ErrorMessage</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <defname>MessageString</defname>
+        </param>
+        <briefdescription>
+<para>File: srsend.cpp Description: Interface (input-output) functions essentially for IGOR Pro XOP Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="126" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="41" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aa3a426a77e164f2bfbf6281a8fd0db61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::OrdinaryMessage</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>OrdinaryMessage</name>
+        <qualifiedname>srTSend::OrdinaryMessage</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <defname>MessageString</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="127" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="117" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a1c4d9ec2aff9830c1e5bdfb69193a1f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::WarningMessage</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>WarningMessage</name>
+        <qualifiedname>srTSend::WarningMessage</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <defname>MessageString</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="128" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="58" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a33e864cbd22bcd9d623fd931a3f90ba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::WarningMessages</definition>
+        <argsstring>(srTIntVect *)</argsstring>
+        <name>WarningMessages</name>
+        <qualifiedname>srTSend::WarningMessages</qualifiedname>
+        <param>
+          <type>srTIntVect *</type>
+          <defname>pWarnMesNos</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="129" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="73" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a9b62ee1598494ef7aac0c37d940833c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::AddWarningMessage</definition>
+        <argsstring>(srTIntVect *, int)</argsstring>
+        <name>AddWarningMessage</name>
+        <qualifiedname>srTSend::AddWarningMessage</qualifiedname>
+        <param>
+          <type>srTIntVect *</type>
+          <defname>pWarnMesNos</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>WarnNo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="131" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="106" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a9bb0ff1ac2276c39bf2caf4b8df3dc57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::String</definition>
+        <argsstring>(char *)</argsstring>
+        <name>String</name>
+        <qualifiedname>srTSend::String</qualifiedname>
+        <param>
+          <type>char *</type>
+          <defname>MessageString</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="133" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="131" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a709094b96923f8afc26496b2bc2d66b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::Long</definition>
+        <argsstring>(long)</argsstring>
+        <name>Long</name>
+        <qualifiedname>srTSend::Long</qualifiedname>
+        <param>
+          <type>long</type>
+          <defname>LongIntValue</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="134" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="188" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a06ab37b771c7f4157bb2578062f46792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::Int</definition>
+        <argsstring>(int)</argsstring>
+        <name>Int</name>
+        <qualifiedname>srTSend::Int</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>IntValue</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="135" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="197" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a4f0d430c75a5a5142356fbda3ed92023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::IntList</definition>
+        <argsstring>(int *, int)</argsstring>
+        <name>IntList</name>
+        <qualifiedname>srTSend::IntList</qualifiedname>
+        <param>
+          <type>int *</type>
+          <defname>ArrayOfInt</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>lenArrayOfInt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="136" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="206" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a03d82f73ae811cdaf9fddd47b52f6890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::Double</definition>
+        <argsstring>(double)</argsstring>
+        <name>Double</name>
+        <qualifiedname>srTSend::Double</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>d</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="137" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="140" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ae684cd7986f45fa2e43b39b0fb3fbe05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::DoubleList</definition>
+        <argsstring>(double *, int)</argsstring>
+        <name>DoubleList</name>
+        <qualifiedname>srTSend::DoubleList</qualifiedname>
+        <param>
+          <type>double *</type>
+          <defname>ArrayOfDouble</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>lenArrayOfDouble</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="138" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="160" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a7277353df347c4a30fff08aa4045f9db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::DoubleListWithArg</definition>
+        <argsstring>(double, double, double *, int)</argsstring>
+        <name>DoubleListWithArg</name>
+        <qualifiedname>srTSend::DoubleListWithArg</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>ArgSt</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>ArgEn</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>ArrayOfDouble</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>lenArrayOfDouble</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="139" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="170" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a3f6c21450b48366b2f3b68ca66726ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::InitOutList</definition>
+        <argsstring>(int)</argsstring>
+        <name>InitOutList</name>
+        <qualifiedname>srTSend::InitOutList</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>NumberOfElem</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="141" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="216" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ab0233e397b7d35d34078e767ba97f522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::ArbNestedArrays</definition>
+        <argsstring>(double *, int *, int)</argsstring>
+        <name>ArbNestedArrays</name>
+        <qualifiedname>srTSend::ArbNestedArrays</qualifiedname>
+        <param>
+          <type>double *</type>
+          <defname>Data</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <defname>Dims</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>Depth</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="143" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="246" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a7a64692b9a75cadda1e82367874f4731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::SubArbNestedArrays</definition>
+        <argsstring>(double *, int *, int, int &amp;)</argsstring>
+        <name>SubArbNestedArrays</name>
+        <qualifiedname>srTSend::SubArbNestedArrays</qualifiedname>
+        <param>
+          <type>double *</type>
+          <defname>Data</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <defname>Dims</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>Depth</defname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <defname>CntData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="144" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="225" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a81717ddcca67f49cb395c643d7197c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::MyMLPutDouble</definition>
+        <argsstring>(double)</argsstring>
+        <name>MyMLPutDouble</name>
+        <qualifiedname>srTSend::MyMLPutDouble</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>d</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="146" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="150" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aae220ee92bb20154d83189da5feb0f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalElectronData</definition>
+        <argsstring>(srTTrjDat &amp;)</argsstring>
+        <name>GetTotalElectronData</name>
+        <qualifiedname>srTSend::GetTotalElectronData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="148" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1969" bodyend="1999"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ad7fda59326e890163094ba777c6652a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::OutRadDistrFormat1</definition>
+        <argsstring>(srTRadInt &amp;)</argsstring>
+        <name>OutRadDistrFormat1</name>
+        <qualifiedname>srTSend::OutRadDistrFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_rad_int" kindref="compound">srTRadInt</ref> &amp;</type>
+          <defname>RadInt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="150" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="474" bodyend="781"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a1a4f706dbb046ee10b41626154cdf59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::OutRadDistrFormat2</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, srTRadInt &amp;)</argsstring>
+        <name>OutRadDistrFormat2</name>
+        <qualifiedname>srTSend::OutRadDistrFormat2</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>SRWRadStructAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_rad_int" kindref="compound">srTRadInt</ref> &amp;</type>
+          <defname>RadInt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="151" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="785" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aa2baa5aa9c7abac6661395c5386995a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::OutPhaseFormat1</definition>
+        <argsstring>(srTRadInt &amp;)</argsstring>
+        <name>OutPhaseFormat1</name>
+        <qualifiedname>srTSend::OutPhaseFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_rad_int" kindref="compound">srTRadInt</ref> &amp;</type>
+          <defname>RadInt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="153" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="806" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a7e718b40bf1511f626c48b8aff12fc04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::InitTrjOutFormat1</definition>
+        <argsstring>(srTTrjDat &amp;)</argsstring>
+        <name>InitTrjOutFormat1</name>
+        <qualifiedname>srTSend::InitTrjOutFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="155" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="257" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a5f45c3445ade9c1f6bc4d3cf50e391e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::FinishTrjOutFormat1</definition>
+        <argsstring>()</argsstring>
+        <name>FinishTrjOutFormat1</name>
+        <qualifiedname>srTSend::FinishTrjOutFormat1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="156" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="687" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a93ed59e3dea5dff7de531311975860f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::InitRadDistrOutFormat1</definition>
+        <argsstring>(srTWfrSmp &amp;)</argsstring>
+        <name>InitRadDistrOutFormat1</name>
+        <qualifiedname>srTSend::InitRadDistrOutFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="158" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="313" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aaf36bbdd7174c38a6b39804def5281d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::InitRadDistrOutFormat2</definition>
+        <argsstring>(srTWfrSmp &amp;)</argsstring>
+        <name>InitRadDistrOutFormat2</name>
+        <qualifiedname>srTSend::InitRadDistrOutFormat2</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="159" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="391" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1afa55fee59ccddf10ae60b8785b6cf69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::InitRadDistrOutFormat3</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, srTWfrSmp &amp;)</argsstring>
+        <name>InitRadDistrOutFormat3</name>
+        <qualifiedname>srTSend::InitRadDistrOutFormat3</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>SRWRadStructAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="160" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="453" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1acea46700d8c73a7ba33a5a0421862dd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::FinishRadDistrOutFormat1</definition>
+        <argsstring>()</argsstring>
+        <name>FinishRadDistrOutFormat1</name>
+        <qualifiedname>srTSend::FinishRadDistrOutFormat1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="162" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="707" bodyend="726"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a79916972914b3ecead1e13cc61046f65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::RadValDirectOut</definition>
+        <argsstring>(complex&lt; double &gt; *)</argsstring>
+        <name>RadValDirectOut</name>
+        <qualifiedname>srTSend::RadValDirectOut</qualifiedname>
+        <param>
+          <type>complex&lt; double &gt; *</type>
+          <defname>RadVal</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="163" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="730" bodyend="751"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1af0caf01d7105007aee0130a15279e3bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::RadValDirectOut</definition>
+        <argsstring>(srTEFourier &amp;)</argsstring>
+        <name>RadValDirectOut</name>
+        <qualifiedname>srTSend::RadValDirectOut</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <defname>RadVal</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="165" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="755" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a329f08d8371e082c7839cea94992631a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::RadValDirectOut_FluxDens</definition>
+        <argsstring>(srTEFourier &amp;)</argsstring>
+        <name>RadValDirectOut_FluxDens</name>
+        <qualifiedname>srTSend::RadValDirectOut_FluxDens</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <defname>RadVal</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="166" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="780" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a1784ca0ec1c14e45eac95438a18acc5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalElectronBeamDataFormat2</definition>
+        <argsstring>(srTTrjDat &amp;)</argsstring>
+        <name>GetTotalElectronBeamDataFormat2</name>
+        <qualifiedname>srTSend::GetTotalElectronBeamDataFormat2</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="168" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1575" bodyend="1652"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a21195e6b24cc2c2aa9c5402d912d442c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalElectronBeamDataFormat3</definition>
+        <argsstring>(srTEbmDat &amp;)</argsstring>
+        <name>GetTotalElectronBeamDataFormat3</name>
+        <qualifiedname>srTSend::GetTotalElectronBeamDataFormat3</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <defname>EbmDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="169" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1708" bodyend="1735"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a80048f5d95a8dfc3a020d8186baf450c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalElectronDistribDataFormat1</definition>
+        <argsstring>(srTEbmDat &amp;)</argsstring>
+        <name>GetTotalElectronDistribDataFormat1</name>
+        <qualifiedname>srTSend::GetTotalElectronDistribDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <defname>EbmDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="170" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1656" bodyend="1704"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a93854872d9aa29817c03baa2f13ef482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetIsotrSrcExtraDataFormat1</definition>
+        <argsstring>(srTIsotrSrc &amp;)</argsstring>
+        <name>GetIsotrSrcExtraDataFormat1</name>
+        <qualifiedname>srTSend::GetIsotrSrcExtraDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_isotr_src" kindref="compound">srTIsotrSrc</ref> &amp;</type>
+          <defname>IsotrSrc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="172" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2003" bodyend="2056"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a7c277b67c629b08907b63f5c935bc955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalGsnBeamDataFormat1</definition>
+        <argsstring>(srTGsnBeam &amp;)</argsstring>
+        <name>GetTotalGsnBeamDataFormat1</name>
+        <qualifiedname>srTSend::GetTotalGsnBeamDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_gsn_beam" kindref="compound">srTGsnBeam</ref> &amp;</type>
+          <defname>GsnBeam</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="173" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2060" bodyend="2124"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a142bc1ac0e2517c05722a5dbb4396fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalFieldDataFormat1</definition>
+        <argsstring>(srTMagFieldAccessData &amp;, srTTrjDat &amp;)</argsstring>
+        <name>GetTotalFieldDataFormat1</name>
+        <qualifiedname>srTSend::GetTotalFieldDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_mag_field_access_data" kindref="compound">srTMagFieldAccessData</ref> &amp;</type>
+          <defname>MagFieldAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="175" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="920" bodyend="1182"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ad5cd8d78281fd748f743c452e8b82fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalFieldDataFormat2</definition>
+        <argsstring>(srTTrjDat &amp;)</argsstring>
+        <name>GetTotalFieldDataFormat2</name>
+        <qualifiedname>srTSend::GetTotalFieldDataFormat2</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="176" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1186" bodyend="1243"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a29789f4f7de73e13c461041e201df789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetPeriodicFieldDataFormat1</definition>
+        <argsstring>(srTMagFieldPeriodic &amp;, waveHndl h=0)</argsstring>
+        <name>GetPeriodicFieldDataFormat1</name>
+        <qualifiedname>srTSend::GetPeriodicFieldDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_field_periodic" kindref="compound">srTMagFieldPeriodic</ref> &amp;</type>
+          <defname>MagPer</defname>
+        </param>
+        <param>
+          <type>waveHndl</type>
+          <declname>h</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="178" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1247" bodyend="1385"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1adb48a169c41d25f35edb4d1e19dca332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetConstantFieldDataFormat1</definition>
+        <argsstring>(srTMagFieldConstant &amp;)</argsstring>
+        <name>GetConstantFieldDataFormat1</name>
+        <qualifiedname>srTSend::GetConstantFieldDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_field_constant" kindref="compound">srTMagFieldConstant</ref> &amp;</type>
+          <defname>MagConst</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="179" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1389" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a55fb276a3fae41f003d03d6b19f08e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetGenMagFieldDataFormat1</definition>
+        <argsstring>(srTGenTrjHndl &amp;)</argsstring>
+        <name>GetGenMagFieldDataFormat1</name>
+        <qualifiedname>srTSend::GetGenMagFieldDataFormat1</qualifiedname>
+        <param>
+          <type>srTGenTrjHndl &amp;</type>
+          <defname>hGenTrj</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="180" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1456" bodyend="1496"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a628f94163bcdab1f2e50a1cbb7b475b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::IdentifyMagFieldType</definition>
+        <argsstring>(char &amp;)</argsstring>
+        <name>IdentifyMagFieldType</name>
+        <qualifiedname>srTSend::IdentifyMagFieldType</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <defname>MagFieldType</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="181" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1415" bodyend="1438"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a45bbd725a15cd099142ddf571995c72c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::IdentifyMagFieldTypeFromName</definition>
+        <argsstring>(char *)</argsstring>
+        <name>IdentifyMagFieldTypeFromName</name>
+        <qualifiedname>srTSend::IdentifyMagFieldTypeFromName</qualifiedname>
+        <param>
+          <type>char *</type>
+          <defname>MagFieldName</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="182" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1442" bodyend="1452"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aec614cd44dd030e591f338508ec1d511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetGeneralMagneticFieldDataFormat1</definition>
+        <argsstring>(srTMagGroup &amp;)</argsstring>
+        <name>GetGeneralMagneticFieldDataFormat1</name>
+        <qualifiedname>srTSend::GetGeneralMagneticFieldDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_group" kindref="compound">srTMagGroup</ref> &amp;</type>
+          <defname>MagGen</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="184" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="1500" bodyend="1571"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1acc0b108d58da76a0660b7a4075cb7c42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalTrajectoryDataFormat1</definition>
+        <argsstring>(srTTrjDat &amp;)</argsstring>
+        <name>GetTotalTrajectoryDataFormat1</name>
+        <qualifiedname>srTSend::GetTotalTrajectoryDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="186" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2210" bodyend="2274"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1acf5d0a07ef4ff7574fe746fe4b31d26d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTrajectoryComponentDataFormat1</definition>
+        <argsstring>(srTWaveAccessDataD1D &amp;)</argsstring>
+        <name>GetTrajectoryComponentDataFormat1</name>
+        <qualifiedname>srTSend::GetTrajectoryComponentDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data_d1_d" kindref="compound">srTWaveAccessDataD1D</ref> &amp;</type>
+          <defname>TrjCmpn</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="187" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2161" bodyend="2206"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aa2976fbf8c9cb60b682031bfbbad0120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetSASEInputRadDataFormat1</definition>
+        <argsstring>(srTRadSASE &amp;, srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>GetSASEInputRadDataFormat1</name>
+        <qualifiedname>srTSend::GetSASEInputRadDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_s_a_s_e" kindref="compound">srTRadSASE</ref> &amp;</type>
+          <defname>InRadSASE</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>SeedRadSASE</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="189" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5137" bodyend="5199"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1af455074c5fcb873a2422f2ab2d995376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetSASEPrecDataFormat1</definition>
+        <argsstring>(srTPrecSASE &amp;)</argsstring>
+        <name>GetSASEPrecDataFormat1</name>
+        <qualifiedname>srTSend::GetSASEPrecDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_prec_s_a_s_e" kindref="compound">srTPrecSASE</ref> &amp;</type>
+          <defname>PrecSASE</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="190" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5203" bodyend="5274"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ae7cbbd39d50a587ecaed49d9a3e56488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetSRWRadStructArray</definition>
+        <argsstring>(srTSRWRadStructAccessData *&amp;arSRWRadStructAccessData, int &amp;numRadStruct)</argsstring>
+        <name>GetSRWRadStructArray</name>
+        <qualifiedname>srTSend::GetSRWRadStructArray</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *&amp;</type>
+          <declname>arSRWRadStructAccessData</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>numRadStruct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="191" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3799" bodyend="3833"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a12b24f152fa63f54b533f5590b0701a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::SetupSASEControlStruct</definition>
+        <argsstring>(srTControlAccessSASE &amp;, int numHarm)</argsstring>
+        <name>SetupSASEControlStruct</name>
+        <qualifiedname>srTSend::SetupSASEControlStruct</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_control_access_s_a_s_e" kindref="compound">srTControlAccessSASE</ref> &amp;</type>
+          <defname>ControlAccessSASE</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="192" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5278" bodyend="5507"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a6db4d4f2a1676efd0f2f8de51fb82dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetPropagRadStokesMultiElecDataFormat1</definition>
+        <argsstring>(double *pPrecPar)</argsstring>
+        <name>GetPropagRadStokesMultiElecDataFormat1</name>
+        <qualifiedname>srTSend::GetPropagRadStokesMultiElecDataFormat1</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pPrecPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="205" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3149" bodyend="3181"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a334e602c04c0c9971e16cf56f1025a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetWfrEmitPropagPrec</definition>
+        <argsstring>(double *pPrecPar)</argsstring>
+        <name>GetWfrEmitPropagPrec</name>
+        <qualifiedname>srTSend::GetWfrEmitPropagPrec</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pPrecPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="206" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3185" bodyend="3220"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a5a4c8427302e49e85ad502d742671468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FinishWorkingWithControlSASEStruct</definition>
+        <argsstring>(srTControlAccessSASE &amp;ControlAccessSASE)</argsstring>
+        <name>FinishWorkingWithControlSASEStruct</name>
+        <qualifiedname>srTSend::FinishWorkingWithControlSASEStruct</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_control_access_s_a_s_e" kindref="compound">srTControlAccessSASE</ref> &amp;</type>
+          <declname>ControlAccessSASE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="208" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5615" bodyend="5674"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a2e63a2c9304c5b2c3baa689ed2ff3517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalObservationDataFormat1</definition>
+        <argsstring>(srTWfrSmp &amp;)</argsstring>
+        <name>GetTotalObservationDataFormat1</name>
+        <qualifiedname>srTSend::GetTotalObservationDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="210" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2304" bodyend="2589"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1add4c7d510e5b81115402050c94183b3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalObservationDataFormat2</definition>
+        <argsstring>(srTWfrSmp &amp;)</argsstring>
+        <name>GetTotalObservationDataFormat2</name>
+        <qualifiedname>srTSend::GetTotalObservationDataFormat2</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="211" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2765" bodyend="2898"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a57f66eab8a3ec09ed439a8de6c22f113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalObservationDataFormat3</definition>
+        <argsstring>(srTWfrSmp &amp;)</argsstring>
+        <name>GetTotalObservationDataFormat3</name>
+        <qualifiedname>srTSend::GetTotalObservationDataFormat3</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="212" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2593" bodyend="2761"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a2b424b4697c64c7d06f882f5253a4ec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalRadIntegrationParamDataFormat1</definition>
+        <argsstring>(srTRadInt &amp;)</argsstring>
+        <name>GetTotalRadIntegrationParamDataFormat1</name>
+        <qualifiedname>srTSend::GetTotalRadIntegrationParamDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_rad_int" kindref="compound">srTRadInt</ref> &amp;</type>
+          <defname>RadInt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="214" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2978" bodyend="3145"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1affc3f77bbcf8b4108163a529d5fb8ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetRadIntPeriodicParamDataFormat1</definition>
+        <argsstring>(srTRadIntPerStoPrec &amp;)</argsstring>
+        <name>GetRadIntPeriodicParamDataFormat1</name>
+        <qualifiedname>srTSend::GetRadIntPeriodicParamDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_int_per_sto_prec" kindref="compound">srTRadIntPerStoPrec</ref> &amp;</type>
+          <defname>IntPerPrec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="215" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3224" bodyend="3260"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1add68150c625ccb25d376d78e90440962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetRadIntWigglerParamDataFormat1</definition>
+        <argsstring>(srTRadIntWigPrec &amp;)</argsstring>
+        <name>GetRadIntWigglerParamDataFormat1</name>
+        <qualifiedname>srTSend::GetRadIntWigglerParamDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_int_wig_prec" kindref="compound">srTRadIntWigPrec</ref> &amp;</type>
+          <defname>IntWigPrec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="216" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3264" bodyend="3295"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a47bbe9d77225d82f773e28f8a92a2656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetRadIntConstParamDataFormat1</definition>
+        <argsstring>(srTRadIntConstPrec &amp;)</argsstring>
+        <name>GetRadIntConstParamDataFormat1</name>
+        <qualifiedname>srTSend::GetRadIntConstParamDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_int_const_prec" kindref="compound">srTRadIntConstPrec</ref> &amp;</type>
+          <defname>IntConstPrec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="217" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3299" bodyend="3328"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a3d7ed7137c0f61d32fe49208ec68f857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetRadIntPowDensParamDataFormat1</definition>
+        <argsstring>(srTRadIntPowDenPrec &amp;)</argsstring>
+        <name>GetRadIntPowDensParamDataFormat1</name>
+        <qualifiedname>srTSend::GetRadIntPowDensParamDataFormat1</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_int_pow_den_prec" kindref="compound">srTRadIntPowDenPrec</ref> &amp;</type>
+          <defname>PowDenPrec</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="218" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3332" bodyend="3364"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a4a33d8c760d526f0d06d7db9422dffa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetAuxObsTreatParamFormat1</definition>
+        <argsstring>(srTWfrSmp &amp;)</argsstring>
+        <name>GetAuxObsTreatParamFormat1</name>
+        <qualifiedname>srTSend::GetAuxObsTreatParamFormat1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="220" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5077" bodyend="5132"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aab268108ebdb7be4da52fc1aaf7bd7e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetOptElemNames</definition>
+        <argsstring>(srTStringVect &amp;)</argsstring>
+        <name>GetOptElemNames</name>
+        <qualifiedname>srTSend::GetOptElemNames</qualifiedname>
+        <param>
+          <type>srTStringVect &amp;</type>
+          <defname>StringVect</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="222" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5871" bodyend="5891"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ab426bd4428e9af6e16c3b9b517d011ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::OutOpticsIncRadDistrFormat1</definition>
+        <argsstring>(double *, int, double, double)</argsstring>
+        <name>OutOpticsIncRadDistrFormat1</name>
+        <qualifiedname>srTSend::OutOpticsIncRadDistrFormat1</qualifiedname>
+        <param>
+          <type>double *</type>
+          <defname>DataPtr</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>lenData</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>xSt</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>xFi</defname>
+        </param>
+        <briefdescription>
+<para>Obsolete int srTSend::GetTotalOpticalElemDataFormat1(void* OpticsHndlPtr) { srTOpticsHndl&amp; OpticsHndl = <emphasis>((srTOpticsHndl</emphasis>)OpticsHndlPtr);. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>#if defined(<bold>MATHEMATICA</bold>) <verbatim>return 0;
+</verbatim></para>
+<para>#elif defined(<bold>IGOR_PRO</bold>) <verbatim>waveHndl wavH = pIgorRadFocusInputStruct-&gt;wOpticalElem;
+
+if(wavH == NIL) return NOWAV;
+int waveType = WaveType(wavH);
+if(waveType != NT_FP64) return NT_FP64_WAVE_REQUIRED;
+
+long numDimensions;
+long dimensionSizes[MAX_DIMENSIONS+1];
+int result;
+
+if(result = MDGetWaveDimensions(wavH, &amp;numDimensions, dimensionSizes)) return result;
+</verbatim> long numRows = dimensionSizes[0]; <verbatim>long dataOffset;
+if(result = MDAccessNumericWaveData(wavH, kMDWaveAccessMode0, &amp;dataOffset)) return result;
+int hState = 0; //MoveLockHandle(wavH);
+char* dataStartPtr = (char*)(*wavH) + dataOffset;
+</verbatim> DOUBLE* dp0 = (DOUBLE*)dataStartPtr; double* dp0 = (double*)dataStartPtr; //OC26112019 (related to SRW port to IGOR XOP8 on Mac)</para>
+<para>int OpticalElemID = int(*(dp0++));</para>
+<para>srTOptics* OldSphMirPtr = OpticsHndl.rep; char LocNotFirstInput = (OldSphMirPtr != 0); char LocInputWasModified = LocNotFirstInput? 0 : 1;</para>
+<para>double xCP = *(dp0++); // Assuming input in m ! if(LocNotFirstInput) if(xCP != OldSphMirPtr-&gt;CentrPoint.x) LocInputWasModified = 1; double yCP = *(dp0++); // Assuming input in m ! if(LocNotFirstInput) if(yCP != OldSphMirPtr-&gt;CentrPoint.y) LocInputWasModified = 1; double zCP = *(dp0++); // Assuming input in m ! if(LocNotFirstInput) if(zCP != OldSphMirPtr-&gt;CentrPoint.z) LocInputWasModified = 1; TVector3d CP(xCP, yCP, zCP); double xSN = *(dp0++); if(LocNotFirstInput) if(xSN != OldSphMirPtr-&gt;CentrSurfNorm.x) LocInputWasModified = 1; double ySN = *(dp0++); if(LocNotFirstInput) if(ySN != OldSphMirPtr-&gt;CentrSurfNorm.y) LocInputWasModified = 1; double zSN = *(dp0++); if(LocNotFirstInput) if(zSN != OldSphMirPtr-&gt;CentrSurfNorm.z) LocInputWasModified = 1; TVector3d SN(xSN, ySN, zSN);</para>
+<para>if(OpticalElemID == 20) // Spherical Mirror { double CurvRad = <emphasis>(dp0++); // Assuming input in m ! if(LocNotFirstInput) if(CurvRad != ((srTSphericalMirror</emphasis>)OldSphMirPtr)-&gt;CurvRad) LocInputWasModified = 1;</para>
+<para>double Diameter = <emphasis>dp0; // Assuming input in m ! if(LocNotFirstInput) if(Diameter != ((srTSphericalMirror</emphasis>)OldSphMirPtr)-&gt;Diameter) LocInputWasModified = 1;</para>
+<para>HSetState((Handle)wavH, hState);</para>
+<para>if(LocInputWasModified) { srTSphericalMirror* SphMirPtr = new srTSphericalMirror(CP, SN, CurvRad, Diameter); if(SphMirPtr == 0) return MEMORY_ALLOCATION_FAILURE;</para>
+<para>srTOpticsHndl SphMirHndl(SphMirPtr); OpticsHndl = SphMirHndl; } else OldSphMirPtr-&gt;InputWasModified = 0; } else if(OpticalElemID == 30) // Zone Plate { Continue here } else return UNKNOWN_OPTICAL_ELEMENT;</para>
+<para>return 0;</para>
+<para>#else <verbatim>return 0;
+</verbatim></para>
+<para>#endif } </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="225" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3456" bodyend="3507"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a596644fbbcfb21620d2904296a9c4246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetWavelengthAndCoordData</definition>
+        <argsstring>(srTWfrSmp &amp;, char)</argsstring>
+        <name>GetWavelengthAndCoordData</name>
+        <qualifiedname>srTSend::GetWavelengthAndCoordData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <defname>GetLongCoord</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="227" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2902" bodyend="2974"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a202f16648d09a493859818ff2f7087cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetTotalOutTrjParam</definition>
+        <argsstring>(short *, double *, short &amp;)</argsstring>
+        <name>GetTotalOutTrjParam</name>
+        <qualifiedname>srTSend::GetTotalOutTrjParam</qualifiedname>
+        <param>
+          <type>short *</type>
+          <defname>TypeOfTrjCharact</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>sSt_sEn_Ns</defname>
+        </param>
+        <param>
+          <type>short &amp;</type>
+          <defname>Arg</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="228" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2128" bodyend="2157"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ab11bbc8cb3683cb5ac909bcd2a38772a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetCoordData</definition>
+        <argsstring>(double &amp;, double &amp;, int &amp;)</argsstring>
+        <name>GetCoordData</name>
+        <qualifiedname>srTSend::GetCoordData</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <defname>xStart</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>xEnd</defname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <defname>nx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="229" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="826" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a307cf6b32596a076ae44d96f1f4f1611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetPrtclTrjInitData</definition>
+        <argsstring>(double &amp;, double &amp;, double &amp;, double &amp;, double &amp;)</argsstring>
+        <name>GetPrtclTrjInitData</name>
+        <qualifiedname>srTSend::GetPrtclTrjInitData</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <defname>s0</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>x0</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>dxds0</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>z0</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>dzds0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="230" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="859" bodyend="887"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a6a594db19e7f2583040b2a5f1ad6d299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetString</definition>
+        <argsstring>(char *&amp;, int)</argsstring>
+        <name>GetString</name>
+        <qualifiedname>srTSend::GetString</qualifiedname>
+        <param>
+          <type>char *&amp;</type>
+          <defname>String</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>MaxSize</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="231" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="891" bodyend="903"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ae4631fb0a05a9aac95e1d59dd749b8c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetDouble</definition>
+        <argsstring>(double &amp;)</argsstring>
+        <name>GetDouble</name>
+        <qualifiedname>srTSend::GetDouble</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <defname>aDouble</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="232" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="907" bodyend="916"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ad9ac147abe06f6dbbb61caada30de5d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetVectorOfStrings</definition>
+        <argsstring>(char *, srTStringVect *)</argsstring>
+        <name>GetVectorOfStrings</name>
+        <qualifiedname>srTSend::GetVectorOfStrings</qualifiedname>
+        <param>
+          <type>char *</type>
+          <defname>StructName</defname>
+        </param>
+        <param>
+          <type>srTStringVect *</type>
+          <defname>pStringVect</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="234" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="6009" bodyend="6022"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a7a579b00b737c9683567cf54a98bc33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetVectorOfStrings</definition>
+        <argsstring>(waveHndl &amp;, srTStringVect *)</argsstring>
+        <name>GetVectorOfStrings</name>
+        <qualifiedname>srTSend::GetVectorOfStrings</qualifiedname>
+        <param>
+          <type>waveHndl &amp;</type>
+          <defname>wavH</defname>
+        </param>
+        <param>
+          <type>srTStringVect *</type>
+          <defname>pStringVect</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="235" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5895" bodyend="5953"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a548ad5101084fb9abcff1c6f7bc02785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FinishWorkingWithWave</definition>
+        <argsstring>(srTWaveAccessData *)</argsstring>
+        <name>FinishWorkingWithWave</name>
+        <qualifiedname>srTSend::FinishWorkingWithWave</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <defname>pWaveAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="236" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="6026" bodyend="6092"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a21e2e48c559839cad2bd2555ab64ac25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FetchNumWave</definition>
+        <argsstring>(char *, srTWaveAccessData *)</argsstring>
+        <name>FetchNumWave</name>
+        <qualifiedname>srTSend::FetchNumWave</qualifiedname>
+        <param>
+          <type>char *</type>
+          <defname>WaveName</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <defname>pWaveAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="237" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="6225" bodyend="6240"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ae7f2de0dfba43de103b88113ca060c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::ModifyRadNeNxNz</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, char=0)</argsstring>
+        <name>ModifyRadNeNxNz</name>
+        <qualifiedname>srTSend::ModifyRadNeNxNz</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>NewRadStructAccessData</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <defname>PolarizComp</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="238" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4266" bodyend="4512"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a9be5b58b13853fd576a62df2db9d2bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetRadStructNames</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, srTSRWRadStructWaveNames &amp;)</argsstring>
+        <name>GetRadStructNames</name>
+        <qualifiedname>srTSend::GetRadStructNames</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_s_r_w_rad_struct_wave_names" kindref="compound">srTSRWRadStructWaveNames</ref> &amp;</type>
+          <defname>Names</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="240" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4565" bodyend="4607"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a6b3c3f4fbc7fd0e1cb0562f9efd945f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::CreateNewRadStruct</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, srTSRWRadStructWaveNames &amp;)</argsstring>
+        <name>CreateNewRadStruct</name>
+        <qualifiedname>srTSend::CreateNewRadStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadData</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_s_r_w_rad_struct_wave_names" kindref="compound">srTSRWRadStructWaveNames</ref> &amp;</type>
+          <defname>Names</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="241" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4005" bodyend="4200"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aaf43a9d41defb4d55d46a0e0a28ba9d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::DeleteRadStructWaves</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, srTSRWRadStructWaveKeys &amp;)</argsstring>
+        <name>DeleteRadStructWaves</name>
+        <qualifiedname>srTSend::DeleteRadStructWaves</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadData</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_s_r_w_rad_struct_wave_keys" kindref="compound">srTSRWRadStructWaveKeys</ref> &amp;</type>
+          <defname>Keys</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="242" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4204" bodyend="4262"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a2da056c77d826146d7c90844316fa4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::RenameRadStruct</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, char *)</argsstring>
+        <name>RenameRadStruct</name>
+        <qualifiedname>srTSend::RenameRadStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <defname>NewName</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="243" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4760" bodyend="4887"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a9f5bcecc2ea3a991846c596611c76003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::RenameRadStruct</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, srTSRWRadStructWaveNames &amp;)</argsstring>
+        <name>RenameRadStruct</name>
+        <qualifiedname>srTSend::RenameRadStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_s_r_w_rad_struct_wave_names" kindref="compound">srTSRWRadStructWaveNames</ref> &amp;</type>
+          <defname>Names</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="244" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4611" bodyend="4756"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a1879878d6d9fcdd7300a35a2085cd6c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::MakeWaveAccordingToWaveAccessData</definition>
+        <argsstring>(srTWaveAccessData &amp;)</argsstring>
+        <name>MakeWaveAccordingToWaveAccessData</name>
+        <qualifiedname>srTSend::MakeWaveAccordingToWaveAccessData</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <defname>ShowingWave</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="245" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="6121" bodyend="6170"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a4de8613d2df79fdbf0dd40cbc539de0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::DeleteStringVect</definition>
+        <argsstring>(srTStringVect &amp;OptElemInfo)</argsstring>
+        <name>DeleteStringVect</name>
+        <qualifiedname>srTSend::DeleteStringVect</qualifiedname>
+        <param>
+          <type>srTStringVect &amp;</type>
+          <declname>OptElemInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="247" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="247" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aae9ab3dee72b5f50cf99d1d98489be0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::SetUpPhaseShiftWave</definition>
+        <argsstring>(srTWaveAccessData &amp;PhShData, int FunNo)</argsstring>
+        <name>SetUpPhaseShiftWave</name>
+        <qualifiedname>srTSend::SetUpPhaseShiftWave</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>PhShData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>FunNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="256" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="256" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1abe55f79dba6af2d2f1728cb94038190b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::ShowOutTrjDataPointers</definition>
+        <argsstring>(double *&amp;Out_pOutBtxData, double *&amp;Out_pOutXData, double *&amp;Out_pOutBtzData, double *&amp;Out_pOutZData)</argsstring>
+        <name>ShowOutTrjDataPointers</name>
+        <qualifiedname>srTSend::ShowOutTrjDataPointers</qualifiedname>
+        <param>
+          <type>double *&amp;</type>
+          <declname>Out_pOutBtxData</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>Out_pOutXData</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>Out_pOutBtzData</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>Out_pOutZData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="281" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="281" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a8e9dd22d82aabbfa7224790e7a0e6726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetSRWRadStructAccessData</definition>
+        <argsstring>(srTSRWRadStructAccessData *)</argsstring>
+        <name>GetSRWRadStructAccessData</name>
+        <qualifiedname>srTSend::GetSRWRadStructAccessData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <defname>pSRWRadStructAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="288" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="3511" bodyend="3795"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a9138a4f6eea532b31b2b85c9f2d1e2d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FinishWorkingWithSRWRadStruct</definition>
+        <argsstring>(srTSRWRadStructAccessData *)</argsstring>
+        <name>FinishWorkingWithSRWRadStruct</name>
+        <qualifiedname>srTSend::FinishWorkingWithSRWRadStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <defname>pSRWRadStructAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="294" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5678" bodyend="5817"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aab176ac7fed860024d50d0ff10780074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::Finish2DFFT</definition>
+        <argsstring>(srTWaveAccessData *pWaveAccessData)</argsstring>
+        <name>Finish2DFFT</name>
+        <qualifiedname>srTSend::Finish2DFFT</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pWaveAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="321" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="321" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ae3c0d199b3872c5a202c265b637b9fd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FinishWorkingWithTrajectoryData</definition>
+        <argsstring>(srTTrjDat &amp;)</argsstring>
+        <name>FinishWorkingWithTrajectoryData</name>
+        <qualifiedname>srTSend::FinishWorkingWithTrajectoryData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="345" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="2278" bodyend="2300"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a1d98af086778a7977af3291353eedef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetStokesStructAccessData</definition>
+        <argsstring>(srTStokesStructAccessData *)</argsstring>
+        <name>GetStokesStructAccessData</name>
+        <qualifiedname>srTSend::GetStokesStructAccessData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <defname>pStokesAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="347" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4891" bodyend="4949"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ab298c101e519cf1f0d6a20c272237e40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FinishWorkingWithStokesStruct</definition>
+        <argsstring>(srTStokesStructAccessData *pStokesAccessData)</argsstring>
+        <name>FinishWorkingWithStokesStruct</name>
+        <qualifiedname>srTSend::FinishWorkingWithStokesStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokesAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="348" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="348" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a854bdbd046484f244512f94e8a98ef94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::GetPowDensStructAccessData</definition>
+        <argsstring>(srTPowDensStructAccessData *)</argsstring>
+        <name>GetPowDensStructAccessData</name>
+        <qualifiedname>srTSend::GetPowDensStructAccessData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> *</type>
+          <defname>pPowDensStructAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="359" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4953" bodyend="5003"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aa2310accfccc43341734ba2ade1cc831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FinishWorkingWithPowDensStruct</definition>
+        <argsstring>(srTPowDensStructAccessData *pPowDensAccessData)</argsstring>
+        <name>FinishWorkingWithPowDensStruct</name>
+        <qualifiedname>srTSend::FinishWorkingWithPowDensStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> *</type>
+          <declname>pPowDensAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="360" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="360" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a79e2e637a2d5f467bdc990889722397d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::FinishWorkingWithElecDistrStruct</definition>
+        <argsstring>(srTEbmDat &amp;EbmDat)</argsstring>
+        <name>FinishWorkingWithElecDistrStruct</name>
+        <qualifiedname>srTSend::FinishWorkingWithElecDistrStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>EbmDat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="371" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="371" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1a08a6085820f6b1903116bdaa772538c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::UpdateTextWave</definition>
+        <argsstring>(waveHndl &amp;wavH, srTStringVect *pStringVect)</argsstring>
+        <name>UpdateTextWave</name>
+        <qualifiedname>srTSend::UpdateTextWave</qualifiedname>
+        <param>
+          <type>waveHndl &amp;</type>
+          <declname>wavH</declname>
+        </param>
+        <param>
+          <type>srTStringVect *</type>
+          <declname>pStringVect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="380" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="5957" bodyend="6005"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1afdb4464242852642031853cb4d187e6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::DeleteWave</definition>
+        <argsstring>(srTWaveAccessData &amp;WaveAccessData)</argsstring>
+        <name>DeleteWave</name>
+        <qualifiedname>srTSend::DeleteWave</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>WaveAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="381" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="381" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1aa344516055d3aaab5ae87b2cbb5a9570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSend::UpdateInterface</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateInterface</name>
+        <qualifiedname>srTSend::UpdateInterface</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="426" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="6244" bodyend="6255"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_send_1ac8a7b633631b0acf6f9020ec2781d2e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool srTSend::CheckIfRadStructWasSet</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfRadStructWasSet</name>
+        <qualifiedname>srTSend::CheckIfRadStructWasSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="644" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="644" bodyend="681"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_send_1a3972f8c3fbc0527deafa5cd0431876c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSend::ModifyStokesNeNxNz</definition>
+        <argsstring>(srTStokesStructAccessData &amp;)</argsstring>
+        <name>ModifyStokesNeNxNz</name>
+        <qualifiedname>srTSend::ModifyStokesNeNxNz</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <defname>Stokes</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="239" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp" bodystart="4516" bodyend="4561"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" line="71" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h" bodystart="71" bodyend="683"/>
+    <listofallmembers>
+      <member refid="classsr_t_send_1a9b62ee1598494ef7aac0c37d940833c8" prot="public" virt="non-virtual"><scope>srTSend</scope><name>AddWarningMessage</name></member>
+      <member refid="classsr_t_send_1ab0233e397b7d35d34078e767ba97f522" prot="public" virt="non-virtual"><scope>srTSend</scope><name>ArbNestedArrays</name></member>
+      <member refid="classsr_t_send_1ac8a7b633631b0acf6f9020ec2781d2e4" prot="public" virt="non-virtual"><scope>srTSend</scope><name>CheckIfRadStructWasSet</name></member>
+      <member refid="classsr_t_send_1a6b3c3f4fbc7fd0e1cb0562f9efd945f7" prot="public" virt="non-virtual"><scope>srTSend</scope><name>CreateNewRadStruct</name></member>
+      <member refid="classsr_t_send_1aaf43a9d41defb4d55d46a0e0a28ba9d7" prot="public" virt="non-virtual"><scope>srTSend</scope><name>DeleteRadStructWaves</name></member>
+      <member refid="classsr_t_send_1a4de8613d2df79fdbf0dd40cbc539de0f" prot="public" virt="non-virtual"><scope>srTSend</scope><name>DeleteStringVect</name></member>
+      <member refid="classsr_t_send_1afdb4464242852642031853cb4d187e6c" prot="public" virt="non-virtual"><scope>srTSend</scope><name>DeleteWave</name></member>
+      <member refid="classsr_t_send_1a03d82f73ae811cdaf9fddd47b52f6890" prot="public" virt="non-virtual"><scope>srTSend</scope><name>Double</name></member>
+      <member refid="classsr_t_send_1ae684cd7986f45fa2e43b39b0fb3fbe05" prot="public" virt="non-virtual"><scope>srTSend</scope><name>DoubleList</name></member>
+      <member refid="classsr_t_send_1a7277353df347c4a30fff08aa4045f9db" prot="public" virt="non-virtual"><scope>srTSend</scope><name>DoubleListWithArg</name></member>
+      <member refid="classsr_t_send_1a728448013b20e5be53aba042ebae0e80" prot="public" virt="non-virtual"><scope>srTSend</scope><name>ErrorMessage</name></member>
+      <member refid="classsr_t_send_1a21e2e48c559839cad2bd2555ab64ac25" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FetchNumWave</name></member>
+      <member refid="classsr_t_send_1aab176ac7fed860024d50d0ff10780074" prot="public" virt="non-virtual"><scope>srTSend</scope><name>Finish2DFFT</name></member>
+      <member refid="classsr_t_send_1acea46700d8c73a7ba33a5a0421862dd1" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishRadDistrOutFormat1</name></member>
+      <member refid="classsr_t_send_1a5f45c3445ade9c1f6bc4d3cf50e391e0" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishTrjOutFormat1</name></member>
+      <member refid="classsr_t_send_1a5a4c8427302e49e85ad502d742671468" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishWorkingWithControlSASEStruct</name></member>
+      <member refid="classsr_t_send_1a79e2e637a2d5f467bdc990889722397d" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishWorkingWithElecDistrStruct</name></member>
+      <member refid="classsr_t_send_1aa2310accfccc43341734ba2ade1cc831" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishWorkingWithPowDensStruct</name></member>
+      <member refid="classsr_t_send_1a9138a4f6eea532b31b2b85c9f2d1e2d0" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishWorkingWithSRWRadStruct</name></member>
+      <member refid="classsr_t_send_1ab298c101e519cf1f0d6a20c272237e40" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishWorkingWithStokesStruct</name></member>
+      <member refid="classsr_t_send_1ae3c0d199b3872c5a202c265b637b9fd7" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishWorkingWithTrajectoryData</name></member>
+      <member refid="classsr_t_send_1a548ad5101084fb9abcff1c6f7bc02785" prot="public" virt="non-virtual"><scope>srTSend</scope><name>FinishWorkingWithWave</name></member>
+      <member refid="classsr_t_send_1a4a33d8c760d526f0d06d7db9422dffa9" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetAuxObsTreatParamFormat1</name></member>
+      <member refid="classsr_t_send_1adb48a169c41d25f35edb4d1e19dca332" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetConstantFieldDataFormat1</name></member>
+      <member refid="classsr_t_send_1ab11bbc8cb3683cb5ac909bcd2a38772a" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetCoordData</name></member>
+      <member refid="classsr_t_send_1ae4631fb0a05a9aac95e1d59dd749b8c9" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetDouble</name></member>
+      <member refid="classsr_t_send_1aec614cd44dd030e591f338508ec1d511" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetGeneralMagneticFieldDataFormat1</name></member>
+      <member refid="classsr_t_send_1a55fb276a3fae41f003d03d6b19f08e2e" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetGenMagFieldDataFormat1</name></member>
+      <member refid="classsr_t_send_1a93854872d9aa29817c03baa2f13ef482" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetIsotrSrcExtraDataFormat1</name></member>
+      <member refid="classsr_t_send_1aab268108ebdb7be4da52fc1aaf7bd7e4" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetOptElemNames</name></member>
+      <member refid="classsr_t_send_1a29789f4f7de73e13c461041e201df789" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetPeriodicFieldDataFormat1</name></member>
+      <member refid="classsr_t_send_1a854bdbd046484f244512f94e8a98ef94" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetPowDensStructAccessData</name></member>
+      <member refid="classsr_t_send_1a6db4d4f2a1676efd0f2f8de51fb82dd5" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetPropagRadStokesMultiElecDataFormat1</name></member>
+      <member refid="classsr_t_send_1a307cf6b32596a076ae44d96f1f4f1611" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetPrtclTrjInitData</name></member>
+      <member refid="classsr_t_send_1a47bbe9d77225d82f773e28f8a92a2656" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetRadIntConstParamDataFormat1</name></member>
+      <member refid="classsr_t_send_1affc3f77bbcf8b4108163a529d5fb8ace" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetRadIntPeriodicParamDataFormat1</name></member>
+      <member refid="classsr_t_send_1a3d7ed7137c0f61d32fe49208ec68f857" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetRadIntPowDensParamDataFormat1</name></member>
+      <member refid="classsr_t_send_1add68150c625ccb25d376d78e90440962" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetRadIntWigglerParamDataFormat1</name></member>
+      <member refid="classsr_t_send_1a9be5b58b13853fd576a62df2db9d2bea" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetRadStructNames</name></member>
+      <member refid="classsr_t_send_1aa2976fbf8c9cb60b682031bfbbad0120" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetSASEInputRadDataFormat1</name></member>
+      <member refid="classsr_t_send_1af455074c5fcb873a2422f2ab2d995376" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetSASEPrecDataFormat1</name></member>
+      <member refid="classsr_t_send_1a8e9dd22d82aabbfa7224790e7a0e6726" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetSRWRadStructAccessData</name></member>
+      <member refid="classsr_t_send_1ae7cbbd39d50a587ecaed49d9a3e56488" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetSRWRadStructArray</name></member>
+      <member refid="classsr_t_send_1a1d98af086778a7977af3291353eedef9" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetStokesStructAccessData</name></member>
+      <member refid="classsr_t_send_1a6a594db19e7f2583040b2a5f1ad6d299" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetString</name></member>
+      <member refid="classsr_t_send_1a1784ca0ec1c14e45eac95438a18acc5b" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalElectronBeamDataFormat2</name></member>
+      <member refid="classsr_t_send_1a21195e6b24cc2c2aa9c5402d912d442c" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalElectronBeamDataFormat3</name></member>
+      <member refid="classsr_t_send_1aae220ee92bb20154d83189da5feb0f99" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalElectronData</name></member>
+      <member refid="classsr_t_send_1a80048f5d95a8dfc3a020d8186baf450c" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalElectronDistribDataFormat1</name></member>
+      <member refid="classsr_t_send_1a142bc1ac0e2517c05722a5dbb4396fea" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalFieldDataFormat1</name></member>
+      <member refid="classsr_t_send_1ad5cd8d78281fd748f743c452e8b82fe0" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalFieldDataFormat2</name></member>
+      <member refid="classsr_t_send_1a7c277b67c629b08907b63f5c935bc955" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalGsnBeamDataFormat1</name></member>
+      <member refid="classsr_t_send_1a2e63a2c9304c5b2c3baa689ed2ff3517" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalObservationDataFormat1</name></member>
+      <member refid="classsr_t_send_1add4c7d510e5b81115402050c94183b3d" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalObservationDataFormat2</name></member>
+      <member refid="classsr_t_send_1a57f66eab8a3ec09ed439a8de6c22f113" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalObservationDataFormat3</name></member>
+      <member refid="classsr_t_send_1a202f16648d09a493859818ff2f7087cd" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalOutTrjParam</name></member>
+      <member refid="classsr_t_send_1a2b424b4697c64c7d06f882f5253a4ec6" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalRadIntegrationParamDataFormat1</name></member>
+      <member refid="classsr_t_send_1acc0b108d58da76a0660b7a4075cb7c42" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTotalTrajectoryDataFormat1</name></member>
+      <member refid="classsr_t_send_1acf5d0a07ef4ff7574fe746fe4b31d26d" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetTrajectoryComponentDataFormat1</name></member>
+      <member refid="classsr_t_send_1ad9ac147abe06f6dbbb61caada30de5d7" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetVectorOfStrings</name></member>
+      <member refid="classsr_t_send_1a7a579b00b737c9683567cf54a98bc33f" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetVectorOfStrings</name></member>
+      <member refid="classsr_t_send_1a596644fbbcfb21620d2904296a9c4246" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetWavelengthAndCoordData</name></member>
+      <member refid="classsr_t_send_1a334e602c04c0c9971e16cf56f1025a2a" prot="public" virt="non-virtual"><scope>srTSend</scope><name>GetWfrEmitPropagPrec</name></member>
+      <member refid="classsr_t_send_1a628f94163bcdab1f2e50a1cbb7b475b5" prot="public" virt="non-virtual"><scope>srTSend</scope><name>IdentifyMagFieldType</name></member>
+      <member refid="classsr_t_send_1a45bbd725a15cd099142ddf571995c72c" prot="public" virt="non-virtual"><scope>srTSend</scope><name>IdentifyMagFieldTypeFromName</name></member>
+      <member refid="classsr_t_send_1a3f6c21450b48366b2f3b68ca66726ac5" prot="public" virt="non-virtual"><scope>srTSend</scope><name>InitOutList</name></member>
+      <member refid="classsr_t_send_1a93ed59e3dea5dff7de531311975860f8" prot="public" virt="non-virtual"><scope>srTSend</scope><name>InitRadDistrOutFormat1</name></member>
+      <member refid="classsr_t_send_1aaf36bbdd7174c38a6b39804def5281d4" prot="public" virt="non-virtual"><scope>srTSend</scope><name>InitRadDistrOutFormat2</name></member>
+      <member refid="classsr_t_send_1afa55fee59ccddf10ae60b8785b6cf69c" prot="public" virt="non-virtual"><scope>srTSend</scope><name>InitRadDistrOutFormat3</name></member>
+      <member refid="classsr_t_send_1a7e718b40bf1511f626c48b8aff12fc04" prot="public" virt="non-virtual"><scope>srTSend</scope><name>InitTrjOutFormat1</name></member>
+      <member refid="classsr_t_send_1a06ab37b771c7f4157bb2578062f46792" prot="public" virt="non-virtual"><scope>srTSend</scope><name>Int</name></member>
+      <member refid="classsr_t_send_1a4f0d430c75a5a5142356fbda3ed92023" prot="public" virt="non-virtual"><scope>srTSend</scope><name>IntList</name></member>
+      <member refid="classsr_t_send_1a709094b96923f8afc26496b2bc2d66b0" prot="public" virt="non-virtual"><scope>srTSend</scope><name>Long</name></member>
+      <member refid="classsr_t_send_1a1879878d6d9fcdd7300a35a2085cd6c9" prot="public" virt="non-virtual"><scope>srTSend</scope><name>MakeWaveAccordingToWaveAccessData</name></member>
+      <member refid="classsr_t_send_1ae7f2de0dfba43de103b88113ca060c3b" prot="public" virt="non-virtual"><scope>srTSend</scope><name>ModifyRadNeNxNz</name></member>
+      <member refid="classsr_t_send_1a3972f8c3fbc0527deafa5cd0431876c4" prot="public" virt="non-virtual"><scope>srTSend</scope><name>ModifyStokesNeNxNz</name></member>
+      <member refid="classsr_t_send_1a81717ddcca67f49cb395c643d7197c64" prot="public" virt="non-virtual"><scope>srTSend</scope><name>MyMLPutDouble</name></member>
+      <member refid="classsr_t_send_1aa3a426a77e164f2bfbf6281a8fd0db61" prot="public" virt="non-virtual"><scope>srTSend</scope><name>OrdinaryMessage</name></member>
+      <member refid="classsr_t_send_1ab426bd4428e9af6e16c3b9b517d011ae" prot="public" virt="non-virtual"><scope>srTSend</scope><name>OutOpticsIncRadDistrFormat1</name></member>
+      <member refid="classsr_t_send_1aa2baa5aa9c7abac6661395c5386995a5" prot="public" virt="non-virtual"><scope>srTSend</scope><name>OutPhaseFormat1</name></member>
+      <member refid="classsr_t_send_1ad7fda59326e890163094ba777c6652a6" prot="public" virt="non-virtual"><scope>srTSend</scope><name>OutRadDistrFormat1</name></member>
+      <member refid="classsr_t_send_1a1a4f706dbb046ee10b41626154cdf59e" prot="public" virt="non-virtual"><scope>srTSend</scope><name>OutRadDistrFormat2</name></member>
+      <member refid="classsr_t_send_1a5fb69f1743cf4866b84b74164e4876dd" prot="private" virt="non-virtual"><scope>srTSend</scope><name>ProgressIndicatorIsUsed</name></member>
+      <member refid="classsr_t_send_1a21bcfd5d485e573b272f2fd6b661a8fc" prot="private" virt="non-virtual"><scope>srTSend</scope><name>ProgressIndicatorShouldBeUsed</name></member>
+      <member refid="classsr_t_send_1a79916972914b3ecead1e13cc61046f65" prot="public" virt="non-virtual"><scope>srTSend</scope><name>RadValDirectOut</name></member>
+      <member refid="classsr_t_send_1af0caf01d7105007aee0130a15279e3bd" prot="public" virt="non-virtual"><scope>srTSend</scope><name>RadValDirectOut</name></member>
+      <member refid="classsr_t_send_1a329f08d8371e082c7839cea94992631a" prot="public" virt="non-virtual"><scope>srTSend</scope><name>RadValDirectOut_FluxDens</name></member>
+      <member refid="classsr_t_send_1a2da056c77d826146d7c90844316fa4a6" prot="public" virt="non-virtual"><scope>srTSend</scope><name>RenameRadStruct</name></member>
+      <member refid="classsr_t_send_1a9f5bcecc2ea3a991846c596611c76003" prot="public" virt="non-virtual"><scope>srTSend</scope><name>RenameRadStruct</name></member>
+      <member refid="classsr_t_send_1aae9ab3dee72b5f50cf99d1d98489be0a" prot="public" virt="non-virtual"><scope>srTSend</scope><name>SetUpPhaseShiftWave</name></member>
+      <member refid="classsr_t_send_1a12b24f152fa63f54b533f5590b0701a9" prot="public" virt="non-virtual"><scope>srTSend</scope><name>SetupSASEControlStruct</name></member>
+      <member refid="classsr_t_send_1abe55f79dba6af2d2f1728cb94038190b" prot="public" virt="non-virtual"><scope>srTSend</scope><name>ShowOutTrjDataPointers</name></member>
+      <member refid="classsr_t_send_1afe19df91c49e5b8369f1e0e5035407af" prot="public" virt="non-virtual"><scope>srTSend</scope><name>srTSend</name></member>
+      <member refid="classsr_t_send_1a9bb0ff1ac2276c39bf2caf4b8df3dc57" prot="public" virt="non-virtual"><scope>srTSend</scope><name>String</name></member>
+      <member refid="classsr_t_send_1a7a64692b9a75cadda1e82367874f4731" prot="public" virt="non-virtual"><scope>srTSend</scope><name>SubArbNestedArrays</name></member>
+      <member refid="classsr_t_send_1aa344516055d3aaab5ae87b2cbb5a9570" prot="public" virt="non-virtual"><scope>srTSend</scope><name>UpdateInterface</name></member>
+      <member refid="classsr_t_send_1a08a6085820f6b1903116bdaa772538c7" prot="public" virt="non-virtual"><scope>srTSend</scope><name>UpdateTextWave</name></member>
+      <member refid="classsr_t_send_1a1c4d9ec2aff9830c1e5bdfb69193a1f7" prot="public" virt="non-virtual"><scope>srTSend</scope><name>WarningMessage</name></member>
+      <member refid="classsr_t_send_1a33e864cbd22bcd9d623fd931a3f90ba5" prot="public" virt="non-virtual"><scope>srTSend</scope><name>WarningMessages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

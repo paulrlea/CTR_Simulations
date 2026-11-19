@@ -1,0 +1,1686 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_rad_int_wiggler" kind="class" language="C++" prot="public">
+    <compoundname>srTRadIntWiggler</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1ae7432feb040459c04faf08d964966774" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>srTRadIntWiggler::PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1ab9dd0f66f264861df744baf82fd9efe0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::TwoPI</definition>
+        <argsstring></argsstring>
+        <name>TwoPI</name>
+        <qualifiedname>srTRadIntWiggler::TwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a6907719b9a436f890f35be26ef0a2248" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::ThreePIdTwo</definition>
+        <argsstring></argsstring>
+        <name>ThreePIdTwo</name>
+        <qualifiedname>srTRadIntWiggler::ThreePIdTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1ad9c060410d2d83b634e28cf2c8afa388" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::FivePIdFour</definition>
+        <argsstring></argsstring>
+        <name>FivePIdFour</name>
+        <qualifiedname>srTRadIntWiggler::FivePIdFour</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a620f5e08dc7c8618c8870866eb35161b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::HalfPI</definition>
+        <argsstring></argsstring>
+        <name>HalfPI</name>
+        <qualifiedname>srTRadIntWiggler::HalfPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a5348524d53580004d78c40772f5fe321" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::One_dTwoPI</definition>
+        <argsstring></argsstring>
+        <name>One_dTwoPI</name>
+        <qualifiedname>srTRadIntWiggler::One_dTwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="48" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1aff4fbea024323994670b8ccab32a4b27" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::PIm10e6</definition>
+        <argsstring></argsstring>
+        <name>PIm10e6</name>
+        <qualifiedname>srTRadIntWiggler::PIm10e6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="59" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1aff1ee72b1023618675b76b326a41e2f4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::PIm10e6dEnCon</definition>
+        <argsstring></argsstring>
+        <name>PIm10e6dEnCon</name>
+        <qualifiedname>srTRadIntWiggler::PIm10e6dEnCon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="67" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a09bc61ddf91e8c714ee2ca6e0fb01153" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::TenEm6dTwoPI</definition>
+        <argsstring></argsstring>
+        <name>TenEm6dTwoPI</name>
+        <qualifiedname>srTRadIntWiggler::TenEm6dTwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="107" column="81" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a2b700cc0043b176bfce4237418430c3d" prot="private" static="no" mutable="no">
+        <type><ref refid="classsr_t_cos_and_sin_comp" kindref="compound">srTCosAndSinComp</ref></type>
+        <definition>srTCosAndSinComp srTRadIntWiggler::CosAndSinComp</definition>
+        <argsstring></argsstring>
+        <name>CosAndSinComp</name>
+        <qualifiedname>srTRadIntWiggler::CosAndSinComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="108" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a5bc6272ff8fcdb6d49fb5d612fa63eca" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::sIntegRelPrecG</definition>
+        <argsstring></argsstring>
+        <name>sIntegRelPrecG</name>
+        <qualifiedname>srTRadIntWiggler::sIntegRelPrecG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="110" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1aec16291144f717b08b9a25522f323147" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::RelTolForAnTermsG</definition>
+        <argsstring></argsstring>
+        <name>RelTolForAnTermsG</name>
+        <qualifiedname>srTRadIntWiggler::RelTolForAnTermsG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="110" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a1d839165d2c7c9cfcb0699fd2eddff9f" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntWiggler::NumIntegG</definition>
+        <argsstring></argsstring>
+        <name>NumIntegG</name>
+        <qualifiedname>srTRadIntWiggler::NumIntegG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="111" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a9b08e2f9b94d3e6b6d0b5db5ba4b1f7f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::NormalizingConst</definition>
+        <argsstring></argsstring>
+        <name>NormalizingConst</name>
+        <qualifiedname>srTRadIntWiggler::NormalizingConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="112" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1ad40a92c1fe7aadbd8c050c166e1c349b" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref></type>
+        <definition>srTEXZ srTRadIntWiggler::EXZ</definition>
+        <argsstring></argsstring>
+        <name>EXZ</name>
+        <qualifiedname>srTRadIntWiggler::EXZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="114" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a9e6c8fc3e9da5c2cab2e6e078ce0d35b" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref></type>
+        <definition>srTFieldBasedArrays srTRadIntWiggler::FieldBasedArrays</definition>
+        <argsstring></argsstring>
+        <name>FieldBasedArrays</name>
+        <qualifiedname>srTRadIntWiggler::FieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="115" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a4d26e64b2da33c3bb6aadd10d80051d8" prot="private" static="no" mutable="no">
+        <type><ref refid="classsr_t_trj_arrays_aux" kindref="compound">srTTrjArraysAux</ref></type>
+        <definition>srTTrjArraysAux srTRadIntWiggler::TrjArraysAux</definition>
+        <argsstring></argsstring>
+        <name>TrjArraysAux</name>
+        <qualifiedname>srTRadIntWiggler::TrjArraysAux</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="116" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1ae1ca831d27cecd39b4bb8d7ba2789d3f" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_contrib_interval" kindref="compound">srTRadContribInterval</ref> *</type>
+        <definition>srTRadContribInterval* srTRadIntWiggler::RadContribIntervals</definition>
+        <argsstring></argsstring>
+        <name>RadContribIntervals</name>
+        <qualifiedname>srTRadIntWiggler::RadContribIntervals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="117" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a420817123cc3d1132f70fa17ae64e388" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_contrib_interval" kindref="compound">srTRadContribInterval</ref> *</type>
+        <definition>srTRadContribInterval * srTRadIntWiggler::RadNumIntervals</definition>
+        <argsstring></argsstring>
+        <name>RadNumIntervals</name>
+        <qualifiedname>srTRadIntWiggler::RadNumIntervals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="117" column="43" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a940670aa28c36cb3db8734c7c2baa985" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* srTRadIntWiggler::MaxPoIndArray</definition>
+        <argsstring></argsstring>
+        <name>MaxPoIndArray</name>
+        <qualifiedname>srTRadIntWiggler::MaxPoIndArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="118" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a369a65204150f8e4411b544b736360f6" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int * srTRadIntWiggler::MinPoIndArray</definition>
+        <argsstring></argsstring>
+        <name>MinPoIndArray</name>
+        <qualifiedname>srTRadIntWiggler::MinPoIndArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="118" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1ad7f11d5a2758450f650a952712d25929" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::MaxIntValWithinPointG</definition>
+        <argsstring></argsstring>
+        <name>MaxIntValWithinPointG</name>
+        <qualifiedname>srTRadIntWiggler::MaxIntValWithinPointG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="119" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a5ade695465cb4521c26c7f8186b22e4d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::MinEstIntValWithinPointG</definition>
+        <argsstring></argsstring>
+        <name>MinEstIntValWithinPointG</name>
+        <qualifiedname>srTRadIntWiggler::MinEstIntValWithinPointG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="119" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a25defd44b1e43857444193a8bcd39908" prot="private" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTRadIntWiggler::CrossTermsContribArray</definition>
+        <argsstring></argsstring>
+        <name>CrossTermsContribArray</name>
+        <qualifiedname>srTRadIntWiggler::CrossTermsContribArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="121" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a4454209275a266d17cc4a6cec74e9a17" prot="private" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * srTRadIntWiggler::tCrossTermsContribG</definition>
+        <argsstring></argsstring>
+        <name>tCrossTermsContribG</name>
+        <qualifiedname>srTRadIntWiggler::tCrossTermsContribG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="121" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a73f2d505423f8ee8b3ae1970434ba546" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntWiggler::IncludeCrossTermsG</definition>
+        <argsstring></argsstring>
+        <name>IncludeCrossTermsG</name>
+        <qualifiedname>srTRadIntWiggler::IncludeCrossTermsG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="122" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a46a598fafba24eb849cd327d72e3c6f3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::Gx</definition>
+        <argsstring></argsstring>
+        <name>Gx</name>
+        <qualifiedname>srTRadIntWiggler::Gx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="123" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a859df12c42afd3059f76a9f2c5aa5751" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::Gz</definition>
+        <argsstring></argsstring>
+        <name>Gz</name>
+        <qualifiedname>srTRadIntWiggler::Gz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="123" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a161d0d3d616020746d1c15c3445c3c5f" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+        <definition>srTTrjDat* srTRadIntWiggler::TrjDatPtr</definition>
+        <argsstring></argsstring>
+        <name>TrjDatPtr</name>
+        <qualifiedname>srTRadIntWiggler::TrjDatPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="127" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1aab89abb86e7166979caaf65fac9bf86d" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref></type>
+        <definition>srTWfrSmp srTRadIntWiggler::DistrInfoDat</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDat</name>
+        <qualifiedname>srTRadIntWiggler::DistrInfoDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="129" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a4a43ac806e2ccc773cfa7e43e7901987" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_int_wig_prec" kindref="compound">srTRadIntWigPrec</ref></type>
+        <definition>srTRadIntWigPrec srTRadIntWiggler::IntWigPrec</definition>
+        <argsstring></argsstring>
+        <name>IntWigPrec</name>
+        <qualifiedname>srTRadIntWiggler::IntWigPrec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="130" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_wiggler_1a0331b7fd5ee91062d51700c536d0b573" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntWiggler::LongIntTypeG</definition>
+        <argsstring></argsstring>
+        <name>LongIntTypeG</name>
+        <qualifiedname>srTRadIntWiggler::LongIntTypeG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="132" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a44d5b7d58574fd9f8e87313b8ae5d2c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntWiggler::srTRadIntWiggler</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadIntWiggler</name>
+        <qualifiedname>srTRadIntWiggler::srTRadIntWiggler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="134" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="134" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a3464dcf2815559597bd31e1a5c9eb81e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTRadIntWiggler::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="138" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="138" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a1ddfecbb13a07e836d2a6291722a6b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::ComputeTotalStokesDistr</definition>
+        <argsstring>(srTStokesStructAccessData &amp;)</argsstring>
+        <name>ComputeTotalStokesDistr</name>
+        <qualifiedname>srTRadIntWiggler::ComputeTotalStokesDistr</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <defname>StokesAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="168" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="36" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a56c7548fcbd9565acc05c51d41aa2402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::ComputeStokesAtPoint</definition>
+        <argsstring>(float *pStokes)</argsstring>
+        <name>ComputeStokesAtPoint</name>
+        <qualifiedname>srTRadIntWiggler::ComputeStokesAtPoint</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="169" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="330" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1abe92aea454f5ce8e084a1cfc96303244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::DetermineRadIntervals</definition>
+        <argsstring>(int &amp;AmOfInterv)</argsstring>
+        <name>DetermineRadIntervals</name>
+        <qualifiedname>srTRadIntWiggler::DetermineRadIntervals</qualifiedname>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfInterv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="170" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="871" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a3e2060ea3495b7b59f2de36d380c3171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::AnalizeAllRadPoints</definition>
+        <argsstring>(int &amp;AmOfMax, int &amp;AmOfMin, int &amp;AmOfNumInterv)</argsstring>
+        <name>AnalizeAllRadPoints</name>
+        <qualifiedname>srTRadIntWiggler::AnalizeAllRadPoints</qualifiedname>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfMax</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfMin</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfNumInterv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="171" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="901" bodyend="1167"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a66961d953fc8e7ae851b7c67c4198d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::MergeAdjacentIntervals</definition>
+        <argsstring>(int &amp;AmOfInterv)</argsstring>
+        <name>MergeAdjacentIntervals</name>
+        <qualifiedname>srTRadIntWiggler::MergeAdjacentIntervals</qualifiedname>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfInterv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="172" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1201" bodyend="1240"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a1848952e5576388d71e59540cf03e12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::SetupIntervalsForMcDonaldEstimation</definition>
+        <argsstring>(int AmOfMax, int AmOfMin, int &amp;AmOfInterv)</argsstring>
+        <name>SetupIntervalsForMcDonaldEstimation</name>
+        <qualifiedname>srTRadIntWiggler::SetupIntervalsForMcDonaldEstimation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>AmOfMax</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmOfMin</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfInterv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="173" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1244" bodyend="1368"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a3c3b9e64c5414081abfa67beab8a0f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::ComputeAndAddOneMainTermNum</definition>
+        <argsstring>(int TermNo)</argsstring>
+        <name>ComputeAndAddOneMainTermNum</name>
+        <qualifiedname>srTRadIntWiggler::ComputeAndAddOneMainTermNum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>TermNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="174" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="602" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1acc0d00ad4f5dd2d8dc7cf3abb0ab4d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::ComputeAndAddTerminations</definition>
+        <argsstring>(int TermNo)</argsstring>
+        <name>ComputeAndAddTerminations</name>
+        <qualifiedname>srTRadIntWiggler::ComputeAndAddTerminations</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>TermNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="175" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="797" bodyend="824"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1ab7cc5c0017c7d30ce17b4621674935fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::ComputeNormalResidual</definition>
+        <argsstring>(srTRadFuncsAndDers &amp;Funcs, int NumberOfTerms, srTEFourier &amp;Res)</argsstring>
+        <name>ComputeNormalResidual</name>
+        <qualifiedname>srTRadIntWiggler::ComputeNormalResidual</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_funcs_and_ders" kindref="compound">srTRadFuncsAndDers</ref> &amp;</type>
+          <declname>Funcs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>NumberOfTerms</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>Res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="176" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="828" bodyend="867"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a41d1d7ed778dacf80d5164910088dac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::ChooseNumIntervals</definition>
+        <argsstring>(int AmOfInterv, int &amp;StartIntervNo, int &amp;FinIntervNo)</argsstring>
+        <name>ChooseNumIntervals</name>
+        <qualifiedname>srTRadIntWiggler::ChooseNumIntervals</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>AmOfInterv</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>StartIntervNo</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>FinIntervNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="177" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="297" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a4748142fd8f8e3e6019a144a8c6d224e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::ComputeCrossTermsAtPointArb</definition>
+        <argsstring>(int AmOfInterv, srTStokes &amp;Stokes)</argsstring>
+        <name>ComputeCrossTermsAtPointArb</name>
+        <qualifiedname>srTRadIntWiggler::ComputeCrossTermsAtPointArb</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>AmOfInterv</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>Stokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="178" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="420" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a685233165755bdeab3f26d9a4c30a049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::ComputeCrossTermsAtPointPer</definition>
+        <argsstring>(int StartIntervNo, int FinIntervNo, srTStokes &amp;Stokes)</argsstring>
+        <name>ComputeCrossTermsAtPointPer</name>
+        <qualifiedname>srTRadIntWiggler::ComputeCrossTermsAtPointPer</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>StartIntervNo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>FinIntervNo</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>Stokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="179" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="504" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a8e40e49126951d5c0f5d9678b66e8538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::TreatFiniteElecBeamEmittance</definition>
+        <argsstring>(srTStokesStructAccessData &amp;, char MainOrCrossTerms, double ElBeamMomFact)</argsstring>
+        <name>TreatFiniteElecBeamEmittance</name>
+        <qualifiedname>srTRadIntWiggler::TreatFiniteElecBeamEmittance</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <defname>StokesAccessData</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>MainOrCrossTerms</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElBeamMomFact</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="180" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1372" bodyend="1404"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a638888e42e4c35f3055674687cd2b43b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::ExtractStokesSliceConstE</definition>
+        <argsstring>(srTStokesStructAccessData &amp;StokesAccessData, long ie, int StokesNo, char MainOrCrossTerms, float *pOutS)</argsstring>
+        <name>ExtractStokesSliceConstE</name>
+        <qualifiedname>srTRadIntWiggler::ExtractStokesSliceConstE</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>StokesAccessData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>ie</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StokesNo</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>MainOrCrossTerms</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pOutS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="181" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1408" bodyend="1442"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1ac40942024b9e4a4e3a1401070d0bd870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::UpdateStokesSliceConstE</definition>
+        <argsstring>(float *StokesCmpnArr, long ie, int is, char MainOrCrossTerms, srTStokesStructAccessData &amp;StokesAccessData)</argsstring>
+        <name>UpdateStokesSliceConstE</name>
+        <qualifiedname>srTRadIntWiggler::UpdateStokesSliceConstE</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>StokesCmpnArr</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>ie</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>MainOrCrossTerms</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>StokesAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="182" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1446" bodyend="1480"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a0abd516a5bc8a21bab0230af3f3efe93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::TreatFiniteElecBeamEmittanceOneComp1D</definition>
+        <argsstring>(float *CmpnArr, double ElBeamMomFact)</argsstring>
+        <name>TreatFiniteElecBeamEmittanceOneComp1D</name>
+        <qualifiedname>srTRadIntWiggler::TreatFiniteElecBeamEmittanceOneComp1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElBeamMomFact</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="183" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1484" bodyend="1516"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1adf28379b00c74e664520fd7becbd05f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::TreatFiniteElecBeamEmittanceOneComp2D</definition>
+        <argsstring>(float *CmpnArr, double ElBeamMomFact)</argsstring>
+        <name>TreatFiniteElecBeamEmittanceOneComp2D</name>
+        <qualifiedname>srTRadIntWiggler::TreatFiniteElecBeamEmittanceOneComp2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElBeamMomFact</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="184" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1680" bodyend="1708"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a2ecf6b8d35add080145cb6cf4c4391a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::DetermineSingleElecDistrEffSizes2D</definition>
+        <argsstring>(float *CmpnArr, double &amp;Mxx, double &amp;Mzz)</argsstring>
+        <name>DetermineSingleElecDistrEffSizes2D</name>
+        <qualifiedname>srTRadIntWiggler::DetermineSingleElecDistrEffSizes2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Mxx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Mzz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="185" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1712" bodyend="1757"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a078689db941f6c4626943ad2dc5358dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::DetermineSingleElecDistrEffSizes1D</definition>
+        <argsstring>(float *CmpnArr, char VsXorZ, double &amp;M_Cen)</argsstring>
+        <name>DetermineSingleElecDistrEffSizes1D</name>
+        <qualifiedname>srTRadIntWiggler::DetermineSingleElecDistrEffSizes1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>VsXorZ</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>M_Cen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="186" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1520" bodyend="1560"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a70f98a1613ae88dec887e035003c32bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::DetermineResizeBeforeConv2D</definition>
+        <argsstring>(double MxxElecEff, double MzzElecEff, double MxxPowSingleE, double MzzPowSingleE, srTRadResize &amp;Resize)</argsstring>
+        <name>DetermineResizeBeforeConv2D</name>
+        <qualifiedname>srTRadIntWiggler::DetermineResizeBeforeConv2D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>MxxElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MxxPowSingleE</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzPowSingleE</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref> &amp;</type>
+          <declname>Resize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="187" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1761" bodyend="1778"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a93e915b9a0b3fe6a8875fab9c514033c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::DetermineResizeBeforeConv1D</definition>
+        <argsstring>(double M_ElecEff, double M_DistrSingleE, char VsXorZ, srTRadResize1D &amp;Resize)</argsstring>
+        <name>DetermineResizeBeforeConv1D</name>
+        <qualifiedname>srTRadIntWiggler::DetermineResizeBeforeConv1D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>M_ElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>M_DistrSingleE</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>VsXorZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_resize1_d" kindref="compound">srTRadResize1D</ref> &amp;</type>
+          <declname>Resize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="188" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1564" bodyend="1575"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a0cd5dcacc675591e76a71b456775aada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::ConstructDataForConv2D</definition>
+        <argsstring>(float *CmpnArr, float *NewData, long long NewNx, long long NewNz)</argsstring>
+        <name>ConstructDataForConv2D</name>
+        <qualifiedname>srTRadIntWiggler::ConstructDataForConv2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>NewData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NewNx</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NewNz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="189" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1782" bodyend="1862"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a792ad4e552c5197306f081e27bb72df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::ConstructDataForConv1D</definition>
+        <argsstring>(float *CmpnArr, float *AuxConvData, long long NpOld, long long NpNew)</argsstring>
+        <name>ConstructDataForConv1D</name>
+        <qualifiedname>srTRadIntWiggler::ConstructDataForConv1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NpOld</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NpNew</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="191" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1579" bodyend="1603"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a43ab23284d0967298d8fef7f951fb06f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::PerformConvolutionWithGaussian2D</definition>
+        <argsstring>(float *ConvData, long NewNx, long NewNz, double MxxElecEff, double MzzElecEff)</argsstring>
+        <name>PerformConvolutionWithGaussian2D</name>
+        <qualifiedname>srTRadIntWiggler::PerformConvolutionWithGaussian2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>ConvData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NewNx</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NewNz</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MxxElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzElecEff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="194" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1866" bodyend="1924"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1af63fa495089a430381b084ea2e7d1f79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::PerformConvolutionWithGaussian1D</definition>
+        <argsstring>(float *AuxConvData, long NpAux, double M_ElecEff, char VsXorZ)</argsstring>
+        <name>PerformConvolutionWithGaussian1D</name>
+        <qualifiedname>srTRadIntWiggler::PerformConvolutionWithGaussian1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NpAux</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>M_ElecEff</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>VsXorZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="196" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1607" bodyend="1659"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a1d11028e8a1bb4cc4d362d2e82ad0492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::ExtractDataAfterConv2D</definition>
+        <argsstring>(float *AuxConvData, long long NxAux, long long NzAux, float *CmpnArr)</argsstring>
+        <name>ExtractDataAfterConv2D</name>
+        <qualifiedname>srTRadIntWiggler::ExtractDataAfterConv2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NxAux</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NzAux</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="197" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1928" bodyend="1951"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a7dcf64b01478ebd4ec255607099af2bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::ExtractDataAfterConv1D</definition>
+        <argsstring>(float *AuxConvData, long long NpAux, long long Np, float *CmpnArr)</argsstring>
+        <name>ExtractDataAfterConv1D</name>
+        <qualifiedname>srTRadIntWiggler::ExtractDataAfterConv1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NpAux</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="200" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1664" bodyend="1676"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1aeb4169affa5314cce83bba3bbe7a797c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::SuppressNegativeValues</definition>
+        <argsstring>(float *StokesCmpnArr)</argsstring>
+        <name>SuppressNegativeValues</name>
+        <qualifiedname>srTRadIntWiggler::SuppressNegativeValues</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>StokesCmpnArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="201" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1955" bodyend="1964"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a07c639902fe296d6a16d146d2e1fb74f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::CheckInputConsistency</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInputConsistency</name>
+        <qualifiedname>srTRadIntWiggler::CheckInputConsistency</qualifiedname>
+        <briefdescription>
+<para>File: srstowig.cpp Description: Calculation of Stokes parameters of Wiggler Radiation Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="203" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="21" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a88f7d7fa3284cbe25f6c7e417c9951d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::CheckPossibilityOfFarFieldPeriodicComp</definition>
+        <argsstring>(srTGenTrjHndl &amp;TrjHndl, char &amp;LongIntType)</argsstring>
+        <name>CheckPossibilityOfFarFieldPeriodicComp</name>
+        <qualifiedname>srTRadIntWiggler::CheckPossibilityOfFarFieldPeriodicComp</qualifiedname>
+        <param>
+          <type>srTGenTrjHndl &amp;</type>
+          <declname>TrjHndl</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>LongIntType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="204" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="157" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a28e6e8de1b3e4dd0897fa36b04597a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::SetUpFieldBasedArrays</definition>
+        <argsstring>()</argsstring>
+        <name>SetUpFieldBasedArrays</name>
+        <qualifiedname>srTRadIntWiggler::SetUpFieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="205" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="136" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a7869ec69e086c5da406a7a3216b3a563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::AnalizeFinalResultsSymmetry</definition>
+        <argsstring>(char &amp;FinalResAreSymOverX, char &amp;FinalResAreSymOverZ)</argsstring>
+        <name>AnalizeFinalResultsSymmetry</name>
+        <qualifiedname>srTRadIntWiggler::AnalizeFinalResultsSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="206" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="170" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1af432307f5ce6a4514d948c1bac858fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::FillInSymPartsOfResults</definition>
+        <argsstring>(char FinalResAreSymOverX, char FinalResAreSymOverZ, srTStokesStructAccessData &amp;StokesAccessData)</argsstring>
+        <name>FillInSymPartsOfResults</name>
+        <qualifiedname>srTRadIntWiggler::FillInSymPartsOfResults</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>StokesAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="207" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="200" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a26de2b14e6c5249ea305389792ec3bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadIntWiggler::FindMaxFieldPlane</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FieldBasedArrays)</argsstring>
+        <name>FindMaxFieldPlane</name>
+        <qualifiedname>srTRadIntWiggler::FindMaxFieldPlane</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FieldBasedArrays</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="209" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1185" bodyend="1197"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1ad32df9d5210f28a9ff3509ea88cd3635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::SetupCentralValuesInNumInterv</definition>
+        <argsstring>(int AmOfInterv)</argsstring>
+        <name>SetupCentralValuesInNumInterv</name>
+        <qualifiedname>srTRadIntWiggler::SetupCentralValuesInNumInterv</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>AmOfInterv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="210" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.cpp" bodystart="1171" bodyend="1181"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a6ed09cd6b46cfecbef38431dfa84201e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::CopySymEnergySlice</definition>
+        <argsstring>(float *pOrigData, float *pSymData, char SymWithRespectToXax, char SymWithRespectToZax)</argsstring>
+        <name>CopySymEnergySlice</name>
+        <qualifiedname>srTRadIntWiggler::CopySymEnergySlice</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pOrigData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pSymData</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToXax</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToZax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="212" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="212" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a64b908fd82a451246c9740f38c97aacf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::AllocateIntervalsArray</definition>
+        <argsstring>(long long Ns)</argsstring>
+        <name>AllocateIntervalsArray</name>
+        <qualifiedname>srTRadIntWiggler::AllocateIntervalsArray</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>Ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="225" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="225" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1aa5194ef61ad4f4a77f51082f999460dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::DeallocateIntervalsArray</definition>
+        <argsstring>()</argsstring>
+        <name>DeallocateIntervalsArray</name>
+        <qualifiedname>srTRadIntWiggler::DeallocateIntervalsArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="243" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="243" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a8a46c84a300637eb82f9d95cf2d35713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::SetIntegPrecLevel</definition>
+        <argsstring>()</argsstring>
+        <name>SetIntegPrecLevel</name>
+        <qualifiedname>srTRadIntWiggler::SetIntegPrecLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="251" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="251" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a88f51b226c4d6a850b0973163be43d6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::SetupNormalizingConst</definition>
+        <argsstring>()</argsstring>
+        <name>SetupNormalizingConst</name>
+        <qualifiedname>srTRadIntWiggler::SetupNormalizingConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="268" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="268" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1af404f678dd317e169b74460a2631cbed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::E2Stokes</definition>
+        <argsstring>(srTEFourier &amp;E, srTStokes &amp;Stokes)</argsstring>
+        <name>E2Stokes</name>
+        <qualifiedname>srTRadIntWiggler::E2Stokes</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>Stokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="275" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="275" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a956f66e0fee5a4f727909f8dded04299" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::SetUpCrossTermsContribArray</definition>
+        <argsstring>()</argsstring>
+        <name>SetUpCrossTermsContribArray</name>
+        <qualifiedname>srTRadIntWiggler::SetUpCrossTermsContribArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="285" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="285" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a58b8a4acfdd3165bb844c7468c2812e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::DeallocateCrossTermsContribArray</definition>
+        <argsstring>()</argsstring>
+        <name>DeallocateCrossTermsContribArray</name>
+        <qualifiedname>srTRadIntWiggler::DeallocateCrossTermsContribArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="296" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="296" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a49eb095824ca4e97bcc7ef11f47c96f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntWiggler::AddCrossTermsContrib</definition>
+        <argsstring>(srTStokesStructAccessData &amp;StokesAccessData)</argsstring>
+        <name>AddCrossTermsContrib</name>
+        <qualifiedname>srTRadIntWiggler::AddCrossTermsContrib</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>StokesAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="300" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="300" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a6b2d805094e01e3c02d2e85b1643d045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntWiggler::SetupThickBeamConsts</definition>
+        <argsstring>()</argsstring>
+        <name>SetupThickBeamConsts</name>
+        <qualifiedname>srTRadIntWiggler::SetupThickBeamConsts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="313" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="313" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_wiggler_1a914c533006d984be43899f0f74179ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntWiggler::MaxPhaseDifForThisObsPoint</definition>
+        <argsstring>(char NearField)</argsstring>
+        <name>MaxPhaseDifForThisObsPoint</name>
+        <qualifiedname>srTRadIntWiggler::MaxPhaseDifForThisObsPoint</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>NearField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="328" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="328" bodyend="355"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="4">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srTFunDer</label>
+        <link refid="structsr_t_fun_der"/>
+      </node>
+      <node id="3">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srTRadIntWigPrec</label>
+        <link refid="structsr_t_rad_int_wig_prec"/>
+      </node>
+      <node id="1">
+        <label>srTRadIntWiggler</label>
+        <link refid="classsr_t_rad_int_wiggler"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>TrjDatPtr</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>DistrInfoDat</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>IntWigPrec</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTTrjDat</label>
+        <link refid="classsr_t_trj_dat"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>BxInData</edgelabel>
+          <edgelabel>BzInData</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>xTrjInData</edgelabel>
+          <edgelabel>zTrjInData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srTWaveAccessDataD1D</label>
+        <link refid="structsr_t_wave_access_data_d1_d"/>
+      </node>
+      <node id="8">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="105" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="105" bodyend="356"/>
+    <listofallmembers>
+      <member refid="classsr_t_rad_int_wiggler_1a49eb095824ca4e97bcc7ef11f47c96f6" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>AddCrossTermsContrib</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a64b908fd82a451246c9740f38c97aacf" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>AllocateIntervalsArray</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a3e2060ea3495b7b59f2de36d380c3171" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>AnalizeAllRadPoints</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a7869ec69e086c5da406a7a3216b3a563" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>AnalizeFinalResultsSymmetry</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a07c639902fe296d6a16d146d2e1fb74f" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>CheckInputConsistency</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a88f7d7fa3284cbe25f6c7e417c9951d2" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>CheckPossibilityOfFarFieldPeriodicComp</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a41d1d7ed778dacf80d5164910088dac7" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ChooseNumIntervals</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a3c3b9e64c5414081abfa67beab8a0f35" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ComputeAndAddOneMainTermNum</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1acc0d00ad4f5dd2d8dc7cf3abb0ab4d8e" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ComputeAndAddTerminations</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a4748142fd8f8e3e6019a144a8c6d224e" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ComputeCrossTermsAtPointArb</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a685233165755bdeab3f26d9a4c30a049" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ComputeCrossTermsAtPointPer</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ab7cc5c0017c7d30ce17b4621674935fd" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ComputeNormalResidual</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a56c7548fcbd9565acc05c51d41aa2402" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ComputeStokesAtPoint</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a1ddfecbb13a07e836d2a6291722a6b36" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ComputeTotalStokesDistr</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a792ad4e552c5197306f081e27bb72df7" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ConstructDataForConv1D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a0cd5dcacc675591e76a71b456775aada" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ConstructDataForConv2D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a6ed09cd6b46cfecbef38431dfa84201e" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>CopySymEnergySlice</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a2b700cc0043b176bfce4237418430c3d" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>CosAndSinComp</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a25defd44b1e43857444193a8bcd39908" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>CrossTermsContribArray</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a58b8a4acfdd3165bb844c7468c2812e1" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DeallocateCrossTermsContribArray</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1aa5194ef61ad4f4a77f51082f999460dc" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DeallocateIntervalsArray</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1abe92aea454f5ce8e084a1cfc96303244" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DetermineRadIntervals</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a93e915b9a0b3fe6a8875fab9c514033c" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DetermineResizeBeforeConv1D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a70f98a1613ae88dec887e035003c32bf" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DetermineResizeBeforeConv2D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a078689db941f6c4626943ad2dc5358dc" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DetermineSingleElecDistrEffSizes1D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a2ecf6b8d35add080145cb6cf4c4391a2" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DetermineSingleElecDistrEffSizes2D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1aab89abb86e7166979caaf65fac9bf86d" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>DistrInfoDat</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1af404f678dd317e169b74460a2631cbed" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>E2Stokes</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a7dcf64b01478ebd4ec255607099af2bb" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ExtractDataAfterConv1D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a1d11028e8a1bb4cc4d362d2e82ad0492" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ExtractDataAfterConv2D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a638888e42e4c35f3055674687cd2b43b" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ExtractStokesSliceConstE</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ad40a92c1fe7aadbd8c050c166e1c349b" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>EXZ</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a9e6c8fc3e9da5c2cab2e6e078ce0d35b" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>FieldBasedArrays</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1af432307f5ce6a4514d948c1bac858fbe" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>FillInSymPartsOfResults</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a26de2b14e6c5249ea305389792ec3bbe" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>FindMaxFieldPlane</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ad9c060410d2d83b634e28cf2c8afa388" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>FivePIdFour</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a46a598fafba24eb849cd327d72e3c6f3" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>Gx</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a859df12c42afd3059f76a9f2c5aa5751" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>Gz</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a620f5e08dc7c8618c8870866eb35161b" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>HalfPI</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a73f2d505423f8ee8b3ae1970434ba546" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>IncludeCrossTermsG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a3464dcf2815559597bd31e1a5c9eb81e" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>Initialize</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a4a43ac806e2ccc773cfa7e43e7901987" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>IntWigPrec</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a0331b7fd5ee91062d51700c536d0b573" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>LongIntTypeG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ad7f11d5a2758450f650a952712d25929" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>MaxIntValWithinPointG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a914c533006d984be43899f0f74179ca9" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>MaxPhaseDifForThisObsPoint</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a940670aa28c36cb3db8734c7c2baa985" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>MaxPoIndArray</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a66961d953fc8e7ae851b7c67c4198d75" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>MergeAdjacentIntervals</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a5ade695465cb4521c26c7f8186b22e4d" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>MinEstIntValWithinPointG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a369a65204150f8e4411b544b736360f6" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>MinPoIndArray</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a9b08e2f9b94d3e6b6d0b5db5ba4b1f7f" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>NormalizingConst</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a1d839165d2c7c9cfcb0699fd2eddff9f" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>NumIntegG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a5348524d53580004d78c40772f5fe321" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>One_dTwoPI</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1af63fa495089a430381b084ea2e7d1f79" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>PerformConvolutionWithGaussian1D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a43ab23284d0967298d8fef7f951fb06f" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>PerformConvolutionWithGaussian2D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ae7432feb040459c04faf08d964966774" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>PI</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1aff4fbea024323994670b8ccab32a4b27" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>PIm10e6</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1aff1ee72b1023618675b76b326a41e2f4" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>PIm10e6dEnCon</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ae1ca831d27cecd39b4bb8d7ba2789d3f" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>RadContribIntervals</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a420817123cc3d1132f70fa17ae64e388" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>RadNumIntervals</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1aec16291144f717b08b9a25522f323147" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>RelTolForAnTermsG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a8a46c84a300637eb82f9d95cf2d35713" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SetIntegPrecLevel</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ad32df9d5210f28a9ff3509ea88cd3635" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SetupCentralValuesInNumInterv</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a956f66e0fee5a4f727909f8dded04299" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SetUpCrossTermsContribArray</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a28e6e8de1b3e4dd0897fa36b04597a48" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SetUpFieldBasedArrays</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a1848952e5576388d71e59540cf03e12d" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SetupIntervalsForMcDonaldEstimation</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a88f51b226c4d6a850b0973163be43d6e" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SetupNormalizingConst</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a6b2d805094e01e3c02d2e85b1643d045" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SetupThickBeamConsts</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a5bc6272ff8fcdb6d49fb5d612fa63eca" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>sIntegRelPrecG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a44d5b7d58574fd9f8e87313b8ae5d2c3" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>srTRadIntWiggler</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1aeb4169affa5314cce83bba3bbe7a797c" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>SuppressNegativeValues</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a4454209275a266d17cc4a6cec74e9a17" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>tCrossTermsContribG</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a09bc61ddf91e8c714ee2ca6e0fb01153" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>TenEm6dTwoPI</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a6907719b9a436f890f35be26ef0a2248" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>ThreePIdTwo</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a8e40e49126951d5c0f5d9678b66e8538" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>TreatFiniteElecBeamEmittance</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a0abd516a5bc8a21bab0230af3f3efe93" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>TreatFiniteElecBeamEmittanceOneComp1D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1adf28379b00c74e664520fd7becbd05f9" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>TreatFiniteElecBeamEmittanceOneComp2D</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a4d26e64b2da33c3bb6aadd10d80051d8" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>TrjArraysAux</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1a161d0d3d616020746d1c15c3445c3c5f" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>TrjDatPtr</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ab9dd0f66f264861df744baf82fd9efe0" prot="private" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>TwoPI</name></member>
+      <member refid="classsr_t_rad_int_wiggler_1ac40942024b9e4a4e3a1401070d0bd870" prot="public" virt="non-virtual"><scope>srTRadIntWiggler</scope><name>UpdateStokesSliceConstE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

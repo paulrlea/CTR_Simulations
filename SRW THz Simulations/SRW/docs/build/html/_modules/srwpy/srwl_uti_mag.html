@@ -1,0 +1,425 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.srwl_uti_mag &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.srwl_uti_mag</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.srwl_uti_mag</h1><div class="highlight"><pre>
+<span></span><span class="c1">#############################################################################</span>
+<span class="c1"># SRWLib for Python: Magnet Utilities v 0.02</span>
+<span class="c1">#############################################################################</span>
+
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC16112022</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1">#from srwlib import *</span>
+<span class="c1">#from copy import *</span>
+
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="srwl_mag_kick">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_mag.srwl_mag_kick">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_mag_kick</span><span class="p">(</span><span class="n">_el_en</span><span class="o">=</span><span class="mf">3.</span><span class="p">,</span> <span class="n">_ang</span><span class="o">=</span><span class="mf">1.</span><span class="p">,</span> <span class="n">_x_or_y</span><span class="o">=</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">_len</span><span class="o">=</span><span class="mf">1.</span><span class="p">,</span> <span class="n">_led</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Setup dipole &quot;kick&quot; magnet</span>
+<span class="sd">    :param _el_en: electron energy [GeV]</span>
+<span class="sd">    :param _ang: kick angle [rad]</span>
+<span class="sd">    :param _x_or_y: plane (horizontal or vertical)</span>
+<span class="sd">    :param _len: effective magnet length [m]</span>
+<span class="sd">    :param _led: &quot;soft&quot; edge length for field variation from 10% to 90% [m]; G/(1 + ((z-zc)/d)^2)^2 fringe field dependence is assumed [m]</span>
+<span class="sd">    :param _zc: longitudinal position of the magnet center</span>
+<span class="sd">    :param _add: add (=1) or reset (=0) the new magnet structure to the existing approximate magnetic field container</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">_el_en</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">):</span> <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Electron Beam structure is not defined (it is required for defining kick magnet parameters from angle)&#39;</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_len</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">):</span> <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Inconsistent input magnet parameters: effective length can not be negative&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">_led</span> <span class="o">&gt;</span> <span class="mf">0.</span><span class="p">):</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="mf">0.8078259211948791</span><span class="o">*</span><span class="n">_led</span> <span class="c1">#d parameter in G/(1 + ((z-zc)/d)^2)^2</span>
+        <span class="n">L0</span> <span class="o">=</span> <span class="n">_len</span> <span class="o">-</span> <span class="mf">1.5707963267948966</span><span class="o">*</span><span class="n">d</span> <span class="c1">#length of const. magnetic field part</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">L0</span> <span class="o">&lt;</span> <span class="mf">0.</span><span class="p">):</span> <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Inconsistent input magnet parameters: magnet edge length if too large for given effective length&#39;</span><span class="p">)</span>
+
+    <span class="n">B</span> <span class="o">=</span> <span class="o">-</span><span class="mf">3.33564095</span><span class="o">*</span><span class="n">_ang</span><span class="o">*</span><span class="n">_el_en</span><span class="o">/</span><span class="n">_len</span> <span class="c1">#sign to be checked!</span>
+    <span class="n">n_or_s</span> <span class="o">=</span> <span class="s1">&#39;n&#39;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_x_or_y</span> <span class="o">==</span> <span class="s1">&#39;y&#39;</span><span class="p">):</span> <span class="n">n_or_s</span> <span class="o">=</span> <span class="s1">&#39;s&#39;</span> <span class="c1">#to check</span>
+    
+    <span class="k">return</span> <span class="n">SRWLMagFldM</span><span class="p">(</span><span class="n">_G</span><span class="o">=</span><span class="n">B</span><span class="p">,</span> <span class="n">_m</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">_n_or_s</span><span class="o">=</span><span class="n">n_or_s</span><span class="p">,</span> <span class="n">_Leff</span><span class="o">=</span><span class="n">_len</span><span class="p">,</span> <span class="n">_Ledge</span><span class="o">=</span><span class="n">_led</span><span class="p">)</span></div>
+
+
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="srwl_mag_extrap_grad_off_mid_plane">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_mag.srwl_mag_extrap_grad_off_mid_plane">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_mag_extrap_grad_off_mid_plane</span><span class="p">(</span><span class="n">_mag_mid</span><span class="p">,</span> <span class="n">_ry</span><span class="p">,</span> <span class="n">_ny</span><span class="p">,</span> <span class="n">_grad_mult</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Extrapolates magnetic field off horizontal mid-plane based on field gradient in the mid-plane (e.g. for dipole with gradient or for a guad).</span>
+<span class="sd">    :param _mag_mid: input tabulated 3D magnetic field on 2D mesh vs x and z in the horizontal mid-plane in a container (object of SRWLMagFldC type)</span>
+<span class="sd">    :param _ry: vertical position range of the final 3D mesh [m]</span>
+<span class="sd">    :param _ny: number of points vs vertical position in the final 3D mesh</span>
+<span class="sd">    :param _grad_mult: a number the gradient has to be multiplied by</span>
+<span class="sd">    :returns: resulting exrapolated 3D magnetic field structure in a container (object of SRWLMagFldC type)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span><span class="p">((</span><span class="n">_mag_mid</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_mag_mid</span><span class="o">.</span><span class="n">arMagFld</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">_mag_mid</span><span class="o">.</span><span class="n">arMagFld</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_ry</span> <span class="o">&lt;</span> <span class="mf">0.</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_ny</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)):</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Incorrect input parameters for magnetic field to be extrapolated&quot;</span><span class="p">)</span>
+
+    <span class="n">fld3d_mid</span> <span class="o">=</span> <span class="n">_mag_mid</span><span class="o">.</span><span class="n">arMagFld</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="c1">#arBx_mid = fld3d_mid.arBx</span>
+    <span class="n">arBy_mid</span> <span class="o">=</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">arBy</span>
+    <span class="n">arBz_mid</span> <span class="o">=</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">arBz</span>
+
+    <span class="n">xc</span> <span class="o">=</span> <span class="n">_mag_mid</span><span class="o">.</span><span class="n">arXc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">xStart</span> <span class="o">=</span> <span class="n">xc</span> <span class="o">-</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">fld3d_mid</span><span class="o">.</span><span class="n">rx</span>
+    <span class="n">nx</span> <span class="o">=</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">nx</span>
+    <span class="n">xStep</span> <span class="o">=</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">rx</span><span class="o">/</span><span class="p">(</span><span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">yc</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">yStart</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">_ry</span>
+    <span class="n">ny</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">_ny</span><span class="p">)</span>
+    <span class="n">yStep</span> <span class="o">=</span> <span class="n">_ry</span><span class="o">/</span><span class="p">(</span><span class="n">ny</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">zc</span> <span class="o">=</span> <span class="n">_mag_mid</span><span class="o">.</span><span class="n">arZc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">zStart</span> <span class="o">=</span> <span class="n">zc</span> <span class="o">-</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">fld3d_mid</span><span class="o">.</span><span class="n">rz</span>
+    <span class="n">nz</span> <span class="o">=</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">nz</span>
+    <span class="n">zStep</span> <span class="o">=</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">rz</span><span class="o">/</span><span class="p">(</span><span class="n">nz</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">nTotRes</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">nx</span><span class="o">*</span><span class="n">ny</span><span class="o">*</span><span class="n">nz</span><span class="p">)</span>
+    <span class="n">arBxRes</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nTotRes</span><span class="p">)</span>
+    <span class="n">arByRes</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nTotRes</span><span class="p">)</span>
+    <span class="n">arBzRes</span> <span class="o">=</span> <span class="kc">None</span> <span class="k">if</span><span class="p">(</span><span class="n">arBz_mid</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="k">else</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nTotRes</span><span class="p">)</span>
+    
+    <span class="n">nx_mi_1</span> <span class="o">=</span> <span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="c1">#print(nx, xStart, xStep, ny, yStart, yStep, nz, zStart, zStep)</span>
+    
+    <span class="k">for</span> <span class="n">iz</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nz</span><span class="p">):</span>
+        <span class="n">iz_nx</span> <span class="o">=</span> <span class="n">iz</span><span class="o">*</span><span class="n">nx</span>
+        <span class="n">iz_nx_ny</span> <span class="o">=</span> <span class="n">iz</span><span class="o">*</span><span class="n">nx</span><span class="o">*</span><span class="n">ny</span>
+        <span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nx</span><span class="p">):</span>
+            <span class="n">b1y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b2y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b0y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">dx</span> <span class="o">=</span> <span class="n">xStep</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">ix</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="n">b1y</span> <span class="o">=</span> <span class="n">arBy_mid</span><span class="p">[</span><span class="n">iz_nx</span><span class="p">]</span>
+                <span class="n">b2y</span> <span class="o">=</span> <span class="n">arBy_mid</span><span class="p">[</span><span class="n">iz_nx</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+                <span class="n">b0y</span> <span class="o">=</span> <span class="n">b1y</span>
+            <span class="k">elif</span><span class="p">(</span><span class="n">ix</span> <span class="o">==</span> <span class="n">nx_mi_1</span><span class="p">):</span>
+                <span class="n">b1y</span> <span class="o">=</span> <span class="n">arBy_mid</span><span class="p">[</span><span class="n">iz_nx</span> <span class="o">+</span> <span class="n">nx_mi_1</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+                <span class="n">b2y</span> <span class="o">=</span> <span class="n">arBy_mid</span><span class="p">[</span><span class="n">iz_nx</span> <span class="o">+</span> <span class="n">nx_mi_1</span><span class="p">]</span>
+                <span class="n">b0y</span> <span class="o">=</span> <span class="n">b2y</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">b1y</span> <span class="o">=</span> <span class="n">arBy_mid</span><span class="p">[</span><span class="n">iz_nx</span> <span class="o">+</span> <span class="n">ix</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+                <span class="n">b0y</span> <span class="o">=</span> <span class="n">arBy_mid</span><span class="p">[</span><span class="n">iz_nx</span> <span class="o">+</span> <span class="n">ix</span><span class="p">]</span>
+                <span class="n">b2y</span> <span class="o">=</span> <span class="n">arBy_mid</span><span class="p">[</span><span class="n">iz_nx</span> <span class="o">+</span> <span class="n">ix</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+                <span class="n">dx</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">xStep</span>
+                
+            <span class="n">curGrad</span> <span class="o">=</span> <span class="n">_grad_mult</span><span class="o">*</span><span class="p">(</span><span class="n">b2y</span> <span class="o">-</span> <span class="n">b1y</span><span class="p">)</span><span class="o">/</span><span class="n">dx</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">yStart</span>
+            <span class="k">for</span> <span class="n">iy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ny</span><span class="p">):</span>
+                <span class="n">ofst</span> <span class="o">=</span> <span class="n">iz_nx_ny</span> <span class="o">+</span> <span class="n">iy</span><span class="o">*</span><span class="n">nx</span> <span class="o">+</span> <span class="n">ix</span>
+                <span class="n">arBxRes</span><span class="p">[</span><span class="n">ofst</span><span class="p">]</span> <span class="o">=</span> <span class="n">y</span><span class="o">*</span><span class="n">curGrad</span>
+                <span class="n">arByRes</span><span class="p">[</span><span class="n">ofst</span><span class="p">]</span> <span class="o">=</span> <span class="n">b0y</span>
+                <span class="n">y</span> <span class="o">+=</span> <span class="n">yStep</span>
+
+    <span class="n">fld3dRes</span> <span class="o">=</span> <span class="n">SRWLMagFld3D</span><span class="p">(</span><span class="n">arBxRes</span><span class="p">,</span> <span class="n">arByRes</span><span class="p">,</span> <span class="n">arBzRes</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">nz</span><span class="p">,</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">rx</span><span class="p">,</span> <span class="n">_ry</span><span class="p">,</span> <span class="n">fld3d_mid</span><span class="o">.</span><span class="n">rz</span><span class="p">)</span>
+    <span class="c1">#print(fld3dRes.nx, fld3dRes.rx, fld3dRes.ny, fld3dRes.ry, fld3dRes.nz, fld3dRes.rz)</span>
+
+    <span class="k">return</span> <span class="n">SRWLMagFldC</span><span class="p">(</span><span class="n">fld3dRes</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span><span class="p">,</span> <span class="n">zc</span><span class="p">)</span></div>
+
+
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="srwl_mag_track_e_beam_mom">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_mag.srwl_mag_track_e_beam_mom">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_mag_track_e_beam_mom</span><span class="p">(</span><span class="n">_e_beam</span><span class="p">,</span> <span class="n">_mag</span><span class="p">,</span> <span class="n">_z_or_ct</span><span class="p">,</span> <span class="n">_ct_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_ct_end</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_npart</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">_np_in_trj</span><span class="o">=</span><span class="mi">10000</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Estimate Electron Beam Statistical Moments at a given long. pos. (for tests)</span>
+<span class="sd">    :param _e_beam: input electron beam structure (object of SRWLPartBeam type)</span>
+<span class="sd">    :param _mag: input magnetic field container (object of SRWLMagFldC type)</span>
+<span class="sd">    :param _z_or_ct: longitudinal position [m] where the stat. moments have to be calculated, or c*t (if _ct_start != _ct_end)</span>
+<span class="sd">    :param _ct_start: start time ct moment [m] for trajectory calculation</span>
+<span class="sd">    :param _ct_end: end timect  moment [m] for trajectory calculation</span>
+<span class="sd">    :param _npart: number of macro-particles</span>
+<span class="sd">    :param _np_in_trj: number of points in trajectory</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">partTraj</span> <span class="o">=</span> <span class="n">SRWLPrtTrj</span><span class="p">()</span>
+    <span class="n">partTraj</span><span class="o">.</span><span class="n">allocate</span><span class="p">(</span><span class="n">_np_in_trj</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+    <span class="n">partTraj</span><span class="o">.</span><span class="n">ctStart</span> <span class="o">=</span> <span class="n">_ct_start</span> <span class="c1">#Start Time for the calculation</span>
+    <span class="n">partTraj</span><span class="o">.</span><span class="n">ctEnd</span> <span class="o">=</span> <span class="n">_ct_end</span> <span class="c1">#magFldCnt.arMagFld[0].rz</span>
+
+    <span class="n">x0</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">partStatMom1</span><span class="o">.</span><span class="n">x</span>
+    <span class="n">xp0</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">partStatMom1</span><span class="o">.</span><span class="n">xp</span>
+    <span class="n">y0</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">partStatMom1</span><span class="o">.</span><span class="n">y</span>
+    <span class="n">yp0</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">partStatMom1</span><span class="o">.</span><span class="n">yp</span>
+    <span class="c1">#en0GeV = _e_beam.partStatMom1.get_E()</span>
+    <span class="n">gamma0</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">partStatMom1</span><span class="o">.</span><span class="n">gamma</span>
+
+    <span class="n">sigXe2</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">arStatMom2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1">#[0]: &lt;(x-x0)^2&gt;</span>
+    <span class="n">mXXp</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">arStatMom2</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="c1">#[1]: &lt;(x-x0)*(xp-xp0)&gt;</span>
+    <span class="n">sigXpe2</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">arStatMom2</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="c1">#[2]: &lt;(xp-xp0)^2&gt;</span>
+    <span class="n">sigYe2</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">arStatMom2</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="c1">#[3]: &lt;(y-y0)^2&gt;</span>
+    <span class="n">mYYp</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">arStatMom2</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="c1">#[4]: &lt;(y-y0)*(yp-yp0)&gt;</span>
+    <span class="n">sigYpe2</span> <span class="o">=</span> <span class="n">_e_beam</span><span class="o">.</span><span class="n">arStatMom2</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="c1">#[5]: &lt;(yp-yp0)^2&gt;</span>
+    <span class="n">relEnSpr</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">_e_beam</span><span class="o">.</span><span class="n">arStatMom2</span><span class="p">[</span><span class="mi">10</span><span class="p">])</span> <span class="c1">#&lt;(E-E0)^2&gt;/E0^2</span>
+    <span class="c1">#absEnSpr = en0GeV*relEnSpr</span>
+
+    <span class="n">multX</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">/</span><span class="p">(</span><span class="n">sigXe2</span><span class="o">*</span><span class="n">sigXpe2</span> <span class="o">-</span> <span class="n">mXXp</span><span class="o">*</span><span class="n">mXXp</span><span class="p">)</span>
+    <span class="n">BX</span> <span class="o">=</span> <span class="n">sigXe2</span><span class="o">*</span><span class="n">multX</span>
+    <span class="n">GX</span> <span class="o">=</span> <span class="n">sigXpe2</span><span class="o">*</span><span class="n">multX</span>
+    <span class="n">AX</span> <span class="o">=</span> <span class="n">mXXp</span><span class="o">*</span><span class="n">multX</span>
+    <span class="n">sigPX</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">GX</span><span class="p">)</span>
+    <span class="n">sigQX</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">sigXpe2</span><span class="p">)</span>
+
+    <span class="n">multY</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">/</span><span class="p">(</span><span class="n">sigYe2</span><span class="o">*</span><span class="n">sigYpe2</span> <span class="o">-</span> <span class="n">mYYp</span><span class="o">*</span><span class="n">mYYp</span><span class="p">)</span>
+    <span class="n">BY</span> <span class="o">=</span> <span class="n">sigYe2</span><span class="o">*</span><span class="n">multY</span>
+    <span class="n">GY</span> <span class="o">=</span> <span class="n">sigYpe2</span><span class="o">*</span><span class="n">multY</span>
+    <span class="n">AY</span> <span class="o">=</span> <span class="n">mYYp</span><span class="o">*</span><span class="n">multY</span>
+    <span class="n">sigPY</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">GY</span><span class="p">)</span>
+    <span class="n">sigQY</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">sigYpe2</span><span class="p">)</span>
+
+    <span class="n">randAr</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="mi">5</span><span class="p">)</span> <span class="c1">#for random Gaussian numbers</span>
+    <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">12345</span><span class="p">)</span>
+
+    <span class="n">ind0</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">r0</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">ctStep</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">treatCT</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">np_in_trj_mi_1</span> <span class="o">=</span> <span class="n">_np_in_trj</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_ct_start</span> <span class="o">!=</span> <span class="n">_ct_end</span><span class="p">):</span> <span class="c1">#treat _z_or_ct as ct</span>
+        <span class="n">ctStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ct_end</span> <span class="o">-</span> <span class="n">_ct_start</span><span class="p">)</span><span class="o">/</span><span class="n">np_in_trj_mi_1</span>
+        <span class="n">ind0</span> <span class="o">=</span> <span class="nb">int</span><span class="p">((</span><span class="n">_z_or_ct</span> <span class="o">-</span> <span class="n">_ct_start</span><span class="p">)</span><span class="o">/</span><span class="n">ctStep</span><span class="p">)</span>
+        <span class="k">if</span><span class="p">((</span><span class="n">ind0</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">ind0</span> <span class="o">&lt;</span> <span class="n">np_in_trj_mi_1</span><span class="p">)):</span> 
+            <span class="n">r0</span> <span class="o">=</span> <span class="p">(</span><span class="n">_z_or_ct</span> <span class="o">-</span> <span class="p">(</span><span class="n">_ct_start</span> <span class="o">+</span> <span class="n">ind0</span><span class="o">*</span><span class="n">ctStep</span><span class="p">))</span><span class="o">/</span><span class="n">ctStep</span>
+            <span class="n">treatCT</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">treatCT</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">True</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Trajectory point corresponding to given time moment was not found&quot;</span><span class="p">)</span>
+
+    <span class="n">xSum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ySum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">xpSum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ypSum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">xe2Sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ye2Sum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">xpe2Sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ype2Sum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">xxpSum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">yypSum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_npart</span><span class="p">):</span>
+
+        <span class="k">for</span> <span class="n">ir</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+            <span class="n">randAr</span><span class="p">[</span><span class="n">ir</span><span class="p">]</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">gauss</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+        <span class="n">auxPXp</span> <span class="o">=</span> <span class="n">sigQX</span><span class="o">*</span><span class="n">randAr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">auxPX</span> <span class="o">=</span> <span class="n">sigPX</span><span class="o">*</span><span class="n">randAr</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">AX</span><span class="o">*</span><span class="n">auxPXp</span><span class="o">/</span><span class="n">GX</span>
+        <span class="n">partTraj</span><span class="o">.</span><span class="n">partInitCond</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x0</span> <span class="o">+</span> <span class="n">auxPX</span>
+        <span class="n">partTraj</span><span class="o">.</span><span class="n">partInitCond</span><span class="o">.</span><span class="n">xp</span> <span class="o">=</span> <span class="n">xp0</span> <span class="o">+</span> <span class="n">auxPXp</span>
+        <span class="n">auxPYp</span> <span class="o">=</span> <span class="n">sigQY</span><span class="o">*</span><span class="n">randAr</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">auxPY</span> <span class="o">=</span> <span class="n">sigPY</span><span class="o">*</span><span class="n">randAr</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="n">AY</span><span class="o">*</span><span class="n">auxPYp</span><span class="o">/</span><span class="n">GY</span>
+        <span class="n">partTraj</span><span class="o">.</span><span class="n">partInitCond</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y0</span> <span class="o">+</span> <span class="n">auxPY</span>
+        <span class="n">partTraj</span><span class="o">.</span><span class="n">partInitCond</span><span class="o">.</span><span class="n">yp</span> <span class="o">=</span> <span class="n">yp0</span> <span class="o">+</span> <span class="n">auxPYp</span>
+        <span class="n">partTraj</span><span class="o">.</span><span class="n">partInitCond</span><span class="o">.</span><span class="n">gamma</span> <span class="o">=</span> <span class="n">gamma0</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">relEnSpr</span><span class="o">*</span><span class="n">randAr</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+
+        <span class="n">partTraj</span> <span class="o">=</span> <span class="n">srwl</span><span class="o">.</span><span class="n">CalcPartTraj</span><span class="p">(</span><span class="n">partTraj</span><span class="p">,</span> <span class="n">_mag</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+        <span class="k">if</span> <span class="n">treatCT</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="c1">#Search for longitudinal position:</span>
+            <span class="n">iz</span> <span class="o">=</span> <span class="n">ind0</span>
+            <span class="n">dZprev</span> <span class="o">=</span> <span class="mf">1.e+23</span>
+            <span class="n">newIndFound</span> <span class="o">=</span> <span class="kc">False</span>
+            <span class="k">while</span><span class="p">(</span><span class="n">iz</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">iz</span> <span class="o">&lt;</span> <span class="n">np_in_trj_mi_1</span><span class="p">):</span>
+                    <span class="k">if</span><span class="p">((</span><span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">iz</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">_z_or_ct</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">_z_or_ct</span> <span class="o">&lt;</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">iz</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])):</span>
+                        <span class="n">ind0</span> <span class="o">=</span> <span class="n">iz</span>
+                        <span class="n">newIndFound</span> <span class="o">=</span> <span class="kc">True</span>
+                        <span class="k">break</span>
+                <span class="n">dZ</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">_z_or_ct</span> <span class="o">-</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">iz</span><span class="p">])</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">dZ</span> <span class="o">&gt;</span> <span class="n">dZprev</span><span class="p">):</span> <span class="k">break</span>
+
+                <span class="n">dZprev</span> <span class="o">=</span> <span class="n">dZ</span>
+                <span class="n">iz</span> <span class="o">-=</span> <span class="mi">1</span>
+
+            <span class="k">if</span> <span class="n">newIndFound</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
+                <span class="n">iz</span> <span class="o">=</span> <span class="n">ind0</span>
+                <span class="n">dZprev</span> <span class="o">=</span> <span class="mf">1.e+23</span>
+                <span class="k">while</span><span class="p">(</span><span class="n">iz</span> <span class="o">&lt;</span> <span class="n">np_in_trj_mi_1</span><span class="p">):</span>
+                    <span class="k">if</span><span class="p">((</span><span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">iz</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">_z_or_ct</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">_z_or_ct</span> <span class="o">&lt;</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">iz</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])):</span>
+                        <span class="n">ind0</span> <span class="o">=</span> <span class="n">iz</span>
+                        <span class="n">newIndFound</span> <span class="o">=</span> <span class="kc">True</span>
+                        <span class="k">break</span>
+                    <span class="n">dZ</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">_z_or_ct</span> <span class="o">-</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">iz</span><span class="p">])</span>
+                    <span class="k">if</span><span class="p">(</span><span class="n">dZ</span> <span class="o">&gt;</span> <span class="n">dZprev</span><span class="p">):</span> <span class="k">break</span>
+
+                    <span class="n">dZprev</span> <span class="o">=</span> <span class="n">dZ</span>
+                    <span class="n">iz</span> <span class="o">+=</span> <span class="mi">1</span>
+
+            <span class="k">if</span><span class="p">(</span><span class="n">newIndFound</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Trajectory point corresponding to given longitudinal position was not found&quot;</span><span class="p">)</span>
+
+            <span class="n">r0</span> <span class="o">=</span> <span class="p">(</span><span class="n">_z_or_ct</span> <span class="o">-</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">ind0</span><span class="p">])</span><span class="o">/</span><span class="p">(</span><span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">ind0</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arZ</span><span class="p">[</span><span class="n">ind0</span><span class="p">])</span>
+
+        <span class="n">x1</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arX</span><span class="p">[</span><span class="n">ind0</span><span class="p">];</span> <span class="n">x2</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arX</span><span class="p">[</span><span class="n">ind0</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">x1</span> <span class="o">+</span> <span class="n">r0</span><span class="o">*</span><span class="p">(</span><span class="n">x2</span> <span class="o">-</span> <span class="n">x1</span><span class="p">)</span>
+        <span class="n">xp1</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arXp</span><span class="p">[</span><span class="n">ind0</span><span class="p">];</span> <span class="n">xp2</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arXp</span><span class="p">[</span><span class="n">ind0</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="n">xp</span> <span class="o">=</span> <span class="n">xp1</span> <span class="o">+</span> <span class="n">r0</span><span class="o">*</span><span class="p">(</span><span class="n">xp2</span> <span class="o">-</span> <span class="n">xp1</span><span class="p">)</span>
+        <span class="n">y1</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arY</span><span class="p">[</span><span class="n">ind0</span><span class="p">];</span> <span class="n">y2</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arY</span><span class="p">[</span><span class="n">ind0</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="n">y1</span> <span class="o">+</span> <span class="n">r0</span><span class="o">*</span><span class="p">(</span><span class="n">y2</span> <span class="o">-</span> <span class="n">y1</span><span class="p">)</span>
+        <span class="n">yp1</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arYp</span><span class="p">[</span><span class="n">ind0</span><span class="p">];</span> <span class="n">yp2</span> <span class="o">=</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">arYp</span><span class="p">[</span><span class="n">ind0</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+        <span class="n">yp</span> <span class="o">=</span> <span class="n">yp1</span> <span class="o">+</span> <span class="n">r0</span><span class="o">*</span><span class="p">(</span><span class="n">yp2</span> <span class="o">-</span> <span class="n">yp1</span><span class="p">)</span>
+
+        <span class="n">xSum</span> <span class="o">+=</span> <span class="n">x</span><span class="p">;</span> <span class="n">ySum</span> <span class="o">+=</span> <span class="n">y</span>
+        <span class="n">xpSum</span> <span class="o">+=</span> <span class="n">xp</span><span class="p">;</span> <span class="n">ypSum</span> <span class="o">+=</span> <span class="n">yp</span>
+        <span class="n">xe2Sum</span> <span class="o">+=</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">;</span> <span class="n">ye2Sum</span> <span class="o">+=</span> <span class="n">y</span><span class="o">*</span><span class="n">y</span>
+        <span class="n">xpe2Sum</span> <span class="o">+=</span> <span class="n">xp</span><span class="o">*</span><span class="n">xp</span><span class="p">;</span> <span class="n">ype2Sum</span> <span class="o">+=</span> <span class="n">yp</span><span class="o">*</span><span class="n">yp</span>
+        <span class="n">xxpSum</span> <span class="o">+=</span> <span class="n">x</span><span class="o">*</span><span class="n">xp</span><span class="p">;</span> <span class="n">yypSum</span> <span class="o">+=</span> <span class="n">y</span><span class="o">*</span><span class="n">yp</span>
+    
+    <span class="n">invN</span> <span class="o">=</span> <span class="mf">1.</span><span class="o">/</span><span class="n">_npart</span>
+    <span class="n">xAvg</span> <span class="o">=</span> <span class="n">xSum</span><span class="o">*</span><span class="n">invN</span><span class="p">;</span> <span class="n">yAvg</span> <span class="o">=</span> <span class="n">ySum</span><span class="o">*</span><span class="n">invN</span>
+    <span class="n">xpAvg</span> <span class="o">=</span> <span class="n">xpSum</span><span class="o">*</span><span class="n">invN</span><span class="p">;</span> <span class="n">ypAvg</span> <span class="o">=</span> <span class="n">ypSum</span><span class="o">*</span><span class="n">invN</span>
+    <span class="n">xe2Avg</span> <span class="o">=</span> <span class="n">xe2Sum</span><span class="o">*</span><span class="n">invN</span><span class="p">;</span> <span class="n">ye2Avg</span> <span class="o">=</span> <span class="n">ye2Sum</span><span class="o">*</span><span class="n">invN</span>
+    <span class="n">xpe2Avg</span> <span class="o">=</span> <span class="n">xpe2Sum</span><span class="o">*</span><span class="n">invN</span><span class="p">;</span> <span class="n">ype2Avg</span> <span class="o">=</span> <span class="n">ype2Sum</span><span class="o">*</span><span class="n">invN</span>
+    <span class="n">xxpAvg</span> <span class="o">=</span> <span class="n">xxpSum</span><span class="o">*</span><span class="n">invN</span><span class="p">;</span> <span class="n">yypAvg</span> <span class="o">=</span> <span class="n">yypSum</span><span class="o">*</span><span class="n">invN</span>
+
+    <span class="n">sigXe2</span> <span class="o">=</span> <span class="n">xe2Avg</span> <span class="o">-</span> <span class="n">xAvg</span><span class="o">*</span><span class="n">xAvg</span><span class="p">;</span> <span class="n">sigYe2</span> <span class="o">=</span> <span class="n">ye2Avg</span> <span class="o">-</span> <span class="n">yAvg</span><span class="o">*</span><span class="n">yAvg</span>
+    <span class="n">mXXp</span> <span class="o">=</span> <span class="n">xxpAvg</span> <span class="o">-</span> <span class="n">xAvg</span><span class="o">*</span><span class="n">xpAvg</span><span class="p">;</span> <span class="n">mYYp</span> <span class="o">=</span> <span class="n">yypAvg</span> <span class="o">-</span> <span class="n">yAvg</span><span class="o">*</span><span class="n">ypAvg</span>
+    <span class="n">sigXpe2</span> <span class="o">=</span> <span class="n">xpe2Avg</span> <span class="o">-</span> <span class="n">xpAvg</span><span class="o">*</span><span class="n">xpAvg</span><span class="p">;</span> <span class="n">sigYpe2</span> <span class="o">=</span> <span class="n">ype2Avg</span> <span class="o">-</span> <span class="n">ypAvg</span><span class="o">*</span><span class="n">ypAvg</span>
+
+    <span class="k">return</span> <span class="p">[[</span><span class="n">xAvg</span><span class="p">,</span> <span class="n">xpAvg</span><span class="p">,</span> <span class="n">sigXe2</span><span class="p">,</span> <span class="n">mXXp</span><span class="p">,</span> <span class="n">sigXpe2</span><span class="p">],</span> <span class="p">[</span><span class="n">yAvg</span><span class="p">,</span> <span class="n">ypAvg</span><span class="p">,</span> <span class="n">sigYe2</span><span class="p">,</span> <span class="n">mYYp</span><span class="p">,</span> <span class="n">sigYpe2</span><span class="p">]]</span></div>
+
+
+<span class="c1">#****************************************************************************</span>
+<span class="c1">##def srwl_mag_extrap_grad_curv(_mag_curv_mid, _cen_trj_data, _xi, _xf, _nx, _yi, _yf, _ny, _zi, _zf, _nz, _grad_mult=1):</span>
+<span class="c1">##    &quot;&quot;&quot;</span>
+<span class="c1">##    Extrapolates magnetic field on rectangulat 3D mesh in and off horizontal mid-plane based on field gradient in the mid-plane (e.g. for dipole with gradient or for a guad).</span>
+<span class="c1">##    :param _mag_curv_mid: input tabulated 3D magnetic field on 2D mesh vs x and z in Natural frame in the horizontal mid-plane in a container (object of SRWLMagFldC type)</span>
+<span class="c1">##    :param _cen_trj_data: central trajectory data defining the Natural frame of the input magnetic field (_cen_trj_data[0] is ct, _cen_trj_data[1] is x. _cen_trj_data[2] is z)</span>
+<span class="c1">##    :param _xi: horizontal initial position of the final 3D mesh [m]</span>
+<span class="c1">##    :param _xf: horizontal final position of the final 3D mesh [m]</span>
+<span class="c1">##    :param _nx: number of points vs horizontal position in the final 3D mesh</span>
+<span class="c1">##    :param _yi: vertical initial position of the final 3D mesh [m]</span>
+<span class="c1">##    :param _yf: vertical initial position of the final 3D mesh [m]</span>
+<span class="c1">##    :param _ny: number of points vs vertical position in the final 3D mesh</span>
+<span class="c1">##    :param _zi: longitudinal initial position of the final 3D mesh [m]</span>
+<span class="c1">##    :param _zf: longitudinal final position of the final 3D mesh [m]</span>
+<span class="c1">##    :param _nz: number of points vs longitudinal position in the final 3D mesh</span>
+<span class="c1">##    :param _grad_mult: a number the gradient has to be multiplied by</span>
+<span class="c1">##    :returns: exrapolated 3D magnetic field structure in a container (object of SRWLMagFldC type)</span>
+<span class="c1">##    &quot;&quot;&quot;</span>
+<span class="c1">##</span>
+<span class="c1">##    if((_mag_curv_mid is None) or (_mag_curv_mid.arMagFld is None) or (len(_mag_curv_mid.arMagFld) &lt; 1) or (_cen_trj_data is None) or (len(_cen_trj_data) &lt; 3)</span>
+<span class="c1">##       or (_nx &lt; 1) or (_ny &lt; 1) or (_nz &lt; 1)):</span>
+<span class="c1">##        raise Exception(&quot;Incorrect input parameters for magnetic field to be extrapolated&quot;)</span>
+<span class="c1">##    #print(&#39;In srwl_fld_extrap_grad_curv&#39;)</span>
+<span class="c1">##</span>
+<span class="c1">##    fld3d_curv_mid = _mag_curv_mid.arMagFld[0]</span>
+<span class="c1">##    #arBx_curv_mid = fld3d_curv_mid.arBx</span>
+<span class="c1">##    arBy_curv_mid = fld3d_curv_mid.arBy</span>
+<span class="c1">##    arBz_curv_mid = fld3d_curv_mid.arBz</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

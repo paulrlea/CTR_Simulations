@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_calc_utils" kind="class" language="C++" prot="public">
+    <compoundname>srTCalcUtils</compoundname>
+    <includes refid="srclcuti_8h" local="no">srclcuti.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsr_t_calc_utils_1a049764ef293f844ffc90af97ec2daa45" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTCalcUtils::ChargeEl</definition>
+        <argsstring></argsstring>
+        <name>ChargeEl</name>
+        <qualifiedname>srTCalcUtils::ChargeEl</qualifiedname>
+        <initializer>= 1.60217646263E-19</initializer>
+        <briefdescription>
+<para>File: srclcuti.cpp Description: Auxiliary SR calculation utilities Project: Synchrotron Radiation Workshop First release: 1997. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="21" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_calc_utils_1aa08b6abb35137308d35a428a3bf26427" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTCalcUtils::MassEl_kg</definition>
+        <argsstring></argsstring>
+        <name>MassEl_kg</name>
+        <qualifiedname>srTCalcUtils::MassEl_kg</qualifiedname>
+        <initializer>= 9.1093818872E-31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="22" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_calc_utils_1a1b26dc448005a37cb636a47f68cc234e" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTCalcUtils::MassEl_MeV</definition>
+        <argsstring></argsstring>
+        <name>MassEl_MeV</name>
+        <qualifiedname>srTCalcUtils::MassEl_MeV</qualifiedname>
+        <initializer>= 0.51099890221</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="23" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_calc_utils_1a2a9f0b1efb16d73ff07340e75d4e978a" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTCalcUtils::SpeedLight</definition>
+        <argsstring></argsstring>
+        <name>SpeedLight</name>
+        <qualifiedname>srTCalcUtils::SpeedLight</qualifiedname>
+        <initializer>= 2.9979245812E+08</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="24" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_calc_utils_1a89ca4f4f4fb1201cb5bc428d61bc4090" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTCalcUtils::Pi</definition>
+        <argsstring></argsstring>
+        <name>Pi</name>
+        <qualifiedname>srTCalcUtils::Pi</qualifiedname>
+        <initializer>= 3.14159265358979</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="25" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classsr_t_calc_utils_1a33c8ab50dec6a926141b0245baf58ba9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTCalcUtils::ConvertWavelengthM_ToPhotEnergy</definition>
+        <argsstring>(double WavelengthM, int OutUnit)</argsstring>
+        <name>ConvertWavelengthM_ToPhotEnergy</name>
+        <qualifiedname>srTCalcUtils::ConvertWavelengthM_ToPhotEnergy</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>WavelengthM</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>OutUnit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="27" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.cpp" bodystart="26" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_calc_utils_1ae7913501b2bf88811acf179f0331c766" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTCalcUtils::ElecEnergyFromGevToGamma</definition>
+        <argsstring>(double ElecEnergyGeV)</argsstring>
+        <name>ElecEnergyFromGevToGamma</name>
+        <qualifiedname>srTCalcUtils::ElecEnergyFromGevToGamma</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ElecEnergyGeV</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="31" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.cpp" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_calc_utils_1a5252b4b9ded4853ddab16d41abefeb3e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTCalcUtils::MagnetRadius</definition>
+        <argsstring>(double Bconst, double ElecEnergy, int OutUnit)</argsstring>
+        <name>MagnetRadius</name>
+        <qualifiedname>srTCalcUtils::MagnetRadius</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Bconst</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElecEnergy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>OutUnit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="32" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.cpp" bodystart="66" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_calc_utils_1a7e18993ca988c11eeb2cb2a8a4cb99fc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTCalcUtils::MagnetCritPhotEn</definition>
+        <argsstring>(double Bconst, double ElecEnergy, int OutUnit)</argsstring>
+        <name>MagnetCritPhotEn</name>
+        <qualifiedname>srTCalcUtils::MagnetCritPhotEn</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Bconst</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElecEnergy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>OutUnit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="33" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.cpp" bodystart="79" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_calc_utils_1a473e52808b90977eccb214aa9c6b7216" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTCalcUtils::UndK</definition>
+        <argsstring>(double Bpeak, double Period)</argsstring>
+        <name>UndK</name>
+        <qualifiedname>srTCalcUtils::UndK</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Bpeak</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Period</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="34" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.cpp" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_calc_utils_1ad1619f901c7e2c6f0a4f500ed5767bf2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTCalcUtils::UndFundPhotEn</definition>
+        <argsstring>(double Bpeak, double Period, double ElecEnergy, int OutUnit)</argsstring>
+        <name>UndFundPhotEn</name>
+        <qualifiedname>srTCalcUtils::UndFundPhotEn</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Bpeak</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Period</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElecEnergy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>OutUnit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="35" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.cpp" bodystart="101" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srclcuti_8h_source" kindref="compound">srclcuti.h</ref> Description: Auxiliary SR calculation utilities (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" line="19" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srclcuti.h" bodystart="19" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classsr_t_calc_utils_1a049764ef293f844ffc90af97ec2daa45" prot="private" virt="non-virtual"><scope>srTCalcUtils</scope><name>ChargeEl</name></member>
+      <member refid="classsr_t_calc_utils_1a33c8ab50dec6a926141b0245baf58ba9" prot="private" virt="non-virtual"><scope>srTCalcUtils</scope><name>ConvertWavelengthM_ToPhotEnergy</name></member>
+      <member refid="classsr_t_calc_utils_1ae7913501b2bf88811acf179f0331c766" prot="public" virt="non-virtual"><scope>srTCalcUtils</scope><name>ElecEnergyFromGevToGamma</name></member>
+      <member refid="classsr_t_calc_utils_1a7e18993ca988c11eeb2cb2a8a4cb99fc" prot="public" virt="non-virtual"><scope>srTCalcUtils</scope><name>MagnetCritPhotEn</name></member>
+      <member refid="classsr_t_calc_utils_1a5252b4b9ded4853ddab16d41abefeb3e" prot="public" virt="non-virtual"><scope>srTCalcUtils</scope><name>MagnetRadius</name></member>
+      <member refid="classsr_t_calc_utils_1aa08b6abb35137308d35a428a3bf26427" prot="private" virt="non-virtual"><scope>srTCalcUtils</scope><name>MassEl_kg</name></member>
+      <member refid="classsr_t_calc_utils_1a1b26dc448005a37cb636a47f68cc234e" prot="private" virt="non-virtual"><scope>srTCalcUtils</scope><name>MassEl_MeV</name></member>
+      <member refid="classsr_t_calc_utils_1a89ca4f4f4fb1201cb5bc428d61bc4090" prot="private" virt="non-virtual"><scope>srTCalcUtils</scope><name>Pi</name></member>
+      <member refid="classsr_t_calc_utils_1a2a9f0b1efb16d73ff07340e75d4e978a" prot="private" virt="non-virtual"><scope>srTCalcUtils</scope><name>SpeedLight</name></member>
+      <member refid="classsr_t_calc_utils_1ad1619f901c7e2c6f0a4f500ed5767bf2" prot="public" virt="non-virtual"><scope>srTCalcUtils</scope><name>UndFundPhotEn</name></member>
+      <member refid="classsr_t_calc_utils_1a473e52808b90977eccb214aa9c6b7216" prot="public" virt="non-virtual"><scope>srTCalcUtils</scope><name>UndK</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

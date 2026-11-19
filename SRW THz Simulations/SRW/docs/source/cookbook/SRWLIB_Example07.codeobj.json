@@ -1,0 +1,47 @@
+{
+ "copy.deepcopy": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "copy",
+   "module_short": "copy",
+   "name": "deepcopy"
+  }
+ ],
+ "os.getcwd": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os",
+   "module_short": "os",
+   "name": "getcwd"
+  }
+ ],
+ "os.path.join": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "os.path",
+   "module_short": "os.path",
+   "name": "join"
+  }
+ ],
+ "random.random": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "random",
+   "module_short": "random",
+   "name": "random"
+  }
+ ],
+ "random.seed": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "random",
+   "module_short": "random",
+   "name": "seed"
+  }
+ ]
+}

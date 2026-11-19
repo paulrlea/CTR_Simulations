@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_prec_s_a_s_e" kind="struct" language="C++" prot="public">
+    <compoundname>srTPrecSASE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a8e1415202a2d800a5d21f6491f754f56" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTPrecSASE::npart</definition>
+        <argsstring></argsstring>
+        <name>npart</name>
+        <qualifiedname>srTPrecSASE::npart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1989" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1989" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1af1678f532571003b69615f7720585ec5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPrecSASE::rmax0</definition>
+        <argsstring></argsstring>
+        <name>rmax0</name>
+        <qualifiedname>srTPrecSASE::rmax0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1990" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1990" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a34693df8edc2d4d5b7d18e7efcfea1f2" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTPrecSASE::ncar</definition>
+        <argsstring></argsstring>
+        <name>ncar</name>
+        <qualifiedname>srTPrecSASE::ncar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1991" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1991" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a003613df5d2b232b9e0f0f4af86611f1" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTPrecSASE::nptr</definition>
+        <argsstring></argsstring>
+        <name>nptr</name>
+        <qualifiedname>srTPrecSASE::nptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1993" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1993" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a21cc9360267421587b76a3fa0ee763bf" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTPrecSASE::nscr</definition>
+        <argsstring></argsstring>
+        <name>nscr</name>
+        <qualifiedname>srTPrecSASE::nscr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1994" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ac5bc2b6ba389778c6ff138a80aea3e3b" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTPrecSASE::nscz</definition>
+        <argsstring></argsstring>
+        <name>nscz</name>
+        <qualifiedname>srTPrecSASE::nscz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1995" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ab6dc7e2ec2700631a895d8b98d7e0161" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPrecSASE::lbc</definition>
+        <argsstring></argsstring>
+        <name>lbc</name>
+        <qualifiedname>srTPrecSASE::lbc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1996" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1996" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1afe6d8ff958a9f1322d73633d2bd491f0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPrecSASE::delz</definition>
+        <argsstring></argsstring>
+        <name>delz</name>
+        <qualifiedname>srTPrecSASE::delz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1997" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1997" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ab19d21d3e9a4de03d822202d8ec7c564" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPrecSASE::zstop</definition>
+        <argsstring></argsstring>
+        <name>zstop</name>
+        <qualifiedname>srTPrecSASE::zstop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1998" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1998" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ad4b9a0345a8c9e73bd2c192b697ec3d3" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPrecSASE::iorb</definition>
+        <argsstring></argsstring>
+        <name>iorb</name>
+        <qualifiedname>srTPrecSASE::iorb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1999" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1999" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a0b2a1eef97d06110ff3ee03c3004edaf" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPrecSASE::UseElecDistr</definition>
+        <argsstring></argsstring>
+        <name>UseElecDistr</name>
+        <qualifiedname>srTPrecSASE::UseElecDistr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2000" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2000" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a1be7a5e7910b28b42e74fae4b16fbc77" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPrecSASE::CreateElecDistr</definition>
+        <argsstring></argsstring>
+        <name>CreateElecDistr</name>
+        <qualifiedname>srTPrecSASE::CreateElecDistr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2001" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2001" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a9a0607bfd28a62dc1b180f24df9eef0e" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPrecSASE::itdp</definition>
+        <argsstring></argsstring>
+        <name>itdp</name>
+        <qualifiedname>srTPrecSASE::itdp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2003" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2003" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ae47ffe8b1c6607a129151cd5d6be2ff8" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTPrecSASE::nslice</definition>
+        <argsstring></argsstring>
+        <name>nslice</name>
+        <qualifiedname>srTPrecSASE::nslice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2004" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2004" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1aaf737b9b279bb170e032bca0ddfaa9f4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPrecSASE::zsep</definition>
+        <argsstring></argsstring>
+        <name>zsep</name>
+        <qualifiedname>srTPrecSASE::zsep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2005" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ac7c2419cfa0f2fe22173ef4bb200a0af" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTPrecSASE::ntail</definition>
+        <argsstring></argsstring>
+        <name>ntail</name>
+        <qualifiedname>srTPrecSASE::ntail</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2006" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2006" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1aef2deba40cc8a1c991c37e8f1f709c00" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPrecSASE::photEn_xlamds</definition>
+        <argsstring></argsstring>
+        <name>photEn_xlamds</name>
+        <qualifiedname>srTPrecSASE::photEn_xlamds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2008" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a4fd2b900ada370f2ef34fbb40f06d805" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTPrecSASE::alignradf</definition>
+        <argsstring></argsstring>
+        <name>alignradf</name>
+        <qualifiedname>srTPrecSASE::alignradf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2010" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ae2b11edc3eb47b9819cc60399c8a9b86" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTPrecSASE::offsetradf</definition>
+        <argsstring></argsstring>
+        <name>offsetradf</name>
+        <qualifiedname>srTPrecSASE::offsetradf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2011" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1ad8a039cf9b4dbbd479ba117996440513" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPrecSASE::AllowAutoChoiceOfNxNzForPropagat</definition>
+        <argsstring></argsstring>
+        <name>AllowAutoChoiceOfNxNzForPropagat</name>
+        <qualifiedname>srTPrecSASE::AllowAutoChoiceOfNxNzForPropagat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2013" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_prec_s_a_s_e_1a8b874c69d6ffe6eaf499b1a0c2bfe7d1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPrecSASE::NxNzOversamplingParam</definition>
+        <argsstring></argsstring>
+        <name>NxNzOversamplingParam</name>
+        <qualifiedname>srTPrecSASE::NxNzOversamplingParam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2014" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2014" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1988" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1988" bodyend="2019"/>
+    <listofallmembers>
+      <member refid="structsr_t_prec_s_a_s_e_1a4fd2b900ada370f2ef34fbb40f06d805" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>alignradf</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ad8a039cf9b4dbbd479ba117996440513" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>AllowAutoChoiceOfNxNzForPropagat</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a1be7a5e7910b28b42e74fae4b16fbc77" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>CreateElecDistr</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1afe6d8ff958a9f1322d73633d2bd491f0" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>delz</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ad4b9a0345a8c9e73bd2c192b697ec3d3" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>iorb</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a9a0607bfd28a62dc1b180f24df9eef0e" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>itdp</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ab6dc7e2ec2700631a895d8b98d7e0161" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>lbc</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a34693df8edc2d4d5b7d18e7efcfea1f2" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>ncar</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a8e1415202a2d800a5d21f6491f754f56" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>npart</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a003613df5d2b232b9e0f0f4af86611f1" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>nptr</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a21cc9360267421587b76a3fa0ee763bf" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>nscr</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ac5bc2b6ba389778c6ff138a80aea3e3b" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>nscz</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ae47ffe8b1c6607a129151cd5d6be2ff8" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>nslice</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ac7c2419cfa0f2fe22173ef4bb200a0af" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>ntail</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a8b874c69d6ffe6eaf499b1a0c2bfe7d1" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>NxNzOversamplingParam</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ae2b11edc3eb47b9819cc60399c8a9b86" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>offsetradf</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1aef2deba40cc8a1c991c37e8f1f709c00" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>photEn_xlamds</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1af1678f532571003b69615f7720585ec5" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>rmax0</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1a0b2a1eef97d06110ff3ee03c3004edaf" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>UseElecDistr</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1aaf737b9b279bb170e032bca0ddfaa9f4" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>zsep</name></member>
+      <member refid="structsr_t_prec_s_a_s_e_1ab19d21d3e9a4de03d822202d8ec7c564" prot="public" virt="non-virtual"><scope>srTPrecSASE</scope><name>zstop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

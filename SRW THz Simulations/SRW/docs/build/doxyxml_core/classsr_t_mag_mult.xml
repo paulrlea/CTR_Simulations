@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_mult" kind="class" language="C++" prot="public">
+    <compoundname>srTMagMult</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_mult_1ad8ecdc0028322f5f85e7ea0e90c3116f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagMult::m_HalfLenModConst</definition>
+        <argsstring></argsstring>
+        <name>m_HalfLenModConst</name>
+        <qualifiedname>srTMagMult::m_HalfLenModConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1359" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_mult_1aa896e1f853902eab013a605da06bc2a0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagMult::m_LenModEdge</definition>
+        <argsstring></argsstring>
+        <name>m_LenModEdge</name>
+        <qualifiedname>srTMagMult::m_LenModEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1359" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_mult_1a27c56b5c2234c53f390699c404ba04c8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagMult::Strength</definition>
+        <argsstring></argsstring>
+        <name>Strength</name>
+        <qualifiedname>srTMagMult::Strength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1362" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_mult_1abd80bfba3b84a6dec8aedb5bb59c525a" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagMult::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <qualifiedname>srTMagMult::m</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1363" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_mult_1a58ce632688d2b0cfcb344ea03928ccb2" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagMult::n_or_s</definition>
+        <argsstring></argsstring>
+        <name>n_or_s</name>
+        <qualifiedname>srTMagMult::n_or_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1364" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_mult_1a770d9676f1e391f3f77475adaf282f2a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagMult::Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <qualifiedname>srTMagMult::Length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1365" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_mult_1a5a9763743152cd720567383b98f2092b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagMult::LenEdge</definition>
+        <argsstring></argsstring>
+        <name>LenEdge</name>
+        <qualifiedname>srTMagMult::LenEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1366" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_mult_1a3984b66d1b398c83fffedf0ea615e3ef" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagMult::m_R</definition>
+        <argsstring></argsstring>
+        <name>m_R</name>
+        <qualifiedname>srTMagMult::m_R</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1367" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1367" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_mult_1a67eee6b6b7c2bb1633bb3f80e9b83e82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagMult::srTMagMult</definition>
+        <argsstring>(double InStrength=0., char In_m=2, double InLength=0., double InLenEdge=0., double In_sCen=0.)</argsstring>
+        <name>srTMagMult</name>
+        <qualifiedname>srTMagMult::srTMagMult</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>InStrength</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_m</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InLength</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InLenEdge</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_sCen</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1376" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1376" bodyend="1394"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_mult_1a0139eec17f392442f77fcfa64d635d72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagMult::srTMagMult</definition>
+        <argsstring>(double InStrength, char In_m, char In_n_or_s, double InLength, double InLenEdge, double InR, const TVector3d &amp;inCenP, const TVector3d &amp;inAxV, double inAng=0)</argsstring>
+        <name>srTMagMult</name>
+        <qualifiedname>srTMagMult::srTMagMult</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>InStrength</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_m</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_n_or_s</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InLength</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InLenEdge</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InR</declname>
+        </param>
+        <param>
+          <type>const TVector3d &amp;</type>
+          <declname>inCenP</declname>
+        </param>
+        <param>
+          <type>const TVector3d &amp;</type>
+          <declname>inAxV</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>inAng</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1397" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1397" bodyend="1417"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_mult_1afff8958d788cd85175944f2ee5f7cc3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagMult::srTMagMult</definition>
+        <argsstring>(srTStringVect *pElemInfo)</argsstring>
+        <name>srTMagMult</name>
+        <qualifiedname>srTMagMult::srTMagMult</qualifiedname>
+        <param>
+          <type>srTStringVect *</type>
+          <declname>pElemInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1419" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1419" bodyend="1452"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_mult_1ab495636dcd9a815c19dec488641c0f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagMult::SetupWigSASE</definition>
+        <argsstring>(srTWigComSASE &amp;)</argsstring>
+        <name>SetupWigSASE</name>
+        <qualifiedname>srTMagMult::SetupWigSASE</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0">SetupWigSASE</reimplements>
+        <param>
+          <type><ref refid="structsr_t_wig_com_s_a_s_e" kindref="compound">srTWigComSASE</ref> &amp;</type>
+          <defname>WigCom</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1454" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="275" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_mult_1ac6df64a4cc02207d2c53bf889fd603b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagMult::ComputeParticlePropagMatrix</definition>
+        <argsstring>(double s, TMatrix2d &amp;Mx, TMatrix2d &amp;Mz)</argsstring>
+        <name>ComputeParticlePropagMatrix</name>
+        <qualifiedname>srTMagMult::ComputeParticlePropagMatrix</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5">ComputeParticlePropagMatrix</reimplements>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>TMatrix2d &amp;</type>
+          <declname>Mx</declname>
+        </param>
+        <param>
+          <type>TMatrix2d &amp;</type>
+          <declname>Mz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1456" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1456" bodyend="1459"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_mult_1ac407519c85d94dc7d42382bdc4dff2f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagMult::compB</definition>
+        <argsstring>(TVector3d &amp;inP, TVector3d &amp;outB)</argsstring>
+        <name>compB</name>
+        <qualifiedname>srTMagMult::compB</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e">compB</reimplements>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>inP</declname>
+        </param>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>outB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1461" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1461" bodyend="1583"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagMult</label>
+        <link refid="classsr_t_mag_mult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagMult</label>
+        <link refid="classsr_t_mag_mult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1356" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1356" bodyend="1584"/>
+    <listofallmembers>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_mult_1ac407519c85d94dc7d42382bdc4dff2f7" prot="public" virt="virtual"><scope>srTMagMult</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_mult_1ac6df64a4cc02207d2c53bf889fd603b9" prot="public" virt="virtual"><scope>srTMagMult</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447" prot="public" virt="virtual"><scope>srTMagMult</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257" prot="public" virt="virtual"><scope>srTMagMult</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52" prot="public" virt="virtual"><scope>srTMagMult</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_mult_1a5a9763743152cd720567383b98f2092b" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>LenEdge</name></member>
+      <member refid="classsr_t_mag_mult_1a770d9676f1e391f3f77475adaf282f2a" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>Length</name></member>
+      <member refid="classsr_t_mag_mult_1abd80bfba3b84a6dec8aedb5bb59c525a" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>m</name></member>
+      <member refid="classsr_t_mag_mult_1ad8ecdc0028322f5f85e7ea0e90c3116f" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>m_HalfLenModConst</name></member>
+      <member refid="classsr_t_mag_mult_1aa896e1f853902eab013a605da06bc2a0" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>m_LenModEdge</name></member>
+      <member refid="classsr_t_mag_mult_1a3984b66d1b398c83fffedf0ea615e3ef" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>m_R</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagMult</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_mult_1a58ce632688d2b0cfcb344ea03928ccb2" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>n_or_s</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagMult</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_mult_1ab495636dcd9a815c19dec488641c0f57" prot="public" virt="virtual"><scope>srTMagMult</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_mult_1a67eee6b6b7c2bb1633bb3f80e9b83e82" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>srTMagMult</name></member>
+      <member refid="classsr_t_mag_mult_1a0139eec17f392442f77fcfa64d635d72" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>srTMagMult</name></member>
+      <member refid="classsr_t_mag_mult_1afff8958d788cd85175944f2ee5f7cc3d" prot="public" virt="non-virtual"><scope>srTMagMult</scope><name>srTMagMult</name></member>
+      <member refid="classsr_t_mag_mult_1a27c56b5c2234c53f390699c404ba04c8" prot="private" virt="non-virtual"><scope>srTMagMult</scope><name>Strength</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagMult</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

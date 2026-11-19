@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structf2c__doublecomplex" kind="struct" language="C++" prot="public">
+    <compoundname>f2c_doublecomplex</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structf2c__doublecomplex_1a61e571f83830177a81ea0b125100f1a7" prot="public" static="no" mutable="no">
+        <type>f2c_doublereal</type>
+        <definition>f2c_doublereal f2c_doublecomplex::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>f2c_doublecomplex::r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="33" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structf2c__doublecomplex_1a258cc62f5e1c0b278d3338fb3eeb733e" prot="public" static="no" mutable="no">
+        <type>f2c_doublereal</type>
+        <definition>f2c_doublereal f2c_doublecomplex::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <qualifiedname>f2c_doublecomplex::i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="33" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="33" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="33" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structf2c__doublecomplex_1a258cc62f5e1c0b278d3338fb3eeb733e" prot="public" virt="non-virtual"><scope>f2c_doublecomplex</scope><name>i</name></member>
+      <member refid="structf2c__doublecomplex_1a61e571f83830177a81ea0b125100f1a7" prot="public" virt="non-virtual"><scope>f2c_doublecomplex</scope><name>r</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

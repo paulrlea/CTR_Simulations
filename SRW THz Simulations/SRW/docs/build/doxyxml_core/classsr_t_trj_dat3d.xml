@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_trj_dat3d" kind="class" language="C++" prot="public">
+    <compoundname>srTTrjDat3d</compoundname>
+    <basecompoundref refid="classsr_t_gen_trj_dat" prot="public" virt="non-virtual">srTGenTrjDat</basecompoundref>
+    <includes refid="srtrjdat3d_8h" local="no">srtrjdat3d.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_trj_dat3d_1a175e5e945ce65e7cde4ce693266298f8" prot="private" static="no" mutable="no">
+        <type><ref refid="classsr_t_mag_fld3d" kindref="compound">srTMagFld3d</ref> &amp;</type>
+        <definition>srTMagFld3d&amp; srTTrjDat3d::m_Fld3d</definition>
+        <argsstring></argsstring>
+        <name>m_Fld3d</name>
+        <qualifiedname>srTTrjDat3d::m_Fld3d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" line="25" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat3d_1a80149d9229b3c7a300b9896f6375b4bf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat3d::m_Mult2ndDer</definition>
+        <argsstring></argsstring>
+        <name>m_Mult2ndDer</name>
+        <qualifiedname>srTTrjDat3d::m_Mult2ndDer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" line="26" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_trj_dat3d_1ad2d5a318dc04af018535a329b1dadc5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjDat3d::srTTrjDat3d</definition>
+        <argsstring>(srTMagFld3d &amp;_Fld3d)</argsstring>
+        <name>srTTrjDat3d</name>
+        <qualifiedname>srTTrjDat3d::srTTrjDat3d</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_fld3d" kindref="compound">srTMagFld3d</ref> &amp;</type>
+          <declname>_Fld3d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" line="30" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat3d_1a82a20d13de17884418a3015f59dd6b22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjDat3d::srTTrjDat3d</definition>
+        <argsstring>(srTMagFld3d &amp;_Fld3d, srTEbmDat &amp;_EbmDat)</argsstring>
+        <name>srTTrjDat3d</name>
+        <qualifiedname>srTTrjDat3d::srTTrjDat3d</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_fld3d" kindref="compound">srTMagFld3d</ref> &amp;</type>
+          <declname>_Fld3d</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>_EbmDat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" line="31" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat3d_1a11e004a3d2754fc8b2eba43852eb6f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat3d::CompTrjDataForDisp</definition>
+        <argsstring>(double *pOutBtxData, double *pOutXData, double *pOutBtyData, double *pOutYData, double *pOutBtzData, double *pOutZData, long long ns, double sStart, double sStep)</argsstring>
+        <name>CompTrjDataForDisp</name>
+        <qualifiedname>srTTrjDat3d::CompTrjDataForDisp</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a1d96fa68aa064a69164ceeb5a1e41f8b">CompTrjDataForDisp</reimplements>
+        <param>
+          <type>double *</type>
+          <declname>pOutBtxData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutXData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutBtyData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutYData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutBtzData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutZData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ns</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStep</declname>
+        </param>
+        <briefdescription>
+<para>File: srtrjdat3d.cpp Description: Electron Trajectory (and relevant characteristics) calculation in 3D Magnetic Fields Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>int is0 = (int)((s0_mi_sStart + sAbsEdgeToler)/sStep); if(is0 &gt;= ns) is0 = ns - 1;</para>
+<para>double test = sStart + is0*sStep; <verbatim>double dsRight = 0.;
+double dsLeft = EbmDat.s0 - (sStart + is0*sStep);
+if(dsLeft &gt; sAbsEdgeToler) 
+{
+    dsRight = sStep - dsLeft;
+}
+else
+{
+    dsLeft = 0; dsRight = 0.;
+}
+</verbatim></para>
+<para>if(is0 &lt; (ns - 1)) { dsRight = sStart + (is0 + 1)*sStep - EbmDat.s0; if(dsRight &lt; sAbsEdgeToler) dsRight = 0; } <verbatim>const int numEq = 6;
+CGenMathIntRungeKutta&lt;srTTrjDat3d&gt; gmIntRK(this, &amp;srTTrjDat3d::funcDerivF, numEq, false, 0); // manual mode, based on number of points
+</verbatim> CGenMathIntRungeKutta(T* ptrT, void (T::<emphasis>pFuncDerivF)(double, double</emphasis>, double*), int amOfEq, bool onPrc, double* precArray, double epsTol =1., int maxAutoStp =5000) <verbatim>double y0 = EbmDat.s0, dyds0 = 1.; //to check
+double initCond[] = {EbmDat.x0, EbmDat.dxds0, y0, dyds0, EbmDat.z0, EbmDat.dzds0};
+
+if(integOnRightIsNeeded)
+{
+    double initCondRight[numEq];
+    int isStartRight = is0;
+    double sStartRight = EbmDat.s0;
+    for(int i=0; i&lt;numEq; i++) initCondRight[i] = initCond[i];
+
+    if(dsRight &gt; 0.)
+    {
+        double auxResRight[2*(numEq + 1)];
+        gmIntRK.solve(initCond, sStartRight, sStartRight + dsRight, 2, auxResRight);
+        sStartRight += dsRight;
+        double *tAuxResRight = auxResRight + numEq + 2, *tInitCondRight = initCondRight;
+        for(int j=0; j&lt;numEq; j++) *(tInitCondRight++) = *(tAuxResRight++);
+        isStartRight++;
+    }
+
+    int npRight = ns - isStartRight;
+    double *auxTotResRight = new double[npRight*(numEq + 1)];
+    if(auxTotResRight == 0) throw MEMORY_ALLOCATION_FAILURE;
+
+    gmIntRK.solve(initCondRight, sStartRight, sEnd, npRight, auxTotResRight);
+
+    long ofst = isStartRight*(numEq + 1);
+    double *tOutBtxData = pOutBtxData + ofst, *tOutXData = pOutXData + ofst;
+    double *tOutBtyData = pOutBtyData + ofst, *tOutYData = pOutYData + ofst;
+    double *tOutBtzData = pOutBtzData + ofst, *tOutZData = pOutZData + ofst;
+    double *tAuxTotResRight = auxTotResRight;
+    for(int j=0; j&lt;npRight; j++)
+    {
+        tAuxTotResRight++; //may need to be put into another place (to check)
+         (tOutXData++) = *(tAuxTotResRight++);
+         (tOutBtxData++) = *(tAuxTotResRight++);
+         (tOutYData++) = *(tAuxTotResRight++);
+         (tOutBtyData++) = *(tAuxTotResRight++);
+         (tOutZData++) = *(tAuxTotResRight++);
+         (tOutBtzData++) = *(tAuxTotResRight++);
+    }
+    if(auxTotResRight != 0) delete[] auxTotResRight;
+}
+
+if(integOnLeftIsNeeded)
+{
+    double initCondLeft[numEq];
+    int isStartLeft = is0;
+    double sStartLeft = EbmDat.s0;
+    for(int i=0; i&lt;numEq; i++) initCondLeft[i] = initCond[i];
+
+    if(dsLeft &gt; 0.)
+    {
+        double auxResLeft[2*(numEq + 1)];
+        gmIntRK.solve(initCond, sStartLeft, sStartLeft - dsLeft, 2, auxResLeft);
+        sStartLeft -= dsLeft;
+        double *tAuxResLeft = auxResLeft + numEq + 2, *tInitCondLeft = initCondLeft;
+        for(int j=0; j&lt;numEq; j++) *(tInitCondLeft++) = *(tAuxResLeft++);
+        isStartLeft--;
+    }
+
+    int npLeft = isStartLeft + 1;
+    double *auxTotResLeft = new double[npLeft*(numEq + 1)];
+    if(auxTotResLeft == 0) throw MEMORY_ALLOCATION_FAILURE;
+
+    gmIntRK.solve(initCondLeft, sStartLeft, sStart, npLeft, auxTotResLeft);
+
+    long ofst = isStartLeft*(numEq + 1);
+    double *tOutBtxData = pOutBtxData + ofst, *tOutXData = pOutXData + ofst;
+    double *tOutBtyData = pOutBtyData + ofst, *tOutYData = pOutYData + ofst;
+    double *tOutBtzData = pOutBtzData + ofst, *tOutZData = pOutZData + ofst;
+    double *tAuxTotResLeft = auxTotResLeft;
+    for(int j=0; j&lt;npLeft; j++)
+    {
+        tAuxTotResLeft++; //may need to be put into another place (to check)
+         (tOutXData--) = *(tAuxTotResLeft++);
+         (tOutBtxData--) = *(tAuxTotResLeft++);
+         (tOutYData--) = *(tAuxTotResLeft++);
+         (tOutBtyData--) = *(tAuxTotResLeft++);
+         (tOutZData--) = *(tAuxTotResLeft++);
+         (tOutBtzData--) = *(tAuxTotResLeft++);
+    }
+    if(auxTotResLeft != 0) delete[] auxTotResLeft;
+}
+</verbatim></para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" line="34" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.cpp" bodystart="21" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat3d_1aa5a056b93236a4116da766b893176cd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat3d::funcDerivF</definition>
+        <argsstring>(double s, double *arr_F, double *arr_dFds)</argsstring>
+        <name>funcDerivF</name>
+        <qualifiedname>srTTrjDat3d::funcDerivF</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arr_F</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arr_dFds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" line="36" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" bodystart="36" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srtrjdat3d_8h_source" kindref="compound">srtrjdat3d.h</ref> Description: Electron Trajectory (and relevant characteristics) calculation in 3D Magnetic Fields (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+      </node>
+      <node id="1">
+        <label>srTTrjDat3d</label>
+        <link refid="classsr_t_trj_dat3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="3">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTTrjDat3d</label>
+        <link refid="classsr_t_trj_dat3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" line="23" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h" bodystart="23" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classsr_t_gen_trj_dat_1a2491ebafa66a24625e7315823126df21" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>AmOfExtremInBx</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a863c1eefd0f11a04051255d7e7fcb2a7" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>AmOfExtremInBz</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a786a443a26f03dfd93f75ab9d6e2d4ba" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>AnalizeFieldSymmetry</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ab101aaa30e7e077953b025bfaf7d686a" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>BetaNormConst</name></member>
+      <member refid="classsr_t_gen_trj_dat_1af5dba4b1001233a9e6fd1a3ada26f5b7" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>BetaNormConstE2</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a8abde1f21b1130d70b762370f2eaafb0" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>CompBetaNormConst</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acda8942c19197a61b28c43c7d6536623" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a31108ff81a978eb47065cb1f4ae97b17" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a284362ce49a5db8baa7029d16d7d7512" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a8fd725bb4e0d3617727b57d24f20de88" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>CompTrjCrdVel</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad37ff12468dca9b2c70c907cece19a80" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>CompTrjCrdVelRK</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a57af3541a84b66e5e7dd05725a18c16c" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>CompTrjDataDerivedAtPointPowDens</name></member>
+      <member refid="classsr_t_trj_dat3d_1a11e004a3d2754fc8b2eba43852eb6f65" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>CompTrjDataForDisp</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acf6984c32c7960eff526b01255c4ebe0" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>CompTrjKickMatr</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a0c101409fd6b1ab1f63494036b207350" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>ConvertToArbTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a9f603b4eb9a863d9b2c5208929cdd370" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad4b4e347f02e90a653e0acbb26b18d76" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>EbmDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a6ee029b9203d93b789ca15fda454fa03" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>EstimMinNpForRadInteg</name></member>
+      <member refid="classsr_t_trj_dat3d_1aa5a056b93236a4116da766b893176cd8" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>funcDerivF</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ace3f84c268057dce8810d49ac3dd71f3" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>funcDerivRK</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad20d3c199cb0b38c8edbadab9c6efa99" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>HorFieldIsNotZero</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a25cf53d73324b1b7d70e66d1cb11ce05" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>InitTrjComp</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acb5eb428d7a635838191938f10039dd1" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>IntegrateKicks</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a59404ca0362887d9b349e60fdaa8cc4d" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>InvBetaNormConst</name></member>
+      <member refid="classsr_t_trj_dat3d_1a175e5e945ce65e7cde4ce693266298f8" prot="private" virt="non-virtual"><scope>srTTrjDat3d</scope><name>m_Fld3d</name></member>
+      <member refid="classsr_t_trj_dat3d_1a80149d9229b3c7a300b9896f6375b4bf" prot="private" virt="non-virtual"><scope>srTTrjDat3d</scope><name>m_Mult2ndDer</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a6cf46e53671110062eba8415e225c521" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>MagFieldIsConstant</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a368afce083d776716ac20106b7ee4c8c" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>MagFieldPeriodicity</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a3f23ec8d7b27a5522aecca381ee68167" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>SetUpFieldBasedArraysAtOnePeriod</name></member>
+      <member refid="classsr_t_gen_trj_dat_1aaf8c18b80259dcae5a6b2ec2887e6236" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>SetUpFieldBasedArraysTotal</name></member>
+      <member refid="classsr_t_gen_trj_dat_1affce4e26a8cbc7642382adb990c78ac5" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>SetupLimitsByAnalizingField</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ada3d8485638984d29c51017f289caae7" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>ShowFullLimits</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a4c8a6cc758f362cf6882d38ea8e19953" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>ShowLimitsAndInitInteg</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ab9e8ba49732354dc2d66a50b6992df80" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a0d4e229cd153b880c373440226d1d814" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1aaf70e1faf054de3f29e0074cd797280c" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_trj_dat3d_1ad2d5a318dc04af018535a329b1dadc5e" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>srTTrjDat3d</name></member>
+      <member refid="classsr_t_trj_dat3d_1a82a20d13de17884418a3015f59dd6b22" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>srTTrjDat3d</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a9105ad2a446c16dbdfad7c9c7938083f" prot="public" virt="non-virtual"><scope>srTTrjDat3d</scope><name>VerFieldIsNotZero</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a329fd5b410e6b361ba5f21dc615a981b" prot="public" virt="virtual"><scope>srTTrjDat3d</scope><name>~srTGenTrjDat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

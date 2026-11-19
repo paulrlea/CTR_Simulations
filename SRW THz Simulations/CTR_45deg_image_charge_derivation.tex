@@ -1,0 +1,300 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+
+% --- convenience macros ---
+\newcommand{\nhat}{\hat{\bm{n}}}
+\newcommand{\zhat}{\hat{\bm{z}}}
+\newcommand{\xhat}{\hat{\bm{x}}}
+\newcommand{\bbeta}{\bm{\beta}}
+\newcommand{\bE}{\bm{E}}
+\newcommand{\bA}{\bm{A}}
+\newcommand{\bJ}{\bm{J}}
+\newcommand{\br}{\bm{r}}
+\newcommand{\bk}{\bm{k}}
+\newcommand{\bv}{\bm{v}}
+\newcommand{\dd}{\,\mathrm{d}}
+
+\title{Backward Coherent Transition Radiation from a 45$^\circ$ Conductor:\\
+An Image--Charge Derivation}
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Physical picture and assumptions}
+
+A relativistic electron (charge $q=-e$, speed $\beta c$, Lorentz factor
+$\gamma=(1-\beta^2)^{-1/2}$) travels through vacuum and strikes an
+\textbf{infinite, perfectly conducting plane} at $45^\circ$ to the surface
+normal. We want the field radiated \textbf{backward}---into the vacuum
+half-space the electron came from.
+
+\paragraph{Assumptions (the idealizations behind the image method).}
+\begin{itemize}
+  \item \textbf{Perfect conductor:} the tangential field vanishes on the
+        surface at \emph{every} frequency, so the image construction is exact
+        for all $\omega$. This is what makes the radiated spectrum ``white''
+        (frequency independent) in the ideal limit.
+  \item \textbf{Infinite, flat plane:} no diffraction / finite-size cutoff.
+        Valid when $\lambda \lesssim \gamma\times(\text{screen size})$.
+  \item \textbf{Sharp boundary, instantaneous absorption:} the electron is
+        absorbed at $t=0$; for $t>0$ there is no current in vacuum.
+\end{itemize}
+Backward TR (BTR) is the only externally observable TR here: a perfect
+conductor transmits nothing, so there is no forward lobe. Gaussian units
+throughout.
+
+\section{Geometry and the image construction}
+
+Put the conductor at $z=0$ (metal in $z<0$, vacuum in $z>0$); surface normal
+$\zhat$. Let the electron move in the $x$--$z$ plane and reach the origin at
+$t=0$. With incidence angle $\theta_i=45^\circ$ from the normal,
+\begin{equation}
+\bbeta_0=\beta(\sin\theta_i,\,0,\,-\cos\theta_i)
+        =\tfrac{\beta}{\sqrt2}(1,\,0,\,-1),
+\qquad
+\br_q(t)=c\,\bbeta_0\,t\quad(t<0).
+\end{equation}
+The boundary condition in vacuum is reproduced \emph{exactly} by removing the
+metal and adding a mirror image: charge $-q$ at the reflected position
+$(x,y,-z)$. Mirroring through $z=0$ flips $\beta_z$:
+\begin{equation}
+\boxed{\;\bbeta_0'=\beta(\sin\theta_i,\,0,\,+\cos\theta_i)
+        =\tfrac{\beta}{\sqrt2}(1,\,0,\,+1)\;}
+\qquad
+\br_{\mathrm{im}}(t)=c\,\bbeta_0'\,t\quad(t<0).
+\end{equation}
+$\bbeta_0'$ is exactly the \textbf{specular reflection} of $\bbeta_0$. Both
+charges travel in straight lines and \textbf{meet at the origin at $t=0$},
+where the pair annihilates.
+
+\begin{verbatim}
+        vacuum (z>0)               n^ (observation)
+   e-  \                          /   <- backward TR lobe
+        \  b0                    /        (around specular)
+         \      specular reflection
+          \    /  b0'
+   ---------o-------------------  z = 0  (perfect conductor)
+          /
+         /   image  -q  (rises to meet e- at t=0)
+      metal (z<0)
+\end{verbatim}
+
+Two facts make $45^\circ$ special:
+\begin{equation}
+\bbeta_0\cdot\bbeta_0'=\beta^2(\sin^2\theta_i-\cos^2\theta_i)
+        =-\beta^2\cos2\theta_i
+        \;\xrightarrow{\;\theta_i=45^\circ\;}\;0,
+\end{equation}
+so the real and image velocities are \textbf{orthogonal}, and the specular
+direction sits at $\theta=45^\circ,\ \phi=0$.
+
+Since uniform motion does not radiate, \emph{all} the radiation comes from the
+abrupt termination of these two currents at $t=0$. The image method has
+converted ``electron $+$ conductor'' into ``two free charges whose currents
+switch off at $t=0$.''
+
+\section{Master radiation integral}
+
+For a point charge on trajectory $\br(t)$, the radiation-zone field in the
+frequency domain follows from the retarded vector potential
+$\bA(\bm{x},\omega)=\frac{1}{c}\frac{e^{ikr}}{r}\int
+\bJ(\bm{x}',\omega)e^{-i\bk\cdot\bm{x}'}\dd^3x'$ with $\bk=k\nhat$,
+$k=\omega/c$. Using $\bJ=q\bv\,\delta^3(\bm{x}-\br(t))$ and
+$\bE_{\mathrm{rad}}=ik\,\bA_\perp$:
+\begin{equation}
+\boxed{\;
+\bE_{\mathrm{rad}}(\bm{x},\omega)=\frac{iq\omega}{c}\,
+\frac{e^{i\omega r/c}}{r}
+\int_{-\infty}^{\infty}\bbeta_\perp(t)\,
+e^{\,i\omega\left(t-\nhat\cdot\br(t)/c\right)}\dd t
+\;}
+\label{eq:master}
+\end{equation}
+where $\bbeta_\perp=-\nhat\times(\nhat\times\bbeta)
+=\bbeta-(\nhat\cdot\bbeta)\nhat$ is the velocity component transverse to the
+observation direction $\nhat$, and $t-\nhat\cdot\br/c$ is the retardation. The
+corresponding spectral--angular energy density (Jackson 14.65) is
+\begin{equation}
+\frac{\dd^2 I}{\dd\omega\,\dd\Omega}=\frac{q^2\omega^2}{4\pi^2 c}
+\left|\int_{-\infty}^{\infty}\nhat\times(\nhat\times\bbeta)\,
+e^{i\omega(t-\nhat\cdot\br/c)}\dd t\right|^2 .
+\label{eq:energy}
+\end{equation}
+
+\section{The integral for one charge that vanishes at the boundary}
+
+For a charge of constant velocity $\bbeta$ existing only for $t<0$ (current
+truncated at impact), $\br(t)=c\bbeta t$, so the phase is linear:
+$\omega(t-\nhat\cdot\br/c)=\omega t\,(1-\nhat\cdot\bbeta)$. With an adiabatic
+switch-on $e^{\epsilon t}$ ($\epsilon\to0^+$) to kill the $t\to-\infty$
+oscillation,
+\begin{equation}
+\int_{-\infty}^{0}\bbeta_\perp\,
+e^{\,i\omega t(1-\nhat\cdot\bbeta)}\dd t
+=\frac{\bbeta_\perp}{i\omega\,(1-\nhat\cdot\bbeta)} .
+\label{eq:single}
+\end{equation}
+Only the \textbf{endpoint at $t=0$} survives: the radiation is generated by the
+velocity discontinuity (the current switching off). Since
+$1-\nhat\cdot\bbeta>0$ always, there is no singularity, only the relativistic
+enhancement when $\nhat\parallel\bbeta$ and $\beta\to1$. Inserting
+\eqref{eq:single} into \eqref{eq:master}, the $i\omega$ cancels, leaving a
+\textbf{frequency-independent} field per charge,
+\begin{equation}
+\bE_{\mathrm{rad}}=\frac{q}{c}\,\frac{e^{i\omega r/c}}{r}\,
+\frac{\bbeta_\perp}{1-\nhat\cdot\bbeta}.
+\end{equation}
+
+\section{Superpose real charge + image: the BTR field}
+
+Add the two amplitudes---real charge ($+q$, $\bbeta_0$) and image ($-q$,
+$\bbeta_0'$):
+\begin{equation}
+\boxed{\;
+\bE^{\,\mathrm{BTR}}(\bm{x},\omega)=\frac{q}{c}\,\frac{e^{i\omega r/c}}{r}
+\left[\frac{\bbeta_{0\perp}}{1-\nhat\cdot\bbeta_0}
+-\frac{\bbeta_{0\perp}'}{1-\nhat\cdot\bbeta_0'}\right]
+\;}
+\label{eq:btrfield}
+\end{equation}
+evaluated for $\nhat$ in the \textbf{upper hemisphere} ($n_z=\cos\theta>0$).
+The image method guarantees that the true field in $z>0$ equals the free-space
+field of this real$+$image pair, so both terms are legitimately summed in
+vacuum. The single-electron BTR spectrum then follows from
+\eqref{eq:energy}:
+\begin{equation}
+\boxed{\;
+\frac{\dd^2 I}{\dd\omega\,\dd\Omega}=\frac{q^2}{4\pi^2 c}
+\left|\frac{\bbeta_{0\perp}}{1-\nhat\cdot\bbeta_0}
+-\frac{\bbeta_{0\perp}'}{1-\nhat\cdot\bbeta_0'}\right|^2
+\;}
+\label{eq:btrspec}
+\end{equation}
+which is \textbf{independent of $\omega$} (white spectrum)---the hallmark of a
+sharp, perfectly conducting boundary.
+
+\section{Specializing to 45$^\circ$}
+
+Write $\nhat=(n_x,n_y,n_z)=(\sin\theta\cos\phi,\sin\theta\sin\phi,\cos\theta)$
+and $\beta_x=\beta_z=\beta/\sqrt2$. Then
+\begin{equation}
+\nhat\cdot\bbeta_0=\tfrac{\beta}{\sqrt2}(n_x-n_z),\qquad
+\nhat\cdot\bbeta_0'=\tfrac{\beta}{\sqrt2}(n_x+n_z),
+\end{equation}
+\begin{equation}
+D_1\equiv1-\tfrac{\beta}{\sqrt2}(n_x-n_z),\qquad
+D_2\equiv1-\tfrac{\beta}{\sqrt2}(n_x+n_z).
+\end{equation}
+Expanding $\lvert\bm{G}\rvert^2$ with
+$\bm{G}=\bbeta_{0\perp}/D_1-\bbeta_{0\perp}'/D_2$, using
+$\lvert\bbeta_\perp\rvert^2=\beta^2-(\nhat\cdot\bbeta)^2$ and (at $45^\circ$)
+$\bbeta_0\cdot\bbeta_0'=0\Rightarrow
+\bbeta_{0\perp}\cdot\bbeta_{0\perp}'=-(\nhat\cdot\bbeta_0)(\nhat\cdot\bbeta_0')$:
+\begin{equation}
+\frac{\dd^2 I}{\dd\omega\,\dd\Omega}=\frac{q^2}{4\pi^2 c}
+\left[
+\frac{\beta^2-\tfrac{\beta^2}{2}(n_x-n_z)^2}{D_1^{\,2}}
++\frac{\beta^2-\tfrac{\beta^2}{2}(n_x+n_z)^2}{D_2^{\,2}}
++\frac{\beta^2\,(n_x^2-n_z^2)}{D_1 D_2}
+\right].
+\label{eq:full45}
+\end{equation}
+The first term is the real-charge contribution, the second the image, the
+third their interference.
+
+\section{Checks and physics}
+
+\paragraph{Normal-incidence limit (validation).}
+Set $\theta_i=0$: $\bbeta_0=-\beta\zhat$, $\bbeta_0'=+\beta\zhat$. Then
+$\bbeta_{0\perp}'=-\bbeta_{0\perp}$, $\lvert\bbeta_{0\perp}\rvert=\beta\sin\theta$,
+$\nhat\cdot\bbeta_{0,0'}=\mp\beta\cos\theta$, and \eqref{eq:btrspec} collapses to
+\begin{equation}
+\frac{\dd^2 I}{\dd\omega\,\dd\Omega}
+=\frac{q^2}{4\pi^2 c}\,\beta^2\sin^2\theta
+\left[\frac{1}{1+\beta\cos\theta}+\frac{1}{1-\beta\cos\theta}\right]^2
+=\frac{q^2}{\pi^2 c}\,\frac{\beta^2\sin^2\theta}{(1-\beta^2\cos^2\theta)^2},
+\end{equation}
+exactly the \textbf{Ginzburg--Frank} backward-TR formula. The factor of $4$
+($1/4\pi^2\to1/\pi^2$) comes from the coherent charge$+$image addition.
+\checkmark
+
+\paragraph{Where the backward lobe points.}
+The image charge moves up-and-forward along $\bbeta_0'$ (into vacuum), so its
+stopping radiation beams along $\bbeta_0'$---the \textbf{specular direction}
+$\theta=45^\circ,\ \phi=0$. The real charge beams down into the metal (forward
+TR, absorbed). Hence BTR is dominated by the image term and peaks about
+specular reflection; as $\nhat\to\bbeta_0'/\beta$,
+$D_2\to1-\beta^2=1/\gamma^2$, driving the enhancement.
+
+\paragraph{Hollow cone / $1/\gamma$ beaming.}
+Exactly on the specular axis $\bbeta_{0\perp}'=0$, so the intensity vanishes
+there; it peaks on a cone of half-angle $\sim1/\gamma$ around specular, with
+angular width $\sim1/\gamma$---the standard relativistic TR donut, centered on
+the reflected direction rather than the normal.
+
+\paragraph{Polarization.}
+From \eqref{eq:btrfield}, $\bE$ lies along the transverse velocity components,
+which sit in the plane of incidence ($x$--$z$). BTR is therefore radially /
+$p$-polarized (electric vector in the emission plane containing $\nhat$ and the
+surface normal), modulo the azimuthal structure of the cone.
+
+\section{The ``coherent'' part: bunch form factor}
+
+Everything above is one electron. For a bunch of $N$ electrons with normalized
+charge density $\rho(\br)$, the fields add with phases $e^{-i\bk\cdot\br_j}$.
+Squaring,
+\begin{equation}
+\left(\frac{\dd^2 I}{\dd\omega\,\dd\Omega}\right)_{\!\mathrm{bunch}}
+=\Big[\,N+N(N-1)\,\lvert F(\omega,\nhat)\rvert^2\,\Big]\,
+\frac{\dd^2 I_1}{\dd\omega\,\dd\Omega},
+\qquad
+F(\omega,\nhat)=\int\rho(\br)\,e^{\,i\frac{\omega}{c}\nhat\cdot\br}\dd^3r .
+\end{equation}
+\begin{itemize}
+  \item $N$ term $\to$ incoherent TR.
+  \item $N(N-1)\lvert F\rvert^2\approx N^2\lvert F\rvert^2$ term $\to$
+        \textbf{coherent} TR (CTR), the large signal at wavelengths
+        $\gtrsim$ bunch length. $\lvert F\rvert^2$ rolls off above
+        $\omega\sim c/\sigma_z$ and imposes the spectral shape that the white
+        single-particle spectrum \eqref{eq:btrspec} lacks. This is exactly the
+        CTR diagnostic relation: measure the BTR spectrum, divide out
+        \eqref{eq:full45}, and invert $\lvert F(\omega)\rvert$ to recover the
+        bunch length / profile.
+\end{itemize}
+The coherent backward-TR field is just \eqref{eq:btrfield} multiplied by the
+bunch form factor:
+\begin{equation}
+\frac{\dd^2 I_{\mathrm{coh}}}{\dd\omega\,\dd\Omega}
+=N^2\lvert F(\omega,\nhat)\rvert^2\,\frac{q^2}{4\pi^2 c}\,
+\lvert\bm{G}\rvert^2 .
+\end{equation}
+
+\section{Caveats / when this breaks}
+\begin{itemize}
+  \item The \textbf{white spectrum} \eqref{eq:btrspec} is an artifact of the
+        perfect-conductor $+$ infinite-plane idealization. Real targets impose
+        a low-frequency cutoff from finite size (Ginzburg--Frank
+        $\to$ Ter-Mikaelian; diffraction radiation when $\lambda\gtrsim$
+        aperture / screen), and finite conductivity rounds off the
+        high-frequency end.
+  \item \textbf{Formation length:} the far-field result assumes the
+        observation distance exceeds the formation zone
+        $L_f\sim\gamma^2\lambda$; for THz wavelengths and high $\gamma$ this
+        can be meters and matters for near-field collection optics.
+  \item For a \textbf{finite foil at $45^\circ$} (the usual lab CTR screen),
+        use the same real$+$image pair but with a finite-aperture
+        (Kirchhoff / diffraction) integral instead of the infinite-plane
+        endpoint term---that adds the realistic low-frequency suppression to
+        \eqref{eq:full45}.
+\end{itemize}
+
+\end{document}

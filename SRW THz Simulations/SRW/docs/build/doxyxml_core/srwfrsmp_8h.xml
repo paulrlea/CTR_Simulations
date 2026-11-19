@@ -1,0 +1,874 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srwfrsmp_8h" kind="file" language="C++">
+    <compoundname>srwfrsmp.h</compoundname>
+    <includes local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">ctype.h</includes>
+    <includes local="yes">gmtrans.h</includes>
+    <includes refid="srobject_8h" local="yes">srobject.h</includes>
+    <includedby refid="srstraux_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ctype.h</label>
+      </node>
+      <node id="5">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="3">
+        <label>math.h</label>
+      </node>
+      <node id="9">
+        <label>smartptr.h</label>
+      </node>
+      <node id="10">
+        <label>stlstart.h</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="11">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h</label>
+        <link refid="srcradint_8h_source"/>
+      </node>
+      <node id="7">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h</label>
+        <link refid="srctrjdt_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sremitpr.h</label>
+        <link refid="sremitpr_8h_source"/>
+      </node>
+      <node id="4">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h</label>
+        <link refid="srgsnbm_8h_source"/>
+      </node>
+      <node id="5">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h</label>
+        <link refid="srisosrc_8h_source"/>
+      </node>
+      <node id="10">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h</label>
+        <link refid="srmagcnt_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h</label>
+        <link refid="srmatsta_8h_source"/>
+      </node>
+      <node id="19">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptang.h</label>
+        <link refid="sroptang_8h_source"/>
+      </node>
+      <node id="25">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptapt.h</label>
+        <link refid="sroptapt_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h</label>
+        <link refid="sroptcnt_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h</label>
+        <link refid="sroptcryst_8h_source"/>
+      </node>
+      <node id="23">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h</label>
+        <link refid="sroptdrf_8h_source"/>
+      </node>
+      <node id="18">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h</label>
+        <link refid="sroptgrat_8h_source"/>
+      </node>
+      <node id="28">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgtr.h</label>
+        <link refid="sroptgtr_8h_source"/>
+      </node>
+      <node id="29">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h</label>
+        <link refid="sropthck_8h_source"/>
+      </node>
+      <node id="36">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptmat.h</label>
+        <link refid="sroptmat_8h_source"/>
+      </node>
+      <node id="30">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptpsh.h</label>
+        <link refid="sroptpsh_8h_source"/>
+      </node>
+      <node id="24">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h</label>
+        <link refid="sroptsmr_8h_source"/>
+      </node>
+      <node id="26">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h</label>
+        <link refid="sroptwgr_8h_source"/>
+      </node>
+      <node id="31">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzp.h</label>
+        <link refid="sroptzp_8h_source"/>
+      </node>
+      <node id="32">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzps.h</label>
+        <link refid="sroptzps_8h_source"/>
+      </node>
+      <node id="13">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h</label>
+        <link refid="srpersto_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h</label>
+        <link refid="srpowden_8h_source"/>
+      </node>
+      <node id="37">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h</label>
+        <link refid="srprdint_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h</label>
+        <link refid="srpropme_8h_source"/>
+      </node>
+      <node id="12">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srptrjdt.h</label>
+        <link refid="srptrjdt_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h</label>
+        <link refid="srradinc_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradint.h</label>
+        <link refid="srradint_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h</label>
+        <link refid="srradmnp_8h_source"/>
+      </node>
+      <node id="38">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h</label>
+        <link refid="srremflp_8h_source"/>
+      </node>
+      <node id="15">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h</label>
+        <link refid="srsase_8h_source"/>
+      </node>
+      <node id="39">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h</label>
+        <link refid="srsend_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h</label>
+        <link refid="srstowig_8h_source"/>
+      </node>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h</label>
+        <link refid="srthckbm_8h_source"/>
+      </node>
+      <node id="43">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h</label>
+        <link refid="srtrjaux_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h</label>
+        <link refid="srtrjdat3d_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsr_t_wfr_smp" prot="public">srTWfrSmp</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="srwfrsmp_8h_1a6e4bdc81f86dbaef2d9115728e4262c5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>srTDistanceOrAngle</name>
+        <enumvalue id="srwfrsmp_8h_1a6e4bdc81f86dbaef2d9115728e4262c5acb2a0f646b1a337a26a744bbd06989b4" prot="public">
+          <name>Distance</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1a6e4bdc81f86dbaef2d9115728e4262c5a501a99846e15f9e28e3150f19a8a85fa" prot="public">
+          <name>Angle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>File: <ref refid="srwfrsmp_8h_source" kindref="compound">srwfrsmp.h</ref> Description: Auxiliary structure for Wavefront Sampling (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="29" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="srwfrsmp_8h_1acad3604e81aa892016f2bc6c0b1420d0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>srTDistrValType</name>
+        <enumvalue id="srwfrsmp_8h_1acad3604e81aa892016f2bc6c0b1420d0a3cd4009f37443397ca7ae8af8c6521b9" prot="public">
+          <name>FluxDens</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1acad3604e81aa892016f2bc6c0b1420d0af47c416bd1700c271f0225f4ae021c2a" prot="public">
+          <name>FieldFourier</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1acad3604e81aa892016f2bc6c0b1420d0affe2d6370c78c23bb48b50e059bcd2b6" prot="public">
+          <name>Flux</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1acad3604e81aa892016f2bc6c0b1420d0a5694cb1fbb17eeb044009c5607e5fd02" prot="public">
+          <name>StokesParam</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="33" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="srwfrsmp_8h_1a90193c9821837cee1c58c29e07b3f765" prot="public" static="no" strong="no">
+        <type></type>
+        <name>srTDistrPolariz</name>
+        <enumvalue id="srwfrsmp_8h_1a90193c9821837cee1c58c29e07b3f765af94e86c3a06fb133ce550e5360101075" prot="public">
+          <name>HorOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1a90193c9821837cee1c58c29e07b3f765ae2fcb18220e2631101d6da807fe750ff" prot="public">
+          <name>VerOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1a90193c9821837cee1c58c29e07b3f765aa6d5caafb7760faa9d13b0c9c0d8e222" prot="public">
+          <name>HorAndVer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1a90193c9821837cee1c58c29e07b3f765a4d73317a69fdb22936908a83e664649f" prot="public">
+          <name>TotOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="37" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="enum" id="srwfrsmp_8h_1a8e99187baa4a93bda25122a77f89d26f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>srTIntegrDistrMap</name>
+        <enumvalue id="srwfrsmp_8h_1a8e99187baa4a93bda25122a77f89d26fa1cba88c8575731dd945d4a4d3f0919c0" prot="public">
+          <name>MapVsHor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1a8e99187baa4a93bda25122a77f89d26fa21d55b08d182d58a9445480a6a5b440c" prot="public">
+          <name>MapVsVer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="41" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="enum" id="srwfrsmp_8h_1a5d03627fec2a171fe660cf13930f1a07" prot="public" static="no" strong="no">
+        <type></type>
+        <name>srTCoordOrAngPresentation</name>
+        <enumvalue id="srwfrsmp_8h_1a5d03627fec2a171fe660cf13930f1a07a505e7b6d9e0c1876d7a3465a398cd1b2" prot="public">
+          <name>CoordPres</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="srwfrsmp_8h_1a5d03627fec2a171fe660cf13930f1a07a53d9bbe75d2d8955f7494543701f8dc1" prot="public">
+          <name>AngPres</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="45" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRWFRSMP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRWFRSMP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ctype.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;gmvect.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gmtrans.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>srTDistanceOrAngle<sp/>{<sp/>Distance,<sp/>Angle<sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>srTDistrValType<sp/>{<sp/>FluxDens,<sp/>FieldFourier,<sp/>Flux,<sp/>StokesParam<sp/>};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>srTDistrPolariz<sp/>{<sp/>HorOnly,<sp/>VerOnly,<sp/>HorAndVer,<sp/>TotOnly<sp/>};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>srTIntegrDistrMap<sp/>{<sp/>MapVsHor,<sp/>MapVsVer<sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>srTCoordOrAngPresentation<sp/>{<sp/>CoordPres,<sp/>AngPres<sp/>};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classsr_t_wfr_smp" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_c_gen_object" kindref="compound">CGenObject</ref><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LambStart,<sp/>LambEnd,<sp/>xStart,<sp/>xEnd,<sp/>yStart,<sp/>yEnd,<sp/>zStart,<sp/>zEnd,<sp/>tStart,<sp/>tEnd;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>nLamb,<sp/>nx,<sp/>ny,<sp/>nz,<sp/>nt;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>long<sp/>nLamb,<sp/>nx,<sp/>ny,<sp/>nz,<sp/>nt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>AllowAutoChoiceOfNxNzForPropagat;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NxNzOversamplingParam;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>DimensionsWereSetAuto;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xMult,<sp/>zMult;<sp/></highlight><highlight class="comment">//<sp/>Used<sp/>at<sp/>comp.<sp/>through<sp/>Coord-Ang<sp/>FFT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>CenP,<sp/>vHor,<sp/>vLong;<sp/></highlight><highlight class="comment">//vNormObsPl;<sp/>//<sp/>CenP<sp/>is<sp/>used<sp/>only<sp/>at<sp/>Diffraction<sp/>comp.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>obsPlaneIsTransv;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NormalizingConst;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>LoopOrder[5];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>*m_pSurfData;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//use<sp/>smart<sp/>pointer!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>CSmartPtr&lt;double&gt;<sp/>m_spSurfData;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PresT;<sp/></highlight><highlight class="comment">//0-<sp/>Frequency<sp/>Domain;<sp/>1-<sp/>Time<sp/>Domain</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PhotonEnergyWavelengthUnits;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>keV,<sp/>1-<sp/>eV,<sp/>2-<sp/>Ang,<sp/>3-<sp/>nm,<sp/>4-<sp/>micron</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BandwidthUnits;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>0.1%,<sp/>1-<sp/>keV,<sp/>2-<sp/>eV,<sp/>3-<sp/>Ang,<sp/>4-<sp/>nm,<sp/>5-<sp/>micron</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>CoordUnits;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>m,<sp/>1-<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FluxComp;<sp/></highlight><highlight class="comment">//<sp/>if<sp/>!=0,<sp/>Integrated<sp/>flux<sp/>is<sp/>computed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>TreatLambdaAsEnergyIn_eV;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ShowPhaseOnly;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>PhaseDerOrder;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>InputWasModified,<sp/>RadDistrDataContShouldBeRebuild;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>OnlyOnePoint;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>AssumeAllPhotonEnergies;<sp/></highlight><highlight class="comment">//used<sp/>to<sp/>signal<sp/>that<sp/>power<sp/>density<sp/>will<sp/>be<sp/>computed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>srTDistanceOrAngle<sp/>ArgType,<sp/>DistrNormType;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>srTDistrValType<sp/>DistrValType;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>srTDistrPolariz<sp/>DistrPolariz;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>srTIntegrDistrMap<sp/>IntegrDistrMap;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>srTCoordOrAngPresentation<sp/>CoordOrAngPresentation;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>AngPresToSpeedUpCoordPres;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hSt,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hFi,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>hN,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vSt,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vFi,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>vN,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pSurfData,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eSt,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eFi,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>eN,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>PhotEnUnit,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tSt=0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tFi=0,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>tN=0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>presT<sp/>=0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>horOrtObsPlane<sp/>=0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>inNormObsPlane<sp/>=0)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//srTWfrSmp(double<sp/>s,<sp/>double<sp/>hSt,<sp/>double<sp/>hFi,<sp/>long<sp/>long<sp/>hN,<sp/>double<sp/>vSt,<sp/>double<sp/>vFi,<sp/>long<sp/>long<sp/>vN,<sp/>double*<sp/>pSurfData,<sp/>double<sp/>eSt,<sp/>double<sp/>eFi,<sp/>long<sp/>long<sp/>eN,<sp/>const<sp/>char*<sp/>PhotEnUnit,<sp/>double<sp/>tSt=0,<sp/>double<sp/>tFi=0,<sp/>long<sp/>long<sp/>tN=0,<sp/>int<sp/>presT<sp/>=0,<sp/>double*<sp/>horOrtObsPlane<sp/>=0,<sp/>double*<sp/>inNormObsPlane<sp/>=0)<sp/>//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Initialize();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LambStart<sp/>=<sp/>eSt;<sp/>LambEnd<sp/>=<sp/>eFi;<sp/>nLamb<sp/>=<sp/>eN;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tStart<sp/>=<sp/>tSt;<sp/>tEnd<sp/>=<sp/>tFi;<sp/>nt<sp/>=<sp/>tN;<sp/>PresT<sp/>=<sp/>presT;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yEnd<sp/>=<sp/>yStart<sp/>=<sp/>s;<sp/>ny<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xStart<sp/>=<sp/>hSt;<sp/>xEnd<sp/>=<sp/>hFi;<sp/>nx<sp/>=<sp/>hN;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zStart<sp/>=<sp/>vSt;<sp/>zEnd<sp/>=<sp/>vFi;<sp/>nz<sp/>=<sp/>vN;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotEnUnit<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>cPhotEnBuf[100];</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(cPhotEnBuf,<sp/>PhotEnUnit);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;(int)strlen(PhotEnUnit);<sp/>i++)<sp/>cPhotEnBuf[i]<sp/>=<sp/>toupper(cPhotEnBuf[i]);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(cPhotEnBuf,<sp/></highlight><highlight class="stringliteral">&quot;EV&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)<sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PhotonEnergyWavelengthUnits<sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>keV,<sp/>1-<sp/>eV,<sp/>2-<sp/>Ang,<sp/>3-<sp/>nm,<sp/>4-<sp/>micron</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TreatLambdaAsEnergyIn_eV<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(cPhotEnBuf,<sp/></highlight><highlight class="stringliteral">&quot;NM&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PhotonEnergyWavelengthUnits<sp/>=<sp/>3;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>keV,<sp/>1-<sp/>eV,<sp/>2-<sp/>Ang,<sp/>3-<sp/>nm,<sp/>4-<sp/>micron</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TreatLambdaAsEnergyIn_eV<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CoordUnits<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>m,<sp/>1-<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BandwidthUnits<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>0.1%,<sp/>1-<sp/>keV,<sp/>2-<sp/>eV,<sp/>3-<sp/>Ang,<sp/>4-<sp/>nm,<sp/>5-<sp/>micron</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(LoopOrder,<sp/></highlight><highlight class="stringliteral">&quot;yzxw&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CoordOrAngPresentation<sp/>=<sp/>CoordPres;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//obsPlaneIsTransv<sp/>=<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//vNormObsPl.x<sp/>=<sp/>vNormObsPl.z<sp/>=<sp/>0.;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//vNormObsPl.y<sp/>=<sp/>-1.;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vHor.x<sp/>=<sp/>1;<sp/>vHor.y<sp/>=<sp/>vHor.z<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vLong.x<sp/>=<sp/>0;<sp/>vLong.y<sp/>=<sp/>1;<sp/>vLong.z<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(horOrtObsPlane<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vHor.x<sp/>=<sp/>horOrtObsPlane[0];<sp/>vHor.y<sp/>=<sp/>horOrtObsPlane[1];<sp/>vHor.z<sp/>=<sp/>horOrtObsPlane[2];<sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vHor.Normalize();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//obsPlaneIsTransv<sp/>=<sp/>ObsPlaneIsTransverse();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(inNormObsPlane<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vLong.x<sp/>=<sp/>inNormObsPlane[0];<sp/>vLong.y<sp/>=<sp/>inNormObsPlane[1];<sp/>vLong.z<sp/>=<sp/>inNormObsPlane[2];<sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vLong.Normalize();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pSurfData<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//allocate<sp/>and<sp/>copy<sp/>observ.<sp/>surface<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>totNumPtSurf<sp/>=<sp/>hN*vN;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>totNumPtSurf<sp/>=<sp/>((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)hN)*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)vN);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pSurfDataLoc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[totNumPtSurf];</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*t_pSurfDataLoc<sp/>=<sp/>pSurfDataLoc,<sp/>*t_pSurfData<sp/>=<sp/>pSurfData;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for(long<sp/>i=0;<sp/>i&lt;totNumPtSurf;<sp/>i++)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;totNumPtSurf;<sp/>i++)<sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(t_pSurfDataLoc++)<sp/>=<sp/>*(t_pSurfData++);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CSmartPtr&lt;double&gt;<sp/>hSurfData(pSurfDataLoc);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_spSurfData<sp/>=<sp/>hSurfData;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obsPlaneIsTransv<sp/>=<sp/>ObsPlaneIsTransverse();<sp/></highlight><highlight class="comment">//to<sp/>call<sp/>at<sp/>the<sp/>end<sp/>only</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(normObsPlane<sp/>!=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>vNormObsPl.x<sp/>=<sp/>normObsPlane[0];<sp/>vNormObsPl.y<sp/>=<sp/>normObsPlane[1];<sp/>vNormObsPl.z<sp/>=<sp/>normObsPlane[2];<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>vNormObsPl.Normalize();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>obsPlaneIsTransv<sp/>=<sp/>ObsPlaneIsTransverse();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//RadDistrDataContShouldBeRebuild<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//PhotonEnergyWavelengthUnits<sp/>=<sp/>1;<sp/>//<sp/>We<sp/>support<sp/>only<sp/>eV<sp/>for<sp/>the<sp/>moment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TreatLambdaAsEnergyIn_eV<sp/>=<sp/>1;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>()</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Initialize();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">~srTWfrSmp</ref>()</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(m_pSurfData<sp/>!=<sp/>0)<sp/>delete[]<sp/>m_pSurfData;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Initialize()</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CoordOrAngPresentation<sp/>=<sp/>CoordPres;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DistrValType<sp/>=<sp/>StokesParam;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DistrPolariz<sp/>=<sp/>HorAndVer;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TreatLambdaAsEnergyIn_eV<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LambStart<sp/>=<sp/>LambEnd<sp/>=<sp/>0.;<sp/>nLamb<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xStart<sp/>=<sp/>xEnd<sp/>=<sp/>1.E+23;<sp/>nx<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zStart<sp/>=<sp/>zEnd<sp/>=<sp/>1.E+23;<sp/>nz<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yStart<sp/>=<sp/>yEnd<sp/>=<sp/>1.E+23;<sp/>ny<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tStart<sp/>=<sp/>tEnd<sp/>=<sp/>0;<sp/>nt<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PresT<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>InputWasModified<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ShowPhaseOnly<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadDistrDataContShouldBeRebuild<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OnlyOnePoint<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AngPresToSpeedUpCoordPres<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DimensionsWereSetAuto<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AllowAutoChoiceOfNxNzForPropagat<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NxNzOversamplingParam<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CoordUnits<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FluxComp<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AssumeAllPhotonEnergies<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obsPlaneIsTransv<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//m_pSurfData<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsDefined()</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//conherent<sp/>with<sp/>Initialize</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((LambStart<sp/>!=<sp/>0.)<sp/>||<sp/>(LambEnd<sp/>!=<sp/>0.)<sp/>||<sp/>(nLamb<sp/>!=<sp/>1)<sp/>||</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xStart<sp/>&lt;<sp/>0.99999E+23)<sp/>||<sp/>(xStart<sp/>&gt;<sp/>1.00001E+23)<sp/>||<sp/>(xEnd<sp/>&lt;<sp/>0.99999E+23)<sp/>||<sp/>(xEnd<sp/>&gt;<sp/>1.00001E+23)<sp/>||<sp/>(nx<sp/>!=<sp/>1)<sp/>||</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(zStart<sp/>&lt;<sp/>0.99999E+23)<sp/>||<sp/>(zStart<sp/>&gt;<sp/>1.00001E+23)<sp/>||<sp/>(zEnd<sp/>&lt;<sp/>0.99999E+23)<sp/>||<sp/>(zEnd<sp/>&gt;<sp/>1.00001E+23)<sp/>||<sp/>(nz<sp/>!=<sp/>1)<sp/>||</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(yStart<sp/>&lt;<sp/>0.99999E+23)<sp/>||<sp/>(yStart<sp/>&gt;<sp/>1.00001E+23)<sp/>||<sp/>(yEnd<sp/>&lt;<sp/>0.99999E+23)<sp/>||<sp/>(yEnd<sp/>&gt;<sp/>1.00001E+23)<sp/>||<sp/>(ny<sp/>!=<sp/>1)<sp/>||</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(tStart<sp/>!=<sp/>0.)<sp/>||<sp/>(tEnd<sp/>!=<sp/>0.)<sp/>||<sp/>(nt<sp/>!=<sp/>0))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SetupLambda(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Start,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>End)</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//<sp/>Makes<sp/>eV<sp/>or<sp/>nm<sp/>from<sp/>any<sp/>units</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>&lt;<sp/>2)<sp/>TreatLambdaAsEnergyIn_eV<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>OldLambStart<sp/>=<sp/>LambStart,<sp/>OldLambEnd<sp/>=<sp/>LambEnd;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>0)<sp/>{<sp/>LambStart<sp/>=<sp/>Start*1000.;<sp/>LambEnd<sp/>=<sp/>End*1000.;}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>1)<sp/>{<sp/>LambStart<sp/>=<sp/>Start;<sp/>LambEnd<sp/>=<sp/>End;}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>2)<sp/>{<sp/>LambStart<sp/>=<sp/>Start*0.1;<sp/>LambEnd<sp/>=<sp/>End*0.1;}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>3)<sp/>{<sp/>LambStart<sp/>=<sp/>Start;<sp/>LambEnd<sp/>=<sp/>End;}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>4)<sp/>{<sp/>LambStart<sp/>=<sp/>Start*1000.;<sp/>LambEnd<sp/>=<sp/>End*1000.;}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AbsPrec<sp/>=<sp/>LambStart*1.E-09;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((::fabs(OldLambStart<sp/>-<sp/>LambStart)<sp/>&lt;<sp/>AbsPrec)<sp/>&amp;&amp;<sp/>(::fabs(OldLambEnd<sp/>-<sp/>LambEnd)<sp/>&lt;<sp/>AbsPrec))?<sp/>0<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1<sp/>if<sp/>was<sp/>modified</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RetrievePhotonEnergyOrWavelength(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Start,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>End)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>0)<sp/>Start<sp/>=<sp/>LambStart;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>1)<sp/>Start<sp/>=<sp/>LambStart*1000.;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>2)<sp/>Start<sp/>=<sp/>LambStart*10.;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>3)<sp/>Start<sp/>=<sp/>LambStart;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>4)<sp/>Start<sp/>=<sp/>LambStart/1000.;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>0)<sp/>End<sp/>=<sp/>LambEnd;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>1)<sp/>End<sp/>=<sp/>LambEnd*1000.;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>2)<sp/>End<sp/>=<sp/>LambEnd*10.;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>3)<sp/>End<sp/>=<sp/>LambEnd;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(PhotonEnergyWavelengthUnits<sp/>==<sp/>4)<sp/>End<sp/>=<sp/>LambEnd/1000.;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EnsureZeroTransverseRangesForSinglePoints()</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nx<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if((!DistrInfoDat.FluxComp)<sp/>&amp;&amp;<sp/>(!DistrInfoDat.AllowAutoChoiceOfNxNzForPropagat))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xMid<sp/>=<sp/>0.5*(xStart<sp/>+<sp/>xEnd);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xStart<sp/>=<sp/>xMid;<sp/>xEnd<sp/>=<sp/>xMid;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nz<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if((!DistrInfoDat.FluxComp)<sp/>&amp;&amp;<sp/>(!DistrInfoDat.AllowAutoChoiceOfNxNzForPropagat))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zMid<sp/>=<sp/>0.5*(zStart<sp/>+<sp/>zEnd);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>zStart<sp/>=<sp/>zMid;<sp/>zEnd<sp/>=<sp/>zMid;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OutRangesForFluxComp(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>dx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>dz)</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nx<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dx<sp/>=<sp/>xEnd<sp/>-<sp/>xStart;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nx<sp/>&gt;<sp/>1)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dx<sp/>=<sp/>(xEnd<sp/>-<sp/>xStart)/(nx<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nz<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dz<sp/>=<sp/>zEnd<sp/>-<sp/>zStart;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nz<sp/>&gt;<sp/>1)</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dz<sp/>=<sp/>(zEnd<sp/>-<sp/>zStart)/(nz<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ObsPlaneIsTransverse()<sp/></highlight><highlight class="comment">//and<sp/>not<sp/>rotated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>relTol<sp/>=<sp/>1.e-10;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(m_spSurfData.rep<sp/>!=<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//make<sp/>more<sp/>consistent<sp/>test<sp/>of<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(vNormObsPl.isZero()<sp/>||<sp/>((::abs(vNormObsPl.x)<sp/>&lt;<sp/>1e-10)<sp/>&amp;&amp;<sp/>(::abs(vNormObsPl.y<sp/>+<sp/>1)<sp/>&lt;<sp/>1e-10)<sp/>&amp;&amp;<sp/>(::abs(vNormObsPl.z)<sp/>&lt;<sp/>1e-10)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>return<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((vLong.isZero()<sp/>||<sp/>((::fabs(vLong.x)<sp/>&lt;<sp/>relTol)<sp/>&amp;&amp;<sp/>(::fabs(vLong.y<sp/>-<sp/>1)<sp/>&lt;<sp/>relTol)<sp/>&amp;&amp;<sp/>(::fabs(vLong.z)<sp/>&lt;<sp/>relTol)))<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(vHor.isZero()<sp/>||<sp/>((::fabs(vHor.x<sp/>-<sp/>1)<sp/>&lt;<sp/>relTol)<sp/>&amp;&amp;<sp/>(::fabs(vHor.y)<sp/>&lt;<sp/>relTol)<sp/>&amp;&amp;<sp/>(::fabs(vHor.z)<sp/>&lt;<sp/>relTol))))</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>SetupTrfObsPlaneIfNecessary(gmTrans&amp;<sp/>trfObsPl)</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>obsPlaneIsTransv<sp/>=<sp/>ObsPlaneIsTransverse();</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(obsPlaneIsTransv)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TVector3d<sp/>vEx(1,<sp/>0,<sp/>0),<sp/>vEy(0,<sp/>1,<sp/>0),<sp/>vEz(0,<sp/>0,<sp/>1),<sp/>vEyP(-vNormObsPl.x,<sp/>-vNormObsPl.y,<sp/>-vNormObsPl.z),<sp/>vEzP;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TVector3d<sp/>vExP<sp/>=<sp/>vEx<sp/>-<sp/>(vEx*vNormObsPl);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>vEx(1,<sp/>0,<sp/>0),<sp/>vEy(0,<sp/>1,<sp/>0),<sp/>vEz(0,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>vExP<sp/>=<sp/>vHor,<sp/>vEyP<sp/>=<sp/>vLong,<sp/>vEzP;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vExP.Normalize();</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vEyP.Normalize();</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(vExP.AmpE2()<sp/>&lt;<sp/>1e-20)<sp/></highlight><highlight class="comment">//vExP<sp/>is<sp/>zero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//vEzP<sp/>=<sp/>vEz<sp/>-<sp/>(vEz*vNormObsPl);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vEzP<sp/>=<sp/>vEz<sp/>-<sp/>(vEz*vLong);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vEzP.Normalize();</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vExP<sp/>=<sp/>vEyP^vEzP;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vEzP<sp/>=<sp/>vExP^vEyP;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>mRow1(vExP*vEx,<sp/>vEyP*vEx,<sp/>vEzP*vEx);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>mRow2(vExP*vEy,<sp/>vEyP*vEy,<sp/>vEzP*vEy);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>mRow3(vExP*vEz,<sp/>vEyP*vEz,<sp/>vEzP*vEz);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TMatrix3d<sp/>M(mRow1,<sp/>mRow2,<sp/>mRow3);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>vCen(0.5*(xStart<sp/>+<sp/>xEnd),<sp/>yStart,<sp/>0.5*(zStart<sp/>+<sp/>zEnd));</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//gmTrans<sp/>trfAux(M,<sp/>vCen);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//trfObsPl<sp/>=<sp/>trfAux;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>trfObsPl.SetMatrixVector(M,<sp/>vCen);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="354"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h"/>
+  </compounddef>
+</doxygen>

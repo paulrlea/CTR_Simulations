@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_sect1_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadSect1D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1ad44eb99b0dbd019c6eabcdcaf9173193" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTRadSect1D::pEx</definition>
+        <argsstring></argsstring>
+        <name>pEx</name>
+        <qualifiedname>srTRadSect1D::pEx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="697" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a23884050f472b60bbb176b1929b4d706" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * srTRadSect1D::pEz</definition>
+        <argsstring></argsstring>
+        <name>pEz</name>
+        <qualifiedname>srTRadSect1D::pEz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="697" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1aedf110b280d5dcf9e65c57c2179c3870" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::ArgStep</definition>
+        <argsstring></argsstring>
+        <name>ArgStep</name>
+        <qualifiedname>srTRadSect1D::ArgStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="698" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a16eed2ed4daf6b12871d1a9d884405ba" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::ArgStart</definition>
+        <argsstring></argsstring>
+        <name>ArgStart</name>
+        <qualifiedname>srTRadSect1D::ArgStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="698" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a03c9001c4bdc9a0ca6b7d00a7deeca82" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::ArgStartTr</definition>
+        <argsstring></argsstring>
+        <name>ArgStartTr</name>
+        <qualifiedname>srTRadSect1D::ArgStartTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="698" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a6e32200663cb1fc28266b9e8d52a6d3a" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadSect1D::np</definition>
+        <argsstring></argsstring>
+        <name>np</name>
+        <qualifiedname>srTRadSect1D::np</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="699" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1aa919584d9890073bb6e57da726e312ae" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::eVal</definition>
+        <argsstring></argsstring>
+        <name>eVal</name>
+        <qualifiedname>srTRadSect1D::eVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="702" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="702" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1aa028622f02f56791667c2850857441be" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::OtherCoordVal</definition>
+        <argsstring></argsstring>
+        <name>OtherCoordVal</name>
+        <qualifiedname>srTRadSect1D::OtherCoordVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="702" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="702" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a23bdb2187e4ae107c9b17aad3447e10c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::VsXorZ</definition>
+        <argsstring></argsstring>
+        <name>VsXorZ</name>
+        <qualifiedname>srTRadSect1D::VsXorZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="703" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1aa2324d5eeadf54ec1d64928f2f072df3" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadSect1D::icOtherCoord</definition>
+        <argsstring></argsstring>
+        <name>icOtherCoord</name>
+        <qualifiedname>srTRadSect1D::icOtherCoord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="704" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="704" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a36d41015c9e6227a4f9d272703567149" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::Robs</definition>
+        <argsstring></argsstring>
+        <name>Robs</name>
+        <qualifiedname>srTRadSect1D::Robs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="706" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="706" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1ac7de67f4de7b3f358b3612156627e36e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::RobsAbsErr</definition>
+        <argsstring></argsstring>
+        <name>RobsAbsErr</name>
+        <qualifiedname>srTRadSect1D::RobsAbsErr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="707" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a79949d10c6f17cd8bab018235565be55" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::cArg</definition>
+        <argsstring></argsstring>
+        <name>cArg</name>
+        <qualifiedname>srTRadSect1D::cArg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="708" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="708" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a02732e813c32a2cb1ad6079fe3744e22" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::WfrMin</definition>
+        <argsstring></argsstring>
+        <name>WfrMin</name>
+        <qualifiedname>srTRadSect1D::WfrMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="710" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="710" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a6767879d8c249a053b736df77b7f86af" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSect1D::WfrMax</definition>
+        <argsstring></argsstring>
+        <name>WfrMax</name>
+        <qualifiedname>srTRadSect1D::WfrMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="710" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="710" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1aa1ab1a4b2d31eef5d5727177b4dfaa68" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::WfrEdgeCorrShouldBeDone</definition>
+        <argsstring></argsstring>
+        <name>WfrEdgeCorrShouldBeDone</name>
+        <qualifiedname>srTRadSect1D::WfrEdgeCorrShouldBeDone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="711" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a8f2beda6a676f8f10693890f51d92cbd" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::ThereIsUnderSamplingIn2D</definition>
+        <argsstring></argsstring>
+        <name>ThereIsUnderSamplingIn2D</name>
+        <qualifiedname>srTRadSect1D::ThereIsUnderSamplingIn2D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="713" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a8c35a0b857eecbba413277e54932dec6" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::Pres</definition>
+        <argsstring></argsstring>
+        <name>Pres</name>
+        <qualifiedname>srTRadSect1D::Pres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="715" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="715" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a0b85eb30b5e519b15ff6f914e5da3704" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::LengthUnit</definition>
+        <argsstring></argsstring>
+        <name>LengthUnit</name>
+        <qualifiedname>srTRadSect1D::LengthUnit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="716" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a2f1ed4a4c3b73774a9de9e514571e00c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::PhotEnergyUnit</definition>
+        <argsstring></argsstring>
+        <name>PhotEnergyUnit</name>
+        <qualifiedname>srTRadSect1D::PhotEnergyUnit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="717" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a518d77151a6269baaf1d6b0191617925" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadSect1D::AuxLong1</definition>
+        <argsstring></argsstring>
+        <name>AuxLong1</name>
+        <qualifiedname>srTRadSect1D::AuxLong1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="719" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1ad46dc3e37dcb133fcfb94f63cca0d35a" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadSect1D::AuxLong2</definition>
+        <argsstring></argsstring>
+        <name>AuxLong2</name>
+        <qualifiedname>srTRadSect1D::AuxLong2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="719" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1ad64e954c21746a90f4c69feca3f00305" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadSect1D::AuxLong3</definition>
+        <argsstring></argsstring>
+        <name>AuxLong3</name>
+        <qualifiedname>srTRadSect1D::AuxLong3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="719" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a059cee13e4d81b3543fdc9cfb3f6a599" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadSect1D::AuxLong4</definition>
+        <argsstring></argsstring>
+        <name>AuxLong4</name>
+        <qualifiedname>srTRadSect1D::AuxLong4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="719" column="33" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a73cbb57f3ab5f053ee9867f5f9f17376" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::NameOfWave[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>NameOfWave</name>
+        <qualifiedname>srTRadSect1D::NameOfWave</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="721" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_sect1_d_1a66bfd8a09d8e97a1e88ee3a213dd85eb" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadSect1D::DeleteArraysAtDestruction</definition>
+        <argsstring></argsstring>
+        <name>DeleteArraysAtDestruction</name>
+        <qualifiedname>srTRadSect1D::DeleteArraysAtDestruction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="722" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="722" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1ac491ec399fdbb5556dabdccdb315ee89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadSect1D::srTRadSect1D</definition>
+        <argsstring>(float *In_pEx, float *In_pEz, char vs_x_or_z, long In_icOtherCoord, srTSRWRadStructAccessData *pRadAccessData)</argsstring>
+        <name>srTRadSect1D</name>
+        <qualifiedname>srTRadSect1D::srTRadSect1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>In_pEx</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>In_pEz</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>vs_x_or_z</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>In_icOtherCoord</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="724" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="724" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1a069cf6b17c26d725d71de4fffed16a42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadSect1D::srTRadSect1D</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadSect1D</name>
+        <qualifiedname>srTRadSect1D::srTRadSect1D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="780" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="780" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1aed8839cde0fa9a6df99614fe093d6b9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadSect1D::~srTRadSect1D</definition>
+        <argsstring>()</argsstring>
+        <name>~srTRadSect1D</name>
+        <qualifiedname>srTRadSect1D::~srTRadSect1D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="787" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="787" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1ab772db8ab351b0e3f75d09809a02c24f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadSect1D::SetupDupl</definition>
+        <argsstring>(srTRadSect1D &amp;RadSect1D)</argsstring>
+        <name>SetupDupl</name>
+        <qualifiedname>srTRadSect1D::SetupDupl</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> &amp;</type>
+          <declname>RadSect1D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="792" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="792" bodyend="814"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1a3e0917456825f18d3f1487362e479f93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadSect1D::DeleteArrays</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteArrays</name>
+        <qualifiedname>srTRadSect1D::DeleteArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="816" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="816" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1a18ed9fca9218cfebe2ea12fe9d2192da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadSect1D::SetNonZeroWavefrontLimitsToFullRange</definition>
+        <argsstring>()</argsstring>
+        <name>SetNonZeroWavefrontLimitsToFullRange</name>
+        <qualifiedname>srTRadSect1D::SetNonZeroWavefrontLimitsToFullRange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="822" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="822" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1a456057d64f774196607ec7460901449f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadSect1D::PreserveLogicsOfWfrLimitsAtRangeResizing</definition>
+        <argsstring>(srTRadSect1D *pOldRadData)</argsstring>
+        <name>PreserveLogicsOfWfrLimitsAtRangeResizing</name>
+        <qualifiedname>srTRadSect1D::PreserveLogicsOfWfrLimitsAtRangeResizing</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pOldRadData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="827" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="827" bodyend="838"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1a21034779dbb2919fef2f02bbb4e9bf7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadSect1D::FindMinMaxReE</definition>
+        <argsstring>(srTMinMaxEParam &amp;a)</argsstring>
+        <name>FindMinMaxReE</name>
+        <qualifiedname>srTRadSect1D::FindMinMaxReE</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_min_max_e_param" kindref="compound">srTMinMaxEParam</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="839" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="839" bodyend="882"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1a529f1c759e1e3ce1bca5eea511a73e92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadSect1D::FindWfrEdgeIndexes</definition>
+        <argsstring>(long &amp;iWfrMin, long &amp;iWfrMax)</argsstring>
+        <name>FindWfrEdgeIndexes</name>
+        <qualifiedname>srTRadSect1D::FindWfrEdgeIndexes</qualifiedname>
+        <param>
+          <type>long &amp;</type>
+          <declname>iWfrMin</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>iWfrMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="883" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="883" bodyend="892"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_sect1_d_1ad03824750c27681ceda2529f7bc3a81b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadSect1D::DetermineMoreIntensivePolarComp</definition>
+        <argsstring>()</argsstring>
+        <name>DetermineMoreIntensivePolarComp</name>
+        <qualifiedname>srTRadSect1D::DetermineMoreIntensivePolarComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="893" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="893" bodyend="926"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="695" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="695" bodyend="927"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_sect1_d_1a16eed2ed4daf6b12871d1a9d884405ba" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>ArgStart</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a03c9001c4bdc9a0ca6b7d00a7deeca82" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>ArgStartTr</name></member>
+      <member refid="structsr_t_rad_sect1_d_1aedf110b280d5dcf9e65c57c2179c3870" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>ArgStep</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a518d77151a6269baaf1d6b0191617925" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>AuxLong1</name></member>
+      <member refid="structsr_t_rad_sect1_d_1ad46dc3e37dcb133fcfb94f63cca0d35a" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>AuxLong2</name></member>
+      <member refid="structsr_t_rad_sect1_d_1ad64e954c21746a90f4c69feca3f00305" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>AuxLong3</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a059cee13e4d81b3543fdc9cfb3f6a599" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>AuxLong4</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a79949d10c6f17cd8bab018235565be55" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>cArg</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a3e0917456825f18d3f1487362e479f93" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>DeleteArrays</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a66bfd8a09d8e97a1e88ee3a213dd85eb" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>DeleteArraysAtDestruction</name></member>
+      <member refid="structsr_t_rad_sect1_d_1ad03824750c27681ceda2529f7bc3a81b" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>DetermineMoreIntensivePolarComp</name></member>
+      <member refid="structsr_t_rad_sect1_d_1aa919584d9890073bb6e57da726e312ae" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>eVal</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a21034779dbb2919fef2f02bbb4e9bf7d" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>FindMinMaxReE</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a529f1c759e1e3ce1bca5eea511a73e92" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>FindWfrEdgeIndexes</name></member>
+      <member refid="structsr_t_rad_sect1_d_1aa2324d5eeadf54ec1d64928f2f072df3" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>icOtherCoord</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a0b85eb30b5e519b15ff6f914e5da3704" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>LengthUnit</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a73cbb57f3ab5f053ee9867f5f9f17376" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>NameOfWave</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a6e32200663cb1fc28266b9e8d52a6d3a" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>np</name></member>
+      <member refid="structsr_t_rad_sect1_d_1aa028622f02f56791667c2850857441be" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>OtherCoordVal</name></member>
+      <member refid="structsr_t_rad_sect1_d_1ad44eb99b0dbd019c6eabcdcaf9173193" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>pEx</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a23884050f472b60bbb176b1929b4d706" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>pEz</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a2f1ed4a4c3b73774a9de9e514571e00c" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>PhotEnergyUnit</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a8c35a0b857eecbba413277e54932dec6" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>Pres</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a456057d64f774196607ec7460901449f" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>PreserveLogicsOfWfrLimitsAtRangeResizing</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a36d41015c9e6227a4f9d272703567149" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>Robs</name></member>
+      <member refid="structsr_t_rad_sect1_d_1ac7de67f4de7b3f358b3612156627e36e" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>RobsAbsErr</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a18ed9fca9218cfebe2ea12fe9d2192da" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>SetNonZeroWavefrontLimitsToFullRange</name></member>
+      <member refid="structsr_t_rad_sect1_d_1ab772db8ab351b0e3f75d09809a02c24f" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>SetupDupl</name></member>
+      <member refid="structsr_t_rad_sect1_d_1ac491ec399fdbb5556dabdccdb315ee89" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>srTRadSect1D</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a069cf6b17c26d725d71de4fffed16a42" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>srTRadSect1D</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a8f2beda6a676f8f10693890f51d92cbd" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>ThereIsUnderSamplingIn2D</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a23bdb2187e4ae107c9b17aad3447e10c" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>VsXorZ</name></member>
+      <member refid="structsr_t_rad_sect1_d_1aa1ab1a4b2d31eef5d5727177b4dfaa68" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>WfrEdgeCorrShouldBeDone</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a6767879d8c249a053b736df77b7f86af" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>WfrMax</name></member>
+      <member refid="structsr_t_rad_sect1_d_1a02732e813c32a2cb1ad6079fe3744e22" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>WfrMin</name></member>
+      <member refid="structsr_t_rad_sect1_d_1aed8839cde0fa9a6df99614fe093d6b9f" prot="public" virt="non-virtual"><scope>srTRadSect1D</scope><name>~srTRadSect1D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

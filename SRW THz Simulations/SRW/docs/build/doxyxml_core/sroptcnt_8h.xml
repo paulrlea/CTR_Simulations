@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptcnt_8h" kind="file" language="C++">
+    <compoundname>sroptcnt.h</compoundname>
+    <includes refid="sroptelm_8h" local="yes">sroptelm.h</includes>
+    <includedby refid="sroptcnt_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.cpp</includedby>
+    <includedby refid="sroptsmr_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h</includedby>
+    <incdepgraph>
+      <node id="19">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="12">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h</label>
+        <link refid="sroptcnt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="4">
+        <label>cstdlib</label>
+      </node>
+      <node id="18">
+        <label>ctype.h</label>
+      </node>
+      <node id="5">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="6">
+        <label>gmvect.h</label>
+      </node>
+      <node id="26">
+        <label>list</label>
+      </node>
+      <node id="14">
+        <label>map</label>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>smartptr.h</label>
+      </node>
+      <node id="11">
+        <label>srigorre.h</label>
+      </node>
+      <node id="21">
+        <label>srinterf.h</label>
+      </node>
+      <node id="24">
+        <label>srwlib.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="15">
+        <label>stlstart.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="17">
+        <label>string.h</label>
+      </node>
+      <node id="25">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h</label>
+        <link refid="sroptcnt_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h</label>
+        <link refid="sroptsmr_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsr_t_composite_opt_elem" prot="public">srTCompositeOptElem</innerclass>
+    <innerclass refid="classsr_t_opt_interferometer" prot="public">srTOptInterferometer</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="sroptcnt_8h_1aea1fa8a3a8e375e0e20563b549bf25f6" prot="public" static="no">
+        <type>struct SRWLStructOpticsContainer</type>
+        <definition>typedef struct SRWLStructOpticsContainer SRWLOptC</definition>
+        <argsstring></argsstring>
+        <name>SRWLOptC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="20" column="40" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="sroptcnt_8h_1a71dafdae7c3f801c38cdd698250ff2b1" prot="public" static="no">
+        <type>struct SRWLStructRadMesh</type>
+        <definition>typedef struct SRWLStructRadMesh SRWLRadMesh</definition>
+        <argsstring></argsstring>
+        <name>SRWLRadMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="22" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SROPTCNT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SROPTCNT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptelm.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SRWLStructOpticsContainer;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SRWLStructOpticsContainer<sp/>SRWLOptC;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SRWLStructRadMesh;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">SRWLStructRadMesh<sp/>SRWLRadMesh;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classsr_t_composite_opt_elem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_composite_opt_elem" kindref="compound">srTCompositeOptElem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>srTGenOptElemHndlList<sp/>GenOptElemList;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>srTRadResizeVect<sp/>GenOptElemPropResizeVect;<sp/></highlight><highlight class="comment">//OC090311</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_composite_opt_elem" kindref="compound">srTCompositeOptElem</ref>(srTStringVect*<sp/>pElemInfo,<sp/><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRad);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_composite_opt_elem" kindref="compound">srTCompositeOptElem</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SRWLOptC&amp;<sp/>opt);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_composite_opt_elem" kindref="compound">srTCompositeOptElem</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PropagateRadiationTest(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*,<sp/><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PropagateRadiationGuided(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>&amp;<sp/>wfr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nInt=0,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>arID=0,<sp/>SRWLRadMesh*<sp/>arIM=0,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>arI=0,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pvGPU=0);<sp/></highlight><highlight class="comment">//HG01122023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PropagateRadiationGuided(srTSRWRadStructAccessData&amp;<sp/>wfr,<sp/>int<sp/>nInt=0,<sp/>char**<sp/>arID=0,<sp/>SRWLRadMesh*<sp/>arIM=0,<sp/>char**<sp/>arI=0);<sp/>//OC15082018</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PropagateRadiationGuided(srTSRWRadStructAccessData&amp;<sp/>wfr);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ExtractPropagatedIntensity(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>&amp;<sp/>wfr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nInt,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>arID,<sp/>SRWLRadMesh*<sp/>arIM,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>arI,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>elCnt,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>indIntSartSearch=0);<sp/></highlight><highlight class="comment">//27082018</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddOptElemFront(srTGenOptElemHndl&amp;<sp/>OptElemHndl)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GenOptElemList.push_front(OptElemHndl);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddOptElemBack(srTGenOptElemHndl&amp;<sp/>OptElemHndl)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GenOptElemList.push_back(OptElemHndl);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PropagateRadiation(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>srTParPrecWfrPropag&amp;<sp/>ParPrecWfrPropag,<sp/>srTRadResizeVect&amp;<sp/>ResizeBeforeAndAfterVect)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PropagateRadiation(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/>srTParPrecWfrPropag&amp;<sp/>ParPrecWfrPropag,<sp/>srTRadResizeVect&amp;<sp/>ResizeBeforeAndAfterVect,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pvGPU=0)<sp/></highlight><highlight class="comment">//HG01122023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>AmOfElem<sp/>=<sp/>(int)GenOptElemList.size();<sp/></highlight><highlight class="comment">//OC110104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ElemCount<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//OC110104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>GenUseResAfter<sp/>=<sp/>ParPrecWfrPropag.UseResAfter;<sp/></highlight><highlight class="comment">//OC110104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ParPrecWfrPropag.UseResAfter<sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//OC110104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OC141011:<sp/>to<sp/>reconsider<sp/>this<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(srTGenOptElemHndlList::iterator<sp/>iter<sp/>=<sp/>GenOptElemList.begin();<sp/>iter<sp/>!=<sp/>GenOptElemList.end();<sp/>++iter)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ElemCount++;<sp/></highlight><highlight class="comment">//OC110104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ElemCount<sp/>==<sp/>AmOfElem)<sp/></highlight><highlight class="comment">//OC110104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//if<sp/>element<sp/>is<sp/>the<sp/>last</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!GenUseResAfter)<sp/>ParPrecWfrPropag.UseResAfter<sp/>=<sp/>GenUseResAfter;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(result<sp/>=<sp/>((srTGenOptElem*)((*iter).rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>MethNo,<sp/>ResizeBeforeAndAfterVect))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(result<sp/>=<sp/>((srTGenOptElem*)((*iter).rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>ParPrecWfrPropag,<sp/>ResizeBeforeAndAfterVect))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>((<ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref>*)((*iter).rep))-&gt;PropagateRadiation(pRadAccessData,<sp/>ParPrecWfrPropag,<sp/>ResizeBeforeAndAfterVect,<sp/>pvGPU))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//HG01122023</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ParPrecWfrPropag.UseResAfter<sp/>=<sp/>GenUseResAfter;<sp/></highlight><highlight class="comment">//OC110104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddPtrOfActualOptElem(srTGenOptElemPtrList&amp;<sp/>ActOptElemsList)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(srTGenOptElemHndlList::iterator<sp/>iter<sp/>=<sp/>GenOptElemList.begin();<sp/>iter<sp/>!=<sp/>GenOptElemList.end();<sp/>++iter)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//((*iter).rep)-&gt;AddPtrOfActualOptElem(ActOptElemsList);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((<ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref>*)((*iter).rep))-&gt;AddPtrOfActualOptElem(ActOptElemsList);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classsr_t_opt_interferometer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_opt_interferometer" kindref="compound">srTOptInterferometer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref><sp/>{<sp/></highlight><highlight class="comment">//OC01102025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>m_irec;<sp/>//index<sp/>of<sp/>the<sp/>container<sp/>(from<sp/>arOptC)<sp/>from<sp/>which<sp/>the<sp/>propagated<sp/>wavefront<sp/>mesh<sp/>parameters<sp/>will<sp/>be<sp/>taken<sp/>at<sp/>the<sp/>wavefront<sp/>recombination<sp/>(if<sp/>&lt;0,<sp/>no<sp/>wavefront<sp/>recombination<sp/>is<sp/>assumed)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OC12102025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_arPar[3];<sp/></highlight><highlight class="comment">//array<sp/>precision<sp/>parameters:<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//m_arPar[0]<sp/>is<sp/>index<sp/>of<sp/>the<sp/>container<sp/>(from<sp/>arOptC)<sp/>from<sp/>which<sp/>the<sp/>propagated<sp/>wavefront<sp/>mesh<sp/>parameters<sp/>will<sp/>be<sp/>taken<sp/>at<sp/>the<sp/>wavefront<sp/>recombination<sp/>(if<sp/>&lt;0,<sp/>no<sp/>wavefront<sp/>recombination<sp/>is<sp/>assumed),<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//m_arPar[1]<sp/>means<sp/>allow<sp/>or<sp/>not<sp/>treatment<sp/>of<sp/>quadratic<sp/>phase<sp/>terms<sp/>(0-<sp/>don&apos;t<sp/>allow,<sp/>1-<sp/>allow),</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//m_arPar[2]<sp/>means<sp/>allow<sp/>or<sp/>not<sp/>correction<sp/>of<sp/>Re<sp/>and<sp/>Im<sp/>parts<sp/>of<sp/>the<sp/>E-field<sp/>based<sp/>on<sp/>intensity<sp/>ratio<sp/>(0-<sp/>don&apos;t<sp/>allow,<sp/>1-<sp/>allow)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>srTGenOptElemHndlList<sp/>GenOptCntList;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_opt_interferometer" kindref="compound">srTOptInterferometer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SRWLOptI&amp;<sp/>opt);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_opt_interferometer" kindref="compound">srTOptInterferometer</ref>()<sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_arPar[0]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_arPar[1]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_arPar[2]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Is<sp/>adding<sp/>a<sp/>destructor<sp/>necessary<sp/>(to<sp/>avoid<sp/>memory<sp/>meak)?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PropagateRadiation(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/>srTParPrecWfrPropag&amp;<sp/>ParPrecWfrPropag,<sp/>srTRadResizeVect&amp;<sp/>ResizeBeforeAndAfterVect,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pvGPU=0);<sp/></highlight><highlight class="comment">//OC08102025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h"/>
+  </compounddef>
+</doxygen>

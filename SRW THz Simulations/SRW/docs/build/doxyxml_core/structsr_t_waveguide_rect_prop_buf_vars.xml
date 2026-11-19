@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_waveguide_rect_prop_buf_vars" kind="struct" language="C++" prot="public">
+    <compoundname>srTWaveguideRectPropBufVars</compoundname>
+    <includes refid="sroptwgr_8h" local="no">sroptwgr.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1aef23189ef278f82be5686c1dd7439df9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTWaveguideRectPropBufVars::PropagInFreeSpaceHoriz</definition>
+        <argsstring></argsstring>
+        <name>PropagInFreeSpaceHoriz</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::PropagInFreeSpaceHoriz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="24" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a2490d97eaa59ac030dcf3b18f6ff8f8d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTWaveguideRectPropBufVars::PropagInFreeSpaceVert</definition>
+        <argsstring></argsstring>
+        <name>PropagInFreeSpaceVert</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::PropagInFreeSpaceVert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="25" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a5af16ee8626b1dbb7435ad70e4a3c72a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::InvDxe2</definition>
+        <argsstring></argsstring>
+        <name>InvDxe2</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::InvDxe2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="27" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a3b3bb96072101fd5d1d48dd8ba0b5f0f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::InvDze2</definition>
+        <argsstring></argsstring>
+        <name>InvDze2</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::InvDze2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="27" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1ac3f296c0b6935df3dca454227523c99f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::xStartTr</definition>
+        <argsstring></argsstring>
+        <name>xStartTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::xStartTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="28" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1acedede4652f654738e30396f23338048" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::zStartTr</definition>
+        <argsstring></argsstring>
+        <name>zStartTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::zStartTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="28" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a346bc0340800b8be3cf4bd5ef003562e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::xStepTr</definition>
+        <argsstring></argsstring>
+        <name>xStepTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::xStepTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="29" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a06cc6f1ec940146e22fcbf98cb513f3e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::zStepTr</definition>
+        <argsstring></argsstring>
+        <name>zStepTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::zStepTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="29" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1adce8ce48789f65998879f1da02d06076" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::xFractStepTr</definition>
+        <argsstring></argsstring>
+        <name>xFractStepTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::xFractStepTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="30" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a2a29648b36cf3a194f91488e1fce45b8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::zFractStepTr</definition>
+        <argsstring></argsstring>
+        <name>zFractStepTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::zFractStepTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="30" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a665966f00245a4d5b9abec0bc0a1c600" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTWaveguideRectPropBufVars::HalfNx</definition>
+        <argsstring></argsstring>
+        <name>HalfNx</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::HalfNx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="31" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a97fefff9268d828f0088efad51f8096f" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTWaveguideRectPropBufVars::HalfNz</definition>
+        <argsstring></argsstring>
+        <name>HalfNz</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::HalfNz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="31" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1aaab2a0aaaab90879c95a53b05b1f961e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::Inv_xStepTr</definition>
+        <argsstring></argsstring>
+        <name>Inv_xStepTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::Inv_xStepTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="34" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_waveguide_rect_prop_buf_vars_1a1fb99e3b3e5d1e4e0569f4bcbfc0c418" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveguideRectPropBufVars::Inv_zStepTr</definition>
+        <argsstring></argsstring>
+        <name>Inv_zStepTr</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::Inv_zStepTr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="34" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_waveguide_rect_prop_buf_vars_1aed0d06d49f68bc4170713061ede7cf93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTWaveguideRectPropBufVars::srTWaveguideRectPropBufVars</definition>
+        <argsstring>()</argsstring>
+        <name>srTWaveguideRectPropBufVars</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::srTWaveguideRectPropBufVars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="36" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_waveguide_rect_prop_buf_vars_1a6049ea0fb657d8c6016c0572d8fb2e4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTWaveguideRectPropBufVars::SetLimitsVars</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;Wfr)</argsstring>
+        <name>SetLimitsVars</name>
+        <qualifiedname>srTWaveguideRectPropBufVars::SetLimitsVars</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>Wfr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="40" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="40" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="sroptwgr_8h_source" kindref="compound">sroptwgr.h</ref> Description: Optical element: Rectangular Waveguide with perfectly conducting walls (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" line="22" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h" bodystart="22" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a665966f00245a4d5b9abec0bc0a1c600" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>HalfNx</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a97fefff9268d828f0088efad51f8096f" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>HalfNz</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1aaab2a0aaaab90879c95a53b05b1f961e" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>Inv_xStepTr</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a1fb99e3b3e5d1e4e0569f4bcbfc0c418" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>Inv_zStepTr</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a5af16ee8626b1dbb7435ad70e4a3c72a" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>InvDxe2</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a3b3bb96072101fd5d1d48dd8ba0b5f0f" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>InvDze2</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1aef23189ef278f82be5686c1dd7439df9" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>PropagInFreeSpaceHoriz</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a2490d97eaa59ac030dcf3b18f6ff8f8d" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>PropagInFreeSpaceVert</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a6049ea0fb657d8c6016c0572d8fb2e4e" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>SetLimitsVars</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1aed0d06d49f68bc4170713061ede7cf93" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>srTWaveguideRectPropBufVars</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1adce8ce48789f65998879f1da02d06076" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>xFractStepTr</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1ac3f296c0b6935df3dca454227523c99f" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>xStartTr</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a346bc0340800b8be3cf4bd5ef003562e" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>xStepTr</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a2a29648b36cf3a194f91488e1fce45b8" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>zFractStepTr</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1acedede4652f654738e30396f23338048" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>zStartTr</name></member>
+      <member refid="structsr_t_waveguide_rect_prop_buf_vars_1a06cc6f1ec940146e22fcbf98cb513f3e" prot="public" virt="non-virtual"><scope>srTWaveguideRectPropBufVars</scope><name>zStepTr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

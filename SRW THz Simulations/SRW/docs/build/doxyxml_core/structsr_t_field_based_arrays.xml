@@ -1,0 +1,782 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_field_based_arrays" kind="struct" language="C++" prot="public">
+    <compoundname>srTFieldBasedArrays</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1adb4112e859e1617d1330bd1607f89cf6" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTFieldBasedArrays::BxArr</definition>
+        <argsstring></argsstring>
+        <name>BxArr</name>
+        <qualifiedname>srTFieldBasedArrays::BxArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a74fb5c349381f158bd5986f8d5a3a4f2" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::BzArr</definition>
+        <argsstring></argsstring>
+        <name>BzArr</name>
+        <qualifiedname>srTFieldBasedArrays::BzArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a81e05fbe46f0d0da979782fa0150eea2" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::BtxArr</definition>
+        <argsstring></argsstring>
+        <name>BtxArr</name>
+        <qualifiedname>srTFieldBasedArrays::BtxArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a73a2aa2be8f97000abe608bc1a97a083" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::BtzArr</definition>
+        <argsstring></argsstring>
+        <name>BtzArr</name>
+        <qualifiedname>srTFieldBasedArrays::BtzArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a8212f98b0f95b1fb3d96c728cc54f40a" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::XArr</definition>
+        <argsstring></argsstring>
+        <name>XArr</name>
+        <qualifiedname>srTFieldBasedArrays::XArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ab5e6ad5680143c68bae1dbc839fee6fe" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::ZArr</definition>
+        <argsstring></argsstring>
+        <name>ZArr</name>
+        <qualifiedname>srTFieldBasedArrays::ZArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="39" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ad2c9d0eb4f433a67fef646b26249e691" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntBtxE2Arr</definition>
+        <argsstring></argsstring>
+        <name>IntBtxE2Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntBtxE2Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="44" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ae7ad3f79e5a211b806fc48a852a9a64c" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntBtzE2Arr</definition>
+        <argsstring></argsstring>
+        <name>IntBtzE2Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntBtzE2Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="56" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1abca81f60522cf71741285a2c4918c7d6" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::dBxdsArr</definition>
+        <argsstring></argsstring>
+        <name>dBxdsArr</name>
+        <qualifiedname>srTFieldBasedArrays::dBxdsArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="68" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a49871ad0591a3a95a495a359358a75f5" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::dBzdsArr</definition>
+        <argsstring></argsstring>
+        <name>dBzdsArr</name>
+        <qualifiedname>srTFieldBasedArrays::dBzdsArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="83" column="77" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a89f44002fbef8b5b2f8790b3efde7481" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTFieldBasedArrays::X1pArr</definition>
+        <argsstring></argsstring>
+        <name>X1pArr</name>
+        <qualifiedname>srTFieldBasedArrays::X1pArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a315bbbfc9f6072a36b676edd340307bc" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::Z1pArr</definition>
+        <argsstring></argsstring>
+        <name>Z1pArr</name>
+        <qualifiedname>srTFieldBasedArrays::Z1pArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a6b350dd81ab982ed151dc5e3dc11daad" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::X2pArr</definition>
+        <argsstring></argsstring>
+        <name>X2pArr</name>
+        <qualifiedname>srTFieldBasedArrays::X2pArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a9a9351be0a7c7ebe2717dc84eb8da62a" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::Z2pArr</definition>
+        <argsstring></argsstring>
+        <name>Z2pArr</name>
+        <qualifiedname>srTFieldBasedArrays::Z2pArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a91069e328f78f1a305f9f8b85ae80766" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::X1Arr</definition>
+        <argsstring></argsstring>
+        <name>X1Arr</name>
+        <qualifiedname>srTFieldBasedArrays::X1Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="36" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a609496f7540c0f70e345aeab3ed8059f" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::Z1Arr</definition>
+        <argsstring></argsstring>
+        <name>Z1Arr</name>
+        <qualifiedname>srTFieldBasedArrays::Z1Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a87026e2f809b50cf8a29daaef002a79e" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::X2Arr</definition>
+        <argsstring></argsstring>
+        <name>X2Arr</name>
+        <qualifiedname>srTFieldBasedArrays::X2Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="48" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a07618dfa620d9bc0dd5271185322e5c4" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::Z2Arr</definition>
+        <argsstring></argsstring>
+        <name>Z2Arr</name>
+        <qualifiedname>srTFieldBasedArrays::Z2Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="84" column="54" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a45a4e0c0b055d32aa98675472d814bd0" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTFieldBasedArrays::IntX01Arr</definition>
+        <argsstring></argsstring>
+        <name>IntX01Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntX01Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="85" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a14889d974310af24136168a7c8ba173d" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntX02Arr</definition>
+        <argsstring></argsstring>
+        <name>IntX02Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntX02Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="85" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1aadd15b80b44b950aeab7ee9d46d14cc2" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntX11Arr</definition>
+        <argsstring></argsstring>
+        <name>IntX11Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntX11Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="85" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a297e0b8288be81685f750cb41ea7b800" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntX12Arr</definition>
+        <argsstring></argsstring>
+        <name>IntX12Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntX12Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="85" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ae9d762e5f6fc2c3f56e141cf23000124" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntX22Arr</definition>
+        <argsstring></argsstring>
+        <name>IntX22Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntX22Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="85" column="52" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a855b4b9ee93234ba73b4a1c0bf4d5d9d" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTFieldBasedArrays::IntZ01Arr</definition>
+        <argsstring></argsstring>
+        <name>IntZ01Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ01Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="86" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ac50f796a9cf9f64f5791cfbb5d23c0d4" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntZ02Arr</definition>
+        <argsstring></argsstring>
+        <name>IntZ02Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ02Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="86" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1aca55649aeb37df8df608855a24f0ccbc" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntZ11Arr</definition>
+        <argsstring></argsstring>
+        <name>IntZ11Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ11Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="86" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a37d5840c99227cc5a892af44572b99af" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntZ12Arr</definition>
+        <argsstring></argsstring>
+        <name>IntZ12Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ12Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="86" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a6f7eb6622924ceff6c21680f47f93e78" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTFieldBasedArrays::IntZ22Arr</definition>
+        <argsstring></argsstring>
+        <name>IntZ22Arr</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ22Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="86" column="52" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ae6d86e7481686aff51097cd072512566" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::absBxMax</definition>
+        <argsstring></argsstring>
+        <name>absBxMax</name>
+        <qualifiedname>srTFieldBasedArrays::absBxMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="88" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a04236a09e03c06823853266c14412e63" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::absBzMax</definition>
+        <argsstring></argsstring>
+        <name>absBzMax</name>
+        <qualifiedname>srTFieldBasedArrays::absBzMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="88" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1af352a62829c213e98f3d9a9b74b2d496" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntX01toS0</definition>
+        <argsstring></argsstring>
+        <name>IntX01toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntX01toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="90" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a5b944a52500264d940d1126f89495106" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntX02toS0</definition>
+        <argsstring></argsstring>
+        <name>IntX02toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntX02toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="90" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a64f23cbd48ae24957bb18e29bab068fc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntX11toS0</definition>
+        <argsstring></argsstring>
+        <name>IntX11toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntX11toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="90" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ad6c598d2376151f6f885f75ff38e72e8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntX12toS0</definition>
+        <argsstring></argsstring>
+        <name>IntX12toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntX12toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="90" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1adfff096c6cf1f2638190cc41373cca2c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntX22toS0</definition>
+        <argsstring></argsstring>
+        <name>IntX22toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntX22toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="90" column="52" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1ac3d81afd360bec98fb682592b20c6b34" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntZ01toS0</definition>
+        <argsstring></argsstring>
+        <name>IntZ01toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ01toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="91" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1aab7c41f41ac1c0b2bb2fbf0aa0e06aad" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntZ02toS0</definition>
+        <argsstring></argsstring>
+        <name>IntZ02toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ02toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="91" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1aaf8c8ec1664a1813208140626bfeeea0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntZ11toS0</definition>
+        <argsstring></argsstring>
+        <name>IntZ11toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ11toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="91" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a8ab7216c6d22ed632eac86b20dfa2ef2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntZ12toS0</definition>
+        <argsstring></argsstring>
+        <name>IntZ12toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ12toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="91" column="45" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a6d39a67bcd19529b4f5ebdbbbfe3a7ae" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::IntZ22toS0</definition>
+        <argsstring></argsstring>
+        <name>IntZ22toS0</name>
+        <qualifiedname>srTFieldBasedArrays::IntZ22toS0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="91" column="56" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1afbaf550290c48fcd0d8f4632a3d6ee72" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::sStart</definition>
+        <argsstring></argsstring>
+        <name>sStart</name>
+        <qualifiedname>srTFieldBasedArrays::sStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="93" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1adcfc1aa5a5d934a3d7648787c18a7436" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFieldBasedArrays::sStep</definition>
+        <argsstring></argsstring>
+        <name>sStep</name>
+        <qualifiedname>srTFieldBasedArrays::sStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="93" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a895177f1ba9f9d2d730600ca29763f9f" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTFieldBasedArrays::Ns</definition>
+        <argsstring></argsstring>
+        <name>Ns</name>
+        <qualifiedname>srTFieldBasedArrays::Ns</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="97" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1aa12b1237a0cea08d41fecbd582733ad4" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTFieldBasedArrays::Nper</definition>
+        <argsstring></argsstring>
+        <name>Nper</name>
+        <qualifiedname>srTFieldBasedArrays::Nper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="98" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_field_based_arrays_1a58d957b1cd59920fba9140be671ec765" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTFieldBasedArrays::NperLeft</definition>
+        <argsstring></argsstring>
+        <name>NperLeft</name>
+        <qualifiedname>srTFieldBasedArrays::NperLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="99" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_field_based_arrays_1a98768b4eae2b66bd271b6299443320f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTFieldBasedArrays::srTFieldBasedArrays</definition>
+        <argsstring>()</argsstring>
+        <name>srTFieldBasedArrays</name>
+        <qualifiedname>srTFieldBasedArrays::srTFieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="101" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="101" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_field_based_arrays_1abc51acd04fc7be7f7cdac36bab6c7a12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTFieldBasedArrays::~srTFieldBasedArrays</definition>
+        <argsstring>()</argsstring>
+        <name>~srTFieldBasedArrays</name>
+        <qualifiedname>srTFieldBasedArrays::~srTFieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="110" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_field_based_arrays_1a5d156c07b5f11d02a553a9ce9762cc16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTFieldBasedArrays::ZeroPtrs</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs</name>
+        <qualifiedname>srTFieldBasedArrays::ZeroPtrs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="115" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="115" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_field_based_arrays_1a39665b92bba4cdebb0ca4da7ebba511b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTFieldBasedArrays::DisposeArrays</definition>
+        <argsstring>()</argsstring>
+        <name>DisposeArrays</name>
+        <qualifiedname>srTFieldBasedArrays::DisposeArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="126" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="126" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_field_based_arrays_1a2aab54874a3edf64e546c0bea2c74762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTFieldBasedArrays::AllocateArrays</definition>
+        <argsstring>(long long InNs, srTFieldBasedArrayKeys &amp;Keys)</argsstring>
+        <name>AllocateArrays</name>
+        <qualifiedname>srTFieldBasedArrays::AllocateArrays</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>InNs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_field_based_array_keys" kindref="compound">srTFieldBasedArrayKeys</ref> &amp;</type>
+          <declname>Keys</declname>
+        </param>
+        <briefdescription>
+<para>File: srtrjdat.cpp Description: Electron Trajectory (and relevant characteristics) calculation for different types of Magnetic Fields Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="161" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="23" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" line="81" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h" bodystart="81" bodyend="162"/>
+    <listofallmembers>
+      <member refid="structsr_t_field_based_arrays_1ae6d86e7481686aff51097cd072512566" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>absBxMax</name></member>
+      <member refid="structsr_t_field_based_arrays_1a04236a09e03c06823853266c14412e63" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>absBzMax</name></member>
+      <member refid="structsr_t_field_based_arrays_1a2aab54874a3edf64e546c0bea2c74762" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>AllocateArrays</name></member>
+      <member refid="structsr_t_field_based_arrays_1a81e05fbe46f0d0da979782fa0150eea2" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>BtxArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a73a2aa2be8f97000abe608bc1a97a083" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>BtzArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1adb4112e859e1617d1330bd1607f89cf6" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>BxArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a74fb5c349381f158bd5986f8d5a3a4f2" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>BzArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1abca81f60522cf71741285a2c4918c7d6" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>dBxdsArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a49871ad0591a3a95a495a359358a75f5" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>dBzdsArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a39665b92bba4cdebb0ca4da7ebba511b" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>DisposeArrays</name></member>
+      <member refid="structsr_t_field_based_arrays_1ad2c9d0eb4f433a67fef646b26249e691" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntBtxE2Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1ae7ad3f79e5a211b806fc48a852a9a64c" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntBtzE2Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a45a4e0c0b055d32aa98675472d814bd0" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX01Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1af352a62829c213e98f3d9a9b74b2d496" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX01toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1a14889d974310af24136168a7c8ba173d" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX02Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a5b944a52500264d940d1126f89495106" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX02toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1aadd15b80b44b950aeab7ee9d46d14cc2" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX11Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a64f23cbd48ae24957bb18e29bab068fc" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX11toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1a297e0b8288be81685f750cb41ea7b800" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX12Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1ad6c598d2376151f6f885f75ff38e72e8" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX12toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1ae9d762e5f6fc2c3f56e141cf23000124" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX22Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1adfff096c6cf1f2638190cc41373cca2c" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntX22toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1a855b4b9ee93234ba73b4a1c0bf4d5d9d" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ01Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1ac3d81afd360bec98fb682592b20c6b34" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ01toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1ac50f796a9cf9f64f5791cfbb5d23c0d4" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ02Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1aab7c41f41ac1c0b2bb2fbf0aa0e06aad" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ02toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1aca55649aeb37df8df608855a24f0ccbc" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ11Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1aaf8c8ec1664a1813208140626bfeeea0" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ11toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1a37d5840c99227cc5a892af44572b99af" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ12Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a8ab7216c6d22ed632eac86b20dfa2ef2" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ12toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1a6f7eb6622924ceff6c21680f47f93e78" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ22Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a6d39a67bcd19529b4f5ebdbbbfe3a7ae" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>IntZ22toS0</name></member>
+      <member refid="structsr_t_field_based_arrays_1aa12b1237a0cea08d41fecbd582733ad4" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>Nper</name></member>
+      <member refid="structsr_t_field_based_arrays_1a58d957b1cd59920fba9140be671ec765" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>NperLeft</name></member>
+      <member refid="structsr_t_field_based_arrays_1a895177f1ba9f9d2d730600ca29763f9f" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>Ns</name></member>
+      <member refid="structsr_t_field_based_arrays_1a98768b4eae2b66bd271b6299443320f7" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>srTFieldBasedArrays</name></member>
+      <member refid="structsr_t_field_based_arrays_1afbaf550290c48fcd0d8f4632a3d6ee72" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>sStart</name></member>
+      <member refid="structsr_t_field_based_arrays_1adcfc1aa5a5d934a3d7648787c18a7436" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>sStep</name></member>
+      <member refid="structsr_t_field_based_arrays_1a91069e328f78f1a305f9f8b85ae80766" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>X1Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a89f44002fbef8b5b2f8790b3efde7481" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>X1pArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a87026e2f809b50cf8a29daaef002a79e" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>X2Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a6b350dd81ab982ed151dc5e3dc11daad" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>X2pArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a8212f98b0f95b1fb3d96c728cc54f40a" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>XArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a609496f7540c0f70e345aeab3ed8059f" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>Z1Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a315bbbfc9f6072a36b676edd340307bc" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>Z1pArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a07618dfa620d9bc0dd5271185322e5c4" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>Z2Arr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a9a9351be0a7c7ebe2717dc84eb8da62a" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>Z2pArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1ab5e6ad5680143c68bae1dbc839fee6fe" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>ZArr</name></member>
+      <member refid="structsr_t_field_based_arrays_1a5d156c07b5f11d02a553a9ce9762cc16" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>ZeroPtrs</name></member>
+      <member refid="structsr_t_field_based_arrays_1abc51acd04fc7be7f7cdac36bab6c7a12" prot="public" virt="non-virtual"><scope>srTFieldBasedArrays</scope><name>~srTFieldBasedArrays</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_aux_test_values" kind="struct" language="C++" prot="public">
+    <compoundname>srTAuxTestValues</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a98064128d492ff87a29c8ac03f41f9a4" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_aux_test_integ_values" kindref="compound">srTAuxTestIntegValues</ref></type>
+        <definition>srTAuxTestIntegValues srTAuxTestValues::PrevTestIntegVal</definition>
+        <argsstring></argsstring>
+        <name>PrevTestIntegVal</name>
+        <qualifiedname>srTAuxTestValues::PrevTestIntegVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1907" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1ae93ee6d2b3b628f51dc7c7195334507f" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_aux_test_integ_values" kindref="compound">srTAuxTestIntegValues</ref></type>
+        <definition>srTAuxTestIntegValues srTAuxTestValues::CurrentTestIntegVal</definition>
+        <argsstring></argsstring>
+        <name>CurrentTestIntegVal</name>
+        <qualifiedname>srTAuxTestValues::CurrentTestIntegVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1907" column="40" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a47bc1e04923a0e5e5752599423591bd5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTAuxTestValues::PrevParamValue</definition>
+        <argsstring></argsstring>
+        <name>PrevParamValue</name>
+        <qualifiedname>srTAuxTestValues::PrevParamValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1909" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a6a9ba0543ffbf61129a64a5275ed3bc6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTAuxTestValues::CurrentParamValue</definition>
+        <argsstring></argsstring>
+        <name>CurrentParamValue</name>
+        <qualifiedname>srTAuxTestValues::CurrentParamValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1909" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a2abc38a2d399fd377c7aa3266691a176" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTAuxTestValues::SuggestedParamValue</definition>
+        <argsstring></argsstring>
+        <name>SuggestedParamValue</name>
+        <qualifiedname>srTAuxTestValues::SuggestedParamValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1909" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1adccdb3d5c5804978cb36e525062b23d2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestValues::PrevParamValueIsGood</definition>
+        <argsstring></argsstring>
+        <name>PrevParamValueIsGood</name>
+        <qualifiedname>srTAuxTestValues::PrevParamValueIsGood</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1910" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1aabd8fa1b1a00dc2befc1f933aa173343" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestValues::CurrentParamValueIsGood</definition>
+        <argsstring></argsstring>
+        <name>CurrentParamValueIsGood</name>
+        <qualifiedname>srTAuxTestValues::CurrentParamValueIsGood</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1910" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a833f837115d4a4cbba560d7a0afbce55" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestValues::PrevResolCheckResult</definition>
+        <argsstring></argsstring>
+        <name>PrevResolCheckResult</name>
+        <qualifiedname>srTAuxTestValues::PrevResolCheckResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1911" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1aaa6287e07d774ceb95c0e284963a9a28" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestValues::CurrentResolCheckResult</definition>
+        <argsstring></argsstring>
+        <name>CurrentResolCheckResult</name>
+        <qualifiedname>srTAuxTestValues::CurrentResolCheckResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1911" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a0fa0f1efde0b0324dfd495e4ac893a4f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestValues::ExitLoop</definition>
+        <argsstring></argsstring>
+        <name>ExitLoop</name>
+        <qualifiedname>srTAuxTestValues::ExitLoop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1912" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a73c973e049fb1ae9a31ce2192f15e890" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestValues::ExitSuccessful</definition>
+        <argsstring></argsstring>
+        <name>ExitSuccessful</name>
+        <qualifiedname>srTAuxTestValues::ExitSuccessful</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1912" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_values_1a85c8e256fd5d94faf7ea59a90bd92fe2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestValues::NeedToChangeStrategy</definition>
+        <argsstring></argsstring>
+        <name>NeedToChangeStrategy</name>
+        <qualifiedname>srTAuxTestValues::NeedToChangeStrategy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1913" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1913" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_aux_test_values_1a2299ad7e1757e5182f52a6b21e672eed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTAuxTestValues::srTAuxTestValues</definition>
+        <argsstring>()</argsstring>
+        <name>srTAuxTestValues</name>
+        <qualifiedname>srTAuxTestValues::srTAuxTestValues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1915" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1915" bodyend="1923"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>srTAuxTestIntegValues</label>
+        <link refid="structsr_t_aux_test_integ_values"/>
+      </node>
+      <node id="1">
+        <label>srTAuxTestValues</label>
+        <link refid="structsr_t_aux_test_values"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CurrentTestIntegVal</edgelabel>
+          <edgelabel>PrevTestIntegVal</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1905" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1905" bodyend="1924"/>
+    <listofallmembers>
+      <member refid="structsr_t_aux_test_values_1a6a9ba0543ffbf61129a64a5275ed3bc6" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>CurrentParamValue</name></member>
+      <member refid="structsr_t_aux_test_values_1aabd8fa1b1a00dc2befc1f933aa173343" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>CurrentParamValueIsGood</name></member>
+      <member refid="structsr_t_aux_test_values_1aaa6287e07d774ceb95c0e284963a9a28" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>CurrentResolCheckResult</name></member>
+      <member refid="structsr_t_aux_test_values_1ae93ee6d2b3b628f51dc7c7195334507f" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>CurrentTestIntegVal</name></member>
+      <member refid="structsr_t_aux_test_values_1a0fa0f1efde0b0324dfd495e4ac893a4f" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>ExitLoop</name></member>
+      <member refid="structsr_t_aux_test_values_1a73c973e049fb1ae9a31ce2192f15e890" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>ExitSuccessful</name></member>
+      <member refid="structsr_t_aux_test_values_1a85c8e256fd5d94faf7ea59a90bd92fe2" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>NeedToChangeStrategy</name></member>
+      <member refid="structsr_t_aux_test_values_1a47bc1e04923a0e5e5752599423591bd5" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>PrevParamValue</name></member>
+      <member refid="structsr_t_aux_test_values_1adccdb3d5c5804978cb36e525062b23d2" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>PrevParamValueIsGood</name></member>
+      <member refid="structsr_t_aux_test_values_1a833f837115d4a4cbba560d7a0afbce55" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>PrevResolCheckResult</name></member>
+      <member refid="structsr_t_aux_test_values_1a98064128d492ff87a29c8ac03f41f9a4" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>PrevTestIntegVal</name></member>
+      <member refid="structsr_t_aux_test_values_1a2299ad7e1757e5182f52a6b21e672eed" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>srTAuxTestValues</name></member>
+      <member refid="structsr_t_aux_test_values_1a2abc38a2d399fd377c7aa3266691a176" prot="public" virt="non-virtual"><scope>srTAuxTestValues</scope><name>SuggestedParamValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_const_trj_dat" kind="class" language="C++" prot="public">
+    <compoundname>srTConstTrjDat</compoundname>
+    <basecompoundref refid="classsr_t_gen_trj_dat" prot="public" virt="non-virtual">srTGenTrjDat</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_const_trj_dat_1a8b76654ff96ded1fbe5ccb5d8581b583" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_mag_field_constant" kindref="compound">srTMagFieldConstant</ref></type>
+        <definition>srTMagFieldConstant srTConstTrjDat::MagConst</definition>
+        <argsstring></argsstring>
+        <name>MagConst</name>
+        <qualifiedname>srTConstTrjDat::MagConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="54" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_const_trj_dat_1a217e49c7fbc6bb608bcf483e221e93ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTConstTrjDat::srTConstTrjDat</definition>
+        <argsstring>()</argsstring>
+        <name>srTConstTrjDat</name>
+        <qualifiedname>srTConstTrjDat::srTConstTrjDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="56" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_const_trj_dat_1ae8ffb61bf31ee018d80ba2e02c26f149" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTConstTrjDat::CheckIfHorOrVertFieldIsZero</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfHorOrVertFieldIsZero</name>
+        <qualifiedname>srTConstTrjDat::CheckIfHorOrVertFieldIsZero</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="58" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_const_trj_dat_1abb651c47ad1b5d6d6ec3f811d056b96b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTConstTrjDat::MagFieldPeriodicity</definition>
+        <argsstring>()</argsstring>
+        <name>MagFieldPeriodicity</name>
+        <qualifiedname>srTConstTrjDat::MagFieldPeriodicity</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a368afce083d776716ac20106b7ee4c8c">MagFieldPeriodicity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="63" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_const_trj_dat_1aa9917ba68a7bafe8b000b1a9bc472fd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>char</type>
+        <definition>char srTConstTrjDat::MagFieldIsConstant</definition>
+        <argsstring>()</argsstring>
+        <name>MagFieldIsConstant</name>
+        <qualifiedname>srTConstTrjDat::MagFieldIsConstant</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a6cf46e53671110062eba8415e225c521">MagFieldIsConstant</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="64" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_const_trj_dat_1ad03ed0bd6d56d987d5a63948983346a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int srTConstTrjDat::ConvertToArbTrjDat</definition>
+        <argsstring>(char Periodicity, srTWfrSmp &amp;, srTGenTrjHndl &amp;)</argsstring>
+        <name>ConvertToArbTrjDat</name>
+        <qualifiedname>srTConstTrjDat::ConvertToArbTrjDat</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a0c101409fd6b1ab1f63494036b207350">ConvertToArbTrjDat</reimplements>
+        <param>
+          <type>char</type>
+          <declname>Periodicity</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <defname>DistrInfoDat</defname>
+        </param>
+        <param>
+          <type>srTGenTrjHndl &amp;</type>
+          <defname>TrjHndl</defname>
+        </param>
+        <briefdescription>
+<para>File: srctrjdt.cpp Description: Electron trajectory calculation, constant magnetic field case Project: Synchrotron Radiation Workshop First release: 1998. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="66" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.cpp" bodystart="20" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_const_trj_dat_1a9c254f61ebb0c8ff7f9aed68e2fe9fde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTConstTrjDat::DetermineIntegLimitsForArbTrj</definition>
+        <argsstring>(srTWfrSmp &amp;DistrInfoDat, double &amp;sStart, double &amp;sEnd)</argsstring>
+        <name>DetermineIntegLimitsForArbTrj</name>
+        <qualifiedname>srTConstTrjDat::DetermineIntegLimitsForArbTrj</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <declname>DistrInfoDat</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="67" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.cpp" bodystart="79" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_const_trj_dat_1a712be788cd05bae8dabdf8cd2b9bfb57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTConstTrjDat::ShowLimitsAndInitInteg</definition>
+        <argsstring>(srTWfrSmp &amp;DistrInfoDat, char LongIntType, double &amp;sIntegStart, double &amp;sIntegFin, int &amp;AmOfPer, bool doInit=true)</argsstring>
+        <name>ShowLimitsAndInitInteg</name>
+        <qualifiedname>srTConstTrjDat::ShowLimitsAndInitInteg</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a4c8a6cc758f362cf6882d38ea8e19953">ShowLimitsAndInitInteg</reimplements>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <declname>DistrInfoDat</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>LongIntType</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sIntegStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sIntegFin</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfPer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doInit</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="69" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="69" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>srTConstTrjDat</label>
+        <link refid="classsr_t_const_trj_dat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTConstTrjDat</label>
+        <link refid="classsr_t_const_trj_dat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>MagConst</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srTMagFieldConstant</label>
+        <link refid="classsr_t_mag_field_constant"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="51" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="51" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classsr_t_gen_trj_dat_1a2491ebafa66a24625e7315823126df21" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>AmOfExtremInBx</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a863c1eefd0f11a04051255d7e7fcb2a7" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>AmOfExtremInBz</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a786a443a26f03dfd93f75ab9d6e2d4ba" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>AnalizeFieldSymmetry</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ab101aaa30e7e077953b025bfaf7d686a" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>BetaNormConst</name></member>
+      <member refid="classsr_t_gen_trj_dat_1af5dba4b1001233a9e6fd1a3ada26f5b7" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>BetaNormConstE2</name></member>
+      <member refid="classsr_t_const_trj_dat_1ae8ffb61bf31ee018d80ba2e02c26f149" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>CheckIfHorOrVertFieldIsZero</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a8abde1f21b1130d70b762370f2eaafb0" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>CompBetaNormConst</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acda8942c19197a61b28c43c7d6536623" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a31108ff81a978eb47065cb1f4ae97b17" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a284362ce49a5db8baa7029d16d7d7512" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a8fd725bb4e0d3617727b57d24f20de88" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>CompTrjCrdVel</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad37ff12468dca9b2c70c907cece19a80" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>CompTrjCrdVelRK</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a57af3541a84b66e5e7dd05725a18c16c" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>CompTrjDataDerivedAtPointPowDens</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a1d96fa68aa064a69164ceeb5a1e41f8b" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>CompTrjDataForDisp</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acf6984c32c7960eff526b01255c4ebe0" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>CompTrjKickMatr</name></member>
+      <member refid="classsr_t_const_trj_dat_1ad03ed0bd6d56d987d5a63948983346a9" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>ConvertToArbTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a9f603b4eb9a863d9b2c5208929cdd370" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_const_trj_dat_1a9c254f61ebb0c8ff7f9aed68e2fe9fde" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>DetermineIntegLimitsForArbTrj</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad4b4e347f02e90a653e0acbb26b18d76" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>EbmDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a6ee029b9203d93b789ca15fda454fa03" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>EstimMinNpForRadInteg</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ace3f84c268057dce8810d49ac3dd71f3" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>funcDerivRK</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad20d3c199cb0b38c8edbadab9c6efa99" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>HorFieldIsNotZero</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a25cf53d73324b1b7d70e66d1cb11ce05" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>InitTrjComp</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acb5eb428d7a635838191938f10039dd1" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>IntegrateKicks</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a59404ca0362887d9b349e60fdaa8cc4d" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>InvBetaNormConst</name></member>
+      <member refid="classsr_t_const_trj_dat_1a8b76654ff96ded1fbe5ccb5d8581b583" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>MagConst</name></member>
+      <member refid="classsr_t_const_trj_dat_1aa9917ba68a7bafe8b000b1a9bc472fd7" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>MagFieldIsConstant</name></member>
+      <member refid="classsr_t_const_trj_dat_1abb651c47ad1b5d6d6ec3f811d056b96b" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>MagFieldPeriodicity</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a3f23ec8d7b27a5522aecca381ee68167" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>SetUpFieldBasedArraysAtOnePeriod</name></member>
+      <member refid="classsr_t_gen_trj_dat_1aaf8c18b80259dcae5a6b2ec2887e6236" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>SetUpFieldBasedArraysTotal</name></member>
+      <member refid="classsr_t_gen_trj_dat_1affce4e26a8cbc7642382adb990c78ac5" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>SetupLimitsByAnalizingField</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ada3d8485638984d29c51017f289caae7" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>ShowFullLimits</name></member>
+      <member refid="classsr_t_const_trj_dat_1a712be788cd05bae8dabdf8cd2b9bfb57" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>ShowLimitsAndInitInteg</name></member>
+      <member refid="classsr_t_const_trj_dat_1a217e49c7fbc6bb608bcf483e221e93ae" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>srTConstTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ab9e8ba49732354dc2d66a50b6992df80" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a0d4e229cd153b880c373440226d1d814" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1aaf70e1faf054de3f29e0074cd797280c" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a9105ad2a446c16dbdfad7c9c7938083f" prot="public" virt="non-virtual"><scope>srTConstTrjDat</scope><name>VerFieldIsNotZero</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a329fd5b410e6b361ba5f21dc615a981b" prot="public" virt="virtual"><scope>srTConstTrjDat</scope><name>~srTGenTrjDat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

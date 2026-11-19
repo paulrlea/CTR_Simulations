@@ -1,0 +1,551 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRW Python &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css?v=7f9a90b1" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="srwpy package" href="srwpy.html" />
+    <link rel="prev" title="API" href="../../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">API</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">SRW Python</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html">srwpy package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../cpp/index.html">SRW C++</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">API</a></li>
+      <li class="breadcrumb-item active">SRW Python</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/api/python/_modules/modules.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="srw-python">
+<h1>SRW Python<a class="headerlink" href="#srw-python" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="srwpy.html">srwpy package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.SRWLIB_ExampleViewDataFile">srwpy.SRWLIB_ExampleViewDataFile module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.SRWLIB_ExampleViewDataFile.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwl_bl">srwpy.srwl_bl module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_all"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_all()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_arb_spec_me"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_arb_spec_me()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_el_trj"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_el_trj()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_int_from_wfr"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_int_from_wfr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_mag_fld"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_mag_fld()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_pow_den"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_pow_den()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_rad_gsn"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_rad_gsn()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_rad_pt_src"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_rad_pt_src()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_sr_se"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_sr_se()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_und_oper_tab"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_und_oper_tab()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_ur_spec_me"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_ur_spec_me()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_wfr_emit_prop_me"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_wfr_emit_prop_me()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.calc_wfr_prop"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.calc_wfr_prop()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.cancel_calc_req"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.cancel_calc_req()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.cost_func"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.cost_func()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.cost_func_aux_int_distr"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.cost_func_aux_int_distr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.prep_stokes_fname"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.prep_stokes_fname()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_detector"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_detector()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_e_beam"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_e_beam()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_gsn_beam"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_gsn_beam()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_mag_kick"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_mag_kick()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_mag_multipole"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_mag_multipole()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_mag_tab"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_mag_tab()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_optics"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_optics()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_pt_src"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_pt_src()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_und_per_from_tab"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_und_per_from_tab()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_und_sin"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_und_sin()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_und_tab"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_und_tab()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.SRWLBeamline.set_und_tab_total"><code class="docutils literal notranslate"><span class="pre">SRWLBeamline.set_und_tab_total()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.setup_source"><code class="docutils literal notranslate"><span class="pre">setup_source()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.srwl_uti_ext_options"><code class="docutils literal notranslate"><span class="pre">srwl_uti_ext_options()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.srwl_uti_merge_options"><code class="docutils literal notranslate"><span class="pre">srwl_uti_merge_options()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.srwl_uti_parse_options"><code class="docutils literal notranslate"><span class="pre">srwl_uti_parse_options()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.srwl_uti_parse_options_obs"><code class="docutils literal notranslate"><span class="pre">srwl_uti_parse_options_obs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.srwl_uti_parse_str2list"><code class="docutils literal notranslate"><span class="pre">srwl_uti_parse_str2list()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_bl.srwl_uti_std_options"><code class="docutils literal notranslate"><span class="pre">srwl_uti_std_options()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_cryst.srwl_uti_cryst_ASF"><code class="docutils literal notranslate"><span class="pre">srwl_uti_cryst_ASF()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_cryst.srwl_uti_cryst_pl_sp"><code class="docutils literal notranslate"><span class="pre">srwl_uti_cryst_pl_sp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_cryst.srwl_uti_cryst_pol_f"><code class="docutils literal notranslate"><span class="pre">srwl_uti_cryst_pol_f()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwl_uti_mag">srwpy.srwl_uti_mag module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_mag.srwl_mag_extrap_grad_off_mid_plane"><code class="docutils literal notranslate"><span class="pre">srwl_mag_extrap_grad_off_mid_plane()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_mag.srwl_mag_kick"><code class="docutils literal notranslate"><span class="pre">srwl_mag_kick()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_mag.srwl_mag_track_e_beam_mom"><code class="docutils literal notranslate"><span class="pre">srwl_mag_track_e_beam_mom()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwl_uti_smp">srwpy.srwl_uti_smp module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp"><code class="docutils literal notranslate"><span class="pre">SRWLUtiSmp</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.get_data_from_image"><code class="docutils literal notranslate"><span class="pre">SRWLUtiSmp.get_data_from_image()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.get_image_from_data"><code class="docutils literal notranslate"><span class="pre">SRWLUtiSmp.get_image_from_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.read_sample"><code class="docutils literal notranslate"><span class="pre">SRWLUtiSmp.read_sample()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.save_images"><code class="docutils literal notranslate"><span class="pre">SRWLUtiSmp.save_images()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.show_images"><code class="docutils literal notranslate"><span class="pre">SRWLUtiSmp.show_images()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.srwl_opt_setup_smp_rnd_obj2d"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_smp_rnd_obj2d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.srwl_opt_setup_transm_from_file"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_transm_from_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp.srwl_opt_setup_transm_from_obj3d"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_transm_from_obj3d()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwl_uti_smp_rnd_obj2d">srwpy.srwl_uti_smp_rnd_obj2d module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.chk_r1j_rmin"><code class="docutils literal notranslate"><span class="pre">chk_r1j_rmin()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_dist"><code class="docutils literal notranslate"><span class="pre">get_dist()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_elp"><code class="docutils literal notranslate"><span class="pre">get_elp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_pol"><code class="docutils literal notranslate"><span class="pre">get_pol()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_r1j"><code class="docutils literal notranslate"><span class="pre">get_r1j()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_rec"><code class="docutils literal notranslate"><span class="pre">get_rec()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_rnd"><code class="docutils literal notranslate"><span class="pre">get_rnd()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_rnd_2D"><code class="docutils literal notranslate"><span class="pre">get_rnd_2D()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_shape"><code class="docutils literal notranslate"><span class="pre">get_shape()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.get_tri"><code class="docutils literal notranslate"><span class="pre">get_tri()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.mv_2D"><code class="docutils literal notranslate"><span class="pre">mv_2D()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.obj_opt_par"><code class="docutils literal notranslate"><span class="pre">obj_opt_par()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.on_pxy"><code class="docutils literal notranslate"><span class="pre">on_pxy()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.rot_obj_vert"><code class="docutils literal notranslate"><span class="pre">rot_obj_vert()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_smp_rnd_obj2d.uni_rnd_seed"><code class="docutils literal notranslate"><span class="pre">uni_rnd_seed()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwl_uti_src">srwpy.srwl_uti_src module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_src.srwl_uti_src_e_beam"><code class="docutils literal notranslate"><span class="pre">srwl_uti_src_e_beam()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_src.srwl_uti_src_e_beam_predef"><code class="docutils literal notranslate"><span class="pre">srwl_uti_src_e_beam_predef()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_src.srwl_uti_src_sph_wave"><code class="docutils literal notranslate"><span class="pre">srwl_uti_src_sph_wave()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwl_uti_und">srwpy.srwl_uti_und module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.aux_sort_file_list"><code class="docutils literal notranslate"><span class="pre">aux_sort_file_list()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_und_cor_fld_int"><code class="docutils literal notranslate"><span class="pre">srwl_und_cor_fld_int()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_und_cut_fld"><code class="docutils literal notranslate"><span class="pre">srwl_und_cut_fld()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_und_find_cen_len"><code class="docutils literal notranslate"><span class="pre">srwl_und_find_cen_len()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_und_fld_1d_mis"><code class="docutils literal notranslate"><span class="pre">srwl_und_fld_1d_mis()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_und_fld_add_const"><code class="docutils literal notranslate"><span class="pre">srwl_und_fld_add_const()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und_conv_meas_fld"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und_conv_meas_fld()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und_conv_proc_fld_file_list"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und_conv_proc_fld_file_list()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und_est_perf_qp"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und_est_perf_qp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und_gen_file_names_for_conv"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und_gen_file_names_for_conv()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und_make_sum_file"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und_make_sum_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und_predef"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und_predef()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwl_uti_und.srwl_uti_und_proc_one_fld"><code class="docutils literal notranslate"><span class="pre">srwl_uti_und_proc_one_fld()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwlib">srwpy.srwlib module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLDet"><code class="docutils literal notranslate"><span class="pre">SRWLDet</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLDet.get_mesh"><code class="docutils literal notranslate"><span class="pre">SRWLDet.get_mesh()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLDet.treat_int"><code class="docutils literal notranslate"><span class="pre">SRWLDet.treat_int()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLGsnBm"><code class="docutils literal notranslate"><span class="pre">SRWLGsnBm</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLKickM"><code class="docutils literal notranslate"><span class="pre">SRWLKickM</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFld"><code class="docutils literal notranslate"><span class="pre">SRWLMagFld</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFld3D"><code class="docutils literal notranslate"><span class="pre">SRWLMagFld3D</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFld3D.add_const"><code class="docutils literal notranslate"><span class="pre">SRWLMagFld3D.add_const()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFld3D.save_ascii"><code class="docutils literal notranslate"><span class="pre">SRWLMagFld3D.save_ascii()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldC"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldC.add"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldC.add()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldC.allocate"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldC.allocate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldC.combine"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldC.combine()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldH"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldH</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldM"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldM</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldS"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldS</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU.E1_2_B"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU.E1_2_B()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU.E1_2_K"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU.E1_2_K()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU.K_2_B"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU.K_2_B()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU.allocate"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU.allocate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU.get_E1"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU.get_E1()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU.get_K"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU.get_K()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLMagFldU.set_sin"><code class="docutils literal notranslate"><span class="pre">SRWLMagFldU.set_sin()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOpt"><code class="docutils literal notranslate"><span class="pre">SRWLOpt</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOpt.get_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOpt.get_orient()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOpt.randomize"><code class="docutils literal notranslate"><span class="pre">SRWLOpt.randomize()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOpt.set_rand_par"><code class="docutils literal notranslate"><span class="pre">SRWLOpt.set_rand_par()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptA"><code class="docutils literal notranslate"><span class="pre">SRWLOptA</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptAng"><code class="docutils literal notranslate"><span class="pre">SRWLOptAng</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptC"><code class="docutils literal notranslate"><span class="pre">SRWLOptC</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptC.allocate"><code class="docutils literal notranslate"><span class="pre">SRWLOptC.allocate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptC.append_drift"><code class="docutils literal notranslate"><span class="pre">SRWLOptC.append_drift()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptC.get_orient_lab_fr"><code class="docutils literal notranslate"><span class="pre">SRWLOptC.get_orient_lab_fr()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptC.randomize"><code class="docutils literal notranslate"><span class="pre">SRWLOptC.randomize()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptCryst"><code class="docutils literal notranslate"><span class="pre">SRWLOptCryst</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptCryst.estim_en_fr_ang_inc"><code class="docutils literal notranslate"><span class="pre">SRWLOptCryst.estim_en_fr_ang_inc()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptCryst.find_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptCryst.find_orient()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptCryst.get_ang_inc"><code class="docutils literal notranslate"><span class="pre">SRWLOptCryst.get_ang_inc()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptCryst.get_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptCryst.get_orient()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptCryst.set_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptCryst.set_orient()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptD"><code class="docutils literal notranslate"><span class="pre">SRWLOptD</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptG"><code class="docutils literal notranslate"><span class="pre">SRWLOptG</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptG.ang2cff"><code class="docutils literal notranslate"><span class="pre">SRWLOptG.ang2cff()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptG.angcff2en"><code class="docutils literal notranslate"><span class="pre">SRWLOptG.angcff2en()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptG.cff2ang"><code class="docutils literal notranslate"><span class="pre">SRWLOptG.cff2ang()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptG.find_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptG.find_orient()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptG.get_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptG.get_orient()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptG.set_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptG.set_orient()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptI"><code class="docutils literal notranslate"><span class="pre">SRWLOptI</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptL"><code class="docutils literal notranslate"><span class="pre">SRWLOptL</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMir"><code class="docutils literal notranslate"><span class="pre">SRWLOptMir</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMir.get_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptMir.get_orient()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMir.set_all"><code class="docutils literal notranslate"><span class="pre">SRWLOptMir.set_all()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMir.set_dim_sim_meth"><code class="docutils literal notranslate"><span class="pre">SRWLOptMir.set_dim_sim_meth()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMir.set_orient"><code class="docutils literal notranslate"><span class="pre">SRWLOptMir.set_orient()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMir.set_reflect"><code class="docutils literal notranslate"><span class="pre">SRWLOptMir.set_reflect()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMirEl"><code class="docutils literal notranslate"><span class="pre">SRWLOptMirEl</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMirHyp"><code class="docutils literal notranslate"><span class="pre">SRWLOptMirHyp</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMirPar"><code class="docutils literal notranslate"><span class="pre">SRWLOptMirPar</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMirPl"><code class="docutils literal notranslate"><span class="pre">SRWLOptMirPl</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMirSph"><code class="docutils literal notranslate"><span class="pre">SRWLOptMirSph</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptMirTor"><code class="docutils literal notranslate"><span class="pre">SRWLOptMirTor</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptR"><code class="docutils literal notranslate"><span class="pre">SRWLOptR</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptShift"><code class="docutils literal notranslate"><span class="pre">SRWLOptShift</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptT"><code class="docutils literal notranslate"><span class="pre">SRWLOptT</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptT.allocate"><code class="docutils literal notranslate"><span class="pre">SRWLOptT.allocate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptT.get_data"><code class="docutils literal notranslate"><span class="pre">SRWLOptT.get_data()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptT.randomize"><code class="docutils literal notranslate"><span class="pre">SRWLOptT.randomize()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptWG"><code class="docutils literal notranslate"><span class="pre">SRWLOptWG</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptZP"><code class="docutils literal notranslate"><span class="pre">SRWLOptZP</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLOptZP.get_F"><code class="docutils literal notranslate"><span class="pre">SRWLOptZP.get_F()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPartBeam"><code class="docutils literal notranslate"><span class="pre">SRWLPartBeam</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPartBeam.drift"><code class="docutils literal notranslate"><span class="pre">SRWLPartBeam.drift()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPartBeam.from_RMS"><code class="docutils literal notranslate"><span class="pre">SRWLPartBeam.from_RMS()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPartBeam.from_Twiss"><code class="docutils literal notranslate"><span class="pre">SRWLPartBeam.from_Twiss()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLParticle"><code class="docutils literal notranslate"><span class="pre">SRWLParticle</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLParticle.drift"><code class="docutils literal notranslate"><span class="pre">SRWLParticle.drift()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLParticle.get_E"><code class="docutils literal notranslate"><span class="pre">SRWLParticle.get_E()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPrtTrj"><code class="docutils literal notranslate"><span class="pre">SRWLPrtTrj</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPrtTrj.allocate"><code class="docutils literal notranslate"><span class="pre">SRWLPrtTrj.allocate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPrtTrj.save_ascii"><code class="docutils literal notranslate"><span class="pre">SRWLPrtTrj.save_ascii()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLPtSrc"><code class="docutils literal notranslate"><span class="pre">SRWLPtSrc</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLRadMesh"><code class="docutils literal notranslate"><span class="pre">SRWLRadMesh</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLRadMesh.copy"><code class="docutils literal notranslate"><span class="pre">SRWLRadMesh.copy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLRadMesh.get_dep_type"><code class="docutils literal notranslate"><span class="pre">SRWLRadMesh.get_dep_type()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLRadMesh.is_equal"><code class="docutils literal notranslate"><span class="pre">SRWLRadMesh.is_equal()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLRadMesh.set_from_other"><code class="docutils literal notranslate"><span class="pre">SRWLRadMesh.set_from_other()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes"><code class="docutils literal notranslate"><span class="pre">SRWLStokes</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.add_stokes"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.add_stokes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.allocate"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.allocate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.avg_update_interp"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.avg_update_interp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.avg_update_interp_mutual"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.avg_update_interp_mutual()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.avg_update_same_mesh"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.avg_update_same_mesh()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.extr_save_pol_comp"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.extr_save_pol_comp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.to_deg_coh"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.to_deg_coh()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLStokes.to_int"><code class="docutils literal notranslate"><span class="pre">SRWLStokes.to_int()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLWfr"><code class="docutils literal notranslate"><span class="pre">SRWLWfr</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLWfr.addE"><code class="docutils literal notranslate"><span class="pre">SRWLWfr.addE()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLWfr.allocate"><code class="docutils literal notranslate"><span class="pre">SRWLWfr.allocate()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLWfr.calc_stokes"><code class="docutils literal notranslate"><span class="pre">SRWLWfr.calc_stokes()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLWfr.copy_comp"><code class="docutils literal notranslate"><span class="pre">SRWLWfr.copy_comp()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLWfr.delE"><code class="docutils literal notranslate"><span class="pre">SRWLWfr.delE()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.srwlib.SRWLWfr.sim_src_offset"><code class="docutils literal notranslate"><span class="pre">SRWLWfr.sim_src_offset()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_CRL"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_CRL()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_Hartmann_sensor"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_Hartmann_sensor()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_Hartmann_sensor_dev"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_Hartmann_sensor_dev()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_bumps"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_bumps()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_cyl_fiber"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_cyl_fiber()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_gen_transm"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_gen_transm()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_mask"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_mask()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_saw_tooth_lens"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_saw_tooth_lens()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_surf_height_1d"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_surf_height_1d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_surf_height_1d_old"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_surf_height_1d_old()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_surf_height_2d"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_surf_height_2d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_transit_reg"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_transit_reg()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_opt_setup_zp_tilt"><code class="docutils literal notranslate"><span class="pre">srwl_opt_setup_zp_tilt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_array_alloc"><code class="docutils literal notranslate"><span class="pre">srwl_uti_array_alloc()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_math_seq_halton"><code class="docutils literal notranslate"><span class="pre">srwl_uti_math_seq_halton()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_num_round"><code class="docutils literal notranslate"><span class="pre">srwl_uti_num_round()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_ph_en_conv"><code class="docutils literal notranslate"><span class="pre">srwl_uti_ph_en_conv()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_proc_is_master"><code class="docutils literal notranslate"><span class="pre">srwl_uti_proc_is_master()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_rand_fill_vol"><code class="docutils literal notranslate"><span class="pre">srwl_uti_rand_fill_vol()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_read_data_cols"><code class="docutils literal notranslate"><span class="pre">srwl_uti_read_data_cols()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_read_intens"><code class="docutils literal notranslate"><span class="pre">srwl_uti_read_intens()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_read_intens_ascii"><code class="docutils literal notranslate"><span class="pre">srwl_uti_read_intens_ascii()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_read_intens_hdf5"><code class="docutils literal notranslate"><span class="pre">srwl_uti_read_intens_hdf5()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_read_mag_fld_3d"><code class="docutils literal notranslate"><span class="pre">srwl_uti_read_mag_fld_3d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_read_wfr_cm_hdf5"><code class="docutils literal notranslate"><span class="pre">srwl_uti_read_wfr_cm_hdf5()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_intens"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_intens()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_intens_ascii"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_intens_ascii()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_intens_hdf5"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_intens_hdf5()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_intens_hdf5_exp"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_intens_hdf5_exp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_stat_wfr_emit_prop_multi_e"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_stat_wfr_emit_prop_multi_e()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_stat_wfr_emit_prop_multi_e_init"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_stat_wfr_emit_prop_multi_e_init()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_text"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_text()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_wfr_cm_hdf5"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_wfr_cm_hdf5()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_save_wfr_hdf5"><code class="docutils literal notranslate"><span class="pre">srwl_uti_save_wfr_hdf5()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_uti_write_data_cols"><code class="docutils literal notranslate"><span class="pre">srwl_uti_write_data_cols()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_wfr_cmd"><code class="docutils literal notranslate"><span class="pre">srwl_wfr_cmd()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_wfr_csd_avg"><code class="docutils literal notranslate"><span class="pre">srwl_wfr_csd_avg()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_wfr_emit_prop_multi_e"><code class="docutils literal notranslate"><span class="pre">srwl_wfr_emit_prop_multi_e()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_wfr_fn"><code class="docutils literal notranslate"><span class="pre">srwl_wfr_fn()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_wfr_fn_ext"><code class="docutils literal notranslate"><span class="pre">srwl_wfr_fn_ext()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_wfr_from_intens"><code class="docutils literal notranslate"><span class="pre">srwl_wfr_from_intens()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlib.srwl_wfr_prop_drifts"><code class="docutils literal notranslate"><span class="pre">srwl_wfr_prop_drifts()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.srwlpy">srwpy.srwlpy module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcElecFieldGaussian"><code class="docutils literal notranslate"><span class="pre">CalcElecFieldGaussian()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcElecFieldPointSrc"><code class="docutils literal notranslate"><span class="pre">CalcElecFieldPointSrc()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcElecFieldSR"><code class="docutils literal notranslate"><span class="pre">CalcElecFieldSR()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcIntFromElecField"><code class="docutils literal notranslate"><span class="pre">CalcIntFromElecField()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcMagnField"><code class="docutils literal notranslate"><span class="pre">CalcMagnField()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcPartTraj"><code class="docutils literal notranslate"><span class="pre">CalcPartTraj()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcPartTrajFromKickMatr"><code class="docutils literal notranslate"><span class="pre">CalcPartTrajFromKickMatr()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcPowDenSR"><code class="docutils literal notranslate"><span class="pre">CalcPowDenSR()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcStokesUR"><code class="docutils literal notranslate"><span class="pre">CalcStokesUR()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.CalcTransm"><code class="docutils literal notranslate"><span class="pre">CalcTransm()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.ProcElecField"><code class="docutils literal notranslate"><span class="pre">ProcElecField()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.PropagElecField"><code class="docutils literal notranslate"><span class="pre">PropagElecField()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.ResizeElecField"><code class="docutils literal notranslate"><span class="pre">ResizeElecField()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.ResizeElecFieldMesh"><code class="docutils literal notranslate"><span class="pre">ResizeElecFieldMesh()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.SetRepresElecField"><code class="docutils literal notranslate"><span class="pre">SetRepresElecField()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.UtiConvWithGaussian"><code class="docutils literal notranslate"><span class="pre">UtiConvWithGaussian()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.UtiFFT"><code class="docutils literal notranslate"><span class="pre">UtiFFT()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.UtiIntInf"><code class="docutils literal notranslate"><span class="pre">UtiIntInf()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.UtiIntProc"><code class="docutils literal notranslate"><span class="pre">UtiIntProc()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.UtiUndFindMagFldInterpInds"><code class="docutils literal notranslate"><span class="pre">UtiUndFindMagFldInterpInds()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.UtiUndFromMagFldTab"><code class="docutils literal notranslate"><span class="pre">UtiUndFromMagFldTab()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.srwlpy.UtiVer"><code class="docutils literal notranslate"><span class="pre">UtiVer()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.uti_io">srwpy.uti_io module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io.read_ascii_data_cols"><code class="docutils literal notranslate"><span class="pre">read_ascii_data_cols()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io.read_ascii_data_rows"><code class="docutils literal notranslate"><span class="pre">read_ascii_data_rows()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io.read_image"><code class="docutils literal notranslate"><span class="pre">read_image()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io.write_ascii_data_cols"><code class="docutils literal notranslate"><span class="pre">write_ascii_data_cols()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io.write_ascii_data_rows"><code class="docutils literal notranslate"><span class="pre">write_ascii_data_rows()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io.write_text"><code class="docutils literal notranslate"><span class="pre">write_text()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.uti_io_genesis">srwpy.uti_io_genesis module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io_genesis.GenesisOutput"><code class="docutils literal notranslate"><span class="pre">GenesisOutput</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io_genesis.uti_io_read_Genesis_output"><code class="docutils literal notranslate"><span class="pre">uti_io_read_Genesis_output()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io_genesis.uti_io_read_Genesis_rad"><code class="docutils literal notranslate"><span class="pre">uti_io_read_Genesis_rad()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_io_genesis.uti_io_set_wfr_from_Genesis_files"><code class="docutils literal notranslate"><span class="pre">uti_io_set_wfr_from_Genesis_files()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.uti_math">srwpy.uti_math module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.find_ar_max"><code class="docutils literal notranslate"><span class="pre">find_ar_max()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.fwhm"><code class="docutils literal notranslate"><span class="pre">fwhm()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.get_dist_norm"><code class="docutils literal notranslate"><span class="pre">get_dist_norm()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.get_dist_schultz"><code class="docutils literal notranslate"><span class="pre">get_dist_schultz()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.get_dist_uni"><code class="docutils literal notranslate"><span class="pre">get_dist_uni()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.integ_ar_2d"><code class="docutils literal notranslate"><span class="pre">integ_ar_2d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.integ_array"><code class="docutils literal notranslate"><span class="pre">integ_array()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.interp_1d"><code class="docutils literal notranslate"><span class="pre">interp_1d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.interp_1d_var"><code class="docutils literal notranslate"><span class="pre">interp_1d_var()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.interp_2d"><code class="docutils literal notranslate"><span class="pre">interp_2d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.matr3x3_det"><code class="docutils literal notranslate"><span class="pre">matr3x3_det()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.matr3x3_inv"><code class="docutils literal notranslate"><span class="pre">matr3x3_inv()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.matr_3x3_det"><code class="docutils literal notranslate"><span class="pre">matr_3x3_det()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.matr_3x3_inv"><code class="docutils literal notranslate"><span class="pre">matr_3x3_inv()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.matr_print"><code class="docutils literal notranslate"><span class="pre">matr_print()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.matr_prod"><code class="docutils literal notranslate"><span class="pre">matr_prod()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.matr_transp"><code class="docutils literal notranslate"><span class="pre">matr_transp()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.num_round"><code class="docutils literal notranslate"><span class="pre">num_round()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.trf_rotation"><code class="docutils literal notranslate"><span class="pre">trf_rotation()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.vect3_prod_v"><code class="docutils literal notranslate"><span class="pre">vect3_prod_v()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.vect_mult"><code class="docutils literal notranslate"><span class="pre">vect_mult()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.vect_norm"><code class="docutils literal notranslate"><span class="pre">vect_norm()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.vect_normalize"><code class="docutils literal notranslate"><span class="pre">vect_normalize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_math.vect_prod_s"><code class="docutils literal notranslate"><span class="pre">vect_prod_s()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.uti_parse">srwpy.uti_parse module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_parse.list_flatten"><code class="docutils literal notranslate"><span class="pre">list_flatten()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_parse.str_to_list_of_pairs"><code class="docutils literal notranslate"><span class="pre">str_to_list_of_pairs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_parse.str_to_pair_of_lists"><code class="docutils literal notranslate"><span class="pre">str_to_pair_of_lists()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.uti_plot">srwpy.uti_plot module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_data_file_plot"><code class="docutils literal notranslate"><span class="pre">uti_data_file_plot()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot1d"><code class="docutils literal notranslate"><span class="pre">uti_plot1d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot1d_ir"><code class="docutils literal notranslate"><span class="pre">uti_plot1d_ir()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot1d_m"><code class="docutils literal notranslate"><span class="pre">uti_plot1d_m()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot2d"><code class="docutils literal notranslate"><span class="pre">uti_plot2d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot2d1d"><code class="docutils literal notranslate"><span class="pre">uti_plot2d1d()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot_data_file"><code class="docutils literal notranslate"><span class="pre">uti_plot_data_file()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot_init"><code class="docutils literal notranslate"><span class="pre">uti_plot_init()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot.uti_plot_show"><code class="docutils literal notranslate"><span class="pre">uti_plot_show()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.uti_plot_com">srwpy.uti_plot_com module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_com.file_load"><code class="docutils literal notranslate"><span class="pre">file_load()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_com.rescale"><code class="docutils literal notranslate"><span class="pre">rescale()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_com.rescale_dim"><code class="docutils literal notranslate"><span class="pre">rescale_dim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_com.rescale_range"><code class="docutils literal notranslate"><span class="pre">rescale_range()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy.uti_plot_matplotlib">srwpy.uti_plot_matplotlib module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend"><code class="docutils literal notranslate"><span class="pre">Backend</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_data_file_plot"><code class="docutils literal notranslate"><span class="pre">Backend.uti_data_file_plot()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot1d"><code class="docutils literal notranslate"><span class="pre">Backend.uti_plot1d()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot1d_ir"><code class="docutils literal notranslate"><span class="pre">Backend.uti_plot1d_ir()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot1d_m"><code class="docutils literal notranslate"><span class="pre">Backend.uti_plot1d_m()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot2d"><code class="docutils literal notranslate"><span class="pre">Backend.uti_plot2d()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot2d1d"><code class="docutils literal notranslate"><span class="pre">Backend.uti_plot2d1d()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot_data_file"><code class="docutils literal notranslate"><span class="pre">Backend.uti_plot_data_file()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot_show"><code class="docutils literal notranslate"><span class="pre">Backend.uti_plot_show()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="srwpy.html#module-srwpy">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../index.html" class="btn btn-neutral float-left" title="API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="srwpy.html" class="btn btn-neutral float-right" title="srwpy package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_chicane" kind="class" language="C++" prot="public">
+    <compoundname>srTMagChicane</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_chicane_1a3891479415f2405d016c7563d6314da5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagChicane::m_DipoleB</definition>
+        <argsstring></argsstring>
+        <name>m_DipoleB</name>
+        <qualifiedname>srTMagChicane::m_DipoleB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1655" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_chicane_1a8195e49e27a86fac0cd642299a0ae872" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagChicane::m_DipoleLength</definition>
+        <argsstring></argsstring>
+        <name>m_DipoleLength</name>
+        <qualifiedname>srTMagChicane::m_DipoleLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1655" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_chicane_1a38f5669854d6f13cf3da2d6767399373" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagChicane::m_DipoleNum</definition>
+        <argsstring></argsstring>
+        <name>m_DipoleNum</name>
+        <qualifiedname>srTMagChicane::m_DipoleNum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1656" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_chicane_1ad16ff310bf8ba132896077af7c9bf4d6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagChicane::m_TotDriftLength</definition>
+        <argsstring></argsstring>
+        <name>m_TotDriftLength</name>
+        <qualifiedname>srTMagChicane::m_TotDriftLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1657" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_chicane_1a4853e485a061146b93817427146a4fd4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagChicane::m_sCen</definition>
+        <argsstring></argsstring>
+        <name>m_sCen</name>
+        <qualifiedname>srTMagChicane::m_sCen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1658" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1658" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_chicane_1a7f8daa0fbb02f58d143813c203312b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagChicane::srTMagChicane</definition>
+        <argsstring>(double DipoleB=0., double DipoleLength=0., int DipoleNum=0, double TotDriftLength=0., double sCen=0.)</argsstring>
+        <name>srTMagChicane</name>
+        <qualifiedname>srTMagChicane::srTMagChicane</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>DipoleB</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>DipoleLength</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>DipoleNum</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>TotDriftLength</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sCen</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1660" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1660" bodyend="1671"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_chicane_1a193625b2900217f54cce11b9440498f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagChicane::srTMagChicane</definition>
+        <argsstring>(srTStringVect *pElemInfo)</argsstring>
+        <name>srTMagChicane</name>
+        <qualifiedname>srTMagChicane::srTMagChicane</qualifiedname>
+        <param>
+          <type>srTStringVect *</type>
+          <declname>pElemInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1673" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1673" bodyend="1684"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_chicane_1a9acb4855a8f71a4caffd983cf45b7918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTMagChicane::CalcTotLength</definition>
+        <argsstring>()</argsstring>
+        <name>CalcTotLength</name>
+        <qualifiedname>srTMagChicane::CalcTotLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1686" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1686" bodyend="1689"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_chicane_1a5cfa34b9cb2a5a64b93a4a9f11d4f9a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagChicane::SetupWigSASE</definition>
+        <argsstring>(srTWigComSASE &amp;WigCom)</argsstring>
+        <name>SetupWigSASE</name>
+        <qualifiedname>srTMagChicane::SetupWigSASE</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0">SetupWigSASE</reimplements>
+        <param>
+          <type><ref refid="structsr_t_wig_com_s_a_s_e" kindref="compound">srTWigComSASE</ref> &amp;</type>
+          <declname>WigCom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1691" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1691" bodyend="1696"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_chicane_1aa9bfa5e47905f1d5eba48a9a88bd0104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagChicane::ComputeParticlePropagMatrix</definition>
+        <argsstring>(double s, TMatrix2d &amp;Mx, TMatrix2d &amp;Mz)</argsstring>
+        <name>ComputeParticlePropagMatrix</name>
+        <qualifiedname>srTMagChicane::ComputeParticlePropagMatrix</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5">ComputeParticlePropagMatrix</reimplements>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>TMatrix2d &amp;</type>
+          <declname>Mx</declname>
+        </param>
+        <param>
+          <type>TMatrix2d &amp;</type>
+          <declname>Mz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1698" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1698" bodyend="1701"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTMagChicane</label>
+        <link refid="classsr_t_mag_chicane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTMagChicane</label>
+        <link refid="classsr_t_mag_chicane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1652" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1652" bodyend="1702"/>
+    <listofallmembers>
+      <member refid="classsr_t_mag_chicane_1a9acb4855a8f71a4caffd983cf45b7918" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>CalcTotLength</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e" prot="public" virt="virtual"><scope>srTMagChicane</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_chicane_1aa9bfa5e47905f1d5eba48a9a88bd0104" prot="public" virt="virtual"><scope>srTMagChicane</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447" prot="public" virt="virtual"><scope>srTMagChicane</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257" prot="public" virt="virtual"><scope>srTMagChicane</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52" prot="public" virt="virtual"><scope>srTMagChicane</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_chicane_1a3891479415f2405d016c7563d6314da5" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>m_DipoleB</name></member>
+      <member refid="classsr_t_mag_chicane_1a8195e49e27a86fac0cd642299a0ae872" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>m_DipoleLength</name></member>
+      <member refid="classsr_t_mag_chicane_1a38f5669854d6f13cf3da2d6767399373" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>m_DipoleNum</name></member>
+      <member refid="classsr_t_mag_chicane_1a4853e485a061146b93817427146a4fd4" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>m_sCen</name></member>
+      <member refid="classsr_t_mag_chicane_1ad16ff310bf8ba132896077af7c9bf4d6" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>m_TotDriftLength</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagChicane</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagChicane</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_chicane_1a5cfa34b9cb2a5a64b93a4a9f11d4f9a5" prot="public" virt="virtual"><scope>srTMagChicane</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_chicane_1a7f8daa0fbb02f58d143813c203312b66" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>srTMagChicane</name></member>
+      <member refid="classsr_t_mag_chicane_1a193625b2900217f54cce11b9440498f1" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>srTMagChicane</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagChicane</scope><name>srTMagElem</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagChicane</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_composite_opt_elem" kind="class" language="C++" prot="public">
+    <compoundname>srTCompositeOptElem</compoundname>
+    <basecompoundref refid="classsr_t_gen_opt_elem" prot="public" virt="non-virtual">srTGenOptElem</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_composite_opt_elem_1a988e3264c7af1e80d51f712a06f4f20f" prot="public" static="no" mutable="no">
+        <type>srTGenOptElemHndlList</type>
+        <definition>srTGenOptElemHndlList srTCompositeOptElem::GenOptElemList</definition>
+        <argsstring></argsstring>
+        <name>GenOptElemList</name>
+        <qualifiedname>srTCompositeOptElem::GenOptElemList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="29" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_composite_opt_elem_1ac80f26f927b23010cff2b4ee7b60ae92" prot="public" static="no" mutable="no">
+        <type>srTRadResizeVect</type>
+        <definition>srTRadResizeVect srTCompositeOptElem::GenOptElemPropResizeVect</definition>
+        <argsstring></argsstring>
+        <name>GenOptElemPropResizeVect</name>
+        <qualifiedname>srTCompositeOptElem::GenOptElemPropResizeVect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="30" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1a207dd3ec24c5460913413c4a1132ec92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTCompositeOptElem::srTCompositeOptElem</definition>
+        <argsstring>(srTStringVect *pElemInfo, srTSRWRadStructAccessData *pRad)</argsstring>
+        <name>srTCompositeOptElem</name>
+        <qualifiedname>srTCompositeOptElem::srTCompositeOptElem</qualifiedname>
+        <param>
+          <type>srTStringVect *</type>
+          <declname>pElemInfo</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="32" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.cpp" bodystart="38" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1ac5cc9c1de45ccbaeaead53f63fbf4b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTCompositeOptElem::srTCompositeOptElem</definition>
+        <argsstring>(const SRWLOptC &amp;opt)</argsstring>
+        <name>srTCompositeOptElem</name>
+        <qualifiedname>srTCompositeOptElem::srTCompositeOptElem</qualifiedname>
+        <param>
+          <type>const SRWLOptC &amp;</type>
+          <declname>opt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="33" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.cpp" bodystart="87" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1ae7fd28d4d5415c7256866dc9789ab89a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTCompositeOptElem::srTCompositeOptElem</definition>
+        <argsstring>()</argsstring>
+        <name>srTCompositeOptElem</name>
+        <qualifiedname>srTCompositeOptElem::srTCompositeOptElem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="34" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1a6b7b736f5f9e93959037b7ebd970f10e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int srTCompositeOptElem::PropagateRadiationTest</definition>
+        <argsstring>(srTSRWRadStructAccessData *, srTSRWRadStructAccessData *)</argsstring>
+        <name>PropagateRadiationTest</name>
+        <qualifiedname>srTCompositeOptElem::PropagateRadiationTest</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a8142349004a6e00373d874750572cb8a">PropagateRadiationTest</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <defname>pInRadAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <defname>pOutRadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="36" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.cpp" bodystart="253" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1ac98888a21954a98b9a681d3afafe5002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTCompositeOptElem::PropagateRadiationGuided</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;wfr, int nInt=0, char **arID=0, SRWLRadMesh *arIM=0, char **arI=0, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiationGuided</name>
+        <qualifiedname>srTCompositeOptElem::PropagateRadiationGuided</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>wfr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nInt</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>arID</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>SRWLRadMesh *</type>
+          <declname>arIM</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>arI</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="37" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.cpp" bodystart="282" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1a2c95732207cefd44c97425dfd2a28b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTCompositeOptElem::ExtractPropagatedIntensity</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;wfr, int nInt, char **arID, SRWLRadMesh *arIM, char **arI, int elCnt, int indIntSartSearch=0)</argsstring>
+        <name>ExtractPropagatedIntensity</name>
+        <qualifiedname>srTCompositeOptElem::ExtractPropagatedIntensity</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>wfr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nInt</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>arID</declname>
+        </param>
+        <param>
+          <type>SRWLRadMesh *</type>
+          <declname>arIM</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>arI</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>elCnt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indIntSartSearch</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="40" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.cpp" bodystart="584" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1a5c5b81bc7d744714f4de6c78fc724d71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTCompositeOptElem::AddOptElemFront</definition>
+        <argsstring>(srTGenOptElemHndl &amp;OptElemHndl)</argsstring>
+        <name>AddOptElemFront</name>
+        <qualifiedname>srTCompositeOptElem::AddOptElemFront</qualifiedname>
+        <param>
+          <type>srTGenOptElemHndl &amp;</type>
+          <declname>OptElemHndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="42" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1a778440d2843ce7845a304c830bee23d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTCompositeOptElem::AddOptElemBack</definition>
+        <argsstring>(srTGenOptElemHndl &amp;OptElemHndl)</argsstring>
+        <name>AddOptElemBack</name>
+        <qualifiedname>srTCompositeOptElem::AddOptElemBack</qualifiedname>
+        <param>
+          <type>srTGenOptElemHndl &amp;</type>
+          <declname>OptElemHndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="46" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1a351efff223c5de84944b68904c902028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTCompositeOptElem::PropagateRadiation</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTParPrecWfrPropag &amp;ParPrecWfrPropag, srTRadResizeVect &amp;ResizeBeforeAndAfterVect, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiation</name>
+        <qualifiedname>srTCompositeOptElem::PropagateRadiation</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1ae181a9a82bf8190bf140cd03c16fab72">PropagateRadiation</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>srTParPrecWfrPropag &amp;</type>
+          <declname>ParPrecWfrPropag</declname>
+        </param>
+        <param>
+          <type>srTRadResizeVect &amp;</type>
+          <declname>ResizeBeforeAndAfterVect</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="52" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="52" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_composite_opt_elem_1acecd2405850d158e4652835948b6b9f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTCompositeOptElem::AddPtrOfActualOptElem</definition>
+        <argsstring>(srTGenOptElemPtrList &amp;ActOptElemsList)</argsstring>
+        <name>AddPtrOfActualOptElem</name>
+        <qualifiedname>srTCompositeOptElem::AddPtrOfActualOptElem</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1ab13ad9139c8dc69e068179dd81d4f4d8">AddPtrOfActualOptElem</reimplements>
+        <param>
+          <type>srTGenOptElemPtrList &amp;</type>
+          <declname>ActOptElemsList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="77" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="77" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTCompositeOptElem</label>
+        <link refid="classsr_t_composite_opt_elem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTGenOptElem</label>
+        <link refid="classsr_t_gen_opt_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTCompositeOptElem</label>
+        <link refid="classsr_t_composite_opt_elem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTGenOptElem</label>
+        <link refid="classsr_t_gen_opt_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>WfrTransmLimits</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTransvLimits</label>
+        <link refid="structsr_transv_limits"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" line="26" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h" bodystart="26" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classsr_t_composite_opt_elem_1a778440d2843ce7845a304c830bee23d6" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>AddOptElemBack</name></member>
+      <member refid="classsr_t_composite_opt_elem_1a5c5b81bc7d744714f4de6c78fc724d71" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>AddOptElemFront</name></member>
+      <member refid="classsr_t_composite_opt_elem_1acecd2405850d158e4652835948b6b9f6" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>AddPtrOfActualOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4f393ccc53c73cd7a147b01f89fc115b" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>AllowAutoSwitchToUndersamplingMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4c78271502b6df63c7da3c2ad628e47d" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>AnalizeFringes</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad1bed2641971f988321e0ebf6b2c673e" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>AnalizeFringes2D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad3a32ec7df9c4daf65c3c33db54b508a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>AnalizeFringesAroundPoint</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a118e553e3d4aa8714eca605cda339256" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ChangeWfrRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa9aa59180ae07eaa42ea6cb7841ba14e" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ChangeWfrRepresMeth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8a453d33b34af2a809db441d003894f1" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ChangeWfrRepresMeth_1</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a63e2a92d1a59afa2fb6869022d56a714" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckAndCorrectSecondOrderRadAngMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a84c6c00ac42ac71aad2746971b02bc24" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckForLowOrderInterp</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8e4f849b82b61b06b38657b923f7b853" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckForLowOrderInterp1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8ac73aa141900c70a715bf37cdfc0df9" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckIfOversamplingIsReal</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a32660d9da9111414d0897583c3f60a04" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckIfScenarioCanBeExecutedOrSuggestReduced</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0ba9255e0d34955ef926c506a71bca5d" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckIfSpotShouldBeResized</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad15d5e724b4c6f0a3c8bc13031b0ca1a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckMemoryAvailable</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a65cd285f6309a9233dc055bb47ac063c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckPostResizeCenterCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af6b8bbe1425ab09db330d45e3b7bac9e" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckRadStructForPropagation</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a7b3a3d0c65966e790080888d8de132fa" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckRelCenPosAndSetPostResizeParamPmIfNecessary</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ace236641796254618f2e35c72f3e1231" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckRMS_Sizes1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a418eee9725358ec0f0bc5cb1476620fe" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CheckWidthMax1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aee7a5be05de521b0ba2325c631b9ccd4" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ChooseTreatExOrEzBasedOnMax</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5824d1398c0b39b074f14b0e97c1f3ea" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ComputeRadMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0c7292063da4555765b650f2c017f711" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CorrectResParMinNumPo</name></member>
+      <member refid="classsr_t_gen_opt_elem_1adef0443c54eafbeabd18a1f6ff301953" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a55f89cec1dab7d5c39c3df95a8dead91" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1ceb207bbca1fcc9e1a6d66861e79444" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CosAndSinPi</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aabffbeef4db34096fde2ec66cf2a4e2c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>CountFringes</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab62e714a0f785b9c4f518d4bf9f13afd" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>DefinePropagScenario</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3624ae5d07b6555f3f958d2edf64f3d8" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>DefinePropagScenario1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8f2bac1ad19b6bac919bac6e3be27db7" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>EnsureCoordRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a353927c0eee040dd25267cf3b9091c3e" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9613aa5db4a44e66f39ecf3a2bc3e8f8" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>EstimateMemoryNeededForPropag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab51a02133eb9ce500323ff250741056d" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>EstimateMinNpForQuadTerm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a72660522643354b4ef8315509191f7a6" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>EstimateMinNpToResolveOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1a3b12f9f0d10ff6af6e9dd5f1b1306c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>EstimateNominalNpForUnderSampling</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a84df93c6deac1ba5ece485d848aa38a9" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ExtractPhase1D</name></member>
+      <member refid="classsr_t_composite_opt_elem_1a2c95732207cefd44c97425dfd2a28b44" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ExtractPropagatedIntensity</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a46c105077968e5f3a00e4dfa7cffe393" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ExtractRadSectVsXorZ</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3d790fc80a058b9af3ec47355c8ed721" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ExtractRadSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1b8b178b585ec6288767e0cf58f27e7f" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>ExtractTransmCharact</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3282e75b8fece3bbf71bae03a4aaf9d6" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ExtraDataExpected</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeb668a9c94aea8a06e84521fa8ab55b5" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ExtraMemSizeForResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac737aaedbac92080d8b911521cb46a10" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ExtraMemSizeForResizeE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a098c5c6438d49536b1cb4f9ffba22856" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FillOutRadFromInRad</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af52e275fbf668838778da8ed924baa87" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindCenterWithRespectToThresh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3483d20708685faa37edab55622ec269" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindIntensityBorders1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a92795d439403b1986968004b874193b7" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindLineIntersectWithPlane</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeedc87a419d1b09d3fd31fdc0f5932e8" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindLongCoordOfHorBaseVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a39835985e013f9296f8f643b6daaff83" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindLowestAndUppestPoints</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a41d3220fe9670dd3a89469896e9f1feb" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindMaximumAbsReE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a061ff7fa3359de27c0864b65d8a21d76" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindMinMaxRatio</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a489680535fe82436227c1a70b241f172" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindPostResizeCenterCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a76f3c8885483f3ea87a89b18ca9e67c5" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindPostResizeForRange1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afd0bcd789ec22cd60ccb94c4f8e1bea4" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindRelPrecForRangeOverWfr1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae19b72ee288b77d65d3a1d5d36a64331" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindThresholdBorders</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a437c6ec9de4066bb43fe84c7a668b7b4" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FindWidestWfrMeshParam</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afe8e5eb2b610ac77765e55c3d103f459" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FormalMag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a637197f9c18cad64ef0542ff11186bde" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>FormalPhase</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a54151eba73aa52e8ff81c934eb9a0b69" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>GenAuxPropagate4x4PropMatr</name></member>
+      <member refid="classsr_t_gen_opt_elem_1abb22e3134a4842d4c8b3f7870ee1e441" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>GenAuxPropagateRadMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acfb0ba7b42d0fe3896b34e80a18b91fb" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>GenExtractPhase</name></member>
+      <member refid="classsr_t_composite_opt_elem_1a988e3264c7af1e80d51f712a06f4f20f" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>GenOptElemList</name></member>
+      <member refid="classsr_t_composite_opt_elem_1ac80f26f927b23010cff2b4ee7b60ae92" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>GenOptElemPropResizeVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a63ac112b841e21138a4776e5edc3c43c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>GetCellDataForInterpol</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a35c7d2466d77cf3b3840738a4b7fa7b6" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>GetCellDataForInterpol1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ace7be357e70634661842343ecc1288d7" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>GPUImplFeatures</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8993844ac986866286184a3d307a7a8c" prot="protected" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>HalfPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a25aed205a1cc8b1fc27117f44f3a71bd" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ImproveReAndIm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae8b261ef1990b1eb2545da84337d2e24" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>Initialize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6b1041bddfc07a6de0286199f11f8493" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>IntegerOffsetCoord</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a36ae3ae294da2a3cd7690ee3099a597c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>IntegrateElField1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9842cac9d3d4d7a713242b1112c669ce" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpLin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a81e2dff0eeb0b6eb67bcfd0acaccb828" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolF</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4350dce7d98fd2e01923ed2b6eea90ec" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolF1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac46d687edb2259f79f4dfd6eadc05762" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolF_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa373eb78681852434b9dbb1e66c97681" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolF_LowOrder1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac5fd69f95b011f634bd7c8979fd5084a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolFI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5d87c6b5787a818ba3846926f96ec78d" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolFI1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1add7227c65a2de74a33ec3d80bd167158" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolFI_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acb4fbce2d459475111c7db1722a1a453" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>InterpolFI_LowOrder1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3760d3094c00623976076d9948216f14" prot="protected" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>m_PropWfrInPlace</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6778d64918c087476300d6c5213b0c26" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>MakePostPropagationProc</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa2578bdf79bf3b0f0be343772c1bdb75" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MakeSimpleOversamplingTestAndCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acd8a7c72a7dc5d6d0ca0c82b9383e1dc" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MakeWfrEdgeCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a408880ad9a2bcc18ec32b0fe6738f281" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MakeWfrEdgeCorrection1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab8b0582b96b3ab07e6445ad2a1d4b9ec" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MaxIntInHorString</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a353bfbbf7f209c8420912e1f1c97cfd0" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MaxIntInVertString</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a688f6ecb6d335df53b838ebafcf3fa52" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MemoryIsSufficientForProp</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9a8f9ac8d506aa38881d8c35a9d8571a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MemoryIsSufficientForResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac5430c55e5c4fa3b532f5b093aa73b19" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MemoryIsSufficientForTwoResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0633c0907ad4ba957afdc6f02f8ad489" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>MultSquareMatrByVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2c7409d5cfc3bce9890eeeda2ee4cde9" prot="protected" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>One_dTwoPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae48f7a6621a159b972003f336720ca21" prot="protected" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>PI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4213b1607e1bc16e8169a5060b7a7d59" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>PostResizeAndTryToImproveResolInSmallSpot</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeb06230ffa8afd2c7f89c2146d0a1d58" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>PredictPhase</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6c00467b016005afb9f2396b6ecef013" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>Propagate4x4PropMatr</name></member>
+      <member refid="classsr_t_composite_opt_elem_1a351efff223c5de84944b68904c902028" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiation</name></member>
+      <member refid="classsr_t_composite_opt_elem_1ac98888a21954a98b9a681d3afafe5002" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationGuided</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5cbc519005c4ddfddc6d36e55855ae8c" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationMeth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9e81d35cecc9e8f9c6e2be478734aa25" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationMeth_2</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0f08a34b8a5e71d2ed8d2c3972d8c54e" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationSimple</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a103486f86ba28e39984ac7457d865fc3" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationSimple1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5ff32bd0c4c90fd09ced8534e08e0590" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationSingleE_Meth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab5155468d4901568acb537f1023f4b34" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationSingleE_Meth_2</name></member>
+      <member refid="classsr_t_composite_opt_elem_1a6b7b736f5f9e93959037b7ebd970f10e" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadiationTest</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a76aaf21a66c5bfcd11fc4ca7ae9f2eea" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateRadMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae7a4f577600f7602489426f33d29d643" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateWaveFrontRadius</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af5b328a69e1c3058d4e5527db0a39636" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>PropagateWaveFrontRadius1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1387909109241815bb5cd4464a49d2a1" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>RadOptPathDiff</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0a002f2e8b0588008faa623626b54134" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>RadPointModifier</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a77bbdfaef546f794172f699d8e3c5df6" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>RadPointModifier1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae4f3ba0128efd182f7a67f1d3c7fb65a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadRearrangeOnRegularMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a537c8fdde7ac93d0a2d8fcb0436d4015" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeCore</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1230cf82ac392afb75ebd54164772b2d" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeCore1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a543ccb84f77a41d84b62839bae7c94a1" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeCore_OnlyLargerRange</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a36a78d9c6760bec62ca7eeecb8ecb923" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeCore_OnlyLargerRangeE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afb3ee42ea5101edba3b629c9e0c56fd4" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeCoreE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aaf79e5ea4009e0786958ad36e3110771" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeGen</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3ab6b260efcc83262cabfc693115fce5" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeGen1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac01066d999137b12de77fb8401532983" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RadResizeGenE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af70fc1c6f568398b1b5783be1bec9cb4" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>RangeShouldBeAdjustedAtPropag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac63cba8df816ffafe3fa2e1c1492275a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RecomputeRadMomentsIfPossible</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0df2e849495f042e2d269136bf79bde0" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ReduceBiggerResizeParamUntilFitMemory</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2e5fa121784a52654c286ef1f4730685" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ReflectVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad28c32f7021e3b7337a107751cf1e6ce" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ReInterpolateWfrDataOnNewTransvMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a48cfea088831804de2aef84414354e2b" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ReInterpolateWfrSliceSingleE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9ee5cf9ff8e5d8d551ff0932892e2483" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RejectSmallResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a46d60cc88087a936150f06b249c13a97" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RemoveSliceConstE_FromGenRadStruct</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad740f180b169d99589d5e401af59602f" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>RemoveUndersamplingByResizingOrStop</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5e47abd2df2982c48def95a408c05518" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ResizePropagateAndAnalizeFringes1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a645baffd2fd9a7b8962e51a84d753360" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>ResolutionShouldBeAdjustedAtPropag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a20a624b4b483c23e5c0e25437d774952" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetRadRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aab2e8b76487bdbb8cb7cdd56d7642644" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetRadRepres1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af9fc775bd4bad1e27dd9b03b0a6c95dd" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupCellDataI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a872faf1a3f58840fa34893a19e09e57d" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupCellDataI1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa97bd992fdcb0c6c2da25212f89a0188" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupCharacteristicSections1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a10d3b3ae74bf71620b6fcc9207afadd7" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupExpCorrArray</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6c32903217900dceebf1ac79af5a5063" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupInterpolAux02</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1912b71ca535545231a40d81e29ddaea" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupInterpolAux02_1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa16d0e8bd5b73dba826f6ef9986a12ac" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupInterpolAux02_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0292a9cf551bd263ce8fef2ee5a3b7cb" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupInterpolAux02_LowOrder1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae67a5a5700247cd18ab8533d4b54e2af" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupMxxMzzArr</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa393b2bedf1689d89353edc8e6d83660" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupNewRadStructFromSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad91e0fd24c14146e465b357151bcb2c6" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupOpticalElement</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a570241c8a03a0062d5d7f20627cae619" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupRadSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a092509412ed382acbf11669cedb77629" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupRadXorZSectFromSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa4146574cf910f3205c94c4263fb8c9c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupSectionArraysVsXandZ</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad90ea54a9ad9c8e74deb3dc58748766f" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupWfrEdgeCorrData</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a24a6aaacfce972fde8162e8116a7ad24" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SetupWfrEdgeCorrData1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acabf51b65c5aa9e90ecb485f162eec58" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ShowCurrentOverSamplingFactors</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>sign</name></member>
+      <member refid="classsr_t_composite_opt_elem_1a207dd3ec24c5460913413c4a1132ec92" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>srTCompositeOptElem</name></member>
+      <member refid="classsr_t_composite_opt_elem_1ac5cc9c1de45ccbaeaead53f63fbf4b44" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>srTCompositeOptElem</name></member>
+      <member refid="classsr_t_composite_opt_elem_1ae7fd28d4d5415c7256866dc9789ab89a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>srTCompositeOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a901bd017a85fbe5cbe7e3ea7e7d1c82c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>srTGenOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2b8a49381c200e6563d56beea26efb7c" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SteerPostResizeParam</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a86a07c82cd04348b91cb18ba91b803bb" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SuggestResolResizeCoef</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1fd869db1d5e3f664fc3bbfb3697aca4" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SuggestScenarioThatFitsMemory</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a25745710ad5ccd73b8a9cec91744f4a0" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>SuitableConditionsForUnderSamplingMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6438f1cbc9dc0fb5055c305e0948fffd" prot="protected" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>ThreePIdTwo</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad363aa021b7133d810e776d3de643bbf" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TransferResizeParam</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acfe4a9d2171edef80b453181727c6190" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TraverseRad1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a905899b131de33ff2e0629ce7874592b" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TraverseRadZXE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2e458eeec156a4feead4207eae9acb56" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TreatPhaseShift</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a00b50e016a4aa88520b282aa66b88dd9" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TreatStronglyOscillatingTerm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a74e0bfde8f242c9c5299f7b6a6f9e895" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TreatStronglyOscillatingTerm1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afcce8a391ddb315a88327b60f1f5e081" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TreatStronglyOscillatingTermIrregMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad0a880529ddb8823e88e7049eb37dade" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TreatStronglyOscillatingTermIrregMeshTrf</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8bc9def079a47c45ac37eb73a41627d6" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TryToRemoveUndersamplingByResizing</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab66040c60b23168e607e308fb1ea5103" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TryToSetUnderSamplingMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a89dc0180ff56ca4d7bd6c125e965f87a" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TuneAndKeepResolution1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4461c85c29200643d7aae3f5075cabe9" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TuneRangeNotDegradingPrec1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5ebbc3ddd28fdd3de2b9c4ca33caa342" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TuneStepToKeepInterpLimitsTheSameAtResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af470aefcbb47ebe8c4f2ef77a0727167" prot="protected" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>TwoPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9055ce7f8baed27657d3e0745f06a2c8" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>UnderSamplingModeCanBeSuggested</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aaf6a9665fa87a64c10fb6c433784749d" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>UpdateGenRadStructSliceConstE_Meth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a90886303cd1e92bdb05ebf0975cd5389" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>UpdateGenRadStructSliceConstE_Meth_2</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6fb9f08e0fcf36b6418473aca0fbbe12" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>WaveFrontTermCanBeTreated</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0061045be32bde47093efb5eb9748d75" prot="public" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>WaveFrontTermCanBeTreated1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4c5c991b74946799e9f4617ad0d82009" prot="protected" virt="non-virtual"><scope>srTCompositeOptElem</scope><name>WfrTransmLimits</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>~CGenObject</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4f3c4953420c0ab1be02557abe41d64a" prot="public" virt="virtual"><scope>srTCompositeOptElem</scope><name>~srTGenOptElem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1063 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_rad_int_const" kind="class" language="C++" prot="public">
+    <compoundname>srTRadIntConst</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1aee133e4e698d69a532c1447b6d89fd7d" prot="private" static="no" mutable="no">
+        <type><ref refid="classsr_t_cos_and_sin_comp" kindref="compound">srTCosAndSinComp</ref></type>
+        <definition>srTCosAndSinComp srTRadIntConst::CosAndSinComp</definition>
+        <argsstring></argsstring>
+        <name>CosAndSinComp</name>
+        <qualifiedname>srTRadIntConst::CosAndSinComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="43" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a3594fedcb6d76a7c9e8c0aeb04529baf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntConst::sIntegRelPrecG</definition>
+        <argsstring></argsstring>
+        <name>sIntegRelPrecG</name>
+        <qualifiedname>srTRadIntConst::sIntegRelPrecG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="45" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a2de7ab24ab2fa2d1a7623a6747169b67" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntConst::NormalizingConstG</definition>
+        <argsstring></argsstring>
+        <name>NormalizingConstG</name>
+        <qualifiedname>srTRadIntConst::NormalizingConstG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="46" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1ad8cea767208e6e3d0b6080acdc241d89" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref></type>
+        <definition>srTEXZ srTRadIntConst::EXZ</definition>
+        <argsstring></argsstring>
+        <name>EXZ</name>
+        <qualifiedname>srTRadIntConst::EXZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="48" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a8bf09ee633ad03c00e4a632a115ebf09" prot="private" static="no" mutable="no">
+        <type>gmTrans</type>
+        <definition>gmTrans srTRadIntConst::TrLab2Loc</definition>
+        <argsstring></argsstring>
+        <name>TrLab2Loc</name>
+        <qualifiedname>srTRadIntConst::TrLab2Loc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="49" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a385f1754a7b577c06f8bd054bb7758bb" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_init_trj_coord_ang" kindref="compound">srTInitTrjCoordAng</ref></type>
+        <definition>srTInitTrjCoordAng srTRadIntConst::LocInitCoordAng</definition>
+        <argsstring></argsstring>
+        <name>LocInitCoordAng</name>
+        <qualifiedname>srTRadIntConst::LocInitCoordAng</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="50" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a723ed673faa7442010bd53075d73ca02" prot="private" static="no" mutable="no">
+        <type>TVector3d</type>
+        <definition>TVector3d srTRadIntConst::PobsLocG</definition>
+        <argsstring></argsstring>
+        <name>PobsLocG</name>
+        <qualifiedname>srTRadIntConst::PobsLocG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="51" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a031233bd5933cc25bf4146560f472bca" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntConst::BconG</definition>
+        <argsstring></argsstring>
+        <name>BconG</name>
+        <qualifiedname>srTRadIntConst::BconG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="52" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a31c53b32a5fb97097856dc4c0adb546e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntConst::RmaG</definition>
+        <argsstring></argsstring>
+        <name>RmaG</name>
+        <qualifiedname>srTRadIntConst::RmaG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="52" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a14b0e37acd8e15c71a61ba48a6f23f3f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntConst::Gx</definition>
+        <argsstring></argsstring>
+        <name>Gx</name>
+        <qualifiedname>srTRadIntConst::Gx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="53" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a25550d25e7104f9c17110f65efb49aa9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntConst::Gz</definition>
+        <argsstring></argsstring>
+        <name>Gz</name>
+        <qualifiedname>srTRadIntConst::Gz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="53" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1a0e2a35bfd25118a049575441f9256b22" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_const_trj_dat" kindref="compound">srTConstTrjDat</ref> *</type>
+        <definition>srTConstTrjDat* srTRadIntConst::ConstTrjDatPtr</definition>
+        <argsstring></argsstring>
+        <name>ConstTrjDatPtr</name>
+        <qualifiedname>srTRadIntConst::ConstTrjDatPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="57" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1aa8168d1758ae947a720c9c5f9eb3dea0" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref></type>
+        <definition>srTWfrSmp srTRadIntConst::DistrInfoDat</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDat</name>
+        <qualifiedname>srTRadIntConst::DistrInfoDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="58" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_const_1ac6d04e700dedc106b96a9c15fa950a0e" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_int_const_prec" kindref="compound">srTRadIntConstPrec</ref></type>
+        <definition>srTRadIntConstPrec srTRadIntConst::IntConstPrec</definition>
+        <argsstring></argsstring>
+        <name>IntConstPrec</name>
+        <qualifiedname>srTRadIntConst::IntConstPrec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="59" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a3f998bd986cc5f2fc9c7eda7c6d77d9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntConst::srTRadIntConst</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadIntConst</name>
+        <qualifiedname>srTRadIntConst::srTRadIntConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="61" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1af8e467115e3a562762a7512aec7b5038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTRadIntConst::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="65" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a781d4480467b41ec20937cea336a2d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::CheckInputConsistency</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInputConsistency</name>
+        <qualifiedname>srTRadIntConst::CheckInputConsistency</qualifiedname>
+        <briefdescription>
+<para>File: srradinc.cpp Description: SR calculation from Constant Magnetic Field Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="71" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="23" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1ab6247b1c7a57b6686f2e7452af276a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::ComputeTotalStokesDistr</definition>
+        <argsstring>(srTStokesStructAccessData &amp;)</argsstring>
+        <name>ComputeTotalStokesDistr</name>
+        <qualifiedname>srTRadIntConst::ComputeTotalStokesDistr</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <defname>StokesAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="73" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="40" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a1655c6cab9531a4c26ab74eb0b4db9c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::ComputeStokesAtPoint</definition>
+        <argsstring>(float *pStokes)</argsstring>
+        <name>ComputeStokesAtPoint</name>
+        <qualifiedname>srTRadIntConst::ComputeStokesAtPoint</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="74" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="260" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a1100e2b50cd97b040b09470a12666fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::ComputeElFieldAtPointLocFrame</definition>
+        <argsstring>(srTEFourier &amp;E)</argsstring>
+        <name>ComputeElFieldAtPointLocFrame</name>
+        <qualifiedname>srTRadIntConst::ComputeElFieldAtPointLocFrame</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="75" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="283" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a74b2b21cf7626b4fb0be84b338683f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::SetupNativeRotation</definition>
+        <argsstring>()</argsstring>
+        <name>SetupNativeRotation</name>
+        <qualifiedname>srTRadIntConst::SetupNativeRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="77" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="119" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a7ec9197d2ebe28c862bb8f05b5a625f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::TreatFiniteElecBeamEmittance</definition>
+        <argsstring>(srTStokesStructAccessData &amp;, double ElBeamMomFact)</argsstring>
+        <name>TreatFiniteElecBeamEmittance</name>
+        <qualifiedname>srTRadIntConst::TreatFiniteElecBeamEmittance</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <defname>StokesAccessData</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElBeamMomFact</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="79" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="333" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1aaea1b60d45a1aec4b99d04a3e6eebd9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::ExtractStokesSliceConstE</definition>
+        <argsstring>(srTStokesStructAccessData &amp;StokesAccessData, long ie, int StokesNo, float *pOutS)</argsstring>
+        <name>ExtractStokesSliceConstE</name>
+        <qualifiedname>srTRadIntConst::ExtractStokesSliceConstE</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>StokesAccessData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>ie</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>StokesNo</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pOutS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="80" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="368" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a1dd6883c30af354570bb72779944bde2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::UpdateStokesSliceConstE</definition>
+        <argsstring>(float *StokesCmpnArr, long ie, int is, srTStokesStructAccessData &amp;StokesAccessData)</argsstring>
+        <name>UpdateStokesSliceConstE</name>
+        <qualifiedname>srTRadIntConst::UpdateStokesSliceConstE</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>StokesCmpnArr</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>ie</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>StokesAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="81" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="403" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a6468c73ea09112c3aad52ac47b83036b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::TreatFiniteElecBeamEmittanceOneComp1D</definition>
+        <argsstring>(float *CmpnArr, double ElBeamMomFact)</argsstring>
+        <name>TreatFiniteElecBeamEmittanceOneComp1D</name>
+        <qualifiedname>srTRadIntConst::TreatFiniteElecBeamEmittanceOneComp1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElBeamMomFact</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="82" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="439" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a75fd2bae8f4b9d6f87756efcb60525fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::TreatFiniteElecBeamEmittanceOneComp2D</definition>
+        <argsstring>(float *CmpnArr, double ElBeamMomFact)</argsstring>
+        <name>TreatFiniteElecBeamEmittanceOneComp2D</name>
+        <qualifiedname>srTRadIntConst::TreatFiniteElecBeamEmittanceOneComp2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ElBeamMomFact</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="83" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="633" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a846e3e102bf274c7c80acc128ce2b86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::DetermineSingleElecDistrEffSizes2D</definition>
+        <argsstring>(float *CmpnArr, double &amp;Mxx, double &amp;Mzz)</argsstring>
+        <name>DetermineSingleElecDistrEffSizes2D</name>
+        <qualifiedname>srTRadIntConst::DetermineSingleElecDistrEffSizes2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Mxx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Mzz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="84" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="666" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a9a22832e0325c48a15ae5dbdd133d638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::DetermineSingleElecDistrEffSizes1D</definition>
+        <argsstring>(float *CmpnArr, char VsXorZ, double &amp;M_Cen)</argsstring>
+        <name>DetermineSingleElecDistrEffSizes1D</name>
+        <qualifiedname>srTRadIntConst::DetermineSingleElecDistrEffSizes1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>VsXorZ</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>M_Cen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="85" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="475" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a21e78db07cc508973c4090bce2db8637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::DetermineResizeBeforeConv2D</definition>
+        <argsstring>(double MxxElecEff, double MzzElecEff, double MxxPowSingleE, double MzzPowSingleE, srTRadResize &amp;Resize)</argsstring>
+        <name>DetermineResizeBeforeConv2D</name>
+        <qualifiedname>srTRadIntConst::DetermineResizeBeforeConv2D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>MxxElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MxxPowSingleE</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzPowSingleE</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref> &amp;</type>
+          <declname>Resize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="86" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="715" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a30bc361980e85a30f8081ce9bc2faa9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::DetermineResizeBeforeConv1D</definition>
+        <argsstring>(double M_ElecEff, double M_DistrSingleE, char VsXorZ, srTRadResize1D &amp;Resize)</argsstring>
+        <name>DetermineResizeBeforeConv1D</name>
+        <qualifiedname>srTRadIntConst::DetermineResizeBeforeConv1D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>M_ElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>M_DistrSingleE</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>VsXorZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_resize1_d" kindref="compound">srTRadResize1D</ref> &amp;</type>
+          <declname>Resize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="87" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="518" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a643e5978b598d8563ca1d005cfeea92c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::ConstructDataForConv2D</definition>
+        <argsstring>(float *CmpnArr, float *NewData, long long NewNx, long long NewNz)</argsstring>
+        <name>ConstructDataForConv2D</name>
+        <qualifiedname>srTRadIntConst::ConstructDataForConv2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>NewData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NewNx</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NewNz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="88" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="736" bodyend="817"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a6e64e3a6aa7214024fe7d51da0932b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::ConstructDataForConv1D</definition>
+        <argsstring>(float *CmpnArr, float *AuxConvData, long long NpOld, long long NpNew)</argsstring>
+        <name>ConstructDataForConv1D</name>
+        <qualifiedname>srTRadIntConst::ConstructDataForConv1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NpOld</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NpNew</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="90" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="533" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a9b918bcb0c0d9757bc7879fce4c3bbb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::PerformConvolutionWithGaussian2D</definition>
+        <argsstring>(float *ConvData, long NewNx, long NewNz, double MxxElecEff, double MzzElecEff)</argsstring>
+        <name>PerformConvolutionWithGaussian2D</name>
+        <qualifiedname>srTRadIntConst::PerformConvolutionWithGaussian2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>ConvData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NewNx</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NewNz</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MxxElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzElecEff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="93" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="821" bodyend="880"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a514f2956ec74547c9ffdd7490512249c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::PerformConvolutionWithGaussian1D</definition>
+        <argsstring>(float *AuxConvData, long NpAux, double M_ElecEff, char VsXorZ)</argsstring>
+        <name>PerformConvolutionWithGaussian1D</name>
+        <qualifiedname>srTRadIntConst::PerformConvolutionWithGaussian1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NpAux</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>M_ElecEff</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>VsXorZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="95" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="560" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a40f7b852ec205090c2add6896db7b4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::ExtractDataAfterConv2D</definition>
+        <argsstring>(float *AuxConvData, long long NxAux, long long NzAux, float *CmpnArr)</argsstring>
+        <name>ExtractDataAfterConv2D</name>
+        <qualifiedname>srTRadIntConst::ExtractDataAfterConv2D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NxAux</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NzAux</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="96" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="884" bodyend="908"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1aa5ed6c4b08a93b2bc7733731f466f164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::ExtractDataAfterConv1D</definition>
+        <argsstring>(float *AuxConvData, long long NpAux, long long Np, float *CmpnArr)</argsstring>
+        <name>ExtractDataAfterConv1D</name>
+        <qualifiedname>srTRadIntConst::ExtractDataAfterConv1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>NpAux</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>CmpnArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="98" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="616" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a4e80978870032f618d982b3f532e0ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::SuppressNegativeValues</definition>
+        <argsstring>(float *StokesCmpnArr)</argsstring>
+        <name>SuppressNegativeValues</name>
+        <qualifiedname>srTRadIntConst::SuppressNegativeValues</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>StokesCmpnArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="100" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="912" bodyend="921"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a3c58c2d83fe6bed4ab699b3d79c47730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::AnalyzeFinalResultsSymmetry</definition>
+        <argsstring>(char &amp;FinalResAreSymOverX, char &amp;FinalResAreSymOverZ)</argsstring>
+        <name>AnalyzeFinalResultsSymmetry</name>
+        <qualifiedname>srTRadIntConst::AnalyzeFinalResultsSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="102" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="162" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a7f5a73ccaa16de897aead30720ef7b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::FillInSymPartsOfResults</definition>
+        <argsstring>(char FinalResAreSymOverX, char FinalResAreSymOverZ, srTStokesStructAccessData &amp;StokesAccessData)</argsstring>
+        <name>FillInSymPartsOfResults</name>
+        <qualifiedname>srTRadIntConst::FillInSymPartsOfResults</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>StokesAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="103" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp" bodystart="191" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a6401cea47ac7500ee4216fcf451f82db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::CopySymEnergySlice</definition>
+        <argsstring>(float *pOrigData, float *pSymData, char SymWithRespectToXax, char SymWithRespectToZax)</argsstring>
+        <name>CopySymEnergySlice</name>
+        <qualifiedname>srTRadIntConst::CopySymEnergySlice</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pOrigData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pSymData</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToXax</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToZax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="105" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="105" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1aa0ebb96b70b009e9f153012a27cec2d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntConst::SetupThickBeamConsts</definition>
+        <argsstring>()</argsstring>
+        <name>SetupThickBeamConsts</name>
+        <qualifiedname>srTRadIntConst::SetupThickBeamConsts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="117" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="117" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1aa7fda1260aec8f5cf795e9295ef17d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::SetIntegPrecLevel</definition>
+        <argsstring>()</argsstring>
+        <name>SetIntegPrecLevel</name>
+        <qualifiedname>srTRadIntConst::SetIntegPrecLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="135" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="135" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1a9b164d734cdd7f285bb1916f560cdda7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::SetupNormalizingConst</definition>
+        <argsstring>()</argsstring>
+        <name>SetupNormalizingConst</name>
+        <qualifiedname>srTRadIntConst::SetupNormalizingConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="140" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="140" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1af9865abc8689e0caae9c1b58619ac9db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::PointLab2Loc</definition>
+        <argsstring>(TVector3d &amp;P)</argsstring>
+        <name>PointLab2Loc</name>
+        <qualifiedname>srTRadIntConst::PointLab2Loc</qualifiedname>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>P</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="148" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1ad0dfec21049b254dfd468ff3193f17a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::VectorLoc2Lab</definition>
+        <argsstring>(TVector3d &amp;V)</argsstring>
+        <name>VectorLoc2Lab</name>
+        <qualifiedname>srTRadIntConst::VectorLoc2Lab</qualifiedname>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="152" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="152" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_const_1acc3a608d8954f267ef50b3e8ecbb70c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntConst::E2Stokes</definition>
+        <argsstring>(srTEFourier &amp;E, srTStokes &amp;Stokes)</argsstring>
+        <name>E2Stokes</name>
+        <qualifiedname>srTRadIntConst::E2Stokes</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>Stokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="158" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="158" bodyend="166"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTConstTrjDat</label>
+        <link refid="classsr_t_const_trj_dat"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>MagConst</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srTMagFieldConstant</label>
+        <link refid="classsr_t_mag_field_constant"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTRadIntConst</label>
+        <link refid="classsr_t_rad_int_const"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ConstTrjDatPtr</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>DistrInfoDat</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>IntConstPrec</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srTRadIntConstPrec</label>
+        <link refid="structsr_t_rad_int_const_prec"/>
+      </node>
+      <node id="8">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="41" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" bodystart="41" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classsr_t_rad_int_const_1a3c58c2d83fe6bed4ab699b3d79c47730" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>AnalyzeFinalResultsSymmetry</name></member>
+      <member refid="classsr_t_rad_int_const_1a031233bd5933cc25bf4146560f472bca" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>BconG</name></member>
+      <member refid="classsr_t_rad_int_const_1a781d4480467b41ec20937cea336a2d8f" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>CheckInputConsistency</name></member>
+      <member refid="classsr_t_rad_int_const_1a1100e2b50cd97b040b09470a12666fd0" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ComputeElFieldAtPointLocFrame</name></member>
+      <member refid="classsr_t_rad_int_const_1a1655c6cab9531a4c26ab74eb0b4db9c5" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ComputeStokesAtPoint</name></member>
+      <member refid="classsr_t_rad_int_const_1ab6247b1c7a57b6686f2e7452af276a7b" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ComputeTotalStokesDistr</name></member>
+      <member refid="classsr_t_rad_int_const_1a6e64e3a6aa7214024fe7d51da0932b53" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ConstructDataForConv1D</name></member>
+      <member refid="classsr_t_rad_int_const_1a643e5978b598d8563ca1d005cfeea92c" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ConstructDataForConv2D</name></member>
+      <member refid="classsr_t_rad_int_const_1a0e2a35bfd25118a049575441f9256b22" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ConstTrjDatPtr</name></member>
+      <member refid="classsr_t_rad_int_const_1a6401cea47ac7500ee4216fcf451f82db" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>CopySymEnergySlice</name></member>
+      <member refid="classsr_t_rad_int_const_1aee133e4e698d69a532c1447b6d89fd7d" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>CosAndSinComp</name></member>
+      <member refid="classsr_t_rad_int_const_1a30bc361980e85a30f8081ce9bc2faa9a" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>DetermineResizeBeforeConv1D</name></member>
+      <member refid="classsr_t_rad_int_const_1a21e78db07cc508973c4090bce2db8637" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>DetermineResizeBeforeConv2D</name></member>
+      <member refid="classsr_t_rad_int_const_1a9a22832e0325c48a15ae5dbdd133d638" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>DetermineSingleElecDistrEffSizes1D</name></member>
+      <member refid="classsr_t_rad_int_const_1a846e3e102bf274c7c80acc128ce2b86f" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>DetermineSingleElecDistrEffSizes2D</name></member>
+      <member refid="classsr_t_rad_int_const_1aa8168d1758ae947a720c9c5f9eb3dea0" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>DistrInfoDat</name></member>
+      <member refid="classsr_t_rad_int_const_1acc3a608d8954f267ef50b3e8ecbb70c5" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>E2Stokes</name></member>
+      <member refid="classsr_t_rad_int_const_1aa5ed6c4b08a93b2bc7733731f466f164" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ExtractDataAfterConv1D</name></member>
+      <member refid="classsr_t_rad_int_const_1a40f7b852ec205090c2add6896db7b4a6" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ExtractDataAfterConv2D</name></member>
+      <member refid="classsr_t_rad_int_const_1aaea1b60d45a1aec4b99d04a3e6eebd9b" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>ExtractStokesSliceConstE</name></member>
+      <member refid="classsr_t_rad_int_const_1ad8cea767208e6e3d0b6080acdc241d89" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>EXZ</name></member>
+      <member refid="classsr_t_rad_int_const_1a7f5a73ccaa16de897aead30720ef7b53" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>FillInSymPartsOfResults</name></member>
+      <member refid="classsr_t_rad_int_const_1a14b0e37acd8e15c71a61ba48a6f23f3f" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>Gx</name></member>
+      <member refid="classsr_t_rad_int_const_1a25550d25e7104f9c17110f65efb49aa9" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>Gz</name></member>
+      <member refid="classsr_t_rad_int_const_1af8e467115e3a562762a7512aec7b5038" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>Initialize</name></member>
+      <member refid="classsr_t_rad_int_const_1ac6d04e700dedc106b96a9c15fa950a0e" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>IntConstPrec</name></member>
+      <member refid="classsr_t_rad_int_const_1a385f1754a7b577c06f8bd054bb7758bb" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>LocInitCoordAng</name></member>
+      <member refid="classsr_t_rad_int_const_1a2de7ab24ab2fa2d1a7623a6747169b67" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>NormalizingConstG</name></member>
+      <member refid="classsr_t_rad_int_const_1a514f2956ec74547c9ffdd7490512249c" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>PerformConvolutionWithGaussian1D</name></member>
+      <member refid="classsr_t_rad_int_const_1a9b918bcb0c0d9757bc7879fce4c3bbb1" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>PerformConvolutionWithGaussian2D</name></member>
+      <member refid="classsr_t_rad_int_const_1a723ed673faa7442010bd53075d73ca02" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>PobsLocG</name></member>
+      <member refid="classsr_t_rad_int_const_1af9865abc8689e0caae9c1b58619ac9db" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>PointLab2Loc</name></member>
+      <member refid="classsr_t_rad_int_const_1a31c53b32a5fb97097856dc4c0adb546e" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>RmaG</name></member>
+      <member refid="classsr_t_rad_int_const_1aa7fda1260aec8f5cf795e9295ef17d20" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>SetIntegPrecLevel</name></member>
+      <member refid="classsr_t_rad_int_const_1a74b2b21cf7626b4fb0be84b338683f16" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>SetupNativeRotation</name></member>
+      <member refid="classsr_t_rad_int_const_1a9b164d734cdd7f285bb1916f560cdda7" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>SetupNormalizingConst</name></member>
+      <member refid="classsr_t_rad_int_const_1aa0ebb96b70b009e9f153012a27cec2d8" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>SetupThickBeamConsts</name></member>
+      <member refid="classsr_t_rad_int_const_1a3594fedcb6d76a7c9e8c0aeb04529baf" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>sIntegRelPrecG</name></member>
+      <member refid="classsr_t_rad_int_const_1a3f998bd986cc5f2fc9c7eda7c6d77d9f" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>srTRadIntConst</name></member>
+      <member refid="classsr_t_rad_int_const_1a4e80978870032f618d982b3f532e0ce8" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>SuppressNegativeValues</name></member>
+      <member refid="classsr_t_rad_int_const_1a7ec9197d2ebe28c862bb8f05b5a625f7" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>TreatFiniteElecBeamEmittance</name></member>
+      <member refid="classsr_t_rad_int_const_1a6468c73ea09112c3aad52ac47b83036b" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>TreatFiniteElecBeamEmittanceOneComp1D</name></member>
+      <member refid="classsr_t_rad_int_const_1a75fd2bae8f4b9d6f87756efcb60525fa" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>TreatFiniteElecBeamEmittanceOneComp2D</name></member>
+      <member refid="classsr_t_rad_int_const_1a8bf09ee633ad03c00e4a632a115ebf09" prot="private" virt="non-virtual"><scope>srTRadIntConst</scope><name>TrLab2Loc</name></member>
+      <member refid="classsr_t_rad_int_const_1a1dd6883c30af354570bb72779944bde2" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>UpdateStokesSliceConstE</name></member>
+      <member refid="classsr_t_rad_int_const_1ad0dfec21049b254dfd468ff3193f17a7" prot="public" virt="non-virtual"><scope>srTRadIntConst</scope><name>VectorLoc2Lab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

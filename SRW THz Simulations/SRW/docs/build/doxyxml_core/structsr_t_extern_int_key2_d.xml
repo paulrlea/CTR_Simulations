@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_extern_int_key2_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTExternIntKey2D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_extern_int_key2_d_1acd9554838bc9128b5f90150605f9e794" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTExternIntKey2D::k00</definition>
+        <argsstring></argsstring>
+        <name>k00</name>
+        <qualifiedname>srTExternIntKey2D::k00</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="33" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_extern_int_key2_d_1aafb53d780b9a8e51d2ebd03668db80f0" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTExternIntKey2D::k10</definition>
+        <argsstring></argsstring>
+        <name>k10</name>
+        <qualifiedname>srTExternIntKey2D::k10</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="33" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_extern_int_key2_d_1a267f7a445ab53909f04ca9fe167f861f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTExternIntKey2D::k20</definition>
+        <argsstring></argsstring>
+        <name>k20</name>
+        <qualifiedname>srTExternIntKey2D::k20</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="33" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_extern_int_key2_d_1a675f45e04a53ff36559c94dd11b3ac28" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTExternIntKey2D::k21</definition>
+        <argsstring></argsstring>
+        <name>k21</name>
+        <qualifiedname>srTExternIntKey2D::k21</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="33" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_extern_int_key2_d_1aa7aaa7176dcb67155e01f1a91e82cdd2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTExternIntKey2D::k22</definition>
+        <argsstring></argsstring>
+        <name>k22</name>
+        <qualifiedname>srTExternIntKey2D::k22</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="33" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_extern_int_key2_d_1a6970056dc4332b3c87589b7c5bdd9c9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTExternIntKey2D::srTExternIntKey2D</definition>
+        <argsstring>(char In_k00=0, char In_k10=0, char In_k20=0, char In_k21=0, char In_k22=0)</argsstring>
+        <name>srTExternIntKey2D</name>
+        <qualifiedname>srTExternIntKey2D::srTExternIntKey2D</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>In_k00</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_k10</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_k20</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_k21</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_k22</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="34" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="34" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="32" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="32" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structsr_t_extern_int_key2_d_1acd9554838bc9128b5f90150605f9e794" prot="public" virt="non-virtual"><scope>srTExternIntKey2D</scope><name>k00</name></member>
+      <member refid="structsr_t_extern_int_key2_d_1aafb53d780b9a8e51d2ebd03668db80f0" prot="public" virt="non-virtual"><scope>srTExternIntKey2D</scope><name>k10</name></member>
+      <member refid="structsr_t_extern_int_key2_d_1a267f7a445ab53909f04ca9fe167f861f" prot="public" virt="non-virtual"><scope>srTExternIntKey2D</scope><name>k20</name></member>
+      <member refid="structsr_t_extern_int_key2_d_1a675f45e04a53ff36559c94dd11b3ac28" prot="public" virt="non-virtual"><scope>srTExternIntKey2D</scope><name>k21</name></member>
+      <member refid="structsr_t_extern_int_key2_d_1aa7aaa7176dcb67155e01f1a91e82cdd2" prot="public" virt="non-virtual"><scope>srTExternIntKey2D</scope><name>k22</name></member>
+      <member refid="structsr_t_extern_int_key2_d_1a6970056dc4332b3c87589b7c5bdd9c9e" prot="public" virt="non-virtual"><scope>srTExternIntKey2D</scope><name>srTExternIntKey2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

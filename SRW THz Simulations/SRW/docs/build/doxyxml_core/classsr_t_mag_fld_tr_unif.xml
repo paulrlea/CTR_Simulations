@@ -1,0 +1,1177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_fld_tr_unif" kind="class" language="C++" prot="public">
+    <compoundname>srTMagFldTrUnif</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_fld_tr_unif_1a1271d92cafc72cbede9719034765af3a" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTMagFldTrUnif::BxArr</definition>
+        <argsstring></argsstring>
+        <name>BxArr</name>
+        <qualifiedname>srTMagFldTrUnif::BxArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="138" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld_tr_unif_1a3dc12c57d380b2e8775a05482ce2dd97" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTMagFldTrUnif::BzArr</definition>
+        <argsstring></argsstring>
+        <name>BzArr</name>
+        <qualifiedname>srTMagFldTrUnif::BzArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="138" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld_tr_unif_1a802702ee1675e45d4485334f7d33ce83" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFldTrUnif::Np</definition>
+        <argsstring></argsstring>
+        <name>Np</name>
+        <qualifiedname>srTMagFldTrUnif::Np</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="139" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld_tr_unif_1a31cd449c87be55bbf6875f259dcace26" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFldTrUnif::sStart</definition>
+        <argsstring></argsstring>
+        <name>sStart</name>
+        <qualifiedname>srTMagFldTrUnif::sStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="141" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld_tr_unif_1ae88e3646a647bfd17fcb5a269fce4784" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFldTrUnif::sStep</definition>
+        <argsstring></argsstring>
+        <name>sStep</name>
+        <qualifiedname>srTMagFldTrUnif::sStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="141" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld_tr_unif_1a5ef906574851c096578029a0d652b374" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagFldTrUnif::ArraysWereAllocated</definition>
+        <argsstring></argsstring>
+        <name>ArraysWereAllocated</name>
+        <qualifiedname>srTMagFldTrUnif::ArraysWereAllocated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="142" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a592d46872b4db18f49d66f9d5330b937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFldTrUnif::srTMagFldTrUnif</definition>
+        <argsstring>(double In_sStart, double In_sStep, int In_Np, double *In_BxArr, double *In_BzArr, char ArraysShouldBeAllocated)</argsstring>
+        <name>srTMagFldTrUnif</name>
+        <qualifiedname>srTMagFldTrUnif::srTMagFldTrUnif</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>In_sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_sStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>In_Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_BxArr</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_BzArr</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>ArraysShouldBeAllocated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="146" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="146" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a98b56c0b30378c8d5d26d1d577426d58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFldTrUnif::srTMagFldTrUnif</definition>
+        <argsstring>()</argsstring>
+        <name>srTMagFldTrUnif</name>
+        <qualifiedname>srTMagFldTrUnif::srTMagFldTrUnif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="164" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="164" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a2f2145f7d74b6c7804ac927c603fd59b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFldTrUnif::~srTMagFldTrUnif</definition>
+        <argsstring>()</argsstring>
+        <name>~srTMagFldTrUnif</name>
+        <qualifiedname>srTMagFldTrUnif::~srTMagFldTrUnif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="172" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a1194e0dc7fd6a697f84ae933ddafabc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double srTMagFldTrUnif::GetLongExtent</definition>
+        <argsstring>()</argsstring>
+        <name>GetLongExtent</name>
+        <qualifiedname>srTMagFldTrUnif::GetLongExtent</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52">GetLongExtent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="177" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a486923874feec28b828ce5473a2e2972" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref> *</type>
+        <definition>srTGenTrjDat * srTMagFldTrUnif::CreateAndSetupNewTrjDat</definition>
+        <argsstring>(srTEbmDat *)</argsstring>
+        <name>CreateAndSetupNewTrjDat</name>
+        <qualifiedname>srTMagFldTrUnif::CreateAndSetupNewTrjDat</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257">CreateAndSetupNewTrjDat</reimplements>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <defname>pEbmDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="181" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="474" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a9e9c70273c446f58a9b5ceea29887275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::SetupTrjDat</definition>
+        <argsstring>(srTTrjDat *)</argsstring>
+        <name>SetupTrjDat</name>
+        <qualifiedname>srTMagFldTrUnif::SetupTrjDat</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <defname>pTrjDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="182" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="420" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1abf9ce77039ce32d62f2dd465a0959864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsr_t_mag_field_periodic" kindref="compound">srTMagFieldPeriodic</ref> *</type>
+        <definition>srTMagFieldPeriodic * srTMagFldTrUnif::CreateAndSetupMagFieldPeriodic</definition>
+        <argsstring>(double RelPrec, int MaxHarm, double MaxPerLen_m)</argsstring>
+        <name>CreateAndSetupMagFieldPeriodic</name>
+        <qualifiedname>srTMagFldTrUnif::CreateAndSetupMagFieldPeriodic</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>RelPrec</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MaxHarm</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxPerLen_m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="184" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="504" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a8f9c1e5b0d606347fb547ec7652b1a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsr_t_mag_field_periodic" kindref="compound">srTMagFieldPeriodic</ref> *</type>
+        <definition>srTMagFieldPeriodic * srTMagFldTrUnif::CreateAndSetupMagFieldPeriodicOld</definition>
+        <argsstring>(double RelPrec, int MaxHarm, double MaxPerLen_m)</argsstring>
+        <name>CreateAndSetupMagFieldPeriodicOld</name>
+        <qualifiedname>srTMagFldTrUnif::CreateAndSetupMagFieldPeriodicOld</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>RelPrec</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MaxHarm</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxPerLen_m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="185" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="574" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1ae5e09c9bb4ab438e9b3a964bf364414c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::FindBasicFieldPeriodicParamAr</definition>
+        <argsstring>(double *pB, int nB, double sInit, double sDelta, double absTolB, double &amp;Per, double &amp;L, double &amp;sCen, double *&amp;ar_sStartOnePer, int &amp;nStartPer)</argsstring>
+        <name>FindBasicFieldPeriodicParamAr</name>
+        <qualifiedname>srTMagFldTrUnif::FindBasicFieldPeriodicParamAr</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nB</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sInit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sDelta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>absTolB</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>L</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sCen</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>ar_sStartOnePer</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>nStartPer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="186" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="637" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a612b58ef824bbaed127ffb13487bd276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::FindBasicFieldPeriodicParam</definition>
+        <argsstring>(double *pB, int nB, double sInit, double sDelta, double absTolB, double &amp;Per, double &amp;L, double &amp;sCen, double &amp;sStartOnePer)</argsstring>
+        <name>FindBasicFieldPeriodicParam</name>
+        <qualifiedname>srTMagFldTrUnif::FindBasicFieldPeriodicParam</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nB</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sInit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sDelta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>absTolB</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>L</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sCen</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStartOnePer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="187" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="660" bodyend="676"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1af6f3225ee30892f06b14a85d7d426950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::FindFieldHarmonicsAr</definition>
+        <argsstring>(double *pB, int nB, double sInit, double sDelta, double Per, double *ar_sStartOnePer, int nPer, double RelPrec, char XorZ, int &amp;NumHarm, srTMagHarm *&amp;MarHarmArr)</argsstring>
+        <name>FindFieldHarmonicsAr</name>
+        <qualifiedname>srTMagFldTrUnif::FindFieldHarmonicsAr</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nB</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sInit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sDelta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ar_sStartOnePer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPer</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>RelPrec</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>XorZ</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>NumHarm</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> *&amp;</type>
+          <declname>MarHarmArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="188" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="680" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a0cb5e7eb613fbb41df2d8643272a2918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::FindFieldHarmonics</definition>
+        <argsstring>(double *pB, int nB, double sInit, double sDelta, double Per, double sStartOnePer, double RelPrec, char XorZ, int &amp;NumHarm, srTMagHarm *&amp;MarHarmArr)</argsstring>
+        <name>FindFieldHarmonics</name>
+        <qualifiedname>srTMagFldTrUnif::FindFieldHarmonics</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nB</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sInit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sDelta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStartOnePer</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>RelPrec</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>XorZ</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>NumHarm</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> *&amp;</type>
+          <declname>MarHarmArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="189" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="713" bodyend="722"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a73da0cdfe3581f0d80fd15a66c5149c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTMagFldTrUnif::FindMaxAbsVal</definition>
+        <argsstring>(double *Arr, int np)</argsstring>
+        <name>FindMaxAbsVal</name>
+        <qualifiedname>srTMagFldTrUnif::FindMaxAbsVal</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>Arr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>np</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="190" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1164" bodyend="1177"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a2cfcf61944337c84fb563cbeb5a6cd2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::FindFieldZeros</definition>
+        <argsstring>(double *pB, int nB, double sStart, double sStep, double absTolB, double *ArgFldZerosIncr, double *ArgFldZerosDecr, int &amp;AmOfZeros)</argsstring>
+        <name>FindFieldZeros</name>
+        <qualifiedname>srTMagFldTrUnif::FindFieldZeros</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nB</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStep</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>absTolB</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ArgFldZerosIncr</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ArgFldZerosDecr</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfZeros</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="191" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="726" bodyend="792"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1acb5e9d5db377ffb6ca47f73c27b6eab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::FindOnePeriodAr</definition>
+        <argsstring>(double *ArgFldZeros, int AmOfZeros, double &amp;Per, double *ar_sStartOnePer, int &amp;nStartPer)</argsstring>
+        <name>FindOnePeriodAr</name>
+        <qualifiedname>srTMagFldTrUnif::FindOnePeriodAr</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>ArgFldZeros</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmOfZeros</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ar_sStartOnePer</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>nStartPer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="192" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="796" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1ac9db488b4219bb953a61a0cd8fd19b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::FindOnePeriod</definition>
+        <argsstring>(double *ArgFldZeros, int AmOfZeros, double &amp;sStartOnePer, double &amp;Per)</argsstring>
+        <name>FindOnePeriod</name>
+        <qualifiedname>srTMagFldTrUnif::FindOnePeriod</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>ArgFldZeros</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmOfZeros</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStartOnePer</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Per</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="193" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="854" bodyend="885"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a8df5acb7393ccbcb579baac54740890a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::InterpolateOnePeriodData</definition>
+        <argsstring>(double *pB, int nB, double sInit, double sDelta, double sStartOnePer, double Per, double *InterpB, int AmOfInterpPts)</argsstring>
+        <name>InterpolateOnePeriodData</name>
+        <qualifiedname>srTMagFldTrUnif::InterpolateOnePeriodData</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nB</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sInit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sDelta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStartOnePer</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>InterpB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmOfInterpPts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="194" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="889" bodyend="916"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1aaa24d22154674641091217230887ccae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::RotateOnePeriodData</definition>
+        <argsstring>(double *InterpB, int AmOfInterpPts)</argsstring>
+        <name>RotateOnePeriodData</name>
+        <qualifiedname>srTMagFldTrUnif::RotateOnePeriodData</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>InterpB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmOfInterpPts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="195" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="920" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a6abf1b32e5f8e72e4d181058231ac5c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::AnalyzeForHarmonics</definition>
+        <argsstring>(double *pB, int AmOfPts, double Per, double RelPrec, char XorZ, int &amp;AmOfHarm, srTMagHarm *&amp;MarHarmArr)</argsstring>
+        <name>AnalyzeForHarmonics</name>
+        <qualifiedname>srTMagFldTrUnif::AnalyzeForHarmonics</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmOfPts</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>RelPrec</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>XorZ</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfHarm</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> *&amp;</type>
+          <declname>MarHarmArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="196" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="944" bodyend="1053"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a6da9d42db99d6f7b707704fc5f6920ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::AnalyzeForHarmonics_DeleteAuxArrays</definition>
+        <argsstring>(float *&amp;AuxDataContIn, float *&amp;AuxDataContOut, double *&amp;CkArr, double *&amp;PhikArr, int *&amp;HarmNoArr)</argsstring>
+        <name>AnalyzeForHarmonics_DeleteAuxArrays</name>
+        <qualifiedname>srTMagFldTrUnif::AnalyzeForHarmonics_DeleteAuxArrays</qualifiedname>
+        <param>
+          <type>float *&amp;</type>
+          <declname>AuxDataContIn</declname>
+        </param>
+        <param>
+          <type>float *&amp;</type>
+          <declname>AuxDataContOut</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>CkArr</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>PhikArr</declname>
+        </param>
+        <param>
+          <type>int *&amp;</type>
+          <declname>HarmNoArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="197" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1057" bodyend="1064"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a9624a27569dc0d929794a107ec24e455" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::ChooseDominantBasicFieldPeriodicParamAr</definition>
+        <argsstring>(double Per_HorFld, double L_HorFld, double sCen_HorFld, double *ar_sStartPer_HorFld, int nPer_HorFld, double MaxAbsHorFld, double Per_VertFld, double L_VertFld, double sCen_VertFld, double *ar_sStartPer_VertFld, int nPer_VertFld, double MaxAbsVertFld, double &amp;Per, double &amp;L, double &amp;sCen, double *&amp;ar_sStartPer, int &amp;nPer)</argsstring>
+        <name>ChooseDominantBasicFieldPeriodicParamAr</name>
+        <qualifiedname>srTMagFldTrUnif::ChooseDominantBasicFieldPeriodicParamAr</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Per_HorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>L_HorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sCen_HorFld</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ar_sStartPer_HorFld</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPer_HorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxAbsHorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Per_VertFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>L_VertFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sCen_VertFld</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ar_sStartPer_VertFld</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPer_VertFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxAbsVertFld</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>L</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sCen</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>ar_sStartPer</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>nPer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="198" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1068" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a44937ce6a67e6ea94c6c718c9b3d8623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::ChooseDominantBasicFieldPeriodicParam</definition>
+        <argsstring>(double Per_HorFld, double L_HorFld, double sCen_HorFld, double sStartPer_HorFld, double MaxAbsHorFld, double Per_VertFld, double L_VertFld, double sCen_VertFld, double sStartPer_VertFld, double MaxAbsVertFld, double &amp;Per, double &amp;L, double &amp;sCen, double &amp;sStartPer)</argsstring>
+        <name>ChooseDominantBasicFieldPeriodicParam</name>
+        <qualifiedname>srTMagFldTrUnif::ChooseDominantBasicFieldPeriodicParam</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Per_HorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>L_HorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sCen_HorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStartPer_HorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxAbsHorFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Per_VertFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>L_VertFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sCen_VertFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStartPer_VertFld</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MaxAbsVertFld</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>L</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sCen</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStartPer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="202" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1116" bodyend="1160"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a417bba19269777d3e8465e8a86a10392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::SumUpFieldHarmonics</definition>
+        <argsstring>(srTMagHarm *&amp;MagHarmArr_HorFld, int NumHarm_HorFld, srTMagHarm *&amp;MagHarmArr_VertFld, int NumHarm_VertFld, srTMagHarm *&amp;TotHarmArr, int &amp;TotAmOfHarm)</argsstring>
+        <name>SumUpFieldHarmonics</name>
+        <qualifiedname>srTMagFldTrUnif::SumUpFieldHarmonics</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> *&amp;</type>
+          <declname>MagHarmArr_HorFld</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>NumHarm_HorFld</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> *&amp;</type>
+          <declname>MagHarmArr_VertFld</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>NumHarm_VertFld</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> *&amp;</type>
+          <declname>TotHarmArr</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>TotAmOfHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="207" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1181" bodyend="1213"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a22a1ed610dede0fbb621e54ca838660f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::ComputeSR_Stokes</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTWfrSmp *pWfrSmp, void *pPrcPar, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>ComputeSR_Stokes</name>
+        <qualifiedname>srTMagFldTrUnif::ComputeSR_Stokes</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447">ComputeSR_Stokes</reimplements>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="211" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="487" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1ab31dea6ff34e49d250ab9197e5a6c980" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTMagFldTrUnif::IntersectLineWithZero</definition>
+        <argsstring>(double x1, double x2, double y1, double y2)</argsstring>
+        <name>IntersectLineWithZero</name>
+        <qualifiedname>srTMagFldTrUnif::IntersectLineWithZero</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="213" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="213" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1adafa9fb98a6c6b517d7a77ed6bed0956" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::AllocateArrays</definition>
+        <argsstring>()</argsstring>
+        <name>AllocateArrays</name>
+        <qualifiedname>srTMagFldTrUnif::AllocateArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="219" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="219" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1ad1f99f43d0064650cb52c747499de2bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::CopyArrays</definition>
+        <argsstring>(double *In_BxArr, double *In_BzArr)</argsstring>
+        <name>CopyArrays</name>
+        <qualifiedname>srTMagFldTrUnif::CopyArrays</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>In_BxArr</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_BzArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="227" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="227" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1a0a86a83478061ca2181cde89606cb413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFldTrUnif::DeleteArrays</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteArrays</name>
+        <qualifiedname>srTMagFldTrUnif::DeleteArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="237" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="237" bodyend="242"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_mag_fld_tr_unif_1ab20067662338290d2eecebd529f52c68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsr_t_mag_fld_tr_unif" kindref="compound">srTMagFldTrUnif</ref> *</type>
+        <definition>srTMagFldTrUnif * srTMagFldTrUnif::SumUpSeveralFldTrUnif</definition>
+        <argsstring>(srTMagFldCont *pMagTrUnifCont, srTMagFldCont *pMagContOpt)</argsstring>
+        <name>SumUpSeveralFldTrUnif</name>
+        <qualifiedname>srTMagFldTrUnif::SumUpSeveralFldTrUnif</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagTrUnifCont</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagContOpt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="209" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1217" bodyend="1237"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFldTrUnif</label>
+        <link refid="classsr_t_mag_fld_tr_unif"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFldTrUnif</label>
+        <link refid="classsr_t_mag_fld_tr_unif"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="136" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="136" bodyend="243"/>
+    <listofallmembers>
+      <member refid="classsr_t_mag_fld_tr_unif_1adafa9fb98a6c6b517d7a77ed6bed0956" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>AllocateArrays</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a6abf1b32e5f8e72e4d181058231ac5c1" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>AnalyzeForHarmonics</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a6da9d42db99d6f7b707704fc5f6920ab" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>AnalyzeForHarmonics_DeleteAuxArrays</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a5ef906574851c096578029a0d652b374" prot="private" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>ArraysWereAllocated</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a1271d92cafc72cbede9719034765af3a" prot="private" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>BxArr</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a3dc12c57d380b2e8775a05482ce2dd97" prot="private" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>BzArr</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a44937ce6a67e6ea94c6c718c9b3d8623" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>ChooseDominantBasicFieldPeriodicParam</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a9624a27569dc0d929794a107ec24e455" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>ChooseDominantBasicFieldPeriodicParamAr</name></member>
+      <member refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e" prot="public" virt="virtual"><scope>srTMagFldTrUnif</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5" prot="public" virt="virtual"><scope>srTMagFldTrUnif</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a22a1ed610dede0fbb621e54ca838660f" prot="public" virt="virtual"><scope>srTMagFldTrUnif</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1ad1f99f43d0064650cb52c747499de2bd" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>CopyArrays</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1abf9ce77039ce32d62f2dd465a0959864" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>CreateAndSetupMagFieldPeriodic</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a8f9c1e5b0d606347fb547ec7652b1a08" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>CreateAndSetupMagFieldPeriodicOld</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a486923874feec28b828ce5473a2e2972" prot="public" virt="virtual"><scope>srTMagFldTrUnif</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a0a86a83478061ca2181cde89606cb413" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>DeleteArrays</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a612b58ef824bbaed127ffb13487bd276" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindBasicFieldPeriodicParam</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1ae5e09c9bb4ab438e9b3a964bf364414c" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindBasicFieldPeriodicParamAr</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a0cb5e7eb613fbb41df2d8643272a2918" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindFieldHarmonics</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1af6f3225ee30892f06b14a85d7d426950" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindFieldHarmonicsAr</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a2cfcf61944337c84fb563cbeb5a6cd2c" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindFieldZeros</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a73da0cdfe3581f0d80fd15a66c5149c6" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindMaxAbsVal</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1ac9db488b4219bb953a61a0cd8fd19b5b" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindOnePeriod</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1acb5e9d5db377ffb6ca47f73c27b6eab7" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>FindOnePeriodAr</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a1194e0dc7fd6a697f84ae933ddafabc7" prot="public" virt="virtual"><scope>srTMagFldTrUnif</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a8df5acb7393ccbcb579baac54740890a" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>InterpolateOnePeriodData</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1ab31dea6ff34e49d250ab9197e5a6c980" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>IntersectLineWithZero</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a802702ee1675e45d4485334f7d33ce83" prot="private" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>Np</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1aaa24d22154674641091217230887ccae" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>RotateOnePeriodData</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a9e9c70273c446f58a9b5ceea29887275" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>SetupTrjDat</name></member>
+      <member refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0" prot="public" virt="virtual"><scope>srTMagFldTrUnif</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a592d46872b4db18f49d66f9d5330b937" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>srTMagFldTrUnif</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a98b56c0b30378c8d5d26d1d577426d58" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>srTMagFldTrUnif</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a31cd449c87be55bbf6875f259dcace26" prot="private" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>sStart</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1ae88e3646a647bfd17fcb5a269fce4784" prot="private" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>sStep</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a417bba19269777d3e8465e8a86a10392" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>SumUpFieldHarmonics</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1ab20067662338290d2eecebd529f52c68" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>SumUpSeveralFldTrUnif</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagFldTrUnif</scope><name>~CGenObject</name></member>
+      <member refid="classsr_t_mag_fld_tr_unif_1a2f2145f7d74b6c7804ac927c603fd59b" prot="public" virt="non-virtual"><scope>srTMagFldTrUnif</scope><name>~srTMagFldTrUnif</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

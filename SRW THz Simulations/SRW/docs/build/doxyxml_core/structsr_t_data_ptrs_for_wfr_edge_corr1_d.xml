@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_data_ptrs_for_wfr_edge_corr1_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTDataPtrsForWfrEdgeCorr1D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1ae50503450dcbbf876f1739b205e804a7" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTDataPtrsForWfrEdgeCorr1D::ExpArrSt</definition>
+        <argsstring></argsstring>
+        <name>ExpArrSt</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::ExpArrSt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1809" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a68f61700df0b38d5bace68133dd30dff" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * srTDataPtrsForWfrEdgeCorr1D::ExpArrFi</definition>
+        <argsstring></argsstring>
+        <name>ExpArrFi</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::ExpArrFi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1809" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a9092f572853a1b7ab551170e99ce9e24" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTDataPtrsForWfrEdgeCorr1D::fSt[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>fSt</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::fSt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1810" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1ab015d29db0c8025fb1ca2fa0148042fb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTDataPtrsForWfrEdgeCorr1D::fFi[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>fFi</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::fFi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1810" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a017a767ffe9d037fcc4f8d9b92070bac" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDataPtrsForWfrEdgeCorr1D::dSt</definition>
+        <argsstring></argsstring>
+        <name>dSt</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::dSt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1811" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a586cfa8a58a8222a273025ad0a68c5af" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDataPtrsForWfrEdgeCorr1D::dFi</definition>
+        <argsstring></argsstring>
+        <name>dFi</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::dFi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1811" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a11f3cc0fd0c8ee71fc574501920b08b7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDataPtrsForWfrEdgeCorr1D::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1811" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a5c3f37e460da7438903f7f18c8fc8d3b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTDataPtrsForWfrEdgeCorr1D::WasSetup</definition>
+        <argsstring></argsstring>
+        <name>WasSetup</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::WasSetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1813" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1813" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a6ec739fde1a03cc4cb902578c84fceb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTDataPtrsForWfrEdgeCorr1D::srTDataPtrsForWfrEdgeCorr1D</definition>
+        <argsstring>()</argsstring>
+        <name>srTDataPtrsForWfrEdgeCorr1D</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::srTDataPtrsForWfrEdgeCorr1D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1815" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1815" bodyend="1818"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a4db6271d69f88ea3e70aee8b9358c3f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDataPtrsForWfrEdgeCorr1D::InitializeAll</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeAll</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::InitializeAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1820" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1820" bodyend="1829"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a1d59b9d01ab292566999475c6fc3d1ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDataPtrsForWfrEdgeCorr1D::DisposeData</definition>
+        <argsstring>()</argsstring>
+        <name>DisposeData</name>
+        <qualifiedname>srTDataPtrsForWfrEdgeCorr1D::DisposeData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1831" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1831" bodyend="1837"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1807" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1807" bodyend="1838"/>
+    <listofallmembers>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a11f3cc0fd0c8ee71fc574501920b08b7" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>d</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a586cfa8a58a8222a273025ad0a68c5af" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>dFi</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a1d59b9d01ab292566999475c6fc3d1ab" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>DisposeData</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a017a767ffe9d037fcc4f8d9b92070bac" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>dSt</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a68f61700df0b38d5bace68133dd30dff" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>ExpArrFi</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1ae50503450dcbbf876f1739b205e804a7" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>ExpArrSt</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1ab015d29db0c8025fb1ca2fa0148042fb" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>fFi</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a9092f572853a1b7ab551170e99ce9e24" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>fSt</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a4db6271d69f88ea3e70aee8b9358c3f7" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>InitializeAll</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a6ec739fde1a03cc4cb902578c84fceb8" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>srTDataPtrsForWfrEdgeCorr1D</name></member>
+      <member refid="structsr_t_data_ptrs_for_wfr_edge_corr1_d_1a5c3f37e460da7438903f7f18c8fc8d3b" prot="public" virt="non-virtual"><scope>srTDataPtrsForWfrEdgeCorr1D</scope><name>WasSetup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

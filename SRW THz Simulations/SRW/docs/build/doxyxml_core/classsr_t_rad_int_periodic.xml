@@ -1,0 +1,2826 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_rad_int_periodic" kind="class" language="C++" prot="public">
+    <compoundname>srTRadIntPeriodic</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1aaec359c7d6128a2e28ab12f832f5a1c6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::HalfPI</definition>
+        <argsstring></argsstring>
+        <name>HalfPI</name>
+        <qualifiedname>srTRadIntPeriodic::HalfPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="147" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a1747ad33a34834bec9d2e620f013c53f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>srTRadIntPeriodic::PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="147" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a2b6794e783746a5e45eadda244eda7dd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::TwoPI</definition>
+        <argsstring></argsstring>
+        <name>TwoPI</name>
+        <qualifiedname>srTRadIntPeriodic::TwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="147" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ade35a49ac2f3de20041b0620823a2661" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::ThreePIdTwo</definition>
+        <argsstring></argsstring>
+        <name>ThreePIdTwo</name>
+        <qualifiedname>srTRadIntPeriodic::ThreePIdTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="147" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1afa95bb7ef5de12738d47d440bb2a6486" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::One_dTwoPI</definition>
+        <argsstring></argsstring>
+        <name>One_dTwoPI</name>
+        <qualifiedname>srTRadIntPeriodic::One_dTwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="147" column="36" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a02c7161af81dcb6b1efb70e55f9244e0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::One_dHalfPI</definition>
+        <argsstring></argsstring>
+        <name>One_dHalfPI</name>
+        <qualifiedname>srTRadIntPeriodic::One_dHalfPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="147" column="47" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1aec0280d1d4d43ea09d0ca8ff4735cfce" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a2c</definition>
+        <argsstring></argsstring>
+        <name>a2c</name>
+        <qualifiedname>srTRadIntPeriodic::a2c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a5e7612d1372c5f8a1c84d7dd1aedaee5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a4c</definition>
+        <argsstring></argsstring>
+        <name>a4c</name>
+        <qualifiedname>srTRadIntPeriodic::a4c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a060c6a5e9e4eecb5048b9765cf6a2f74" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a6c</definition>
+        <argsstring></argsstring>
+        <name>a6c</name>
+        <qualifiedname>srTRadIntPeriodic::a6c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a60ef91b1cf01e79329da8dc0bfa33bfe" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a8c</definition>
+        <argsstring></argsstring>
+        <name>a8c</name>
+        <qualifiedname>srTRadIntPeriodic::a8c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a190393d14c62c66b3594b66229274be9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a10c</definition>
+        <argsstring></argsstring>
+        <name>a10c</name>
+        <qualifiedname>srTRadIntPeriodic::a10c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a1470e1fbcc50a110cb27d8096d38e0be" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a12c</definition>
+        <argsstring></argsstring>
+        <name>a12c</name>
+        <qualifiedname>srTRadIntPeriodic::a12c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a587b8c2c7b3af5a84a839ee5d83311df" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a3s</definition>
+        <argsstring></argsstring>
+        <name>a3s</name>
+        <qualifiedname>srTRadIntPeriodic::a3s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a5fda6083e40c4ecf083d8020e8766510" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a5s</definition>
+        <argsstring></argsstring>
+        <name>a5s</name>
+        <qualifiedname>srTRadIntPeriodic::a5s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1afc3a4c25d0174c2a14398c8f7b79b501" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a7s</definition>
+        <argsstring></argsstring>
+        <name>a7s</name>
+        <qualifiedname>srTRadIntPeriodic::a7s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1abf153febca6debad710b5517569c202f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a9s</definition>
+        <argsstring></argsstring>
+        <name>a9s</name>
+        <qualifiedname>srTRadIntPeriodic::a9s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="46" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a0ed443837d04d5e5a62f1799a7547a61" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a11s</definition>
+        <argsstring></argsstring>
+        <name>a11s</name>
+        <qualifiedname>srTRadIntPeriodic::a11s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="50" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ac025ff6329572371a01a70de8e365d42" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::a13s</definition>
+        <argsstring></argsstring>
+        <name>a13s</name>
+        <qualifiedname>srTRadIntPeriodic::a13s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="148" column="55" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1acf068cbde0961764af93c0f701537a4c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::One_d_SqrtPi</definition>
+        <argsstring></argsstring>
+        <name>One_d_SqrtPi</name>
+        <qualifiedname>srTRadIntPeriodic::One_d_SqrtPi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="150" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a261024c2908f9b08a4dafd090ba45754" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Two_d_SqrtPi</definition>
+        <argsstring></argsstring>
+        <name>Two_d_SqrtPi</name>
+        <qualifiedname>srTRadIntPeriodic::Two_d_SqrtPi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="150" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a6604b9e81fe06fb7c870a51a4f724676" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::txE2ptzE2pgEm2_Fs</definition>
+        <argsstring></argsstring>
+        <name>txE2ptzE2pgEm2_Fs</name>
+        <qualifiedname>srTRadIntPeriodic::txE2ptzE2pgEm2_Fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="152" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a4e7703f63f2f86ebbcf55ff7c4b11273" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::InvLambn_Fs</definition>
+        <argsstring></argsstring>
+        <name>InvLambn_Fs</name>
+        <qualifiedname>srTRadIntPeriodic::InvLambn_Fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="152" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a0ae41877e38676bd4b7c9a1e3c56a1fb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::PiInvLambn_Fs</definition>
+        <argsstring></argsstring>
+        <name>PiInvLambn_Fs</name>
+        <qualifiedname>srTRadIntPeriodic::PiInvLambn_Fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="152" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1adfb88587cfdcd06d1a2452487e130e9f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::tx_Fs</definition>
+        <argsstring></argsstring>
+        <name>tx_Fs</name>
+        <qualifiedname>srTRadIntPeriodic::tx_Fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="152" column="52" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a33046e93d56ee6c068e0fef598113f00" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::tz_Fs</definition>
+        <argsstring></argsstring>
+        <name>tz_Fs</name>
+        <qualifiedname>srTRadIntPeriodic::tz_Fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="152" column="58" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a70b9720e9f43ddeb2044a41fe4f521a3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Twotx_Fs</definition>
+        <argsstring></argsstring>
+        <name>Twotx_Fs</name>
+        <qualifiedname>srTRadIntPeriodic::Twotx_Fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="152" column="64" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a0c4b1de79c6ec331744f133bd7480a78" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Twotz_Fs</definition>
+        <argsstring></argsstring>
+        <name>Twotz_Fs</name>
+        <qualifiedname>srTRadIntPeriodic::Twotz_Fs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="152" column="73" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a381658748786cb15dd6070ceda66af16" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::dxHalfSlit</definition>
+        <argsstring></argsstring>
+        <name>dxHalfSlit</name>
+        <qualifiedname>srTRadIntPeriodic::dxHalfSlit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="154" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1af460b3def71696282f0ad816a05d04eb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::dzHalfSlit</definition>
+        <argsstring></argsstring>
+        <name>dzHalfSlit</name>
+        <qualifiedname>srTRadIntPeriodic::dzHalfSlit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="154" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1aac3174f0cae726d4bf72a2749dfb0f1c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Inv_SigmaXpSqrt2</definition>
+        <argsstring></argsstring>
+        <name>Inv_SigmaXpSqrt2</name>
+        <qualifiedname>srTRadIntPeriodic::Inv_SigmaXpSqrt2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="154" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a09c10c0c08d7c6d734f6bd88ddaa8cf1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Inv_SigmaZpSqrt2</definition>
+        <argsstring></argsstring>
+        <name>Inv_SigmaZpSqrt2</name>
+        <qualifiedname>srTRadIntPeriodic::Inv_SigmaZpSqrt2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="154" column="47" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ac84974f712c84c2a38bf992a3cd83a36" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::xPartFactRangeGen</definition>
+        <argsstring></argsstring>
+        <name>xPartFactRangeGen</name>
+        <qualifiedname>srTRadIntPeriodic::xPartFactRangeGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="155" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a11e85d26f29859456b742e92d8f0de0b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::zPartFactRangeGen</definition>
+        <argsstring></argsstring>
+        <name>zPartFactRangeGen</name>
+        <qualifiedname>srTRadIntPeriodic::zPartFactRangeGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="155" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a6ca7454c44314d9c9fc94b07a85019fd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::SigFactGen</definition>
+        <argsstring></argsstring>
+        <name>SigFactGen</name>
+        <qualifiedname>srTRadIntPeriodic::SigFactGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="156" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a3fa6f9b17aa85c3f770ab736ca6c902f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Inv_dsSlit_mmEm2</definition>
+        <argsstring></argsstring>
+        <name>Inv_dsSlit_mmEm2</name>
+        <qualifiedname>srTRadIntPeriodic::Inv_dsSlit_mmEm2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="158" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1affc4dd16eb30200945a3859ef3fedfb1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::SigmaXpGen</definition>
+        <argsstring></argsstring>
+        <name>SigmaXpGen</name>
+        <qualifiedname>srTRadIntPeriodic::SigmaXpGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="159" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a77bd2ec9737886138ea6c161ad05c719" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::SigmaZpGen</definition>
+        <argsstring></argsstring>
+        <name>SigmaZpGen</name>
+        <qualifiedname>srTRadIntPeriodic::SigmaZpGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="159" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a64af09995562956186213ece1321895f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::NperGen</definition>
+        <argsstring></argsstring>
+        <name>NperGen</name>
+        <qualifiedname>srTRadIntPeriodic::NperGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="161" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a352289b03bd2ced457a60723640d8028" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Con_PhPerSecPer10em3bw</definition>
+        <argsstring></argsstring>
+        <name>Con_PhPerSecPer10em3bw</name>
+        <qualifiedname>srTRadIntPeriodic::Con_PhPerSecPer10em3bw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="161" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a38e46a2f68e609c0d63c071b07bc1d45" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPeriodic::EnergySpreadShouldBeTreated</definition>
+        <argsstring></argsstring>
+        <name>EnergySpreadShouldBeTreated</name>
+        <qualifiedname>srTRadIntPeriodic::EnergySpreadShouldBeTreated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="162" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ab5df6165a1c5cad361944e90ec9f1119" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::EnAvg_FinNper</definition>
+        <argsstring></argsstring>
+        <name>EnAvg_FinNper</name>
+        <qualifiedname>srTRadIntPeriodic::EnAvg_FinNper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="164" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a3aa08c7d2f27e6fcc605164bb1fc6e02" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::eExtra_FinNper</definition>
+        <argsstring></argsstring>
+        <name>eExtra_FinNper</name>
+        <qualifiedname>srTRadIntPeriodic::eExtra_FinNper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="164" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1adaa4f85d4481a43384d91be6b22cb479" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::GridMisfit_FinNper</definition>
+        <argsstring></argsstring>
+        <name>GridMisfit_FinNper</name>
+        <qualifiedname>srTRadIntPeriodic::GridMisfit_FinNper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="164" column="37" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a5c8e0700af9a5ab0a184584165a5579d" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPeriodic::s0ShouldBeTreatedGen</definition>
+        <argsstring></argsstring>
+        <name>s0ShouldBeTreatedGen</name>
+        <qualifiedname>srTRadIntPeriodic::s0ShouldBeTreatedGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="166" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a03bde91803057f1f4ca723e231e7c5cc" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPeriodic::s1ShouldBeTreatedGen</definition>
+        <argsstring></argsstring>
+        <name>s1ShouldBeTreatedGen</name>
+        <qualifiedname>srTRadIntPeriodic::s1ShouldBeTreatedGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="166" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a3785137e9fd1c79f143c8de5a0116e8b" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPeriodic::s2ShouldBeTreatedGen</definition>
+        <argsstring></argsstring>
+        <name>s2ShouldBeTreatedGen</name>
+        <qualifiedname>srTRadIntPeriodic::s2ShouldBeTreatedGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="166" column="48" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a6d98c681669215bff5db08c866873bf0" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPeriodic::s3ShouldBeTreatedGen</definition>
+        <argsstring></argsstring>
+        <name>s3ShouldBeTreatedGen</name>
+        <qualifiedname>srTRadIntPeriodic::s3ShouldBeTreatedGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="166" column="69" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ad80a70affd65dd3c2492921db1eb15af" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::PartDistrNormGen</definition>
+        <argsstring></argsstring>
+        <name>PartDistrNormGen</name>
+        <qualifiedname>srTRadIntPeriodic::PartDistrNormGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="167" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1acbbd5ff272f2eaf3d79cdd8a0ce76e4b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Tet_Fphi</definition>
+        <argsstring></argsstring>
+        <name>Tet_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::Tet_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="169" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ae0df7224335647790055ea3b875eddc8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::n_Fphi</definition>
+        <argsstring></argsstring>
+        <name>n_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::n_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="169" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a46200a2be030f2f7c0c0d20349150b84" prot="private" static="no" mutable="no">
+        <type>CGenMathAuxDataForSharpEdgeCorr1D</type>
+        <definition>CGenMathAuxDataForSharpEdgeCorr1D srTRadIntPeriodic::AuxDataForSharpEdgeCorrGen</definition>
+        <argsstring></argsstring>
+        <name>AuxDataForSharpEdgeCorrGen</name>
+        <qualifiedname>srTRadIntPeriodic::AuxDataForSharpEdgeCorrGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="170" column="35" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ad6deb63e7d27c8391740fa4eaa5bb8f2" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTRadIntPeriodic::pA_Fphi</definition>
+        <argsstring></argsstring>
+        <name>pA_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::pA_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="173" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a50b6b05ed41fe2932a866d381367ad43" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::txMin_Fphi</definition>
+        <argsstring></argsstring>
+        <name>txMin_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::txMin_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="174" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a0ba2cace79d494a8414ad5c6067cef5c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::txMax_Fphi</definition>
+        <argsstring></argsstring>
+        <name>txMax_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::txMax_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="174" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a7e7a6691f1d27ab811f4c2a0145fe33b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::tzMin_Fphi</definition>
+        <argsstring></argsstring>
+        <name>tzMin_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::tzMin_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="174" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1acaea9f864d0bc0351e86e4e68b85d785" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::tzMax_Fphi</definition>
+        <argsstring></argsstring>
+        <name>tzMax_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::tzMax_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="174" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a0a384788214d70b8435ff1ffd74fa05f" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> *</type>
+        <definition>srTEnergyAzimuthGrid* srTRadIntPeriodic::pEnAzGrid_Fphi</definition>
+        <argsstring></argsstring>
+        <name>pEnAzGrid_Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::pEnAzGrid_Fphi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="175" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a1aa5f6cff4bf09f6cd12342104315eb0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::NsGen</definition>
+        <argsstring></argsstring>
+        <name>NsGen</name>
+        <qualifiedname>srTRadIntPeriodic::NsGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="177" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1af9a09a04d8ce09f7e536d1e34c3e0949" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::NphiGen</definition>
+        <argsstring></argsstring>
+        <name>NphiGen</name>
+        <qualifiedname>srTRadIntPeriodic::NphiGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="177" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a4a6f502121a0676f660d39aaee5c1b7a" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref></type>
+        <definition>srTEXZ srTRadIntPeriodic::EXZ</definition>
+        <argsstring></argsstring>
+        <name>EXZ</name>
+        <qualifiedname>srTRadIntPeriodic::EXZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="179" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ab54e3523554c715a3a3834e493d4f739" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTRadIntPeriodic::BtxArr</definition>
+        <argsstring></argsstring>
+        <name>BtxArr</name>
+        <qualifiedname>srTRadIntPeriodic::BtxArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="180" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a21b123dee56a10b96adf936184d592cf" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPeriodic::BtzArr</definition>
+        <argsstring></argsstring>
+        <name>BtzArr</name>
+        <qualifiedname>srTRadIntPeriodic::BtzArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="180" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a9577f19c38df7a5cc0899cfa53c9b25d" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPeriodic::XArr</definition>
+        <argsstring></argsstring>
+        <name>XArr</name>
+        <qualifiedname>srTRadIntPeriodic::XArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="180" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ae0b579222f25c485ecffdfa91c910480" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPeriodic::ZArr</definition>
+        <argsstring></argsstring>
+        <name>ZArr</name>
+        <qualifiedname>srTRadIntPeriodic::ZArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="180" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1ab663487f4663091732fca025f674dacf" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPeriodic::IntBtE2Arr</definition>
+        <argsstring></argsstring>
+        <name>IntBtE2Arr</name>
+        <qualifiedname>srTRadIntPeriodic::IntBtE2Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="180" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a06eaafb83fefdcef6979c26bd606d6c3" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref></type>
+        <definition>srTEbmDat srTRadIntPeriodic::EbmDat</definition>
+        <argsstring></argsstring>
+        <name>EbmDat</name>
+        <qualifiedname>srTRadIntPeriodic::EbmDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="184" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a20564adf02bee7cd63af77c78c252f35" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_mag_field_periodic" kindref="compound">srTMagFieldPeriodic</ref></type>
+        <definition>srTMagFieldPeriodic srTRadIntPeriodic::MagPer</definition>
+        <argsstring></argsstring>
+        <name>MagPer</name>
+        <qualifiedname>srTRadIntPeriodic::MagPer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="185" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1adfe4baf035545d1aa1f7be7d5db329c1" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref></type>
+        <definition>srTWfrSmp srTRadIntPeriodic::DistrInfoDat</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDat</name>
+        <qualifiedname>srTRadIntPeriodic::DistrInfoDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="186" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1a31451a6c63c7b6e78c7c06185c0f8be9" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_int_per_sto_prec" kindref="compound">srTRadIntPerStoPrec</ref></type>
+        <definition>srTRadIntPerStoPrec srTRadIntPeriodic::IntPerStoPrec</definition>
+        <argsstring></argsstring>
+        <name>IntPerStoPrec</name>
+        <qualifiedname>srTRadIntPeriodic::IntPerStoPrec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="187" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_periodic_1aac3b0dc712f4a60ba836076c2c2a1e54" prot="public" static="no" mutable="no">
+        <type>srTIntVect *</type>
+        <definition>srTIntVect* srTRadIntPeriodic::pWarningsGen</definition>
+        <argsstring></argsstring>
+        <name>pWarningsGen</name>
+        <qualifiedname>srTRadIntPeriodic::pWarningsGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="189" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a8c6f1616c3d0c93eef2b156a10b29c64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntPeriodic::srTRadIntPeriodic</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadIntPeriodic</name>
+        <qualifiedname>srTRadIntPeriodic::srTRadIntPeriodic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="191" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1acd6985720527d2fe0efedc059d13d94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntPeriodic::srTRadIntPeriodic</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTMagFieldPeriodic *pMagFldPer, srTWfrSmp *pWfrSmp, void *pPrcPar)</argsstring>
+        <name>srTRadIntPeriodic</name>
+        <qualifiedname>srTRadIntPeriodic::srTRadIntPeriodic</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_field_periodic" kindref="compound">srTMagFieldPeriodic</ref> *</type>
+          <declname>pMagFldPer</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="195" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="61" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a65b90f5b9c7fa84f921f6ca6d403ea7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntPeriodic::~srTRadIntPeriodic</definition>
+        <argsstring>()</argsstring>
+        <name>~srTRadIntPeriodic</name>
+        <qualifiedname>srTRadIntPeriodic::~srTRadIntPeriodic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="196" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a37374c58858357dc469fbddc8f5f2a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTRadIntPeriodic::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="201" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="102" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a154da79d5579491448daeaecbd062c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::CheckInputConsistency</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInputConsistency</name>
+        <qualifiedname>srTRadIntPeriodic::CheckInputConsistency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="204" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="132" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a1d2955473e669c68b70578ab5288d9b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::ComputeTotalStokesDistr</definition>
+        <argsstring>(srTStokesStructAccessData *pStokesAccessData, SRWLStructStokes *pStokesSRWL=0)</argsstring>
+        <name>ComputeTotalStokesDistr</name>
+        <qualifiedname>srTRadIntPeriodic::ComputeTotalStokesDistr</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokesAccessData</declname>
+        </param>
+        <param>
+          <type>SRWLStructStokes *</type>
+          <declname>pStokesSRWL</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="206" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="165" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a8dd78eadefc91d7023ce7263a619b0f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::DeduceGridOverPhotonEnergyAndAzimuth</definition>
+        <argsstring>(int n, double &amp;eStart, double &amp;eFin, long &amp;ne, srTEnergyAzimuthGrid &amp;EnAzGrid)</argsstring>
+        <name>DeduceGridOverPhotonEnergyAndAzimuth</name>
+        <qualifiedname>srTRadIntPeriodic::DeduceGridOverPhotonEnergyAndAzimuth</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>eStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>eFin</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>ne</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="209" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1652" bodyend="1984"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1aca5c1b7eb33a25ee064ceb58f8fe55b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::CorrectGridForPassingThroughCritEnergy</definition>
+        <argsstring>(int n, double &amp;eStart, double &amp;eStep, long &amp;ne)</argsstring>
+        <name>CorrectGridForPassingThroughCritEnergy</name>
+        <qualifiedname>srTRadIntPeriodic::CorrectGridForPassingThroughCritEnergy</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>eStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>eStep</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>ne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="211" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2315" bodyend="2335"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a67469cef7f48cddec746284b3a5afbde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::CorrectGridToAllowRangeResizeOnTheOtherSide</definition>
+        <argsstring>(srTEnergyAzimuthGrid &amp;EnAzGrid)</argsstring>
+        <name>CorrectGridToAllowRangeResizeOnTheOtherSide</name>
+        <qualifiedname>srTRadIntPeriodic::CorrectGridToAllowRangeResizeOnTheOtherSide</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="212" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1265" bodyend="1347"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a33242a3fee7280ff1aa74c9eb33625b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::CorrectGridForOnePoint</definition>
+        <argsstring>(srTEnergyAzimuthGrid &amp;EnAzGrid)</argsstring>
+        <name>CorrectGridForOnePoint</name>
+        <qualifiedname>srTRadIntPeriodic::CorrectGridForOnePoint</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="213" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1988" bodyend="2005"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a771db1a3f7851e221614499364943ee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::SetUpVariableGridOverAzimuth</definition>
+        <argsstring>(int n, srTEnergyAzimuthGrid &amp;EnAzGrid)</argsstring>
+        <name>SetUpVariableGridOverAzimuth</name>
+        <qualifiedname>srTRadIntPeriodic::SetUpVariableGridOverAzimuth</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="214" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2009" bodyend="2029"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a1bbe9d4b02217cad5974c1dc4ec17dad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FindAngularObsGrid</definition>
+        <argsstring>(double &amp;xAngStart, double &amp;xAngStep, double &amp;zAngStart, double &amp;zAngStep)</argsstring>
+        <name>FindAngularObsGrid</name>
+        <qualifiedname>srTRadIntPeriodic::FindAngularObsGrid</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>xAngStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>xAngStep</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zAngStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>zAngStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="215" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="747" bodyend="771"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a2ef9123414c4d45f8019f3287e7ce780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::ComputeLongIntForEnAndAz</definition>
+        <argsstring>(int, srTEnergyAzimuthGrid &amp;, double **&amp;, int **&amp;)</argsstring>
+        <name>ComputeLongIntForEnAndAz</name>
+        <qualifiedname>srTRadIntPeriodic::ComputeLongIntForEnAndAz</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <defname>EnAzGrid</defname>
+        </param>
+        <param>
+          <type>double **&amp;</type>
+          <defname>LongIntArrays</defname>
+        </param>
+        <param>
+          <type>int **&amp;</type>
+          <defname>LongIntArrInfo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="218" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="554" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a3cce9c150b177bbead211b5db98c59a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::RestoreLongIntArray</definition>
+        <argsstring>(long ie, srTEnergyAzimuthGrid &amp;EnAzGrid, double **LongIntArrays, int **LongIntArrInfo, double *&amp;pArr)</argsstring>
+        <name>RestoreLongIntArray</name>
+        <qualifiedname>srTRadIntPeriodic::RestoreLongIntArray</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>ie</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>LongIntArrays</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>LongIntArrInfo</declname>
+        </param>
+        <param>
+          <type>double *&amp;</type>
+          <declname>pArr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="220" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="715" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a14a537c3940a2a1a2f62f9d2971ef5ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::AllocateLongIntArraysForEnAndAz</definition>
+        <argsstring>(srTEnergyAzimuthGrid &amp;, float **&amp;)</argsstring>
+        <name>AllocateLongIntArraysForEnAndAz</name>
+        <qualifiedname>srTRadIntPeriodic::AllocateLongIntArraysForEnAndAz</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <defname>EnAzGrid</defname>
+        </param>
+        <param>
+          <type>float **&amp;</type>
+          <defname>LongIntArrays</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="221" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="886" bodyend="902"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a69ecd0d7c38a6f39e71c429dae5bd466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::DisposeLongIntArraysForEnAndAz</definition>
+        <argsstring>(srTEnergyAzimuthGrid &amp;, double **&amp;, int **&amp;)</argsstring>
+        <name>DisposeLongIntArraysForEnAndAz</name>
+        <qualifiedname>srTRadIntPeriodic::DisposeLongIntArraysForEnAndAz</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <defname>EnAzGrid</defname>
+        </param>
+        <param>
+          <type>double **&amp;</type>
+          <defname>LongIntArrays</defname>
+        </param>
+        <param>
+          <type>int **&amp;</type>
+          <defname>LongIntArrInfo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="223" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="907" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1ac452f8248e008a1625a3730a5b7f3d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FindObservationLimits</definition>
+        <argsstring>(double &amp;, double &amp;, double &amp;, double &amp;)</argsstring>
+        <name>FindObservationLimits</name>
+        <qualifiedname>srTRadIntPeriodic::FindObservationLimits</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <defname>txMin</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>txMax</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>tzMin</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>tzMax</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="224" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="775" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a80667c65f631b6c3427ac4cfecaf0b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FindLeastAndMostOffsetPixelCenters</definition>
+        <argsstring>(double &amp;tx0, double &amp;tz0, double &amp;tx1, double &amp;tz1)</argsstring>
+        <name>FindLeastAndMostOffsetPixelCenters</name>
+        <qualifiedname>srTRadIntPeriodic::FindLeastAndMostOffsetPixelCenters</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>tx0</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>tz0</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>tx1</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>tz1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="226" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="807" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a5d59b4563a7b218d13fa4e113eb65615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FindTetMinMaxE2_FromTetxTetz</definition>
+        <argsstring>(double txMin, double txMax, double tzMin, double tzMax, double &amp;TetMinE2, double &amp;TetMaxE2)</argsstring>
+        <name>FindTetMinMaxE2_FromTetxTetz</name>
+        <qualifiedname>srTRadIntPeriodic::FindTetMinMaxE2_FromTetxTetz</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>txMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>txMax</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tzMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tzMax</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>TetMinE2</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>TetMaxE2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="227" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="862" bodyend="882"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a77c0bc0d26747e77d3f932bf501a7c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::EstimateEnergyStepAndPhiLenToResolveObsPixels</definition>
+        <argsstring>(int, double &amp;, double &amp;)</argsstring>
+        <name>EstimateEnergyStepAndPhiLenToResolveObsPixels</name>
+        <qualifiedname>srTRadIntPeriodic::EstimateEnergyStepAndPhiLenToResolveObsPixels</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>eStepToResolve</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>PhiLenToResolve</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="229" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2083" bodyend="2185"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a559fae342fa3c8faea82c4868fb78df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::EstimateEnergyStepToResolveFinNper</definition>
+        <argsstring>(int, srTEnergyAzimuthGrid &amp;)</argsstring>
+        <name>EstimateEnergyStepToResolveFinNper</name>
+        <qualifiedname>srTRadIntPeriodic::EstimateEnergyStepToResolveFinNper</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <defname>EnAzGrid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="230" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2033" bodyend="2079"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a9e81491f43fbe8db6e093258b6b4a450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::EstimateEnergyAndPhiObsLimits</definition>
+        <argsstring>(int n, double &amp;eMinEff, double &amp;eMaxEff, double &amp;PhiMinEff, double &amp;PhiMaxEff)</argsstring>
+        <name>EstimateEnergyAndPhiObsLimits</name>
+        <qualifiedname>srTRadIntPeriodic::EstimateEnergyAndPhiObsLimits</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>eMinEff</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>eMaxEff</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>PhiMinEff</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>PhiMaxEff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="231" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2232" bodyend="2290"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a9146f5a02ac14ee4d6cb126ef2d0f8f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FindPhiIntervalForVectors</definition>
+        <argsstring>(TVector2d *Vectors, int LenVectors, double &amp;PhiMin, double &amp;PhiMax)</argsstring>
+        <name>FindPhiIntervalForVectors</name>
+        <qualifiedname>srTRadIntPeriodic::FindPhiIntervalForVectors</qualifiedname>
+        <param>
+          <type>TVector2d *</type>
+          <declname>Vectors</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>LenVectors</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>PhiMin</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>PhiMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="232" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2294" bodyend="2311"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a2f93edef22e616cb65015d14d6935fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::PhiIntToResolveBox</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double rAvg)</argsstring>
+        <name>PhiIntToResolveBox</name>
+        <qualifiedname>srTRadIntPeriodic::PhiIntToResolveBox</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rAvg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="233" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2189" bodyend="2228"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1abba6a45d6600b9f5976c2dfac0bcd268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::ComputeHarmContribToSpecAtDir</definition>
+        <argsstring>(int n, srTEnergyAzimuthGrid &amp;EnAzGrid, double **LongIntArrays, int **LongIntArrInfo, float *pOutEnSlice, SRWLStructStokes *pStokesSRWL, long long ofstSt)</argsstring>
+        <name>ComputeHarmContribToSpecAtDir</name>
+        <qualifiedname>srTRadIntPeriodic::ComputeHarmContribToSpecAtDir</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>LongIntArrays</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>LongIntArrInfo</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pOutEnSlice</declname>
+        </param>
+        <param>
+          <type>SRWLStructStokes *</type>
+          <declname>pStokesSRWL</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ofstSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="237" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="271" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a90ad39a3cfa429b51ab3449ca19e4895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FillInSymPartsOfResults</definition>
+        <argsstring>(char FinalResAreSymOverX, char FinalResAreSymOverZ, srTStokesStructAccessData *, SRWLStructStokes *)</argsstring>
+        <name>FillInSymPartsOfResults</name>
+        <qualifiedname>srTRadIntPeriodic::FillInSymPartsOfResults</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <defname>pStokesAccessData</defname>
+        </param>
+        <param>
+          <type>SRWLStructStokes *</type>
+          <defname>pStokesSRWL</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="238" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="433" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a89fb6cc916e67bb5d3aa1823c44343a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::TreatEnergySpreadAndFiniteNumberOfPeriods</definition>
+        <argsstring>(int n, srTEnergyAzimuthGrid &amp;EnAzGrid, float *FinNperHarmData, float *pOutEnSlice, SRWLStructStokes *pStokesSRWL, long long ofstSt)</argsstring>
+        <name>TreatEnergySpreadAndFiniteNumberOfPeriods</name>
+        <qualifiedname>srTRadIntPeriodic::TreatEnergySpreadAndFiniteNumberOfPeriods</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>FinNperHarmData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pOutEnSlice</declname>
+        </param>
+        <param>
+          <type>SRWLStructStokes *</type>
+          <declname>pStokesSRWL</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ofstSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="243" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="997" bodyend="1055"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1aca8ec90aad3e40450c12bfd2f5f8f057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::FilamentTreatEnergySpreadAndFiniteNumberOfPeriods</definition>
+        <argsstring>(int n, srTEnergyAzimuthGrid &amp;EnAzGrid, float *FinNperHarmData, float *pOutEnSlice, SRWLStructStokes *pStokesSRWL, long long ofstSt)</argsstring>
+        <name>FilamentTreatEnergySpreadAndFiniteNumberOfPeriods</name>
+        <qualifiedname>srTRadIntPeriodic::FilamentTreatEnergySpreadAndFiniteNumberOfPeriods</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>FinNperHarmData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pOutEnSlice</declname>
+        </param>
+        <param>
+          <type>SRWLStructStokes *</type>
+          <declname>pStokesSRWL</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ofstSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="246" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="974" bodyend="991"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1aa3dce8efaf0fc4f2d05efb7aa1e79578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::ConvStokesCompon</definition>
+        <argsstring>(int StokesNo, srTEnergyAzimuthGrid &amp;EnAzGrid, float *FinNperHarmData, float *ConvFactorData, float *pOutEnSlice, SRWLStructStokes *pStokesSRWL, long long ofstSt)</argsstring>
+        <name>ConvStokesCompon</name>
+        <qualifiedname>srTRadIntPeriodic::ConvStokesCompon</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>StokesNo</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>FinNperHarmData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ConvFactorData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pOutEnSlice</declname>
+        </param>
+        <param>
+          <type>SRWLStructStokes *</type>
+          <declname>pStokesSRWL</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ofstSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="250" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1061" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1accba3d8f3b07a60dde6d84306b7ab5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FindIntegralOfInfNperData</definition>
+        <argsstring>(int n, srTEnergyAzimuthGrid &amp;EnAzGrid, float *InfNperHarmData)</argsstring>
+        <name>FindIntegralOfInfNperData</name>
+        <qualifiedname>srTRadIntPeriodic::FindIntegralOfInfNperData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>InfNperHarmData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="251" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="922" bodyend="968"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a1af34bf5481b52210e9d944fefaa8eff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::EstimateTaperResCurveWidth</definition>
+        <argsstring>(int n)</argsstring>
+        <name>EstimateTaperResCurveWidth</name>
+        <qualifiedname>srTRadIntPeriodic::EstimateTaperResCurveWidth</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="252" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1594" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a6a2a97e44fbd3d0a7eba22a0468d2f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::Int1D_Simpson</definition>
+        <argsstring>(double xSt, double xFi, long Nx, char VsSorPhi, srTEFourier &amp;)</argsstring>
+        <name>Int1D_Simpson</name>
+        <qualifiedname>srTRadIntPeriodic::Int1D_Simpson</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>xSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xFi</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>Nx</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>VsSorPhi</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <defname>Res</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="254" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="2339" bodyend="2395"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1ad0f7b634e86044673a605484ec92c8e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::SetupConvolutionData_Normal</definition>
+        <argsstring>(int n, float *ConvFactorData, double eStart, double eFin, long Ne)</argsstring>
+        <name>SetupConvolutionData_Normal</name>
+        <qualifiedname>srTRadIntPeriodic::SetupConvolutionData_Normal</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ConvFactorData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eFin</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>Ne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="256" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1351" bodyend="1390"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a8f061d710e6dc34a28295f51de41faad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::SetupConvolutionData_Tapered</definition>
+        <argsstring>(int n, float *ConvFactorData, double eStart, double eFin, long Ne)</argsstring>
+        <name>SetupConvolutionData_Tapered</name>
+        <qualifiedname>srTRadIntPeriodic::SetupConvolutionData_Tapered</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ConvFactorData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eFin</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>Ne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="257" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1502" bodyend="1590"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a661db5ba2eef0a0d529b1dfc8f8cd812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::SetupConvolutionData_OpticalKlystron</definition>
+        <argsstring>(int n, float *ConvFactorData, double eStart, double eFin, long Ne)</argsstring>
+        <name>SetupConvolutionData_OpticalKlystron</name>
+        <qualifiedname>srTRadIntPeriodic::SetupConvolutionData_OpticalKlystron</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ConvFactorData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eFin</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>Ne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="258" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="1394" bodyend="1498"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a69dfabaced13e2901b691a98332939df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::SetupConvolutionData</definition>
+        <argsstring>(int n, float *ConvFactorData, double eStart, double eFin, long Ne)</argsstring>
+        <name>SetupConvolutionData</name>
+        <qualifiedname>srTRadIntPeriodic::SetupConvolutionData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ConvFactorData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eFin</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>Ne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="259" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="259" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1af567bcbacd849a44a1796602ec10fb0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::AnalizeFinalResultsSymmetry</definition>
+        <argsstring>(char &amp;FinalResAreSymOverX, char &amp;FinalResAreSymOverZ)</argsstring>
+        <name>AnalizeFinalResultsSymmetry</name>
+        <qualifiedname>srTRadIntPeriodic::AnalizeFinalResultsSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="267" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="267" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a5ef1f9e01115b84054d97401c6666e0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::CopySymEnergySlice</definition>
+        <argsstring>(float *pOrigData, float *pSymData, char SymWithRespectToXax, char SymWithRespectToZax)</argsstring>
+        <name>CopySymEnergySlice</name>
+        <qualifiedname>srTRadIntPeriodic::CopySymEnergySlice</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pOrigData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pSymData</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToXax</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToZax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="286" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="286" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a00d4e6f391791b7ff8b41630b0c8c965" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::CopySymEnergySliceSRWL</definition>
+        <argsstring>(SRWLStructStokes &amp;stk, long long ofstOrigData, long long ofstSymData, char SymWithRespectToXax, char SymWithRespectToZax)</argsstring>
+        <name>CopySymEnergySliceSRWL</name>
+        <qualifiedname>srTRadIntPeriodic::CopySymEnergySliceSRWL</qualifiedname>
+        <param>
+          <type>SRWLStructStokes &amp;</type>
+          <declname>stk</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ofstOrigData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ofstSymData</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToXax</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToZax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="299" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="299" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a6897246f3c5194eb2442e57e3ee6fa0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::A</definition>
+        <argsstring>(int n, double tx, double tz, srTEFourier &amp;E)</argsstring>
+        <name>A</name>
+        <qualifiedname>srTRadIntPeriodic::A</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tz</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="316" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="316" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1aa73afb77fc51c8538060e8bd8e3f5c8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::Fs</definition>
+        <argsstring>(double s, int is, srTEFourier &amp;E)</argsstring>
+        <name>Fs</name>
+        <qualifiedname>srTRadIntPeriodic::Fs</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="337" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="337" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1abba8c34ff17b3af3ad495c9357f5bfa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::Fphi</definition>
+        <argsstring>(double phi, int iphi, srTEFourier &amp;Stokes)</argsstring>
+        <name>Fphi</name>
+        <qualifiedname>srTRadIntPeriodic::Fphi</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>phi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iphi</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>Stokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="347" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="347" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1ab17bb4f66540b7c784562adb6fc75773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadIntPeriodic::FilamentTreatmentIsPossible</definition>
+        <argsstring>(srTEnergyAzimuthGrid &amp;EnAzGrid)</argsstring>
+        <name>FilamentTreatmentIsPossible</name>
+        <qualifiedname>srTRadIntPeriodic::FilamentTreatmentIsPossible</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_energy_azimuth_grid" kindref="compound">srTEnergyAzimuthGrid</ref> &amp;</type>
+          <declname>EnAzGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="371" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="371" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1acadacd04e53dfddc6f3fb6bed4dc12b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::FindPartDistrNorm</definition>
+        <argsstring>()</argsstring>
+        <name>FindPartDistrNorm</name>
+        <qualifiedname>srTRadIntPeriodic::FindPartDistrNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="382" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="382" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a90394be105b7be0bd93eb23c4fb3349c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::F_PartDistr</definition>
+        <argsstring>(double tx, double tz)</argsstring>
+        <name>F_PartDistr</name>
+        <qualifiedname>srTRadIntPeriodic::F_PartDistr</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="387" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="387" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a806e604b7ab3963d890256c5664ad1f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::SetUpAvgEnergy</definition>
+        <argsstring>(int n)</argsstring>
+        <name>SetUpAvgEnergy</name>
+        <qualifiedname>srTRadIntPeriodic::SetUpAvgEnergy</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="397" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="397" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1aedef346dbbe6a9325fa9fd6a0e993023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::DeduceSlitAngDims</definition>
+        <argsstring>()</argsstring>
+        <name>DeduceSlitAngDims</name>
+        <qualifiedname>srTRadIntPeriodic::DeduceSlitAngDims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="409" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="409" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1acac63838112ee455fe854e91dfb1d0dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::DeduceE_BeamConstants</definition>
+        <argsstring>()</argsstring>
+        <name>DeduceE_BeamConstants</name>
+        <qualifiedname>srTRadIntPeriodic::DeduceE_BeamConstants</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="429" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="429" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1ac9605ded8d7d57ddde378085e6e11b39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::DeduceNormConstants</definition>
+        <argsstring>()</argsstring>
+        <name>DeduceNormConstants</name>
+        <qualifiedname>srTRadIntPeriodic::DeduceNormConstants</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="442" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="442" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a75ea05fd2c02478d8c19c12b12a66450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::DeduceNsForOnePeriod</definition>
+        <argsstring>(int n)</argsstring>
+        <name>DeduceNsForOnePeriod</name>
+        <qualifiedname>srTRadIntPeriodic::DeduceNsForOnePeriod</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="455" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="455" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a423672d080486f8898867b65f93bcc40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::DeduceNphi</definition>
+        <argsstring>(int n)</argsstring>
+        <name>DeduceNphi</name>
+        <qualifiedname>srTRadIntPeriodic::DeduceNphi</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="465" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="465" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a9b66527a46729cb4f230c61b4ae42c2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadIntPeriodic::HarmonicIsNeeded</definition>
+        <argsstring>(int n)</argsstring>
+        <name>HarmonicIsNeeded</name>
+        <qualifiedname>srTRadIntPeriodic::HarmonicIsNeeded</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="476" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="476" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a91f7a6a91f6a2d96fa99108c502ea755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::AddHarmonicData</definition>
+        <argsstring>(float *HarmonicData, float *TotData, long ne)</argsstring>
+        <name>AddHarmonicData</name>
+        <qualifiedname>srTRadIntPeriodic::AddHarmonicData</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>HarmonicData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>TotData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>ne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="480" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="480" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a6ba86d05cfa082cff554a2ed66678d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPeriodic::AllocateFieldBasedArrays</definition>
+        <argsstring>()</argsstring>
+        <name>AllocateFieldBasedArrays</name>
+        <qualifiedname>srTRadIntPeriodic::AllocateFieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="499" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="499" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a575b8d1de5e6c0b3d201307238a21b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::DisposeFieldBasedArrays</definition>
+        <argsstring>()</argsstring>
+        <name>DisposeFieldBasedArrays</name>
+        <qualifiedname>srTRadIntPeriodic::DisposeFieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="512" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="512" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1af338f845b4aae79bc6dc50106212d54e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::ZeroOutData</definition>
+        <argsstring>(srTStokesStructAccessData *pStokesAccessData, SRWLStructStokes *pStokesSRWL)</argsstring>
+        <name>ZeroOutData</name>
+        <qualifiedname>srTRadIntPeriodic::ZeroOutData</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokesAccessData</declname>
+        </param>
+        <param>
+          <type>SRWLStructStokes *</type>
+          <declname>pStokesSRWL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="518" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="518" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a13f406e704c2e9573d46f075b1a4dd05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::AzimuthOfArcAndHorLineIntersect</definition>
+        <argsstring>(double y0, double r, double x0)</argsstring>
+        <name>AzimuthOfArcAndHorLineIntersect</name>
+        <qualifiedname>srTRadIntPeriodic::AzimuthOfArcAndHorLineIntersect</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="593" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="593" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a5f5815d8c3307e18ac8ca2b4f82290cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::AzimuthOfArcAndVerLineIntersect</definition>
+        <argsstring>(double x0, double r, double y0)</argsstring>
+        <name>AzimuthOfArcAndVerLineIntersect</name>
+        <qualifiedname>srTRadIntPeriodic::AzimuthOfArcAndVerLineIntersect</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="603" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="603" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a36262e2d585802eb7917dbe8ab5b93bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::EstimateRadAvgOfBox</definition>
+        <argsstring>(double x1, double x2, double y1, double y2, double &amp;r)</argsstring>
+        <name>EstimateRadAvgOfBox</name>
+        <qualifiedname>srTRadIntPeriodic::EstimateRadAvgOfBox</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="610" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="610" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1a7c0a4ecfc59cda791ec1d6bb78967a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::FreqWindowFunc</definition>
+        <argsstring>(double q, double a)</argsstring>
+        <name>FreqWindowFunc</name>
+        <qualifiedname>srTRadIntPeriodic::FreqWindowFunc</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="620" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="620" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1ac21b4e6d217a584d3d1a89139b435e90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::FormalPhase</definition>
+        <argsstring>(float Re, float Im)</argsstring>
+        <name>FormalPhase</name>
+        <qualifiedname>srTRadIntPeriodic::FormalPhase</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Re</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Im</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="627" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="627" bodyend="649"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1ae2931e643eabc94f80e1ff2d6f29a51a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::CosAndSin</definition>
+        <argsstring>(double x, double &amp;Cos, double &amp;Sin)</argsstring>
+        <name>CosAndSin</name>
+        <qualifiedname>srTRadIntPeriodic::CosAndSin</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Cos</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Sin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="651" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="651" bodyend="664"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1abf7a31ebe6771474ac87ac58c136cd6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntPeriodic::Erf</definition>
+        <argsstring>(double x)</argsstring>
+        <name>Erf</name>
+        <qualifiedname>srTRadIntPeriodic::Erf</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="665" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="665" bodyend="692"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_rad_int_periodic_1aa563380780c6df658c99ddf3b8081d7b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPeriodic::ComputeStokes</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTMagFieldPeriodic *pMagFldPer, srTWfrSmp *pWfrSmp, void *pPrcPar, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>ComputeStokes</name>
+        <qualifiedname>srTRadIntPeriodic::ComputeStokes</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_field_periodic" kindref="compound">srTMagFieldPeriodic</ref> *</type>
+          <declname>pMagFldPer</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="202" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.cpp" bodystart="152" bodyend="160"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTMagFieldPeriodic</label>
+        <link refid="classsr_t_mag_field_periodic"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srTRadIntPerStoPrec</label>
+        <link refid="structsr_t_rad_int_per_sto_prec"/>
+      </node>
+      <node id="1">
+        <label>srTRadIntPeriodic</label>
+        <link refid="classsr_t_rad_int_periodic"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>MagPer</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>DistrInfoDat</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>IntPerStoPrec</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" line="145" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h" bodystart="145" bodyend="693"/>
+    <listofallmembers>
+      <member refid="classsr_t_rad_int_periodic_1a6897246f3c5194eb2442e57e3ee6fa0e" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>A</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a190393d14c62c66b3594b66229274be9" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a10c</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a0ed443837d04d5e5a62f1799a7547a61" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a11s</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a1470e1fbcc50a110cb27d8096d38e0be" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a12c</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ac025ff6329572371a01a70de8e365d42" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a13s</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aec0280d1d4d43ea09d0ca8ff4735cfce" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a2c</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a587b8c2c7b3af5a84a839ee5d83311df" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a3s</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a5e7612d1372c5f8a1c84d7dd1aedaee5" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a4c</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a5fda6083e40c4ecf083d8020e8766510" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a5s</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a060c6a5e9e4eecb5048b9765cf6a2f74" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a6c</name></member>
+      <member refid="classsr_t_rad_int_periodic_1afc3a4c25d0174c2a14398c8f7b79b501" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a7s</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a60ef91b1cf01e79329da8dc0bfa33bfe" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a8c</name></member>
+      <member refid="classsr_t_rad_int_periodic_1abf153febca6debad710b5517569c202f" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>a9s</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a91f7a6a91f6a2d96fa99108c502ea755" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>AddHarmonicData</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a6ba86d05cfa082cff554a2ed66678d15" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>AllocateFieldBasedArrays</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a14a537c3940a2a1a2f62f9d2971ef5ff" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>AllocateLongIntArraysForEnAndAz</name></member>
+      <member refid="classsr_t_rad_int_periodic_1af567bcbacd849a44a1796602ec10fb0c" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>AnalizeFinalResultsSymmetry</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a46200a2be030f2f7c0c0d20349150b84" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>AuxDataForSharpEdgeCorrGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a13f406e704c2e9573d46f075b1a4dd05" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>AzimuthOfArcAndHorLineIntersect</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a5f5815d8c3307e18ac8ca2b4f82290cd" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>AzimuthOfArcAndVerLineIntersect</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ab54e3523554c715a3a3834e493d4f739" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>BtxArr</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a21b123dee56a10b96adf936184d592cf" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>BtzArr</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a154da79d5579491448daeaecbd062c47" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>CheckInputConsistency</name></member>
+      <member refid="classsr_t_rad_int_periodic_1abba6a45d6600b9f5976c2dfac0bcd268" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ComputeHarmContribToSpecAtDir</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a2ef9123414c4d45f8019f3287e7ce780" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ComputeLongIntForEnAndAz</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aa563380780c6df658c99ddf3b8081d7b" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ComputeStokes</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a1d2955473e669c68b70578ab5288d9b6" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ComputeTotalStokesDistr</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a352289b03bd2ced457a60723640d8028" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Con_PhPerSecPer10em3bw</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aa3dce8efaf0fc4f2d05efb7aa1e79578" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ConvStokesCompon</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a5ef1f9e01115b84054d97401c6666e0b" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>CopySymEnergySlice</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a00d4e6f391791b7ff8b41630b0c8c965" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>CopySymEnergySliceSRWL</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a33242a3fee7280ff1aa74c9eb33625b6" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>CorrectGridForOnePoint</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aca5c1b7eb33a25ee064ceb58f8fe55b0" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>CorrectGridForPassingThroughCritEnergy</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a67469cef7f48cddec746284b3a5afbde" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>CorrectGridToAllowRangeResizeOnTheOtherSide</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ae2931e643eabc94f80e1ff2d6f29a51a" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_rad_int_periodic_1acac63838112ee455fe854e91dfb1d0dc" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DeduceE_BeamConstants</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a8dd78eadefc91d7023ce7263a619b0f9" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DeduceGridOverPhotonEnergyAndAzimuth</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ac9605ded8d7d57ddde378085e6e11b39" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DeduceNormConstants</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a423672d080486f8898867b65f93bcc40" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DeduceNphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a75ea05fd2c02478d8c19c12b12a66450" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DeduceNsForOnePeriod</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aedef346dbbe6a9325fa9fd6a0e993023" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DeduceSlitAngDims</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a575b8d1de5e6c0b3d201307238a21b90" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DisposeFieldBasedArrays</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a69ecd0d7c38a6f39e71c429dae5bd466" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DisposeLongIntArraysForEnAndAz</name></member>
+      <member refid="classsr_t_rad_int_periodic_1adfe4baf035545d1aa1f7be7d5db329c1" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>DistrInfoDat</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a381658748786cb15dd6070ceda66af16" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>dxHalfSlit</name></member>
+      <member refid="classsr_t_rad_int_periodic_1af460b3def71696282f0ad816a05d04eb" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>dzHalfSlit</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a06eaafb83fefdcef6979c26bd606d6c3" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EbmDat</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a3aa08c7d2f27e6fcc605164bb1fc6e02" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>eExtra_FinNper</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ab5df6165a1c5cad361944e90ec9f1119" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EnAvg_FinNper</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a38e46a2f68e609c0d63c071b07bc1d45" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EnergySpreadShouldBeTreated</name></member>
+      <member refid="classsr_t_rad_int_periodic_1abf7a31ebe6771474ac87ac58c136cd6c" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Erf</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a9e81491f43fbe8db6e093258b6b4a450" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EstimateEnergyAndPhiObsLimits</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a77c0bc0d26747e77d3f932bf501a7c9a" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EstimateEnergyStepAndPhiLenToResolveObsPixels</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a559fae342fa3c8faea82c4868fb78df2" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EstimateEnergyStepToResolveFinNper</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a36262e2d585802eb7917dbe8ab5b93bd" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EstimateRadAvgOfBox</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a1af34bf5481b52210e9d944fefaa8eff" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EstimateTaperResCurveWidth</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a4a6f502121a0676f660d39aaee5c1b7a" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>EXZ</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a90394be105b7be0bd93eb23c4fb3349c" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>F_PartDistr</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aca8ec90aad3e40450c12bfd2f5f8f057" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FilamentTreatEnergySpreadAndFiniteNumberOfPeriods</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ab17bb4f66540b7c784562adb6fc75773" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FilamentTreatmentIsPossible</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a90ad39a3cfa429b51ab3449ca19e4895" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FillInSymPartsOfResults</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a1bbe9d4b02217cad5974c1dc4ec17dad" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FindAngularObsGrid</name></member>
+      <member refid="classsr_t_rad_int_periodic_1accba3d8f3b07a60dde6d84306b7ab5f5" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FindIntegralOfInfNperData</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a80667c65f631b6c3427ac4cfecaf0b70" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FindLeastAndMostOffsetPixelCenters</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ac452f8248e008a1625a3730a5b7f3d67" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FindObservationLimits</name></member>
+      <member refid="classsr_t_rad_int_periodic_1acadacd04e53dfddc6f3fb6bed4dc12b8" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FindPartDistrNorm</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a9146f5a02ac14ee4d6cb126ef2d0f8f1" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FindPhiIntervalForVectors</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a5d59b4563a7b218d13fa4e113eb65615" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FindTetMinMaxE2_FromTetxTetz</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ac21b4e6d217a584d3d1a89139b435e90" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FormalPhase</name></member>
+      <member refid="classsr_t_rad_int_periodic_1abba8c34ff17b3af3ad495c9357f5bfa9" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a7c0a4ecfc59cda791ec1d6bb78967a56" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>FreqWindowFunc</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aa73afb77fc51c8538060e8bd8e3f5c8f" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1adaa4f85d4481a43384d91be6b22cb479" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>GridMisfit_FinNper</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aaec359c7d6128a2e28ab12f832f5a1c6" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>HalfPI</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a9b66527a46729cb4f230c61b4ae42c2c" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>HarmonicIsNeeded</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a37374c58858357dc469fbddc8f5f2a56" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Initialize</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a6a2a97e44fbd3d0a7eba22a0468d2f7b" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Int1D_Simpson</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ab663487f4663091732fca025f674dacf" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>IntBtE2Arr</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a31451a6c63c7b6e78c7c06185c0f8be9" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>IntPerStoPrec</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a3fa6f9b17aa85c3f770ab736ca6c902f" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Inv_dsSlit_mmEm2</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aac3174f0cae726d4bf72a2749dfb0f1c" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Inv_SigmaXpSqrt2</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a09c10c0c08d7c6d734f6bd88ddaa8cf1" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Inv_SigmaZpSqrt2</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a4e7703f63f2f86ebbcf55ff7c4b11273" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>InvLambn_Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a20564adf02bee7cd63af77c78c252f35" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>MagPer</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ae0df7224335647790055ea3b875eddc8" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>n_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a64af09995562956186213ece1321895f" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>NperGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1af9a09a04d8ce09f7e536d1e34c3e0949" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>NphiGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a1aa5f6cff4bf09f6cd12342104315eb0" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>NsGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1acf068cbde0961764af93c0f701537a4c" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>One_d_SqrtPi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a02c7161af81dcb6b1efb70e55f9244e0" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>One_dHalfPI</name></member>
+      <member refid="classsr_t_rad_int_periodic_1afa95bb7ef5de12738d47d440bb2a6486" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>One_dTwoPI</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ad6deb63e7d27c8391740fa4eaa5bb8f2" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>pA_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ad80a70affd65dd3c2492921db1eb15af" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>PartDistrNormGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a0a384788214d70b8435ff1ffd74fa05f" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>pEnAzGrid_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a2f93edef22e616cb65015d14d6935fd6" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>PhiIntToResolveBox</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a1747ad33a34834bec9d2e620f013c53f" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>PI</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a0ae41877e38676bd4b7c9a1e3c56a1fb" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>PiInvLambn_Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1aac3b0dc712f4a60ba836076c2c2a1e54" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>pWarningsGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a3cce9c150b177bbead211b5db98c59a4" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>RestoreLongIntArray</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a5c8e0700af9a5ab0a184584165a5579d" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>s0ShouldBeTreatedGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a03bde91803057f1f4ca723e231e7c5cc" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>s1ShouldBeTreatedGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a3785137e9fd1c79f143c8de5a0116e8b" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>s2ShouldBeTreatedGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a6d98c681669215bff5db08c866873bf0" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>s3ShouldBeTreatedGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a806e604b7ab3963d890256c5664ad1f9" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SetUpAvgEnergy</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a69dfabaced13e2901b691a98332939df" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SetupConvolutionData</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ad0f7b634e86044673a605484ec92c8e0" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SetupConvolutionData_Normal</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a661db5ba2eef0a0d529b1dfc8f8cd812" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SetupConvolutionData_OpticalKlystron</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a8f061d710e6dc34a28295f51de41faad" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SetupConvolutionData_Tapered</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a771db1a3f7851e221614499364943ee0" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SetUpVariableGridOverAzimuth</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a6ca7454c44314d9c9fc94b07a85019fd" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SigFactGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1affc4dd16eb30200945a3859ef3fedfb1" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SigmaXpGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a77bd2ec9737886138ea6c161ad05c719" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>SigmaZpGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a8c6f1616c3d0c93eef2b156a10b29c64" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>srTRadIntPeriodic</name></member>
+      <member refid="classsr_t_rad_int_periodic_1acd6985720527d2fe0efedc059d13d94d" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>srTRadIntPeriodic</name></member>
+      <member refid="classsr_t_rad_int_periodic_1acbbd5ff272f2eaf3d79cdd8a0ce76e4b" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Tet_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ade35a49ac2f3de20041b0620823a2661" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ThreePIdTwo</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a89fb6cc916e67bb5d3aa1823c44343a4" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>TreatEnergySpreadAndFiniteNumberOfPeriods</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a261024c2908f9b08a4dafd090ba45754" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Two_d_SqrtPi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a2b6794e783746a5e45eadda244eda7dd" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>TwoPI</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a70b9720e9f43ddeb2044a41fe4f521a3" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Twotx_Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a0c4b1de79c6ec331744f133bd7480a78" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>Twotz_Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1adfb88587cfdcd06d1a2452487e130e9f" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>tx_Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a6604b9e81fe06fb7c870a51a4f724676" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>txE2ptzE2pgEm2_Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a0ba2cace79d494a8414ad5c6067cef5c" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>txMax_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a50b6b05ed41fe2932a866d381367ad43" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>txMin_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a33046e93d56ee6c068e0fef598113f00" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>tz_Fs</name></member>
+      <member refid="classsr_t_rad_int_periodic_1acaea9f864d0bc0351e86e4e68b85d785" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>tzMax_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a7e7a6691f1d27ab811f4c2a0145fe33b" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>tzMin_Fphi</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a9577f19c38df7a5cc0899cfa53c9b25d" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>XArr</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ac84974f712c84c2a38bf992a3cd83a36" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>xPartFactRangeGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1ae0b579222f25c485ecffdfa91c910480" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ZArr</name></member>
+      <member refid="classsr_t_rad_int_periodic_1af338f845b4aae79bc6dc50106212d54e" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>ZeroOutData</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a11e85d26f29859456b742e92d8f0de0b" prot="private" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>zPartFactRangeGen</name></member>
+      <member refid="classsr_t_rad_int_periodic_1a65b90f5b9c7fa84f921f6ca6d403ea7f" prot="public" virt="non-virtual"><scope>srTRadIntPeriodic</scope><name>~srTRadIntPeriodic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

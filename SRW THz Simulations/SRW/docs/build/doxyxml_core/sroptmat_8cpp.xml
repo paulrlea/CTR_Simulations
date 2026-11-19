@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptmat_8cpp" kind="file" language="C++">
+    <compoundname>sroptmat.cpp</compoundname>
+    <includes refid="sroptmat_8h" local="yes">sroptmat.h</includes>
+    <includes local="yes">srerror.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="7">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptmat.cpp</label>
+        <link refid="sroptmat_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptmat.h</label>
+        <link refid="sroptmat_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="15">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="16">
+        <label>gmvect.h</label>
+      </node>
+      <node id="9">
+        <label>map</label>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="10">
+        <label>smartptr.h</label>
+      </node>
+      <node id="24">
+        <label>srerror.h</label>
+      </node>
+      <node id="6">
+        <label>srigorre.h</label>
+      </node>
+      <node id="19">
+        <label>srinterf.h</label>
+      </node>
+      <node id="22">
+        <label>srwlib.h</label>
+      </node>
+      <node id="11">
+        <label>stlstart.h</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+      <node id="23">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptmat.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srerror.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTOptMater::AtomicWeightArray[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>1.00794,<sp/>4.00260,<sp/>6.941,<sp/>9.01218,<sp/>10.81,<sp/>12.011,<sp/>14.0067,<sp/>15.9994,<sp/>18.998403,<sp/>20.179,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>22.98977,<sp/>24.305,<sp/>26.98154,<sp/>28.0855,<sp/>30.97376,<sp/>32.06,<sp/>35.453,<sp/>39.948,<sp/>39.0983,<sp/>40.08,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>44.9559,<sp/>47.88,<sp/>50.9415,<sp/>51.996,<sp/>54.9380,<sp/>55.847,<sp/>58.9332,<sp/>58.69,<sp/>63.546,<sp/>65.38,<sp/>69.72,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>72.59,<sp/>74.9216,<sp/>78.96,<sp/>79.904,<sp/>83.80,<sp/>85.4678,<sp/>87.62,<sp/>88.9059,<sp/>91.22,<sp/>92.9064,<sp/>95.94,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>98,<sp/>101.07,<sp/>102.9055,<sp/>106.42,<sp/>107.8682,<sp/>112.41,<sp/>114.82,<sp/>118.69,<sp/>121.75,<sp/>127.60,<sp/>126.9045,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>131.29,<sp/>132.9054,<sp/>137.33,<sp/>138.9055,<sp/>140.12,<sp/>140.9077,<sp/>144.24,<sp/>145,<sp/>150.36,<sp/>151.96,<sp/>157.25,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>158.9254,<sp/>162.50,<sp/>164.9304,<sp/>167.26,<sp/>168.9342,<sp/>173.04,<sp/>174.967,<sp/>178.49,<sp/>180.9479,<sp/>183.85,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>186.207,<sp/>190.2,<sp/>192.22,<sp/>195.08,<sp/>196.9665,<sp/>200.59,<sp/>204.383,<sp/>207.2,<sp/>208.9804,<sp/>209,<sp/>210,<sp/>222,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>223,<sp/>226.0254,<sp/>227.0278,<sp/>232.0381,<sp/>231.0359,<sp/>238.0289,<sp/>237.0482,<sp/>244,<sp/>243,<sp/>247,<sp/>247,<sp/>251,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>252,<sp/>257,<sp/>258,<sp/>259,<sp/>260</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Continue<sp/>starting<sp/>from<sp/>Z=43</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srTOptMater::LenAttenArgArray1<sp/>=<sp/>48;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTOptMater::AttenArgArray1[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>1000,<sp/>1100,<sp/>1210,<sp/>1330,<sp/>1460,<sp/>1610,<sp/>1770,<sp/>1950,<sp/>2140,<sp/>2360,<sp/>2590,<sp/>2850,<sp/>3140,<sp/>3450,<sp/>3800,<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>4180,<sp/>4590,<sp/>5050,<sp/>5560,<sp/>6120,<sp/>6730,<sp/>7400,<sp/>8140,<sp/>8950,<sp/>9850,<sp/>10830,<sp/>11920,<sp/>13110,<sp/>14420,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>15860,<sp/>17450,<sp/>19190,<sp/>21110,<sp/>23230,<sp/>25550,<sp/>28100,<sp/>30910,<sp/>34000,<sp/>37400,<sp/>41140,<sp/>45260,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>49790,<sp/>54760,<sp/>60240,<sp/>66260,<sp/>72890,<sp/>80180,<sp/>88200,<sp/>97020</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTOptMater::AttenLengthArrayBe[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>9.03E-03,<sp/>1.19E-02,<sp/>1.58E-02,<sp/>2.11E-02,<sp/>2.81E-02,<sp/>3.77E-02,<sp/>5.06E-02,<sp/>6.82E-02,<sp/>9.22E-02,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>1.25E-01,<sp/>1.70E-01,<sp/>2.31E-01,<sp/>3.16E-01,<sp/>4.32E-01,<sp/>5.90E-01,<sp/>8.07E-01,<sp/>1.10E+00,<sp/>1.51E+00,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>2.06E+00,<sp/>2.80E+00,<sp/>3.82E+00,<sp/>5.21E+00,<sp/>7.11E+00,<sp/>9.69E+00,<sp/>1.32E+01,<sp/>1.80E+01,<sp/>2.44E+01,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>3.32E+01,<sp/>4.49E+01,<sp/>6.06E+01,<sp/>0.81E+02,<sp/>1.07E+02,<sp/>1.40E+02,<sp/>1.78E+02,<sp/>2.21E+02,<sp/>2.66E+02,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>3.09E+02,<sp/>3.45E+02,<sp/>3.72E+02,<sp/>3.88E+02,<sp/>3.94E+02,<sp/>3.92E+02,<sp/>3.84E+02,<sp/>3.71E+02,<sp/>3.57E+02,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>3.46E+02,<sp/>3.32E+02,<sp/>3.17E+02,<sp/>3.04E+02</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTOptMater::AttenLengthArrayPyroC[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>2.88E-03,<sp/>3.77E-03,<sp/>4.94E-03,<sp/>6.49E-03,<sp/>8.54E-03,<sp/>1.13E-02,<sp/>1.49E-02,<sp/>1.97E-02,<sp/>2.60E-02,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>3.45E-02,<sp/>4.59E-02,<sp/>6.10E-02,<sp/>8.13E-02,<sp/>1.09E-01,<sp/>1.45E-01,<sp/>1.95E-01,<sp/>2.61E-01,<sp/>3.52E-01,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>4.74E-01,<sp/>6.40E-01,<sp/>8.65E-01,<sp/>1.17E+00,<sp/>1.59E+00,<sp/>2.17E+00,<sp/>2.96E+00,<sp/>4.04E+00,<sp/>5.53E+00,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>7.58E+00,<sp/>1.04E+01,<sp/>1.43E+01,<sp/>1.95E+01,<sp/>2.67E+01,<sp/>3.61E+01,<sp/>4.91E+01,<sp/>0.66E+02,<sp/>0.88E+02,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>1.14E+02,<sp/>1.46E+02,<sp/>1.80E+02,<sp/>2.16E+02,<sp/>2.50E+02,<sp/>2.80E+02,<sp/>3.02E+02,<sp/>3.18E+02,<sp/>3.27E+02,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>3.22E+02,<sp/>3.18E+02,<sp/>3.12E+02,<sp/>3.03E+02</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>srTOptMater::CharactOfSpecMater(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SpecMatNo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>Z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Density)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((SpecMatNo<sp/>&lt;<sp/>1)<sp/>||<sp/>(SpecMatNo<sp/>&gt;<sp/>AmOfSpecMaterials))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(SpecMatNo)<sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Z<sp/>=<sp/>4;<sp/>Density<sp/>=<sp/>1.845;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Be</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Z<sp/>=<sp/>6;<sp/>Density<sp/>=<sp/>2.20;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>srTOptMater::CompRefractDelta(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SpecMatNo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>InZ,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InDensity,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PhotEn,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Delta)<sp/></highlight><highlight class="comment">//<sp/>PhotEn<sp/>in<sp/>eV,<sp/>Density<sp/>in<sp/>g/cm^3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>re<sp/>=<sp/>2.817938070E-13;<sp/></highlight><highlight class="comment">//<sp/>class.<sp/>el.<sp/>rad.<sp/>in<sp/>cm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Na<sp/>=<sp/>6.02204531E+23;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//const<sp/>double<sp/>amu<sp/>=<sp/>1.660565586E-24;<sp/>//<sp/>atomic<sp/>mass<sp/>unit<sp/>in<sp/>g</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>TwoPI<sp/>=<sp/>6.2831853071796;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Con<sp/>=<sp/>re*Na/TwoPI;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>WavelengthIn_cm<sp/>=<sp/>1.239854E-04/PhotEn;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Z<sp/>=<sp/>InZ;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Density;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((SpecMatNo<sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(SpecMatNo<sp/>&lt;=<sp/>AmOfSpecMaterials))<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CharactOfSpecMater(SpecMatNo,<sp/>Z,<sp/>Density);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(InDensity<sp/>&gt;<sp/>0.)<sp/>Density<sp/>=<sp/>InDensity;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(InDensity<sp/>&lt;=<sp/>0.)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DENSITY_WALUE_NEEDED;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((Z<sp/>&lt;<sp/>0)<sp/>||<sp/>(Z<sp/>&gt;<sp/>103))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BAD_MATER_Z_VALUE;<sp/></highlight><highlight class="comment">//<sp/>Modify<sp/>later</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Density<sp/>=<sp/>InDensity;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>A<sp/>=<sp/>AtomicWeight(Z);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>Delta<sp/>=<sp/>Z*Con*WavelengthIn_cm*WavelengthIn_cm*Density/A;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTOptMater::AttenLength(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SpecMatNo,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PhotEn)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((SpecMatNo<sp/>&lt;<sp/>1)<sp/>||<sp/>(SpecMatNo<sp/>&gt;<sp/>AmOfSpecMaterials))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1.;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((PhotEn<sp/>&lt;<sp/>1000.)<sp/>||<sp/>(PhotEn<sp/>&gt;<sp/>97000.))</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//srTSend<sp/>Send;<sp/>Send.AddWarningMessage(&amp;gVectWarnNos,<sp/>POOR_PREC_OF_ATTEN_LEN);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CErrWarn::AddWarningMessage(&amp;gVectWarnNos,<sp/>POOR_PREC_OF_ATTEN_LEN);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pArgArray<sp/>=<sp/>0,<sp/>*pAttenLength;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*pLenArray;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(SpecMatNo)<sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pArgArray<sp/>=<sp/>AttenArgArray1;<sp/>pAttenLength<sp/>=<sp/>AttenLengthArrayBe;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pLenArray<sp/>=<sp/>&amp;LenAttenArgArray1;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Be</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pArgArray<sp/>=<sp/>AttenArgArray1;<sp/>pAttenLength<sp/>=<sp/>AttenLengthArrayPyroC;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pLenArray<sp/>=<sp/>&amp;LenAttenArgArray1;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>InterpolFunction(pArgArray,<sp/>pAttenLength,<sp/>*pLenArray,<sp/>PhotEn);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTOptMater::InterpolFunction(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>ArgArray,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>AttenLenArray,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LenArray,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Arg)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ArgStart<sp/>=<sp/>*ArgArray,<sp/>ArgFin<sp/>=<sp/>*(ArgArray<sp/>+<sp/>LenArray<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Arg<sp/>&lt;<sp/>ArgStart)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AttenLenArray[0];</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Arg<sp/>&gt;<sp/>ArgFin)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>AttenLenArray[LenArray<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*tArgArray<sp/>=<sp/>ArgArray<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i=1;<sp/>i&lt;LenArray;<sp/>i++)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Arg<sp/>&lt;<sp/>*(tArgArray++))<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iSt<sp/>=<sp/>i<sp/>-<sp/>1,<sp/>iFi<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LinInterpol<sp/>=<sp/>AttenLenArray[iSt]<sp/>+<sp/>((Arg<sp/>-<sp/>ArgArray[iSt])/(ArgArray[iFi]<sp/>-<sp/>ArgArray[iSt]))*(AttenLenArray[iFi]<sp/>-<sp/>AttenLenArray[iSt]);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Interpolate<sp/>better<sp/>later</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>LinInterpol;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptmat.cpp"/>
+  </compounddef>
+</doxygen>

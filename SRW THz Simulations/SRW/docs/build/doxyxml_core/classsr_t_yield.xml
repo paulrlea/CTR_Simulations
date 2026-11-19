@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_yield" kind="class" language="C++" prot="public">
+    <compoundname>srTYield</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_yield_1a87c1eb4074729a6e92ab50b0c74cdde4" prot="private" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t srTYield::oldtime</definition>
+        <argsstring></argsstring>
+        <name>oldtime</name>
+        <qualifiedname>srTYield::oldtime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" line="37" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_yield_1a4091d38cae98a44ab962717c5934b5ce" prot="private" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t srTYield::delta</definition>
+        <argsstring></argsstring>
+        <name>delta</name>
+        <qualifiedname>srTYield::delta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" line="38" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_yield_1abc70fbd878e1d8412cd82607231973e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTYield::srTYield</definition>
+        <argsstring>()</argsstring>
+        <name>srTYield</name>
+        <qualifiedname>srTYield::srTYield</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" line="40" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_yield_1a71fddae394c8978b209d1a34beeac757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTYield::Init</definition>
+        <argsstring>(double t)</argsstring>
+        <name>Init</name>
+        <qualifiedname>srTYield::Init</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" line="42" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" bodystart="72" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_yield_1a48e9e09803b79b9970d46a4a94ddfbf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTYield::Check</definition>
+        <argsstring>()</argsstring>
+        <name>Check</name>
+        <qualifiedname>srTYield::Check</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" line="43" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" bodystart="48" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" line="35" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmlttsk.h" bodystart="35" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classsr_t_yield_1a48e9e09803b79b9970d46a4a94ddfbf8" prot="public" virt="non-virtual"><scope>srTYield</scope><name>Check</name></member>
+      <member refid="classsr_t_yield_1a4091d38cae98a44ab962717c5934b5ce" prot="private" virt="non-virtual"><scope>srTYield</scope><name>delta</name></member>
+      <member refid="classsr_t_yield_1a71fddae394c8978b209d1a34beeac757" prot="public" virt="non-virtual"><scope>srTYield</scope><name>Init</name></member>
+      <member refid="classsr_t_yield_1a87c1eb4074729a6e92ab50b0c74cdde4" prot="private" virt="non-virtual"><scope>srTYield</scope><name>oldtime</name></member>
+      <member refid="classsr_t_yield_1abc70fbd878e1d8412cd82607231973e3" prot="public" virt="non-virtual"><scope>srTYield</scope><name>srTYield</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="class_c_gen_object" kind="class" language="C++" prot="public">
+    <compoundname>CGenObject</compoundname>
+    <derivedcompoundref refid="classsr_t_ebm_dat" prot="public" virt="non-virtual">srTEbmDat</derivedcompoundref>
+    <derivedcompoundref refid="classsr_t_gen_opt_elem" prot="public" virt="non-virtual">srTGenOptElem</derivedcompoundref>
+    <derivedcompoundref refid="classsr_t_gsn_beam" prot="public" virt="non-virtual">srTGsnBeam</derivedcompoundref>
+    <derivedcompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</derivedcompoundref>
+    <derivedcompoundref refid="classsr_t_pow_dens_struct_access_data" prot="public" virt="non-virtual">srTPowDensStructAccessData</derivedcompoundref>
+    <derivedcompoundref refid="classsr_t_s_r_w_rad_struct_access_data" prot="public" virt="non-virtual">srTSRWRadStructAccessData</derivedcompoundref>
+    <derivedcompoundref refid="classsr_t_stokes_struct_access_data" prot="public" virt="non-virtual">srTStokesStructAccessData</derivedcompoundref>
+    <derivedcompoundref refid="classsr_t_wfr_smp" prot="public" virt="non-virtual">srTWfrSmp</derivedcompoundref>
+    <includes refid="srobject_8h" local="no">srobject.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_gen_object_1a1cce8e05331ad10b6004202a4eb4b25a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CGenObject::Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>CGenObject::Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="27" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CGenObject::CGenObject</definition>
+        <argsstring>()</argsstring>
+        <name>CGenObject</name>
+        <qualifiedname>CGenObject::CGenObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="30" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CGenObject::CGenObject</definition>
+        <argsstring>(char *InName)</argsstring>
+        <name>CGenObject</name>
+        <qualifiedname>CGenObject::CGenObject</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>InName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="31" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CGenObject::~CGenObject</definition>
+        <argsstring>()</argsstring>
+        <name>~CGenObject</name>
+        <qualifiedname>CGenObject::~CGenObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="35" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CGenObject::sign</definition>
+        <argsstring>(double x)</argsstring>
+        <name>sign</name>
+        <qualifiedname>CGenObject::sign</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="37" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srobject_8h_source" kindref="compound">srobject.h</ref> Description: Base class for SR related &quot;objects&quot; Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>0.06 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="11">
+        <label>srTAperture</label>
+        <link refid="classsr_t_aperture"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>srTCircAperture</label>
+        <link refid="classsr_t_circ_aperture"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>srTCircObstacle</label>
+        <link refid="classsr_t_circ_obstacle"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTCompositeOptElem</label>
+        <link refid="classsr_t_composite_opt_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srTDriftSpace</label>
+        <link refid="classsr_t_drift_space"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>srTFocusingElem</label>
+        <link refid="classsr_t_focusing_elem"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srTGenOptElem</label>
+        <link refid="classsr_t_gen_opt_elem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srTGenTransmission</label>
+        <link refid="classsr_t_gen_transmission"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srTGenTransmissionSample</label>
+        <link refid="classsr_t_gen_transmission_sample"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>srTGrating</label>
+        <link refid="classsr_t_grating"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>srTGsnBeam</label>
+        <link refid="classsr_t_gsn_beam"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>srTMagChicane</label>
+        <link refid="classsr_t_mag_chicane"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>srTMagDrift</label>
+        <link refid="classsr_t_mag_drift"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>srTMagFieldConstant</label>
+        <link refid="classsr_t_mag_field_constant"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>srTMagFieldPeriodic</label>
+        <link refid="classsr_t_mag_field_periodic"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>srTMagFld3d</label>
+        <link refid="classsr_t_mag_fld3d"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>srTMagFldArb1D</label>
+        <link refid="classsr_t_mag_fld_arb1_d"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>srTMagFldCont</label>
+        <link refid="classsr_t_mag_fld_cont"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>srTMagFldTrUnif</label>
+        <link refid="classsr_t_mag_fld_tr_unif"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>srTMagGroup</label>
+        <link refid="classsr_t_mag_group"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>srTMagHarm</label>
+        <link refid="classsr_t_mag_harm"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>srTMagMult</label>
+        <link refid="classsr_t_mag_mult"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>srTMagSol</label>
+        <link refid="classsr_t_mag_sol"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>srTMirror</label>
+        <link refid="classsr_t_mirror"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>srTMirrorEllipsoid</label>
+        <link refid="classsr_t_mirror_ellipsoid"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srTMirrorHyperboloid</label>
+        <link refid="classsr_t_mirror_hyperboloid"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>srTMirrorParaboloid</label>
+        <link refid="classsr_t_mirror_paraboloid"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>srTMirrorPlane</label>
+        <link refid="classsr_t_mirror_plane"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>srTMirrorSphere</label>
+        <link refid="classsr_t_mirror_sphere"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>srTMirrorToroid</label>
+        <link refid="classsr_t_mirror_toroid"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srTOptAngle</label>
+        <link refid="classsr_t_opt_angle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srTOptCryst</label>
+        <link refid="classsr_t_opt_cryst"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>srTOptInterferometer</label>
+        <link refid="classsr_t_opt_interferometer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srTOptShift</label>
+        <link refid="classsr_t_opt_shift"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>srTPhaseShift</label>
+        <link refid="classsr_t_phase_shift"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>srTPowDensStructAccessData</label>
+        <link refid="classsr_t_pow_dens_struct_access_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>srTRectAperture</label>
+        <link refid="classsr_t_rect_aperture"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>srTRectObstacle</label>
+        <link refid="classsr_t_rect_obstacle"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>srTSRWRadStructAccessData</label>
+        <link refid="classsr_t_s_r_w_rad_struct_access_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srTShapedOptElem</label>
+        <link refid="classsr_t_shaped_opt_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>srTSpherMirror</label>
+        <link refid="classsr_t_spher_mirror"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>srTStokesStructAccessData</label>
+        <link refid="classsr_t_stokes_struct_access_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>srTThickMirrorGen</label>
+        <link refid="classsr_t_thick_mirror_gen"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>srTThinLens</label>
+        <link refid="classsr_t_thin_lens"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>srTWaveguideRect</label>
+        <link refid="classsr_t_waveguide_rect"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>srTZonePlate</label>
+        <link refid="classsr_t_zone_plate"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>srTZonePlateSpec</label>
+        <link refid="classsr_t_zone_plate_spec"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" line="26" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srobject.h" bodystart="26" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>CGenObject</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>CGenObject</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a1cce8e05331ad10b6004202a4eb4b25a" prot="private" virt="non-virtual"><scope>CGenObject</scope><name>Name</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>CGenObject</scope><name>sign</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>CGenObject</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

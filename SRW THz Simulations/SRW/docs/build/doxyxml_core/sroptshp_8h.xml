@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptshp_8h" kind="file" language="C++">
+    <compoundname>sroptshp.h</compoundname>
+    <includes refid="sroptelm_8h" local="yes">sroptelm.h</includes>
+    <includedby refid="sroptapt_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptapt.h</includedby>
+    <includedby refid="sroptfoc_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptfoc.h</includedby>
+    <includedby refid="sroptgrat_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h</includedby>
+    <includedby refid="sroptshp_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptshp.cpp</includedby>
+    <includedby refid="sroptwgr_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h</includedby>
+    <incdepgraph>
+      <node id="19">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="12">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptshp.h</label>
+        <link refid="sroptshp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="4">
+        <label>cstdlib</label>
+      </node>
+      <node id="18">
+        <label>ctype.h</label>
+      </node>
+      <node id="5">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="6">
+        <label>gmvect.h</label>
+      </node>
+      <node id="26">
+        <label>list</label>
+      </node>
+      <node id="14">
+        <label>map</label>
+      </node>
+      <node id="10">
+        <label>math.h</label>
+      </node>
+      <node id="7">
+        <label>smartptr.h</label>
+      </node>
+      <node id="11">
+        <label>srigorre.h</label>
+      </node>
+      <node id="21">
+        <label>srinterf.h</label>
+      </node>
+      <node id="24">
+        <label>srwlib.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="15">
+        <label>stlstart.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="17">
+        <label>string.h</label>
+      </node>
+      <node id="25">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptapt.h</label>
+        <link refid="sroptapt_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h</label>
+        <link refid="sroptgrat_8h_source"/>
+      </node>
+      <node id="5">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgtr.h</label>
+        <link refid="sroptgtr_8h_source"/>
+      </node>
+      <node id="6">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h</label>
+        <link refid="sropthck_8h_source"/>
+      </node>
+      <node id="7">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptpsh.h</label>
+        <link refid="sroptpsh_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptshp.h</label>
+        <link refid="sroptshp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h</label>
+        <link refid="sroptsmr_8h_source"/>
+      </node>
+      <node id="3">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h</label>
+        <link refid="sroptwgr_8h_source"/>
+      </node>
+      <node id="9">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzp.h</label>
+        <link refid="sroptzp_8h_source"/>
+      </node>
+      <node id="10">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzps.h</label>
+        <link refid="sroptzps_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsr_t_shaped_opt_elem" prot="public">srTShapedOptElem</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SROPTSHP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SROPTSHP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptelm.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classsr_t_shaped_opt_elem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_shaped_opt_elem" kindref="compound">srTShapedOptElem</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>m_pPrevWfr;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>m_axRot1,<sp/>m_axRot2,<sp/>m_axRot3;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_angRot1,<sp/>m_angRot2,<sp/>m_angRot3;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>m_apertShape;<sp/></highlight><highlight class="comment">//1-<sp/>rectangular,<sp/>2-<sp/>elliptical</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_halfDim1,<sp/>m_halfDim2;<sp/></highlight><highlight class="comment">//dimensions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OC23062025<sp/>(to<sp/>be<sp/>taken<sp/>into<sp/>account<sp/>at<sp/>calculation<sp/>of<sp/>mirror<sp/>limits<sp/>in<sp/>its<sp/>local<sp/>frame)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_cenOfstDim1,<sp/>m_cenOfstDim2;<sp/></highlight><highlight class="comment">//offsets<sp/>of<sp/>the<sp/>&quot;optical&quot;<sp/>center<sp/>in<sp/>the<sp/>first<sp/>(tangential)<sp/>and<sp/>second<sp/>(sagital)<sp/>directions<sp/>[m]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>m_cenOfstTang,<sp/>m_cenOfstSag;<sp/>//offsets<sp/>of<sp/>the<sp/>&quot;optical&quot;<sp/>center<sp/>of<sp/>the<sp/>mirror<sp/>in<sp/>the<sp/>tangential<sp/>and<sp/>sagital<sp/>directions<sp/>[m]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>srTransHndl<sp/>TransHndl;<sp/></highlight><highlight class="comment">//(auxiliary)<sp/>space<sp/>transformation<sp/>of<sp/>optical<sp/>element<sp/>in<sp/>the<sp/>frame<sp/>of<sp/>(or<sp/>with<sp/>respect<sp/>to)<sp/>the<sp/>incident<sp/>wavefront</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TVector3d<sp/>m_arOutFrame[3];<sp/>//center<sp/>point,<sp/>&quot;horizontal&quot;<sp/>and<sp/>&quot;vertical&quot;<sp/>vectors<sp/>of<sp/>the<sp/>output<sp/>wavefront<sp/>in<sp/>the<sp/>frame<sp/>of<sp/>the<sp/>incident<sp/>wavefront</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>srTransHndl<sp/>TransNomHndl;<sp/></highlight><highlight class="comment">//OCTEST29122022</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>m_eHorOut,<sp/>m_eVertOut;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_extAlongOptAxIn,<sp/>m_extAlongOptAxOut;<sp/></highlight><highlight class="comment">//positive<sp/>&quot;extents&quot;<sp/>of<sp/>real<sp/>input<sp/>and<sp/>output<sp/>planes<sp/>with<sp/>respect<sp/>to<sp/>the<sp/>virtual<sp/>planes<sp/>passing<sp/>through<sp/>element<sp/>center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>m_treatInOut;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>m_wfrInterpMode;<sp/></highlight><highlight class="comment">//wavefront<sp/>interpolation<sp/>mode<sp/>at<sp/>re-sampling<sp/>from<sp/>irregular<sp/>mesh<sp/>(used<sp/>at<sp/>propagation<sp/>through<sp/>&quot;thick&quot;<sp/>mirror):<sp/>1-<sp/>bilinear<sp/>(based<sp/>on<sp/>4<sp/>points);<sp/>2-<sp/>bi-quadratic<sp/>(based<sp/>on<sp/>5<sp/>points).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector2d<sp/>TransvCenPoint;<sp/></highlight><highlight class="comment">//<sp/>in<sp/>the<sp/>frame<sp/>of<sp/>the<sp/>incident<sp/>wavefront</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Theta;<sp/><sp/></highlight><highlight class="comment">//<sp/>Angle<sp/>bw.<sp/>Central<sp/>Normal<sp/>and<sp/>Opt.<sp/>Axis</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>RotPlane;<sp/></highlight><highlight class="comment">//<sp/>&apos;h&apos;<sp/>or<sp/>&apos;v&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_shaped_opt_elem" kindref="compound">srTShapedOptElem</ref>()<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TransvCenPoint.x<sp/>=<sp/>TransvCenPoint.y<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Theta<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RotPlane<sp/>=<sp/></highlight><highlight class="charliteral">&apos;h&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_pPrevWfr<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_extAlongOptAxIn<sp/>=<sp/>m_extAlongOptAxOut<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_wfrInterpMode<sp/>=<sp/>2;<sp/></highlight><highlight class="comment">//1;<sp/>//to<sp/>make<sp/>input<sp/>parameter(?)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsr_t_shaped_opt_elem_1ab222a766dc8219bde4b125e0be63131f" kindref="member">SetupNativeTransformation</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupPreOrient(gmTrans&amp;<sp/>tr)<sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//find<sp/>original<sp/>space<sp/>transformation<sp/>that<sp/>should<sp/>be<sp/>applied<sp/>before<sp/>any<sp/>parametrized<sp/>rotations<sp/>are<sp/>applied</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tr.SetupIdent();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__CUDA_ARCH__<sp/></highlight><highlight class="comment">//HG01082025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>GPU_PORTABLE</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FromLabToLocFrame_Point(TVector3d&amp;<sp/>P)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TransHndl.rep<sp/>!=<sp/>0)<sp/>P<sp/>=<sp/>TransHndl.rep-&gt;TrPoint_inv(P);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FromLabToLocFrame_Vector(TVector3d&amp;<sp/>V)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TransHndl.rep<sp/>!=<sp/>0)<sp/>V<sp/>=<sp/>TransHndl.rep-&gt;TrBiPoint_inv(V);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FromLocToLabFrame_Point(TVector3d&amp;<sp/>P)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TransHndl.rep<sp/>!=<sp/>0)<sp/>P<sp/>=<sp/>TransHndl.rep-&gt;TrPoint(P);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FromLocToLabFrame_Vector(TVector3d&amp;<sp/>V)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TransHndl.rep<sp/>!=<sp/>0)<sp/>V<sp/>=<sp/>TransHndl.rep-&gt;TrBiPoint(V);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>CheckIfPointIsWithinOptElem(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xLoc,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yLoc)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//assumes<sp/>local<sp/>frame<sp/>of<sp/>the<sp/>optical<sp/>element</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if((xLoc<sp/>&lt;<sp/>-m_halfDim1)<sp/>||<sp/>(xLoc<sp/>&gt;<sp/>m_halfDim1)<sp/>||<sp/>(yLoc<sp/>&lt;<sp/>-m_halfDim2)<sp/>||<sp/>(yLoc<sp/>&gt;<sp/>m_halfDim2))<sp/>return<sp/>false;<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OC23062025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((xLoc<sp/>&lt;<sp/>-m_halfDim1+m_cenOfstDim1)<sp/>||<sp/>(xLoc<sp/>&gt;<sp/>m_halfDim1+m_cenOfstDim1)<sp/>||<sp/>(yLoc<sp/>&lt;<sp/>-m_halfDim2+m_cenOfstDim2)<sp/>||<sp/>(yLoc<sp/>&gt;<sp/>m_halfDim2+m_cenOfstDim2))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if((xLoc<sp/>&lt;<sp/>-m_halfDim1+m_cenOfstTang)<sp/>||<sp/>(xLoc<sp/>&gt;<sp/>m_halfDim1+m_cenOfstTang)<sp/>||<sp/>(yLoc<sp/>&lt;<sp/>-m_halfDim2+m_cenOfstSag)<sp/>||<sp/>(yLoc<sp/>&gt;<sp/>m_halfDim2+m_cenOfstSag))<sp/>return<sp/>false;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(m_apertShape<sp/>==<sp/>2)<sp/></highlight><highlight class="comment">//elliptical</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//check<sp/>if<sp/>it<sp/>is<sp/>inside<sp/>ellipse</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>xr<sp/>=<sp/>xLoc/m_halfDim1,<sp/>yr<sp/>=<sp/>yLoc/m_halfDim2;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OC23062025<sp/>(to<sp/>check)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xr<sp/>=<sp/>xLoc/(m_halfDim1+m_cenOfstDim1),<sp/>yr<sp/>=<sp/>yLoc/(m_halfDim2+m_cenOfstDim2);<sp/></highlight><highlight class="comment">//?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>xr<sp/>=<sp/>xLoc/(m_halfDim1+m_cenOfstTang),<sp/>yr<sp/>=<sp/>yLoc/(m_halfDim2+m_cenOfstSag);<sp/>//?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((xr*xr<sp/>+<sp/>yr*yr)<sp/>&gt;<sp/>1)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CalcOutputFrame()</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//uses<sp/>srTransHndl<sp/>TransHndl;<sp/>and<sp/>TVector3d<sp/>m_arOutFrame[3];<sp/>defined<sp/>in<sp/>srTShapedOptElem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TVector3d<sp/>&amp;OutPlaneCenP<sp/>=<sp/>m_arOutFrame[0],<sp/>&amp;eHorOut<sp/>=<sp/>m_arOutFrame[1],<sp/>&amp;eVertOut<sp/>=<sp/>m_arOutFrame[2];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OutPlaneCenP.Zero();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_eHorOut.x<sp/>=<sp/>1;<sp/>m_eHorOut.y<sp/>=<sp/>m_eHorOut.z<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_eVertOut.x<sp/>=<sp/>m_eVertOut.z<sp/>=<sp/>0;<sp/>m_eVertOut.y<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PropagateByRays(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>WfrInterpolOnOrigGrid(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ie,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>arRayOutTrCoord);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>FindElemExtentsAlongOptAxes(gmTrans&amp;<sp/>ElemRot,<sp/>double<sp/>dim1,<sp/>double<sp/>dim2,<sp/>double&amp;<sp/>extIn,<sp/>double&amp;<sp/>extOut);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FindInWaveFrontNormal(<ref refid="structsr_t_e_field_ptrs_x" kindref="compound">srTEFieldPtrsX</ref>&amp;,<sp/>TVector3d&amp;);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SurfaceFunction(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xLoc,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yLoc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SurfNo)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.;}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SurfaceNormalAtPoint(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xLoc,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yLoc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SurfNo,<sp/>TVector3d&amp;<sp/>N)<sp/>{}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FindRayIntersectWithSurface(TVector3d*<sp/>Ray,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SurfNo,<sp/>TVector3d&amp;<sp/>LocPoint)<sp/>{}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupInAndOutPlanes(TVector3d*,<sp/>TVector3d*)<sp/>{}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OneRayTrace(TVector3d*<sp/>Ray,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>OptPath,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>xOut,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>zOut)<sp/>{}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TraceRayInLocFrame(TVector3d*<sp/>Ray,<sp/>TVector3d*<sp/>arIntersectP,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>extraOptPath)<sp/>{}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ModifElecFieldAtSurf(<ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref>&amp;<sp/>EPtrs,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PhaseShift,<sp/>TVector3d*<sp/>Ray,<sp/>TVector3d*<sp/>RayOut)<sp/>{}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetElemDimsInLocFrame(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>horDim,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>vertDim)<sp/>{<sp/>horDim<sp/>=<sp/>vertDim<sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>srTShapedOptElem::FindInWaveFrontNormal(<ref refid="structsr_t_e_field_ptrs_x" kindref="compound">srTEFieldPtrsX</ref>&amp;<sp/>EFieldPtrsX,<sp/>TVector3d&amp;<sp/>WaveFrN)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight><highlight class="comment">//to<sp/>improve<sp/>!!??</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(EFieldPtrsX.WaveFrontTermCanBeTreated)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InvRx<sp/>=<sp/>1./EFieldPtrsX.RobsX;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InvRy<sp/>=<sp/>1./EFieldPtrsX.RobsY;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaveFrN.x<sp/>=<sp/>EFieldPtrsX.x*InvRx;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//WaveFrN.z<sp/>=<sp/>EFieldPtrsX.z*InvRz;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaveFrN.y<sp/>=<sp/>EFieldPtrsX.y*InvRy;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>nxe2_p_nye2<sp/>=<sp/>WaveFrN.x*WaveFrN.x<sp/>+<sp/>WaveFrN.y*WaveFrN.y;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nxe2_p_nye2<sp/>&lt;<sp/>0.01)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaveFrN.z<sp/>=<sp/>1.<sp/>-<sp/>0.5*nxe2_p_nye2*(1.<sp/>+<sp/>0.25*nxe2_p_nye2*(1.<sp/>+<sp/>0.5*nxe2_p_nye2*(1.<sp/>+<sp/>0.625*nxe2_p_nye2)));</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaveFrN.z<sp/>=<sp/>sqrt(1.<sp/>-<sp/>nxe2_p_nye2);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaveFrN.x<sp/>=<sp/>WaveFrN.y<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaveFrN.z<sp/>=<sp/>1.;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptshp.h"/>
+  </compounddef>
+</doxygen>

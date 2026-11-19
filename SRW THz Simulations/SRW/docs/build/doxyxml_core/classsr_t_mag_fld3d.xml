@@ -1,0 +1,988 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_fld3d" kind="class" language="C++" prot="public">
+    <compoundname>srTMagFld3d</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a2af04c9018e5193a26c3fca0ab10e2d6" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTMagFld3d::BxArr</definition>
+        <argsstring></argsstring>
+        <name>BxArr</name>
+        <qualifiedname>srTMagFld3d::BxArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="518" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a566dd4d5ca8b6e6929ba9fe7af265810" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTMagFld3d::ByArr</definition>
+        <argsstring></argsstring>
+        <name>ByArr</name>
+        <qualifiedname>srTMagFld3d::ByArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="518" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1af7585444093c157715b6ec6fa69c8cf1" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTMagFld3d::BzArr</definition>
+        <argsstring></argsstring>
+        <name>BzArr</name>
+        <qualifiedname>srTMagFld3d::BzArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="518" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1abc9f0606a3f2bc45738724188ffc924d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFld3d::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <qualifiedname>srTMagFld3d::nx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="519" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1ad931fadb3d8465699542be64548a0d7f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFld3d::ny</definition>
+        <argsstring></argsstring>
+        <name>ny</name>
+        <qualifiedname>srTMagFld3d::ny</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="519" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a16718c644f6bae28755f53550903ed87" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFld3d::nz</definition>
+        <argsstring></argsstring>
+        <name>nz</name>
+        <qualifiedname>srTMagFld3d::nz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="519" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a1c93866920a52b8d127896a36ca6a277" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::xStart</definition>
+        <argsstring></argsstring>
+        <name>xStart</name>
+        <qualifiedname>srTMagFld3d::xStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="521" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a966a96805a2808c243d45532650c7a18" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::xStep</definition>
+        <argsstring></argsstring>
+        <name>xStep</name>
+        <qualifiedname>srTMagFld3d::xStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="521" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1af70ae411281adb30fde25c94ba5aa8d0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::yStart</definition>
+        <argsstring></argsstring>
+        <name>yStart</name>
+        <qualifiedname>srTMagFld3d::yStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="521" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a8daaf85f2995fffee277029f102258c3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::yStep</definition>
+        <argsstring></argsstring>
+        <name>yStep</name>
+        <qualifiedname>srTMagFld3d::yStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="521" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a18eb35e1c51fe956b97bb877dce75c4d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::zStart</definition>
+        <argsstring></argsstring>
+        <name>zStart</name>
+        <qualifiedname>srTMagFld3d::zStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="521" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a2442e5463851ce4cbab5f9691dce0032" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::zStep</definition>
+        <argsstring></argsstring>
+        <name>zStep</name>
+        <qualifiedname>srTMagFld3d::zStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="521" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1aad6c850e5b305f90367441a80ee54d41" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFld3d::nRep</definition>
+        <argsstring></argsstring>
+        <name>nRep</name>
+        <qualifiedname>srTMagFld3d::nRep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="522" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="522" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1aeffe10fda7a6c39920374c9227081dc8" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagFld3d::ArraysWereAllocated</definition>
+        <argsstring></argsstring>
+        <name>ArraysWereAllocated</name>
+        <qualifiedname>srTMagFld3d::ArraysWereAllocated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="523" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1ac4d7de89e32be9fc3ec3492cd4960e8f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::xEnd</definition>
+        <argsstring></argsstring>
+        <name>xEnd</name>
+        <qualifiedname>srTMagFld3d::xEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="524" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1af492073fcb9049cb7c0a6b7da0ecb715" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::yEnd</definition>
+        <argsstring></argsstring>
+        <name>yEnd</name>
+        <qualifiedname>srTMagFld3d::yEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="524" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1acaff39dcf886b5676a6a05d849c98430" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFld3d::zEnd</definition>
+        <argsstring></argsstring>
+        <name>zEnd</name>
+        <qualifiedname>srTMagFld3d::zEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="524" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a8213795870f54077fbd2d8e76d4615b0" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTMagFld3d::xArr</definition>
+        <argsstring></argsstring>
+        <name>xArr</name>
+        <qualifiedname>srTMagFld3d::xArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="525" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a849c0d44d8c26081576d13ab43e20ae9" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTMagFld3d::yArr</definition>
+        <argsstring></argsstring>
+        <name>yArr</name>
+        <qualifiedname>srTMagFld3d::yArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="525" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a43c1e3fbc458bf9888fd3386db76837f" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTMagFld3d::zArr</definition>
+        <argsstring></argsstring>
+        <name>zArr</name>
+        <qualifiedname>srTMagFld3d::zArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="525" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1aaae6107bc763af1ba7c6e5ec924e1e61" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFld3d::mInterp</definition>
+        <argsstring></argsstring>
+        <name>mInterp</name>
+        <qualifiedname>srTMagFld3d::mInterp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="526" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="526" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1ac38d7c2bd4598cc75d7f5af194d4d8b3" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTMagFld3d::m_nx_mi_2</definition>
+        <argsstring></argsstring>
+        <name>m_nx_mi_2</name>
+        <qualifiedname>srTMagFld3d::m_nx_mi_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="529" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a002b3d57fb33f16403d85fc5f1aa47c7" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTMagFld3d::m_ny_mi_2</definition>
+        <argsstring></argsstring>
+        <name>m_ny_mi_2</name>
+        <qualifiedname>srTMagFld3d::m_ny_mi_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="529" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a6669eee216e1e524cd65b68800c9407f" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTMagFld3d::m_nz_mi_2</definition>
+        <argsstring></argsstring>
+        <name>m_nz_mi_2</name>
+        <qualifiedname>srTMagFld3d::m_nz_mi_2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="529" column="31" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_fld3d_1a3ed6ea8d605ae12b38fb1768b5cd3fc3" prot="private" static="no" mutable="no">
+        <type>map&lt; pair&lt; long long, long long &gt;, CGenMathInterp * &gt;</type>
+        <definition>map&lt;pair&lt;long long, long long&gt;, CGenMathInterp*&gt; srTMagFld3d::mAuxSplineDataB</definition>
+        <argsstring></argsstring>
+        <name>mAuxSplineDataB</name>
+        <qualifiedname>srTMagFld3d::mAuxSplineDataB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="532" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a99d145654f7717eb430c3893f40cbe63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFld3d::srTMagFld3d</definition>
+        <argsstring>(double _xStart, double _xStep, int _nx, double _yStart, double _yStep, int _ny, double _zStart, double _zStep, int _nz, double *_pBx, double *_pBy, double *_pBz, int _nRep, int _interp, char _arraysShouldBeAllocated)</argsstring>
+        <name>srTMagFld3d</name>
+        <qualifiedname>srTMagFld3d::srTMagFld3d</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>_xStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_xStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_yStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_yStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_ny</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_zStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_zStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBy</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nRep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_interp</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>_arraysShouldBeAllocated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="538" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="538" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a33eb8cf3a85755bae05f0e18da43cbeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFld3d::srTMagFld3d</definition>
+        <argsstring>(double _xRange, int _nx, double _yRange, int _ny, double _zRange, int _nz, double *_pX, double *_pY, double *_pZ, double *_pBx, double *_pBy, double *_pBz, int _nRep, int _interp, char _arraysShouldBeAllocated, const TVector3d &amp;inCenP, const TVector3d &amp;inAxV, double inAng=0)</argsstring>
+        <name>srTMagFld3d</name>
+        <qualifiedname>srTMagFld3d::srTMagFld3d</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>_xRange</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_yRange</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_ny</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_zRange</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pY</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBy</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nRep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_interp</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>_arraysShouldBeAllocated</declname>
+        </param>
+        <param>
+          <type>const TVector3d &amp;</type>
+          <declname>inCenP</declname>
+        </param>
+        <param>
+          <type>const TVector3d &amp;</type>
+          <declname>inAxV</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>inAng</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="548" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="548" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1ae235ee404172dcc13812d27228576563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFld3d::srTMagFld3d</definition>
+        <argsstring>()</argsstring>
+        <name>srTMagFld3d</name>
+        <qualifiedname>srTMagFld3d::srTMagFld3d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="555" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="555" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1aadc17a36b256e56d59e69c1a21a72080" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFld3d::~srTMagFld3d</definition>
+        <argsstring>()</argsstring>
+        <name>~srTMagFld3d</name>
+        <qualifiedname>srTMagFld3d::~srTMagFld3d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="567" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="567" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a495434c35d525a403613262ff759630c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::SetupGrid</definition>
+        <argsstring>(double _xStart, double _xStep, int _nx, double _yStart, double _yStep, int _ny, double _zStart, double _zStep, int _nz, double *_pBx, double *_pBy, double *_pBz, int _nRep, char _arraysShouldBeAllocated)</argsstring>
+        <name>SetupGrid</name>
+        <qualifiedname>srTMagFld3d::SetupGrid</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>_xStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_xStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_yStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_yStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_ny</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_zStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_zStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBy</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nRep</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>_arraysShouldBeAllocated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="574" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="574" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1af9699735f21939c1f5232f942cd50997" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::SetupGridFromRange</definition>
+        <argsstring>(double _xRange, int _nx, double _yRange, int _ny, double _zRange, int _nz, double *_pX, double *_pY, double *_pZ, double *_pBx, double *_pBy, double *_pBz, int _nRep, char _arraysShouldBeAllocated)</argsstring>
+        <name>SetupGridFromRange</name>
+        <qualifiedname>srTMagFld3d::SetupGridFromRange</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>_xRange</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_yRange</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_ny</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_zRange</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pY</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBy</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>_pBz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_nRep</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>_arraysShouldBeAllocated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="614" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="614" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a08395083052d608e36ce0f24ce91edf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double srTMagFld3d::GetLongExtent</definition>
+        <argsstring>()</argsstring>
+        <name>GetLongExtent</name>
+        <qualifiedname>srTMagFld3d::GetLongExtent</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52">GetLongExtent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="650" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="650" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a9bb078bcd4ff2e006656c23d6b66b987" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref> *</type>
+        <definition>srTGenTrjDat * srTMagFld3d::CreateAndSetupNewTrjDat</definition>
+        <argsstring>(srTEbmDat *)</argsstring>
+        <name>CreateAndSetupNewTrjDat</name>
+        <qualifiedname>srTMagFld3d::CreateAndSetupNewTrjDat</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257">CreateAndSetupNewTrjDat</reimplements>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <defname>pEbmDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="655" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1241" bodyend="1250"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a995c946ce53af08908562666183d6ec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::compB</definition>
+        <argsstring>(TVector3d &amp;inP, TVector3d &amp;outB)</argsstring>
+        <name>compB</name>
+        <qualifiedname>srTMagFld3d::compB</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e">compB</reimplements>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>inP</declname>
+        </param>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>outB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>20-points version: long ofst_00m1 = ix0 + iy0*perY + izm1*perZ; long ofst_0m10 = ix0 + iym1*perY + iz0*perZ; long ofst_m100 = ixm1 + iy0*perY + iz0*perZ; long ofst_000 = ix0 + iy0*perY + iz0*perZ; long ofst_100 = ix1 + iy0*perY + iz0*perZ; long ofst_200 = ix2 + iy0*perY + iz0*perZ; long ofst_010 = ix0 + iy1*perY + iz0*perZ; long ofst_110 = ix1 + iy1*perY + iz0*perZ; long ofst_210 = ix2 + iy1*perY + iz0*perZ; long ofst_020 = ix0 + iy2*perY + iz0*perZ; long ofst_120 = ix1 + iy2*perY + iz0*perZ; long ofst_001 = ix0 + iy0*perY + iz1*perZ; long ofst_101 = ix1 + iy0*perY + iz1*perZ; long ofst_201 = ix2 + iy0*perY + iz1*perZ; long ofst_011 = ix0 + iy1*perY + iz1*perZ; long ofst_111 = ix1 + iy1*perY + iz1*perZ; long ofst_021 = ix0 + iy2*perY + iz1*perZ; long ofst_002 = ix0 + iy0*perY + iz2*perZ; long ofst_102 = ix1 + iy0*perY + iz2*perZ; long ofst_012 = ix0 + iy1*perY + iz2*perZ; if(BxArr != 0) { double arF[] = {BxArr[ofst_00m1],BxArr[ofst_0m10],BxArr[ofst_m100],BxArr[ofst_000],BxArr[ofst_100],BxArr[ofst_200],BxArr[ofst_010],BxArr[ofst_110],BxArr[ofst_210],BxArr[ofst_020],BxArr[ofst_120], BxArr[ofst_001],BxArr[ofst_101],BxArr[ofst_201],BxArr[ofst_011],BxArr[ofst_111],BxArr[ofst_021],BxArr[ofst_002],BxArr[ofst_102],BxArr[ofst_012]}; outB.x += CGenMathInterp::Interp3dCubicRel(xt, yt, zt, arF); Bloc.x += CGenMathInterp::Interp3dCubicRel(xt, yt, zt, arF); //OC160615 } if(ByArr != 0) { double arF[] = {ByArr[ofst_00m1],ByArr[ofst_0m10],ByArr[ofst_m100],ByArr[ofst_000],ByArr[ofst_100],ByArr[ofst_200],ByArr[ofst_010],ByArr[ofst_110],ByArr[ofst_210],ByArr[ofst_020],ByArr[ofst_120], ByArr[ofst_001],ByArr[ofst_101],ByArr[ofst_201],ByArr[ofst_011],ByArr[ofst_111],ByArr[ofst_021],ByArr[ofst_002],ByArr[ofst_102],ByArr[ofst_012]}; outB.y += CGenMathInterp::Interp3dCubicRel(xt, yt, zt, arF); Bloc.y += CGenMathInterp::Interp3dCubicRel(xt, yt, zt, arF); //OC160615 } if(BzArr != 0) { double arF[] = {BzArr[ofst_00m1],BzArr[ofst_0m10],BzArr[ofst_m100],BzArr[ofst_000],BzArr[ofst_100],BzArr[ofst_200],BzArr[ofst_010],BzArr[ofst_110],BzArr[ofst_210],BzArr[ofst_020],BzArr[ofst_120], BzArr[ofst_001],BzArr[ofst_101],BzArr[ofst_201],BzArr[ofst_011],BzArr[ofst_111],BzArr[ofst_021],BzArr[ofst_002],BzArr[ofst_102],BzArr[ofst_012]}; outB.z += CGenMathInterp::Interp3dCubicRel(xt, yt, zt, arF); Bloc.z += CGenMathInterp::Interp3dCubicRel(xt, yt, zt, arF); //OC160615 }</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="658" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="658" bodyend="1231"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a481fbae3e0f9dd1dfb1c5899bc3f25ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::tabulateB</definition>
+        <argsstring>(srTMagElem *pMagElem)</argsstring>
+        <name>tabulateB</name>
+        <qualifiedname>srTMagFld3d::tabulateB</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref> *</type>
+          <declname>pMagElem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1233" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1233" bodyend="1270"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a9e7725da0a2c7c8fabd031a93494219d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::tabInterpB</definition>
+        <argsstring>(srTMagFldCont &amp;magCont, double arPrecPar[6], double *arPar1, double *arPar2, double *arCoefBx, double *arCoefBy)</argsstring>
+        <name>tabInterpB</name>
+        <qualifiedname>srTMagFld3d::tabInterpB</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> &amp;</type>
+          <declname>magCont</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>arPrecPar</declname>
+          <array>[6]</array>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar1</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arCoefBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arCoefBy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1272" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="1418" bodyend="1790"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a58fb8645f8aff7e1e64668b064d637d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::AllocateArrays</definition>
+        <argsstring>()</argsstring>
+        <name>AllocateArrays</name>
+        <qualifiedname>srTMagFld3d::AllocateArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1281" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1281" bodyend="1300"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a6c6134a6d89eab6ce1bf9a6529e14793" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::CopyArrays</definition>
+        <argsstring>(double *In_BxArr, double *In_ByArr, double *In_BzArr, double *In_xArr=0, double *In_yArr=0, double *In_zArr=0)</argsstring>
+        <name>CopyArrays</name>
+        <qualifiedname>srTMagFld3d::CopyArrays</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>In_BxArr</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_ByArr</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_BzArr</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_xArr</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_yArr</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_zArr</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1301" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1301" bodyend="1326"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1ae5a584e7f77cbd85de87c93424ed4932" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::DeleteArrays</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteArrays</name>
+        <qualifiedname>srTMagFld3d::DeleteArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1327" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1327" bodyend="1338"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_fld3d_1a2e11398467e01aeffb4a3b6afa19d60e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFld3d::DeleteAuxSplineData</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteAuxSplineData</name>
+        <qualifiedname>srTMagFld3d::DeleteAuxSplineData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1339" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1339" bodyend="1350"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFld3d</label>
+        <link refid="classsr_t_mag_fld3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFld3d</label>
+        <link refid="classsr_t_mag_fld3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="516" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="516" bodyend="1351"/>
+    <listofallmembers>
+      <member refid="classsr_t_mag_fld3d_1a58fb8645f8aff7e1e64668b064d637d6" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>AllocateArrays</name></member>
+      <member refid="classsr_t_mag_fld3d_1aeffe10fda7a6c39920374c9227081dc8" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>ArraysWereAllocated</name></member>
+      <member refid="classsr_t_mag_fld3d_1a2af04c9018e5193a26c3fca0ab10e2d6" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>BxArr</name></member>
+      <member refid="classsr_t_mag_fld3d_1a566dd4d5ca8b6e6929ba9fe7af265810" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>ByArr</name></member>
+      <member refid="classsr_t_mag_fld3d_1af7585444093c157715b6ec6fa69c8cf1" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>BzArr</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_fld3d_1a995c946ce53af08908562666183d6ec0" prot="public" virt="virtual"><scope>srTMagFld3d</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5" prot="public" virt="virtual"><scope>srTMagFld3d</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447" prot="public" virt="virtual"><scope>srTMagFld3d</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_fld3d_1a6c6134a6d89eab6ce1bf9a6529e14793" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>CopyArrays</name></member>
+      <member refid="classsr_t_mag_fld3d_1a9bb078bcd4ff2e006656c23d6b66b987" prot="public" virt="virtual"><scope>srTMagFld3d</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_fld3d_1ae5a584e7f77cbd85de87c93424ed4932" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>DeleteArrays</name></member>
+      <member refid="classsr_t_mag_fld3d_1a2e11398467e01aeffb4a3b6afa19d60e" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>DeleteAuxSplineData</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_fld3d_1a08395083052d608e36ce0f24ce91edf6" prot="public" virt="virtual"><scope>srTMagFld3d</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_fld3d_1ac38d7c2bd4598cc75d7f5af194d4d8b3" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>m_nx_mi_2</name></member>
+      <member refid="classsr_t_mag_fld3d_1a002b3d57fb33f16403d85fc5f1aa47c7" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>m_ny_mi_2</name></member>
+      <member refid="classsr_t_mag_fld3d_1a6669eee216e1e524cd65b68800c9407f" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>m_nz_mi_2</name></member>
+      <member refid="classsr_t_mag_fld3d_1a3ed6ea8d605ae12b38fb1768b5cd3fc3" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>mAuxSplineDataB</name></member>
+      <member refid="classsr_t_mag_fld3d_1aaae6107bc763af1ba7c6e5ec924e1e61" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>mInterp</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagFld3d</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_fld3d_1aad6c850e5b305f90367441a80ee54d41" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>nRep</name></member>
+      <member refid="classsr_t_mag_fld3d_1abc9f0606a3f2bc45738724188ffc924d" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>nx</name></member>
+      <member refid="classsr_t_mag_fld3d_1ad931fadb3d8465699542be64548a0d7f" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>ny</name></member>
+      <member refid="classsr_t_mag_fld3d_1a16718c644f6bae28755f53550903ed87" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>nz</name></member>
+      <member refid="classsr_t_mag_fld3d_1a495434c35d525a403613262ff759630c" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>SetupGrid</name></member>
+      <member refid="classsr_t_mag_fld3d_1af9699735f21939c1f5232f942cd50997" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>SetupGridFromRange</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagFld3d</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0" prot="public" virt="virtual"><scope>srTMagFld3d</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_fld3d_1a99d145654f7717eb430c3893f40cbe63" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>srTMagFld3d</name></member>
+      <member refid="classsr_t_mag_fld3d_1a33eb8cf3a85755bae05f0e18da43cbeb" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>srTMagFld3d</name></member>
+      <member refid="classsr_t_mag_fld3d_1ae235ee404172dcc13812d27228576563" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>srTMagFld3d</name></member>
+      <member refid="classsr_t_mag_fld3d_1a9e7725da0a2c7c8fabd031a93494219d" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>tabInterpB</name></member>
+      <member refid="classsr_t_mag_fld3d_1a481fbae3e0f9dd1dfb1c5899bc3f25ab" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>tabulateB</name></member>
+      <member refid="classsr_t_mag_fld3d_1a8213795870f54077fbd2d8e76d4615b0" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>xArr</name></member>
+      <member refid="classsr_t_mag_fld3d_1ac4d7de89e32be9fc3ec3492cd4960e8f" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>xEnd</name></member>
+      <member refid="classsr_t_mag_fld3d_1a1c93866920a52b8d127896a36ca6a277" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>xStart</name></member>
+      <member refid="classsr_t_mag_fld3d_1a966a96805a2808c243d45532650c7a18" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>xStep</name></member>
+      <member refid="classsr_t_mag_fld3d_1a849c0d44d8c26081576d13ab43e20ae9" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>yArr</name></member>
+      <member refid="classsr_t_mag_fld3d_1af492073fcb9049cb7c0a6b7da0ecb715" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>yEnd</name></member>
+      <member refid="classsr_t_mag_fld3d_1af70ae411281adb30fde25c94ba5aa8d0" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>yStart</name></member>
+      <member refid="classsr_t_mag_fld3d_1a8daaf85f2995fffee277029f102258c3" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>yStep</name></member>
+      <member refid="classsr_t_mag_fld3d_1a43c1e3fbc458bf9888fd3386db76837f" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>zArr</name></member>
+      <member refid="classsr_t_mag_fld3d_1acaff39dcf886b5676a6a05d849c98430" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>zEnd</name></member>
+      <member refid="classsr_t_mag_fld3d_1a18eb35e1c51fe956b97bb877dce75c4d" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>zStart</name></member>
+      <member refid="classsr_t_mag_fld3d_1a2442e5463851ce4cbab5f9691dce0032" prot="private" virt="non-virtual"><scope>srTMagFld3d</scope><name>zStep</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagFld3d</scope><name>~CGenObject</name></member>
+      <member refid="classsr_t_mag_fld3d_1aadc17a36b256e56d59e69c1a21a72080" prot="public" virt="non-virtual"><scope>srTMagFld3d</scope><name>~srTMagFld3d</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

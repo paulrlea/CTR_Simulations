@@ -1,0 +1,1766 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_rad_int_thick_beam" kind="class" language="C++" prot="public">
+    <compoundname>srTRadIntThickBeam</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1a81e19258eedbe7a12a9a598cac45761c" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref></type>
+        <definition>srTFieldBasedArrays srTRadIntThickBeam::gFldArr</definition>
+        <argsstring></argsstring>
+        <name>gFldArr</name>
+        <qualifiedname>srTRadIntThickBeam::gFldArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="63" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1aed32de4577b93e443b8afb17d07fb1f4" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_int_thick_beam_aux_params" kindref="compound">srTRadIntThickBeamAuxParams</ref></type>
+        <definition>srTRadIntThickBeamAuxParams srTRadIntThickBeam::gAuxPar</definition>
+        <argsstring></argsstring>
+        <name>gAuxPar</name>
+        <qualifiedname>srTRadIntThickBeam::gAuxPar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="64" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1a38d89c0321e1e91bdc3ba7e36bc754ad" prot="private" static="no" mutable="no">
+        <type>TComplexD *</type>
+        <definition>TComplexD* srTRadIntThickBeam::gCoefA</definition>
+        <argsstring></argsstring>
+        <name>gCoefA</name>
+        <qualifiedname>srTRadIntThickBeam::gCoefA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="67" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1a790916084e4dece867a08d3dc7ca48c6" prot="private" static="no" mutable="no">
+        <type>TComplexD *</type>
+        <definition>TComplexD * srTRadIntThickBeam::gCoefB</definition>
+        <argsstring></argsstring>
+        <name>gCoefB</name>
+        <qualifiedname>srTRadIntThickBeam::gCoefB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="67" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1aab2fa39cdb4f75309c6351fb0c2232b0" prot="private" static="no" mutable="no">
+        <type>TComplexD *</type>
+        <definition>TComplexD * srTRadIntThickBeam::gBottomArrA</definition>
+        <argsstring></argsstring>
+        <name>gBottomArrA</name>
+        <qualifiedname>srTRadIntThickBeam::gBottomArrA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="67" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1a25f6007f0fe073d81828a917fcc4f0f3" prot="private" static="no" mutable="no">
+        <type>TComplexD *</type>
+        <definition>TComplexD * srTRadIntThickBeam::gBottomArrB</definition>
+        <argsstring></argsstring>
+        <name>gBottomArrB</name>
+        <qualifiedname>srTRadIntThickBeam::gBottomArrB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="67" column="37" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1a5b6923ee33dbbf4548b7e1c5aace5d25" prot="private" static="no" mutable="no">
+        <type>TComplexD *</type>
+        <definition>TComplexD * srTRadIntThickBeam::gRightArrA</definition>
+        <argsstring></argsstring>
+        <name>gRightArrA</name>
+        <qualifiedname>srTRadIntThickBeam::gRightArrA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="67" column="49" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1ac7540b9698e6b6aa0ebaf068d5cb2577" prot="private" static="no" mutable="no">
+        <type>TComplexD *</type>
+        <definition>TComplexD * srTRadIntThickBeam::gRightArrB</definition>
+        <argsstring></argsstring>
+        <name>gRightArrB</name>
+        <qualifiedname>srTRadIntThickBeam::gRightArrB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="67" column="60" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1ad2c0fcfeb2a0f825c66123ea2a77f424" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeam::m_SpareElecEnergyVal</definition>
+        <argsstring></argsstring>
+        <name>m_SpareElecEnergyVal</name>
+        <qualifiedname>srTRadIntThickBeam::m_SpareElecEnergyVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="71" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1a2df61e78f4aab57f13f553c9c77547b7" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int srTRadIntThickBeam::gNumCoefForOnePointA</definition>
+        <argsstring></argsstring>
+        <name>gNumCoefForOnePointA</name>
+        <qualifiedname>srTRadIntThickBeam::gNumCoefForOnePointA</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="68" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_thick_beam_1abe18a64f524503c524d5ed8600ba314d" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int srTRadIntThickBeam::gNumCoefForOnePointB</definition>
+        <argsstring></argsstring>
+        <name>gNumCoefForOnePointB</name>
+        <qualifiedname>srTRadIntThickBeam::gNumCoefForOnePointB</qualifiedname>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="69" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a5a398843ac90061c12d4fd7763626fa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntThickBeam::srTRadIntThickBeam</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadIntThickBeam</name>
+        <qualifiedname>srTRadIntThickBeam::srTRadIntThickBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="76" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="76" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1adbf12de2ca12884a77ea50582059ddad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntThickBeam::~srTRadIntThickBeam</definition>
+        <argsstring>()</argsstring>
+        <name>~srTRadIntThickBeam</name>
+        <qualifiedname>srTRadIntThickBeam::~srTRadIntThickBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="87" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a3912e4a13eebff1eec10749f19572183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTRadIntThickBeam::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="92" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="92" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a2b4e80bd790b6fe12a9858487eb5b36a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::DeleteAuxStruct</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteAuxStruct</name>
+        <qualifiedname>srTRadIntThickBeam::DeleteAuxStruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="99" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="99" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1afc08e8f04324a543990d041b0a8e9d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeTotalStokesDistr</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTMagFldTrUnif *pMagFldTrUnif, srTMagFldCont *pMagLensCont, srTParPrecStokesArb *pPrcPar, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>ComputeTotalStokesDistr</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeTotalStokesDistr</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_tr_unif" kindref="compound">srTMagFldTrUnif</ref> *</type>
+          <declname>pMagFldTrUnif</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagLensCont</declname>
+        </param>
+        <param>
+          <type>srTParPrecStokesArb *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="111" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="132" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1adebf84b9603f9e7e8d30f5504d989e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeTotalStokesDistrViaSingleElec</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTMagFldTrUnif *pMagFldTrUnif, srTParPrecStokesArb *pPrcPar, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>ComputeTotalStokesDistrViaSingleElec</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeTotalStokesDistrViaSingleElec</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_tr_unif" kindref="compound">srTMagFldTrUnif</ref> *</type>
+          <declname>pMagFldTrUnif</declname>
+        </param>
+        <param>
+          <type>srTParPrecStokesArb *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="112" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm2.cpp" bodystart="178" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a75da103128574c0c7512506c0f452ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::SetupInitialTrajArrays</definition>
+        <argsstring>(srTTrjDat *pTrUnifTrjDat, srTMagFldCont *pMagLensCont, srTParPrecStokesArb *pPrcPar)</argsstring>
+        <name>SetupInitialTrajArrays</name>
+        <qualifiedname>srTRadIntThickBeam::SetupInitialTrajArrays</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>pTrUnifTrjDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagLensCont</declname>
+        </param>
+        <param>
+          <type>srTParPrecStokesArb *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="113" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="223" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a9b403939daae1dac4cffdc4b4536a350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeTrajArrays</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, srTTrjDat *pTrUnifTrjDat, srTMagFldCont *pMagLensCont)</argsstring>
+        <name>ComputeTrajArrays</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeTrajArrays</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>pTrUnifTrjDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagLensCont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="114" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="275" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a1557255b3fd67d9e4bdc04afb04d0225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeOffAxisTrajArrays</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, srTMagFldCont *pMagLensCont)</argsstring>
+        <name>ComputeOffAxisTrajArrays</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeOffAxisTrajArrays</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagLensCont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="115" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="309" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a0613c84662e6917d6465a9b373a995a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::DetermineLongPosGridLimits</definition>
+        <argsstring>(srTTrjDat *pTrUnifTrjDat, srTMagFldCont *pMagLensCont, double &amp;sStart, double &amp;sEnd)</argsstring>
+        <name>DetermineLongPosGridLimits</name>
+        <qualifiedname>srTRadIntThickBeam::DetermineLongPosGridLimits</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>pTrUnifTrjDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagLensCont</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="116" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="258" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ab7f81e791aedd395dec1d266b193ef66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::AnalyzeFinalResultsSymmetry</definition>
+        <argsstring>(char &amp;FinalResAreSymOverX, char &amp;FinalResAreSymOverZ, srTEbmDat *pElecBeam, srTTrjDat *pTrjDat, srTMagFldCont *pMagLensCont, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>AnalyzeFinalResultsSymmetry</name>
+        <qualifiedname>srTRadIntThickBeam::AnalyzeFinalResultsSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>pTrjDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagLensCont</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="117" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="335" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a39fc421a02b27cfd630948dc4803b52a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::FillInSymPartsOfResults</definition>
+        <argsstring>(char FinalResAreSymOverX, char FinalResAreSymOverZ, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>FillInSymPartsOfResults</name>
+        <qualifiedname>srTRadIntThickBeam::FillInSymPartsOfResults</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="118" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="384" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a94d8a7b8dc596ded8f434dd78bec8d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::CopySymEnergySlice</definition>
+        <argsstring>(float *pOrigData, float *pSymData, long long Ne, char SymWithRespectToXax, char SymWithRespectToZax)</argsstring>
+        <name>CopySymEnergySlice</name>
+        <qualifiedname>srTRadIntThickBeam::CopySymEnergySlice</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pOrigData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pSymData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Ne</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToXax</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>SymWithRespectToZax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="119" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="488" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ac68784e2aa8316cb4aacea9dcb3021ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long srTRadIntThickBeam::FindTotalAmOfPointsToCalc</definition>
+        <argsstring>(srTStokesStructAccessData *pStokes, char FinalResAreSymOverX, char FinalResAreSymOverZ)</argsstring>
+        <name>FindTotalAmOfPointsToCalc</name>
+        <qualifiedname>srTRadIntThickBeam::FindTotalAmOfPointsToCalc</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="122" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="373" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1afe6a54e85d2b9d0dcf00925b6ceeb503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint</definition>
+        <argsstring>(srTEXZY EXZY, srTParPrecStokesArb &amp;Prec, srTStokes &amp;CurSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z_y" kindref="compound">srTEXZY</ref></type>
+          <declname>EXZY</declname>
+        </param>
+        <param>
+          <type>srTParPrecStokesArb &amp;</type>
+          <declname>Prec</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>CurSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="123" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="504" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ac3e18f9ac20f246c2f12f200824d27b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_InternIntens_EvenMesh</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, srTStokes &amp;CurSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_InternIntens_EvenMesh</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_InternIntens_EvenMesh</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>CurSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="124" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="1476" bodyend="1522"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1abd52897b6b079d46c6459f76cb8063df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddBotLeft</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, srTStokes &amp;CurSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_ExternIntens_AddBotLeft</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddBotLeft</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>CurSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="126" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="597" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a561cc83245901ffdf4ddc292c1097376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddCen</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, char b_or_r, srTStokes &amp;CurSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_ExternIntens_AddCen</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddCen</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>b_or_r</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>CurSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="127" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="635" bodyend="792"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a793a91fe2c278b4adc30c0a1d8ed102d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddBotRight</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, srTStokes &amp;CurSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_ExternIntens_AddBotRight</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddBotRight</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>CurSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="128" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="796" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1acc8d0b8cda38e0f71840a5fa3c2a02cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddTopRight</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, srTStokes &amp;CurSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_ExternIntens_AddTopRight</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens_AddTopRight</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>CurSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="129" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="834" bodyend="866"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a7933a369390919aa4cbccabc932a9f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_Intens_PrepAandB</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long CurNs, long long CurNst, long long iStart, long long itStart, TComplexD *ArrA, TComplexD *ArrB)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_Intens_PrepAandB</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_Intens_PrepAandB</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>CurNs</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>CurNst</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iStart</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>itStart</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrA</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="131" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="537" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ab5393735de75575a9fb27604859a8814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::Integrate1DStokesArr</definition>
+        <argsstring>(srTStokes *StokesArr, long long Np, double Step, srTStokes *pInitDer, srTStokes *pFinDer, srTStokes &amp;ResSt)</argsstring>
+        <name>Integrate1DStokesArr</name>
+        <qualifiedname>srTRadIntThickBeam::Integrate1DStokesArr</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> *</type>
+          <declname>StokesArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Step</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> *</type>
+          <declname>pInitDer</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> *</type>
+          <declname>pFinDer</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="134" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="1393" bodyend="1420"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a4c7341e0d119f3d8f8cef07b4a74ef43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::EstimateExtraObservRangesToIncludeEmittance</definition>
+        <argsstring>(srTStokesStructAccessData *pStokes, srTEbmDat *pElecBeam, double *ArrExtraRanges)</argsstring>
+        <name>EstimateExtraObservRangesToIncludeEmittance</name>
+        <qualifiedname>srTRadIntThickBeam::EstimateExtraObservRangesToIncludeEmittance</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ArrExtraRanges</declname>
+        </param>
+        <briefdescription>
+<para>File: srthckbm2.cpp Description: SR Stokes parameters calculation method for ~Arbitrary magnetic field (used rarely, under-programmed) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="136" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm2.cpp" bodystart="22" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ab6156a14e538c8ff51bc94792c24c7a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+        <definition>srTSRWRadStructAccessData * srTRadIntThickBeam::CreateNewRadStructWithConstParams</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTTrjDat *pTrjDat, srTStokesStructAccessData *pStokes, srTWfrSmp *&amp;pWfrSmp)</argsstring>
+        <name>CreateNewRadStructWithConstParams</name>
+        <qualifiedname>srTRadIntThickBeam::CreateNewRadStructWithConstParams</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>pTrjDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *&amp;</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="137" column="31" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm2.cpp" bodystart="43" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a88707ecb918fb94155d48835f5852906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntThickBeam::GetNextElecEnergyFromGausDistrib</definition>
+        <argsstring>(srTEbmDat &amp;OrigElecBeam, CGenMathRand &amp;RandGen)</argsstring>
+        <name>GetNextElecEnergyFromGausDistrib</name>
+        <qualifiedname>srTRadIntThickBeam::GetNextElecEnergyFromGausDistrib</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>OrigElecBeam</declname>
+        </param>
+        <param>
+          <type>CGenMathRand &amp;</type>
+          <declname>RandGen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="138" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm2.cpp" bodystart="93" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ad8f48fa3a05ced263bc1655887f8cbf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadIntThickBeam::UpdateResultStokesData</definition>
+        <argsstring>(float *ArrAuxDataS0, float *ArrAuxDataS1, float *ArrAuxDataS2, float *ArrAuxDataS3, srTWfrSmp *pWfrSmp, long long iElecEn, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>UpdateResultStokesData</name>
+        <qualifiedname>srTRadIntThickBeam::UpdateResultStokesData</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>ArrAuxDataS0</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ArrAuxDataS1</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ArrAuxDataS2</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>ArrAuxDataS3</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iElecEn</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="140" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm2.cpp" bodystart="114" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ab772a4eef2d4908a3fd83bc523456040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, srTStokes &amp;CurSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_ExternIntens</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_ExternIntens</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>CurSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="142" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="142" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a26a52b0aa5291180b06b15246108e51e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeIntensFuncPartsForInteg2D</definition>
+        <argsstring>(double s, double us, TComplexD *ArrA, TComplexD *ArrB, TComplexD *pA_Stokes, TComplexD &amp;B)</argsstring>
+        <name>ComputeIntensFuncPartsForInteg2D</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeIntensFuncPartsForInteg2D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>us</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrA</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrB</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>pA_Stokes</declname>
+        </param>
+        <param>
+          <type>TComplexD &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="154" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="154" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a706f40d4b3cb4f30104bdc08d06fc564" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_FuncForInteg2D_AB</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long i, long long it, TComplexD *pA_Stokes, TComplexD &amp;B)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_FuncForInteg2D_AB</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_FuncForInteg2D_AB</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>pA_Stokes</declname>
+        </param>
+        <param>
+          <type>TComplexD &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="171" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="171" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a3fd98e8f3ecdef27ed3697465fa82d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesFromAB</definition>
+        <argsstring>(TComplexD *A_Stokes, TComplexD &amp;B, srTStokes &amp;ResSt)</argsstring>
+        <name>ComputeStokesFromAB</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesFromAB</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>A_Stokes</declname>
+        </param>
+        <param>
+          <type>TComplexD &amp;</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="215" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="215" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a97eb8aae7e2aa90dfbc37291e14f13e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_FuncForInteg2D</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long i, long long it, srTStokes &amp;ResSt)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_FuncForInteg2D</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_FuncForInteg2D</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="230" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="230" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a7b2e7a8db4adca71ad30ab9dca48a491" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long it, srTStokes &amp;ResSt)</argsstring>
+        <name>Integrate1DStokesFunc_EvenMesh</name>
+        <qualifiedname>srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="246" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="246" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a73a0b568a6f1b7827feb79cf19281a15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_2p</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long it, srTStokes &amp;ResSt, srTStokes &amp;F2)</argsstring>
+        <name>Integrate1DStokesFunc_EvenMesh_2p</name>
+        <qualifiedname>srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_2p</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>F2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="271" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="271" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a026b59a890232d6921324730f93535d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_3p</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long it, srTStokes &amp;ResSt, srTStokes &amp;F3)</argsstring>
+        <name>Integrate1DStokesFunc_EvenMesh_3p</name>
+        <qualifiedname>srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_3p</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>F3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="279" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="279" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a80c53cbc625916eba1d205e5fa74f60d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_4p</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long it, srTStokes &amp;ResSt, srTStokes &amp;F4)</argsstring>
+        <name>Integrate1DStokesFunc_EvenMesh_4p</name>
+        <qualifiedname>srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_4p</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>F4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="288" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="288" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a5f1f1bab931236f42167c6fa52119a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_OddNp</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long it, long long i_Offset, srTStokes *pFe1, srTStokes &amp;ResSt)</argsstring>
+        <name>Integrate1DStokesFunc_EvenMesh_OddNp</name>
+        <qualifiedname>srTRadIntThickBeam::Integrate1DStokesFunc_EvenMesh_OddNp</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>i_Offset</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> *</type>
+          <declname>pFe1</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>ResSt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="298" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="1425" bodyend="1472"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a3a9c5952818fa8daee52426ce26ae31a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeExpCoefForOneObsPoint</definition>
+        <argsstring>(long long is, long long ist, double yObs, double eObs, srTFieldBasedArrays &amp;FldArr, TComplexD *ArrA, TComplexD *ArrB)</argsstring>
+        <name>ComputeExpCoefForOneObsPoint</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeExpCoefForOneObsPoint</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>is</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ist</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yObs</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eObs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrA</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="308" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="909" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a18391711a237c3e1e59508cca2b1c603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeExpCoefXZArraysForInteg2D_EvenMesh</definition>
+        <argsstring>(double yObs, double eObs, srTFieldBasedArrays &amp;FldArr, TComplexD *ArrA, TComplexD *ArrB)</argsstring>
+        <name>ComputeExpCoefXZArraysForInteg2D_EvenMesh</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeExpCoefXZArraysForInteg2D_EvenMesh</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>yObs</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eObs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrA</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>ArrB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="309" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="882" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a4df9ada233623c68a78a95839ec9790e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeExpCoefXZArraysForInteg2D</definition>
+        <argsstring>(double yObs, double eObs, srTParPrecStokesArb &amp;PrecPar)</argsstring>
+        <name>ComputeExpCoefXZArraysForInteg2D</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeExpCoefXZArraysForInteg2D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>yObs</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eObs</declname>
+        </param>
+        <param>
+          <type>srTParPrecStokesArb &amp;</type>
+          <declname>PrecPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="311" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="311" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a2218105d2f03cfd1db6efcb909034f4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref></type>
+        <definition>srTStokes srTRadIntThickBeam::DerivRight3p</definition>
+        <argsstring>(srTStokes *f, double dx, int per=1)</argsstring>
+        <name>DerivRight3p</name>
+        <qualifiedname>srTRadIntThickBeam::DerivRight3p</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="320" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="320" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a36eca0714d9825737f010942be10f3c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeam::DerivRight3p</definition>
+        <argsstring>(TComplexD *f, double dx, int per=1)</argsstring>
+        <name>DerivRight3p</name>
+        <qualifiedname>srTRadIntThickBeam::DerivRight3p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="324" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="324" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a78fc57fa5e777772b383741fffd266ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref></type>
+        <definition>srTStokes srTRadIntThickBeam::DerivLeft3p</definition>
+        <argsstring>(srTStokes *f, double dx, int per=1)</argsstring>
+        <name>DerivLeft3p</name>
+        <qualifiedname>srTRadIntThickBeam::DerivLeft3p</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="328" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="328" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a614be841e5cda57764371c137304de76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeam::DerivLeft3p</definition>
+        <argsstring>(TComplexD *f, double dx, int per=1)</argsstring>
+        <name>DerivLeft3p</name>
+        <qualifiedname>srTRadIntThickBeam::DerivLeft3p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="332" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="332" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a8d0a8393f871961024b1648c3340ada2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeam::DerivCen3p</definition>
+        <argsstring>(TComplexD *f, double dx, int per=1)</argsstring>
+        <name>DerivCen3p</name>
+        <qualifiedname>srTRadIntThickBeam::DerivCen3p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="336" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="336" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a47c5d2fd8cf9bb2c173a64b0173733e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeam::Deriv3p</definition>
+        <argsstring>(TComplexD *f, int i0, double dx, int per=1)</argsstring>
+        <name>Deriv3p</name>
+        <qualifiedname>srTRadIntThickBeam::Deriv3p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="340" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="340" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a4c529185438ba8a8c3ba75714d055aa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeam::Deriv4p</definition>
+        <argsstring>(TComplexD *f, int i0, double dx, int per=1)</argsstring>
+        <name>Deriv4p</name>
+        <qualifiedname>srTRadIntThickBeam::Deriv4p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="347" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="347" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ace6dfbe43d1456f9d489475208cfa8f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeam::Deriv2Cen3p</definition>
+        <argsstring>(TComplexD *f, double dx, int per=1)</argsstring>
+        <name>Deriv2Cen3p</name>
+        <qualifiedname>srTRadIntThickBeam::Deriv2Cen3p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="355" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="355" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a359d92f7fa577f50ce3c429bc15b1f56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeam::Deriv2_4p</definition>
+        <argsstring>(TComplexD *f, int i0, double dx, int per=1)</argsstring>
+        <name>Deriv2_4p</name>
+        <qualifiedname>srTRadIntThickBeam::Deriv2_4p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="359" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="359" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a19b381e56d801671e7b55ab8f2f70645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeResidTermA_Stokes</definition>
+        <argsstring>(TComplexD *A, TComplexD *B, int i0, double dx, TComplexD *pA_Stokes)</argsstring>
+        <name>ComputeResidTermA_Stokes</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeResidTermA_Stokes</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>pA_Stokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="367" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="367" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ad5b8d3b4f04f85c5f54366d560d6acdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref></type>
+        <definition>srTStokes srTRadIntThickBeam::DerivWithExpStokes3p</definition>
+        <argsstring>(TComplexD *A, TComplexD *B, double sStep, long long ic)</argsstring>
+        <name>DerivWithExpStokes3p</name>
+        <qualifiedname>srTRadIntThickBeam::DerivWithExpStokes3p</qualifiedname>
+        <param>
+          <type>TComplexD *</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>TComplexD *</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStep</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="399" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="399" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a175db6da7212216e5efa8ede26214790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokesAtOneObsPoint_DerivOverS_FromAB</definition>
+        <argsstring>(srTFieldBasedArrays &amp;FldArr, long long i, long long it, long long ic, srTStokes &amp;StokesDerF, srTStokes *ArrStokesF)</argsstring>
+        <name>ComputeStokesAtOneObsPoint_DerivOverS_FromAB</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokesAtOneObsPoint_DerivOverS_FromAB</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FldArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ic</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> &amp;</type>
+          <declname>StokesDerF</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref> *</type>
+          <declname>ArrStokesF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="424" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="424" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1a97e6069e2c6c6ac2f34be8ebe0e6160f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::AllocateCoefArraysForInteg2D</definition>
+        <argsstring>(long long Ns)</argsstring>
+        <name>AllocateCoefArraysForInteg2D</name>
+        <qualifiedname>srTRadIntThickBeam::AllocateCoefArraysForInteg2D</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>Ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="441" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="441" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ac87056f88e4a363c119fbe3556a04b18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::AllocateFuncArraysForExternInteg</definition>
+        <argsstring>(long long Ns)</argsstring>
+        <name>AllocateFuncArraysForExternInteg</name>
+        <qualifiedname>srTRadIntThickBeam::AllocateFuncArraysForExternInteg</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>Ns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="459" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="459" bodyend="475"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_rad_int_thick_beam_1ade1de5fd6bef8edba8637c2fa7c64601" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeam::ComputeStokes</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTMagFldTrUnif *pMagFldTrUnif, srTMagFldCont *pMagLensCont, srTParPrecStokesArb *pPrcPar, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>ComputeStokes</name>
+        <qualifiedname>srTRadIntThickBeam::ComputeStokes</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_tr_unif" kindref="compound">srTMagFldTrUnif</ref> *</type>
+          <declname>pMagFldTrUnif</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_cont" kindref="compound">srTMagFldCont</ref> *</type>
+          <declname>pMagLensCont</declname>
+        </param>
+        <param>
+          <type>srTParPrecStokesArb *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="110" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="110" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="61" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="61" bodyend="476"/>
+    <listofallmembers>
+      <member refid="classsr_t_rad_int_thick_beam_1a97e6069e2c6c6ac2f34be8ebe0e6160f" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>AllocateCoefArraysForInteg2D</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ac87056f88e4a363c119fbe3556a04b18" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>AllocateFuncArraysForExternInteg</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ab7f81e791aedd395dec1d266b193ef66" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>AnalyzeFinalResultsSymmetry</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a3a9c5952818fa8daee52426ce26ae31a" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeExpCoefForOneObsPoint</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a4df9ada233623c68a78a95839ec9790e" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeExpCoefXZArraysForInteg2D</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a18391711a237c3e1e59508cca2b1c603" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeExpCoefXZArraysForInteg2D_EvenMesh</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a26a52b0aa5291180b06b15246108e51e" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeIntensFuncPartsForInteg2D</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a1557255b3fd67d9e4bdc04afb04d0225" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeOffAxisTrajArrays</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a19b381e56d801671e7b55ab8f2f70645" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeResidTermA_Stokes</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ade1de5fd6bef8edba8637c2fa7c64601" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokes</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1afe6a54e85d2b9d0dcf00925b6ceeb503" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a175db6da7212216e5efa8ede26214790" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_DerivOverS_FromAB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ab772a4eef2d4908a3fd83bc523456040" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_ExternIntens</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1abd52897b6b079d46c6459f76cb8063df" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_ExternIntens_AddBotLeft</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a793a91fe2c278b4adc30c0a1d8ed102d" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_ExternIntens_AddBotRight</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a561cc83245901ffdf4ddc292c1097376" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_ExternIntens_AddCen</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1acc8d0b8cda38e0f71840a5fa3c2a02cd" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_ExternIntens_AddTopRight</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a97eb8aae7e2aa90dfbc37291e14f13e6" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_FuncForInteg2D</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a706f40d4b3cb4f30104bdc08d06fc564" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_FuncForInteg2D_AB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a7933a369390919aa4cbccabc932a9f2c" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_Intens_PrepAandB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ac3e18f9ac20f246c2f12f200824d27b9" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesAtOneObsPoint_InternIntens_EvenMesh</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a3fd98e8f3ecdef27ed3697465fa82d44" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeStokesFromAB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1afc08e8f04324a543990d041b0a8e9d9c" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeTotalStokesDistr</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1adebf84b9603f9e7e8d30f5504d989e62" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeTotalStokesDistrViaSingleElec</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a9b403939daae1dac4cffdc4b4536a350" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>ComputeTrajArrays</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a94d8a7b8dc596ded8f434dd78bec8d03" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>CopySymEnergySlice</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ab6156a14e538c8ff51bc94792c24c7a8" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>CreateNewRadStructWithConstParams</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a2b4e80bd790b6fe12a9858487eb5b36a" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DeleteAuxStruct</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a359d92f7fa577f50ce3c429bc15b1f56" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Deriv2_4p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ace6dfbe43d1456f9d489475208cfa8f6" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Deriv2Cen3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a47c5d2fd8cf9bb2c173a64b0173733e6" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Deriv3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a4c529185438ba8a8c3ba75714d055aa8" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Deriv4p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a8d0a8393f871961024b1648c3340ada2" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DerivCen3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a78fc57fa5e777772b383741fffd266ea" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DerivLeft3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a614be841e5cda57764371c137304de76" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DerivLeft3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a2218105d2f03cfd1db6efcb909034f4b" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DerivRight3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a36eca0714d9825737f010942be10f3c0" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DerivRight3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ad5b8d3b4f04f85c5f54366d560d6acdc" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DerivWithExpStokes3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a0613c84662e6917d6465a9b373a995a0" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>DetermineLongPosGridLimits</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a4c7341e0d119f3d8f8cef07b4a74ef43" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>EstimateExtraObservRangesToIncludeEmittance</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a39fc421a02b27cfd630948dc4803b52a" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>FillInSymPartsOfResults</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ac68784e2aa8316cb4aacea9dcb3021ca" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>FindTotalAmOfPointsToCalc</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1aed32de4577b93e443b8afb17d07fb1f4" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gAuxPar</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1aab2fa39cdb4f75309c6351fb0c2232b0" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gBottomArrA</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a25f6007f0fe073d81828a917fcc4f0f3" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gBottomArrB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a38d89c0321e1e91bdc3ba7e36bc754ad" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gCoefA</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a790916084e4dece867a08d3dc7ca48c6" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gCoefB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a88707ecb918fb94155d48835f5852906" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>GetNextElecEnergyFromGausDistrib</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a81e19258eedbe7a12a9a598cac45761c" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gFldArr</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a2df61e78f4aab57f13f553c9c77547b7" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gNumCoefForOnePointA</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1abe18a64f524503c524d5ed8600ba314d" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gNumCoefForOnePointB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a5b6923ee33dbbf4548b7e1c5aace5d25" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gRightArrA</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ac7540b9698e6b6aa0ebaf068d5cb2577" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>gRightArrB</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a3912e4a13eebff1eec10749f19572183" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Initialize</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ab5393735de75575a9fb27604859a8814" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Integrate1DStokesArr</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a7b2e7a8db4adca71ad30ab9dca48a491" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Integrate1DStokesFunc_EvenMesh</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a73a0b568a6f1b7827feb79cf19281a15" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Integrate1DStokesFunc_EvenMesh_2p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a026b59a890232d6921324730f93535d0" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Integrate1DStokesFunc_EvenMesh_3p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a80c53cbc625916eba1d205e5fa74f60d" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Integrate1DStokesFunc_EvenMesh_4p</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a5f1f1bab931236f42167c6fa52119a35" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>Integrate1DStokesFunc_EvenMesh_OddNp</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ad2c0fcfeb2a0f825c66123ea2a77f424" prot="private" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>m_SpareElecEnergyVal</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a75da103128574c0c7512506c0f452ed4" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>SetupInitialTrajArrays</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1a5a398843ac90061c12d4fd7763626fa6" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>srTRadIntThickBeam</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1ad8f48fa3a05ced263bc1655887f8cbf7" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>UpdateResultStokesData</name></member>
+      <member refid="classsr_t_rad_int_thick_beam_1adbf12de2ca12884a77ea50582059ddad" prot="public" virt="non-virtual"><scope>srTRadIntThickBeam</scope><name>~srTRadIntThickBeam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

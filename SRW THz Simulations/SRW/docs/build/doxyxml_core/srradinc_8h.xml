@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srradinc_8h" kind="file" language="C++">
+    <compoundname>srradinc.h</compoundname>
+    <includes refid="srtrjaux_8h" local="yes">srtrjaux.h</includes>
+    <includes local="yes">gmtrans.h</includes>
+    <includes refid="srctrjdt_8h" local="yes">srctrjdt.h</includes>
+    <includes refid="srmlttsk_8h" local="yes">srmlttsk.h</includes>
+    <includedby refid="srpowden_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h</includedby>
+    <includedby refid="srradinc_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.cpp</includedby>
+    <includedby refid="srsend_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp</includedby>
+    <incdepgraph>
+      <node id="31">
+        <label>srctrjdt.h</label>
+        <link refid="srctrjdt_8h_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="25">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>srmlttsk.h</label>
+        <link refid="srmlttsk_8h_source"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h</label>
+        <link refid="srradinc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="2">
+        <label>srtrjaux.h</label>
+        <link refid="srtrjaux_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="15">
+        <label>ctype.h</label>
+      </node>
+      <node id="34">
+        <label>gminterp.h</label>
+      </node>
+      <node id="29">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="28">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="16">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="17">
+        <label>gmvect.h</label>
+      </node>
+      <node id="10">
+        <label>map</label>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="27">
+        <label>objcont.h</label>
+      </node>
+      <node id="11">
+        <label>smartptr.h</label>
+      </node>
+      <node id="7">
+        <label>srigorre.h</label>
+      </node>
+      <node id="20">
+        <label>srinterf.h</label>
+      </node>
+      <node id="23">
+        <label>srwlib.h</label>
+      </node>
+      <node id="33">
+        <label>stdlib.h</label>
+      </node>
+      <node id="12">
+        <label>stlstart.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>string.h</label>
+      </node>
+      <node id="36">
+        <label>time.h</label>
+      </node>
+      <node id="24">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h</label>
+        <link refid="srpowden_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h</label>
+        <link refid="srradinc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsr_t_rad_int_const_prec" prot="public">srTRadIntConstPrec</innerclass>
+    <innerclass refid="structsr_t_init_trj_coord_ang" prot="public">srTInitTrjCoordAng</innerclass>
+    <innerclass refid="classsr_t_rad_int_const" prot="public">srTRadIntConst</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="srradinc_8h_1ac346722d2d698be2411cd00a89d10117" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="classsr_t_yield" kindref="compound">srTYield</ref></type>
+        <definition>srTYield srYield</definition>
+        <argsstring></argsstring>
+        <name>srYield</name>
+        <briefdescription>
+<para>File: <ref refid="srradinc_8h_source" kindref="compound">srradinc.h</ref> Description: SR calculation from Constant Magnetic Field (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="24" column="17" declfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" declline="24" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="srradinc_8h_1aebacf857a6c56ed03af54bce554d1536" prot="public" static="no" extern="yes" mutable="no">
+        <type>srTIntVect</type>
+        <definition>srTIntVect gVectWarnNos</definition>
+        <argsstring></argsstring>
+        <name>gVectWarnNos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" line="25" column="19" declfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h" declline="25" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRRADINC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRRADINC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srtrjaux.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gmtrans.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srctrjdt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srmlttsk.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="classsr_t_yield" kindref="compound">srTYield</ref><sp/>srYield;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>srTIntVect<sp/>gVectWarnNos;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="structsr_t_rad_int_const_prec" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsr_t_rad_int_const_prec" kindref="compound">srTRadIntConstPrec</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PrecFact;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="structsr_t_init_trj_coord_ang" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsr_t_init_trj_coord_ang" kindref="compound">srTInitTrjCoordAng</ref><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0,<sp/>dxds0,<sp/>z0,<sp/>dzds0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classsr_t_rad_int_const" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_rad_int_const" kindref="compound">srTRadIntConst</ref><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_cos_and_sin_comp" kindref="compound">srTCosAndSinComp</ref><sp/>CosAndSinComp;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sIntegRelPrecG;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NormalizingConstG;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref><sp/>EXZ;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>gmTrans<sp/>TrLab2Loc;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_init_trj_coord_ang" kindref="compound">srTInitTrjCoordAng</ref><sp/>LocInitCoordAng;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>PobsLocG;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BconG,<sp/>RmaG;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Gx,<sp/>Gz;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_const_trj_dat" kindref="compound">srTConstTrjDat</ref>*<sp/>ConstTrjDatPtr;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref><sp/>DistrInfoDat;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_rad_int_const_prec" kindref="compound">srTRadIntConstPrec</ref><sp/>IntConstPrec;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_rad_int_const" kindref="compound">srTRadIntConst</ref>()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Initialize();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Initialize()<sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DistrInfoDat.CoordUnits<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>To<sp/>ensure<sp/>m<sp/>for<sp/>coord.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CosAndSinComp.Initialize();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classsr_t_rad_int_const_1a781d4480467b41ec20937cea336a2d8f" kindref="member">CheckInputConsistency</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ComputeTotalStokesDistr(<ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>&amp;);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ComputeStokesAtPoint(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>pStokes);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ComputeElFieldAtPointLocFrame(<ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref>&amp;<sp/>E);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupNativeRotation();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TreatFiniteElecBeamEmittance(<ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>&amp;,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ElBeamMomFact);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ExtractStokesSliceConstE(<ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>&amp;<sp/>StokesAccessData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ie,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>StokesNo,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>pOutS);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateStokesSliceConstE(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>StokesCmpnArr,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ie,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>is,<sp/><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>&amp;<sp/>StokesAccessData);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TreatFiniteElecBeamEmittanceOneComp1D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ElBeamMomFact);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TreatFiniteElecBeamEmittanceOneComp2D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ElBeamMomFact);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineSingleElecDistrEffSizes2D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Mxx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Mzz);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineSingleElecDistrEffSizes1D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>VsXorZ,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>M_Cen);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineResizeBeforeConv2D(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MxxElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MzzElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MxxPowSingleE,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MzzPowSingleE,<sp/><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref>&amp;<sp/>Resize);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineResizeBeforeConv1D(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>M_ElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>M_DistrSingleE,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>VsXorZ,<sp/><ref refid="structsr_t_rad_resize1_d" kindref="compound">srTRadResize1D</ref>&amp;<sp/>Resize);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConstructDataForConv2D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>NewData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NewNx,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NewNz);<sp/></highlight><highlight class="comment">//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>ConstructDataForConv2D(float*<sp/>CmpnArr,<sp/>float*<sp/>NewData,<sp/>long<sp/>NewNx,<sp/>long<sp/>NewNz);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConstructDataForConv1D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>AuxConvData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NpOld,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NpNew);<sp/></highlight><highlight class="comment">//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>ConstructDataForConv1D(float*<sp/>CmpnArr,<sp/>float*<sp/>AuxConvData,<sp/>long<sp/>NpOld,<sp/>long<sp/>NpNew);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PerformConvolutionWithGaussian2D(float*<sp/>ConvData,<sp/>long<sp/>long<sp/>NewNx,<sp/>long<sp/>long<sp/>NewNz,<sp/>double<sp/>MxxElecEff,<sp/>double<sp/>MzzElecEff);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PerformConvolutionWithGaussian2D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ConvData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NewNx,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NewNz,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MxxElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MzzElecEff);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PerformConvolutionWithGaussian1D(float*<sp/>AuxConvData,<sp/>long<sp/>long<sp/>NpAux,<sp/>double<sp/>M_ElecEff,<sp/>char<sp/>VsXorZ);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PerformConvolutionWithGaussian1D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>AuxConvData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NpAux,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>M_ElecEff,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>VsXorZ);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ExtractDataAfterConv2D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>AuxConvData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NxAux,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NzAux,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr);<sp/></highlight><highlight class="comment">//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>ExtractDataAfterConv2D(float*<sp/>AuxConvData,<sp/>long<sp/>NxAux,<sp/>long<sp/>NzAux,<sp/>float*<sp/>CmpnArr);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ExtractDataAfterConv1D(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>AuxConvData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NpAux,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Np,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>CmpnArr);<sp/></highlight><highlight class="comment">//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>ExtractDataAfterConv1D(float*<sp/>AuxConvData,<sp/>long<sp/>NpAux,<sp/>long<sp/>Np,<sp/>float*<sp/>CmpnArr);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SuppressNegativeValues(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>StokesCmpnArr);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AnalyzeFinalResultsSymmetry(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>FinalResAreSymOverX,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>FinalResAreSymOverZ);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FillInSymPartsOfResults(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FinalResAreSymOverX,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FinalResAreSymOverZ,<sp/><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>&amp;<sp/>StokesAccessData);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CopySymEnergySlice(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>pOrigData,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>pSymData,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SymWithRespectToXax,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SymWithRespectToZax)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ChangeSignS2<sp/>=<sp/>!(SymWithRespectToXax<sp/>&amp;&amp;<sp/>SymWithRespectToZax);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ChangeSignS3<sp/>=<sp/>SymWithRespectToXax;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*tOrig<sp/>=<sp/>pOrigData,<sp/>*tSym<sp/>=<sp/>pSymData;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ie=0;<sp/>ie&lt;DistrInfoDat.nLamb;<sp/>ie++)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(tSym++)<sp/>=<sp/>*(tOrig++);<sp/>*(tSym++)<sp/>=<sp/>*(tOrig++);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(tSym++)<sp/>=<sp/>ChangeSignS2?<sp/>-(*(tOrig++))<sp/>:<sp/>*(tOrig++);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(tSym++)<sp/>=<sp/>ChangeSignS3?<sp/>-(*(tOrig++))<sp/>:<sp/>*(tOrig++);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SetupThickBeamConsts()</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>&amp;<sp/>Ebm<sp/>=<sp/>ConstTrjDatPtr-&gt;EbmDat;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y<sp/>=<sp/>DistrInfoDat.yStart<sp/>-<sp/>Ebm.s0;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ye2<sp/>=<sp/>y*y;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MinM2<sp/>=<sp/>1.E-20;<sp/></highlight><highlight class="comment">//<sp/>To<sp/>steer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BufX<sp/>=<sp/>Ebm.Mxx<sp/>+<sp/>(Ebm.Mxpxp)*ye2<sp/>+<sp/>2.*(Ebm.Mxxp)*y;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BufZ<sp/>=<sp/>Ebm.Mzz<sp/>+<sp/>(Ebm.Mzpzp)*ye2<sp/>+<sp/>2.*(Ebm.Mzzp)*y;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((BufX<sp/>&lt;=<sp/>0.)<sp/>||<sp/>(BufZ<sp/>&lt;=<sp/>0.))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>THICK_EL_BEAM_WAS_NOT_SET_UP;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(BufX<sp/>&lt;<sp/>MinM2)<sp/>BufX<sp/>=<sp/>MinM2;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(BufZ<sp/>&lt;<sp/>MinM2)<sp/>BufZ<sp/>=<sp/>MinM2;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gx<sp/>=<sp/>0.5/BufX;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gz<sp/>=<sp/>0.5/BufZ;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetIntegPrecLevel()</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NominalPrec<sp/>=<sp/>0.01;<sp/></highlight><highlight class="comment">//<sp/>To<sp/>steer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sIntegRelPrecG<sp/>=<sp/>NominalPrec/IntConstPrec.PrecFact;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupNormalizingConst()</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="comment">//Assume<sp/>Spectral<sp/>flux<sp/>density<sp/>is<sp/>in<sp/>Photons/(s*mm^2*(0.1%BW))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>e_coulomb<sp/>=<sp/>1.602189246E-19;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Alpha<sp/>=<sp/>1./137.0360411;<sp/></highlight><highlight class="comment">//<sp/>Fine-structure<sp/>constant</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NormalizingConstG<sp/>=<sp/>sqrt(Alpha*(ConstTrjDatPtr-&gt;EbmDat.Current)*1.E+09/e_coulomb);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DistrInfoDat.NormalizingConst<sp/>=<sp/>NormalizingConstG;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RmaG<sp/>=<sp/>3.33564076253*(ConstTrjDatPtr-&gt;EbmDat.Energy)/BconG;<sp/></highlight><highlight class="comment">//<sp/>Magnet<sp/>radius<sp/>in<sp/>m<sp/>assuming<sp/>Energy[GeV]<sp/>and<sp/>BconG[T]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PointLab2Loc(TVector3d&amp;<sp/>P)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P<sp/>=<sp/>TrLab2Loc.TrPoint(P);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>VectorLoc2Lab(TVector3d&amp;<sp/>V)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>V_Lab<sp/>=<sp/>TrLab2Loc.TrBiPoint_inv(V);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>V<sp/>=<sp/>V_Lab;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>E2Stokes(<ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref>&amp;<sp/>E,<sp/><ref refid="structsr_t_stokes" kindref="compound">srTStokes</ref>&amp;<sp/>Stokes)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LinHor<sp/>=<sp/>E.EwX_Re*E.EwX_Re<sp/>+<sp/>E.EwX_Im*E.EwX_Im;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>LinVer<sp/>=<sp/>E.EwZ_Re*E.EwZ_Re<sp/>+<sp/>E.EwZ_Im*E.EwZ_Im;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Stokes.s0<sp/>=<sp/>LinHor<sp/>+<sp/>LinVer;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Stokes.s1<sp/>=<sp/>LinHor<sp/>-<sp/>LinVer;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Stokes.s2<sp/>=<sp/>-2.*(E.EwX_Re*E.EwZ_Re<sp/>+<sp/>E.EwX_Im*E.EwZ_Im);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Stokes.s3<sp/>=<sp/>2.*(-E.EwX_Re*E.EwZ_Im<sp/>+<sp/>E.EwX_Im*E.EwZ_Re);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h"/>
+  </compounddef>
+</doxygen>

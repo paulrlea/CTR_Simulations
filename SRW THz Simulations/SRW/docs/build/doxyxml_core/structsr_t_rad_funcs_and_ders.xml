@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_funcs_and_ders" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadFuncsAndDers</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1ab5f71e7fc365a92ac10211d95d24fa42" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <qualifiedname>srTRadFuncsAndDers::s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="42" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1ad60018406147106d332fdbdd02d215f8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::Ph</definition>
+        <argsstring></argsstring>
+        <name>Ph</name>
+        <qualifiedname>srTRadFuncsAndDers::Ph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="43" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1aa2e4a5e1763c25ae807c35e141785186" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::dPhds</definition>
+        <argsstring></argsstring>
+        <name>dPhds</name>
+        <qualifiedname>srTRadFuncsAndDers::dPhds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="43" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1a169e89df0893d1250e77acf23b992720" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::d2Phds2</definition>
+        <argsstring></argsstring>
+        <name>d2Phds2</name>
+        <qualifiedname>srTRadFuncsAndDers::d2Phds2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="43" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1a43463127ed4f19878031936e228ac9dc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::Ax</definition>
+        <argsstring></argsstring>
+        <name>Ax</name>
+        <qualifiedname>srTRadFuncsAndDers::Ax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="44" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1a9e57c780b72f064a228b04fb396da854" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::dAxds</definition>
+        <argsstring></argsstring>
+        <name>dAxds</name>
+        <qualifiedname>srTRadFuncsAndDers::dAxds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="44" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1a3f2351635c1d407f2130d009f2d6348e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::Az</definition>
+        <argsstring></argsstring>
+        <name>Az</name>
+        <qualifiedname>srTRadFuncsAndDers::Az</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="44" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1a54aae75c9337a866a6b3bff43c621ad1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::dAzds</definition>
+        <argsstring></argsstring>
+        <name>dAzds</name>
+        <qualifiedname>srTRadFuncsAndDers::dAzds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="44" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1aa1d9ad199dcaf05bb699a89b20d05a0e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::CosPh</definition>
+        <argsstring></argsstring>
+        <name>CosPh</name>
+        <qualifiedname>srTRadFuncsAndDers::CosPh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="45" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_funcs_and_ders_1a3d09709d17e010514d5dea0ecb032196" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadFuncsAndDers::SinPh</definition>
+        <argsstring></argsstring>
+        <name>SinPh</name>
+        <qualifiedname>srTRadFuncsAndDers::SinPh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="45" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_rad_funcs_and_ders_1a088aa23a61929cc3ae7d4c19b66e780e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadFuncsAndDers::srTRadFuncsAndDers</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadFuncsAndDers</name>
+        <qualifiedname>srTRadFuncsAndDers::srTRadFuncsAndDers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="47" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="47" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" line="41" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h" bodystart="41" bodyend="53"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_funcs_and_ders_1a43463127ed4f19878031936e228ac9dc" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>Ax</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1a3f2351635c1d407f2130d009f2d6348e" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>Az</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1aa1d9ad199dcaf05bb699a89b20d05a0e" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>CosPh</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1a169e89df0893d1250e77acf23b992720" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>d2Phds2</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1a9e57c780b72f064a228b04fb396da854" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>dAxds</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1a54aae75c9337a866a6b3bff43c621ad1" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>dAzds</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1aa2e4a5e1763c25ae807c35e141785186" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>dPhds</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1ad60018406147106d332fdbdd02d215f8" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>Ph</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1ab5f71e7fc365a92ac10211d95d24fa42" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>s</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1a3d09709d17e010514d5dea0ecb032196" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>SinPh</name></member>
+      <member refid="structsr_t_rad_funcs_and_ders_1a088aa23a61929cc3ae7d4c19b66e780e" prot="public" virt="non-virtual"><scope>srTRadFuncsAndDers</scope><name>srTRadFuncsAndDers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

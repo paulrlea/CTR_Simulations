@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_wave_access_data_d1_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTWaveAccessDataD1D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1a28f90284333950483b2b1645e15df79f" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTWaveAccessDataD1D::pData</definition>
+        <argsstring></argsstring>
+        <name>pData</name>
+        <qualifiedname>srTWaveAccessDataD1D::pData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1513" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1ac47273b2def6736a9efd5c28da8efdca" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTWaveAccessDataD1D::np</definition>
+        <argsstring></argsstring>
+        <name>np</name>
+        <qualifiedname>srTWaveAccessDataD1D::np</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1515" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1a3e63629c9d1df1cc8d99c4993e4c8aac" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveAccessDataD1D::Start</definition>
+        <argsstring></argsstring>
+        <name>Start</name>
+        <qualifiedname>srTWaveAccessDataD1D::Start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1516" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1ad285337e968d8a435ef9290eabc14edb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveAccessDataD1D::Step</definition>
+        <argsstring></argsstring>
+        <name>Step</name>
+        <qualifiedname>srTWaveAccessDataD1D::Step</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1517" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1ac8d36e57777ea5367ce02310ec024fd5" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWaveAccessDataD1D::ArgUnits[255]</definition>
+        <argsstring>[255]</argsstring>
+        <name>ArgUnits</name>
+        <qualifiedname>srTWaveAccessDataD1D::ArgUnits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1518" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1a6a6915e3503de67924d5fa08d06f1b1f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWaveAccessDataD1D::DataUnits[255]</definition>
+        <argsstring>[255]</argsstring>
+        <name>DataUnits</name>
+        <qualifiedname>srTWaveAccessDataD1D::DataUnits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1519" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1a7accb4e61f1df57a927ff4742e215a26" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWaveAccessDataD1D::NameOfWave[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>NameOfWave</name>
+        <qualifiedname>srTWaveAccessDataD1D::NameOfWave</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1520" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1520" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1afc305a06762c4685ae82e5afac6cdf2b" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTWaveAccessDataD1D::wHndl</definition>
+        <argsstring></argsstring>
+        <name>wHndl</name>
+        <qualifiedname>srTWaveAccessDataD1D::wHndl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1522" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1522" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1a37fceb448799d6cb269325c77251fcfa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTWaveAccessDataD1D::hState</definition>
+        <argsstring></argsstring>
+        <name>hState</name>
+        <qualifiedname>srTWaveAccessDataD1D::hState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1523" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_wave_access_data_d1_d_1a8f69d3ec55e7b11e4027dd39a0762d19" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWaveAccessDataD1D::InvStep</definition>
+        <argsstring></argsstring>
+        <name>InvStep</name>
+        <qualifiedname>srTWaveAccessDataD1D::InvStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1526" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1526" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_wave_access_data_d1_d_1aa1072fad21ad9b430cb71c94ddd1e3e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTWaveAccessDataD1D::srTWaveAccessDataD1D</definition>
+        <argsstring>()</argsstring>
+        <name>srTWaveAccessDataD1D</name>
+        <qualifiedname>srTWaveAccessDataD1D::srTWaveAccessDataD1D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1528" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1528" bodyend="1539"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_wave_access_data_d1_d_1a1d2bd60465681c63163aff341ec5ab19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTWaveAccessDataD1D::SetupBufVars</definition>
+        <argsstring>()</argsstring>
+        <name>SetupBufVars</name>
+        <qualifiedname>srTWaveAccessDataD1D::SetupBufVars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1541" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1541" bodyend="1544"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1510" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1510" bodyend="1545"/>
+    <listofallmembers>
+      <member refid="structsr_t_wave_access_data_d1_d_1ac8d36e57777ea5367ce02310ec024fd5" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>ArgUnits</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1a6a6915e3503de67924d5fa08d06f1b1f" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>DataUnits</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1a37fceb448799d6cb269325c77251fcfa" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>hState</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1a8f69d3ec55e7b11e4027dd39a0762d19" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>InvStep</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1a7accb4e61f1df57a927ff4742e215a26" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>NameOfWave</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1ac47273b2def6736a9efd5c28da8efdca" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>np</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1a28f90284333950483b2b1645e15df79f" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>pData</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1a1d2bd60465681c63163aff341ec5ab19" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>SetupBufVars</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1aa1072fad21ad9b430cb71c94ddd1e3e4" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>srTWaveAccessDataD1D</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1a3e63629c9d1df1cc8d99c4993e4c8aac" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>Start</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1ad285337e968d8a435ef9290eabc14edb" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>Step</name></member>
+      <member refid="structsr_t_wave_access_data_d1_d_1afc305a06762c4685ae82e5afac6cdf2b" prot="public" virt="non-virtual"><scope>srTWaveAccessDataD1D</scope><name>wHndl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

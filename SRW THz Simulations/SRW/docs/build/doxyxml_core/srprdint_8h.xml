@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srprdint_8h" kind="file" language="C++">
+    <compoundname>srprdint.h</compoundname>
+    <includes refid="srstraux_8h" local="yes">srstraux.h</includes>
+    <includes refid="srtrjdat_8h" local="yes">srtrjdat.h</includes>
+    <includedby refid="srprdint_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.cpp</includedby>
+    <includedby refid="srradint_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradint.h</includedby>
+    <incdepgraph>
+      <node id="16">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="24">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h</label>
+        <link refid="srprdint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="23">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="13">
+        <label>ctype.h</label>
+      </node>
+      <node id="28">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="27">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="14">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="15">
+        <label>gmvect.h</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>math.h</label>
+      </node>
+      <node id="26">
+        <label>objcont.h</label>
+      </node>
+      <node id="9">
+        <label>smartptr.h</label>
+      </node>
+      <node id="5">
+        <label>srigorre.h</label>
+      </node>
+      <node id="18">
+        <label>srinterf.h</label>
+      </node>
+      <node id="21">
+        <label>srwlib.h</label>
+      </node>
+      <node id="10">
+        <label>stlstart.h</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="12">
+        <label>string.h</label>
+      </node>
+      <node id="22">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h</label>
+        <link refid="srcradint_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h</label>
+        <link refid="srprdint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradint.h</label>
+        <link refid="srradint_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsr_t_part_auto_rad_int" prot="public">srTPartAutoRadInt</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRPRTINT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRPRTINT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srstraux.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srtrjdat.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classsr_t_part_auto_rad_int" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_part_auto_rad_int" kindref="compound">srTPartAutoRadInt</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AuxDataArray[1000];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>AuxDataPtr;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BtxArrP[50],<sp/>*XArrP[50],<sp/>*IntBtxE2ArrP[50],<sp/>*BxArrP[50];</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BtzArrP[50],<sp/>*ZArrP[50],<sp/>*IntBtzE2ArrP[50],<sp/>*BzArrP[50];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>AmOfPointsOnLevel[50];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>AmOfPointsOnLevel[50];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>NumberOfLevelsFilled,<sp/>NpOnZeroLevel;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NumberOfLevelsFilled,<sp/>NpOnZeroLevel;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sIntegStart,<sp/>sIntegFin,<sp/>sIntegStep,<sp/>sIntegRelPrec;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxFluxDensVal,<sp/>CurrentAbsPrec;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*<sp/>TrjDatPtr;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>DistrInfoDatPtr;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_lamb_x_y_z" kindref="compound">srLambXYZ</ref>*<sp/>ObsCoorPtr;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//srTSend<sp/>Send;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>wfe,<sp/>wf1,<sp/>wf2,<sp/>wd;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PI,<sp/>TwoPI,<sp/>ThreePIdTwo,<sp/>FivePIdFour,<sp/>HalfPI,<sp/>One_dTwoPI,<sp/>PIm10e6,<sp/>PIm10e6dEnCon,<sp/>TenEm6dTwoPI;<sp/></highlight><highlight class="comment">//<sp/>Constants</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a2c,<sp/>a4c,<sp/>a6c,<sp/>a8c,<sp/>a10c,<sp/>a12c;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a3s,<sp/>a5s,<sp/>a7s,<sp/>a9s,<sp/>a11s,<sp/>a13s;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>SomethingIsWrong;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//srTPartAutoRadInt(srTTrjDat*<sp/>InTrjDatPtr,<sp/>srTWfrSmp*<sp/>InDistrInfoDatPtr,<sp/>srLambXYZ*<sp/>InObsCoorPtr,<sp/>double<sp/>In_sStart,<sp/>double<sp/>In_sFin,<sp/>double<sp/>In_sRelPrec,<sp/>int<sp/>InNpOnZeroLevel);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_part_auto_rad_int_1a452a4cda4c0da1c0af6bc7dfbfbc2792" kindref="member">srTPartAutoRadInt</ref>(<ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*<sp/>InTrjDatPtr,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>InDistrInfoDatPtr,<sp/><ref refid="structsr_lamb_x_y_z" kindref="compound">srLambXYZ</ref>*<sp/>InObsCoorPtr,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>In_sStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>In_sFin,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>In_sRelPrec,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>InNpOnZeroLevel);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_part_auto_rad_int" kindref="compound">~srTPartAutoRadInt</ref>()<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(AuxDataPtr<sp/>!=<sp/>0)<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>AuxDataPtr;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=3;<sp/>i&lt;NumberOfLevelsFilled;<sp/>i++)<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>(BtxArrP[i]);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Integrate(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>IntXRe,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>IntXIm,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>IntZRe,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>IntZIm,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>InEdgeFunDer<sp/>=0);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CosAndSin(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Cos,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Sin)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>-=<sp/>TwoPI*int(x*One_dTwoPI);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x<sp/>&lt;<sp/>0.)<sp/>x<sp/>+=<sp/>TwoPI;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ChangeSign=0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x<sp/>&gt;<sp/>ThreePIdTwo)<sp/>x<sp/>-=<sp/>TwoPI;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x<sp/>&gt;<sp/>HalfPI)<sp/>{<sp/>x<sp/>-=<sp/>PI;<sp/>ChangeSign<sp/>=<sp/>1;}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xe2<sp/>=<sp/>x*x;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cos<sp/>=<sp/>1.<sp/>+<sp/>xe2*(a2c<sp/>+<sp/>xe2*(a4c<sp/>+<sp/>xe2*(a6c<sp/>+<sp/>xe2*(a8c<sp/>+<sp/>xe2*a10c))));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sin<sp/>=<sp/>x*(1.<sp/>+<sp/>xe2*(a3s<sp/>+<sp/>xe2*(a5s<sp/>+<sp/>xe2*(a7s<sp/>+<sp/>xe2*(a9s<sp/>+<sp/>xe2*a11s)))));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ChangeSign)<sp/>{<sp/>Cos<sp/>=<sp/>-Cos;<sp/>Sin<sp/>=<sp/>-Sin;}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>FillNextLevel(int<sp/>LevelNo,<sp/>double<sp/>sStart,<sp/>double<sp/>sEnd,<sp/>long<sp/>Np)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>FillNextLevel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LevelNo,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sEnd,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Np)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(LevelNo<sp/>==<sp/>2)<sp/>BasePtr<sp/>=<sp/>(AuxDataPtr<sp/>==<sp/>0)?<sp/>&amp;(AuxDataArray[(2*NpOnZeroLevel<sp/>-<sp/>1)*8])<sp/>:<sp/>&amp;(AuxDataPtr[(2*NpOnZeroLevel<sp/>-<sp/>1)*8]);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[Np*8];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(BasePtr<sp/>==<sp/>0)<sp/>{<sp/>Send.ErrorMessage(&quot;SR::Error900&quot;);<sp/>return<sp/>MEMORY_ALLOCATION_FAILURE;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(BasePtr<sp/>==<sp/>0)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MEMORY_ALLOCATION_FAILURE;}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BtxArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>XArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>IntBtxE2ArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>BxArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>BtzArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>ZArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>IntBtzE2ArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>BzArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TrjDatPtr-&gt;CompTotalTrjData(sStart,<sp/>sEnd,<sp/>Np,<sp/>BtxArrP[LevelNo],<sp/>BtzArrP[LevelNo],<sp/>XArrP[LevelNo],<sp/>ZArrP[LevelNo],<sp/>IntBtxE2ArrP[LevelNo],<sp/>IntBtzE2ArrP[LevelNo],<sp/>BxArrP[LevelNo],<sp/>BzArrP[LevelNo]);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AmOfPointsOnLevel[LevelNo]<sp/>=<sp/>Np;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NumberOfLevelsFilled++;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h"/>
+  </compounddef>
+</doxygen>

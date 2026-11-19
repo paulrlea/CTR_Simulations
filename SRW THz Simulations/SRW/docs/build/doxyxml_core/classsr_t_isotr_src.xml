@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_isotr_src" kind="class" language="C++" prot="public">
+    <compoundname>srTIsotrSrc</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_isotr_src_1a63887b11162c9562d22a01d1e2139117" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::LongDist</definition>
+        <argsstring></argsstring>
+        <name>LongDist</name>
+        <qualifiedname>srTIsotrSrc::LongDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="28" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1a6905ac16166f1ae525ac16fe2a0d802e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::NormConstElField</definition>
+        <argsstring></argsstring>
+        <name>NormConstElField</name>
+        <qualifiedname>srTIsotrSrc::NormConstElField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="29" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_isotr_src_1aee4dedf75f1d183f8ce821b20d6db688" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref></type>
+        <definition>srTEbmDat srTIsotrSrc::EbmDat</definition>
+        <argsstring></argsstring>
+        <name>EbmDat</name>
+        <qualifiedname>srTIsotrSrc::EbmDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="33" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1afa75d8e97ed35d8e4c850e1d1ae16c1f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTIsotrSrc::InputWasModified</definition>
+        <argsstring></argsstring>
+        <name>InputWasModified</name>
+        <qualifiedname>srTIsotrSrc::InputWasModified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="35" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1ac66376fe7f31d25a66fc58567f8d0141" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::PhotPerBW</definition>
+        <argsstring></argsstring>
+        <name>PhotPerBW</name>
+        <qualifiedname>srTIsotrSrc::PhotPerBW</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="37" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1a67622e64f88ea8e5b34dadaeae039226" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::Flux</definition>
+        <argsstring></argsstring>
+        <name>Flux</name>
+        <qualifiedname>srTIsotrSrc::Flux</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="38" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1a5d108b62d1b45faad69777074ac1e399" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTIsotrSrc::Polar</definition>
+        <argsstring></argsstring>
+        <name>Polar</name>
+        <qualifiedname>srTIsotrSrc::Polar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="39" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1ae6230aff01013242b400b72954ba937e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTIsotrSrc::UnitFlux</definition>
+        <argsstring></argsstring>
+        <name>UnitFlux</name>
+        <qualifiedname>srTIsotrSrc::UnitFlux</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="39" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1ab0f5c17a6fe789cb61f2545463703a9c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::x0</definition>
+        <argsstring></argsstring>
+        <name>x0</name>
+        <qualifiedname>srTIsotrSrc::x0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="40" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1a3557cfa6a75f191bc7a0e3b710c84cb3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::z0</definition>
+        <argsstring></argsstring>
+        <name>z0</name>
+        <qualifiedname>srTIsotrSrc::z0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="40" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1ab58a54ab9eaafec4de88be7b0667661c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::LongPos</definition>
+        <argsstring></argsstring>
+        <name>LongPos</name>
+        <qualifiedname>srTIsotrSrc::LongPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="40" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1a6165b28814333be5c80a1bd4efa8a47f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::SigX</definition>
+        <argsstring></argsstring>
+        <name>SigX</name>
+        <qualifiedname>srTIsotrSrc::SigX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="41" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1a84c4b769aa93d115932d855366688c97" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIsotrSrc::SigZ</definition>
+        <argsstring></argsstring>
+        <name>SigZ</name>
+        <qualifiedname>srTIsotrSrc::SigZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="41" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_isotr_src_1aeebd67d2a6a256e5e5c8952a59db7442" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref></type>
+        <definition>srTWfrSmp srTIsotrSrc::DistrInfoDat</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDat</name>
+        <qualifiedname>srTIsotrSrc::DistrInfoDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="43" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_isotr_src_1a1d7dc7ce084dc4f8a198a7c42889604c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTIsotrSrc::srTIsotrSrc</definition>
+        <argsstring>()</argsstring>
+        <name>srTIsotrSrc</name>
+        <qualifiedname>srTIsotrSrc::srTIsotrSrc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="45" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_isotr_src_1a1cb4ce4b79353840ed3f2dacbad1dd2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTIsotrSrc::srTIsotrSrc</definition>
+        <argsstring>(SRWLPtSrc *)</argsstring>
+        <name>srTIsotrSrc</name>
+        <qualifiedname>srTIsotrSrc::srTIsotrSrc</qualifiedname>
+        <param>
+          <type>SRWLPtSrc *</type>
+          <defname>pPtSrc</defname>
+        </param>
+        <briefdescription>
+<para>File: srisosrc.cpp Description: Isotropic source Project: Synchrotron Radiation Workshop First release: 1998. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="46" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.cpp" bodystart="19" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_isotr_src_1a85a0f6a18cae00222d248f98a7b49fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTIsotrSrc::CheckInputConsistency</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInputConsistency</name>
+        <qualifiedname>srTIsotrSrc::CheckInputConsistency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="48" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.cpp" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_isotr_src_1ad158dffcad764a9bcdab2b49c97926cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTIsotrSrc::SetupSourceConstants</definition>
+        <argsstring>()</argsstring>
+        <name>SetupSourceConstants</name>
+        <qualifiedname>srTIsotrSrc::SetupSourceConstants</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="49" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.cpp" bodystart="41" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_isotr_src_1aa7c94a70aee83a32fa7ddc537d0d995c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTIsotrSrc::CreateWavefrontElField</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>CreateWavefrontElField</name>
+        <qualifiedname>srTIsotrSrc::CreateWavefrontElField</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="50" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.cpp" bodystart="56" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_isotr_src_1a74eecbef95b7c5013085725c774b8d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTIsotrSrc::ComputeElectricField</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;wfr)</argsstring>
+        <name>ComputeElectricField</name>
+        <qualifiedname>srTIsotrSrc::ComputeElectricField</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>wfr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="51" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.cpp" bodystart="116" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_isotr_src_1af54d0ea077982b831da4b64bfcd5783b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTIsotrSrc::SetupProperPolariz</definition>
+        <argsstring>(double ReA, double ImA, double x, double z, float *tRadX, float *tRadZ)</argsstring>
+        <name>SetupProperPolariz</name>
+        <qualifiedname>srTIsotrSrc::SetupProperPolariz</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ReA</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ImA</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tRadX</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tRadZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="53" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="53" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTIsotrSrc</label>
+        <link refid="classsr_t_isotr_src"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>DistrInfoDat</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" line="26" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h" bodystart="26" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classsr_t_isotr_src_1a85a0f6a18cae00222d248f98a7b49fb3" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>CheckInputConsistency</name></member>
+      <member refid="classsr_t_isotr_src_1a74eecbef95b7c5013085725c774b8d42" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>ComputeElectricField</name></member>
+      <member refid="classsr_t_isotr_src_1aa7c94a70aee83a32fa7ddc537d0d995c" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>CreateWavefrontElField</name></member>
+      <member refid="classsr_t_isotr_src_1aeebd67d2a6a256e5e5c8952a59db7442" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>DistrInfoDat</name></member>
+      <member refid="classsr_t_isotr_src_1aee4dedf75f1d183f8ce821b20d6db688" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>EbmDat</name></member>
+      <member refid="classsr_t_isotr_src_1a67622e64f88ea8e5b34dadaeae039226" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>Flux</name></member>
+      <member refid="classsr_t_isotr_src_1afa75d8e97ed35d8e4c850e1d1ae16c1f" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>InputWasModified</name></member>
+      <member refid="classsr_t_isotr_src_1a63887b11162c9562d22a01d1e2139117" prot="private" virt="non-virtual"><scope>srTIsotrSrc</scope><name>LongDist</name></member>
+      <member refid="classsr_t_isotr_src_1ab58a54ab9eaafec4de88be7b0667661c" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>LongPos</name></member>
+      <member refid="classsr_t_isotr_src_1a6905ac16166f1ae525ac16fe2a0d802e" prot="private" virt="non-virtual"><scope>srTIsotrSrc</scope><name>NormConstElField</name></member>
+      <member refid="classsr_t_isotr_src_1ac66376fe7f31d25a66fc58567f8d0141" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>PhotPerBW</name></member>
+      <member refid="classsr_t_isotr_src_1a5d108b62d1b45faad69777074ac1e399" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>Polar</name></member>
+      <member refid="classsr_t_isotr_src_1af54d0ea077982b831da4b64bfcd5783b" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>SetupProperPolariz</name></member>
+      <member refid="classsr_t_isotr_src_1ad158dffcad764a9bcdab2b49c97926cc" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>SetupSourceConstants</name></member>
+      <member refid="classsr_t_isotr_src_1a6165b28814333be5c80a1bd4efa8a47f" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>SigX</name></member>
+      <member refid="classsr_t_isotr_src_1a84c4b769aa93d115932d855366688c97" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>SigZ</name></member>
+      <member refid="classsr_t_isotr_src_1a1d7dc7ce084dc4f8a198a7c42889604c" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>srTIsotrSrc</name></member>
+      <member refid="classsr_t_isotr_src_1a1cb4ce4b79353840ed3f2dacbad1dd2b" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>srTIsotrSrc</name></member>
+      <member refid="classsr_t_isotr_src_1ae6230aff01013242b400b72954ba937e" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>UnitFlux</name></member>
+      <member refid="classsr_t_isotr_src_1ab0f5c17a6fe789cb61f2545463703a9c" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>x0</name></member>
+      <member refid="classsr_t_isotr_src_1a3557cfa6a75f191bc7a0e3b710c84cb3" prot="public" virt="non-virtual"><scope>srTIsotrSrc</scope><name>z0</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_control_access_s_a_s_e" kind="struct" language="C++" prot="public">
+    <compoundname>srTControlAccessSASE</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a528f57eff28150361b8fcc05ad9fecff" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int srTControlAccessSASE::cMaxNumHarm</definition>
+        <argsstring></argsstring>
+        <name>cMaxNumHarm</name>
+        <qualifiedname>srTControlAccessSASE::cMaxNumHarm</qualifiedname>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2025" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2025" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a6353c4ec4038dab6bc70a3c764c83bf2" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::ar_pBasePower_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_pBasePower_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_pBasePower_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2028" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2028" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1aacc4f41d681fccd2e4c29e58d7323fcb" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::pBaseRadPhase_vs_s</definition>
+        <argsstring></argsstring>
+        <name>pBaseRadPhase_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::pBaseRadPhase_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2030" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2030" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a9534295be8b130d9cb073b4dc48062f2" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::pBaseRadSize_vs_s</definition>
+        <argsstring></argsstring>
+        <name>pBaseRadSize_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::pBaseRadSize_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2031" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2031" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a59833ecb6ca6fb64f9e3daaeec1340a3" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::pBaseBmSizeX_vs_s</definition>
+        <argsstring></argsstring>
+        <name>pBaseBmSizeX_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::pBaseBmSizeX_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2032" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2032" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a23677c93f1a6819a32c39cdcd26b12f6" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::pBaseBmSizeZ_vs_s</definition>
+        <argsstring></argsstring>
+        <name>pBaseBmSizeZ_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::pBaseBmSizeZ_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2033" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2033" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1af23371b53632196d16ccda34de70c437" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::ar_pBasePower_vs_t[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_pBasePower_vs_t</name>
+        <qualifiedname>srTControlAccessSASE::ar_pBasePower_vs_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2038" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2038" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1ade37de2a9282bc18e01898e0628c28c6" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::ar_pBaseEnergy_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_pBaseEnergy_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_pBaseEnergy_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2039" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2039" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a55ca6b6df4be89c17e07934203a807f4" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::ar_pBasePeakPower_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_pBasePeakPower_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_pBasePeakPower_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2040" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2040" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a047c199aa3c24208a0d2952307b64a29" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::ar_pLocEnergy_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_pLocEnergy_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_pLocEnergy_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2043" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a2b7d0da3ab004c7c38c5358f7a35b1fa" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTControlAccessSASE::ar_pBaseBunchFact_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_pBaseBunchFact_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_pBaseBunchFact_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2050" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1aa3a67bcb7b9cae4295079c38cf8c3a3b" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::wControl</definition>
+        <argsstring></argsstring>
+        <name>wControl</name>
+        <qualifiedname>srTControlAccessSASE::wControl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2052" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a483dfe898f458f5cb89df31caa85784b" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::ar_wPower_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_wPower_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_wPower_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2054" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a3a8c7947433da0bf533c85881f835678" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::wRadPhase_vs_s</definition>
+        <argsstring></argsstring>
+        <name>wRadPhase_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::wRadPhase_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2055" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2055" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1ab521465ddd5c307fa136d41f7c5183d3" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::wRadSize_vs_s</definition>
+        <argsstring></argsstring>
+        <name>wRadSize_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::wRadSize_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2056" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2056" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1aa62fae2a8612f57468d287a20d763083" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::wBmSizeX_vs_s</definition>
+        <argsstring></argsstring>
+        <name>wBmSizeX_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::wBmSizeX_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2057" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2057" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1ad936eeefa3417a4f52d3fca7f3598324" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::wBmSizeZ_vs_s</definition>
+        <argsstring></argsstring>
+        <name>wBmSizeZ_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::wBmSizeZ_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2058" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2058" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a4375a1d999d8c552b89b3891e33bcade" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::ar_wPower_vs_t[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_wPower_vs_t</name>
+        <qualifiedname>srTControlAccessSASE::ar_wPower_vs_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2062" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2062" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a25224ebfdc3dbf3a85170e7ff5cd3754" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::ar_wPeakPower_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_wPeakPower_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_wPeakPower_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2063" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2063" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1aeccfb8cc60ccb915be7c62b15ed92632" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::ar_wEnergy_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_wEnergy_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_wEnergy_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2064" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2064" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1ae2bc8458f909647ddae36e352f1085cf" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTControlAccessSASE::ar_wBunchFact_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_wBunchFact_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_wBunchFact_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2071" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2071" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1aa59cfad8fbb3620a8337d65af6d96a00" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::ar_hStatePower_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_hStatePower_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_hStatePower_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2074" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2074" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a6093c58f1d022a3d0a300cb9f5826575" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::hStateRadPhase_vs_s</definition>
+        <argsstring></argsstring>
+        <name>hStateRadPhase_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::hStateRadPhase_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2075" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2075" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1ac278a81d4f038b56c065ffdfa44a379b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::hStateRadSize_vs_s</definition>
+        <argsstring></argsstring>
+        <name>hStateRadSize_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::hStateRadSize_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2076" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2076" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1ac9e198c4c921c26df59392340284a76d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::hStateBmSizeX_vs_s</definition>
+        <argsstring></argsstring>
+        <name>hStateBmSizeX_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::hStateBmSizeX_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2077" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2077" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a94db71cfc7c60d61bd5e6bab1d380bc4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::hStateBmSizeZ_vs_s</definition>
+        <argsstring></argsstring>
+        <name>hStateBmSizeZ_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::hStateBmSizeZ_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2078" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2078" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a3ad5d19f51a0c91faf38022d72f14706" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::ar_hStatePower_vs_t[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_hStatePower_vs_t</name>
+        <qualifiedname>srTControlAccessSASE::ar_hStatePower_vs_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2082" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2082" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1af6c9e0ac6ec6f73a03ea99a6da4e2ea1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::ar_hStateEnergy_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_hStateEnergy_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_hStateEnergy_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2083" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2083" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a68f35bc8f62c70f4a31824faaca7c7b6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::ar_hStatePeakPower_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_hStatePeakPower_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_hStatePeakPower_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2084" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2084" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1af49b4a6db4dd97eb2a927e271419536f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTControlAccessSASE::ar_hStateBunchFact_vs_s[cMaxNumHarm]</definition>
+        <argsstring>[cMaxNumHarm]</argsstring>
+        <name>ar_hStateBunchFact_vs_s</name>
+        <qualifiedname>srTControlAccessSASE::ar_hStateBunchFact_vs_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2091" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2091" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a9f407145ddfdeab9adac53bc191a7b33" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTControlAccessSASE::ns</definition>
+        <argsstring></argsstring>
+        <name>ns</name>
+        <qualifiedname>srTControlAccessSASE::ns</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2093" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2093" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a93e22761eba8b4e93dd731c6274ba8ae" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTControlAccessSASE::nt</definition>
+        <argsstring></argsstring>
+        <name>nt</name>
+        <qualifiedname>srTControlAccessSASE::nt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2093" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2093" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a3e4b94c1308c66d245d50122360b2aa2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTControlAccessSASE::sStart</definition>
+        <argsstring></argsstring>
+        <name>sStart</name>
+        <qualifiedname>srTControlAccessSASE::sStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2094" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2094" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a5620f695729e730f501890427a6f3f58" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTControlAccessSASE::sStep</definition>
+        <argsstring></argsstring>
+        <name>sStep</name>
+        <qualifiedname>srTControlAccessSASE::sStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2094" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2094" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a058aa72b6a5bdeff3df38db03e5a234e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTControlAccessSASE::tStart</definition>
+        <argsstring></argsstring>
+        <name>tStart</name>
+        <qualifiedname>srTControlAccessSASE::tStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2094" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2094" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_control_access_s_a_s_e_1a66b416f05305ca1165f3e9aadfbcd74e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTControlAccessSASE::tStep</definition>
+        <argsstring></argsstring>
+        <name>tStep</name>
+        <qualifiedname>srTControlAccessSASE::tStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2094" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2094" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_control_access_s_a_s_e_1ae0d1d51ec7cab3e0f7406832f69302b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTControlAccessSASE::srTControlAccessSASE</definition>
+        <argsstring>()</argsstring>
+        <name>srTControlAccessSASE</name>
+        <qualifiedname>srTControlAccessSASE::srTControlAccessSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2096" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2096" bodyend="2099"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_control_access_s_a_s_e_1aa2d6da145374bf1cc59df96c2ec6875b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTControlAccessSASE::~srTControlAccessSASE</definition>
+        <argsstring>()</argsstring>
+        <name>~srTControlAccessSASE</name>
+        <qualifiedname>srTControlAccessSASE::~srTControlAccessSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2101" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2101" bodyend="2104"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_control_access_s_a_s_e_1a1b5224246439b879ee68198ef63f67c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTControlAccessSASE::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTControlAccessSASE::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2106" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2106" bodyend="2132"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_control_access_s_a_s_e_1a799ada989d9e1c2651c2d102228a8f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTControlAccessSASE::AllocLocalCont</definition>
+        <argsstring>(int numHarm)</argsstring>
+        <name>AllocLocalCont</name>
+        <qualifiedname>srTControlAccessSASE::AllocLocalCont</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2133" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2133" bodyend="2142"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_control_access_s_a_s_e_1a05f0a8799398a88f30d5ac9af74f3846" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTControlAccessSASE::DeallocLocalCont</definition>
+        <argsstring>()</argsstring>
+        <name>DeallocLocalCont</name>
+        <qualifiedname>srTControlAccessSASE::DeallocLocalCont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2143" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2143" bodyend="2149"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="2023" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="2023" bodyend="2150"/>
+    <listofallmembers>
+      <member refid="structsr_t_control_access_s_a_s_e_1a799ada989d9e1c2651c2d102228a8f95" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>AllocLocalCont</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1af49b4a6db4dd97eb2a927e271419536f" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_hStateBunchFact_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1af6c9e0ac6ec6f73a03ea99a6da4e2ea1" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_hStateEnergy_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a68f35bc8f62c70f4a31824faaca7c7b6" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_hStatePeakPower_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1aa59cfad8fbb3620a8337d65af6d96a00" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_hStatePower_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a3ad5d19f51a0c91faf38022d72f14706" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_hStatePower_vs_t</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a2b7d0da3ab004c7c38c5358f7a35b1fa" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_pBaseBunchFact_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1ade37de2a9282bc18e01898e0628c28c6" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_pBaseEnergy_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a55ca6b6df4be89c17e07934203a807f4" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_pBasePeakPower_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a6353c4ec4038dab6bc70a3c764c83bf2" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_pBasePower_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1af23371b53632196d16ccda34de70c437" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_pBasePower_vs_t</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a047c199aa3c24208a0d2952307b64a29" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_pLocEnergy_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1ae2bc8458f909647ddae36e352f1085cf" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_wBunchFact_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1aeccfb8cc60ccb915be7c62b15ed92632" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_wEnergy_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a25224ebfdc3dbf3a85170e7ff5cd3754" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_wPeakPower_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a483dfe898f458f5cb89df31caa85784b" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_wPower_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a4375a1d999d8c552b89b3891e33bcade" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ar_wPower_vs_t</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a528f57eff28150361b8fcc05ad9fecff" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>cMaxNumHarm</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a05f0a8799398a88f30d5ac9af74f3846" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>DeallocLocalCont</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1ac9e198c4c921c26df59392340284a76d" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>hStateBmSizeX_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a94db71cfc7c60d61bd5e6bab1d380bc4" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>hStateBmSizeZ_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a6093c58f1d022a3d0a300cb9f5826575" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>hStateRadPhase_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1ac278a81d4f038b56c065ffdfa44a379b" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>hStateRadSize_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a1b5224246439b879ee68198ef63f67c6" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>Initialize</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a9f407145ddfdeab9adac53bc191a7b33" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>ns</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a93e22761eba8b4e93dd731c6274ba8ae" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>nt</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a59833ecb6ca6fb64f9e3daaeec1340a3" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>pBaseBmSizeX_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a23677c93f1a6819a32c39cdcd26b12f6" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>pBaseBmSizeZ_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1aacc4f41d681fccd2e4c29e58d7323fcb" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>pBaseRadPhase_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a9534295be8b130d9cb073b4dc48062f2" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>pBaseRadSize_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1ae0d1d51ec7cab3e0f7406832f69302b2" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>srTControlAccessSASE</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a3e4b94c1308c66d245d50122360b2aa2" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>sStart</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a5620f695729e730f501890427a6f3f58" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>sStep</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a058aa72b6a5bdeff3df38db03e5a234e" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>tStart</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a66b416f05305ca1165f3e9aadfbcd74e" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>tStep</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1aa62fae2a8612f57468d287a20d763083" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>wBmSizeX_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1ad936eeefa3417a4f52d3fca7f3598324" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>wBmSizeZ_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1aa3a67bcb7b9cae4295079c38cf8c3a3b" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>wControl</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1a3a8c7947433da0bf533c85881f835678" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>wRadPhase_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1ab521465ddd5c307fa136d41f7c5183d3" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>wRadSize_vs_s</name></member>
+      <member refid="structsr_t_control_access_s_a_s_e_1aa2d6da145374bf1cc59df96c2ec6875b" prot="public" virt="non-virtual"><scope>srTControlAccessSASE</scope><name>~srTControlAccessSASE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

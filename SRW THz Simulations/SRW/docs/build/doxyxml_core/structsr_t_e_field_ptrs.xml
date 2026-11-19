@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_e_field_ptrs" kind="struct" language="C++" prot="public">
+    <compoundname>srTEFieldPtrs</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_e_field_ptrs_1ab6da3b11ec13282956535a218b73f955" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTEFieldPtrs::pExRe</definition>
+        <argsstring></argsstring>
+        <name>pExRe</name>
+        <qualifiedname>srTEFieldPtrs::pExRe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="205" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_field_ptrs_1a4a81dc6bb225aa8a8a421dac47cea952" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * srTEFieldPtrs::pExIm</definition>
+        <argsstring></argsstring>
+        <name>pExIm</name>
+        <qualifiedname>srTEFieldPtrs::pExIm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="205" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_field_ptrs_1a13a2406156df097c04c3b9cca8e8891d" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * srTEFieldPtrs::pEzRe</definition>
+        <argsstring></argsstring>
+        <name>pEzRe</name>
+        <qualifiedname>srTEFieldPtrs::pEzRe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="205" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_field_ptrs_1a02a24a84b0d0303ac1d7e1633571a767" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * srTEFieldPtrs::pEzIm</definition>
+        <argsstring></argsstring>
+        <name>pEzIm</name>
+        <qualifiedname>srTEFieldPtrs::pEzIm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="205" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_e_field_ptrs_1a389488fcd0b83650a56464e54cd60987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEFieldPtrs::srTEFieldPtrs</definition>
+        <argsstring>(float *In_pExRe=0, float *In_pExIm=0, float *In_pEzRe=0, float *In_pEzIm=0)</argsstring>
+        <name>srTEFieldPtrs</name>
+        <qualifiedname>srTEFieldPtrs::srTEFieldPtrs</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>In_pExRe</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>In_pExIm</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>In_pEzRe</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>In_pEzIm</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="209" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="209" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="204" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="204" bodyend="213"/>
+    <listofallmembers>
+      <member refid="structsr_t_e_field_ptrs_1a4a81dc6bb225aa8a8a421dac47cea952" prot="public" virt="non-virtual"><scope>srTEFieldPtrs</scope><name>pExIm</name></member>
+      <member refid="structsr_t_e_field_ptrs_1ab6da3b11ec13282956535a218b73f955" prot="public" virt="non-virtual"><scope>srTEFieldPtrs</scope><name>pExRe</name></member>
+      <member refid="structsr_t_e_field_ptrs_1a02a24a84b0d0303ac1d7e1633571a767" prot="public" virt="non-virtual"><scope>srTEFieldPtrs</scope><name>pEzIm</name></member>
+      <member refid="structsr_t_e_field_ptrs_1a13a2406156df097c04c3b9cca8e8891d" prot="public" virt="non-virtual"><scope>srTEFieldPtrs</scope><name>pEzRe</name></member>
+      <member refid="structsr_t_e_field_ptrs_1a389488fcd0b83650a56464e54cd60987" prot="public" virt="non-virtual"><scope>srTEFieldPtrs</scope><name>srTEFieldPtrs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

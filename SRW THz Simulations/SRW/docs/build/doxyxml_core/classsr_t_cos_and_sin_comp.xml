@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_cos_and_sin_comp" kind="class" language="C++" prot="public">
+    <compoundname>srTCosAndSinComp</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a3a457b524bb903c1b2db95cf2c8294c2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::HalfPI</definition>
+        <argsstring></argsstring>
+        <name>HalfPI</name>
+        <qualifiedname>srTCosAndSinComp::HalfPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1930" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a1aff13de67c4fa800ad37516906a59bd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>srTCosAndSinComp::PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1930" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a068eb8416eb048db1fc8413846586cdd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::TwoPI</definition>
+        <argsstring></argsstring>
+        <name>TwoPI</name>
+        <qualifiedname>srTCosAndSinComp::TwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1930" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a8942db6f159a439315ead1825aa911fb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::ThreePIdTwo</definition>
+        <argsstring></argsstring>
+        <name>ThreePIdTwo</name>
+        <qualifiedname>srTCosAndSinComp::ThreePIdTwo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1930" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a90a8811cb625927f59a1714a1c40f4ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::One_dTwoPI</definition>
+        <argsstring></argsstring>
+        <name>One_dTwoPI</name>
+        <qualifiedname>srTCosAndSinComp::One_dTwoPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1930" column="36" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a49a124adc1a3e8114f59cdbd4f1a5d76" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::One_dHalfPI</definition>
+        <argsstring></argsstring>
+        <name>One_dHalfPI</name>
+        <qualifiedname>srTCosAndSinComp::One_dHalfPI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1930" column="47" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1ad73ed076b962f722fc12c276461f58f0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a2c</definition>
+        <argsstring></argsstring>
+        <name>a2c</name>
+        <qualifiedname>srTCosAndSinComp::a2c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1ae283aa53119c491c4b804c9c2dfa9485" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a4c</definition>
+        <argsstring></argsstring>
+        <name>a4c</name>
+        <qualifiedname>srTCosAndSinComp::a4c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a4fe5e062ce395fcba1918df73f03ec53" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a6c</definition>
+        <argsstring></argsstring>
+        <name>a6c</name>
+        <qualifiedname>srTCosAndSinComp::a6c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a7729b4a853d8ad95bf7eaebdfb0b5b51" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a8c</definition>
+        <argsstring></argsstring>
+        <name>a8c</name>
+        <qualifiedname>srTCosAndSinComp::a8c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a74ae7f094fb3626f953dbf24291272fa" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a10c</definition>
+        <argsstring></argsstring>
+        <name>a10c</name>
+        <qualifiedname>srTCosAndSinComp::a10c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1aa565e62788e20393695cedf8a5025686" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a12c</definition>
+        <argsstring></argsstring>
+        <name>a12c</name>
+        <qualifiedname>srTCosAndSinComp::a12c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a4ce30fb5b5a1c41b2405f7aafeff4931" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a3s</definition>
+        <argsstring></argsstring>
+        <name>a3s</name>
+        <qualifiedname>srTCosAndSinComp::a3s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1ad4b2c666f47519edd52464a909a2aace" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a5s</definition>
+        <argsstring></argsstring>
+        <name>a5s</name>
+        <qualifiedname>srTCosAndSinComp::a5s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a40aa596f6251caf1447827b5c7e504f5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a7s</definition>
+        <argsstring></argsstring>
+        <name>a7s</name>
+        <qualifiedname>srTCosAndSinComp::a7s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a5088f0f835029e74ebeeef93713db533" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a9s</definition>
+        <argsstring></argsstring>
+        <name>a9s</name>
+        <qualifiedname>srTCosAndSinComp::a9s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="46" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a7af5ac82b95eed7c779c97c0ffb42fb5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a11s</definition>
+        <argsstring></argsstring>
+        <name>a11s</name>
+        <qualifiedname>srTCosAndSinComp::a11s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="50" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_cos_and_sin_comp_1a1d26ad52398be18bc173226f8033b5a6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTCosAndSinComp::a13s</definition>
+        <argsstring></argsstring>
+        <name>a13s</name>
+        <qualifiedname>srTCosAndSinComp::a13s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1931" column="55" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_cos_and_sin_comp_1accdeb63a7a36ce22a1c11aaa01903261" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTCosAndSinComp::srTCosAndSinComp</definition>
+        <argsstring>()</argsstring>
+        <name>srTCosAndSinComp</name>
+        <qualifiedname>srTCosAndSinComp::srTCosAndSinComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1935" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1935" bodyend="1938"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_cos_and_sin_comp_1a4871886769a539cab49b1d932ac18e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTCosAndSinComp::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTCosAndSinComp::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1940" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1940" bodyend="1946"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_cos_and_sin_comp_1aba7f56149621056540704e3fa4a877c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTCosAndSinComp::CosAndSin</definition>
+        <argsstring>(double x, double &amp;Cos, double &amp;Sin)</argsstring>
+        <name>CosAndSin</name>
+        <qualifiedname>srTCosAndSinComp::CosAndSin</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Cos</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Sin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1947" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1947" bodyend="1960"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1928" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1928" bodyend="1961"/>
+    <listofallmembers>
+      <member refid="classsr_t_cos_and_sin_comp_1a74ae7f094fb3626f953dbf24291272fa" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a10c</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a7af5ac82b95eed7c779c97c0ffb42fb5" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a11s</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1aa565e62788e20393695cedf8a5025686" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a12c</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a1d26ad52398be18bc173226f8033b5a6" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a13s</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1ad73ed076b962f722fc12c276461f58f0" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a2c</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a4ce30fb5b5a1c41b2405f7aafeff4931" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a3s</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1ae283aa53119c491c4b804c9c2dfa9485" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a4c</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1ad4b2c666f47519edd52464a909a2aace" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a5s</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a4fe5e062ce395fcba1918df73f03ec53" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a6c</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a40aa596f6251caf1447827b5c7e504f5" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a7s</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a7729b4a853d8ad95bf7eaebdfb0b5b51" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a8c</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a5088f0f835029e74ebeeef93713db533" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>a9s</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1aba7f56149621056540704e3fa4a877c5" prot="public" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a3a457b524bb903c1b2db95cf2c8294c2" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>HalfPI</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a4871886769a539cab49b1d932ac18e66" prot="public" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>Initialize</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a49a124adc1a3e8114f59cdbd4f1a5d76" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>One_dHalfPI</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a90a8811cb625927f59a1714a1c40f4ac" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>One_dTwoPI</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a1aff13de67c4fa800ad37516906a59bd" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>PI</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1accdeb63a7a36ce22a1c11aaa01903261" prot="public" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>srTCosAndSinComp</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a8942db6f159a439315ead1825aa911fb" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>ThreePIdTwo</name></member>
+      <member refid="classsr_t_cos_and_sin_comp_1a068eb8416eb048db1fc8413846586cdd" prot="private" virt="non-virtual"><scope>srTCosAndSinComp</scope><name>TwoPI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

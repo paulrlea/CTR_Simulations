@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srtrjdat3d_8h" kind="file" language="C++">
+    <compoundname>srtrjdat3d.h</compoundname>
+    <includes refid="srgtrjdt_8h" local="yes">srgtrjdt.h</includes>
+    <includes refid="srmagfld_8h" local="yes">srmagfld.h</includes>
+    <includes local="yes">gmmeth.h</includes>
+    <includedby refid="srmagfld_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp</includedby>
+    <includedby refid="srtrjdat3d_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="2">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="20">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h</label>
+        <link refid="srtrjdat3d_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="26">
+        <label>ctype.h</label>
+      </node>
+      <node id="32">
+        <label>gminterp.h</label>
+      </node>
+      <node id="15">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="14">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="13">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="19">
+        <label>gmvect.h</label>
+      </node>
+      <node id="7">
+        <label>map</label>
+      </node>
+      <node id="4">
+        <label>math.h</label>
+      </node>
+      <node id="12">
+        <label>objcont.h</label>
+      </node>
+      <node id="8">
+        <label>smartptr.h</label>
+      </node>
+      <node id="23">
+        <label>srigorre.h</label>
+      </node>
+      <node id="28">
+        <label>srinterf.h</label>
+      </node>
+      <node id="30">
+        <label>srwlib.h</label>
+      </node>
+      <node id="18">
+        <label>stdlib.h</label>
+      </node>
+      <node id="9">
+        <label>stlstart.h</label>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="25">
+        <label>string.h</label>
+      </node>
+      <node id="16">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classsr_t_trj_dat3d" prot="public">srTTrjDat3d</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRTRJDAT3D_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRTRJDAT3D_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srgtrjdt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srmagfld.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gmmeth.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classsr_t_trj_dat3d" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_trj_dat3d" kindref="compound">srTTrjDat3d</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref><sp/>{<sp/></highlight><highlight class="comment">//Not<sp/>Used?<sp/>(RK<sp/>moved<sp/>to<sp/>srTGenTrjDat)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_mag_fld3d" kindref="compound">srTMagFld3d</ref>&amp;<sp/>m_Fld3d;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m_Mult2ndDer;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_trj_dat3d" kindref="compound">srTTrjDat3d</ref>(<ref refid="classsr_t_mag_fld3d" kindref="compound">srTMagFld3d</ref>&amp;<sp/>_Fld3d)<sp/>:<sp/>m_Fld3d(_Fld3d)<sp/>{}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_trj_dat3d" kindref="compound">srTTrjDat3d</ref>(<ref refid="classsr_t_mag_fld3d" kindref="compound">srTMagFld3d</ref>&amp;<sp/>_Fld3d,<sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>&amp;<sp/>_EbmDat)<sp/>:<sp/>m_Fld3d(_Fld3d),<sp/><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref>(&amp;_EbmDat)<sp/>{}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>CompTrjDataForDisp(double*<sp/>pOutBtxData,<sp/>double*<sp/>pOutXData,<sp/>double*<sp/>pOutBtyData,<sp/>double*<sp/>pOutYData,<sp/>double*<sp/>pOutBtzData,<sp/>double*<sp/>pOutZData,<sp/>int<sp/>ns,<sp/>double<sp/>sStart,<sp/>double<sp/>sStep);<sp/>//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsr_t_trj_dat3d_1a11e004a3d2754fc8b2eba43852eb6f65" kindref="member">CompTrjDataForDisp</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pOutBtxData,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pOutXData,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pOutBtyData,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pOutYData,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pOutBtzData,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pOutZData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ns,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStep);<sp/></highlight><highlight class="comment">//virtual</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>funcDerivF(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>arr_F,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>arr_dFds)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xd<sp/>=<sp/>arr_F[1],<sp/>yd<sp/>=<sp/>arr_F[3];<sp/></highlight><highlight class="comment">//,<sp/>zd<sp/>=<sp/>arr_F[5];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zd<sp/>=<sp/>CGenMathMeth::radicalOnePlusSmall(-(EbmDat.GammaEm2<sp/>+<sp/>xd*xd<sp/>+<sp/>yd*yd));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>P(arr_F[0],<sp/>arr_F[2],<sp/>arr_F[4]),<sp/>B;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_Fld3d.<ref refid="classsr_t_mag_fld3d_1a995c946ce53af08908562666183d6ec0" kindref="member">compB</ref>(P,<sp/>B);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arr_dFds[0]<sp/>=<sp/>xd;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arr_dFds[1]<sp/>=<sp/>m_Mult2ndDer*(yd*B.z<sp/>-<sp/>zd*B.y);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arr_dFds[2]<sp/>=<sp/>yd;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arr_dFds[3]<sp/>=<sp/>m_Mult2ndDer*(zd*B.x<sp/>-<sp/>xd*B.z);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>arr_dFds[4]<sp/>=<sp/>zd;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//arr_dFds[5]<sp/>=<sp/>m_Mult2ndDer*(xd*B.y<sp/>-<sp/>yd*B.x);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h"/>
+  </compounddef>
+</doxygen>

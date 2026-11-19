@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptsmr_8cpp" kind="file" language="C++">
+    <compoundname>sroptsmr.cpp</compoundname>
+    <includes refid="sroptsmr_8h" local="yes">sroptsmr.h</includes>
+    <includes refid="sroptapt_8h" local="yes">sroptapt.h</includes>
+    <incdepgraph>
+      <node id="21">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="14">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>sroptapt.h</label>
+        <link refid="sroptapt_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sroptcnt.h</label>
+        <link refid="sroptcnt_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.cpp</label>
+        <link refid="sroptsmr_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptsmr.h</label>
+        <link refid="sroptsmr_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="6">
+        <label>cstdlib</label>
+      </node>
+      <node id="20">
+        <label>ctype.h</label>
+      </node>
+      <node id="7">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="8">
+        <label>gmvect.h</label>
+      </node>
+      <node id="28">
+        <label>list</label>
+      </node>
+      <node id="16">
+        <label>map</label>
+      </node>
+      <node id="12">
+        <label>math.h</label>
+      </node>
+      <node id="9">
+        <label>smartptr.h</label>
+      </node>
+      <node id="13">
+        <label>srigorre.h</label>
+      </node>
+      <node id="23">
+        <label>srinterf.h</label>
+      </node>
+      <node id="26">
+        <label>srwlib.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="17">
+        <label>stlstart.h</label>
+      </node>
+      <node id="15">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>string.h</label>
+      </node>
+      <node id="27">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptsmr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptapt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsr_t_spher_mirror_1aff523cf859ea721c55a899e3ea27d437" kindref="member">srTSpherMirror::SetupNativeAperture</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>CosTheta<sp/>=<sp/>cos(Theta);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ApDx<sp/>=<sp/>(RotPlane<sp/>==<sp/></highlight><highlight class="charliteral">&apos;h&apos;</highlight><highlight class="normal">)?<sp/>Dx*CosTheta<sp/>:<sp/>Dx;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ApDz<sp/>=<sp/>(RotPlane<sp/>==<sp/></highlight><highlight class="charliteral">&apos;v&apos;</highlight><highlight class="normal">)?<sp/>Dy*CosTheta<sp/>:<sp/>Dy;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>NativeApertureHndl<sp/>=<sp/>srTGenOptElemHndl(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsr_t_rect_aperture" kindref="compound">srTRectAperture</ref>(ApDx,<sp/>ApDz,<sp/>TransvCenPoint.x,<sp/>TransvCenPoint.y));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>srTSpherMirror::SetupSpherMirrorApprox()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>SpherMirrorApproxHndl<sp/>=<sp/>srTGenOptElemHndl(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsr_t_composite_opt_elem" kindref="compound">srTCompositeOptElem</ref>());</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>srTGenOptElemHndl<sp/>ThinLensHndl<sp/>=<sp/>srTGenOptElemHndl(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsr_t_thin_lens" kindref="compound">srTThinLens</ref>(FocDistX,<sp/>FocDistZ,<sp/>TransvCenPoint.x,<sp/>TransvCenPoint.y));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>((<ref refid="classsr_t_composite_opt_elem" kindref="compound">srTCompositeOptElem</ref>*)(SpherMirrorApproxHndl.rep))-&gt;AddOptElemBack(NativeApertureHndl);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>((<ref refid="classsr_t_composite_opt_elem" kindref="compound">srTCompositeOptElem</ref>*)(SpherMirrorApproxHndl.rep))-&gt;AddOptElemBack(ThinLensHndl);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>srTSpherMirror::SetupInAndOutPlanes(TVector3d*<sp/>InPlane,<sp/>TVector3d*<sp/>OutPlane)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight><highlight class="comment">//<sp/>Assumes<sp/>InPlaneNorm<sp/>and<sp/>transverse<sp/>part<sp/>InPlaneCenPo<sp/>already<sp/>defined<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>&amp;InPlaneCenPo<sp/>=<sp/>*InPlane,<sp/>&amp;InPlaneNorm<sp/>=<sp/>InPlane[1];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>&amp;OutPlaneCenPo<sp/>=<sp/>*OutPlane,<sp/>&amp;OutPlaneNorm<sp/>=<sp/>OutPlane[1];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>LocInPlaneNorm<sp/>=<sp/>InPlaneNorm;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>FromLabToLocFrame_Vector(LocInPlaneNorm);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xP<sp/>=<sp/>-0.5*Dx,<sp/>yP<sp/>=<sp/>-0.5*Dy;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>P0(xP,<sp/>yP,<sp/>SurfaceFunction(xP,<sp/>yP,<sp/>0));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>P1(-xP,<sp/>yP,<sp/>SurfaceFunction(-xP,<sp/>yP,<sp/>0));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>P2(xP,<sp/>-yP,<sp/>SurfaceFunction(xP,<sp/>-yP,<sp/>0));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>P3(-xP,<sp/>-yP,<sp/>SurfaceFunction(-xP,<sp/>-yP,<sp/>0));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>EdgePoints[]<sp/>=<sp/>{<sp/>P0,<sp/>P1,<sp/>P2,<sp/>P3<sp/>};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LowestInd,<sp/>UppestInd;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>FindLowestAndUppestPoints(LocInPlaneNorm,<sp/>EdgePoints,<sp/>4,<sp/>LowestInd,<sp/>UppestInd);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>PointForInPlane<sp/>=<sp/>EdgePoints[LowestInd];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>FromLocToLabFrame_Point(PointForInPlane);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>InPlaneCenPo.y<sp/>=<sp/>PointForInPlane.y;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>LocInPlaneCenPo<sp/>=<sp/>InPlaneCenPo;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>FromLabToLocFrame_Point(LocInPlaneCenPo);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>LocInPlane[]<sp/>=<sp/>{<sp/>LocInPlaneCenPo,<sp/>LocInPlaneNorm<sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>LocP,<sp/>LocN;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>FindRayIntersectWithSurface(LocInPlane,<sp/>0,<sp/>LocP);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>SurfaceNormalAtPoint(LocP.x,<sp/>LocP.y,<sp/>0,<sp/>LocN);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>LocOutPlaneNorm<sp/>=<sp/>LocInPlaneNorm;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>ReflectVect(LocN,<sp/>LocOutPlaneNorm);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>FindLowestAndUppestPoints(LocOutPlaneNorm,<sp/>EdgePoints,<sp/>4,<sp/>LowestInd,<sp/>UppestInd);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>OutPlaneCenPo<sp/>=<sp/>(EdgePoints[UppestInd]*LocOutPlaneNorm)*LocOutPlaneNorm;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>*OutPlaneInLocFrame<sp/>=<sp/>OutPlaneCenPo;<sp/>OutPlaneInLocFrame[1]<sp/>=<sp/>LocOutPlaneNorm;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>FromLocToLabFrame_Point(OutPlaneCenPo);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>OutPlaneNorm<sp/>=<sp/>LocOutPlaneNorm;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>FromLocToLabFrame_Vector(OutPlaneNorm);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>LabN<sp/>=<sp/>LocN;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>FromLocToLabFrame_Vector(LabN);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>ExRefInLabFrameBeforeProp<sp/>=<sp/>TVector3d(1.,0.,0.);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>ReflectVect(LabN,<sp/>ExRefInLabFrameBeforeProp);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>EzRefInLabFrameBeforeProp<sp/>=<sp/>TVector3d(0.,0.,1.);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>ReflectVect(LabN,<sp/>EzRefInLabFrameBeforeProp);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.cpp"/>
+  </compounddef>
+</doxygen>

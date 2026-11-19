@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_group" kind="class" language="C++" prot="public">
+    <compoundname>srTMagGroup</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_group_1adb3fb16a3439a78534ea1433903314bf" prot="public" static="no" mutable="no">
+        <type>srTMagPosAndElemVect</type>
+        <definition>srTMagPosAndElemVect srTMagGroup::PosAndElemVect</definition>
+        <argsstring></argsstring>
+        <name>PosAndElemVect</name>
+        <qualifiedname>srTMagGroup::PosAndElemVect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1728" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1728" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_group_1a39eab3301b2577156f2b014d7b046c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagGroup::srTMagGroup</definition>
+        <argsstring>()</argsstring>
+        <name>srTMagGroup</name>
+        <qualifiedname>srTMagGroup::srTMagGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1730" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1730" bodyend="1730"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_group_1a9ec4fabbebf3c8e41f551d611540c193" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagGroup::SetupWigSASE</definition>
+        <argsstring>(srTWigComSASE &amp;)</argsstring>
+        <name>SetupWigSASE</name>
+        <qualifiedname>srTMagGroup::SetupWigSASE</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0">SetupWigSASE</reimplements>
+        <param>
+          <type><ref refid="structsr_t_wig_com_s_a_s_e" kindref="compound">srTWigComSASE</ref> &amp;</type>
+          <defname>WigCom</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1732" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="310" bodyend="416"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagGroup</label>
+        <link refid="classsr_t_mag_group"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagGroup</label>
+        <link refid="classsr_t_mag_group"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1726" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1726" bodyend="1733"/>
+    <listofallmembers>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e" prot="public" virt="virtual"><scope>srTMagGroup</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5" prot="public" virt="virtual"><scope>srTMagGroup</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447" prot="public" virt="virtual"><scope>srTMagGroup</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257" prot="public" virt="virtual"><scope>srTMagGroup</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52" prot="public" virt="virtual"><scope>srTMagGroup</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagGroup</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_group_1adb3fb16a3439a78534ea1433903314bf" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>PosAndElemVect</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagGroup</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_group_1a9ec4fabbebf3c8e41f551d611540c193" prot="public" virt="virtual"><scope>srTMagGroup</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_group_1a39eab3301b2577156f2b014d7b046c77" prot="public" virt="non-virtual"><scope>srTMagGroup</scope><name>srTMagGroup</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagGroup</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

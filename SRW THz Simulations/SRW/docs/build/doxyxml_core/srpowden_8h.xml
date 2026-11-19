@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srpowden_8h" kind="file" language="C++">
+    <compoundname>srpowden.h</compoundname>
+    <includes refid="srtrjdat_8h" local="yes">srtrjdat.h</includes>
+    <includes local="yes">gmtrans.h</includes>
+    <includes refid="srpersto_8h" local="yes">srpersto.h</includes>
+    <includes refid="srmlttsk_8h" local="yes">srmlttsk.h</includes>
+    <includes refid="srradinc_8h" local="yes">srradinc.h</includes>
+    <includedby refid="srpowden_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp</includedby>
+    <includedby refid="srsend_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp</includedby>
+    <incdepgraph>
+      <node id="41">
+        <label>srctrjdt.h</label>
+        <link refid="srctrjdt_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="24">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>srmlttsk.h</label>
+        <link refid="srmlttsk_8h_source"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>srpersto.h</label>
+        <link refid="srpersto_8h_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h</label>
+        <link refid="srpowden_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>srptrjdt.h</label>
+        <link refid="srptrjdt_8h_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>srradinc.h</label>
+        <link refid="srradinc_8h_source"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="40">
+        <label>srtrjaux.h</label>
+        <link refid="srtrjaux_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="14">
+        <label>ctype.h</label>
+      </node>
+      <node id="35">
+        <label>gmfft.h</label>
+      </node>
+      <node id="34">
+        <label>gminterp.h</label>
+      </node>
+      <node id="28">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="27">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="15">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="16">
+        <label>gmvect.h</label>
+      </node>
+      <node id="9">
+        <label>map</label>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="26">
+        <label>objcont.h</label>
+      </node>
+      <node id="10">
+        <label>smartptr.h</label>
+      </node>
+      <node id="38">
+        <label>srerror.h</label>
+      </node>
+      <node id="6">
+        <label>srigorre.h</label>
+      </node>
+      <node id="19">
+        <label>srinterf.h</label>
+      </node>
+      <node id="22">
+        <label>srwlib.h</label>
+      </node>
+      <node id="33">
+        <label>stdlib.h</label>
+      </node>
+      <node id="11">
+        <label>stlstart.h</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+      <node id="13">
+        <label>string.h</label>
+      </node>
+      <node id="37">
+        <label>time.h</label>
+      </node>
+      <node id="23">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structsr_t_rad_int_pow_den_prec" prot="public">srTRadIntPowDenPrec</innerclass>
+    <innerclass refid="structsr_t_pair_of_float" prot="public">srTPairOfFloat</innerclass>
+    <innerclass refid="classsr_t_rad_int_power_density" prot="public">srTRadIntPowerDensity</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="srpowden_8h_1ac346722d2d698be2411cd00a89d10117" prot="public" static="no" extern="yes" mutable="no">
+        <type><ref refid="classsr_t_yield" kindref="compound">srTYield</ref></type>
+        <definition>srTYield srYield</definition>
+        <argsstring></argsstring>
+        <name>srYield</name>
+        <briefdescription>
+<para>File: <ref refid="srpowden_8h_source" kindref="compound">srpowden.h</ref> Description: Calculation of Power Density (integrated over all photon energies) of Synchrotron Radiation from ~Arbitrary Transversely-Uniform Magnetic Field (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="25" column="17" declfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" declline="25" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SRPOWDEN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SRPOWDEN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srtrjdat.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gmtrans.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srpersto.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srmlttsk.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srradinc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="classsr_t_yield" kindref="compound">srTYield</ref><sp/>srYield;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">srTParPrecPowDens;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="structsr_t_rad_int_pow_den_prec" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsr_t_rad_int_pow_den_prec" kindref="compound">srTRadIntPowDenPrec</ref><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PrecFact;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>Method;<sp/></highlight><highlight class="comment">//<sp/>1-<sp/>near-field,<sp/>2-<sp/>far-field</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>UseSpecIntLim;<sp/></highlight><highlight class="comment">//<sp/>0-<sp/>don&apos;t<sp/>use;<sp/>1-<sp/>use</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStart,<sp/>sFin;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structsr_t_pair_of_float" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsr_t_pair_of_float" kindref="compound">srTPairOfFloat</ref><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f1,<sp/>f2;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classsr_t_rad_int_power_density" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_rad_int_power_density" kindref="compound">srTRadIntPowerDensity</ref><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_cos_and_sin_comp" kindref="compound">srTCosAndSinComp</ref><sp/>CosAndSinComp;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>LongIntTypeG;<sp/></highlight><highlight class="comment">//<sp/>1-<sp/>all<sp/>field<sp/>range;<sp/>2-<sp/>one<sp/>period;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sIntegStartG,<sp/>sIntegFinG;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>AmOfPerG;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BtxArrP[50],<sp/>*XArrP[50],<sp/>*BxArrP[50];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*BtzArrP[50],<sp/>*ZArrP[50],<sp/>*BzArrP[50];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>AmOfPointsOnLevel[50];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>AmOfPointsOnLevel[50];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NumberOfLevelsFilledG;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>MaxLevelForMeth_01G;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ProbablyTheSameLoopG;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MaxFluxDensValG,<sp/>CurrentAbsPrecG,<sp/>sIntegRelPrecG;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ActNormConstG;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>NotCompIntervBorders[1100];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_pair_of_float" kindref="compound">srTPairOfFloat</ref><sp/>NotCompInterv[600];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref><sp/>EXZ;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref><sp/>FieldBasedArrays;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>MagFieldIsConstG;<sp/></highlight><highlight class="comment">//<sp/>!0<sp/>if<sp/>const<sp/>field<sp/>at<sp/>input</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>gmTrans<sp/>TrLab2Loc;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_init_trj_coord_ang" kindref="compound">srTInitTrjCoordAng</ref><sp/>LocInitCoordAng;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>TVector3d<sp/>PobsLocG;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BconG,<sp/>RmaG;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>srTGenTrjHndl<sp/>TrjHndl;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref><sp/>DistrInfoDat;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_rad_int_pow_den_prec" kindref="compound">srTRadIntPowDenPrec</ref><sp/>IntPowDenPrec;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>srTIntVect*<sp/>pWarningsGen;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_rad_int_power_density" kindref="compound">srTRadIntPowerDensity</ref>()</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Initialize();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_rad_int_power_density" kindref="compound">~srTRadIntPowerDensity</ref>()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DisposeAuxTrjArrays();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Initialize();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>CheckInputConsistency();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ComputePowerDensity(<ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>*<sp/>pElecBeam,<sp/><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref>*<sp/>pMagElem,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>pWfrSmp,<sp/>srTParPrecPowDens*<sp/>pPrecPowDens,<sp/><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>*<sp/>pPow);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ComputePowerDensity(<ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*<sp/>pTrjDat,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>pWfrSmp,<sp/>srTParPrecPowDens*<sp/>pPrecPowDens,<sp/><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>*<sp/>pPow);<sp/></highlight><highlight class="comment">//SRWLib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ComputeTotalPowerDensityDistr(<ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>&amp;);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ComputePowerDensityAtPoint(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>pPowDens);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SetUpFieldBasedArrays();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AnalizeFinalResultsSymmetry(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>FinalResAreSymOverX,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>FinalResAreSymOverZ);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FillInSymPartsOfResults(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FinalResAreSymOverX,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>FinalResAreSymOverZ,<sp/><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>&amp;<sp/>PowDensAccessData);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>SetupNotCompIntervBorders(double<sp/>MinValNotComp,<sp/>double<sp/>sStart,<sp/>double<sp/>sStep,<sp/>long<sp/>Np,<sp/>long&amp;<sp/>AmOfInterv);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupNotCompIntervBorders(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MinValNotComp,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStep,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Np,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">&amp;<sp/>AmOfInterv);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TreatFiniteElecBeamEmittance(<ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>&amp;,<sp/>gmTrans*<sp/>pTrfObsPl<sp/>=0);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TreatFiniteElecBeamEmittance1D(<ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>&amp;,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineSingleElecPowDensEffSizes(<ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>&amp;,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>MxxPowSingleE,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>MzzPowSingleE);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineResizeBeforeConv(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MxxElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MzzElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MxxPowSingleE,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MzzPowSingleE,<sp/><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref>&amp;<sp/>Resize);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>ConstructDataForConv(srTPowDensStructAccessData&amp;<sp/>PowDensAccessData,<sp/>float*<sp/>NewData,<sp/>long<sp/>long<sp/>NewNx,<sp/>long<sp/>long<sp/>NewNz);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ConstructDataForConv(<ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>&amp;<sp/>PowDensAccessData,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>NewData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NewNx,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NewNz);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>PerformConvolutionWithGaussian(float*<sp/>AuxConvData,<sp/>long<sp/>long<sp/>NxAux,<sp/>long<sp/>long<sp/>NzAux,<sp/>double<sp/>MxxElecEff,<sp/>double<sp/>MzzElecEff);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PerformConvolutionWithGaussian(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>AuxConvData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NxAux,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NzAux,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MxxElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MzzElecEff);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//void<sp/>ExtractFinalDataAfterConv(float*<sp/>AuxConvData,<sp/>long<sp/>long<sp/>NxAux,<sp/>long<sp/>long<sp/>NzAux,<sp/>srTPowDensStructAccessData&amp;<sp/>PowDensAccessData);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ExtractFinalDataAfterConv(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>AuxConvData,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NxAux,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>NzAux,<sp/><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref>&amp;<sp/>PowDensAccessData);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetPrecParams(srTParPrecPowDens*<sp/>pPrecPowDens);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TryToReduceIntegLimits();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupNativeRotation();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ComputePowerDensityAtPointConstMagField(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>pPowDens);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>FillNextLevel(int<sp/>LevelNo,<sp/>double<sp/>sStart,<sp/>double<sp/>sEnd,<sp/>long<sp/>Np)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>FillNextLevel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LevelNo,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sStart,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sEnd,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Np)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>BasePtr<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[Np*6];</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(BasePtr<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MEMORY_ALLOCATION_FAILURE;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BtxArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>XArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>BxArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>BtzArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>ZArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BasePtr<sp/>+=<sp/>Np;<sp/>BzArrP[LevelNo]<sp/>=<sp/>BasePtr;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TrjHndl.rep-&gt;CompTotalTrjData(sStart,<sp/>sEnd,<sp/>Np,<sp/>BtxArrP[LevelNo],<sp/>BtzArrP[LevelNo],<sp/>XArrP[LevelNo],<sp/>ZArrP[LevelNo],<sp/>BxArrP[LevelNo],<sp/>BzArrP[LevelNo]);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AmOfPointsOnLevel[LevelNo]<sp/>=<sp/>Np;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NumberOfLevelsFilledG++;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DisposeAuxTrjArrays()</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;NumberOfLevelsFilledG;<sp/>i++)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(BtxArrP[i]<sp/>!=<sp/>0)<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>(BtxArrP[i]);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NumberOfLevelsFilledG<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ZeroAuxTrjPtrs();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ZeroAuxTrjPtrs()</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;50;<sp/>i++)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BtxArrP[i]<sp/>=<sp/>0;<sp/>XArrP[i]<sp/>=<sp/>0;<sp/>BxArrP[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BtzArrP[i]<sp/>=<sp/>0;<sp/>ZArrP[i]<sp/>=<sp/>0;<sp/>BzArrP[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AmOfPointsOnLevel[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157" refid="classsr_t_rad_int_power_density_1abe785cc47d1f81e80749cd12f71c8796" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsr_t_rad_int_power_density_1abe785cc47d1f81e80749cd12f71c8796" kindref="member">PowDensFun</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Bx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Btx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>X,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Bz,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Btz,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Fx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>Fz)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(s<sp/>&gt;=<sp/>DistrInfoDat.yStart)<sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Fx<sp/>=<sp/>0;<sp/>Fz<sp/>=<sp/>0;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>One_d_ymis,<sp/>Nx,<sp/>Nz;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dx<sp/>=<sp/>(EXZ.x<sp/>-<sp/>X),<sp/>dy<sp/>=<sp/>DistrInfoDat.yStart<sp/>-<sp/>s,<sp/>dz<sp/>=<sp/>(EXZ.z<sp/>-<sp/>Z);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(dy<sp/>==<sp/>0.)<sp/>dy<sp/>=<sp/>1.e-23;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(IntPowDenPrec.Method<sp/>==<sp/>1)<sp/></highlight><highlight class="comment">//<sp/>Near<sp/>field</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>instDist<sp/>=<sp/>DistrInfoDat.yStart<sp/>-<sp/>s;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>instDist<sp/>=<sp/>sqrt(dx*dx<sp/>+<sp/>dy*dy<sp/>+<sp/>dz*dz);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./instDist;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//One_d_ymis<sp/>=<sp/>1./dy;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Nx<sp/>=<sp/>(EXZ.x<sp/>-<sp/>X)*One_d_ymis;<sp/>Nz<sp/>=<sp/>(EXZ.z<sp/>-<sp/>Z)*One_d_ymis;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>dx*One_d_ymis;<sp/>Nz<sp/>=<sp/>dz*One_d_ymis;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>instDist<sp/>=<sp/>DistrInfoDat.yStart<sp/>-<sp/>0.5*(sIntegStartG<sp/>+<sp/>sIntegFinG);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>One_d_ymis<sp/>=<sp/>1./instDist;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nx<sp/>=<sp/>EXZ.x*One_d_ymis;<sp/>Nz<sp/>=<sp/>EXZ.z*One_d_ymis;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>invRinst<sp/>=<sp/>One_d_ymis;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>auxFact<sp/>=<sp/>Nx*Nx<sp/>+<sp/>Nz*Nz;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OCTEST<sp/>(commented-out)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(auxFact<sp/>&gt;<sp/>0.99)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>double<sp/>multFact<sp/>=<sp/>sqrt(0.99/auxFact);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Nx<sp/>*=<sp/>multFact;<sp/>Nz<sp/>*=<sp/>multFact;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>auxFact<sp/>=<sp/>0.99;<sp/>//to<sp/>calculate<sp/>angles<sp/>more<sp/>accurately??</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OC27092016</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Ny<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(auxFact<sp/>&lt;<sp/>1.)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ny<sp/>=<sp/>(auxFact<sp/>&gt;<sp/>0.000001)?<sp/>sqrt(1.<sp/>-<sp/>auxFact)<sp/>:<sp/>1<sp/>-<sp/>0.5*auxFact<sp/>-<sp/>0.125*auxFact*auxFact;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>Ny<sp/>=<sp/>(auxFact<sp/>&gt;<sp/>0.01)?<sp/>sqrt(1.<sp/>-<sp/>auxFact)<sp/>:<sp/>1<sp/>-<sp/>0.5*auxFact<sp/>-<sp/>0.125*auxFact*auxFact;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>Ny<sp/>=<sp/>(auxFact<sp/>&gt;<sp/>0.001)?<sp/>sqrt(1.<sp/>-<sp/>auxFact)<sp/>:<sp/>1<sp/>-<sp/>0.5*auxFact<sp/>-<sp/>0.125*auxFact*auxFact;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>Ny<sp/>=<sp/>(auxFact<sp/>&gt;<sp/>0.000001)?<sp/>sqrt(1.<sp/>-<sp/>auxFact)<sp/>:<sp/>1<sp/>-<sp/>0.5*auxFact<sp/>-<sp/>0.125*auxFact*auxFact;<sp/>//OC27092016<sp/>(commented-out)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cosFactProj<sp/>=<sp/>Ny;<sp/></highlight><highlight class="comment">//sqrt(1.<sp/>-<sp/>auxFact);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vEyP_x<sp/>=<sp/>0,<sp/>vEyP_y<sp/>=<sp/>1,<sp/>vEyP_z<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!DistrInfoDat.obsPlaneIsTransv)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TVector3d<sp/>&amp;vNorm<sp/>=<sp/>DistrInfoDat.vNormObsPl;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cosFactProj<sp/>=<sp/>-((vNorm.x)*Nx<sp/>+<sp/>(vNorm.y)*sqrt(1.<sp/>-<sp/>auxFact)<sp/>+<sp/>(vNorm.z)*Nz);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>&amp;vEyP<sp/>=<sp/>DistrInfoDat.vLong;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vEyP_x<sp/>=<sp/>vEyP.x;<sp/>vEyP_y<sp/>=<sp/>vEyP.y;<sp/>vEyP_z<sp/>=<sp/>vEyP.z;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cosFactProj<sp/>=<sp/>vEyP_x*Nx<sp/>+<sp/>vEyP_y*Ny<sp/>+<sp/>vEyP_z*Nz;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cosFactProj<sp/>=<sp/>::fabs(vEyP_x*Nx<sp/>+<sp/>vEyP_y*Ny<sp/>+<sp/>vEyP_z*Nz);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//OC030412:<sp/>to<sp/>ensure<sp/>positive<sp/>power<sp/>density<sp/>even<sp/>if<sp/>&quot;external&quot;<sp/>normal<sp/>points<sp/>towards<sp/>e-beam<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//(e.g.<sp/>because<sp/>of<sp/>error<sp/>in<sp/>sign<sp/>of<sp/>coordinates<sp/>of<sp/>vectors<sp/>defining<sp/>the<sp/>obs.<sp/>plane<sp/>orientation)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Btx_mi_Nx<sp/>=<sp/>Btx<sp/>-<sp/>Nx,<sp/>Btz_mi_Nz<sp/>=<sp/>Btz<sp/>-<sp/>Nz;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Gamma<sp/>=<sp/>TrjHndl.rep-&gt;EbmDat.Gamma;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GamE2<sp/>=<sp/>Gamma*Gamma;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ConInvR<sp/>=<sp/>586.674067035/Gamma;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InvRx<sp/>=<sp/>ConInvR*Bz,<sp/>InvRz<sp/>=<sp/>ConInvR*Bx;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(auxFact<sp/>&lt;<sp/>0.001)<sp/>//to<sp/>make<sp/>const?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{//OC<sp/>TEST:<sp/>to<sp/>comment-out</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GamBtx_mi_Nx<sp/>=<sp/>Gamma*Btx_mi_Nx,<sp/>GamBtz_mi_Nz<sp/>=<sp/>Gamma*Btz_mi_Nz;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GamBtx_mi_NxE2<sp/>=<sp/>GamBtx_mi_Nx*GamBtx_mi_Nx,<sp/>GamBtz_mi_NzE2<sp/>=<sp/>GamBtz_mi_Nz*GamBtz_mi_Nz;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InvOne_p_GamBtE2<sp/>=<sp/>1./(1.<sp/>+<sp/>GamBtx_mi_NxE2<sp/>+<sp/>GamBtz_mi_NzE2);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ComFact<sp/>=<sp/>One_d_ymis*One_d_ymis*InvOne_p_GamBtE2*InvOne_p_GamBtE2*InvOne_p_GamBtE2*InvOne_p_GamBtE2*InvOne_p_GamBtE2;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>TwoGamBt_mi_N<sp/>=<sp/>2.*GamBtx_mi_Nx*GamBtz_mi_Nz;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BufFx<sp/>=<sp/>-TwoGamBt_mi_N*InvRz<sp/>-<sp/>(1.<sp/>-<sp/>GamBtx_mi_NxE2<sp/>+<sp/>GamBtz_mi_NzE2)*InvRx<sp/>+<sp/>2.*Btx_mi_Nx*One_d_ymis;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BufFz<sp/>=<sp/>(1.<sp/>+<sp/>GamBtx_mi_NxE2<sp/>-<sp/>GamBtz_mi_NzE2)*InvRz<sp/>+<sp/>TwoGamBt_mi_N*InvRx<sp/>+<sp/>2.*Btz_mi_Nz*One_d_ymis;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Fx<sp/>=<sp/>ComFact*BufFx*BufFx*cosFactProj;<sp/>Fz<sp/>=<sp/>ComFact*BufFz*BufFz*cosFactProj;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ComFact2<sp/>=<sp/>ComFact*One_d_ymis/(GamE2*InvOne_p_GamBtE2);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Fx<sp/>+=<sp/>ComFact2*vEyP_x*BufFx;<sp/></highlight><highlight class="comment">//to<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Fz<sp/>+=<sp/>ComFact2*vEyP_z*BufFz;<sp/></highlight><highlight class="comment">//to<sp/>check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>//to<sp/>suppress<sp/>separate<sp/>treatment<sp/>of<sp/>Fx,<sp/>Fz?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DetermineElecEffSizes(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>MxxElecEff,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>MzzElecEff)</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>&amp;<sp/>EbmDat<sp/>=<sp/>TrjHndl.rep-&gt;EbmDat;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>R<sp/>=<sp/>DistrInfoDat.yStart<sp/>-<sp/>EbmDat.s0;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Re2<sp/>=<sp/>R*R;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MxxElecEff<sp/>=<sp/>EbmDat.Mxx<sp/>+<sp/>Re2*EbmDat.Mxpxp<sp/>+<sp/>2.*R*EbmDat.Mxxp;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MzzElecEff<sp/>=<sp/>EbmDat.Mzz<sp/>+<sp/>Re2*EbmDat.Mzpzp<sp/>+<sp/>2.*R*EbmDat.Mzzp;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PointLab2Loc(TVector3d&amp;<sp/>P)</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>P_Loc<sp/>=<sp/>TrLab2Loc.TrPoint(P);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P<sp/>=<sp/>P_Loc;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>VectorLoc2Lab(TVector3d&amp;<sp/>V)</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TVector3d<sp/>V_Lab<sp/>=<sp/>TrLab2Loc.TrBiPoint_inv(V);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>V<sp/>=<sp/>V_Lab;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h"/>
+  </compounddef>
+</doxygen>

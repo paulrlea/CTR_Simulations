@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_harm" kind="class" language="C++" prot="public">
+    <compoundname>srTMagHarm</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_harm_1ab740de3627321e0f95e520cf277f7470" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagHarm::HarmNo</definition>
+        <argsstring></argsstring>
+        <name>HarmNo</name>
+        <qualifiedname>srTMagHarm::HarmNo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="48" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_harm_1af4c2d01a3dfcfce595e055da012bf219" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagHarm::XorZ</definition>
+        <argsstring></argsstring>
+        <name>XorZ</name>
+        <qualifiedname>srTMagHarm::XorZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="49" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_harm_1aed40ae435d3400b9ccbbe6fe62288df7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagHarm::K</definition>
+        <argsstring></argsstring>
+        <name>K</name>
+        <qualifiedname>srTMagHarm::K</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="50" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_harm_1a082a1aaf2575287b20b5a57f5a914ac4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagHarm::Phase</definition>
+        <argsstring></argsstring>
+        <name>Phase</name>
+        <qualifiedname>srTMagHarm::Phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="51" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_harm_1ac15eb3777e4299fc8512c7be200ee524" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagHarm::s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <qualifiedname>srTMagHarm::s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="52" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_harm_1ae5e1386d23e7a323e9fe6da677026180" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagHarm::TrA</definition>
+        <argsstring></argsstring>
+        <name>TrA</name>
+        <qualifiedname>srTMagHarm::TrA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="53" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_harm_1ad74b369821c759723b589e6657f3f403" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagHarm::srTMagHarm</definition>
+        <argsstring>(int In_HarmNo, char In_XorZ, double In_K, double In_Phase, int In_s=1, double In_TrA=1)</argsstring>
+        <name>srTMagHarm</name>
+        <qualifiedname>srTMagHarm::srTMagHarm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>In_HarmNo</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>In_XorZ</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_K</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_Phase</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>In_s</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_TrA</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="55" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_harm_1a40f95ae0132257ed2800b4bbcbd393a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagHarm::srTMagHarm</definition>
+        <argsstring>()</argsstring>
+        <name>srTMagHarm</name>
+        <qualifiedname>srTMagHarm::srTMagHarm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="59" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_harm_1a9ad27d2507177b893df8d5bacec0c209" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagHarm::InData</definition>
+        <argsstring>(int InHarmNo, char InXorZ, double InK, double InPhase)</argsstring>
+        <name>InData</name>
+        <qualifiedname>srTMagHarm::InData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>InHarmNo</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>InXorZ</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InK</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InPhase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="61" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_harm_1a93267dc29ca9f172ec124bd9a42a912a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagHarm::OutData</definition>
+        <argsstring>(int *pHarmNo, char *pXorZ, double *pK, double *pPhase)</argsstring>
+        <name>OutData</name>
+        <qualifiedname>srTMagHarm::OutData</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>pHarmNo</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>pXorZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pK</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pPhase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="68" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="68" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classsr_t_mag_harm_1a8353f2417daa9d814fdd0de792d4235b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const srTMagHarm &amp;P1, const srTMagHarm &amp;P2)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>srTMagHarm::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> &amp;</type>
+          <declname>P1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> &amp;</type>
+          <declname>P2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="75" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="friend" id="classsr_t_mag_harm_1a34f2bb2e2a1d9b6349eac41afeaa35b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const srTMagHarm &amp;P1, const srTMagHarm &amp;P2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>srTMagHarm::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> &amp;</type>
+          <declname>P1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> &amp;</type>
+          <declname>P2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="76" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="friend" id="classsr_t_mag_harm_1a1c246cee5ae0bab3b576c175231f7258" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(const srTMagHarm &amp;P1, const srTMagHarm &amp;P2)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>srTMagHarm::operator&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> &amp;</type>
+          <declname>P1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> &amp;</type>
+          <declname>P2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="77" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="90" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagHarm</label>
+        <link refid="classsr_t_mag_harm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagHarm</label>
+        <link refid="classsr_t_mag_harm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="45" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="45" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e" prot="public" virt="virtual"><scope>srTMagHarm</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5" prot="public" virt="virtual"><scope>srTMagHarm</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447" prot="public" virt="virtual"><scope>srTMagHarm</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257" prot="public" virt="virtual"><scope>srTMagHarm</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52" prot="public" virt="virtual"><scope>srTMagHarm</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_harm_1ab740de3627321e0f95e520cf277f7470" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>HarmNo</name></member>
+      <member refid="classsr_t_mag_harm_1a9ad27d2507177b893df8d5bacec0c209" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>InData</name></member>
+      <member refid="classsr_t_mag_harm_1aed40ae435d3400b9ccbbe6fe62288df7" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>K</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagHarm</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_harm_1a8353f2417daa9d814fdd0de792d4235b" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>operator&lt;</name></member>
+      <member refid="classsr_t_mag_harm_1a34f2bb2e2a1d9b6349eac41afeaa35b8" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>operator==</name></member>
+      <member refid="classsr_t_mag_harm_1a1c246cee5ae0bab3b576c175231f7258" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>operator&gt;</name></member>
+      <member refid="classsr_t_mag_harm_1a93267dc29ca9f172ec124bd9a42a912a" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>OutData</name></member>
+      <member refid="classsr_t_mag_harm_1a082a1aaf2575287b20b5a57f5a914ac4" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>Phase</name></member>
+      <member refid="classsr_t_mag_harm_1ac15eb3777e4299fc8512c7be200ee524" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>s</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagHarm</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0" prot="public" virt="virtual"><scope>srTMagHarm</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_harm_1ad74b369821c759723b589e6657f3f403" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>srTMagHarm</name></member>
+      <member refid="classsr_t_mag_harm_1a40f95ae0132257ed2800b4bbcbd393a4" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>srTMagHarm</name></member>
+      <member refid="classsr_t_mag_harm_1ae5e1386d23e7a323e9fe6da677026180" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>TrA</name></member>
+      <member refid="classsr_t_mag_harm_1af4c2d01a3dfcfce595e055da012bf219" prot="public" virt="non-virtual"><scope>srTMagHarm</scope><name>XorZ</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagHarm</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

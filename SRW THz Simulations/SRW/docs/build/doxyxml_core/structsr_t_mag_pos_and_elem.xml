@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_mag_pos_and_elem" kind="struct" language="C++" prot="public">
+    <compoundname>srTMagPosAndElem</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_mag_pos_and_elem_1a79f7421525ca7fcacc1c5ea4aee5fccc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagPosAndElem::s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <qualifiedname>srTMagPosAndElem::s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1711" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_mag_pos_and_elem_1aa3fbd84a8ad3fc0bd9d0360a67abcbba" prot="public" static="no" mutable="no">
+        <type>CHMagFld</type>
+        <definition>CHMagFld srTMagPosAndElem::MagHndl</definition>
+        <argsstring></argsstring>
+        <name>MagHndl</name>
+        <qualifiedname>srTMagPosAndElem::MagHndl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1712" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1712" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1710" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1710" bodyend="1713"/>
+    <listofallmembers>
+      <member refid="structsr_t_mag_pos_and_elem_1aa3fbd84a8ad3fc0bd9d0360a67abcbba" prot="public" virt="non-virtual"><scope>srTMagPosAndElem</scope><name>MagHndl</name></member>
+      <member refid="structsr_t_mag_pos_and_elem_1a79f7421525ca7fcacc1c5ea4aee5fccc" prot="public" virt="non-virtual"><scope>srTMagPosAndElem</scope><name>s</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

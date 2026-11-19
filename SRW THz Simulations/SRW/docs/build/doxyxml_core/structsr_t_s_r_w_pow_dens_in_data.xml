@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_s_r_w_pow_dens_in_data" kind="struct" language="C++" prot="public">
+    <compoundname>srTSRWPowDensInData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1ae9e9e1b7b44208b62c8ffd34f998de19" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTSRWPowDensInData::pBasePowDens</definition>
+        <argsstring></argsstring>
+        <name>pBasePowDens</name>
+        <qualifiedname>srTSRWPowDensInData::pBasePowDens</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="176" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1a0e9fee55d29d38b83b0fe4b9673e8812" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTSRWPowDensInData::wPowDens</definition>
+        <argsstring></argsstring>
+        <name>wPowDens</name>
+        <qualifiedname>srTSRWPowDensInData::wPowDens</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="177" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1a35a1dd70e10d4dcecdb57cce89ae7bca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTSRWPowDensInData::hStatePowDens</definition>
+        <argsstring></argsstring>
+        <name>hStatePowDens</name>
+        <qualifiedname>srTSRWPowDensInData::hStatePowDens</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="178" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1a1964d9159aa57afc88ae16e90b78add3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWPowDensInData::xStep</definition>
+        <argsstring></argsstring>
+        <name>xStep</name>
+        <qualifiedname>srTSRWPowDensInData::xStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="180" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1a745307cf050c0cbb0de8d9329e81c0ab" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWPowDensInData::xStart</definition>
+        <argsstring></argsstring>
+        <name>xStart</name>
+        <qualifiedname>srTSRWPowDensInData::xStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="180" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1af8386fbbd0ff117239cdd775b6d0836e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWPowDensInData::zStep</definition>
+        <argsstring></argsstring>
+        <name>zStep</name>
+        <qualifiedname>srTSRWPowDensInData::zStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="180" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1a796227441dd2e7b698d6af4501b922db" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSRWPowDensInData::zStart</definition>
+        <argsstring></argsstring>
+        <name>zStart</name>
+        <qualifiedname>srTSRWPowDensInData::zStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="180" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1a9b9a1afade0bed07c343b2bbcbb948e9" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTSRWPowDensInData::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <qualifiedname>srTSRWPowDensInData::nx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="181" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_r_w_pow_dens_in_data_1a6f6a951c4bc00b68869dc878a8ca41ef" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTSRWPowDensInData::nz</definition>
+        <argsstring></argsstring>
+        <name>nz</name>
+        <qualifiedname>srTSRWPowDensInData::nz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="181" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="173" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="173" bodyend="183"/>
+    <listofallmembers>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1a35a1dd70e10d4dcecdb57cce89ae7bca" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>hStatePowDens</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1a9b9a1afade0bed07c343b2bbcbb948e9" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>nx</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1a6f6a951c4bc00b68869dc878a8ca41ef" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>nz</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1ae9e9e1b7b44208b62c8ffd34f998de19" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>pBasePowDens</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1a0e9fee55d29d38b83b0fe4b9673e8812" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>wPowDens</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1a745307cf050c0cbb0de8d9329e81c0ab" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>xStart</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1a1964d9159aa57afc88ae16e90b78add3" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>xStep</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1a796227441dd2e7b698d6af4501b922db" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>zStart</name></member>
+      <member refid="structsr_t_s_r_w_pow_dens_in_data_1af8386fbbd0ff117239cdd775b6d0836e" prot="public" virt="non-virtual"><scope>srTSRWPowDensInData</scope><name>zStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

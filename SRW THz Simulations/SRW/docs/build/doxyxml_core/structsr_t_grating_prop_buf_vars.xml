@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_grating_prop_buf_vars" kind="struct" language="C++" prot="public">
+    <compoundname>srTGratingPropBufVars</compoundname>
+    <includes refid="sroptgrat_8h" local="no">sroptgrat.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a60a914d70b923d24fcf679e5224fbff3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::L2</definition>
+        <argsstring></argsstring>
+        <name>L2</name>
+        <qualifiedname>srTGratingPropBufVars::L2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="22" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a185c5a974194c104fcd1e81e44dafde4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::ThetaM0</definition>
+        <argsstring></argsstring>
+        <name>ThetaM0</name>
+        <qualifiedname>srTGratingPropBufVars::ThetaM0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="22" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a58fe6a6892a1ea28d3170c9ac4a969f9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::ThetaM</definition>
+        <argsstring></argsstring>
+        <name>ThetaM</name>
+        <qualifiedname>srTGratingPropBufVars::ThetaM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="22" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a281c8076843ff3902c9072472f8d1fd0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::ThetaIt</definition>
+        <argsstring></argsstring>
+        <name>ThetaIt</name>
+        <qualifiedname>srTGratingPropBufVars::ThetaIt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="22" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1abc0f4f7e3ad35ff5e28f5946dce4c02e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::SinThetaI</definition>
+        <argsstring></argsstring>
+        <name>SinThetaI</name>
+        <qualifiedname>srTGratingPropBufVars::SinThetaI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="22" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a54b586e29e1f06e9c8569d29d81a7592" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::Sin_ThetaM0_p_ThetaIt</definition>
+        <argsstring></argsstring>
+        <name>Sin_ThetaM0_p_ThetaIt</name>
+        <qualifiedname>srTGratingPropBufVars::Sin_ThetaM0_p_ThetaIt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="23" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a371550463f0e7750e52e53856bb0d072" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::Cos_ThetaM0_p_ThetaIt</definition>
+        <argsstring></argsstring>
+        <name>Cos_ThetaM0_p_ThetaIt</name>
+        <qualifiedname>srTGratingPropBufVars::Cos_ThetaM0_p_ThetaIt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="23" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a24bc948d3716c57c1a777db508192044" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::Tg_ThetaIt</definition>
+        <argsstring></argsstring>
+        <name>Tg_ThetaIt</name>
+        <qualifiedname>srTGratingPropBufVars::Tg_ThetaIt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="23" column="52" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a2a92dfd6a2bb51cf60c49a60c3deceac" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::td_NominTermL2</definition>
+        <argsstring></argsstring>
+        <name>td_NominTermL2</name>
+        <qualifiedname>srTGratingPropBufVars::td_NominTermL2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="24" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a9e2ffbfe396c4f080a90c3915773ba10" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::td_NominMultX2</definition>
+        <argsstring></argsstring>
+        <name>td_NominMultX2</name>
+        <qualifiedname>srTGratingPropBufVars::td_NominMultX2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="24" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1ae22fe94b35d580116223ad758667cec8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::td_MultInvDenom</definition>
+        <argsstring></argsstring>
+        <name>td_MultInvDenom</name>
+        <qualifiedname>srTGratingPropBufVars::td_MultInvDenom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="24" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a548485eb9a7960b93852114707fb4c84" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::OptPathCorTiltMultX2</definition>
+        <argsstring></argsstring>
+        <name>OptPathCorTiltMultX2</name>
+        <qualifiedname>srTGratingPropBufVars::OptPathCorTiltMultX2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="25" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a73f81f336f01f5aa19c2fce0dfa58106" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::Sin_ThetaM_p_ThetaIt</definition>
+        <argsstring></argsstring>
+        <name>Sin_ThetaM_p_ThetaIt</name>
+        <qualifiedname>srTGratingPropBufVars::Sin_ThetaM_p_ThetaIt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="26" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a52b21b4095df9fad6d0ef14998298a3f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::Cos_ThetaM_p_ThetaIt</definition>
+        <argsstring></argsstring>
+        <name>Cos_ThetaM_p_ThetaIt</name>
+        <qualifiedname>srTGratingPropBufVars::Cos_ThetaM_p_ThetaIt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="26" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a6bae869956bcef5be8661e5123fdb22a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::CurPhotEn</definition>
+        <argsstring></argsstring>
+        <name>CurPhotEn</name>
+        <qualifiedname>srTGratingPropBufVars::CurPhotEn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="27" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a62c9fbfcceff186d139cd4039d7ecdf1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::CurWaveNumb</definition>
+        <argsstring></argsstring>
+        <name>CurWaveNumb</name>
+        <qualifiedname>srTGratingPropBufVars::CurWaveNumb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="27" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1ac18e0fb53278da4a93a2c35a1aa01280" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::ReflectAmp</definition>
+        <argsstring></argsstring>
+        <name>ReflectAmp</name>
+        <qualifiedname>srTGratingPropBufVars::ReflectAmp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="27" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a04748b5753fa3978b8b54f850d4ed95d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::wfrR</definition>
+        <argsstring></argsstring>
+        <name>wfrR</name>
+        <qualifiedname>srTGratingPropBufVars::wfrR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="28" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a20c34d589db5bc98d0884b8d7acf29b6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::Lambda</definition>
+        <argsstring></argsstring>
+        <name>Lambda</name>
+        <qualifiedname>srTGratingPropBufVars::Lambda</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="28" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1ab0f607f91665ef685178d29bc0fac5cb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTGratingPropBufVars::WaveFrontTermWasTreated</definition>
+        <argsstring></argsstring>
+        <name>WaveFrontTermWasTreated</name>
+        <qualifiedname>srTGratingPropBufVars::WaveFrontTermWasTreated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="29" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a6039adf3049199692ef74ae9c977461e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::AnamorphMagn</definition>
+        <argsstring></argsstring>
+        <name>AnamorphMagn</name>
+        <qualifiedname>srTGratingPropBufVars::AnamorphMagn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="31" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_grating_prop_buf_vars_1a8a1a257c536c46e02cb2689c1ea5a8e0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGratingPropBufVars::PowerConservMultE</definition>
+        <argsstring></argsstring>
+        <name>PowerConservMultE</name>
+        <qualifiedname>srTGratingPropBufVars::PowerConservMultE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="31" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_grating_prop_buf_vars_1a80b2db35f741c59e6d3942f79bb82217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTGratingPropBufVars::srTGratingPropBufVars</definition>
+        <argsstring>()</argsstring>
+        <name>srTGratingPropBufVars</name>
+        <qualifiedname>srTGratingPropBufVars::srTGratingPropBufVars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="33" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="33" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="sroptgrat_8h_source" kindref="compound">sroptgrat.h</ref> Description: Optical element: Grating (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" line="21" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h" bodystart="21" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structsr_t_grating_prop_buf_vars_1a6039adf3049199692ef74ae9c977461e" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>AnamorphMagn</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a371550463f0e7750e52e53856bb0d072" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>Cos_ThetaM0_p_ThetaIt</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a52b21b4095df9fad6d0ef14998298a3f" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>Cos_ThetaM_p_ThetaIt</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a6bae869956bcef5be8661e5123fdb22a" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>CurPhotEn</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a62c9fbfcceff186d139cd4039d7ecdf1" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>CurWaveNumb</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a60a914d70b923d24fcf679e5224fbff3" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>L2</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a20c34d589db5bc98d0884b8d7acf29b6" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>Lambda</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a548485eb9a7960b93852114707fb4c84" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>OptPathCorTiltMultX2</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a8a1a257c536c46e02cb2689c1ea5a8e0" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>PowerConservMultE</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1ac18e0fb53278da4a93a2c35a1aa01280" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>ReflectAmp</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a54b586e29e1f06e9c8569d29d81a7592" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>Sin_ThetaM0_p_ThetaIt</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a73f81f336f01f5aa19c2fce0dfa58106" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>Sin_ThetaM_p_ThetaIt</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1abc0f4f7e3ad35ff5e28f5946dce4c02e" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>SinThetaI</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a80b2db35f741c59e6d3942f79bb82217" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>srTGratingPropBufVars</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1ae22fe94b35d580116223ad758667cec8" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>td_MultInvDenom</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a9e2ffbfe396c4f080a90c3915773ba10" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>td_NominMultX2</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a2a92dfd6a2bb51cf60c49a60c3deceac" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>td_NominTermL2</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a24bc948d3716c57c1a777db508192044" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>Tg_ThetaIt</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a281c8076843ff3902c9072472f8d1fd0" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>ThetaIt</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a58fe6a6892a1ea28d3170c9ac4a969f9" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>ThetaM</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a185c5a974194c104fcd1e81e44dafde4" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>ThetaM0</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1ab0f607f91665ef685178d29bc0fac5cb" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>WaveFrontTermWasTreated</name></member>
+      <member refid="structsr_t_grating_prop_buf_vars_1a04748b5753fa3978b8b54f850d4ed95d" prot="public" virt="non-virtual"><scope>srTGratingPropBufVars</scope><name>wfrR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

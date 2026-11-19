@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_int_thick_beam_aux_params" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadIntThickBeamAuxParams</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a6d7b53234d750a5acc3ba0b08ebdb803" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="43" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a034def69fb7ce34240c0defaa8a1edd6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::Half_k_d_e</definition>
+        <argsstring></argsstring>
+        <name>Half_k_d_e</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Half_k_d_e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="44" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1abd35fd4ac4169d854aba32e4caeb1649" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::k_d_e</definition>
+        <argsstring></argsstring>
+        <name>k_d_e</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::k_d_e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="44" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a1ee10e615f3c8f0c804793875a97a648" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::xc</definition>
+        <argsstring></argsstring>
+        <name>xc</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::xc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="46" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a07dfec92b6362f1ba224b94c68ccf961" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::xpc</definition>
+        <argsstring></argsstring>
+        <name>xpc</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::xpc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="46" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a0997d28a9bcbc212e057c0d101296aa4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::zc</definition>
+        <argsstring></argsstring>
+        <name>zc</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::zc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="46" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a205ec1d8e6f6982206d6274479b0315e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::zpc</definition>
+        <argsstring></argsstring>
+        <name>zpc</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::zpc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="46" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1ac3644297dcb16ab84005a423999e657d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::Fc</definition>
+        <argsstring></argsstring>
+        <name>Fc</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Fc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="47" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a327ab9fa1c39433f3dcbdede7137e740" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::Fn</definition>
+        <argsstring></argsstring>
+        <name>Fn</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Fn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="47" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a1ae6b99359adc6966752b10e154908a6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::C1</definition>
+        <argsstring></argsstring>
+        <name>C1</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::C1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="47" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a8f343590216cddd045d90972412490d7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::Cm</definition>
+        <argsstring></argsstring>
+        <name>Cm</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Cm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="47" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a925282ba5048e4a382eb7c71c9628a11" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::BetX</definition>
+        <argsstring></argsstring>
+        <name>BetX</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::BetX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1ac3efac277d98a16283319168b725beb6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::BetZ</definition>
+        <argsstring></argsstring>
+        <name>BetZ</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::BetZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a72ee4c1703b42dc951c636efc10f4557" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::AlpX</definition>
+        <argsstring></argsstring>
+        <name>AlpX</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::AlpX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1ae066d9ecb152afb5e5acf644b3d5e7dc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::AlpZ</definition>
+        <argsstring></argsstring>
+        <name>AlpZ</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::AlpZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1acd797e7391efcf473ef80fb9b1b27c0a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::GamX</definition>
+        <argsstring></argsstring>
+        <name>GamX</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::GamX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a1e4284a647f4513991b7797f5e99074e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::GamZ</definition>
+        <argsstring></argsstring>
+        <name>GamZ</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::GamZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="33" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a8f9fde6858d362272f20a715b961be12" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::ThetXZ</definition>
+        <argsstring></argsstring>
+        <name>ThetXZ</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::ThetXZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1aacdf9470bff38af98260476ef19499f2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::ThetXpZ</definition>
+        <argsstring></argsstring>
+        <name>ThetXpZ</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::ThetXpZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="45" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a165ac7105ac9ca398b329d27e395694f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::ThetXZp</definition>
+        <argsstring></argsstring>
+        <name>ThetXZp</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::ThetXZp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="53" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a888f9d81d71ed73c800d7f15acc4b840" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::ThetXpZp</definition>
+        <argsstring></argsstring>
+        <name>ThetXpZp</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::ThetXpZp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="61" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1aeaf2361baa1587fd6c6df77a41addec5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::Bgam</definition>
+        <argsstring></argsstring>
+        <name>Bgam</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Bgam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="70" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a2c7770e5746fb5baab1c3d1c2a4bbe20" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::GammaEm2</definition>
+        <argsstring></argsstring>
+        <name>GammaEm2</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::GammaEm2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="48" column="75" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a04c7cf58a4043d742c447a02b4b2b47e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::InvBgam</definition>
+        <argsstring></argsstring>
+        <name>InvBgam</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::InvBgam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="49" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a1eb6eb0c8e19d4caa8e1e8501993f552" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::HalfInvBgam</definition>
+        <argsstring></argsstring>
+        <name>HalfInvBgam</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::HalfInvBgam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="49" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a3076aafd830cdce4c684776f312ff895" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeamAuxParams::Aux_deltz1000</definition>
+        <argsstring></argsstring>
+        <name>Aux_deltz1000</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Aux_deltz1000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="51" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1ab231a34a8abe1f7b9bb74b8e76798e91" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeamAuxParams::Aux_alpz1000</definition>
+        <argsstring></argsstring>
+        <name>Aux_alpz1000</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Aux_alpz1000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="51" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a77d4826cb5a2aa45f5aa60bc29134459" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeamAuxParams::Aux_deltx1000</definition>
+        <argsstring></argsstring>
+        <name>Aux_deltx1000</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Aux_deltx1000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="51" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a4689e7c34e1b35b0d68b16124ab68dc8" prot="public" static="no" mutable="no">
+        <type>TComplexD</type>
+        <definition>TComplexD srTRadIntThickBeamAuxParams::Aux_alpx1000</definition>
+        <argsstring></argsstring>
+        <name>Aux_alpx1000</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Aux_alpx1000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="51" column="52" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a30f893cbc618b695b388e74523f72632" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_x_z_y" kindref="compound">srTEXZY</ref></type>
+        <definition>srTEXZY srTRadIntThickBeamAuxParams::EXZY</definition>
+        <argsstring></argsstring>
+        <name>EXZY</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::EXZY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="53" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a781f2c101f8404d5586809d548ec0920" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::xObsE2</definition>
+        <argsstring></argsstring>
+        <name>xObsE2</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::xObsE2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="54" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a978403a4ef45721ae597a3ff2b7c1517" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::zObsE2</definition>
+        <argsstring></argsstring>
+        <name>zObsE2</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::zObsE2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="54" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_int_thick_beam_aux_params_1a7a14f3ad9cd7e6490394939503c2a23b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntThickBeamAuxParams::xzObs</definition>
+        <argsstring></argsstring>
+        <name>xzObs</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::xzObs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="54" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_rad_int_thick_beam_aux_params_1ab6a26b8972b84a9d3109cfac17cd4042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntThickBeamAuxParams::Setup</definition>
+        <argsstring>(srTEbmDat &amp;ElecBeam)</argsstring>
+        <name>Setup</name>
+        <qualifiedname>srTRadIntThickBeamAuxParams::Setup</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>ElecBeam</declname>
+          <defname>Elec</defname>
+        </param>
+        <briefdescription>
+<para>File: srthckbm.cpp Description: SR Stokes parameters calculation method for ~Arbitrary magnetic field (used rarely, under-programmed) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+<para>const double e_esu = 4.80324214E-10; // Charge of electron in esu const double e_coulomb = 1.602189246E-19; const double c = 2.99792458E+10; // Speed of light in cm/s const double Alpha = 1./137.0360411; // Fine-structure constant const double PI = 3.141592653590; const double TwoPI = 2.*PI;</para>
+<para>if((DistrInfoDat.DistrValType == StokesParam) || (DistrInfoDat.DistrValType == FieldFourier)) { if(DistrInfoDat.CoordOrAngPresentation == CoordPres) NormalizingConst = sqrt(Alpha*(TrjDatPtr-&gt;EbmDat.Current)*(1.E+09)/e_coulomb); else if(DistrInfoDat.CoordOrAngPresentation == AngPres) NormalizingConst = sqrt(Alpha*(TrjDatPtr-&gt;EbmDat.Current)*(1.E+03)/e_coulomb); }</para>
+<para>DistrInfoDat.NormalizingConst = NormalizingConst;</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="56" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.cpp" bodystart="24" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>srTEXZY</label>
+        <link refid="structsr_t_e_x_z_y"/>
+      </node>
+      <node id="1">
+        <label>srTRadIntThickBeamAuxParams</label>
+        <link refid="structsr_t_rad_int_thick_beam_aux_params"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>EXZY</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" line="42" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h" bodystart="42" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a72ee4c1703b42dc951c636efc10f4557" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>AlpX</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1ae066d9ecb152afb5e5acf644b3d5e7dc" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>AlpZ</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a4689e7c34e1b35b0d68b16124ab68dc8" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Aux_alpx1000</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1ab231a34a8abe1f7b9bb74b8e76798e91" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Aux_alpz1000</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a77d4826cb5a2aa45f5aa60bc29134459" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Aux_deltx1000</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a3076aafd830cdce4c684776f312ff895" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Aux_deltz1000</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a925282ba5048e4a382eb7c71c9628a11" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>BetX</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1ac3efac277d98a16283319168b725beb6" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>BetZ</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1aeaf2361baa1587fd6c6df77a41addec5" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Bgam</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a1ae6b99359adc6966752b10e154908a6" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>C1</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a8f343590216cddd045d90972412490d7" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Cm</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a30f893cbc618b695b388e74523f72632" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>EXZY</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1ac3644297dcb16ab84005a423999e657d" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Fc</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a327ab9fa1c39433f3dcbdede7137e740" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Fn</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a2c7770e5746fb5baab1c3d1c2a4bbe20" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>GammaEm2</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1acd797e7391efcf473ef80fb9b1b27c0a" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>GamX</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a1e4284a647f4513991b7797f5e99074e" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>GamZ</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a034def69fb7ce34240c0defaa8a1edd6" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Half_k_d_e</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a1eb6eb0c8e19d4caa8e1e8501993f552" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>HalfInvBgam</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a04c7cf58a4043d742c447a02b4b2b47e" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>InvBgam</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1abd35fd4ac4169d854aba32e4caeb1649" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>k_d_e</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a6d7b53234d750a5acc3ba0b08ebdb803" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>PI</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1ab6a26b8972b84a9d3109cfac17cd4042" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>Setup</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1aacdf9470bff38af98260476ef19499f2" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>ThetXpZ</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a888f9d81d71ed73c800d7f15acc4b840" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>ThetXpZp</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a8f9fde6858d362272f20a715b961be12" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>ThetXZ</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a165ac7105ac9ca398b329d27e395694f" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>ThetXZp</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a1ee10e615f3c8f0c804793875a97a648" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>xc</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a781f2c101f8404d5586809d548ec0920" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>xObsE2</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a07dfec92b6362f1ba224b94c68ccf961" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>xpc</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a7a14f3ad9cd7e6490394939503c2a23b" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>xzObs</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a0997d28a9bcbc212e057c0d101296aa4" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>zc</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a978403a4ef45721ae597a3ff2b7c1517" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>zObsE2</name></member>
+      <member refid="structsr_t_rad_int_thick_beam_aux_params_1a205ec1d8e6f6982206d6274479b0315e" prot="public" virt="non-virtual"><scope>srTRadIntThickBeamAuxParams</scope><name>zpc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

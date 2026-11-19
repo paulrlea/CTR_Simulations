@@ -1,0 +1,1622 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_drift_space" kind="class" language="C++" prot="public">
+    <compoundname>srTDriftSpace</compoundname>
+    <basecompoundref refid="classsr_t_gen_opt_elem" prot="public" virt="non-virtual">srTGenOptElem</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_drift_space_1a6f114cc516f9871e45bc5e4e511eeb32" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTDriftSpace::AllowPropToWaist</definition>
+        <argsstring></argsstring>
+        <name>AllowPropToWaist</name>
+        <qualifiedname>srTDriftSpace::AllowPropToWaist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="73" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_drift_space_1ae54e04fd07896384f36633a1fd984d53" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTDriftSpace::LocalPropMode</definition>
+        <argsstring></argsstring>
+        <name>LocalPropMode</name>
+        <qualifiedname>srTDriftSpace::LocalPropMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="76" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_drift_space_1a382e796fbb1fd010159a2de91b524ef4" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTDriftSpace::AnalytTreatSubType</definition>
+        <argsstring></argsstring>
+        <name>AnalytTreatSubType</name>
+        <qualifiedname>srTDriftSpace::AnalytTreatSubType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="82" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_drift_space_1aa593a8474421bcf582baae1549ac5ab0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTDriftSpace::UseExactRxRzForAnalytTreatQuadPhaseTerm</definition>
+        <argsstring></argsstring>
+        <name>UseExactRxRzForAnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftSpace::UseExactRxRzForAnalytTreatQuadPhaseTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="83" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_drift_space_1a91b7f090ec9baf539fabdbe809d9a1e0" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTDriftSpace::TreatPath</definition>
+        <argsstring></argsstring>
+        <name>TreatPath</name>
+        <qualifiedname>srTDriftSpace::TreatPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="87" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_drift_space_1a01869bfe0aba2f721e7d24c8ea049df9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftSpace::Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <qualifiedname>srTDriftSpace::Length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="90" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_drift_space_1af5c8d7e73d812a8e42203600db34d3f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTDriftSpace::srTDriftSpace</definition>
+        <argsstring>(double InLength=0., char InTreatPath=0)</argsstring>
+        <name>srTDriftSpace</name>
+        <qualifiedname>srTDriftSpace::srTDriftSpace</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>InLength</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>InTreatPath</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="94" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="94" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a07cd9ba787873da9df608fbcf2ad531f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTDriftSpace::srTDriftSpace</definition>
+        <argsstring>(srTStringVect *pElemInfo)</argsstring>
+        <name>srTDriftSpace</name>
+        <qualifiedname>srTDriftSpace::srTDriftSpace</qualifiedname>
+        <param>
+          <type>srTStringVect *</type>
+          <declname>pElemInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="102" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="102" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a773fc12faa9021f8fb627f5fd898ee2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::GPUImplFeatures</definition>
+        <argsstring>() override</argsstring>
+        <name>GPUImplFeatures</name>
+        <qualifiedname>srTDriftSpace::GPUImplFeatures</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1ace7be357e70634661842343ecc1288d7">GPUImplFeatures</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="112" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a1523bb2bc36ab0858c186f3ec37af0e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiation</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTParPrecWfrPropag &amp;ParPrecWfrPropag, srTRadResizeVect &amp;ResizeBeforeAndAfterVect, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiation</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiation</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1ae181a9a82bf8190bf140cd03c16fab72">PropagateRadiation</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>srTParPrecWfrPropag &amp;</type>
+          <declname>ParPrecWfrPropag</declname>
+        </param>
+        <param>
+          <type>srTRadResizeVect &amp;</type>
+          <declname>ResizeBeforeAndAfterVect</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="116" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="116" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a2b453db89bdfcfce7c852ea4b5ee905c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSingleE_Meth_0</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTSRWRadStructAccessData *pPrevRadAccessData, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiationSingleE_Meth_0</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSingleE_Meth_0</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a5ff32bd0c4c90fd09ced8534e08e0590">PropagateRadiationSingleE_Meth_0</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pPrevRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="185" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="185" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a009d0ce90d91c1bef93b64ae9459a808" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationMeth_0</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, void *pvGPU)</argsstring>
+        <name>PropagateRadiationMeth_0</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationMeth_0</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a5cbc519005c4ddfddc6d36e55855ae8c">PropagateRadiationMeth_0</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="202" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="202" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a3bb2ffa9e41a136b7f77b0c199d52e7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationMeth_1</definition>
+        <argsstring>(srTSRWRadStructAccessData *, void *=0)</argsstring>
+        <name>PropagateRadiationMeth_1</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationMeth_1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <defname>pRadAccessData</defname>
+        </param>
+        <param>
+          <type>void *</type>
+          <defname>pvGPU</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="225" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="289" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a657653ddc9852f108c403cac07407f34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTDriftSpace::ChooseLocalPropMode</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTParPrecWfrPropag &amp;ParPrecWfrPropag, char &amp;AnalTreatMode)</argsstring>
+        <name>ChooseLocalPropMode</name>
+        <qualifiedname>srTDriftSpace::ChooseLocalPropMode</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>srTParPrecWfrPropag &amp;</type>
+          <declname>ParPrecWfrPropag</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>AnalTreatMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>OC240114 (commented-out) int LocPropToWaistCanBeApplied = PropToWaistCanBeApplied(pRadAccessData); if(LocPropToWaistCanBeApplied) { if(pRadAccessData-&gt;ThereIsUnderSamplingX() || pRadAccessData-&gt;ThereIsUnderSamplingZ()) {// Check necessity of this mode (if pRadAccessData is undersampled ...) LocalPropMode = 1; PropBufVars.UnderSamplingX = pRadAccessData-&gt;UnderSamplingX; PropBufVars.UnderSamplingZ = pRadAccessData-&gt;UnderSamplingZ;</para>
+<para>return; } else LocPropToWaistCanBeApplied = 0; //test 03012007 }</para>
+<para>PropBufVars.AnalytTreatSubType = ParPrecWfrPropag.AnalTreatment; //OC24042013</para>
+<para>int GoodCondForPropWithoutQuadTerm = ((ParPrecWfrPropag.AnalTreatment != 0) &amp;&amp; (!LocPropToWaistCanBeApplied)); // &amp;&amp; //test 03012007 (pRadAccessData-&gt;ThereIsUnderSamplingX() || pRadAccessData-&gt;ThereIsUnderSamplingZ() || (!pRadAccessData-&gt;CheckIfSamplingResolvesElecFieldWithQuadPhaseTerm())); if(GoodCondForPropWithoutQuadTerm &amp;&amp; (!ParPrecWfrPropag.UseResBefore) &amp;&amp; (!ParPrecWfrPropag.UseResAfter)) if(GoodCondForPropWithoutQuadTerm &amp;&amp; (!ParPrecWfrPropag.UseResBefore)) {//propagation without quad. term is temporary not allowed in Automatic Mode LocalPropMode = 3; return; }</para>
+<para>if((!LocPropToWaistCanBeApplied) &amp;&amp; (!GoodCondForPropWithoutQuadTerm) &amp;&amp; (pRadAccessData-&gt;ThereIsUnderSamplingX() || pRadAccessData-&gt;ThereIsUnderSamplingZ())) { LocalPropMode = -1; return; }</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="227" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="227" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1abe6063d227d79470c4149dff7f43d6f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropToWaistCanBeApplied</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData)</argsstring>
+        <name>PropToWaistCanBeApplied</name>
+        <qualifiedname>srTDriftSpace::PropToWaistCanBeApplied</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="289" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="289" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a6fe908ca3d4a05d967927a18b3977bec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropStatPhaseCanBeApplied</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData)</argsstring>
+        <name>PropStatPhaseCanBeApplied</name>
+        <qualifiedname>srTDriftSpace::PropStatPhaseCanBeApplied</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="309" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="309" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a24020dfea23ce93a6d84d84c21c01800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiationSimple</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a0f08a34b8a5e71d2ed8d2c3972d8c54e">PropagateRadiationSimple</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="321" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="321" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a5ef18f9c792089acb09486e9437ce0ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple_AngRepres</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, void *pvGPU)</argsstring>
+        <name>PropagateRadiationSimple_AngRepres</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple_AngRepres</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="352" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="352" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1ab12c24010f962cf329eb6f40167b17b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple_PropToWaist</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiationSimple_PropToWaist</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple_PropToWaist</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="417" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="368" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a6a1c3d94b0aff1a6d00d923326575fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple_PropToWaistBeyondParax</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiationSimple_PropToWaistBeyondParax</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple_PropToWaistBeyondParax</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="419" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="620" bodyend="851"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a7dfd971882116169cd365643ee156845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple_PropFromWaist</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiationSimple_PropFromWaist</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple_PropFromWaist</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="422" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="858" bodyend="1055"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a505a9025bf5b030c6f40226323477ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, void *pvGPU=0)</argsstring>
+        <name>PropagateRadiationSimple_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="424" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="1062" bodyend="1223"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a66451ddcb0eed4f6ee045594b2700e36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple_NumIntFresnel</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData)</argsstring>
+        <name>PropagateRadiationSimple_NumIntFresnel</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple_NumIntFresnel</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="430" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="1909" bodyend="2054"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a8fffb1e8e13d24920afa415f74c59715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple1D</definition>
+        <argsstring>(srTRadSect1D *pSect1D)</argsstring>
+        <name>PropagateRadiationSimple1D</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple1D</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a103486f86ba28e39984ac7457d865fc3">PropagateRadiationSimple1D</reimplements>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pSect1D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="434" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="434" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a92b4edba4a53ba03b522df4552aeba4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple1D_AngRepres</definition>
+        <argsstring>(srTRadSect1D *pSect1D)</argsstring>
+        <name>PropagateRadiationSimple1D_AngRepres</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple1D_AngRepres</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pSect1D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="446" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="446" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1af3cf4b37676cc2ef9626552a3e17c77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationSimple1D_PropToWaist</definition>
+        <argsstring>(srTRadSect1D *pSect1D)</argsstring>
+        <name>PropagateRadiationSimple1D_PropToWaist</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationSimple1D_PropToWaist</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pSect1D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="470" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="2060" bodyend="2141"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1adf00aaef803474aa88d4be8d2077a35a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::ResizeBeforePropToWaistIfNecessary</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData)</argsstring>
+        <name>ResizeBeforePropToWaistIfNecessary</name>
+        <qualifiedname>srTDriftSpace::ResizeBeforePropToWaistIfNecessary</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="472" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="2145" bodyend="2313"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a8f59d35b745c49a304fcacf57afd1377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::EstimateMinNxNzBeforePropToWaist</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, int &amp;Nx, int &amp;Nz)</argsstring>
+        <name>EstimateMinNxNzBeforePropToWaist</name>
+        <qualifiedname>srTDriftSpace::EstimateMinNxNzBeforePropToWaist</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>Nx</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>Nz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="473" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="2317" bodyend="2346"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a8114f18e00918152db0aab87a66369da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::ResizeBeforePropToWaistIfNecessary1D</definition>
+        <argsstring>(srTRadSect1D *pSect1D)</argsstring>
+        <name>ResizeBeforePropToWaistIfNecessary1D</name>
+        <qualifiedname>srTDriftSpace::ResizeBeforePropToWaistIfNecessary1D</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pSect1D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="474" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="2371" bodyend="2415"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a34205807170124548ead5c49587b0f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::EstimateMinNpBeforePropToWaist1D</definition>
+        <argsstring>(srTRadSect1D *pSect1D, int &amp;Np)</argsstring>
+        <name>EstimateMinNpBeforePropToWaist1D</name>
+        <qualifiedname>srTDriftSpace::EstimateMinNpBeforePropToWaist1D</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pSect1D</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>Np</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="475" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="2350" bodyend="2367"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1acd738e561584138d4c597a8d381e6e42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::SetupPropBufVars_PropToWaist</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>SetupPropBufVars_PropToWaist</name>
+        <qualifiedname>srTDriftSpace::SetupPropBufVars_PropToWaist</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="480" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="480" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a1ab0f1a52b48f4b6ffc31410a16f3489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::SetupPropBufVars_PropToWaistBeyondParax</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>SetupPropBufVars_PropToWaistBeyondParax</name>
+        <qualifiedname>srTDriftSpace::SetupPropBufVars_PropToWaistBeyondParax</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="533" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="533" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a2164f54da5255aaf5d2705e3f5d526b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::SetupPropBufVars_PropFromWaist</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>SetupPropBufVars_PropFromWaist</name>
+        <qualifiedname>srTDriftSpace::SetupPropBufVars_PropFromWaist</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="561" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="561" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a31acb55b7125b322e35e702594b18084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::SetupPropBufVars_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTDriftPropBufVars *pBufVars, void *=0)</argsstring>
+        <name>SetupPropBufVars_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftSpace::SetupPropBufVars_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <defname>pvGPU</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>test OC061108 if(::fabs(PropBufVars.Lx) &gt; Lx_eff_max) { int signLx = sign(PropBufVars.Lx); PropBufVars.Lx = signLx*Lx_eff_max;</para>
+<para>double Rx_eff = sign(pRadAccessData-&gt;RobsX)*infLarge; double Rx_eff = sign(trueRx)*infLarge; if(PropBufVars.Lx != Length) Rx_eff = Length*PropBufVars.Lx/(Length - PropBufVars.Lx); PropBufVars.invRx = 1./Rx_eff;</para>
+<para>double Rx_eff_p_Length = Rx_eff + Length; PropBufVars.invRxL = (Rx_eff_p_Length == 0.)? infLarge : 1./Rx_eff_p_Length; PropBufVars.kx_AnalytTreatQuadPhaseTerm = Rx_eff_p_Length/Rx_eff; PropBufVars.kxc_AnalytTreatQuadPhaseTerm = Length/Rx_eff; }</para>
+<para>if(::fabs(PropBufVars.Lz) &gt; Lz_eff_max) { int signLz = sign(PropBufVars.Lz); PropBufVars.Lz = signLz*Lz_eff_max;</para>
+<para>double Rz_eff = sign(pRadAccessData-&gt;RobsZ)*infLarge; double Rz_eff = sign(trueRz)*infLarge; if(PropBufVars.Lz != Length) Rz_eff = Length*PropBufVars.Lz/(Length - PropBufVars.Lz); PropBufVars.invRz = 1./Rz_eff;</para>
+<para>double Rz_eff_p_Length = Rz_eff + Length; PropBufVars.invRzL = (Rz_eff_p_Length == 0.)? infLarge : 1./Rz_eff_p_Length; PropBufVars.kz_AnalytTreatQuadPhaseTerm = Rz_eff_p_Length/Rz_eff; PropBufVars.kzc_AnalytTreatQuadPhaseTerm = Length/Rz_eff; }</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="594" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="1227" bodyend="1442"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1ae2fba1bf2b9d735134bcfd4e842f3701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::EstimateTrueWfrRadAndMaxLeff_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, double &amp;trueRx, double &amp;trueRz, double &amp;Lx_eff_max, double &amp;Lz_eff_max)</argsstring>
+        <name>EstimateTrueWfrRadAndMaxLeff_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftSpace::EstimateTrueWfrRadAndMaxLeff_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>trueRx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>trueRz</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Lx_eff_max</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Lz_eff_max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="596" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="1850" bodyend="1905"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1aeb6b0d22ca9d882072b999dd61ed01a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::EstimateWfrRadToSub_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, double &amp;effRx, double &amp;effRz, void *=0)</argsstring>
+        <name>EstimateWfrRadToSub_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftSpace::EstimateWfrRadToSub_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>effRx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>effRz</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <defname>pvGPU</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="598" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="1484" bodyend="1846"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a12903224cbd394f26a35fc7105f33248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::EstimateWfrRadToSub2_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, double &amp;effRx, double &amp;effRz)</argsstring>
+        <name>EstimateWfrRadToSub2_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftSpace::EstimateWfrRadToSub2_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>effRx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>effRz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="599" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="1446" bodyend="1480"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1ac5defbf23b1ff0eb2388f70b4564f510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::SetupPropBufVars_PropToWaist</definition>
+        <argsstring>(srTRadSect1D *pSect1D, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>SetupPropBufVars_PropToWaist</name>
+        <qualifiedname>srTDriftSpace::SetupPropBufVars_PropToWaist</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pSect1D</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="601" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="601" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a3ce0faeeaa65d09b0f898b7820122c35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadiationTest</definition>
+        <argsstring>(srTSRWRadStructAccessData *pInRadAccessData, srTSRWRadStructAccessData *pOutRadAccessData)</argsstring>
+        <name>PropagateRadiationTest</name>
+        <qualifiedname>srTDriftSpace::PropagateRadiationTest</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a8142349004a6e00373d874750572cb8a">PropagateRadiationTest</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pInRadAccessData</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pOutRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="618" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="618" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a20a01aabc208e384cad308ab17236144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::TuneRadForPropMeth_1</definition>
+        <argsstring>(srTSRWRadStructAccessData *, srTRadResize &amp;, void *=0)</argsstring>
+        <name>TuneRadForPropMeth_1</name>
+        <qualifiedname>srTDriftSpace::TuneRadForPropMeth_1</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <defname>pRadAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref> &amp;</type>
+          <defname>PostResize</defname>
+        </param>
+        <param>
+          <type>void *</type>
+          <defname>pvGPU</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="625" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="200" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1ac5e037c8f049bef3f9f5b17d2ec3c2b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs, void *pBuf=0)</argsstring>
+        <name>RadPointModifier</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a0a002f2e8b0588008faa623626b54134">RadPointModifier</reimplements>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pBuf</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="647" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="647" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1ab2deab2e050b95882b36b422b3f8d610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier_AngRepres</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs)</argsstring>
+        <name>RadPointModifier_AngRepres</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier_AngRepres</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="667" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="667" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a0a1fbb72d237ba3dee922872d8cc6c33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier_PropToWaist</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>RadPointModifier_PropToWaist</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier_PropToWaist</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="701" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="701" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a43f660f636e627d8a5380eca73cc22cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier_PropToWaistBeyondParax</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>RadPointModifier_PropToWaistBeyondParax</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier_PropToWaistBeyondParax</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="766" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="766" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a3d11cc34ae6a49b0be6471fcad618573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier_PropFromWaist</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>RadPointModifier_PropFromWaist</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier_PropFromWaist</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="808" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="808" bodyend="853"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a6bda457b81564431eecae38c545e93ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>RadPointModifier_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="858" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="858" bodyend="930"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1af117bc6f84ba14947c58a993f191d078" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier1D</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs, void *pBuf=0)</argsstring>
+        <name>RadPointModifier1D</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier1D</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a77bbdfaef546f794172f699d8e3c5df6">RadPointModifier1D</reimplements>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pBuf</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="932" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="932" bodyend="942"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1aae02c33675127685899e75f74905d5b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier1D_AngRepres</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs)</argsstring>
+        <name>RadPointModifier1D_AngRepres</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier1D_AngRepres</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="944" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="944" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a76607cc37e9eaa642b590f93b1504621" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTDriftSpace::RadPointModifier1D_PropToWaist</definition>
+        <argsstring>(srTEXZ &amp;EXZ, srTEFieldPtrs &amp;EPtrs, srTDriftPropBufVars *pBufVars)</argsstring>
+        <name>RadPointModifier1D_PropToWaist</name>
+        <qualifiedname>srTDriftSpace::RadPointModifier1D_PropToWaist</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref> &amp;</type>
+          <declname>EXZ</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_e_field_ptrs" kindref="compound">srTEFieldPtrs</ref> &amp;</type>
+          <declname>EPtrs</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_drift_prop_buf_vars" kindref="compound">srTDriftPropBufVars</ref> *</type>
+          <declname>pBufVars</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="971" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="971" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1ad2d0dc8147ae058c7b71a03130b14d87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateRadMoments</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, srTMomentsRatios *MomRatArray, void *pvGPU=0)</argsstring>
+        <name>PropagateRadMoments</name>
+        <qualifiedname>srTDriftSpace::PropagateRadMoments</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a76aaf21a66c5bfcd11fc4ca7ae9f2eea">PropagateRadMoments</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_moments_ratios" kindref="compound">srTMomentsRatios</ref> *</type>
+          <declname>MomRatArray</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1020" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1020" bodyend="1029"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1aa5678770f5cd27b503a7ebff5c538d44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::AuxPropagateRadMoments</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, double **ax, double **az, srTMomentsRatios *MomRatArray)</argsstring>
+        <name>AuxPropagateRadMoments</name>
+        <qualifiedname>srTDriftSpace::AuxPropagateRadMoments</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>ax</declname>
+        </param>
+        <param>
+          <type>double **</type>
+          <declname>az</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_moments_ratios" kindref="compound">srTMomentsRatios</ref> *</type>
+          <declname>MomRatArray</declname>
+        </param>
+        <briefdescription>
+<para>File: sroptdrf.cpp Description: Optical element: Drift space Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1031" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="22" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1acfe82f6cf45cd1ac986c5f457e2824c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateElecBeamMoments</definition>
+        <argsstring>(srTEbmDat *pEbm)</argsstring>
+        <name>PropagateElecBeamMoments</name>
+        <qualifiedname>srTDriftSpace::PropagateElecBeamMoments</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pEbm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1032" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.cpp" bodystart="174" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a72ceecbe81dafb61f626d377b8c0232b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateWaveFrontRadius</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData)</argsstring>
+        <name>PropagateWaveFrontRadius</name>
+        <qualifiedname>srTDriftSpace::PropagateWaveFrontRadius</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1ae7a4f577600f7602489426f33d29d643">PropagateWaveFrontRadius</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1034" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1034" bodyend="1045"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a6bfb1a2ea6b01db5dab1362b43852fd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::PropagateWaveFrontRadius1D</definition>
+        <argsstring>(srTRadSect1D *pSect1D)</argsstring>
+        <name>PropagateWaveFrontRadius1D</name>
+        <qualifiedname>srTDriftSpace::PropagateWaveFrontRadius1D</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1af5b328a69e1c3058d4e5527db0a39636">PropagateWaveFrontRadius1D</reimplements>
+        <param>
+          <type><ref refid="structsr_t_rad_sect1_d" kindref="compound">srTRadSect1D</ref> *</type>
+          <declname>pSect1D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1046" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1046" bodyend="1053"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1ac42f382a82f11d8ae4aec9b1c0024f7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::Propagate4x4PropMatr</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData)</argsstring>
+        <name>Propagate4x4PropMatr</name>
+        <qualifiedname>srTDriftSpace::Propagate4x4PropMatr</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a6c00467b016005afb9f2396b6ecef013">Propagate4x4PropMatr</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1055" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1055" bodyend="1064"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a1f50c8ee659f7bcb12f11f26ae3d2cb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::EstimateMinNpToResolveOptElem</definition>
+        <argsstring>(srTSRWRadStructAccessData *pRadAccessData, double &amp;MinNx, double &amp;MinNz)</argsstring>
+        <name>EstimateMinNpToResolveOptElem</name>
+        <qualifiedname>srTDriftSpace::EstimateMinNpToResolveOptElem</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a72660522643354b4ef8315509191f7a6">EstimateMinNpToResolveOptElem</reimplements>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>MinNx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>MinNz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1066" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1066" bodyend="1071"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a94e6cde9b68ab747d11ed79ebd1bdd77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTDriftSpace::DiffractionLimitedPropagatedSpotSize</definition>
+        <argsstring>(char x_or_z, srTSRWRadStructAccessData *pRadAccessData, long ie)</argsstring>
+        <name>DiffractionLimitedPropagatedSpotSize</name>
+        <qualifiedname>srTDriftSpace::DiffractionLimitedPropagatedSpotSize</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pRadAccessData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>ie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1073" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1073" bodyend="1082"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a58074c003ebb8461d92442dc3b76acc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::RangeShouldBeAdjustedAtPropag</definition>
+        <argsstring>()</argsstring>
+        <name>RangeShouldBeAdjustedAtPropag</name>
+        <qualifiedname>srTDriftSpace::RangeShouldBeAdjustedAtPropag</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1af70fc1c6f568398b1b5783be1bec9cb4">RangeShouldBeAdjustedAtPropag</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1084" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1084" bodyend="1084"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1a3df28248f90839c9b3268d6002cad45c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::ResolutionShouldBeAdjustedAtPropag</definition>
+        <argsstring>()</argsstring>
+        <name>ResolutionShouldBeAdjustedAtPropag</name>
+        <qualifiedname>srTDriftSpace::ResolutionShouldBeAdjustedAtPropag</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a645baffd2fd9a7b8962e51a84d753360">ResolutionShouldBeAdjustedAtPropag</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1085" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1085" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_drift_space_1afaf9ab221ad19d1e75bb1868daac4e7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTDriftSpace::AllowAutoSwitchToUndersamplingMode</definition>
+        <argsstring>()</argsstring>
+        <name>AllowAutoSwitchToUndersamplingMode</name>
+        <qualifiedname>srTDriftSpace::AllowAutoSwitchToUndersamplingMode</qualifiedname>
+        <reimplements refid="classsr_t_gen_opt_elem_1a4f393ccc53c73cd7a147b01f89fc115b">AllowAutoSwitchToUndersamplingMode</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="1086" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="1086" bodyend="1086"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTDriftSpace</label>
+        <link refid="classsr_t_drift_space"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTGenOptElem</label>
+        <link refid="classsr_t_gen_opt_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTDriftSpace</label>
+        <link refid="classsr_t_drift_space"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTGenOptElem</label>
+        <link refid="classsr_t_gen_opt_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>WfrTransmLimits</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTransvLimits</label>
+        <link refid="structsr_transv_limits"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="71" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="71" bodyend="1087"/>
+    <listofallmembers>
+      <member refid="classsr_t_gen_opt_elem_1ab13ad9139c8dc69e068179dd81d4f4d8" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>AddPtrOfActualOptElem</name></member>
+      <member refid="classsr_t_drift_space_1afaf9ab221ad19d1e75bb1868daac4e7b" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>AllowAutoSwitchToUndersamplingMode</name></member>
+      <member refid="classsr_t_drift_space_1a6f114cc516f9871e45bc5e4e511eeb32" prot="private" virt="non-virtual"><scope>srTDriftSpace</scope><name>AllowPropToWaist</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4c78271502b6df63c7da3c2ad628e47d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>AnalizeFringes</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad1bed2641971f988321e0ebf6b2c673e" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>AnalizeFringes2D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad3a32ec7df9c4daf65c3c33db54b508a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>AnalizeFringesAroundPoint</name></member>
+      <member refid="classsr_t_drift_space_1a382e796fbb1fd010159a2de91b524ef4" prot="private" virt="non-virtual"><scope>srTDriftSpace</scope><name>AnalytTreatSubType</name></member>
+      <member refid="classsr_t_drift_space_1aa5678770f5cd27b503a7ebff5c538d44" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>AuxPropagateRadMoments</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a118e553e3d4aa8714eca605cda339256" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ChangeWfrRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa9aa59180ae07eaa42ea6cb7841ba14e" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ChangeWfrRepresMeth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8a453d33b34af2a809db441d003894f1" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ChangeWfrRepresMeth_1</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a63e2a92d1a59afa2fb6869022d56a714" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckAndCorrectSecondOrderRadAngMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a84c6c00ac42ac71aad2746971b02bc24" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckForLowOrderInterp</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8e4f849b82b61b06b38657b923f7b853" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckForLowOrderInterp1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8ac73aa141900c70a715bf37cdfc0df9" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckIfOversamplingIsReal</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a32660d9da9111414d0897583c3f60a04" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckIfScenarioCanBeExecutedOrSuggestReduced</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0ba9255e0d34955ef926c506a71bca5d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckIfSpotShouldBeResized</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad15d5e724b4c6f0a3c8bc13031b0ca1a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckMemoryAvailable</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a65cd285f6309a9233dc055bb47ac063c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckPostResizeCenterCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af6b8bbe1425ab09db330d45e3b7bac9e" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckRadStructForPropagation</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a7b3a3d0c65966e790080888d8de132fa" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckRelCenPosAndSetPostResizeParamPmIfNecessary</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ace236641796254618f2e35c72f3e1231" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckRMS_Sizes1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a418eee9725358ec0f0bc5cb1476620fe" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CheckWidthMax1D</name></member>
+      <member refid="classsr_t_drift_space_1a657653ddc9852f108c403cac07407f34" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ChooseLocalPropMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aee7a5be05de521b0ba2325c631b9ccd4" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ChooseTreatExOrEzBasedOnMax</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5824d1398c0b39b074f14b0e97c1f3ea" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ComputeRadMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0c7292063da4555765b650f2c017f711" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CorrectResParMinNumPo</name></member>
+      <member refid="classsr_t_gen_opt_elem_1adef0443c54eafbeabd18a1f6ff301953" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a55f89cec1dab7d5c39c3df95a8dead91" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1ceb207bbca1fcc9e1a6d66861e79444" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CosAndSinPi</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aabffbeef4db34096fde2ec66cf2a4e2c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>CountFringes</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab62e714a0f785b9c4f518d4bf9f13afd" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>DefinePropagScenario</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3624ae5d07b6555f3f958d2edf64f3d8" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>DefinePropagScenario1D</name></member>
+      <member refid="classsr_t_drift_space_1a94e6cde9b68ab747d11ed79ebd1bdd77" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>DiffractionLimitedPropagatedSpotSize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8f2bac1ad19b6bac919bac6e3be27db7" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EnsureCoordRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a353927c0eee040dd25267cf3b9091c3e" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9613aa5db4a44e66f39ecf3a2bc3e8f8" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateMemoryNeededForPropag</name></member>
+      <member refid="classsr_t_drift_space_1a34205807170124548ead5c49587b0f33" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateMinNpBeforePropToWaist1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab51a02133eb9ce500323ff250741056d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateMinNpForQuadTerm</name></member>
+      <member refid="classsr_t_drift_space_1a1f50c8ee659f7bcb12f11f26ae3d2cb1" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>EstimateMinNpToResolveOptElem</name></member>
+      <member refid="classsr_t_drift_space_1a8f59d35b745c49a304fcacf57afd1377" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateMinNxNzBeforePropToWaist</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1a3b12f9f0d10ff6af6e9dd5f1b1306c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateNominalNpForUnderSampling</name></member>
+      <member refid="classsr_t_drift_space_1ae2fba1bf2b9d735134bcfd4e842f3701" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateTrueWfrRadAndMaxLeff_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="classsr_t_drift_space_1a12903224cbd394f26a35fc7105f33248" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateWfrRadToSub2_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="classsr_t_drift_space_1aeb6b0d22ca9d882072b999dd61ed01a3" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>EstimateWfrRadToSub_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a84df93c6deac1ba5ece485d848aa38a9" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ExtractPhase1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a46c105077968e5f3a00e4dfa7cffe393" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ExtractRadSectVsXorZ</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3d790fc80a058b9af3ec47355c8ed721" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ExtractRadSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1b8b178b585ec6288767e0cf58f27e7f" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>ExtractTransmCharact</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3282e75b8fece3bbf71bae03a4aaf9d6" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ExtraDataExpected</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeb668a9c94aea8a06e84521fa8ab55b5" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ExtraMemSizeForResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac737aaedbac92080d8b911521cb46a10" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ExtraMemSizeForResizeE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a098c5c6438d49536b1cb4f9ffba22856" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FillOutRadFromInRad</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af52e275fbf668838778da8ed924baa87" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindCenterWithRespectToThresh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3483d20708685faa37edab55622ec269" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindIntensityBorders1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a92795d439403b1986968004b874193b7" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindLineIntersectWithPlane</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeedc87a419d1b09d3fd31fdc0f5932e8" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindLongCoordOfHorBaseVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a39835985e013f9296f8f643b6daaff83" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindLowestAndUppestPoints</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a41d3220fe9670dd3a89469896e9f1feb" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindMaximumAbsReE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a061ff7fa3359de27c0864b65d8a21d76" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindMinMaxRatio</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a489680535fe82436227c1a70b241f172" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindPostResizeCenterCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a76f3c8885483f3ea87a89b18ca9e67c5" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindPostResizeForRange1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afd0bcd789ec22cd60ccb94c4f8e1bea4" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindRelPrecForRangeOverWfr1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae19b72ee288b77d65d3a1d5d36a64331" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindThresholdBorders</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a437c6ec9de4066bb43fe84c7a668b7b4" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FindWidestWfrMeshParam</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afe8e5eb2b610ac77765e55c3d103f459" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FormalMag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a637197f9c18cad64ef0542ff11186bde" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>FormalPhase</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a54151eba73aa52e8ff81c934eb9a0b69" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>GenAuxPropagate4x4PropMatr</name></member>
+      <member refid="classsr_t_gen_opt_elem_1abb22e3134a4842d4c8b3f7870ee1e441" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>GenAuxPropagateRadMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acfb0ba7b42d0fe3896b34e80a18b91fb" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>GenExtractPhase</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a63ac112b841e21138a4776e5edc3c43c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>GetCellDataForInterpol</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a35c7d2466d77cf3b3840738a4b7fa7b6" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>GetCellDataForInterpol1D</name></member>
+      <member refid="classsr_t_drift_space_1a773fc12faa9021f8fb627f5fd898ee2d" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>GPUImplFeatures</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8993844ac986866286184a3d307a7a8c" prot="protected" virt="non-virtual"><scope>srTDriftSpace</scope><name>HalfPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a25aed205a1cc8b1fc27117f44f3a71bd" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ImproveReAndIm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae8b261ef1990b1eb2545da84337d2e24" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>Initialize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6b1041bddfc07a6de0286199f11f8493" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>IntegerOffsetCoord</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a36ae3ae294da2a3cd7690ee3099a597c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>IntegrateElField1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9842cac9d3d4d7a713242b1112c669ce" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpLin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a81e2dff0eeb0b6eb67bcfd0acaccb828" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolF</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4350dce7d98fd2e01923ed2b6eea90ec" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolF1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac46d687edb2259f79f4dfd6eadc05762" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolF_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa373eb78681852434b9dbb1e66c97681" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolF_LowOrder1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac5fd69f95b011f634bd7c8979fd5084a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolFI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5d87c6b5787a818ba3846926f96ec78d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolFI1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1add7227c65a2de74a33ec3d80bd167158" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolFI_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acb4fbce2d459475111c7db1722a1a453" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>InterpolFI_LowOrder1D</name></member>
+      <member refid="classsr_t_drift_space_1a01869bfe0aba2f721e7d24c8ea049df9" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>Length</name></member>
+      <member refid="classsr_t_drift_space_1ae54e04fd07896384f36633a1fd984d53" prot="private" virt="non-virtual"><scope>srTDriftSpace</scope><name>LocalPropMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3760d3094c00623976076d9948216f14" prot="protected" virt="non-virtual"><scope>srTDriftSpace</scope><name>m_PropWfrInPlace</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6778d64918c087476300d6c5213b0c26" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>MakePostPropagationProc</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa2578bdf79bf3b0f0be343772c1bdb75" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MakeSimpleOversamplingTestAndCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acd8a7c72a7dc5d6d0ca0c82b9383e1dc" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MakeWfrEdgeCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a408880ad9a2bcc18ec32b0fe6738f281" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MakeWfrEdgeCorrection1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab8b0582b96b3ab07e6445ad2a1d4b9ec" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MaxIntInHorString</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a353bfbbf7f209c8420912e1f1c97cfd0" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MaxIntInVertString</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a688f6ecb6d335df53b838ebafcf3fa52" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MemoryIsSufficientForProp</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9a8f9ac8d506aa38881d8c35a9d8571a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MemoryIsSufficientForResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac5430c55e5c4fa3b532f5b093aa73b19" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MemoryIsSufficientForTwoResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0633c0907ad4ba957afdc6f02f8ad489" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>MultSquareMatrByVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2c7409d5cfc3bce9890eeeda2ee4cde9" prot="protected" virt="non-virtual"><scope>srTDriftSpace</scope><name>One_dTwoPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae48f7a6621a159b972003f336720ca21" prot="protected" virt="non-virtual"><scope>srTDriftSpace</scope><name>PI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4213b1607e1bc16e8169a5060b7a7d59" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PostResizeAndTryToImproveResolInSmallSpot</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeb06230ffa8afd2c7f89c2146d0a1d58" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PredictPhase</name></member>
+      <member refid="classsr_t_drift_space_1ac42f382a82f11d8ae4aec9b1c0024f7e" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>Propagate4x4PropMatr</name></member>
+      <member refid="classsr_t_drift_space_1acfe82f6cf45cd1ac986c5f457e2824c2" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateElecBeamMoments</name></member>
+      <member refid="classsr_t_drift_space_1a1523bb2bc36ab0858c186f3ec37af0e6" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateRadiation</name></member>
+      <member refid="classsr_t_drift_space_1a009d0ce90d91c1bef93b64ae9459a808" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationMeth_0</name></member>
+      <member refid="classsr_t_drift_space_1a3bb2ffa9e41a136b7f77b0c199d52e7a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationMeth_1</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9e81d35cecc9e8f9c6e2be478734aa25" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationMeth_2</name></member>
+      <member refid="classsr_t_drift_space_1a24020dfea23ce93a6d84d84c21c01800" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple</name></member>
+      <member refid="classsr_t_drift_space_1a8fffb1e8e13d24920afa415f74c59715" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple1D</name></member>
+      <member refid="classsr_t_drift_space_1a92b4edba4a53ba03b522df4552aeba4a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple1D_AngRepres</name></member>
+      <member refid="classsr_t_drift_space_1af3cf4b37676cc2ef9626552a3e17c77d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple1D_PropToWaist</name></member>
+      <member refid="classsr_t_drift_space_1a505a9025bf5b030c6f40226323477ad5" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="classsr_t_drift_space_1a5ef18f9c792089acb09486e9437ce0ec" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple_AngRepres</name></member>
+      <member refid="classsr_t_drift_space_1a66451ddcb0eed4f6ee045594b2700e36" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple_NumIntFresnel</name></member>
+      <member refid="classsr_t_drift_space_1a7dfd971882116169cd365643ee156845" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple_PropFromWaist</name></member>
+      <member refid="classsr_t_drift_space_1ab12c24010f962cf329eb6f40167b17b7" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple_PropToWaist</name></member>
+      <member refid="classsr_t_drift_space_1a6a1c3d94b0aff1a6d00d923326575fea" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSimple_PropToWaistBeyondParax</name></member>
+      <member refid="classsr_t_drift_space_1a2b453db89bdfcfce7c852ea4b5ee905c" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSingleE_Meth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab5155468d4901568acb537f1023f4b34" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationSingleE_Meth_2</name></member>
+      <member refid="classsr_t_drift_space_1a3ce0faeeaa65d09b0f898b7820122c35" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateRadiationTest</name></member>
+      <member refid="classsr_t_drift_space_1ad2d0dc8147ae058c7b71a03130b14d87" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateRadMoments</name></member>
+      <member refid="classsr_t_drift_space_1a72ceecbe81dafb61f626d377b8c0232b" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateWaveFrontRadius</name></member>
+      <member refid="classsr_t_drift_space_1a6bfb1a2ea6b01db5dab1362b43852fd4" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>PropagateWaveFrontRadius1D</name></member>
+      <member refid="classsr_t_drift_space_1a6fe908ca3d4a05d967927a18b3977bec" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropStatPhaseCanBeApplied</name></member>
+      <member refid="classsr_t_drift_space_1abe6063d227d79470c4149dff7f43d6f8" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>PropToWaistCanBeApplied</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1387909109241815bb5cd4464a49d2a1" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>RadOptPathDiff</name></member>
+      <member refid="classsr_t_drift_space_1ac5e037c8f049bef3f9f5b17d2ec3c2b3" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>RadPointModifier</name></member>
+      <member refid="classsr_t_drift_space_1af117bc6f84ba14947c58a993f191d078" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>RadPointModifier1D</name></member>
+      <member refid="classsr_t_drift_space_1aae02c33675127685899e75f74905d5b0" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadPointModifier1D_AngRepres</name></member>
+      <member refid="classsr_t_drift_space_1a76607cc37e9eaa642b590f93b1504621" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadPointModifier1D_PropToWaist</name></member>
+      <member refid="classsr_t_drift_space_1a6bda457b81564431eecae38c545e93ca" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadPointModifier_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="classsr_t_drift_space_1ab2deab2e050b95882b36b422b3f8d610" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadPointModifier_AngRepres</name></member>
+      <member refid="classsr_t_drift_space_1a3d11cc34ae6a49b0be6471fcad618573" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadPointModifier_PropFromWaist</name></member>
+      <member refid="classsr_t_drift_space_1a0a1fbb72d237ba3dee922872d8cc6c33" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadPointModifier_PropToWaist</name></member>
+      <member refid="classsr_t_drift_space_1a43f660f636e627d8a5380eca73cc22cc" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadPointModifier_PropToWaistBeyondParax</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae4f3ba0128efd182f7a67f1d3c7fb65a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadRearrangeOnRegularMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a537c8fdde7ac93d0a2d8fcb0436d4015" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeCore</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1230cf82ac392afb75ebd54164772b2d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeCore1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a543ccb84f77a41d84b62839bae7c94a1" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeCore_OnlyLargerRange</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a36a78d9c6760bec62ca7eeecb8ecb923" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeCore_OnlyLargerRangeE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afb3ee42ea5101edba3b629c9e0c56fd4" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeCoreE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aaf79e5ea4009e0786958ad36e3110771" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeGen</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3ab6b260efcc83262cabfc693115fce5" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeGen1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac01066d999137b12de77fb8401532983" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RadResizeGenE</name></member>
+      <member refid="classsr_t_drift_space_1a58074c003ebb8461d92442dc3b76acc9" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>RangeShouldBeAdjustedAtPropag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac63cba8df816ffafe3fa2e1c1492275a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RecomputeRadMomentsIfPossible</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0df2e849495f042e2d269136bf79bde0" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ReduceBiggerResizeParamUntilFitMemory</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2e5fa121784a52654c286ef1f4730685" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ReflectVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad28c32f7021e3b7337a107751cf1e6ce" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ReInterpolateWfrDataOnNewTransvMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a48cfea088831804de2aef84414354e2b" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ReInterpolateWfrSliceSingleE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9ee5cf9ff8e5d8d551ff0932892e2483" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RejectSmallResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a46d60cc88087a936150f06b249c13a97" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RemoveSliceConstE_FromGenRadStruct</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad740f180b169d99589d5e401af59602f" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>RemoveUndersamplingByResizingOrStop</name></member>
+      <member refid="classsr_t_drift_space_1adf00aaef803474aa88d4be8d2077a35a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ResizeBeforePropToWaistIfNecessary</name></member>
+      <member refid="classsr_t_drift_space_1a8114f18e00918152db0aab87a66369da" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ResizeBeforePropToWaistIfNecessary1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5e47abd2df2982c48def95a408c05518" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ResizePropagateAndAnalizeFringes1D</name></member>
+      <member refid="classsr_t_drift_space_1a3df28248f90839c9b3268d6002cad45c" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>ResolutionShouldBeAdjustedAtPropag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a20a624b4b483c23e5c0e25437d774952" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetRadRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aab2e8b76487bdbb8cb7cdd56d7642644" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetRadRepres1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af9fc775bd4bad1e27dd9b03b0a6c95dd" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupCellDataI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a872faf1a3f58840fa34893a19e09e57d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupCellDataI1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa97bd992fdcb0c6c2da25212f89a0188" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupCharacteristicSections1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a10d3b3ae74bf71620b6fcc9207afadd7" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupExpCorrArray</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6c32903217900dceebf1ac79af5a5063" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupInterpolAux02</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1912b71ca535545231a40d81e29ddaea" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupInterpolAux02_1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa16d0e8bd5b73dba826f6ef9986a12ac" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupInterpolAux02_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0292a9cf551bd263ce8fef2ee5a3b7cb" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupInterpolAux02_LowOrder1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae67a5a5700247cd18ab8533d4b54e2af" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupMxxMzzArr</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa393b2bedf1689d89353edc8e6d83660" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupNewRadStructFromSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad91e0fd24c14146e465b357151bcb2c6" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupOpticalElement</name></member>
+      <member refid="classsr_t_drift_space_1a31acb55b7125b322e35e702594b18084" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupPropBufVars_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="classsr_t_drift_space_1a2164f54da5255aaf5d2705e3f5d526b5" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupPropBufVars_PropFromWaist</name></member>
+      <member refid="classsr_t_drift_space_1acd738e561584138d4c597a8d381e6e42" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupPropBufVars_PropToWaist</name></member>
+      <member refid="classsr_t_drift_space_1ac5defbf23b1ff0eb2388f70b4564f510" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupPropBufVars_PropToWaist</name></member>
+      <member refid="classsr_t_drift_space_1a1ab0f1a52b48f4b6ffc31410a16f3489" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupPropBufVars_PropToWaistBeyondParax</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a570241c8a03a0062d5d7f20627cae619" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupRadSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a092509412ed382acbf11669cedb77629" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupRadXorZSectFromSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa4146574cf910f3205c94c4263fb8c9c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupSectionArraysVsXandZ</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad90ea54a9ad9c8e74deb3dc58748766f" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupWfrEdgeCorrData</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a24a6aaacfce972fde8162e8116a7ad24" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SetupWfrEdgeCorrData1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acabf51b65c5aa9e90ecb485f162eec58" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>ShowCurrentOverSamplingFactors</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>sign</name></member>
+      <member refid="classsr_t_drift_space_1af5c8d7e73d812a8e42203600db34d3f6" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>srTDriftSpace</name></member>
+      <member refid="classsr_t_drift_space_1a07cd9ba787873da9df608fbcf2ad531f" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>srTDriftSpace</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a901bd017a85fbe5cbe7e3ea7e7d1c82c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>srTGenOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2b8a49381c200e6563d56beea26efb7c" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SteerPostResizeParam</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a86a07c82cd04348b91cb18ba91b803bb" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SuggestResolResizeCoef</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1fd869db1d5e3f664fc3bbfb3697aca4" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SuggestScenarioThatFitsMemory</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a25745710ad5ccd73b8a9cec91744f4a0" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>SuitableConditionsForUnderSamplingMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6438f1cbc9dc0fb5055c305e0948fffd" prot="protected" virt="non-virtual"><scope>srTDriftSpace</scope><name>ThreePIdTwo</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad363aa021b7133d810e776d3de643bbf" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TransferResizeParam</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acfe4a9d2171edef80b453181727c6190" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TraverseRad1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a905899b131de33ff2e0629ce7874592b" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TraverseRadZXE</name></member>
+      <member refid="classsr_t_drift_space_1a91b7f090ec9baf539fabdbe809d9a1e0" prot="private" virt="non-virtual"><scope>srTDriftSpace</scope><name>TreatPath</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2e458eeec156a4feead4207eae9acb56" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TreatPhaseShift</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a00b50e016a4aa88520b282aa66b88dd9" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TreatStronglyOscillatingTerm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a74e0bfde8f242c9c5299f7b6a6f9e895" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TreatStronglyOscillatingTerm1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afcce8a391ddb315a88327b60f1f5e081" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TreatStronglyOscillatingTermIrregMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad0a880529ddb8823e88e7049eb37dade" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TreatStronglyOscillatingTermIrregMeshTrf</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8bc9def079a47c45ac37eb73a41627d6" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TryToRemoveUndersamplingByResizing</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab66040c60b23168e607e308fb1ea5103" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TryToSetUnderSamplingMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a89dc0180ff56ca4d7bd6c125e965f87a" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TuneAndKeepResolution1D</name></member>
+      <member refid="classsr_t_drift_space_1a20a01aabc208e384cad308ab17236144" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TuneRadForPropMeth_1</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4461c85c29200643d7aae3f5075cabe9" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TuneRangeNotDegradingPrec1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5ebbc3ddd28fdd3de2b9c4ca33caa342" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>TuneStepToKeepInterpLimitsTheSameAtResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af470aefcbb47ebe8c4f2ef77a0727167" prot="protected" virt="non-virtual"><scope>srTDriftSpace</scope><name>TwoPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9055ce7f8baed27657d3e0745f06a2c8" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>UnderSamplingModeCanBeSuggested</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aaf6a9665fa87a64c10fb6c433784749d" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>UpdateGenRadStructSliceConstE_Meth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a90886303cd1e92bdb05ebf0975cd5389" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>UpdateGenRadStructSliceConstE_Meth_2</name></member>
+      <member refid="classsr_t_drift_space_1aa593a8474421bcf582baae1549ac5ab0" prot="private" virt="non-virtual"><scope>srTDriftSpace</scope><name>UseExactRxRzForAnalytTreatQuadPhaseTerm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6fb9f08e0fcf36b6418473aca0fbbe12" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>WaveFrontTermCanBeTreated</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0061045be32bde47093efb5eb9748d75" prot="public" virt="non-virtual"><scope>srTDriftSpace</scope><name>WaveFrontTermCanBeTreated1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4c5c991b74946799e9f4617ad0d82009" prot="protected" virt="non-virtual"><scope>srTDriftSpace</scope><name>WfrTransmLimits</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>~CGenObject</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4f3c4953420c0ab1be02557abe41d64a" prot="public" virt="virtual"><scope>srTDriftSpace</scope><name>~srTGenOptElem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

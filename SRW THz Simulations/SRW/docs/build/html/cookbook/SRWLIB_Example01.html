@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRW Example #1 &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/plot_directive.css?v=7f9a90b1" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="SRW Example #1 (kick matrix)" href="SRWLIB_Example01_kick_matr.html" />
+    <link rel="prev" title="Cookbook (Examples)" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Cookbook (Examples)</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">SRW Example #1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#problem">Problem</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-solution">Example Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example01_kick_matr.html">SRW Example #1 (kick matrix)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example02.html">SRW Example #2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example03.html">SRW Example #3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example04.html">SRW Example #4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example05.html">SRW Example #5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example06.html">SRW Example #6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example07.html">SRW Example #7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example09.html">SRW Example #9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example13.html">SRW Example #13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example14.html">SRW Example #14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example15.html">SRW Example #15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SRWLIB_Example16.html">SRW Example #16</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Cookbook (Examples)</a></li>
+      <li class="breadcrumb-item active">SRW Example #1</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/cookbook/SRWLIB_Example01.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="sphx-glr-download-link-note admonition note">
+<p class="admonition-title">Note</p>
+<p><a class="reference internal" href="#sphx-glr-download-cookbook-srwlib-example01-py"><span class="std std-ref">Go to the end</span></a>
+to download the full example code.</p>
+</div>
+<section class="sphx-glr-example-title" id="srw-example-1">
+<span id="sphx-glr-cookbook-srwlib-example01-py"></span><h1>SRW Example #1<a class="headerlink" href="#srw-example-1" title="Link to this heading">¶</a></h1>
+<section id="problem">
+<h2>Problem<a class="headerlink" href="#problem" title="Link to this heading">¶</a></h2>
+<p>Calculating electron trajectory in 3D magnetic field of an APPLE-II undulator</p>
+</section>
+<section id="example-solution">
+<h2>Example Solution<a class="headerlink" href="#example-solution" title="Link to this heading">¶</a></h2>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">print_function</span> <span class="c1">#Python 2.7 compatibility</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">srwpy.srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">srwpy.uti_plot</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;SRWLIB Python Example # 1:&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Calculating electron trajectory in 3D magnetic field of an APPLE-II undulator&#39;</span><span class="p">)</span>
+
+<span class="c1">#**********************Input Parameters:</span>
+<span class="n">strExDataFolderName</span> <span class="o">=</span> <span class="s1">&#39;data_example_01&#39;</span> <span class="c1">#example data sub-folder name</span>
+<span class="c1">#arFldInFileNames = [&#39;epu49term1.dat&#39;, &#39;epu49cen.dat&#39;, &#39;epu49term2.dat&#39;] #3D Magnetic Field data file names</span>
+<span class="n">arFldInFileNames</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;epu49HEtot.dat&#39;</span><span class="p">]</span> <span class="c1">#3D Magnetic Field data file names</span>
+<span class="n">strTrajOutFileName</span> <span class="o">=</span> <span class="s1">&#39;ex01_res_traj_off.dat&#39;</span> <span class="c1">#file name for output trajectory data</span>
+
+<span class="n">numPer</span> <span class="o">=</span> <span class="mi">40</span> <span class="c1">#Number of ID Periods (without counting for terminations)</span>
+<span class="n">xcID</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#Transverse Coordinates of ID Center [m]</span>
+<span class="n">ycID</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">zcID</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#Longitudinal Coordinate of ID Center [m]</span>
+
+<span class="n">part</span> <span class="o">=</span> <span class="n">SRWLParticle</span><span class="p">()</span>
+<span class="n">part</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="mf">0.004</span> <span class="c1">#Initial Transverse Coordinates (initial Longitudinal Coordinate will be defined later on) [m]</span>
+<span class="n">part</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="mf">0.0005</span>
+<span class="n">part</span><span class="o">.</span><span class="n">xp</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#Initial Transverse Velocities</span>
+<span class="n">part</span><span class="o">.</span><span class="n">yp</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">part</span><span class="o">.</span><span class="n">gamma</span> <span class="o">=</span> <span class="mi">3</span><span class="o">/</span><span class="mf">0.51099890221e-03</span> <span class="c1">#Relative Energy</span>
+<span class="n">part</span><span class="o">.</span><span class="n">relE0</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#Electron Rest Mass</span>
+<span class="n">part</span><span class="o">.</span><span class="n">nq</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="c1">#Electron Charge</span>
+
+<span class="n">npTraj</span> <span class="o">=</span> <span class="mi">10001</span> <span class="c1">#Number of Points for Trajectory calculation</span>
+<span class="n">fieldInterpMeth</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">#2 #Magnetic Field Interpolation Method, to be entered into 3D field structures below (to be used e.g. for trajectory calculation):</span>
+<span class="c1">#1- bi-linear (3D), 2- bi-quadratic (3D), 3- bi-cubic (3D), 4- 1D cubic spline (longitudinal) + 2D bi-cubic</span>
+<span class="n">arPrecPar</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="c1">#General Precision parameters for Trajectory calculation:</span>
+<span class="c1">#[0]: integration method No:</span>
+    <span class="c1">#1- fourth-order Runge-Kutta (precision is driven by number of points)</span>
+    <span class="c1">#2- fifth-order Runge-Kutta</span>
+<span class="c1">#[1],[2],[3],[4],[5]: absolute precision values for X[m],X&#39;[rad],Y[m],Y&#39;[rad],Z[m] (yet to be tested!!) - to be taken into account only for R-K fifth order or higher</span>
+<span class="c1">#[6]: tolerance (default = 1) for R-K fifth order or higher</span>
+<span class="c1">#[7]: max. number of auto-steps for R-K fifth order or higher (default = 5000)</span>
+
+<span class="c1">#**********************Auxiliary function to read tabulated 3D Magnetic Field data from ASCII file:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">AuxReadInMagFld3D</span><span class="p">(</span><span class="n">filePath</span><span class="p">,</span> <span class="n">sCom</span><span class="p">):</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filePath</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span> <span class="c1">#1st line: just pass</span>
+    <span class="n">xStart</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#2nd line: initial X position [m]; it will not actually be used</span>
+    <span class="n">xStep</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#3rd line: step vs X [m]</span>
+    <span class="n">xNp</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#4th line: number of points vs X</span>
+    <span class="n">yStart</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#5th line: initial Y position [m]; it will not actually be used</span>
+    <span class="n">yStep</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#6th line: step vs Y [m]</span>
+    <span class="n">yNp</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#7th line: number of points vs Y</span>
+    <span class="n">zStart</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#8th line: initial Z position [m]; it will not actually be used</span>
+    <span class="n">zStep</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#9th line: step vs Z [m]</span>
+    <span class="n">zNp</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">sCom</span><span class="p">,</span> <span class="mi">2</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#10th line: number of points vs Z</span>
+    <span class="n">totNp</span> <span class="o">=</span> <span class="n">xNp</span><span class="o">*</span><span class="n">yNp</span><span class="o">*</span><span class="n">zNp</span>
+    <span class="n">locArBx</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">totNp</span><span class="p">)</span>
+    <span class="n">locArBy</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">totNp</span><span class="p">)</span>
+    <span class="n">locArBz</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">totNp</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">totNp</span><span class="p">):</span>
+        <span class="n">curLineParts</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">locArBx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">curLineParts</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">locArBy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">curLineParts</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">locArBz</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">curLineParts</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">xRange</span> <span class="o">=</span> <span class="n">xStep</span>
+    <span class="k">if</span> <span class="n">xNp</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="n">xRange</span> <span class="o">=</span> <span class="p">(</span><span class="n">xNp</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="n">xStep</span>
+    <span class="n">yRange</span> <span class="o">=</span> <span class="n">yStep</span>
+    <span class="k">if</span> <span class="n">yNp</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="n">yRange</span> <span class="o">=</span> <span class="p">(</span><span class="n">yNp</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="n">yStep</span>
+    <span class="n">zRange</span> <span class="o">=</span> <span class="n">zStep</span>
+    <span class="k">if</span> <span class="n">zNp</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="n">zRange</span> <span class="o">=</span> <span class="p">(</span><span class="n">zNp</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="n">zStep</span>
+    <span class="k">return</span> <span class="n">SRWLMagFld3D</span><span class="p">(</span><span class="n">locArBx</span><span class="p">,</span> <span class="n">locArBy</span><span class="p">,</span> <span class="n">locArBz</span><span class="p">,</span> <span class="n">xNp</span><span class="p">,</span> <span class="n">yNp</span><span class="p">,</span> <span class="n">zNp</span><span class="p">,</span> <span class="n">xRange</span><span class="p">,</span> <span class="n">yRange</span><span class="p">,</span> <span class="n">zRange</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="c1">#**********************Defining Magnetic Field:</span>
+<span class="n">magFldCnt</span> <span class="o">=</span> <span class="n">SRWLMagFldC</span><span class="p">()</span> <span class="c1">#Container</span>
+<span class="c1">#magFldCnt.allocate(3) #Magnetic Field consists of 3 parts</span>
+<span class="n">magFldCnt</span><span class="o">.</span><span class="n">allocate</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1">#Magnetic Field consists of 1 part</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;   Reading magnetic field data from files ... &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="c1">#for i in range(3):</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">filePath</span> <span class="o">=</span> <a href="https://docs.python.org/3/library/os.path.html#os.path.join" title="os.path.join" class="sphx-glr-backref-module-os-path sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/os.html#os.getcwd" title="os.getcwd" class="sphx-glr-backref-module-os sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span></a><span class="p">(),</span> <span class="n">strExDataFolderName</span><span class="p">,</span> <span class="n">arFldInFileNames</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">magFldCnt</span><span class="o">.</span><span class="n">arMagFld</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">AuxReadInMagFld3D</span><span class="p">(</span><span class="n">filePath</span><span class="p">,</span> <span class="s1">&#39;#&#39;</span><span class="p">)</span>
+    <span class="n">magFldCnt</span><span class="o">.</span><span class="n">arMagFld</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">interp</span> <span class="o">=</span> <span class="n">fieldInterpMeth</span>
+    <span class="n">magFldCnt</span><span class="o">.</span><span class="n">arXc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">xcID</span>
+    <span class="n">magFldCnt</span><span class="o">.</span><span class="n">arYc</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ycID</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;done&#39;</span><span class="p">)</span>
+
+<span class="c1">#magFldCnt.arMagFld[1].nRep = numPer #Central part of ID</span>
+<span class="n">magFldCnt</span><span class="o">.</span><span class="n">arMagFld</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">nRep</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#Central part of ID</span>
+
+<span class="c1">#per = magFldCnt.arMagFld[1].rz #Period length</span>
+<span class="c1">#magFldCnt.arZc = array(&#39;d&#39;, [zcID - 0.5*numPer*per - 0.5*(magFldCnt.arMagFld[0].rz), zcID, zcID + 0.5*numPer*per + 0.5*(magFldCnt.arMagFld[2].rz)])</span>
+<span class="c1">#part.z = zcID - (0.5*numPer + 1)*per - magFldCnt.arMagFld[0].rz #Initial Longitudinal Coordinate (set before the ID)</span>
+
+<span class="n">magFldCnt</span><span class="o">.</span><span class="n">arZc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">zcID</span>
+<span class="n">part</span><span class="o">.</span><span class="n">z</span> <span class="o">=</span> <span class="n">zcID</span> <span class="o">-</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">magFldCnt</span><span class="o">.</span><span class="n">arMagFld</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">rz</span>
+
+<span class="c1">#**********************Trajectory structure, where the results will be stored</span>
+<span class="n">partTraj</span> <span class="o">=</span> <span class="n">SRWLPrtTrj</span><span class="p">()</span>
+<span class="n">partTraj</span><span class="o">.</span><span class="n">partInitCond</span> <span class="o">=</span> <span class="n">part</span>
+<span class="c1">#partTraj.allocate(npTraj)</span>
+<span class="n">partTraj</span><span class="o">.</span><span class="n">allocate</span><span class="p">(</span><span class="n">npTraj</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">partTraj</span><span class="o">.</span><span class="n">ctStart</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#Start Time for the calculation</span>
+<span class="c1">#partTraj.ctEnd = (numPer + 2)*per + magFldCnt.arMagFld[0].rz + magFldCnt.arMagFld[2].rz #End Time</span>
+<span class="n">partTraj</span><span class="o">.</span><span class="n">ctEnd</span> <span class="o">=</span> <span class="n">magFldCnt</span><span class="o">.</span><span class="n">arMagFld</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">rz</span>
+
+<span class="c1">#**********************Calculation (SRWLIB function call)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;   Performing calculation ... &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="n">partTraj</span> <span class="o">=</span> <span class="n">srwl</span><span class="o">.</span><span class="n">CalcPartTraj</span><span class="p">(</span><span class="n">partTraj</span><span class="p">,</span> <span class="n">magFldCnt</span><span class="p">,</span> <span class="n">arPrecPar</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;done&#39;</span><span class="p">)</span>
+
+<span class="c1">#**********************Saving results to a file</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;   Saving trajectory data to a file ... &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="n">partTraj</span><span class="o">.</span><span class="n">save_ascii</span><span class="p">(</span><a href="https://docs.python.org/3/library/os.path.html#os.path.join" title="os.path.join" class="sphx-glr-backref-module-os-path sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span></a><span class="p">(</span><a href="https://docs.python.org/3/library/os.html#os.getcwd" title="os.getcwd" class="sphx-glr-backref-module-os sphx-glr-backref-type-py-function"><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span></a><span class="p">(),</span> <span class="n">strExDataFolderName</span><span class="p">,</span> <span class="n">strTrajOutFileName</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;done&#39;</span><span class="p">)</span>
+
+<span class="c1">#**********************Plotting results</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;   Plotting the results (blocks script execution; close any graph windows to proceed) ... &#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="n">ctMesh</span> <span class="o">=</span> <span class="p">[</span><span class="n">partTraj</span><span class="o">.</span><span class="n">ctStart</span><span class="p">,</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">ctEnd</span><span class="p">,</span> <span class="n">partTraj</span><span class="o">.</span><span class="n">np</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">partTraj</span><span class="o">.</span><span class="n">np</span><span class="p">):</span>
+    <span class="n">partTraj</span><span class="o">.</span><span class="n">arX</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*=</span> <span class="mi">1000</span>
+    <span class="n">partTraj</span><span class="o">.</span><span class="n">arY</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*=</span> <span class="mi">1000</span>
+
+<span class="n">uti_plot1d</span><span class="p">(</span><span class="n">partTraj</span><span class="o">.</span><span class="n">arX</span><span class="p">,</span> <span class="n">ctMesh</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;ct [m]&#39;</span><span class="p">,</span> <span class="s1">&#39;Horizontal Position [mm]&#39;</span><span class="p">])</span>
+<span class="n">uti_plot1d</span><span class="p">(</span><span class="n">partTraj</span><span class="o">.</span><span class="n">arY</span><span class="p">,</span> <span class="n">ctMesh</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;ct [m]&#39;</span><span class="p">,</span> <span class="s1">&#39;Vertical Position [mm]&#39;</span><span class="p">])</span>
+
+<span class="n">uti_plot_show</span><span class="p">()</span> <span class="c1">#show all graphs (and block execution)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;done&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-cookbook-srwlib-example01-py">
+<div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/8e13b263734b7e801de6aa21c027b278/SRWLIB_Example01.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">SRWLIB_Example01.ipynb</span></code></a></p>
+</div>
+<div class="sphx-glr-download sphx-glr-download-python docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/33b8555ee26160a5ec2eb61d5621a6fc/SRWLIB_Example01.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">SRWLIB_Example01.py</span></code></a></p>
+</div>
+<div class="sphx-glr-download sphx-glr-download-zip docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/ce9c345b66e2f694873b276064fdc379/SRWLIB_Example01.zip"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">zipped:</span> <span class="pre">SRWLIB_Example01.zip</span></code></a></p>
+</div>
+</div>
+<p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Cookbook (Examples)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="SRWLIB_Example01_kick_matr.html" class="btn btn-neutral float-right" title="SRW Example #1 (kick matrix)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

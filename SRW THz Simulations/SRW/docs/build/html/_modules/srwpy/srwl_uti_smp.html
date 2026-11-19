@@ -1,0 +1,1030 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.srwl_uti_smp &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.srwl_uti_smp</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.srwl_uti_smp</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="c1">#############################################################################</span>
+<span class="c1"># SRW Samples library</span>
+<span class="c1"># Authors/Contributors: Maksim Rakitin, Rebecca Ann Coles</span>
+<span class="c1"># October 26, 2016</span>
+<span class="c1"># April 11, 2020</span>
+<span class="c1">#############################################################################</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="c1">#import sys</span>
+<span class="c1">#import time</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">array</span><span class="w"> </span><span class="kn">import</span> <span class="n">array</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">copy</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span> <span class="c1">#OC10082021</span>
+
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC16112022</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_io</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">uti_io</span>
+
+<span class="c1">#import srwlib</span>
+<span class="c1">#from srwlib import * #OC28012021</span>
+<span class="c1">#import uti_io</span>
+
+<span class="c1"># ********************** The class for Samples:</span>
+<div class="viewcode-block" id="SRWLUtiSmp">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp">[docs]</a>
+<span class="k">class</span><span class="w"> </span><span class="nc">SRWLUtiSmp</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;The class for Samples from image file (e.g., .tif), NumPy array (.npy), etc.</span>
+
+<span class="sd">    :param file_path: full path to the image or the saved NumPy array.</span>
+<span class="sd">    :param area: the coordinates of the rectangle area listed in the following order: x_start, x_end, y_start, y_end.</span>
+<span class="sd">    :param rotate_angle: the angle [deg] to rotate the read image counterclockwise. See scipy.ndimage.interpolation.rotate() for details.</span>
+<span class="sd">    :param rotate_reshape: if reshape is true, the output shape is adapted so that the input array is contained completely in the output.</span>
+<span class="sd">    :param cutoff_background_noise: the ratio for cutoff the background noise (between 0 and 1).</span>
+<span class="sd">    :param background_color: the background color code to use instead of the background noise (0=black, 255=white).</span>
+<span class="sd">    :param tile: the list/tuple (rows, columns) to tile the cut area of the image. See numpy.tile() for details.</span>
+<span class="sd">    :param shift_x: shift the whole image horizontally. Positive value shifts the image to the right, negative - to the left. See numpy.pad() for details.</span>
+<span class="sd">    :param shift_y: shift the whole image vertically. Positive value shifts the image to the top, negative - to the bottom. See numpy.pad() for details.</span>
+<span class="sd">    :param invert: invert the image. See numpy.invert() for details.</span>
+<span class="sd">    :param is_show_images: a flag to show the initial and processed images.</span>
+<span class="sd">    :param is_save_images: a flag to save the initial and processed images.</span>
+<span class="sd">    :param raw_image_name: the name of the raw file in case if it&#39;s saved.</span>
+<span class="sd">    :param processed_image_name: the name of the processed file in case if it&#39;s saved.</span>
+<span class="sd">    :param prefix: the prefix to add to the names of the saved image files.</span>
+<span class="sd">    :param output_image_format: the format of the output file. If not specified, the input format is used.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">,</span>
+                 <span class="n">area</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">rotate_angle</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">rotate_reshape</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cutoff_background_noise</span><span class="o">=</span><span class="mf">0.25</span><span class="p">,</span> <span class="n">background_color</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                 <span class="n">tile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">shift_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">shift_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">invert</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">is_show_images</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">is_save_images</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">raw_image_name</span><span class="o">=</span><span class="s1">&#39;raw&#39;</span><span class="p">,</span> <span class="n">processed_image_name</span><span class="o">=</span><span class="s1">&#39;processed&#39;</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">output_image_format</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="c1">#):</span>
+                 <span class="n">cutoff_max_fact</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">max_color</span><span class="o">=</span><span class="mi">255</span><span class="p">):</span> <span class="c1">#OC29052020</span>
+        <span class="c1"># Input parameters:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">file_path</span> <span class="o">=</span> <span class="n">file_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">area</span> <span class="o">=</span> <span class="n">area</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rotate_angle</span> <span class="o">=</span> <span class="n">rotate_angle</span> <span class="k">if</span> <span class="n">rotate_angle</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rotate_reshape</span> <span class="o">=</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">rotate_reshape</span> <span class="k">else</span> <span class="kc">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cutoff_background_noise</span> <span class="o">=</span> <span class="n">cutoff_background_noise</span> <span class="k">if</span> <span class="n">cutoff_background_noise</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">background_color</span> <span class="o">=</span> <span class="n">background_color</span> <span class="k">if</span> <span class="n">background_color</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">invert</span> <span class="o">=</span> <span class="n">invert</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tile</span> <span class="o">=</span> <span class="n">tile</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span> <span class="o">=</span> <span class="n">shift_x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span> <span class="o">=</span> <span class="n">shift_y</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">is_show_images</span> <span class="o">=</span> <span class="n">is_show_images</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">is_save_images</span> <span class="o">=</span> <span class="n">is_save_images</span>
+        <span class="n">output_image_format</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">file_path</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">output_image_format</span> <span class="k">else</span> \
+            <span class="n">output_image_format</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">raw_image_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_add_prefix</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">raw_image_name</span><span class="p">,</span> <span class="n">output_image_format</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">processed_image_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_add_prefix</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">processed_image_name</span><span class="p">,</span> <span class="n">output_image_format</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">cutoff_max_fact</span> <span class="o">=</span> <span class="n">cutoff_max_fact</span> <span class="c1">#OC29052020</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">max_color</span> <span class="o">=</span> <span class="n">max_color</span> <span class="k">if</span> <span class="n">max_color</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="mi">255</span> <span class="c1">#OC29052020</span>
+
+        <span class="c1"># Output parameters:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">raw_image</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">processed_image</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nx</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ny</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">limit_value</span> <span class="o">=</span> <span class="kc">None</span>
+
+        <span class="c1"># Check input type automatically:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">input_type</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_check_input_type</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+
+        <span class="c1"># Set the dir where to save the files:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">save_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">file_path</span><span class="p">))</span>
+
+        <span class="c1"># Check the input file(s):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_check_files</span><span class="p">()</span>
+
+        <span class="c1"># Process input:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">read_sample</span><span class="p">()</span>
+
+        <span class="c1"># Show the resulted images:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_show_images</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">show_images</span><span class="p">()</span>
+
+        <span class="c1"># Save the resulted images:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_save_images</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_images</span><span class="p">()</span>
+
+<div class="viewcode-block" id="SRWLUtiSmp.get_data_from_image">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.get_data_from_image">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">get_data_from_image</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">import_err_msg</span> <span class="o">=</span> <span class="s1">&#39;&quot;</span><span class="si">{}</span><span class="s1">&quot; library cannot be imported. Please install it first with &quot;pip install </span><span class="si">{}</span><span class="s1">&quot;.&#39;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+        <span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="n">import_err_msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;NumPy&#39;</span><span class="p">,</span> <span class="s1">&#39;numpy&#39;</span><span class="p">))</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="kn">from</span><span class="w"> </span><span class="nn">PIL</span><span class="w"> </span><span class="kn">import</span> <span class="n">Image</span>
+        <span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="n">import_err_msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;PIL&#39;</span><span class="p">,</span> <span class="s1">&#39;pillow&#39;</span><span class="p">))</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="kn">from</span><span class="w"> </span><span class="nn">scipy.ndimage.interpolation</span><span class="w"> </span><span class="kn">import</span> <span class="n">rotate</span>
+        <span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="n">import_err_msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;SciPy&#39;</span><span class="p">,</span> <span class="s1">&#39;scipy&#39;</span><span class="p">))</span>
+
+        <span class="n">d</span> <span class="o">=</span> <span class="n">uti_io</span><span class="o">.</span><span class="n">read_image</span><span class="p">(</span><span class="n">image_path</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">file_path</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">raw_image</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;raw_image&#39;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">limit_value</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;limit_value&#39;</span><span class="p">]</span>
+
+        <span class="c1"># Remove background noise:</span>
+        <span class="c1">#OC29052020 (moved down)</span>
+        <span class="c1">#assert 0 &lt;= self.background_color &lt;= 255, &#39;Background color ({}) should be between 0 and 255&#39;.format(</span>
+        <span class="c1">#    self.background_color)</span>
+        <span class="c1">#assert 0 &lt;= self.cutoff_background_noise &lt;= 1, &#39;Cutoff background noise ({}) should be between 0 and 1&#39;.format(</span>
+        <span class="c1">#    self.cutoff_background_noise)</span>
+        <span class="c1">#self.data[np.where(self.data &lt; self.limit_value * self.cutoff_background_noise)] = np.uint16(</span>
+        <span class="c1">#    self.background_color)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">)</span> <span class="ow">in</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">,</span> <span class="nb">list</span><span class="p">]</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span><span class="p">,</span> \
+                <span class="s1">&#39;The area should be a list/tuple and contain 4 elements (x_start, x_end, y_start, y_end)&#39;</span>
+            <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> \
+                   <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> \
+                <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">  x_start (</span><span class="si">{}</span><span class="s1">) and x_end (</span><span class="si">{}</span><span class="s1">) should be less than </span><span class="si">{}</span><span class="se">\n</span><span class="s1">  y_start (</span><span class="si">{}</span><span class="s1">) and y_end (</span><span class="si">{}</span><span class="s1">) should be less than </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                <span class="p">)</span>
+            <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> \
+                   <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> \
+                <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">  x_start (</span><span class="si">{}</span><span class="s1">) should be less than x_end (</span><span class="si">{}</span><span class="s1">)</span><span class="se">\n</span><span class="s1">  y_start (</span><span class="si">{}</span><span class="s1">) should be less than y_end (</span><span class="si">{}</span><span class="s1">)&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span>
+                <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="bp">self</span><span class="o">.</span><span class="n">area</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+
+        <span class="c1"># Remove background noise:</span>
+        <span class="c1">#OC29052020 (moved here to make operations on reduced amount of data)</span>
+        <span class="k">assert</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">background_color</span> <span class="o">&lt;=</span> <span class="mi">255</span><span class="p">,</span> <span class="s1">&#39;Background color (</span><span class="si">{}</span><span class="s1">) should be between 0 and 255&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">background_color</span><span class="p">)</span>
+        <span class="k">assert</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">cutoff_background_noise</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Cutoff background noise (</span><span class="si">{}</span><span class="s1">) should be between 0 and 1&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">cutoff_background_noise</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">limit_value</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">cutoff_background_noise</span><span class="p">)]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">uint16</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">background_color</span><span class="p">)</span>
+
+        <span class="k">if</span><span class="p">(</span><span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;cutoff_max_fact&#39;</span><span class="p">)):</span> <span class="c1">#OC29052020</span>
+           <span class="k">if</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cutoff_max_fact</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+                <span class="k">assert</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">cutoff_max_fact</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Maximal cutoff signal value (</span><span class="si">{}</span><span class="s1">) should be between 0 and 1&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cutoff_max_fact</span><span class="p">)</span>
+                <span class="k">assert</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_color</span> <span class="o">&lt;=</span> <span class="mi">255</span><span class="p">,</span> <span class="s1">&#39;Maximum color value (</span><span class="si">{}</span><span class="s1">) should be between 0 and 255&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">max_color</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">&gt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">limit_value</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">cutoff_max_fact</span><span class="p">)]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">uint16</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">max_color</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">tile</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tile</span><span class="p">)</span> <span class="ow">in</span> <span class="p">[</span><span class="nb">list</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">],</span> <span class="s1">&#39;The type of tile (</span><span class="si">{}</span><span class="s1">) should be list/tuple&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                <span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tile</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span>
+            <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tile</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;The size (</span><span class="si">{}</span><span class="s1">) of the list/tuple should be 2&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tile</span><span class="p">))</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">tile</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">tile</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">rotate_angle</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="o">-</span><span class="mi">360</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">rotate_angle</span> <span class="o">&lt;</span> <span class="mi">360</span><span class="p">,</span> <span class="s1">&#39;The angle should be from -360 to 360 degrees.&#39;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">rotate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">rotate_angle</span><span class="p">,</span> <span class="n">axes</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">reshape</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">rotate_reshape</span><span class="p">,</span> <span class="n">output</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                               <span class="n">order</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;constant&#39;</span><span class="p">,</span> <span class="n">cval</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">background_color</span><span class="p">,</span> <span class="n">prefilter</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">int</span><span class="p">,</span> <span class="s1">&#39;Type of shift_x (</span><span class="si">{}</span><span class="s1">) should be int&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pad</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span><span class="p">,</span> <span class="mi">0</span><span class="p">)),</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;constant&#39;</span><span class="p">,</span>
+                                   <span class="n">constant_values</span><span class="o">=</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">background_color</span><span class="p">))[:,</span> <span class="p">:</span><span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pad</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span><span class="p">)),</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;constant&#39;</span><span class="p">,</span>
+                                   <span class="n">constant_values</span><span class="o">=</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">background_color</span><span class="p">))[:,</span> <span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_x</span><span class="p">:]</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">int</span><span class="p">,</span> <span class="s1">&#39;Type of shift_y (</span><span class="si">{}</span><span class="s1">) should be int&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pad</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="p">((</span><span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)),</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;constant&#39;</span><span class="p">,</span>
+                                   <span class="n">constant_values</span><span class="o">=</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">background_color</span><span class="p">))[:</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span><span class="p">,</span> <span class="p">:]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">pad</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)),</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;constant&#39;</span><span class="p">,</span>
+                                   <span class="n">constant_values</span><span class="o">=</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">background_color</span><span class="p">))[</span><span class="bp">self</span><span class="o">.</span><span class="n">shift_y</span><span class="p">:,</span> <span class="p">:]</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">invert</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">invert</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">processed_image</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">fromarray</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="SRWLUtiSmp.get_image_from_data">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.get_image_from_data">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">get_image_from_data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">file_path</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">limit_value</span> <span class="o">=</span> <span class="mi">255</span>
+        <span class="c1">#Suggested by RAC(?):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="n">data</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">))</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">limit_value</span>
+        <span class="c1">#self.data = (data - data.min()) / (data.max() - data.min()) * self.limit_value</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">raw_image</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">fromarray</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">uint8</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">processed_image</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">raw_image</span></div>
+
+
+<div class="viewcode-block" id="SRWLUtiSmp.read_sample">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.read_sample">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">read_sample</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_type</span> <span class="o">==</span> <span class="s1">&#39;image&#39;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">get_data_from_image</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_type</span> <span class="o">==</span> <span class="s1">&#39;npy&#39;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">get_image_from_data</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">(</span>
+                <span class="s1">&#39;Processing of the &quot;</span><span class="si">{}</span><span class="s1">&quot; input type is not implemented yet.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">input_type</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nx</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">ny</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></div>
+
+
+<div class="viewcode-block" id="SRWLUtiSmp.save_images">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.save_images">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">save_images</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># self.raw_image.save(os.path.join(self.save_dir, self.raw_image_name))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">processed_image</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">save_dir</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">processed_image_name</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="SRWLUtiSmp.show_images">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.SRWLUtiSmp.show_images">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">show_images</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">raw_image</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">processed_image</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div>
+
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_add_prefix</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">image_format</span><span class="p">):</span>
+        <span class="n">output_name</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">_</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">prefix</span> <span class="k">else</span> <span class="n">name</span>
+        <span class="k">return</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">.</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">output_name</span><span class="p">,</span> <span class="n">image_format</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_check_files</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">file_path</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Provided file &quot;</span><span class="si">{}</span><span class="s1">&quot; does not exist.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">file_path</span><span class="p">))</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_check_input_type</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">possible_extensions</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;image&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;tif&#39;</span><span class="p">,</span> <span class="s1">&#39;tiff&#39;</span><span class="p">,</span> <span class="s1">&#39;png&#39;</span><span class="p">,</span> <span class="s1">&#39;bmp&#39;</span><span class="p">,</span> <span class="s1">&#39;gif&#39;</span><span class="p">,</span> <span class="s1">&#39;jpg&#39;</span><span class="p">,</span> <span class="s1">&#39;jpeg&#39;</span><span class="p">],</span>
+            <span class="s1">&#39;npy&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;npy&#39;</span><span class="p">],</span>
+        <span class="p">}</span>
+        <span class="n">extension</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">file_path</span><span class="p">)[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">:]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">possible_extensions</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">possible_extensions</span><span class="p">[</span><span class="n">k</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">extension</span> <span class="o">==</span> <span class="n">e</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="n">k</span>
+        <span class="n">all_extensions</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x_list</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">possible_extensions</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">x_list</span><span class="p">]</span>
+        <span class="n">all_extensions</span> <span class="o">+=</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">all_extensions</span><span class="p">]</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Incorrect extension: </span><span class="si">{}</span><span class="s1">. Possible values: </span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">extension</span><span class="p">,</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">all_extensions</span><span class="p">)))</span></div>
+
+
+
+<span class="c1"># ********************** Create transmission element from the data from an image file:</span>
+<div class="viewcode-block" id="srwl_opt_setup_transm_from_file">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.srwl_opt_setup_transm_from_file">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_opt_setup_transm_from_file</span><span class="p">(</span>
+        <span class="n">file_path</span><span class="p">,</span> <span class="n">resolution</span><span class="p">,</span> <span class="n">thickness</span><span class="p">,</span> <span class="n">delta</span><span class="p">,</span> <span class="n">atten_len</span><span class="p">,</span>
+        <span class="n">arTr</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">extTr</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">fx</span><span class="o">=</span><span class="mf">1e+23</span><span class="p">,</span> <span class="n">fy</span><span class="o">=</span><span class="mf">1e+23</span><span class="p">,</span>
+        <span class="n">xc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">yc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">ne</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">e_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">e_fin</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+        <span class="n">area</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">rotate_angle</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">rotate_reshape</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">cutoff_background_noise</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">background_color</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">tile</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">shift_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">shift_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">invert</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">is_save_images</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">prefix</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">output_image_format</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">_cutoff_max_fact</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_max_color</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span> <span class="n">_ret</span><span class="o">=</span><span class="s1">&#39;srw&#39;</span> <span class="c1">#OC28052020</span>
+<span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Setup Sample element.</span>
+
+<span class="sd">    :param file_path: path to the input file (image or .npy).</span>
+<span class="sd">    :param resolution: resolution of the image [m/pixel].</span>
+<span class="sd">    :param thickness: thickness of the sample [m].</span>
+<span class="sd">    :param delta: refractive index decrement.</span>
+<span class="sd">    :param atten_len: attenuation length [m].</span>
+<span class="sd">    :param arTr: complex C-aligned data array (of 2*ne*nx*ny length) storing amplitude transmission and optical path difference as function of transverse coordinates.</span>
+<span class="sd">    :param extTr: transmission outside the grid/mesh is zero (0), or it is same as on boundary (1).</span>
+<span class="sd">    :param fx: estimated focal length in the horizontal plane [m].</span>
+<span class="sd">    :param fy: estimated focal length in the vertical plane [m].</span>
+<span class="sd">    :param xc: horizontal coordinate of center [m].</span>
+<span class="sd">    :param yc: vertical coordinate of center [m].</span>
+<span class="sd">    :param ne: number of transmission data points vs photon energy.</span>
+<span class="sd">    :param e_start: initial photon energy [eV].</span>
+<span class="sd">    :param e_fin: final photon energy [eV].</span>
+<span class="sd">    :param area: the coordinates of the rectangle area listed in the following order: x_start, x_end, y_start, y_end.</span>
+<span class="sd">    :param rotate_angle: the angle [deg] to rotate the read image counterclockwise. See scipy.ndimage.interpolation.rotate() for details.</span>
+<span class="sd">    :param rotate_reshape: if reshape is true, the output shape is adapted so that the input array is contained completely in the output.</span>
+<span class="sd">    :param cutoff_background_noise: the ratio for cutoff the background noise (between 0 and 1).</span>
+<span class="sd">    :param background_color: the background color code to use instead of the background noise (0=black, 255=white).</span>
+<span class="sd">    :param tile: the list/tuple (rows, columns) to tile the cut area of the image. See numpy.tile() for details.</span>
+<span class="sd">    :param shift_x: shift the whole image horizontally. Positive value shifts the image to the right, negative - to the left. See numpy.pad() for details.</span>
+<span class="sd">    :param shift_y: shift the whole image vertically. Positive value shifts the image to the top, negative - to the bottom. See numpy.pad() for details.</span>
+<span class="sd">    :param invert: invert the image. See numpy.invert() for details.</span>
+<span class="sd">    :param is_save_images: a flag to save the initial and processed images.</span>
+<span class="sd">    :param prefix: the prefix to add to the names of the saved image files.</span>
+<span class="sd">    :param output_image_format: the format of the output file. If not specified, the input format is used.</span>
+<span class="sd">    :param _cutoff_max_fact: the ratio/factor for maximum signal cutoff (between 0 and 1).</span>
+<span class="sd">    :param _max_color: the maximum color code to use for signal level above the cutoff_max_fact (0=black, 255=white).</span>
+<span class="sd">    :param _ret: type of return: &#39;srw&#39; returns SRWLOptT type transmission object which simulates the Sample (default), &#39;img&#39; returns processed PIL image object, &#39;all&#39; returns both SRWLOptT object and PIL image.</span>
+<span class="sd">    :return: by default, transmission (SRWLOptT) type optical element which simulates the Sample; other options are defined by _ret variable.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">input_parms</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;sample&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;resolution&quot;</span><span class="p">:</span> <span class="n">resolution</span><span class="p">,</span>
+        <span class="s2">&quot;thickness&quot;</span><span class="p">:</span> <span class="n">thickness</span><span class="p">,</span>
+        <span class="s2">&quot;refractiveIndex&quot;</span><span class="p">:</span> <span class="n">delta</span><span class="p">,</span>
+        <span class="s2">&quot;attenuationLength&quot;</span><span class="p">:</span> <span class="n">atten_len</span><span class="p">,</span>
+        <span class="s2">&quot;horizontalCenterCoordinate&quot;</span><span class="p">:</span> <span class="n">xc</span><span class="p">,</span>
+        <span class="s2">&quot;verticalCenterCoordinate&quot;</span><span class="p">:</span> <span class="n">yc</span><span class="p">,</span>
+        <span class="s2">&quot;initialPhotonEnergy&quot;</span><span class="p">:</span> <span class="n">e_start</span><span class="p">,</span>
+        <span class="s2">&quot;finalPhotonPnergy&quot;</span><span class="p">:</span> <span class="n">e_fin</span><span class="p">,</span>
+        <span class="s1">&#39;area&#39;</span><span class="p">:</span> <span class="n">area</span><span class="p">,</span>
+        <span class="s1">&#39;rotateAngle&#39;</span><span class="p">:</span> <span class="n">rotate_angle</span><span class="p">,</span>
+        <span class="s1">&#39;rotateReshape&#39;</span><span class="p">:</span> <span class="n">rotate_reshape</span><span class="p">,</span>
+        <span class="s1">&#39;cutoffBackgroundNoise&#39;</span><span class="p">:</span> <span class="n">cutoff_background_noise</span><span class="p">,</span>
+        <span class="s1">&#39;backgroundColor&#39;</span><span class="p">:</span> <span class="n">background_color</span><span class="p">,</span>
+        <span class="s1">&#39;tile&#39;</span><span class="p">:</span> <span class="n">tile</span><span class="p">,</span>
+        <span class="s1">&#39;shiftX&#39;</span><span class="p">:</span> <span class="n">shift_x</span><span class="p">,</span>
+        <span class="s1">&#39;shiftY&#39;</span><span class="p">:</span> <span class="n">shift_y</span><span class="p">,</span>
+        <span class="s1">&#39;invert&#39;</span><span class="p">:</span> <span class="n">invert</span><span class="p">,</span>
+        <span class="s1">&#39;outputImageFormat&#39;</span><span class="p">:</span> <span class="n">output_image_format</span><span class="p">,</span>
+        <span class="s1">&#39;cutoffMaxFact&#39;</span><span class="p">:</span> <span class="n">_cutoff_max_fact</span><span class="p">,</span>
+        <span class="s1">&#39;maxColor&#39;</span><span class="p">:</span> <span class="n">_max_color</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="n">s</span> <span class="o">=</span> <span class="n">SRWLUtiSmp</span><span class="p">(</span>
+        <span class="n">file_path</span><span class="o">=</span><span class="n">file_path</span><span class="p">,</span>
+        <span class="n">area</span><span class="o">=</span><span class="n">area</span><span class="p">,</span>
+        <span class="n">rotate_angle</span><span class="o">=</span><span class="n">rotate_angle</span><span class="p">,</span>
+        <span class="n">rotate_reshape</span><span class="o">=</span><span class="n">rotate_reshape</span><span class="p">,</span>
+        <span class="n">cutoff_background_noise</span><span class="o">=</span><span class="n">cutoff_background_noise</span><span class="p">,</span>
+        <span class="n">background_color</span><span class="o">=</span><span class="n">background_color</span><span class="p">,</span>
+        <span class="n">tile</span><span class="o">=</span><span class="n">tile</span><span class="p">,</span>
+        <span class="n">shift_x</span><span class="o">=</span><span class="n">shift_x</span><span class="p">,</span>
+        <span class="n">shift_y</span><span class="o">=</span><span class="n">shift_y</span><span class="p">,</span>
+        <span class="n">invert</span><span class="o">=</span><span class="n">invert</span><span class="p">,</span>
+        <span class="n">is_show_images</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">is_save_images</span><span class="o">=</span><span class="n">is_save_images</span><span class="p">,</span>
+        <span class="n">prefix</span><span class="o">=</span><span class="n">prefix</span><span class="p">,</span>
+        <span class="n">output_image_format</span><span class="o">=</span><span class="n">output_image_format</span><span class="p">,</span>
+        <span class="n">cutoff_max_fact</span><span class="o">=</span><span class="n">_cutoff_max_fact</span><span class="p">,</span> <span class="c1">#OC29052020</span>
+        <span class="n">max_color</span><span class="o">=</span><span class="n">_max_color</span><span class="p">,</span> <span class="c1">#OC29052020</span>
+    <span class="p">)</span>
+
+    <span class="c1"># Input parameters to SRWLOptT:</span>
+    <span class="n">nx</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">nx</span> 
+    <span class="n">ny</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">ny</span>
+    <span class="c1">#print(nx, ny) #DEBUG</span>
+    
+    <span class="n">rx</span> <span class="o">=</span> <span class="n">nx</span> <span class="o">*</span> <span class="n">resolution</span>
+    <span class="n">ry</span> <span class="o">=</span> <span class="n">ny</span> <span class="o">*</span> <span class="n">resolution</span>
+
+    <span class="c1">#opT = srwlib.SRWLOptT(_nx=nx, _ny=ny, _rx=rx, _ry=ry,</span>
+    <span class="c1">#                      _arTr=arTr, _extTr=extTr, _Fx=fx, _Fy=fy,</span>
+    <span class="c1">#                      _x=xc, _y=yc, _ne=ne, _eStart=e_start, _eFin=e_fin)</span>
+
+    <span class="n">data</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">data</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;img&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="n">s</span><span class="o">.</span><span class="n">processed_image</span> <span class="c1">#OC28052020</span>
+
+    <span class="c1">#OC10112018</span>
+    <span class="n">specPropAreDef</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">((</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">delta</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">delta</span><span class="p">,</span> <span class="n">array</span><span class="p">))</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">atten_len</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">atten_len</span><span class="p">,</span> <span class="n">array</span><span class="p">))):</span>
+            <span class="n">lenDelta</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">delta</span><span class="p">)</span>
+            <span class="k">if</span><span class="p">((</span><span class="n">lenDelta</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">atten_len</span><span class="p">))</span> <span class="ow">and</span> <span class="p">(</span><span class="n">lenDelta</span> <span class="o">==</span> <span class="n">ne</span><span class="p">)):</span> <span class="n">specPropAreDef</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="k">else</span><span class="p">:</span> <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Inconsistent spectral refractive index decrement and/or attenuation length data&quot;</span><span class="p">)</span>
+
+    <span class="c1">#OC10112018</span>
+    <span class="n">useNumPy</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+        <span class="n">useNumPy</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;NumPy can not be loaded, native Python arrays / lists will be used instead, impacting performance&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">useNumPy</span><span class="p">):</span> <span class="c1">#RC161018</span>
+        
+        <span class="n">thickByLim</span> <span class="o">=</span> <span class="n">thickness</span><span class="o">/</span><span class="n">s</span><span class="o">.</span><span class="n">limit_value</span>
+        <span class="n">nxny</span> <span class="o">=</span> <span class="n">nx</span><span class="o">*</span><span class="n">ny</span>
+        <span class="n">miHalfThickByLimByAttenLen</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">miThickDeltaByLim</span> <span class="o">=</span> <span class="kc">None</span>
+
+        <span class="k">if</span><span class="p">(</span><span class="n">ne</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="n">miHalfThickByLimByAttenLen</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">thickByLim</span><span class="o">/</span><span class="n">atten_len</span>
+            <span class="n">miThickDeltaByLim</span> <span class="o">=</span> <span class="o">-</span><span class="n">thickByLim</span><span class="o">*</span><span class="n">delta</span>
+
+            <span class="c1">#amplTransm = np.exp(-0.5 * data * thickness / (s.limit_value * atten_len))</span>
+            <span class="n">amplTransm</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">miHalfThickByLimByAttenLen</span><span class="o">*</span><span class="n">data</span><span class="p">)</span>
+
+            <span class="c1">#optPathDiff =  -1 * data * thickness * delta / s.limit_value</span>
+            <span class="n">optPathDiff</span> <span class="o">=</span>  <span class="n">miThickDeltaByLim</span><span class="o">*</span><span class="n">data</span>
+
+            <span class="n">arTr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="mi">2</span><span class="o">*</span><span class="n">nxny</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+            <span class="c1">#print(len(amplTransm), len(amplTransm[0])) #DEBUG</span>
+            
+            <span class="n">arTr</span><span class="p">[</span><span class="mi">0</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">amplTransm</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span>
+            <span class="n">arTr</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">optPathDiff</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span>
+            <span class="c1">#opT.arTr = arTr</span>
+            
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">two_ne</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">ne</span>
+            <span class="n">arTr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">nxny</span><span class="o">*</span><span class="n">two_ne</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+            <span class="k">if</span><span class="p">(</span><span class="n">specPropAreDef</span> <span class="o">==</span> <span class="kc">False</span><span class="p">):</span>
+                <span class="n">miHalfThickByLimByAttenLen</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">thickByLim</span><span class="o">/</span><span class="n">atten_len</span>
+                <span class="n">miThickDeltaByLim</span> <span class="o">=</span> <span class="o">-</span><span class="n">thickByLim</span><span class="o">*</span><span class="n">delta</span>
+            
+            <span class="k">for</span> <span class="n">ie</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ne</span><span class="p">):</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">specPropAreDef</span><span class="p">):</span>
+                    <span class="n">miHalfThickByLimByAttenLen</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">thickByLim</span><span class="o">/</span><span class="n">atten_len</span><span class="p">[</span><span class="n">ie</span><span class="p">]</span>
+                    <span class="n">miThickDeltaByLim</span> <span class="o">=</span> <span class="o">-</span><span class="n">thickByLim</span><span class="o">*</span><span class="n">delta</span><span class="p">[</span><span class="n">ie</span><span class="p">]</span>
+
+                <span class="n">amplTransm</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">miHalfThickByLimByAttenLen</span><span class="o">*</span><span class="n">data</span><span class="p">)</span>
+                <span class="n">optPathDiff</span> <span class="o">=</span> <span class="n">miThickDeltaByLim</span><span class="o">*</span><span class="n">data</span>
+
+                <span class="n">two_ie</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">ie</span>
+                <span class="n">arTr</span><span class="p">[</span><span class="n">two_ie</span><span class="p">::</span><span class="n">two_ne</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">amplTransm</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span> <span class="c1">#to check!</span>
+                <span class="n">arTr</span><span class="p">[(</span><span class="n">two_ie</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)::</span><span class="n">two_ne</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">optPathDiff</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1">#Same data alignment as for wavefront: outmost loop vs y, inmost loop vs e</span>
+        <span class="n">nTot</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">ne</span><span class="o">*</span><span class="n">nx</span><span class="o">*</span><span class="n">ny</span>
+        <span class="n">arTr</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nTot</span><span class="p">)</span>
+    
+        <span class="n">offset</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">iy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ny</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nx</span><span class="p">):</span>
+                <span class="c1">#In images Y=0 corresponds from upper-left corner, in SRW it&#39;s lower-left corner:</span>
+                <span class="n">pathInBody</span> <span class="o">=</span> <span class="n">thickness</span> <span class="o">*</span> <span class="n">data</span><span class="p">[</span><span class="n">ny</span> <span class="o">-</span> <span class="n">iy</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ix</span><span class="p">]</span> <span class="o">/</span> <span class="n">s</span><span class="o">.</span><span class="n">limit_value</span>
+            
+                <span class="c1">#OC10112018</span>
+                <span class="n">miHalfPathInBody</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">pathInBody</span>
+            
+                <span class="k">if</span><span class="p">(</span><span class="n">specPropAreDef</span><span class="p">):</span>
+                    <span class="k">for</span> <span class="n">ie</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ne</span><span class="p">):</span>
+                        <span class="c1">#opT.arTr[offset] = math.exp(-0.5 * pathInBody / atten_len)  # amplitude transmission</span>
+                        <span class="c1">#opT.arTr[offset + 1] = -delta * pathInBody  # optical path difference</span>
+                        <span class="n">arTr</span><span class="p">[</span><span class="n">offset</span><span class="p">]</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">miHalfPathInBody</span> <span class="o">/</span> <span class="n">atten_len</span><span class="p">[</span><span class="n">ie</span><span class="p">])</span> <span class="c1">#amplitude transmission</span>
+                        <span class="n">arTr</span><span class="p">[</span><span class="n">offset</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">delta</span><span class="p">[</span><span class="n">ie</span><span class="p">]</span> <span class="o">*</span> <span class="n">pathInBody</span> <span class="c1">#optical path difference</span>
+                        <span class="n">offset</span> <span class="o">+=</span> <span class="mi">2</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">ie</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ne</span><span class="p">):</span>
+                        <span class="n">arTr</span><span class="p">[</span><span class="n">offset</span><span class="p">]</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">miHalfPathInBody</span> <span class="o">/</span> <span class="n">atten_len</span><span class="p">)</span> <span class="c1">#amplitude transmission</span>
+                        <span class="n">arTr</span><span class="p">[</span><span class="n">offset</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">delta</span> <span class="o">*</span> <span class="n">pathInBody</span>  <span class="c1">#optical path difference</span>
+                        <span class="n">offset</span> <span class="o">+=</span> <span class="mi">2</span>
+
+    <span class="c1">#opT = srwlib.SRWLOptT(_nx=nx, _ny=ny, _rx=rx, _ry=ry,</span>
+    <span class="n">opT</span> <span class="o">=</span> <span class="n">SRWLOptT</span><span class="p">(</span><span class="n">_nx</span><span class="o">=</span><span class="n">nx</span><span class="p">,</span> <span class="n">_ny</span><span class="o">=</span><span class="n">ny</span><span class="p">,</span> <span class="n">_rx</span><span class="o">=</span><span class="n">rx</span><span class="p">,</span> <span class="n">_ry</span><span class="o">=</span><span class="n">ry</span><span class="p">,</span> <span class="c1">#OC28012021</span>
+                   <span class="n">_arTr</span><span class="o">=</span><span class="n">arTr</span><span class="p">,</span> <span class="n">_extTr</span><span class="o">=</span><span class="n">extTr</span><span class="p">,</span> <span class="n">_Fx</span><span class="o">=</span><span class="n">fx</span><span class="p">,</span> <span class="n">_Fy</span><span class="o">=</span><span class="n">fy</span><span class="p">,</span>
+                   <span class="n">_x</span><span class="o">=</span><span class="n">xc</span><span class="p">,</span> <span class="n">_y</span><span class="o">=</span><span class="n">yc</span><span class="p">,</span> <span class="n">_ne</span><span class="o">=</span><span class="n">ne</span><span class="p">,</span> <span class="n">_eStart</span><span class="o">=</span><span class="n">e_start</span><span class="p">,</span> <span class="n">_eFin</span><span class="o">=</span><span class="n">e_fin</span><span class="p">)</span>
+
+    <span class="n">opT</span><span class="o">.</span><span class="n">input_parms</span> <span class="o">=</span> <span class="n">input_parms</span>
+
+    <span class="c1">#OC28052020</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;srw&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="n">opT</span> 
+    <span class="k">elif</span><span class="p">(</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;all&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="n">opT</span><span class="p">,</span> <span class="n">s</span><span class="o">.</span><span class="n">processed_image</span>
+    <span class="k">else</span><span class="p">:</span> <span class="k">return</span> <span class="kc">None</span></div>
+
+    <span class="c1">#return opT</span>
+
+<span class="c1"># ********************** Create transmission element from the data from a generated random 2D disk</span>
+<div class="viewcode-block" id="srwl_opt_setup_smp_rnd_obj2d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.srwl_opt_setup_smp_rnd_obj2d">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_opt_setup_smp_rnd_obj2d</span><span class="p">(</span> <span class="c1">#RAC06052020</span>
+        <span class="n">_thickness</span><span class="p">,</span> <span class="n">_delta</span><span class="p">,</span> <span class="n">_atten_len</span><span class="p">,</span> <span class="n">_rx</span> <span class="o">=</span> <span class="mf">10.e-06</span><span class="p">,</span> <span class="n">_ry</span> <span class="o">=</span> <span class="mf">10.e-06</span><span class="p">,</span> <span class="n">_xc</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_yc</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_nx</span> <span class="o">=</span> <span class="mi">1001</span><span class="p">,</span> <span class="n">_ny</span> <span class="o">=</span> <span class="mi">1001</span><span class="p">,</span>
+        <span class="n">_dens</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_edge_frac</span> <span class="o">=</span> <span class="mf">0.02</span><span class="p">,</span> <span class="n">_sim_step_size</span> <span class="o">=</span> <span class="mf">1.e-06</span><span class="p">,</span>
+        <span class="n">_obj_type</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_r_min_bw_obj</span> <span class="o">=</span> <span class="mf">0.1e-06</span><span class="p">,</span> 
+        <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="mf">0.1e-06</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="mf">0.1e-06</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> 
+        <span class="n">_ang_min</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_rand_alg</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="n">_obj_par1</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">_ext_tr</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">_e_start</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_e_fin</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_ret</span> <span class="o">=</span> <span class="s1">&#39;srw&#39;</span><span class="p">,</span> <span class="n">_seed</span> <span class="o">=</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#OC01082020</span>
+        <span class="c1">#_ext_tr = 1, _e_start = 0, _e_fin = 0, _ret = &#39;srw&#39;): #OC01062020</span>
+        <span class="c1">#_ext_tr = 1, _ne = 1, _e_start = 0, _e_fin = 0, _ret = &#39;srw&#39;): #OC24052020</span>
+        <span class="c1">#_extTr=1, _ne=1, _e_start=0, _e_fin=0, _ret=&#39;srw&#39;, _file_path=&#39;data_example_17&#39;, _file_name=&#39;ex17_res_opt_path_dif-ASCII&#39;):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Setup Transmission type Optical Element which simulates Random 2D Disk using &quot;srwl_uti_smp_rand_obj2d.py&quot; </span>
+
+<span class="sd">    :param _thickness: thickness of the sample [m]</span>
+<span class="sd">    :param _delta: refractive index decrement of sample material</span>
+<span class="sd">    :param _atten_len: attenuation lengthof sample material [m]</span>
+<span class="sd">    :param _rx: range of the horizontal coordinate [m] for which the transmission is defined</span>
+<span class="sd">    :param _ry: range of the vertical coordinate [m] for which the transmission is defined</span>
+<span class="sd">    :param _xc: horizontal coordinate of center [m]</span>
+<span class="sd">    :param _yc: vertical coordinate of center [m]</span>
+<span class="sd">    :param _nx: number of transmission data points in the horizontal direction</span>
+<span class="sd">    :param _ny: number of transmission data points in the vertical direction</span>
+<span class="sd">    :param _dens: approximate density of objects [number of objects per mm^2]</span>
+<span class="sd">    :param _edge_frac edge fraction defining how close to the edge can an object be placed on the object plane</span>
+<span class="sd">    :param _sim_step_size: step size [m] that the simulation will take before trying to place an object (not used in some cases?)</span>
+<span class="sd">    :param _obj_type: shape of objects to be generated: 1= rectangle, 2= ellipse, 3= triangle, 4= polygon, 5= random shapes</span>
+<span class="sd">    :param _r_min_bw_obj:  minimum distance [m] between the centers of any two randomly placed objects </span>
+<span class="sd">    :param _obj_size_min: minimum allowed size of objects [m]</span>
+<span class="sd">    :param _obj_size_max: maximum allowed size of objects [m]</span>
+<span class="sd">    :param _size_dist: type of distribution of object sizes: 1- uniform, 2- normal (Gaussian), 3- Flory–Schulz</span>
+<span class="sd">    :param _ang_min: minimum rotation angle of objects [degrees]</span>
+<span class="sd">    :param _ang_max: maximum rotation angle of shape [degrees]</span>
+<span class="sd">    :param _ang_dist: distribution of rotation angle. Choices are: 1=uniform, 2=normal(Gaussian), 3=Flory–Schulz</span>
+<span class="sd">    :param _rand_alg: randomization algorithm:</span>
+<span class="sd">        1=  uniform seeding (default); algorithm will create a set of objects positioned on a uniform rectangular grid,</span>
+<span class="sd">            based on density, minimum and maximum object size, and the minimum distance between objects;</span>
+<span class="sd">            it then applies random seeded noise to the point locations;</span>
+<span class="sd">        2=  2D random walk: each object will be positioned using a 2D random walk algorithm;</span>
+<span class="sd">    :param _obj_par1: optional parameter defining object shapes; its meaning depends on the choice of object type (i.e. the value of _obj_type):</span>
+<span class="sd">        if _obj_type == 1 (rectangle): it is ratio of width to length (length is the longest dimension);</span>
+<span class="sd">            leaving it as None (default) will set the width to length ratio to 1, unless _obj_par2 = True</span>
+<span class="sd">            is selected to randomize the width to length ratio;</span>
+<span class="sd">        if _obj_type == 2 (ellipse): ratio of minor to major semi-axes;</span>
+<span class="sd">            leaving value as None will set this ratio to 1, unless _obj_par2 = True</span>
+<span class="sd">            is selected to randomize the minor to major semi-axes ratio;</span>
+<span class="sd">        if _obj_type == 3 (triangle): ratio of height (y, or &quot;opposite&quot;) to width (x, or adjunct);</span>
+<span class="sd">            leaving it as None will set height to width ratio to 1 unless _obj_par2 = True</span>
+<span class="sd">            is selected to randomize the height to width ratio (default is an equilateral triangle);</span>
+<span class="sd">        if _obj_type == 4 (regular polygon): number of polygon vertices;</span>
+<span class="sd">            leaving it as None will give a hexagon (6 sides) unless _obj_par2 = True is selected</span>
+<span class="sd">            to randomize the numer of polygon vertices (max. 12);</span>
+<span class="sd">        if _obj_type == 5 (random shapes): list of identifiers of shapes to randomly generate</span>
+<span class="sd">            (1= square, 2= circle, 3= triangle, 4= hexagon, 5= any of 1-4);</span>
+<span class="sd">            leaving it as None will generate all shape options as [1,2,3,4,5]</span>
+<span class="sd">    :param _obj_par2: optional switch (True / False) defining randomization of object shapes, depending on object type (i.e. the value of _obj_type):</span>
+<span class="sd">        if _obj_type == 1 (rectangle): randomizes the width to length ratio;</span>
+<span class="sd">        if _obj_type == 2 (ellipse): randomizes the minor to major semi-axes ratio;</span>
+<span class="sd">        if _obj_type == 3 (triangle): randomizes the height (y, or &quot;opposite&quot;) to width (x, or adjunct) ratio;</span>
+<span class="sd">        if _obj_type == 4 (regular polygon): randomizes the numer of polygon vertices;</span>
+<span class="sd">    :param _extTr: transmission outside the grid/mesh is zero (0), or it is same as on boundary (1)</span>
+<span class="sd">    :param _e_start: initial value of photon energy (active if &gt; 0 and if _delta and _atten_len are arrays / lists)</span>
+<span class="sd">    :param _e_fin: final value of photon energy (active if &gt; 0 and if _delta and _atten_len are arrays / lists)</span>
+<span class="sd">    :param _ret: type of return: &#39;srw&#39; returns SRWLOptT type transmission object which simulates the Sample (default),</span>
+<span class="sd">        &#39;img&#39; returns processed PIL image object, &#39;all&#39; returns both SRWLOptT object and PIL image.</span>
+<span class="sd">    :return: by default, transmission (SRWLOptT) type optical element which simulates the Sample; other options are defined by _ret variable</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1">### All input parameters to include in return object</span>
+    <span class="n">input_parms</span> <span class="o">=</span> <span class="p">{</span> <span class="c1">#what for?</span>
+        <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;sample_rnd_obj2d&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;thickness&quot;</span><span class="p">:</span> <span class="n">_thickness</span><span class="p">,</span>
+        <span class="s2">&quot;refractiveIndex&quot;</span><span class="p">:</span> <span class="n">_delta</span><span class="p">,</span>
+        <span class="s2">&quot;attenuationLength&quot;</span><span class="p">:</span> <span class="n">_atten_len</span><span class="p">,</span>
+        <span class="s2">&quot;horizontalRange&quot;</span><span class="p">:</span> <span class="n">_rx</span><span class="p">,</span>
+        <span class="s2">&quot;verticalRange&quot;</span><span class="p">:</span> <span class="n">_ry</span><span class="p">,</span>
+        <span class="s2">&quot;horizontalCenterCoordinate&quot;</span><span class="p">:</span> <span class="n">_xc</span><span class="p">,</span>
+        <span class="s2">&quot;verticalCenterCoordinate&quot;</span><span class="p">:</span> <span class="n">_yc</span><span class="p">,</span>
+        <span class="s2">&quot;horizontalPoints&quot;</span><span class="p">:</span> <span class="n">_nx</span><span class="p">,</span>
+        <span class="s2">&quot;verticalPoints&quot;</span><span class="p">:</span> <span class="n">_ny</span><span class="p">,</span>
+        <span class="s2">&quot;density&quot;</span><span class="p">:</span> <span class="n">_dens</span><span class="p">,</span>
+        <span class="s2">&quot;edgeFraction&quot;</span><span class="p">:</span> <span class="n">_edge_frac</span><span class="p">,</span>
+        <span class="s2">&quot;simulationStepSize&quot;</span><span class="p">:</span> <span class="n">_sim_step_size</span><span class="p">,</span>
+        <span class="s2">&quot;objectType&quot;</span><span class="p">:</span> <span class="n">_obj_type</span><span class="p">,</span>
+        <span class="s2">&quot;minDistanceBetweenObjects&quot;</span><span class="p">:</span> <span class="n">_r_min_bw_obj</span><span class="p">,</span> 
+        <span class="s2">&quot;objectMinSize&quot;</span><span class="p">:</span> <span class="n">_obj_size_min</span><span class="p">,</span>
+        <span class="s2">&quot;objectMaxSize&quot;</span><span class="p">:</span> <span class="n">_obj_size_max</span><span class="p">,</span>
+        <span class="s2">&quot;sizeDistributionType&quot;</span><span class="p">:</span> <span class="n">_size_dist</span><span class="p">,</span> 
+        <span class="s2">&quot;minRotationAngle&quot;</span><span class="p">:</span> <span class="n">_ang_min</span><span class="p">,</span>
+        <span class="s2">&quot;maxRotationAngle&quot;</span><span class="p">:</span> <span class="n">_ang_max</span><span class="p">,</span>
+        <span class="s2">&quot;angleDistributionType&quot;</span><span class="p">:</span> <span class="n">_ang_dist</span><span class="p">,</span>
+        <span class="s2">&quot;randomizationAlgorithm&quot;</span><span class="p">:</span> <span class="n">_rand_alg</span><span class="p">,</span>
+        <span class="s2">&quot;objectParameter1&quot;</span><span class="p">:</span> <span class="n">_obj_par1</span><span class="p">,</span>
+        <span class="s2">&quot;objectParameter2&quot;</span><span class="p">:</span> <span class="n">_obj_par2</span><span class="p">,</span>
+        <span class="s2">&quot;externalTransmissionType&quot;</span><span class="p">:</span> <span class="n">_ext_tr</span><span class="p">,</span>
+        <span class="c1">#&quot;pointNumberPhotonEnergy&quot;: _ne, </span>
+        <span class="s2">&quot;initialPhotonEnergy&quot;</span><span class="p">:</span> <span class="n">_e_start</span><span class="p">,</span>
+        <span class="s2">&quot;finalPhotonPnergy&quot;</span><span class="p">:</span> <span class="n">_e_fin</span><span class="p">,}</span>
+
+    <span class="n">import_err_msg</span> <span class="o">=</span> <span class="s1">&#39;&quot;</span><span class="si">{}</span><span class="s1">&quot; library cannot be imported. Please install it first with &quot;pip install </span><span class="si">{}</span><span class="s1">&quot;.&#39;</span>
+
+    <span class="c1">### Load package Numpy</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="n">import_err_msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;NumPy&#39;</span><span class="p">,</span> <span class="s1">&#39;numpy&#39;</span><span class="p">))</span> <span class="c1">#OC24052020</span>
+        <span class="c1">#print(&#39;NumPy can not be loaded. You may need to install numpy. If you are using pip, you can use the following &#39; + </span>
+        <span class="c1">#      &#39;command to install it: \npip install numpy&#39;)</span>
+
+    <span class="c1">### Load package srwl_uti_smp_rand_obj2d.py</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1">#sys.path.append(os.path.join(os.path.dirname(__file__), &#39;..&#39;)) #OC24052020 (commented-out)</span>
+        <span class="kn">from</span><span class="w"> </span><span class="nn">srwl_uti_smp_rnd_obj2d</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_rnd_2D</span><span class="p">,</span> <span class="n">on_pxy</span><span class="p">,</span> <span class="n">get_r1j</span><span class="p">,</span> <span class="n">uni_rnd_seed</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;srwl_uti_smp_rnd_obj2d module failed to load. Please make sure that skimage module is installed. It can be installed with &quot;pip install scikit-image&quot; &#39;</span><span class="p">)</span> <span class="c1">#OC24052020</span>
+        <span class="c1">#print(&#39;srwl_uti_smp_rnd_obj2d.py functions get_rnd_2D, on_pxy, get_r1j, and uni_rnd_seed failed to load.&#39;)</span>
+
+    <span class="c1">### Begin time record of creating and placing objects</span>
+    <span class="c1">#t0 = time.time();</span>
+
+    <span class="c1">### Test User Input Parameters</span>
+    <span class="k">if</span> <span class="n">_obj_size_min</span> <span class="o">&gt;</span> <span class="n">_obj_size_max</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Minimum object size (_obj_size_min) is greater than maximum object size (_obj_size_max).&#39;</span><span class="p">)</span> <span class="c1">#OC24052020</span>
+        <span class="c1">#print(&#39;Minimum object size (_obj_size_min) is greater than maximum object size (_obj_size_max).&#39;)</span>
+    <span class="k">if</span> <span class="n">_ang_min</span> <span class="o">&gt;</span> <span class="n">_ang_max</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Minimum rotation angle (_ang_min) is greater than maximum rotation angle (_ang_max).&#39;</span><span class="p">)</span> <span class="c1">#OC24052020  </span>
+        <span class="c1">#print(&#39;Minimum rotation angle (_ang_min) is greater than maximum rotation angle (_ang_max).&#39; )    </span>
+
+    <span class="c1">### Generate random 2D disk with random uniform positions (that will be random-walk moved later)</span>
+      <span class="c1">#Initilize the object center positions</span>
+    <span class="n">rx_pixels</span> <span class="o">=</span> <span class="n">_nx</span> <span class="c1">#:param rx_pixels = _nx: (srwl_uti_smp_rand_obj2d.py) box size (x), namely each frame size [array size (pixels)]</span>
+    <span class="n">ry_pixels</span> <span class="o">=</span> <span class="n">_ny</span> <span class="c1">#:param ry_pixels = _ny: (srwl_uti_smp_rand_obj2d.py) box size (y), namely each frame size [array size (pixels)]</span>
+    <span class="n">num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">_dens</span> <span class="o">*</span> <span class="p">((</span><span class="n">_rx</span><span class="o">*</span><span class="mi">1000</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">_ry</span><span class="o">*</span><span class="mi">1000</span><span class="p">)))</span> <span class="c1">#:param num: (srwl_uti_smp_rand_obj2d.py) particle number.</span>
+
+    <span class="c1">### Generate random 2D disk (get_rnd_2D)</span>
+    <span class="k">if</span> <span class="n">_rand_alg</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span> <span class="c1"># 2D random walk</span>
+      <span class="c1">#Simulate a twoD random walk </span>
+      <span class="c1">#Each of the 2D points, for each step, move with random direction and with amplitue as amp </span>
+        <span class="c1">#:param px/py: numpy.meshgrid, coordination of x/y, shape will be [point number, point number]</span>
+        <span class="c1">#:param amp: float, each step move amptitde</span>
+        <span class="c1">#:param rmin: the min distance between any two points</span>
+        <span class="c1">#:param try_max: try number to acheive rmin, if can&#39;t achevie print that point</span>
+        <span class="c1">#:return: new px/py</span>
+        <span class="n">px</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span> <span class="n">_edge_frac</span><span class="p">,</span> <span class="mi">1</span><span class="o">-</span><span class="n">_edge_frac</span><span class="p">,</span> <span class="n">num</span> <span class="p">)</span> <span class="o">*</span> <span class="n">rx_pixels</span> <span class="c1">#numpy.random.uniform(low, high, size)</span>
+        <span class="n">py</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span> <span class="n">_edge_frac</span><span class="p">,</span> <span class="mi">1</span><span class="o">-</span><span class="n">_edge_frac</span><span class="p">,</span> <span class="n">num</span> <span class="p">)</span> <span class="o">*</span> <span class="n">ry_pixels</span> <span class="c1">#numpy.random.uniform(low, high, size) </span>
+        <span class="n">amp</span> <span class="o">=</span> <span class="p">(</span><span class="n">_sim_step_size</span> <span class="o">*</span> <span class="n">px</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">/</span><span class="n">_rx</span> <span class="c1">#convert simulation_step_size from units [m] to [# of cells]</span>
+        <span class="n">rmin</span> <span class="o">=</span> <span class="p">(</span><span class="n">_r_min_bw_obj</span> <span class="o">*</span> <span class="n">px</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">/</span><span class="n">_rx</span> <span class="c1">#convert minimum_obj_dist from units [m] to [# of cells]</span>
+        <span class="c1">#try:</span>
+        <span class="n">px</span><span class="p">,</span> <span class="n">py</span> <span class="o">=</span> <span class="n">get_rnd_2D</span><span class="p">(</span> <span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">amp</span> <span class="o">=</span> <span class="n">amp</span><span class="p">,</span> <span class="n">rmin</span> <span class="o">=</span> <span class="n">rmin</span><span class="p">,</span> <span class="n">try_max</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
+        <span class="c1">#print(&quot;srwl_uti_smp_rnd_obj2d returned a numpy meshgrid of &quot; + str(num) + &quot; objects ... &quot;) #OC24052020 (commented-out)</span>
+        <span class="c1">#except:</span>
+        <span class="c1">#    print(&quot;srwl_uti_smp_rnd_obj2d failed to return a numpy meshgrid&quot;)</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c1">#_rand_alg == 1 # random ~uniform seeding (default)</span>
+      <span class="c1">#Random ~uniform seeding (_rand_alg = 1 #default): Algorithm will </span>
+      <span class="c1"># create a uniform set of objects based on: density, minimum and </span>
+      <span class="c1"># maximum object size, and the minimum distance between objects. </span>
+      <span class="c1"># It then applies random seeded noise to the point locations.</span>
+        <span class="n">rmin</span> <span class="o">=</span> <span class="p">(</span><span class="n">_r_min_bw_obj</span> <span class="o">*</span> <span class="n">num</span><span class="p">)</span><span class="o">/</span><span class="n">_rx</span> <span class="c1">#convert minimum_obj_dist from units [m] to [# of cells]</span>
+        <span class="n">size_max</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">_obj_size_max</span> <span class="o">*</span> <span class="p">(((</span><span class="n">rx_pixels</span><span class="o">/</span><span class="p">(</span><span class="n">_rx</span><span class="o">*</span><span class="mi">2</span><span class="p">))</span><span class="o">+</span><span class="p">(</span><span class="n">rx_pixels</span><span class="o">/</span><span class="p">(</span><span class="n">_rx</span><span class="o">*</span><span class="mi">2</span><span class="p">)))</span><span class="o">/</span><span class="mi">2</span><span class="p">))</span>
+        <span class="c1">#try:</span>
+        <span class="n">px</span><span class="p">,</span> <span class="n">py</span> <span class="o">=</span> <span class="n">uni_rnd_seed</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">rx_pixels</span><span class="p">,</span> <span class="n">ry_pixels</span><span class="p">,</span> <span class="n">obj_max_size</span><span class="o">=</span><span class="n">size_max</span><span class="p">,</span> <span class="n">min_dist</span><span class="o">=</span><span class="n">rmin</span><span class="p">,</span> <span class="n">_seed</span><span class="o">=</span><span class="n">_seed</span><span class="p">)</span> <span class="c1">#OC01082020</span>
+        <span class="c1">#px, py = uni_rnd_seed(num, rx_pixels, ry_pixels, obj_max_size=size_max, min_dist=rmin)</span>
+        
+        <span class="c1">#print(&quot;srwl_uti_smp_rnd_obj2d returned a numpy meshgrid of &quot; + str(num) + &quot; objects ... &quot;)</span>
+        <span class="c1">#except:</span>
+        <span class="c1">#    print(&quot;srwl_uti_smp_rnd_obj2d failed to return a numpy meshgrid&quot;)</span>
+
+    <span class="c1">### Get radius of particles in units of pixels (to be used with srwl_uti_smp_rand_obj2d.py def on_pxy)</span>
+      <span class="c1">#particle radius: size[pixels] = particle_radius [m] * (((rx_pixels/(_rx [m] *2))+(rx_pixels/(_rx [m] *2)))/2)</span>
+    <span class="n">size_max</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">_obj_size_max</span> <span class="o">*</span> <span class="p">(((</span><span class="n">rx_pixels</span><span class="o">/</span><span class="p">(</span><span class="n">_rx</span><span class="o">*</span><span class="mi">2</span><span class="p">))</span><span class="o">+</span><span class="p">(</span><span class="n">rx_pixels</span><span class="o">/</span><span class="p">(</span><span class="n">_rx</span><span class="o">*</span><span class="mi">2</span><span class="p">)))</span><span class="o">/</span><span class="mi">2</span><span class="p">))</span>
+    <span class="n">size_min</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">_obj_size_min</span> <span class="o">*</span> <span class="p">(((</span><span class="n">rx_pixels</span><span class="o">/</span><span class="p">(</span><span class="n">_rx</span><span class="o">*</span><span class="mi">2</span><span class="p">))</span><span class="o">+</span><span class="p">(</span><span class="n">rx_pixels</span><span class="o">/</span><span class="p">(</span><span class="n">_rx</span><span class="o">*</span><span class="mi">2</span><span class="p">)))</span><span class="o">/</span><span class="mi">2</span><span class="p">))</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">size_min</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Particle radius too small. Try using a larger particle minimum size.&#39;</span><span class="p">)</span> <span class="c1">#OC24052020  </span>
+        <span class="c1">#print(&quot;\nParticle radius too small for \&quot;srwl_uti_smp_rnd_obj2d.py\&quot; function \&quot;on_pxy\&quot; to map onto disk.&quot; + </span>
+        <span class="c1">#      &quot; Try using a larger particle minimum size.\n&quot;)</span>
+
+    <span class="c1">### Place the shape in position (on_pxy). px, py is numpy.meshgrid, shape will be [N,N]</span>
+    <span class="c1">#try:</span>
+    <span class="n">object_plane</span> <span class="o">=</span> <span class="n">on_pxy</span><span class="p">(</span><span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">bx</span> <span class="o">=</span> <span class="n">rx_pixels</span><span class="p">,</span> <span class="n">by</span> <span class="o">=</span> <span class="n">ry_pixels</span><span class="p">,</span>
+                          <span class="n">_obj_type</span> <span class="o">=</span> <span class="n">_obj_type</span><span class="p">,</span> <span class="n">_obj_size_min</span> <span class="o">=</span> <span class="n">size_min</span><span class="p">,</span> <span class="n">_obj_size_max</span> <span class="o">=</span> <span class="n">size_max</span><span class="p">,</span> <span class="n">_size_dist</span> <span class="o">=</span> <span class="n">_size_dist</span><span class="p">,</span>
+                          <span class="n">_ang_min</span> <span class="o">=</span> <span class="n">_ang_min</span><span class="p">,</span> <span class="n">_ang_max</span> <span class="o">=</span> <span class="n">_ang_max</span><span class="p">,</span> <span class="n">_ang_dist</span> <span class="o">=</span> <span class="n">_ang_dist</span><span class="p">,</span>
+                          <span class="n">_obj_par1</span> <span class="o">=</span> <span class="n">_obj_par1</span><span class="p">,</span> <span class="n">_obj_par2</span> <span class="o">=</span> <span class="n">_obj_par2</span><span class="p">,</span> <span class="n">_seed</span> <span class="o">=</span> <span class="n">_seed</span><span class="p">)</span> <span class="c1">#OC01082020</span>
+                          <span class="c1">#_obj_par1 = _obj_par1, _obj_par2 = _obj_par2)</span>
+    <span class="c1">#print(&#39;completed (lasted&#39;, round(time.time() - t0, 6), &#39;s)&#39;)</span>
+    <span class="c1">#except:</span>
+    <span class="c1">#print(&quot;\&quot;srwl_uti_smp_rnd_obj2d.py\&quot; function \&quot;on_pxy\&quot; failed to return a numpy array. &quot; +</span>
+    <span class="c1">#      &quot;You may need to install numpy and scikit-image. If you are using pip, you can use the following command to install them: &quot; + </span>
+    <span class="c1">#      &quot;\npip install numpy scikit-image&quot;)</span>
+
+    <span class="c1">### Select output type: srw transmission object, png, jpg, or tiff</span>
+    <span class="c1">### Get data from processed array</span>
+    <span class="n">limit_value</span> <span class="o">=</span> <span class="mi">255</span>
+    <span class="c1"># processed data</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="n">object_plane</span><span class="p">,</span> <span class="n">object_plane</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">))</span> <span class="o">/</span> 
+            <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">subtract</span><span class="p">(</span><span class="n">object_plane</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="n">object_plane</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">))</span> <span class="o">*</span> <span class="n">limit_value</span><span class="p">)</span>
+
+<span class="c1">#OC24052020 (commented-out)</span>
+<span class="c1">##    #Save plot as png</span>
+<span class="c1">##    #Load package matplotlib</span>
+<span class="c1">##    if _ret == &#39;png&#39;:</span>
+<span class="c1">##        try:</span>
+<span class="c1">##            import matplotlib as mpl</span>
+<span class="c1">##        except:</span>
+<span class="c1">##            print(&#39;Matplotlib can not be loaded. You may need to install matplotlib. If you are using pip, you can use the following &#39; + </span>
+<span class="c1">##              &quot;command to install it: \npip install matplotlib&quot;)</span>
+<span class="c1">##        filename = os.path.join(os.getcwd(), _file_path, _file_name)</span>
+<span class="c1">##        return mpl.image.imsave(filename + &#39;.png&#39;, data, cmap = &#39;binary&#39;)</span>
+<span class="c1">##    </span>
+<span class="c1">##    #Save plot as jpg</span>
+<span class="c1">##    #Load package matplotlib</span>
+<span class="c1">##    elif _ret == &#39;jpg&#39;:</span>
+<span class="c1">##        try:</span>
+<span class="c1">##            import matplotlib as mpl</span>
+<span class="c1">##        except:</span>
+<span class="c1">##            print(&#39;Matplotlib can not be loaded. You may need to install matplotlib. If you are using pip, you can use the following &#39; + </span>
+<span class="c1">##              &quot;command to install it: \npip install matplotlib&quot;)</span>
+<span class="c1">##        filename = os.path.join(os.getcwd(), _file_path, _file_name)</span>
+<span class="c1">##        return mpl.image.imsave(filename + &#39;.jpg&#39;, data, cmap = &#39;binary&#39;)</span>
+<span class="c1">##    </span>
+<span class="c1">##    #Save plot as tiff</span>
+<span class="c1">##    #Load package matplotlib</span>
+<span class="c1">##    elif _ret == &#39;tiff&#39; or _ret == &#39;tif&#39;:</span>
+<span class="c1">##        try:</span>
+<span class="c1">##            import matplotlib</span>
+<span class="c1">##            matplotlib.use(&#39;Agg&#39;)</span>
+<span class="c1">##            import matplotlib.pyplot as plt</span>
+<span class="c1">##        except:</span>
+<span class="c1">##            print(&#39;Matplotlib can not be loaded. You may need to install matplotlib. If you are using pip, you can use the following &#39; + </span>
+<span class="c1">##              &quot;command to install it: \npip install matplotlib&quot;)</span>
+<span class="c1">##        filename = os.path.join(os.getcwd(), _file_path, _file_name)</span>
+<span class="c1">##</span>
+<span class="c1">##        dpi = 200 # Arbitrary. The number of pixels in the image will always be identical</span>
+<span class="c1">##        tif_height, tif_width = np.array(data.shape, dtype=float) / dpi</span>
+<span class="c1">##        fig = plt.figure(figsize=(tif_width, tif_height), dpi=dpi)</span>
+<span class="c1">##        ax = fig.add_axes([0, 0, 1, 1])</span>
+<span class="c1">##        ax.axis(&#39;off&#39;)</span>
+<span class="c1">##        ax.imshow(data, interpolation=&#39;none&#39;, cmap = &#39;binary&#39;)</span>
+<span class="c1">##        </span>
+<span class="c1">##        return fig.savefig(filename + &#39;.tif&#39;, dpi=dpi, cmap = &#39;binary&#39;)</span>
+<span class="c1">##    </span>
+<span class="c1">##    else: #_ret == &#39;srw&#39;</span>
+
+    <span class="c1">#OC24052020</span>
+    <span class="n">img</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">if</span><span class="p">((</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;img&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;all&#39;</span><span class="p">)):</span> <span class="c1">#Return of PIL image object is required</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="kn">from</span><span class="w"> </span><span class="nn">PIL</span><span class="w"> </span><span class="kn">import</span> <span class="n">Image</span>
+        <span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="n">import_err_msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;PIL&#39;</span><span class="p">,</span> <span class="s1">&#39;pillow&#39;</span><span class="p">))</span>
+
+        <span class="n">img</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">fromarray</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">uint8</span><span class="p">))</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;img&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="n">img</span>
+ 
+    <span class="c1">#elif(_ret == &#39;srw&#39; or _ret == &#39;all&#39;): #OC28052020</span>
+    <span class="c1">#elif _ret == &#39;srw&#39;:</span>
+    <span class="c1">### Create _void_cen_rad: flat array/list of void center coordinates and radii: [x1, y1, r1, x2, y2, r2,...]</span>
+    <span class="c1">#OC24052020 (commented-out)</span>
+    <span class="c1">#_void_cen_rad_X = np.ravel(px)</span>
+    <span class="c1">#_void_cen_rad_Y = np.ravel(py)</span>
+    <span class="c1">#_void_cen_rad_R = np.ones(len(_void_cen_rad_X)) * ((_obj_size_max + _obj_size_min)/2)</span>
+    <span class="c1">#_void_cen_rad = [None]*(len(_void_cen_rad_X)+len(_void_cen_rad_Y)+len(_void_cen_rad_R))</span>
+    <span class="c1">#_void_cen_rad[::3] = _void_cen_rad_X # add X coordinates (starting at postion 0 with step size 3)</span>
+    <span class="c1">#_void_cen_rad[1::3] = _void_cen_rad_Y # add Y coordinates (starting at postion 1 with step size 3)</span>
+    <span class="c1">#_void_cen_rad[2::3] = _void_cen_rad_R # add radius size (starting at postion 2 with step size 3)</span>
+
+    <span class="c1"># spectral refractive index decrement and/or attenuation length data</span>
+    <span class="n">ne</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#OC01062020</span>
+    <span class="c1">#specPropAreDef = False # is spectral propagation defined?</span>
+    <span class="c1">#if(_ne &gt; 1): # if number of transmission data points vs photon energy &gt; 1</span>
+
+    <span class="n">deltaIsArray</span> <span class="o">=</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_delta</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_delta</span><span class="p">,</span> <span class="n">array</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_delta</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">)</span> <span class="c1">#OC01062020</span>
+    <span class="n">attenLenIsArray</span> <span class="o">=</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_atten_len</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_atten_len</span><span class="p">,</span> <span class="n">array</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_atten_len</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">)</span>
+    <span class="c1">#if((isinstance(_delta, list) or isinstance(_delta, array) or isinstance(_delta, np.ndarray)) and </span>
+    <span class="c1">#   (isinstance(_atten_len, list) or isinstance(_atten_len, array) or isinstance(_atten_len, np.ndarray))):</span>
+        <span class="c1">#    lenDelta = len(_delta) # length refractive index list</span>
+        <span class="c1">#    if((lenDelta == len(_atten_len)) and (lenDelta == _ne)): specPropAreDef = True</span>
+        <span class="c1">#else: raise Exception(&quot;Inconsistent spectral refractive index decrement and/or attenuation length data&quot;)</span>
+    <span class="k">if</span> <span class="n">deltaIsArray</span> <span class="ow">and</span> <span class="n">attenLenIsArray</span><span class="p">:</span> <span class="c1">#OC01062020</span>
+        <span class="n">ne</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_delta</span><span class="p">)</span>
+        <span class="n">ne1</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_atten_len</span><span class="p">)</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="n">ne1</span><span class="p">):</span> <span class="n">ne</span> <span class="o">=</span> <span class="n">ne1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">deltaIsArray</span><span class="p">:</span>
+            <span class="n">ne</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_delta</span><span class="p">)</span>
+            <span class="n">arAttenLen</span> <span class="o">=</span> <span class="p">[</span><span class="n">_atten_len</span><span class="p">]</span><span class="o">*</span><span class="n">ne</span>
+            <span class="n">_atten_len</span> <span class="o">=</span> <span class="n">arAttenLen</span>
+        <span class="k">elif</span> <span class="n">attenLenIsArray</span><span class="p">:</span>
+            <span class="n">ne</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_atten_len</span><span class="p">)</span>
+            <span class="n">arDelta</span> <span class="o">=</span> <span class="p">[</span><span class="n">_delta</span><span class="p">]</span><span class="o">*</span><span class="n">ne</span>
+            <span class="n">_delta</span> <span class="o">=</span> <span class="n">arDelta</span>
+
+    <span class="c1"># process numpy array using physical properties such as thickness/attenuation-length/etc.</span>
+    <span class="n">thickByLim</span> <span class="o">=</span> <span class="n">_thickness</span><span class="o">/</span><span class="n">limit_value</span> <span class="c1"># thickness by limit</span>
+    <span class="n">nxny</span> <span class="o">=</span> <span class="n">_nx</span><span class="o">*</span><span class="n">_ny</span> <span class="c1"># transmission data points horizontal x vertical </span>
+    <span class="n">miHalfThickByLimByAttenLen</span> <span class="o">=</span> <span class="kc">None</span> <span class="c1"># initalize half thick limit by attenuation length</span>
+    <span class="n">miThickDeltaByLim</span> <span class="o">=</span> <span class="kc">None</span> <span class="c1"># initalize thick refractive index by limit</span>
+
+    <span class="c1">#creating arTr: (srwlib.SRWLOptT) complex C-aligned data array (of 2*ne*nx*ny length) storing amplitude </span>
+    <span class="k">if</span><span class="p">(</span><span class="n">ne</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">):</span> <span class="c1">#OC01062020 # if number of transmission data points vs photon energy &lt;= 1</span>
+    <span class="c1">#if(_ne &lt;= 1): # if number of transmission data points vs photon energy &lt;= 1</span>
+        <span class="n">miHalfThickByLimByAttenLen</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">thickByLim</span><span class="o">/</span><span class="n">_atten_len</span> <span class="c1"># (-1/2)*(thickness/limit_value)/(attenuation length)</span>
+        <span class="n">miThickDeltaByLim</span> <span class="o">=</span> <span class="o">-</span><span class="n">thickByLim</span><span class="o">*</span><span class="n">_delta</span> <span class="c1"># -(thickness/limit_value)*(refractive index)</span>
+
+        <span class="c1"># amplitude transmission data</span>
+        <span class="n">amplTransm</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">miHalfThickByLimByAttenLen</span><span class="o">*</span><span class="n">data</span><span class="p">)</span>
+        <span class="c1"># optical path difference</span>
+        <span class="n">optPathDiff</span> <span class="o">=</span>  <span class="n">miThickDeltaByLim</span><span class="o">*</span><span class="n">data</span> 
+
+        <span class="c1">#Create arTr: (srwlib.SRWLOptT) complex C-aligned data array (of 2*ne*nx*ny length) storing amplitude </span>
+        <span class="c1"># transmission and optical path difference as function of transverse coordinates</span>
+        <span class="n">arTr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="mi">2</span><span class="o">*</span><span class="n">nxny</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span> 
+        <span class="n">arTr</span><span class="p">[</span><span class="mi">0</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">amplTransm</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span>
+        <span class="n">arTr</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">optPathDiff</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span>
+
+    <span class="k">else</span><span class="p">:</span> <span class="c1"># if number of transmission data points vs photon energy &gt; 1</span>
+        <span class="c1">#two_ne = 2*_ne</span>
+        <span class="n">two_ne</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">ne</span> <span class="c1">#OC01062020</span>
+        <span class="n">arTr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">nxny</span><span class="o">*</span><span class="n">two_ne</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+        <span class="c1">#if(specPropAreDef == False):</span>
+        <span class="c1">#    miHalfThickByLimByAttenLen = -0.5*thickByLim/_atten_len# (-1/2)*(thickness/limit_value)/(attenuation length)</span>
+        <span class="c1">#    miThickDeltaByLim = -thickByLim*_delta# -(thickness/limit_value)*(refractive index)</span>
+
+        <span class="c1">#for ie in range(_ne):</span>
+        <span class="k">for</span> <span class="n">ie</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ne</span><span class="p">):</span> <span class="c1">#OC01062020</span>
+            <span class="c1">#if(specPropAreDef):</span>
+            <span class="c1">#OC01062020</span>
+            <span class="n">miHalfThickByLimByAttenLen</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">thickByLim</span><span class="o">/</span><span class="n">_atten_len</span><span class="p">[</span><span class="n">ie</span><span class="p">]</span> <span class="c1"># (-1/2)*(thickness/limit_value)/(attenuation length)[ie]</span>
+            <span class="n">miThickDeltaByLim</span> <span class="o">=</span> <span class="o">-</span><span class="n">thickByLim</span><span class="o">*</span><span class="n">_delta</span><span class="p">[</span><span class="n">ie</span><span class="p">]</span> <span class="c1"># -(thickness/limit_value)*(refractive index)[ie]</span>
+
+            <span class="c1"># amplitude transmission data</span>
+            <span class="n">amplTransm</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">miHalfThickByLimByAttenLen</span><span class="o">*</span><span class="n">data</span><span class="p">)</span>
+            <span class="c1"># optical path difference</span>
+            <span class="n">optPathDiff</span> <span class="o">=</span> <span class="n">miThickDeltaByLim</span><span class="o">*</span><span class="n">data</span>
+
+            <span class="c1">#Create arTr: (srwlib.SRWLOptT) complex C-aligned data array (of 2*ne*nx*ny length) storing amplitude transmission and optical path difference as function of transverse position</span>
+            <span class="c1"># transmission and optical path difference as function of transverse coordinates</span>
+            <span class="n">two_ie</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">ie</span>
+            <span class="n">arTr</span><span class="p">[</span><span class="n">two_ie</span><span class="p">::</span><span class="n">two_ne</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">amplTransm</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span>
+            <span class="n">arTr</span><span class="p">[(</span><span class="n">two_ie</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)::</span><span class="n">two_ne</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">optPathDiff</span><span class="p">,</span> <span class="n">nxny</span><span class="p">)</span>
+
+    <span class="c1">### Create transmission (SRWLOptT) type optical element</span>
+    <span class="c1">#opT = srwlib.SRWLOptT(_nx=_nx, _ny=_ny, _rx=_rx, _ry=_ry, _arTr=arTr, _extTr=_ext_tr, _x=_xc, _y=_yc, _ne=_ne, _eStart=_e_start, _eFin=_e_fin)</span>
+    <span class="c1">#opT = srwlib.SRWLOptT(_nx=_nx, _ny=_ny, _rx=_rx, _ry=_ry, _arTr=arTr, _extTr=_ext_tr, _x=_xc, _y=_yc, _ne=ne, _eStart=_e_start, _eFin=_e_fin) #OC01062020</span>
+    <span class="n">opT</span> <span class="o">=</span> <span class="n">SRWLOptT</span><span class="p">(</span><span class="n">_nx</span><span class="o">=</span><span class="n">_nx</span><span class="p">,</span> <span class="n">_ny</span><span class="o">=</span><span class="n">_ny</span><span class="p">,</span> <span class="n">_rx</span><span class="o">=</span><span class="n">_rx</span><span class="p">,</span> <span class="n">_ry</span><span class="o">=</span><span class="n">_ry</span><span class="p">,</span> <span class="n">_arTr</span><span class="o">=</span><span class="n">arTr</span><span class="p">,</span> <span class="n">_extTr</span><span class="o">=</span><span class="n">_ext_tr</span><span class="p">,</span> <span class="n">_x</span><span class="o">=</span><span class="n">_xc</span><span class="p">,</span> <span class="n">_y</span><span class="o">=</span><span class="n">_yc</span><span class="p">,</span> <span class="n">_ne</span><span class="o">=</span><span class="n">ne</span><span class="p">,</span> <span class="n">_eStart</span><span class="o">=</span><span class="n">_e_start</span><span class="p">,</span> <span class="n">_eFin</span><span class="o">=</span><span class="n">_e_fin</span><span class="p">)</span> <span class="c1">#OC28012021</span>
+    <span class="n">opT</span><span class="o">.</span><span class="n">input_parms</span> <span class="o">=</span> <span class="n">input_parms</span> <span class="c1"># add user input parameters to transmission optical element</span>
+
+    <span class="c1">#OC28052020</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;srw&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="n">opT</span> 
+    <span class="k">elif</span><span class="p">(</span><span class="n">_ret</span> <span class="o">==</span> <span class="s1">&#39;all&#39;</span><span class="p">):</span> <span class="k">return</span> <span class="n">opT</span><span class="p">,</span> <span class="n">img</span>
+    <span class="k">else</span><span class="p">:</span> <span class="k">return</span> <span class="kc">None</span></div>
+
+
+<span class="c1"># ********************** Create transmission element from the data from a list of object definitions:</span>
+<div class="viewcode-block" id="srwl_opt_setup_transm_from_obj3d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_smp.srwl_opt_setup_transm_from_obj3d">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_opt_setup_transm_from_obj3d</span><span class="p">(</span> <span class="c1">#OC28012021</span>
+<span class="c1">#def srwl_opt_setup_transm_from_obj2d( #HG28012021</span>
+        <span class="n">shape_defs</span><span class="p">,</span> <span class="n">delta</span><span class="p">,</span> <span class="n">atten_len</span><span class="p">,</span> <span class="n">rx</span><span class="p">,</span> <span class="n">ry</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span>
+        <span class="n">arTr</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">extTr</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">fx</span><span class="o">=</span><span class="mf">1e+23</span><span class="p">,</span> <span class="n">fy</span><span class="o">=</span><span class="mf">1e+23</span><span class="p">,</span>
+        <span class="n">xc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">yc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">ne</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">e_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">e_fin</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Setup Sample element from a list of object definitions.</span>
+<span class="sd">    :param shape_defs: list of object shape definitions.</span>
+<span class="sd">    :param delta: refractive index decrement.</span>
+<span class="sd">    :param atten_len: attenuation length [m].</span>
+<span class="sd">    :param rx: range of the horizontal coordinate [m] for which the transmission is defined</span>
+<span class="sd">    :param ry: range of the vertical coordinate [m] for which the transmission is defined</span>
+<span class="sd">    :param nx: number of transmission data points in the horizontal direction</span>
+<span class="sd">    :param ny: number of transmission data points in the vertical direction</span>
+<span class="sd">    :param arTr: complex C-aligned data array (of 2*ne*nx*ny length) storing amplitude transmission and optical path difference as function of transverse coordinates</span>
+<span class="sd">    :param extTr: transmission outside the grid/mesh is zero (0), or it is same as on boundary (1)</span>
+<span class="sd">    :param fx: estimated focal length in the horizontal plane [m]</span>
+<span class="sd">    :param fy: estimated focal length in the vertical plane [m]</span>
+<span class="sd">    :param xc: horizontal coordinate of center [m]</span>
+<span class="sd">    :param yc: vertical coordinate of center [m]</span>
+<span class="sd">    :param ne: number of transmission data points vs photon energy</span>
+<span class="sd">    :param e_start: initial photon energy [eV]</span>
+<span class="sd">    :param e_fin: final photon energy [eV].</span>
+<span class="sd">    :return: by default, transmission (SRWLOptT) type optical element which simulates the Sample</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">input_parms</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;sample&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;refractiveIndex&quot;</span><span class="p">:</span> <span class="n">delta</span><span class="p">,</span>
+        <span class="s2">&quot;attenuationLength&quot;</span><span class="p">:</span> <span class="n">atten_len</span><span class="p">,</span>
+        <span class="s2">&quot;horizontalCenterCoordinate&quot;</span><span class="p">:</span> <span class="n">xc</span><span class="p">,</span>
+        <span class="s2">&quot;verticalCenterCoordinate&quot;</span><span class="p">:</span> <span class="n">yc</span><span class="p">,</span>
+        <span class="s2">&quot;initialPhotonEnergy&quot;</span><span class="p">:</span> <span class="n">e_start</span><span class="p">,</span>
+        <span class="s2">&quot;finalPhotonPnergy&quot;</span><span class="p">:</span> <span class="n">e_fin</span><span class="p">,</span>
+        <span class="s2">&quot;horizontalRange&quot;</span><span class="p">:</span> <span class="n">rx</span><span class="p">,</span>
+        <span class="s2">&quot;verticalRange&quot;</span><span class="p">:</span> <span class="n">ry</span><span class="p">,</span>
+        <span class="s2">&quot;horizontalPoints&quot;</span><span class="p">:</span> <span class="n">nx</span><span class="p">,</span>
+        <span class="s2">&quot;verticalPoints&quot;</span><span class="p">:</span> <span class="n">ny</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="c1">#OC10112018</span>
+    <span class="c1">#specPropAreDef = False #OC13082021 (commented-out)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">((</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">delta</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">delta</span><span class="p">,</span> <span class="n">array</span><span class="p">))</span> <span class="ow">and</span> <span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">atten_len</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">atten_len</span><span class="p">,</span> <span class="n">array</span><span class="p">))):</span>
+            <span class="n">lenDelta</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">delta</span><span class="p">)</span>
+            <span class="k">if</span><span class="p">(</span><span class="ow">not</span> <span class="p">((</span><span class="n">lenDelta</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">atten_len</span><span class="p">))</span> <span class="ow">and</span> <span class="p">(</span><span class="n">lenDelta</span> <span class="o">==</span> <span class="n">ne</span><span class="p">))):</span> <span class="c1">#OC13082021</span>
+                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Inconsistent spectral refractive index decrement and/or attenuation length data&quot;</span><span class="p">)</span>
+            <span class="c1">#if((lenDelta == len(atten_len)) and (lenDelta == ne)): specPropAreDef = True</span>
+            <span class="c1">#else: raise Exception(&quot;Inconsistent spectral refractive index decrement and/or attenuation length data&quot;)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">delta</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
+        <span class="n">delta</span> <span class="o">=</span> <span class="p">[</span><span class="n">delta</span><span class="p">]</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">atten_len</span><span class="p">,</span> <span class="nb">list</span><span class="p">):</span>
+        <span class="n">atten_len</span> <span class="o">=</span> <span class="p">[</span><span class="n">atten_len</span><span class="p">]</span>
+
+    <span class="n">nTot</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">ne</span> <span class="o">*</span> <span class="n">nx</span> <span class="o">*</span> <span class="n">ny</span>
+    <span class="n">arTr</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nTot</span><span class="p">)</span>
+
+    <span class="n">opT</span> <span class="o">=</span> <span class="n">SRWLOptT</span><span class="p">(</span><span class="n">_nx</span><span class="o">=</span><span class="n">nx</span><span class="p">,</span> <span class="n">_ny</span><span class="o">=</span><span class="n">ny</span><span class="p">,</span> <span class="n">_rx</span><span class="o">=</span><span class="n">rx</span><span class="p">,</span> <span class="n">_ry</span><span class="o">=</span><span class="n">ry</span><span class="p">,</span>
+                   <span class="n">_arTr</span><span class="o">=</span><span class="n">arTr</span><span class="p">,</span> <span class="n">_extTr</span><span class="o">=</span><span class="n">extTr</span><span class="p">,</span> <span class="n">_Fx</span><span class="o">=</span><span class="n">fx</span><span class="p">,</span> <span class="n">_Fy</span><span class="o">=</span><span class="n">fy</span><span class="p">,</span>
+                   <span class="n">_x</span><span class="o">=</span><span class="n">xc</span><span class="p">,</span> <span class="n">_y</span><span class="o">=</span><span class="n">yc</span><span class="p">,</span> <span class="n">_ne</span><span class="o">=</span><span class="n">ne</span><span class="p">,</span> <span class="n">_eStart</span><span class="o">=</span><span class="n">e_start</span><span class="p">,</span> <span class="n">_eFin</span><span class="o">=</span><span class="n">e_fin</span><span class="p">)</span>
+    <span class="n">opT</span><span class="o">.</span><span class="n">input_parms</span> <span class="o">=</span> <span class="n">input_parms</span>
+    <span class="n">srwl</span><span class="o">.</span><span class="n">CalcTransm</span><span class="p">(</span><span class="n">opT</span><span class="p">,</span> <span class="n">delta</span><span class="p">,</span> <span class="n">atten_len</span><span class="p">,</span> <span class="n">shape_defs</span><span class="p">)</span> <span class="c1">#OC24082021 (changing order of delta and atten_len, to be in line with other cases of defining Transmission)</span>
+    <span class="c1">#srwl.CalcTransm(opT, atten_len, delta, shape_defs) #OC28012021</span>
+    <span class="c1">#srwl.CalcTransm(opT, atten_len, delta, shape_defs, None)</span>
+
+    <span class="c1">#DEBUG</span>
+    <span class="c1">#print(opT.arTr[3031*(2*nx) + 3378*2])</span>
+    <span class="c1">#END DEBUG</span>
+
+    <span class="k">return</span> <span class="n">opT</span></div>
+
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.SRWLIB_ExampleViewDataFile &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.SRWLIB_ExampleViewDataFile</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.SRWLIB_ExampleViewDataFile</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="c1">#############################################################################</span>
+<span class="c1"># SRWLIB Example View Data File: View data stored in a file</span>
+<span class="c1"># v 0.04</span>
+<span class="c1"># Authors: O.C., Maksim Rakitin</span>
+<span class="c1">#############################################################################</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">print_function</span> <span class="c1">#Python 2.7 compatibility</span>
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC16112022</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.uti_plot</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">uti_plot</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1">#from uti_plot import *</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">optparse</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+
+<div class="viewcode-block" id="main">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.SRWLIB_ExampleViewDataFile.main">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">():</span> <span class="c1">#HG22032024</span>
+<span class="c1">#if __name__==&#39;__main__&#39;:</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">optparse</span><span class="o">.</span><span class="n">OptionParser</span><span class="p">()</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-f&#39;</span><span class="p">,</span> <span class="s1">&#39;--infile&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;infile&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;FILE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;input file name&#39;</span><span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-e&#39;</span><span class="p">,</span> <span class="s1">&#39;--e&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;e&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;NUMBER&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;float&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;photon energy&#39;</span><span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-x&#39;</span><span class="p">,</span> <span class="s1">&#39;--x&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;x&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;NUMBER&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;float&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;horizontal position&#39;</span><span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-y&#39;</span><span class="p">,</span> <span class="s1">&#39;--y&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;NUMBER&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;float&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;vertical position&#39;</span><span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-l&#39;</span><span class="p">,</span> <span class="s1">&#39;--readlab&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;readlab&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;NUMBER&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;int&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;read labels from the file header (1) or not (0)&#39;</span><span class="p">)</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-j&#39;</span><span class="p">,</span> <span class="s1">&#39;--joined&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;joined&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;NUMBER&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s1">&#39;int&#39;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;place different graphs jointly into one figure (1) or into separate figures (0)&#39;</span><span class="p">)</span>
+    <span class="c1">#p.add_option(&#39;-t&#39;, &#39;--traj-report&#39;, dest=&#39;traj_report&#39;, metavar=&#39;NUMBER&#39;, action=&#39;store_true&#39;, default=0, help=&#39;plot trajectory report&#39;) #MR29072016</span>
+    <span class="c1">#p.add_option(&#39;-a&#39;, &#39;--traj-axis&#39;, dest=&#39;traj_axis&#39;, metavar=&#39;STR&#39;, default=&#39;x&#39;, help=&#39;trajectory coordinate (&quot;x&quot; or &quot;y&quot;)&#39;) #MR29072016</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-m&#39;</span><span class="p">,</span> <span class="s1">&#39;--multicol_data&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;multicol_data&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;NUMBER&#39;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;visualize multicolumn data&#39;</span><span class="p">)</span> <span class="c1">#OC14112017 #MR31102017</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;--m_colx&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;multicol_data_col_x&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;STR&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;column for horizontal axis&#39;</span><span class="p">)</span> <span class="c1">#OC14112017 #MR31102017</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;--m_coly&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;multicol_data_col_y&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;STR&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;column for vertical axis&#39;</span><span class="p">)</span> <span class="c1">#OC14112017 #MR31102017</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-s&#39;</span><span class="p">,</span> <span class="s1">&#39;--scale&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;scale&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;SCALE&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;scale to use in plots (linear, log, log2, log10)&#39;</span><span class="p">)</span> <span class="c1">#MR20012017</span>
+    <span class="n">p</span><span class="o">.</span><span class="n">add_option</span><span class="p">(</span><span class="s1">&#39;-w&#39;</span><span class="p">,</span> <span class="s1">&#39;--width-pixels&#39;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;width_pixels&#39;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s1">&#39;WIDTH&#39;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;desired width of pixels&#39;</span><span class="p">)</span> <span class="c1">#MR22122016</span>
+
+    <span class="n">opt</span><span class="p">,</span> <span class="n">args</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">opt</span><span class="o">.</span><span class="n">readlab</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span> <span class="n">opt</span><span class="o">.</span><span class="n">readlab</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">opt</span><span class="o">.</span><span class="n">joined</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span> <span class="n">opt</span><span class="o">.</span><span class="n">joined</span> <span class="o">=</span> <span class="mi">1</span>
+
+    <span class="c1">#if len(opt.infile) == 0:</span>
+    <span class="c1">#    print(&#39;File name was not specified. Use -f option to specify the file name with path.&#39;)</span>
+    <span class="c1">#    quit()</span>
+
+    <span class="c1">#print(opt.infile)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">opt</span><span class="o">.</span><span class="n">infile</span><span class="p">):</span> <span class="c1">#MR31102017</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;File name is not specified or is incorrect. Use -f option to specify the file name with path.&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">opt</span><span class="o">.</span><span class="n">multicol_data</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="n">opt</span><span class="o">.</span><span class="n">multicol_data_col_x</span> <span class="ow">and</span> <span class="n">opt</span><span class="o">.</span><span class="n">multicol_data_col_y</span><span class="p">):</span> <span class="c1">#OC14112017 #MR31102017</span>
+        <span class="n">p</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s1">&#39;Specify columns for horizontal (--m_colx) and vertical (--m_coly) axes for multicolumn data plot.&#39;</span><span class="p">)</span>
+
+    <span class="c1">#print(opt.joined)</span>
+    <span class="n">uti_plot_init</span><span class="p">(</span><span class="s1">&#39;TkAgg&#39;</span><span class="p">)</span>
+    <span class="c1">#uti_data_file_plot(opt.infile, opt.readlab, opt.e, opt.x, opt.y, opt.joined)</span>
+    <span class="c1">#uti_data_file_plot(opt.infile, opt.readlab, opt.e, opt.x, opt.y, opt.joined, opt.traj_report, opt.traj_axis) #MR29072016</span>
+    <span class="c1">#uti_data_file_plot(opt.infile, opt.readlab, opt.e, opt.x, opt.y, opt.joined, opt.traj_report, opt.traj_axis, opt.log_scale, opt.width_pixels) #MR22122016</span>
+    <span class="c1">#uti_data_file_plot(opt.infile, opt.readlab, opt.e, opt.x, opt.y, opt.joined, opt.traj_report, opt.traj_axis, opt.scale, opt.width_pixels) #MR29072016</span>
+    <span class="n">uti_plot_data_file</span><span class="p">(</span><span class="n">opt</span><span class="o">.</span><span class="n">infile</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">readlab</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">e</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">y</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">joined</span><span class="p">,</span>
+                       <span class="n">opt</span><span class="o">.</span><span class="n">multicol_data</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">multicol_data_col_x</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">multicol_data_col_y</span><span class="p">,</span> <span class="c1">#OC14112017 #MR31102017</span>
+                       <span class="n">opt</span><span class="o">.</span><span class="n">scale</span><span class="p">,</span> <span class="n">opt</span><span class="o">.</span><span class="n">width_pixels</span><span class="p">)</span>
+    <span class="n">uti_plot_show</span><span class="p">()</span></div>
+
+
+<span class="k">if</span> <span class="vm">__name__</span><span class="o">==</span><span class="s1">&#39;__main__&#39;</span><span class="p">:</span> <span class="c1">#HG22032024</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

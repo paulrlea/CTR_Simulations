@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_moments_ratios" kind="struct" language="C++" prot="public">
+    <compoundname>srTMomentsRatios</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1a63779299429e077253c9ca8f65f84ee4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RxxMomX</definition>
+        <argsstring></argsstring>
+        <name>RxxMomX</name>
+        <qualifiedname>srTMomentsRatios::RxxMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="420" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1a5b21cb8decae8a04becea03f05e1073b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RxpxpMomX</definition>
+        <argsstring></argsstring>
+        <name>RxpxpMomX</name>
+        <qualifiedname>srTMomentsRatios::RxpxpMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="420" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1ab0657e26445c175710d6b3d963ff31ad" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RzzMomX</definition>
+        <argsstring></argsstring>
+        <name>RzzMomX</name>
+        <qualifiedname>srTMomentsRatios::RzzMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="420" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1a78328034eb634766ee934b414cfaaf0c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RzpzpMomX</definition>
+        <argsstring></argsstring>
+        <name>RzpzpMomX</name>
+        <qualifiedname>srTMomentsRatios::RzpzpMomX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="420" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1adc9051862f543a1b79dbfbd3eb34f5e2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RxxMomZ</definition>
+        <argsstring></argsstring>
+        <name>RxxMomZ</name>
+        <qualifiedname>srTMomentsRatios::RxxMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="421" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1ada86f8d9df37bf9e8e993c621695fe1d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RxpxpMomZ</definition>
+        <argsstring></argsstring>
+        <name>RxpxpMomZ</name>
+        <qualifiedname>srTMomentsRatios::RxpxpMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="421" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1a0f1022f4cce4c0a60247a95ad0fa190c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RzzMomZ</definition>
+        <argsstring></argsstring>
+        <name>RzzMomZ</name>
+        <qualifiedname>srTMomentsRatios::RzzMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="421" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_ratios_1accb2450bbdc6d766a72b9bf2a5a5cc19" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsRatios::RzpzpMomZ</definition>
+        <argsstring></argsstring>
+        <name>RzpzpMomZ</name>
+        <qualifiedname>srTMomentsRatios::RzpzpMomZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="421" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_moments_ratios_1a31f15570a108bf32b2b5a4a94725a6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMomentsRatios::GiveMaxRatios</definition>
+        <argsstring>(double &amp;RxxMax, double &amp;RxpxpMax, double &amp;RzzMax, double &amp;RzpzpMax)</argsstring>
+        <name>GiveMaxRatios</name>
+        <qualifiedname>srTMomentsRatios::GiveMaxRatios</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>RxxMax</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>RxpxpMax</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>RzzMax</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>RzpzpMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="423" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="423" bodyend="429"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="417" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="417" bodyend="430"/>
+    <listofallmembers>
+      <member refid="structsr_t_moments_ratios_1a31f15570a108bf32b2b5a4a94725a6c2" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>GiveMaxRatios</name></member>
+      <member refid="structsr_t_moments_ratios_1a5b21cb8decae8a04becea03f05e1073b" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RxpxpMomX</name></member>
+      <member refid="structsr_t_moments_ratios_1ada86f8d9df37bf9e8e993c621695fe1d" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RxpxpMomZ</name></member>
+      <member refid="structsr_t_moments_ratios_1a63779299429e077253c9ca8f65f84ee4" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RxxMomX</name></member>
+      <member refid="structsr_t_moments_ratios_1adc9051862f543a1b79dbfbd3eb34f5e2" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RxxMomZ</name></member>
+      <member refid="structsr_t_moments_ratios_1a78328034eb634766ee934b414cfaaf0c" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RzpzpMomX</name></member>
+      <member refid="structsr_t_moments_ratios_1accb2450bbdc6d766a72b9bf2a5a5cc19" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RzpzpMomZ</name></member>
+      <member refid="structsr_t_moments_ratios_1ab0657e26445c175710d6b3d963ff31ad" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RzzMomX</name></member>
+      <member refid="structsr_t_moments_ratios_1a0f1022f4cce4c0a60247a95ad0fa190c" prot="public" virt="non-virtual"><scope>srTMomentsRatios</scope><name>RzzMomZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

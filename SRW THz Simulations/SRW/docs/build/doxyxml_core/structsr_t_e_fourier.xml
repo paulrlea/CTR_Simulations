@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_e_fourier" kind="struct" language="C++" prot="public">
+    <compoundname>srTEFourier</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_e_fourier_1a6f2674836b36db773b25aa479511d59d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEFourier::EwX_Re</definition>
+        <argsstring></argsstring>
+        <name>EwX_Re</name>
+        <qualifiedname>srTEFourier::EwX_Re</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="85" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_fourier_1a640aeb196fba507ed3b849f92acb57b2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEFourier::EwX_Im</definition>
+        <argsstring></argsstring>
+        <name>EwX_Im</name>
+        <qualifiedname>srTEFourier::EwX_Im</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="85" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_fourier_1a3cf56f5b76a7885962185673cdd76f96" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEFourier::EwZ_Re</definition>
+        <argsstring></argsstring>
+        <name>EwZ_Re</name>
+        <qualifiedname>srTEFourier::EwZ_Re</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="85" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_fourier_1ace41941dae39e81792a0f45fb2442693" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEFourier::EwZ_Im</definition>
+        <argsstring></argsstring>
+        <name>EwZ_Im</name>
+        <qualifiedname>srTEFourier::EwZ_Im</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="85" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_e_fourier_1aefec782eed29884152f29752fe961e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEFourier::srTEFourier</definition>
+        <argsstring>(double InEwX_Re=0., double InEwX_Im=0., double InEwZ_Re=0., double InEwZ_Im=0.)</argsstring>
+        <name>srTEFourier</name>
+        <qualifiedname>srTEFourier::srTEFourier</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>InEwX_Re</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InEwX_Im</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InEwZ_Re</declname>
+          <defval>0.</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InEwZ_Im</declname>
+          <defval>0.</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="86" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_e_fourier_1ade38fb06d923157499ef86f2bd62545f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEFourier::ZeroAll</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroAll</name>
+        <qualifiedname>srTEFourier::ZeroAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="91" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_e_fourier_1a287246f9ef467211efae5192c4af6539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+        <definition>srTEFourier &amp; srTEFourier::operator+=</definition>
+        <argsstring>(const srTEFourier &amp;AnotherE)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>srTEFourier::operator+=</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>AnotherE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="96" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="96" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_e_fourier_1a5809d6beb27b114e866f629b9e37ffda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+        <definition>srTEFourier &amp; srTEFourier::operator*=</definition>
+        <argsstring>(const double D)</argsstring>
+        <name>operator*=</name>
+        <qualifiedname>srTEFourier::operator*=</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="101" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="101" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structsr_t_e_fourier_1a77242baafc6856cfd516799de0d6b430" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier operator+</definition>
+        <argsstring>(const srTEFourier &amp;E1, const srTEFourier &amp;E2)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>srTEFourier::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="107" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_e_fourier_1a2ff458e767b787348637c634e98a7a94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier operator-</definition>
+        <argsstring>(const srTEFourier &amp;E1, const srTEFourier &amp;E2)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>srTEFourier::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="108" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_e_fourier_1aff5ae1f73ab1c287fca55e9d9ba9297f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier operator*</definition>
+        <argsstring>(const double d, const srTEFourier &amp;E1)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>srTEFourier::operator*</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>E1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="109" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_e_fourier_1a53056efaabe283f54ee5108d930c80f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int operator&lt;</definition>
+        <argsstring>(const srTEFourier &amp;P1, const srTEFourier &amp;P2)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>srTEFourier::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>P1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>P2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="110" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="friend" id="structsr_t_e_fourier_1ac574fcbc5219ce8596b4926135954f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int operator==</definition>
+        <argsstring>(const srTEFourier &amp;P1, const srTEFourier &amp;P2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>srTEFourier::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>P1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref> &amp;</type>
+          <declname>P2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="111" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="131" bodyend="134"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="84" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="84" bodyend="112"/>
+    <listofallmembers>
+      <member refid="structsr_t_e_fourier_1a640aeb196fba507ed3b849f92acb57b2" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>EwX_Im</name></member>
+      <member refid="structsr_t_e_fourier_1a6f2674836b36db773b25aa479511d59d" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>EwX_Re</name></member>
+      <member refid="structsr_t_e_fourier_1ace41941dae39e81792a0f45fb2442693" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>EwZ_Im</name></member>
+      <member refid="structsr_t_e_fourier_1a3cf56f5b76a7885962185673cdd76f96" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>EwZ_Re</name></member>
+      <member refid="structsr_t_e_fourier_1aff5ae1f73ab1c287fca55e9d9ba9297f" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>operator*</name></member>
+      <member refid="structsr_t_e_fourier_1a5809d6beb27b114e866f629b9e37ffda" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>operator*=</name></member>
+      <member refid="structsr_t_e_fourier_1a77242baafc6856cfd516799de0d6b430" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>operator+</name></member>
+      <member refid="structsr_t_e_fourier_1a287246f9ef467211efae5192c4af6539" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>operator+=</name></member>
+      <member refid="structsr_t_e_fourier_1a2ff458e767b787348637c634e98a7a94" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>operator-</name></member>
+      <member refid="structsr_t_e_fourier_1a53056efaabe283f54ee5108d930c80f2" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>operator&lt;</name></member>
+      <member refid="structsr_t_e_fourier_1ac574fcbc5219ce8596b4926135954f2a" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>operator==</name></member>
+      <member refid="structsr_t_e_fourier_1aefec782eed29884152f29752fe961e9d" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>srTEFourier</name></member>
+      <member refid="structsr_t_e_fourier_1ade38fb06d923157499ef86f2bd62545f" prot="public" virt="non-virtual"><scope>srTEFourier</scope><name>ZeroAll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

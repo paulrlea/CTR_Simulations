@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_field_constant" kind="class" language="C++" prot="public">
+    <compoundname>srTMagFieldConstant</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <includes refid="srctrjdt_8h" local="no">srctrjdt.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_field_constant_1ae538ef35468efd1575367baaaf8bdde1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldConstant::Bx</definition>
+        <argsstring></argsstring>
+        <name>Bx</name>
+        <qualifiedname>srTMagFieldConstant::Bx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="24" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_constant_1a988b87fc7541544e935e27d962eb7c86" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldConstant::Bz</definition>
+        <argsstring></argsstring>
+        <name>Bz</name>
+        <qualifiedname>srTMagFieldConstant::Bz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="24" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_field_constant_1a8e5ffc81956e59caaaaa3d2753256d54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFieldConstant::srTMagFieldConstant</definition>
+        <argsstring>(double InBx, double InBz)</argsstring>
+        <name>srTMagFieldConstant</name>
+        <qualifiedname>srTMagFieldConstant::srTMagFieldConstant</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>InBx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InBz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="26" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_constant_1a6ff3da1d13afe46243b8fc2751e97714" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFieldConstant::srTMagFieldConstant</definition>
+        <argsstring>()</argsstring>
+        <name>srTMagFieldConstant</name>
+        <qualifiedname>srTMagFieldConstant::srTMagFieldConstant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="30" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_constant_1acfbc5c76d8f8a3694d1d120d25524d5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFieldConstant::AnalyzeFieldSymmetry</definition>
+        <argsstring>(char &amp;FieldIsSymOverX, char &amp;FieldIsSymOverZ)</argsstring>
+        <name>AnalyzeFieldSymmetry</name>
+        <qualifiedname>srTMagFieldConstant::AnalyzeFieldSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>FieldIsSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FieldIsSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="32" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="32" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_constant_1ac1817606cd9052635935356420eceb66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref> *</type>
+        <definition>srTGenTrjDat * srTMagFieldConstant::CreateAndSetupNewTrjDat</definition>
+        <argsstring>(srTEbmDat *)</argsstring>
+        <name>CreateAndSetupNewTrjDat</name>
+        <qualifiedname>srTMagFieldConstant::CreateAndSetupNewTrjDat</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257">CreateAndSetupNewTrjDat</reimplements>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <defname>pEbmDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="46" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.cpp" bodystart="183" bodyend="190"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srctrjdt_8h_source" kindref="compound">srctrjdt.h</ref> Description: Electron trajectory calculation, constant magnetic field case (header) Project: Synchrotron Radiation Workshop First release: 1998. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFieldConstant</label>
+        <link refid="classsr_t_mag_field_constant"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFieldConstant</label>
+        <link refid="classsr_t_mag_field_constant"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" line="22" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h" bodystart="22" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classsr_t_mag_field_constant_1acfbc5c76d8f8a3694d1d120d25524d5e" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>AnalyzeFieldSymmetry</name></member>
+      <member refid="classsr_t_mag_field_constant_1ae538ef35468efd1575367baaaf8bdde1" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>Bx</name></member>
+      <member refid="classsr_t_mag_field_constant_1a988b87fc7541544e935e27d962eb7c86" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>Bz</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e" prot="public" virt="virtual"><scope>srTMagFieldConstant</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5" prot="public" virt="virtual"><scope>srTMagFieldConstant</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447" prot="public" virt="virtual"><scope>srTMagFieldConstant</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_field_constant_1ac1817606cd9052635935356420eceb66" prot="public" virt="virtual"><scope>srTMagFieldConstant</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52" prot="public" virt="virtual"><scope>srTMagFieldConstant</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0" prot="public" virt="virtual"><scope>srTMagFieldConstant</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_field_constant_1a8e5ffc81956e59caaaaa3d2753256d54" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>srTMagFieldConstant</name></member>
+      <member refid="classsr_t_mag_field_constant_1a6ff3da1d13afe46243b8fc2751e97714" prot="public" virt="non-virtual"><scope>srTMagFieldConstant</scope><name>srTMagFieldConstant</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagFieldConstant</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

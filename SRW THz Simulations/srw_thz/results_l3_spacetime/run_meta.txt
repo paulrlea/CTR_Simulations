@@ -1,0 +1,13 @@
+src=ctr  model=level3 (space-time)
+beam_energy_MeV=60.0
+bunch_charge_nC=10.0
+sigma_t_ps=2.0
+screen_tilt_deg=30.0
+crystal_pol_axis_deg=0.0
+window_mode=slab
+mirror_enabled=True
+mirror2_enabled=True
+n_freq=161/161  f=10.0-400.0 GHz
+cube_npix=201  half_extent_m=0.035
+dt_ps=1.251  n_time=328  pulse_peak_ps=389.0  win_ps=110.0
+detector_z_m=1.6000

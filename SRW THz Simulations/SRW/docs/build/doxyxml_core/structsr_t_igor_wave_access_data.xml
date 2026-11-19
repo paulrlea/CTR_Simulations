@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_igor_wave_access_data" kind="struct" language="C++" prot="public">
+    <compoundname>srTIgorWaveAccessData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1a9faed94de47a729de63d46dd87587d0a" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* srTIgorWaveAccessData::pWaveData</definition>
+        <argsstring></argsstring>
+        <name>pWaveData</name>
+        <qualifiedname>srTIgorWaveAccessData::pWaveData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="188" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1aba2e7c1cdf55ce6252c14816d87d482d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTIgorWaveAccessData::WaveType[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>WaveType</name>
+        <qualifiedname>srTIgorWaveAccessData::WaveType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="189" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1aecb2926f3df55606c547b5a79a3ebacf" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTIgorWaveAccessData::AmOfDims</definition>
+        <argsstring></argsstring>
+        <name>AmOfDims</name>
+        <qualifiedname>srTIgorWaveAccessData::AmOfDims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="190" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1a17cb11de6d4363221de1c65bbf552c51" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTIgorWaveAccessData::DimSizes[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>DimSizes</name>
+        <qualifiedname>srTIgorWaveAccessData::DimSizes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="192" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1afba07d3d7357ee1b0bc9f9c82ce5a7f3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIgorWaveAccessData::DimStartValues[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>DimStartValues</name>
+        <qualifiedname>srTIgorWaveAccessData::DimStartValues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="193" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1a12af1d58cfea66b61474c72b9b8a0077" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTIgorWaveAccessData::DimSteps[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>DimSteps</name>
+        <qualifiedname>srTIgorWaveAccessData::DimSteps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="194" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1ac3f4b61b1ab7f0efde7f3f77b16ee9ed" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTIgorWaveAccessData::DimUnits[10][255]</definition>
+        <argsstring>[10][255]</argsstring>
+        <name>DimUnits</name>
+        <qualifiedname>srTIgorWaveAccessData::DimUnits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="195" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1a5090ab815351b439f1d9328a3200bbd2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTIgorWaveAccessData::DataUnits[255]</definition>
+        <argsstring>[255]</argsstring>
+        <name>DataUnits</name>
+        <qualifiedname>srTIgorWaveAccessData::DataUnits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="196" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1ad76982ed07754c1200a6e7c8d1ed65d5" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTIgorWaveAccessData::wHndl</definition>
+        <argsstring></argsstring>
+        <name>wHndl</name>
+        <qualifiedname>srTIgorWaveAccessData::wHndl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="198" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1a5753f6fce5e2adea541733db1cbcc505" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTIgorWaveAccessData::hState</definition>
+        <argsstring></argsstring>
+        <name>hState</name>
+        <qualifiedname>srTIgorWaveAccessData::hState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="199" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_igor_wave_access_data_1afb720daf15b62fc4c92dbf76e8c2d2e8" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTIgorWaveAccessData::NameOfWave[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>NameOfWave</name>
+        <qualifiedname>srTIgorWaveAccessData::NameOfWave</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="201" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_igor_wave_access_data_1aa00e3e2b9dec0304f3f38f515719ed48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTIgorWaveAccessData::srTIgorWaveAccessData</definition>
+        <argsstring>()</argsstring>
+        <name>srTIgorWaveAccessData</name>
+        <qualifiedname>srTIgorWaveAccessData::srTIgorWaveAccessData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="203" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="203" bodyend="217"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" line="187" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradind.h" bodystart="187" bodyend="218"/>
+    <listofallmembers>
+      <member refid="structsr_t_igor_wave_access_data_1aecb2926f3df55606c547b5a79a3ebacf" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>AmOfDims</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1a5090ab815351b439f1d9328a3200bbd2" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>DataUnits</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1a17cb11de6d4363221de1c65bbf552c51" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>DimSizes</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1afba07d3d7357ee1b0bc9f9c82ce5a7f3" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>DimStartValues</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1a12af1d58cfea66b61474c72b9b8a0077" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>DimSteps</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1ac3f4b61b1ab7f0efde7f3f77b16ee9ed" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>DimUnits</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1a5753f6fce5e2adea541733db1cbcc505" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>hState</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1afb720daf15b62fc4c92dbf76e8c2d2e8" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>NameOfWave</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1a9faed94de47a729de63d46dd87587d0a" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>pWaveData</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1aa00e3e2b9dec0304f3f38f515719ed48" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>srTIgorWaveAccessData</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1aba2e7c1cdf55ce6252c14816d87d482d" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>WaveType</name></member>
+      <member refid="structsr_t_igor_wave_access_data_1ad76982ed07754c1200a6e7c8d1ed65d5" prot="public" virt="non-virtual"><scope>srTIgorWaveAccessData</scope><name>wHndl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

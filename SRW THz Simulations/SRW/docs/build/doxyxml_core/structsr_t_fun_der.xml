@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_fun_der" kind="struct" language="C++" prot="public">
+    <compoundname>srTFunDer</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_fun_der_1ad56606983af8f5967d5ca26f59a660ec" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFunDer::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <qualifiedname>srTFunDer::f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="43" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_fun_der_1a4c387ad87adfa5b331136424baf8b465" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFunDer::dfds</definition>
+        <argsstring></argsstring>
+        <name>dfds</name>
+        <qualifiedname>srTFunDer::dfds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="43" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_fun_der_1acde21df1683a0048eadd0c8cd7d5e540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTFunDer::srTFunDer</definition>
+        <argsstring>(double f_In=0, double dfds_In=0)</argsstring>
+        <name>srTFunDer</name>
+        <qualifiedname>srTFunDer::srTFunDer</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>f_In</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dfds_In</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="44" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="42" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="42" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structsr_t_fun_der_1a4c387ad87adfa5b331136424baf8b465" prot="public" virt="non-virtual"><scope>srTFunDer</scope><name>dfds</name></member>
+      <member refid="structsr_t_fun_der_1ad56606983af8f5967d5ca26f59a660ec" prot="public" virt="non-virtual"><scope>srTFunDer</scope><name>f</name></member>
+      <member refid="structsr_t_fun_der_1acde21df1683a0048eadd0c8cd7d5e540" prot="public" virt="non-virtual"><scope>srTFunDer</scope><name>srTFunDer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

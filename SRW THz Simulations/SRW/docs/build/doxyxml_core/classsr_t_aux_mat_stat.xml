@@ -1,0 +1,828 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_aux_mat_stat" kind="class" language="C++" prot="public">
+    <compoundname>srTAuxMatStat</compoundname>
+    <includes refid="srmatsta_8h" local="no">srmatsta.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a5289ebbdf73345f4123b93065dd61007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxMatStat::FindSimplestStat</definition>
+        <argsstring>(srTWaveAccessData &amp;InWaveData, srTWaveAccessData &amp;OutSpotInfo, double *arPar=0, int nPar=0)</argsstring>
+        <name>FindSimplestStat</name>
+        <qualifiedname>srTAuxMatStat::FindSimplestStat</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>InWaveData</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>OutSpotInfo</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPar</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>File: srmatsta.cpp Description: Basic statistical characteristics of intensity distributions Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>0.06 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="40" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="19" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a1971cca6f7ffb06d825026a1c86bf572" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxMatStat::ValidateSpotData</definition>
+        <argsstring>(srTWaveAccessData &amp;InWaveData)</argsstring>
+        <name>ValidateSpotData</name>
+        <qualifiedname>srTAuxMatStat::ValidateSpotData</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>InWaveData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="46" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="340" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a9c649220a20009e9a3b47a536c10be86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxMatStat::FindIntensityLimits</definition>
+        <argsstring>(srTWaveAccessData &amp;InWaveData, double PowLevel, srTWaveAccessData &amp;OutSpotInfoData)</argsstring>
+        <name>FindIntensityLimits</name>
+        <qualifiedname>srTAuxMatStat::FindIntensityLimits</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>InWaveData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>PowLevel</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>OutSpotInfoData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="50" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="192" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a7bf01810b909aab2d4c1c65c56b7d8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxMatStat::FindIntensityLimits1D</definition>
+        <argsstring>(srTWaveAccessData &amp;InWaveData, double RelPowLevel, srTWaveAccessData &amp;OutSpotInfo)</argsstring>
+        <name>FindIntensityLimits1D</name>
+        <qualifiedname>srTAuxMatStat::FindIntensityLimits1D</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>InWaveData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>RelPowLevel</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>OutSpotInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="51" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="371" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1add474fc5affbb850d20fcca00690d6c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxMatStat::FindIntensityLimits2D</definition>
+        <argsstring>(srTWaveAccessData &amp;InWaveData, double RelPowLevel, srTWaveAccessData &amp;OutSpotInfo)</argsstring>
+        <name>FindIntensityLimits2D</name>
+        <qualifiedname>srTAuxMatStat::FindIntensityLimits2D</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>InWaveData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>RelPowLevel</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>OutSpotInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="52" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="452" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a8d51a2605b100334c65a00cdf0cc3596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxMatStat::FindIntensityLimitsInds</definition>
+        <argsstring>(CHGenObj &amp;, int ie, double RelPow, int *IndLims, void *pvGPU=0)</argsstring>
+        <name>FindIntensityLimitsInds</name>
+        <qualifiedname>srTAuxMatStat::FindIntensityLimitsInds</qualifiedname>
+        <param>
+          <type>CHGenObj &amp;</type>
+          <defname>hRad</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ie</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>RelPow</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>IndLims</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="55" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="573" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a070cb00b2de8053f8f238c6ea5c6d930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTAuxMatStat::IntegrateSimple</definition>
+        <argsstring>(srTWaveAccessData &amp;InWaveData)</argsstring>
+        <name>IntegrateSimple</name>
+        <qualifiedname>srTAuxMatStat::IntegrateSimple</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>InWaveData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="69" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="350" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a2a2d5cecee5789cacd1964c128f835e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>long long</type>
+        <definition>long long srTAuxMatStat::FindLimit1DLeft</definition>
+        <argsstring>(T *p0, long long n, double IntToStop)</argsstring>
+        <name>FindLimit1DLeft</name>
+        <qualifiedname>srTAuxMatStat::FindLimit1DLeft</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>IntToStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="73" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="400" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a908421b942392432c0256cd7ec5d2cb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>long long</type>
+        <definition>long long srTAuxMatStat::FindLimit1DRight</definition>
+        <argsstring>(T *p0, long long n, double IntToStop)</argsstring>
+        <name>FindLimit1DRight</name>
+        <qualifiedname>srTAuxMatStat::FindLimit1DRight</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>IntToStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="74" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="426" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a072ab166f0bf32d3512f8a16ab99a379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int srTAuxMatStat::IntegrateOverX</definition>
+        <argsstring>(T *p0, long long ixStart, long long ixEnd, double xStep, long long Nx, long long Ny, double *AuxArrIntOverX)</argsstring>
+        <name>IntegrateOverX</name>
+        <qualifiedname>srTAuxMatStat::IntegrateOverX</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ixStart</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ixEnd</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xStep</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Nx</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Ny</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>AuxArrIntOverX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="77" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="534" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1af9a8a0678b4ef31a241c12213eb2e1ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int srTAuxMatStat::IntegrateOverY</definition>
+        <argsstring>(T *p0, long long iyStart, long long iyEnd, double yStep, long long Nx, double *AuxArrIntOverY)</argsstring>
+        <name>IntegrateOverY</name>
+        <qualifiedname>srTAuxMatStat::IntegrateOverY</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iyStart</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iyEnd</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yStep</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Nx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>AuxArrIntOverY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="78" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.cpp" bodystart="552" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1ab048b57cb040b4ac234ab81e0e971595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FindIndHalfMaxLeftRightFromPeak1D</definition>
+        <argsstring>(T *ar, long long lenArr, double halfMaxVal, long long iMax, long long &amp;iHalfMaxLeft, long long &amp;iHalfMaxRight)</argsstring>
+        <name>FindIndHalfMaxLeftRightFromPeak1D</name>
+        <qualifiedname>srTAuxMatStat::FindIndHalfMaxLeftRightFromPeak1D</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>lenArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>halfMaxVal</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iMax</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>iHalfMaxLeft</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>iHalfMaxRight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="80" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="80" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1aa83c51c5fc978f0daa5e8502ff14f552" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FindIndHalfMaxLeftRight1D</definition>
+        <argsstring>(T *p0, long long lenArr, double halfMaxVal, long long &amp;iHalfMaxLeft, long long &amp;iHalfMaxRight)</argsstring>
+        <name>FindIndHalfMaxLeftRight1D</name>
+        <qualifiedname>srTAuxMatStat::FindIndHalfMaxLeftRight1D</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>lenArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>halfMaxVal</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>iHalfMaxLeft</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>iHalfMaxRight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="100" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="100" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a537b19dbabbb27e5fd93061a724c9182" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FindMax1D</definition>
+        <argsstring>(T *p0, long long lenArr, double &amp;maxVal, long long &amp;iMax, long long per=1)</argsstring>
+        <name>FindMax1D</name>
+        <qualifiedname>srTAuxMatStat::FindMax1D</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>lenArr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>maxVal</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>iMax</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>per</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="120" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="120" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a9f690364587f7ef41ba4f96b70083e0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FindMaxExt1D</definition>
+        <argsstring>(T *p0, long long lenArr, long long per, double &amp;maxVal, long long &amp;iMax)</argsstring>
+        <name>FindMaxExt1D</name>
+        <qualifiedname>srTAuxMatStat::FindMaxExt1D</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>lenArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>per</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>maxVal</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>iMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="135" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="135" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1aa5857126f870894f30f27710ad465682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FillOutResData</definition>
+        <argsstring>(T *pOut, double *arRes, int nRes)</argsstring>
+        <name>FillOutResData</name>
+        <qualifiedname>srTAuxMatStat::FillOutResData</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>pOut</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arRes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nRes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="149" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="149" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1addc70ffdc8e87e7a5c01a27d0167819e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FindSimplestStat1D</definition>
+        <argsstring>(T *p0, double xStart, double xStep, long long lenArr, srTWaveAccessData &amp;OutSpotInfo, double *arPar=0, int nPar=0)</argsstring>
+        <name>FindSimplestStat1D</name>
+        <qualifiedname>srTAuxMatStat::FindSimplestStat1D</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xStep</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>lenArr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>OutSpotInfo</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPar</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="164" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="164" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a89cc8a7ea12a091fdb9451b15af5f2a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FindIndHalfMaxLeftRight2D</definition>
+        <argsstring>(T *p0, long long xLenArr, long long yLenArr, double HalfMaxVal, long long ixMax, long long iyMax, bool searchFromPeak, long long *arResInd, double *arResVxVy)</argsstring>
+        <name>FindIndHalfMaxLeftRight2D</name>
+        <qualifiedname>srTAuxMatStat::FindIndHalfMaxLeftRight2D</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>xLenArr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>yLenArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>HalfMaxVal</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ixMax</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iyMax</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>searchFromPeak</declname>
+        </param>
+        <param>
+          <type>long long *</type>
+          <declname>arResInd</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arResVxVy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="221" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="221" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1ac5a809b250dae4257bddf3890d794002" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTAuxMatStat::AuxCalcWidth2D</definition>
+        <argsstring>(double xStart, double xStep, double yStart, double yStep, double HalfMaxVal, long long arResInd[4], double arResVxVy[8], double &amp;xWidth, double &amp;yWidth)</argsstring>
+        <name>AuxCalcWidth2D</name>
+        <qualifiedname>srTAuxMatStat::AuxCalcWidth2D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>xStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xStep</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yStep</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>HalfMaxVal</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>arResInd</declname>
+          <array>[4]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>arResVxVy</declname>
+          <array>[8]</array>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>xWidth</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>yWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="338" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="338" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a638ea5e064414daebe075e8765b64a6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void srTAuxMatStat::FindSimplestStat2D</definition>
+        <argsstring>(T *p0, double xStart, double xStep, long long xLenArr, double yStart, double yStep, long long yLenArr, srTWaveAccessData &amp;OutSpotInfo, double *arPar=0, int nPar=0)</argsstring>
+        <name>FindSimplestStat2D</name>
+        <qualifiedname>srTAuxMatStat::FindSimplestStat2D</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xStep</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>xLenArr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yStep</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>yLenArr</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>OutSpotInfo</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPar</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="356" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="356" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_mat_stat_1a291c32beb61bfacd92324f4c60edd21b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double srTAuxMatStat::SumUpArray</definition>
+        <argsstring>(T *p0, long long iStart, long long iEnd, long long iStep)</argsstring>
+        <name>SumUpArray</name>
+        <qualifiedname>srTAuxMatStat::SumUpArray</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iStart</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iEnd</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>iStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="441" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="441" bodyend="449"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srmatsta_8h_source" kindref="compound">srmatsta.h</ref> Description: Basic statistical characteristics of intensity distributions (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>0.06 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" line="37" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h" bodystart="37" bodyend="450"/>
+    <listofallmembers>
+      <member refid="classsr_t_aux_mat_stat_1ac5a809b250dae4257bddf3890d794002" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>AuxCalcWidth2D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1aa5857126f870894f30f27710ad465682" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FillOutResData</name></member>
+      <member refid="classsr_t_aux_mat_stat_1aa83c51c5fc978f0daa5e8502ff14f552" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindIndHalfMaxLeftRight1D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a89cc8a7ea12a091fdb9451b15af5f2a2" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindIndHalfMaxLeftRight2D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1ab048b57cb040b4ac234ab81e0e971595" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindIndHalfMaxLeftRightFromPeak1D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a9c649220a20009e9a3b47a536c10be86" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindIntensityLimits</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a7bf01810b909aab2d4c1c65c56b7d8ef" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindIntensityLimits1D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1add474fc5affbb850d20fcca00690d6c2" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindIntensityLimits2D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a8d51a2605b100334c65a00cdf0cc3596" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindIntensityLimitsInds</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a2a2d5cecee5789cacd1964c128f835e0" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindLimit1DLeft</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a908421b942392432c0256cd7ec5d2cb5" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindLimit1DRight</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a537b19dbabbb27e5fd93061a724c9182" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindMax1D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a9f690364587f7ef41ba4f96b70083e0f" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindMaxExt1D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a5289ebbdf73345f4123b93065dd61007" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindSimplestStat</name></member>
+      <member refid="classsr_t_aux_mat_stat_1addc70ffdc8e87e7a5c01a27d0167819e" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindSimplestStat1D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a638ea5e064414daebe075e8765b64a6d" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>FindSimplestStat2D</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a072ab166f0bf32d3512f8a16ab99a379" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>IntegrateOverX</name></member>
+      <member refid="classsr_t_aux_mat_stat_1af9a8a0678b4ef31a241c12213eb2e1ba" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>IntegrateOverY</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a070cb00b2de8053f8f238c6ea5c6d930" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>IntegrateSimple</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a291c32beb61bfacd92324f4c60edd21b" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>SumUpArray</name></member>
+      <member refid="classsr_t_aux_mat_stat_1a1971cca6f7ffb06d825026a1c86bf572" prot="public" virt="non-virtual"><scope>srTAuxMatStat</scope><name>ValidateSpotData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

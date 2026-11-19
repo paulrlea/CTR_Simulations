@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_segm_of_mesh2_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTSegmOfMesh2D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_segm_of_mesh2_d_1af272c26c4fc66b4f386ce1675e209eff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSegmOfMesh2D::VarSt</definition>
+        <argsstring></argsstring>
+        <name>VarSt</name>
+        <qualifiedname>srTSegmOfMesh2D::VarSt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="250" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_segm_of_mesh2_d_1a34ab8d6a76e096a76b818086fcdf2fef" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSegmOfMesh2D::VarFi</definition>
+        <argsstring></argsstring>
+        <name>VarFi</name>
+        <qualifiedname>srTSegmOfMesh2D::VarFi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="250" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_segm_of_mesh2_d_1a73f996faf6ff09e062cf493b1e3a89f1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSegmOfMesh2D::Con</definition>
+        <argsstring></argsstring>
+        <name>Con</name>
+        <qualifiedname>srTSegmOfMesh2D::Con</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="250" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_segm_of_mesh2_d_1a7e9253ef4508527f6812c10f400e1c00" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTSegmOfMesh2D::NeedsFurtherSubd</definition>
+        <argsstring></argsstring>
+        <name>NeedsFurtherSubd</name>
+        <qualifiedname>srTSegmOfMesh2D::NeedsFurtherSubd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="251" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_segm_of_mesh2_d_1a398f3359799257d265f81e5e675a99f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTSegmOfMesh2D::srTSegmOfMesh2D</definition>
+        <argsstring>()</argsstring>
+        <name>srTSegmOfMesh2D</name>
+        <qualifiedname>srTSegmOfMesh2D::srTSegmOfMesh2D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="252" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="252" bodyend="252"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="249" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="249" bodyend="253"/>
+    <listofallmembers>
+      <member refid="structsr_t_segm_of_mesh2_d_1a73f996faf6ff09e062cf493b1e3a89f1" prot="public" virt="non-virtual"><scope>srTSegmOfMesh2D</scope><name>Con</name></member>
+      <member refid="structsr_t_segm_of_mesh2_d_1a7e9253ef4508527f6812c10f400e1c00" prot="public" virt="non-virtual"><scope>srTSegmOfMesh2D</scope><name>NeedsFurtherSubd</name></member>
+      <member refid="structsr_t_segm_of_mesh2_d_1a398f3359799257d265f81e5e675a99f3" prot="public" virt="non-virtual"><scope>srTSegmOfMesh2D</scope><name>srTSegmOfMesh2D</name></member>
+      <member refid="structsr_t_segm_of_mesh2_d_1a34ab8d6a76e096a76b818086fcdf2fef" prot="public" virt="non-virtual"><scope>srTSegmOfMesh2D</scope><name>VarFi</name></member>
+      <member refid="structsr_t_segm_of_mesh2_d_1af272c26c4fc66b4f386ce1675e209eff" prot="public" virt="non-virtual"><scope>srTSegmOfMesh2D</scope><name>VarSt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

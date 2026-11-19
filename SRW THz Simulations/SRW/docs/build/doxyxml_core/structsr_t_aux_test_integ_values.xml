@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_aux_test_integ_values" kind="struct" language="C++" prot="public">
+    <compoundname>srTAuxTestIntegValues</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a23c564557d90fdfeb4bcc11126deb87f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::DecrResVal</definition>
+        <argsstring></argsstring>
+        <name>DecrResVal</name>
+        <qualifiedname>srTAuxTestIntegValues::DecrResVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1891" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a9578430754b6476a41f84f9b7b4f1546" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::NormVal</definition>
+        <argsstring></argsstring>
+        <name>NormVal</name>
+        <qualifiedname>srTAuxTestIntegValues::NormVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1891" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a8e716bb09a0f5cfa77d69e45b1b66cfb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::IncrResVal</definition>
+        <argsstring></argsstring>
+        <name>IncrResVal</name>
+        <qualifiedname>srTAuxTestIntegValues::IncrResVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1891" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a61ed4405217fff141694f787eac08f14" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::IncrRes2Val</definition>
+        <argsstring></argsstring>
+        <name>IncrRes2Val</name>
+        <qualifiedname>srTAuxTestIntegValues::IncrRes2Val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1891" column="37" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1aebf2fac901048d2a133b9ebea2af9259" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::HalfDecrResVal</definition>
+        <argsstring></argsstring>
+        <name>HalfDecrResVal</name>
+        <qualifiedname>srTAuxTestIntegValues::HalfDecrResVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1892" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a46c54a1092b4d0b94270765a9ae5e508" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::HalfNormVal</definition>
+        <argsstring></argsstring>
+        <name>HalfNormVal</name>
+        <qualifiedname>srTAuxTestIntegValues::HalfNormVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1892" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a7905965d34b47d48206c4d63b811931d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::HalfIncrResVal</definition>
+        <argsstring></argsstring>
+        <name>HalfIncrResVal</name>
+        <qualifiedname>srTAuxTestIntegValues::HalfIncrResVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1892" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a30d506cd639243daa8e4823bfe96756f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTAuxTestIntegValues::HalfIncrRes2Val</definition>
+        <argsstring></argsstring>
+        <name>HalfIncrRes2Val</name>
+        <qualifiedname>srTAuxTestIntegValues::HalfIncrRes2Val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1892" column="49" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1adc7bee1de0ebc1dfbf293ca4c469dc5c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestIntegValues::DecrResValIsNeeded</definition>
+        <argsstring></argsstring>
+        <name>DecrResValIsNeeded</name>
+        <qualifiedname>srTAuxTestIntegValues::DecrResValIsNeeded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1893" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a19c08f0118ab2e0b1706a6ca109ada89" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestIntegValues::NormValIsNeeded</definition>
+        <argsstring></argsstring>
+        <name>NormValIsNeeded</name>
+        <qualifiedname>srTAuxTestIntegValues::NormValIsNeeded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1893" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a5a7191ea7573a02d9d814d25c1be7a6d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestIntegValues::IncrResValIsNeeded</definition>
+        <argsstring></argsstring>
+        <name>IncrResValIsNeeded</name>
+        <qualifiedname>srTAuxTestIntegValues::IncrResValIsNeeded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1893" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a9738cbd74b61862cc371328c29144f26" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestIntegValues::IncrRes2ValIsNeeded</definition>
+        <argsstring></argsstring>
+        <name>IncrRes2ValIsNeeded</name>
+        <qualifiedname>srTAuxTestIntegValues::IncrRes2ValIsNeeded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1893" column="60" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_aux_test_integ_values_1a0d2327e03ea8073fea1788df1c49f1f4" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTAuxTestIntegValues::TreatExOrEz</definition>
+        <argsstring></argsstring>
+        <name>TreatExOrEz</name>
+        <qualifiedname>srTAuxTestIntegValues::TreatExOrEz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1894" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1894" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_aux_test_integ_values_1a03b7644b6d6c415a30c5d55b6a34d99c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTAuxTestIntegValues::srTAuxTestIntegValues</definition>
+        <argsstring>()</argsstring>
+        <name>srTAuxTestIntegValues</name>
+        <qualifiedname>srTAuxTestIntegValues::srTAuxTestIntegValues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1896" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1896" bodyend="1900"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1889" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1889" bodyend="1901"/>
+    <listofallmembers>
+      <member refid="structsr_t_aux_test_integ_values_1a23c564557d90fdfeb4bcc11126deb87f" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>DecrResVal</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1adc7bee1de0ebc1dfbf293ca4c469dc5c" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>DecrResValIsNeeded</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1aebf2fac901048d2a133b9ebea2af9259" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>HalfDecrResVal</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a30d506cd639243daa8e4823bfe96756f" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>HalfIncrRes2Val</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a7905965d34b47d48206c4d63b811931d" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>HalfIncrResVal</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a46c54a1092b4d0b94270765a9ae5e508" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>HalfNormVal</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a61ed4405217fff141694f787eac08f14" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>IncrRes2Val</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a9738cbd74b61862cc371328c29144f26" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>IncrRes2ValIsNeeded</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a8e716bb09a0f5cfa77d69e45b1b66cfb" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>IncrResVal</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a5a7191ea7573a02d9d814d25c1be7a6d" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>IncrResValIsNeeded</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a9578430754b6476a41f84f9b7b4f1546" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>NormVal</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a19c08f0118ab2e0b1706a6ca109ada89" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>NormValIsNeeded</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a03b7644b6d6c415a30c5d55b6a34d99c" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>srTAuxTestIntegValues</name></member>
+      <member refid="structsr_t_aux_test_integ_values_1a0d2327e03ea8073fea1788df1c49f1f4" prot="public" virt="non-virtual"><scope>srTAuxTestIntegValues</scope><name>TreatExOrEz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

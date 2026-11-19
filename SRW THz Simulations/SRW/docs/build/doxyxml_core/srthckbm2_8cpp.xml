@@ -1,0 +1,609 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srthckbm2_8cpp" kind="file" language="C++">
+    <compoundname>srthckbm2.cpp</compoundname>
+    <includes refid="srthckbm_8h" local="yes">srthckbm.h</includes>
+    <includes refid="srmagfld_8h" local="yes">srmagfld.h</includes>
+    <includes refid="srradmnp_8h" local="yes">srradmnp.h</includes>
+    <includes local="yes">gmrand.h</includes>
+    <includes refid="srradint_8h" local="yes">srradint.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="3">
+        <label>srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>srmagelem.h</label>
+        <link refid="srmagelem_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>srprdint.h</label>
+        <link refid="srprdint_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>srradint.h</label>
+        <link refid="srradint_8h_source"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>srradmnp.h</label>
+        <link refid="srradmnp_8h_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>srsend.h</label>
+        <link refid="srsend_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>srsysuti.h</label>
+        <link refid="srsysuti_8h_source"/>
+      </node>
+      <node id="2">
+        <label>srthckbm.h</label>
+        <link refid="srthckbm_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm2.cpp</label>
+        <link refid="srthckbm2_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="39">
+        <label>complex</label>
+      </node>
+      <node id="36">
+        <label>cstdlib</label>
+      </node>
+      <node id="23">
+        <label>ctype.h</label>
+      </node>
+      <node id="33">
+        <label>gminterp.h</label>
+      </node>
+      <node id="16">
+        <label>gmintrk.h</label>
+      </node>
+      <node id="15">
+        <label>gmmeth.h</label>
+      </node>
+      <node id="40">
+        <label>gmrand.h</label>
+      </node>
+      <node id="14">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="24">
+        <label>gmvect.h</label>
+      </node>
+      <node id="44">
+        <label>iostream</label>
+      </node>
+      <node id="37">
+        <label>list</label>
+      </node>
+      <node id="8">
+        <label>map</label>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="13">
+        <label>objcont.h</label>
+      </node>
+      <node id="9">
+        <label>smartptr.h</label>
+      </node>
+      <node id="38">
+        <label>srerror.h</label>
+      </node>
+      <node id="20">
+        <label>srigorre.h</label>
+      </node>
+      <node id="26">
+        <label>srinterf.h</label>
+      </node>
+      <node id="28">
+        <label>srwlib.h</label>
+      </node>
+      <node id="45">
+        <label>sstream</label>
+      </node>
+      <node id="30">
+        <label>stdlib.h</label>
+      </node>
+      <node id="10">
+        <label>stlstart.h</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="22">
+        <label>string.h</label>
+      </node>
+      <node id="43">
+        <label>time.h</label>
+      </node>
+      <node id="17">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srthckbm.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srmagfld.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srradmnp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gmrand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srradint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classsr_t_rad_int_thick_beam_1a4c7341e0d119f3d8f8cef07b4a74ef43" kindref="member">srTRadIntThickBeam::EstimateExtraObservRangesToIncludeEmittance</ref>(<ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>*<sp/>pStokes,<sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>*<sp/>pElecBeam,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>ArrExtraRanges)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>ArrExtraRanges[0]<sp/>=<sp/>ArrExtraRanges[1]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Length<sp/>=<sp/>pStokes-&gt;yStart<sp/>-<sp/>pElecBeam-&gt;s0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p4x4PropMatr[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1.,<sp/>Length,<sp/>0.,<sp/>0.,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.,<sp/>1.,<sp/>0.,<sp/>0.,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.,<sp/>0.,<sp/>1.,<sp/>Length,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.,<sp/>0.,<sp/>0.,<sp/>1.,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p4Vect[]<sp/>=<sp/>{<sp/>0.,<sp/>0.,<sp/>0.,<sp/>0.};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_elec_beam_moments" kindref="compound">srTElecBeamMoments</ref><sp/>ElecBeamMom(pElecBeam);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>srTRadGenManip::PropagateElecBeamMoments(ElecBeamMom,<sp/>p4x4PropMatr,<sp/>p4Vect);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SigmaExtentFactor<sp/>=<sp/>3;<sp/></highlight><highlight class="comment">//<sp/>to<sp/>tune</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>ArrExtraRanges[0]<sp/>=<sp/>SigmaExtentFactor*(::sqrt(ElecBeamMom.Mxx));<sp/></highlight><highlight class="comment">//<sp/>extension<sp/>for<sp/>one<sp/>side</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>ArrExtraRanges[1]<sp/>=<sp/>SigmaExtentFactor*(::sqrt(ElecBeamMom.Mzz));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>srTRadIntThickBeam::CreateNewRadStructWithConstParams(<ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>*<sp/>pElecBeam,<sp/><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*<sp/>pTrjDat,<sp/><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>*<sp/>pStokes,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*&amp;<sp/>pWfrSmp)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ArrExtraRanges[2];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_rad_int_thick_beam_1a4c7341e0d119f3d8f8cef07b4a74ef43" kindref="member">EstimateExtraObservRangesToIncludeEmittance</ref>(pStokes,<sp/>pElecBeam,<sp/>ArrExtraRanges);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>&amp;HalfExtraRangeX<sp/>=<sp/>ArrExtraRanges[0],<sp/>&amp;HalfExtraRangeZ<sp/>=<sp/>ArrExtraRanges[1];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NpMin<sp/>=<sp/>31;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xStep<sp/>=<sp/>pStokes-&gt;xStep;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xStep<sp/>&lt;=<sp/>0)<sp/>xStep<sp/>=<sp/>HalfExtraRangeX/NpMin;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xRangeStokes<sp/>=<sp/>(pStokes-&gt;nx<sp/>-<sp/>1)*xStep;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NumStepsInHalfExtraRangeX<sp/>=<sp/>(int)(HalfExtraRangeX/xStep)<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>long<sp/>NumStepsInHalfExtraRangeX<sp/>=<sp/>(long<sp/>long)(HalfExtraRangeX/xStep)<sp/>+<sp/>1;<sp/>//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ActualHalfExtraRangeX<sp/>=<sp/>NumStepsInHalfExtraRangeX*xStep;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hSt<sp/>=<sp/>pStokes-&gt;xStart<sp/>-<sp/>ActualHalfExtraRangeX;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hN<sp/>=<sp/>pStokes-&gt;nx<sp/>+<sp/>2*NumStepsInHalfExtraRangeX;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>long<sp/>hN<sp/>=<sp/>pStokes-&gt;nx<sp/>+<sp/>2*NumStepsInHalfExtraRangeX;<sp/>//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hFi<sp/>=<sp/>pStokes-&gt;xStart<sp/>+<sp/>xRangeStokes<sp/>+<sp/>ActualHalfExtraRangeX;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>hSt<sp/>=<sp/>pStokes-&gt;xStart;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>hN<sp/>=<sp/>pStokes-&gt;nx;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>hFi<sp/>=<sp/>hSt<sp/>+<sp/>xRangeStokes;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zStep<sp/>=<sp/>pStokes-&gt;zStep;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(zStep<sp/>&lt;=<sp/>0)<sp/>zStep<sp/>=<sp/>HalfExtraRangeZ/NpMin;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zRangeStokes<sp/>=<sp/>(pStokes-&gt;nz<sp/>-<sp/>1)*zStep;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>NumStepsInHalfExtraRangeZ<sp/>=<sp/>(int)(HalfExtraRangeZ/zStep)<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>long<sp/>NumStepsInHalfExtraRangeZ<sp/>=<sp/>(long<sp/>long)(HalfExtraRangeZ/zStep)<sp/>+<sp/>1;<sp/>//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ActualHalfExtraRangeZ<sp/>=<sp/>NumStepsInHalfExtraRangeZ*zStep;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vSt<sp/>=<sp/>pStokes-&gt;zStart<sp/>-<sp/>ActualHalfExtraRangeZ;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vN<sp/>=<sp/>pStokes-&gt;nz<sp/>+<sp/>2*NumStepsInHalfExtraRangeZ;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>long<sp/>vN<sp/>=<sp/>pStokes-&gt;nz<sp/>+<sp/>2*NumStepsInHalfExtraRangeZ;<sp/>//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vFi<sp/>=<sp/>pStokes-&gt;zStart<sp/>+<sp/>zRangeStokes<sp/>+<sp/>ActualHalfExtraRangeZ;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>vSt<sp/>=<sp/>pStokes-&gt;zStart;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>vN<sp/>=<sp/>pStokes-&gt;nz;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>vFi<sp/>=<sp/>vSt<sp/>+<sp/>zRangeStokes;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eSt<sp/>=<sp/>pStokes-&gt;eStart;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>eN<sp/>=<sp/>pStokes-&gt;ne;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>long<sp/>eN<sp/>=<sp/>pStokes-&gt;ne;<sp/>//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eFi<sp/>=<sp/>eSt<sp/>+<sp/>(eN<sp/>-<sp/>1)*(pStokes-&gt;eStep);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//pWfrSmp<sp/>=<sp/>new<sp/>srTWfrSmp(pStokes-&gt;yStart,<sp/>hSt,<sp/>hFi,<sp/>hN,<sp/>vSt,<sp/>vFi,<sp/>vN,<sp/>eSt,<sp/>eFi,<sp/>eN,<sp/>&quot;EV&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>pWfrSmp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>(pStokes-&gt;yStart,<sp/>hSt,<sp/>hFi,<sp/>hN,<sp/>vSt,<sp/>vFi,<sp/>vN,<sp/>0,<sp/>eSt,<sp/>eFi,<sp/>eN,<sp/></highlight><highlight class="stringliteral">&quot;EV&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>(pElecBeam,<sp/>pTrjDat,<sp/>pWfrSmp,<sp/>0);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTRadIntThickBeam::GetNextElecEnergyFromGausDistrib(<ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>&amp;<sp/>OrigElecBeam,<sp/>CGenMathRand&amp;<sp/>RandGen)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(m_SpareElecEnergyVal<sp/>&gt;<sp/>0)<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>OutVal<sp/>=<sp/>m_SpareElecEnergyVal;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_SpareElecEnergyVal<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>OutVal;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newE1=0,<sp/>newE2=0;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//RandGen.NextTwoGaussRand1D(OrigElecBeam.Energy,<sp/>OrigElecBeam.GetSigmaE_GeV(),<sp/>newE1,<sp/>newE2);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>RandGen.NextRandGauss2(OrigElecBeam.Energy,<sp/>OrigElecBeam.GetSigmaE_GeV(),<sp/>newE1,<sp/>newE2);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>m_SpareElecEnergyVal<sp/>=<sp/>newE2;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>newE1;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//return<sp/>RandGen.NextGaussRandP(OrigElecBeam.Energy,<sp/>OrigElecBeam.GetSigmaE_GeV());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//double<sp/>srTRadIntThickBeam::UpdateResultStokesData(float*<sp/>ArrAuxDataS0,<sp/>float*<sp/>ArrAuxDataS1,<sp/>float*<sp/>ArrAuxDataS2,<sp/>float*<sp/>ArrAuxDataS3,<sp/>srTWfrSmp*<sp/>pWfrSmp,<sp/>int<sp/>iElecEn,<sp/>srTStokesStructAccessData*<sp/>pStokes)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>srTRadIntThickBeam::UpdateResultStokesData(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS1,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS3,<sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>pWfrSmp,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>iElecEn,<sp/><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>*<sp/>pStokes)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight><highlight class="comment">//this<sp/>assumes<sp/>that<sp/>Stokes<sp/>S0<sp/>is<sp/>always<sp/>defined</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>RelPrec<sp/>=<sp/>1E+23;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>xAmStepsLeft<sp/>=<sp/>(int)((pStokes-&gt;xStart<sp/>-<sp/>pWfrSmp-&gt;xStart)/(pStokes-&gt;xStep)<sp/>+<sp/>0.000001);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>xAmStepsRight<sp/>=<sp/>(int)((pWfrSmp-&gt;xEnd<sp/>-<sp/>(pStokes-&gt;xStart<sp/>+<sp/>(pStokes-&gt;nx<sp/>-<sp/>1)*(pStokes-&gt;xStep)))/(pStokes-&gt;xStep)<sp/>+<sp/>0.000001);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>zAmStepsLeft<sp/>=<sp/>(int)((pStokes-&gt;zStart<sp/>-<sp/>pWfrSmp-&gt;zStart)/(pStokes-&gt;zStep)<sp/>+<sp/>0.000001);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>xAmStepsLeft<sp/>=<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)((pStokes-&gt;xStart<sp/>-<sp/>pWfrSmp-&gt;xStart)/(pStokes-&gt;xStep)<sp/>+<sp/>0.000001);<sp/></highlight><highlight class="comment">//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>xAmStepsRight<sp/>=<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)((pWfrSmp-&gt;xEnd<sp/>-<sp/>(pStokes-&gt;xStart<sp/>+<sp/>(pStokes-&gt;nx<sp/>-<sp/>1)*(pStokes-&gt;xStep)))/(pStokes-&gt;xStep)<sp/>+<sp/>0.000001);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>zAmStepsLeft<sp/>=<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)((pStokes-&gt;zStart<sp/>-<sp/>pWfrSmp-&gt;zStart)/(pStokes-&gt;zStep)<sp/>+<sp/>0.000001);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>zAmStepsRight<sp/>=<sp/>(int)((pWfrSmp-&gt;zEnd<sp/>-<sp/>(pStokes-&gt;zStart<sp/>+<sp/>(pStokes-&gt;nz<sp/>-<sp/>1)*(pStokes-&gt;zStep)))/(pStokes-&gt;zStep)<sp/>+<sp/>0.000001);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>Offset0<sp/>=<sp/>(zAmStepsLeft*(pWfrSmp-&gt;nx)<sp/>+<sp/>xAmStepsLeft)*(pWfrSmp-&gt;nLamb);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>Offset0<sp/>=<sp/>(((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)zAmStepsLeft)*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)(pWfrSmp-&gt;nx))<sp/>+<sp/>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)xAmStepsLeft)*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(pWfrSmp-&gt;nLamb));</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>ShiftBetweenRowsX<sp/>=<sp/>(xAmStepsRight<sp/>+<sp/>xAmStepsLeft)*(pWfrSmp-&gt;nLamb);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ShiftBetweenRowsX<sp/>=<sp/>(xAmStepsRight<sp/>+<sp/>xAmStepsLeft)*(pWfrSmp-&gt;nLamb);<sp/></highlight><highlight class="comment">//OC26042019</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*tBaseSto<sp/>=<sp/>pStokes-&gt;pBaseSto;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*tAuxDataS0<sp/>=<sp/>0,<sp/>*tAuxDataS1<sp/>=<sp/>0,<sp/>*tAuxDataS2<sp/>=<sp/>0,<sp/>*tAuxDataS3<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>S0_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>S1_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>S2_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>S3_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>tAuxDataS0<sp/>=<sp/>ArrAuxDataS0<sp/>+<sp/>Offset0;<sp/>S0_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ArrAuxDataS1<sp/>!=<sp/>0)<sp/>{<sp/>tAuxDataS1<sp/>=<sp/>ArrAuxDataS1<sp/>+<sp/>Offset0;<sp/>S1_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ArrAuxDataS2<sp/>!=<sp/>0)<sp/>{<sp/>tAuxDataS2<sp/>=<sp/>ArrAuxDataS2<sp/>+<sp/>Offset0;<sp/>S2_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ArrAuxDataS3<sp/>!=<sp/>0)<sp/>{<sp/>tAuxDataS3<sp/>=<sp/>ArrAuxDataS3<sp/>+<sp/>Offset0;<sp/>S3_IsDefined<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Inv_ip1<sp/>=<sp/>1./double(iElecEn<sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>i_d_ip1<sp/>=<sp/>iElecEn*Inv_ip1;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SumDifSq<sp/>=<sp/>0,<sp/>SumNewS0<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iz=0;<sp/>iz&lt;(pStokes-&gt;nz);<sp/>iz++)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ix=0;<sp/>ix&lt;(pStokes-&gt;nx);<sp/>ix++)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ie=0;<sp/>ie&lt;(pStokes-&gt;ne);<sp/>ie++)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NewS0<sp/>=<sp/>(*tBaseSto)*i_d_ip1<sp/>+<sp/>(*(tAuxDataS0++))*Inv_ip1;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>DifNewOld<sp/>=<sp/>NewS0<sp/>-<sp/>(*tBaseSto);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SumDifSq<sp/>+=<sp/>DifNewOld*DifNewOld;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SumNewS0<sp/>+=<sp/>NewS0;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(tBaseSto++)<sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)NewS0;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(tBaseSto++)<sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)(S1_IsDefined?<sp/>((*tBaseSto)*i_d_ip1<sp/>+<sp/>(*(tAuxDataS1++))*Inv_ip1)<sp/>:<sp/>0);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(tBaseSto++)<sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)(S2_IsDefined?<sp/>((*tBaseSto)*i_d_ip1<sp/>+<sp/>(*(tAuxDataS2++))*Inv_ip1)<sp/>:<sp/>0);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(tBaseSto++)<sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)(S3_IsDefined?<sp/>((*tBaseSto)*i_d_ip1<sp/>+<sp/>(*(tAuxDataS3++))*Inv_ip1)<sp/>:<sp/>0);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(S0_IsDefined)<sp/>tAuxDataS0<sp/>+=<sp/>ShiftBetweenRowsX;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(S1_IsDefined)<sp/>tAuxDataS1<sp/>+=<sp/>ShiftBetweenRowsX;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(S2_IsDefined)<sp/>tAuxDataS2<sp/>+=<sp/>ShiftBetweenRowsX;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(S3_IsDefined)<sp/>tAuxDataS3<sp/>+=<sp/>ShiftBetweenRowsX;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>TotNp<sp/>=<sp/>(pStokes-&gt;nz)*(pStokes-&gt;nx)*(pStokes-&gt;ne);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>TotNp<sp/>=<sp/>((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)(pStokes-&gt;nz))*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(pStokes-&gt;nx))*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)(pStokes-&gt;ne));</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AbsPrecSigma<sp/>=<sp/>::sqrt(SumDifSq/</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">(TotNp));</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AvgS0<sp/>=<sp/>SumNewS0/double(TotNp);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(AvgS0<sp/>==<sp/>0)<sp/>AvgS0<sp/>=<sp/>1.E-14;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>RelPrec<sp/>=<sp/>AbsPrecSigma/AvgS0;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RelPrec;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>srTRadIntThickBeam::ComputeTotalStokesDistrViaSingleElec(<ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>*<sp/>pElecBeam,<sp/><ref refid="classsr_t_mag_fld_tr_unif" kindref="compound">srTMagFldTrUnif</ref>*<sp/>pMagFldTrUnif,<sp/>srTParPrecStokesArb*<sp/>pPrcPar,<sp/><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref>*<sp/>pStokes)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pMagFldTrUnif<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>NO_MAG_FIELD_DEFINED;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((pElecBeam<sp/>==<sp/>0)<sp/>||<sp/>(pPrcPar<sp/>==<sp/>0))<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>INCORRECT_PARAMS_SR_COMP;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pStokes<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>NO_STOKES_STRUCTURE_SUPPLIED;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>&amp;<sp/>OrigElecBeam<sp/>=<sp/>*pElecBeam;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref><sp/>LocElecBeam(OrigElecBeam);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//CRandGen<sp/>RandGen;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>CGenMathRand<sp/>RandGen;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>LocElecBeam.SetNewEnergy(GetNextElecEnergyFromGausDistrib(OrigElecBeam,<sp/>RandGen));</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*<sp/>pTrjDat<sp/>=<sp/>(<ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*)(pMagFldTrUnif-&gt;CreateAndSetupNewTrjDat(&amp;LocElecBeam));</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//gAuxPar.Setup(*pElecBeam);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref>*<sp/>pWfrSmp<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRad<sp/>=<sp/>CreateNewRadStructWithConstParams(pElecBeam,<sp/>pTrjDat,<sp/>pStokes,<sp/>pWfrSmp);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>CHGenObj<sp/>hRad(pRad);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_rad_gen_manip" kindref="compound">srTRadGenManip</ref><sp/>RadGenManip(hRad);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_rad_int" kindref="compound">srTRadInt</ref><sp/>RadInt;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>IntegMethNo<sp/>=<sp/>2;<sp/></highlight><highlight class="comment">//Auto<sp/>Wiggler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sEndInt<sp/>=<sp/>pTrjDat-&gt;sStart<sp/>+<sp/>(pTrjDat-&gt;LenFieldData<sp/>-<sp/>1)*(pTrjDat-&gt;sStep);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>srTParPrecElecFld<sp/>PrecElecFld(IntegMethNo,<sp/>pPrcPar-&gt;RelPrecOrStep,<sp/>pTrjDat-&gt;sStart,<sp/>sEndInt,<sp/>0);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ExtractIntType<sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//<sp/>Multi-e<sp/>intensity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ExtractPT<sp/>=<sp/>3;<sp/></highlight><highlight class="comment">//<sp/>vs<sp/>x<sp/>&amp;<sp/>z</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pStokes-&gt;ne<sp/>&gt;<sp/>1)<sp/>ExtractPT<sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xc<sp/>=<sp/>pStokes-&gt;xStart<sp/>+<sp/>0.5*(pStokes-&gt;nx<sp/>-<sp/>1)*(pStokes-&gt;xStep);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zc<sp/>=<sp/>pStokes-&gt;zStart<sp/>+<sp/>0.5*(pStokes-&gt;nz<sp/>-<sp/>1)*(pStokes-&gt;zStep);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ec<sp/>=<sp/>pStokes-&gt;eStart;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>AmOfAuxData<sp/>=<sp/>(pWfrSmp-&gt;nLamb)*(pWfrSmp-&gt;nx)*(pWfrSmp-&gt;nz);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>AmOfAuxData<sp/>=<sp/>((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)(pWfrSmp-&gt;nLamb))*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(pWfrSmp-&gt;nx))*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)(pWfrSmp-&gt;nz));</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS0<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[AmOfAuxData];</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[AmOfAuxData];</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[AmOfAuxData];</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*<sp/>ArrAuxDataS3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[AmOfAuxData];</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>pStokes-&gt;ZeroStokesData();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>RelPrecElecEn<sp/>=<sp/>pPrcPar-&gt;RelPrecOrStep;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ActualRelPrecIntens<sp/>=<sp/>1E+23;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>iElecEn<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>iElecEn<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//int<sp/>MaxNumIter<sp/>=<sp/>1000000;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>MaxNumIter<sp/>=<sp/>1000000;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pPrcPar-&gt;NumIter<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MaxNumIter<sp/>=<sp/>pPrcPar-&gt;NumIter;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(ActualRelPrecIntens<sp/>&gt;<sp/>RelPrecElecEn)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ActualRelPrecIntens<sp/>!=<sp/>1E+23)</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LocElecBeam.SetNewEnergy(GetNextElecEnergyFromGausDistrib(OrigElecBeam,<sp/>RandGen));</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pTrjDat<sp/>!=<sp/>0)<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>pTrjDat;<sp/>pTrjDat<sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pTrjDat<sp/>=<sp/>(<ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref>*)(pMagFldTrUnif-&gt;CreateAndSetupNewTrjDat(&amp;LocElecBeam));</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRad-&gt;EmulateElectronBeamStruct(LocElecBeam);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadInt.ComputeElectricFieldFreqDomain(pTrjDat,<sp/>pWfrSmp,<sp/>&amp;PrecElecFld,<sp/>pRad);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadGenManip.ExtractRadiation(-1,<sp/>ExtractIntType,<sp/>ExtractPT,<sp/>0,<sp/>ec,<sp/>xc,<sp/>zc,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)ArrAuxDataS0);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadGenManip.ExtractRadiation(-2,<sp/>ExtractIntType,<sp/>ExtractPT,<sp/>0,<sp/>ec,<sp/>xc,<sp/>zc,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)ArrAuxDataS1);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadGenManip.ExtractRadiation(-3,<sp/>ExtractIntType,<sp/>ExtractPT,<sp/>0,<sp/>ec,<sp/>xc,<sp/>zc,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)ArrAuxDataS2);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RadGenManip.ExtractRadiation(-4,<sp/>ExtractIntType,<sp/>ExtractPT,<sp/>0,<sp/>ec,<sp/>xc,<sp/>zc,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)ArrAuxDataS3);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ActualRelPrecIntens<sp/>=<sp/>UpdateResultStokesData(ArrAuxDataS0,<sp/>ArrAuxDataS1,<sp/>ArrAuxDataS2,<sp/>ArrAuxDataS3,<sp/>pWfrSmp,<sp/>iElecEn,<sp/>pStokes);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iElecEn++;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(iElecEn<sp/>&gt;=<sp/>MaxNumIter)<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pTrjDat<sp/>!=<sp/>0)<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>pTrjDat;<sp/>pTrjDat<sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pWfrSmp<sp/>!=<sp/>0)<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>pWfrSmp;<sp/>pWfrSmp<sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(pRad<sp/>!=<sp/>0)<sp/>{<sp/>delete<sp/>pRad;<sp/>pRad<sp/>=<sp/>0;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ArrAuxDataS0<sp/>!=<sp/>0)<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>ArrAuxDataS0;<sp/>ArrAuxDataS0<sp/>=<sp/>0;}<sp/></highlight><highlight class="comment">//OC19052020,<sp/>pointed-out<sp/>by<sp/>Paul<sp/>Fuoss</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ArrAuxDataS1<sp/>!=<sp/>0)<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>ArrAuxDataS1;<sp/>ArrAuxDataS1<sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ArrAuxDataS2<sp/>!=<sp/>0)<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>ArrAuxDataS2;<sp/>ArrAuxDataS2<sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ArrAuxDataS3<sp/>!=<sp/>0)<sp/>{<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>ArrAuxDataS3;<sp/>ArrAuxDataS3<sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(ArrAuxDataS0<sp/>!=<sp/>0)<sp/>{<sp/>delete<sp/>ArrAuxDataS0;<sp/>ArrAuxDataS0<sp/>=<sp/>0;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(ArrAuxDataS1<sp/>!=<sp/>0)<sp/>{<sp/>delete<sp/>ArrAuxDataS1;<sp/>ArrAuxDataS1<sp/>=<sp/>0;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(ArrAuxDataS2<sp/>!=<sp/>0)<sp/>{<sp/>delete<sp/>ArrAuxDataS2;<sp/>ArrAuxDataS2<sp/>=<sp/>0;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(ArrAuxDataS3<sp/>!=<sp/>0)<sp/>{<sp/>delete<sp/>ArrAuxDataS3;<sp/>ArrAuxDataS3<sp/>=<sp/>0;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm2.cpp"/>
+  </compounddef>
+</doxygen>

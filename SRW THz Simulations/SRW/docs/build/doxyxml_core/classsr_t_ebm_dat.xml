@@ -1,0 +1,1346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_ebm_dat" kind="class" language="C++" prot="public">
+    <compoundname>srTEbmDat</compoundname>
+    <basecompoundref refid="class_c_gen_object" prot="public" virt="non-virtual">CGenObject</basecompoundref>
+    <includes refid="srebmdat_8h" local="no">srebmdat.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1aca610d620e9820c72c0ee797d22d6fd8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Energy</definition>
+        <argsstring></argsstring>
+        <name>Energy</name>
+        <qualifiedname>srTEbmDat::Energy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="26" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a1e596ca642afddc1de6525031b8b1097" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Current</definition>
+        <argsstring></argsstring>
+        <name>Current</name>
+        <qualifiedname>srTEbmDat::Current</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="26" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a68781130759462c8151aaa46861e5388" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Neb</definition>
+        <argsstring></argsstring>
+        <name>Neb</name>
+        <qualifiedname>srTEbmDat::Neb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="27" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1ac2b230ab81cbd6ad71987d3328d050a5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::CurrentPeak</definition>
+        <argsstring></argsstring>
+        <name>CurrentPeak</name>
+        <qualifiedname>srTEbmDat::CurrentPeak</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="27" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1acf255a0a731614fce40719ebfa37d426" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::s0</definition>
+        <argsstring></argsstring>
+        <name>s0</name>
+        <qualifiedname>srTEbmDat::s0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="28" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1acdc44cd043a3ad75aa454fbb765f98d7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::x0</definition>
+        <argsstring></argsstring>
+        <name>x0</name>
+        <qualifiedname>srTEbmDat::x0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="28" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a9fbd9bd87c78e61bc92afd40123fbf83" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::dxds0</definition>
+        <argsstring></argsstring>
+        <name>dxds0</name>
+        <qualifiedname>srTEbmDat::dxds0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="28" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a3205cf8799f034d0ba9f8a23dc0b7367" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::z0</definition>
+        <argsstring></argsstring>
+        <name>z0</name>
+        <qualifiedname>srTEbmDat::z0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="28" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a71222ec691ca05b594413c0897c202a4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::dzds0</definition>
+        <argsstring></argsstring>
+        <name>dzds0</name>
+        <qualifiedname>srTEbmDat::dzds0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="28" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a9560b155b4c1881c9ae0c6d99e15dee5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::sc</definition>
+        <argsstring></argsstring>
+        <name>sc</name>
+        <qualifiedname>srTEbmDat::sc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="28" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a70b543e3baa92df3f8fdb21a71db0f6a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxx</definition>
+        <argsstring></argsstring>
+        <name>Mxx</name>
+        <qualifiedname>srTEbmDat::Mxx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="29" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a98d6f742a1523c886c0c2a32062f791e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxxp</definition>
+        <argsstring></argsstring>
+        <name>Mxxp</name>
+        <qualifiedname>srTEbmDat::Mxxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="29" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a5c24f0dab53c4fb82cce09bbb23fc169" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxpxp</definition>
+        <argsstring></argsstring>
+        <name>Mxpxp</name>
+        <qualifiedname>srTEbmDat::Mxpxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="29" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a666124245c52be1c2f8e839f29950072" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mzz</definition>
+        <argsstring></argsstring>
+        <name>Mzz</name>
+        <qualifiedname>srTEbmDat::Mzz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="30" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a80460472d7a906c5eb3988c504f03e28" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mzzp</definition>
+        <argsstring></argsstring>
+        <name>Mzzp</name>
+        <qualifiedname>srTEbmDat::Mzzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="30" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a8040dcf0467f87c715b0a8fc6efbd904" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mzpzp</definition>
+        <argsstring></argsstring>
+        <name>Mzpzp</name>
+        <qualifiedname>srTEbmDat::Mzpzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="30" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a0501d4809c545b8faaf655b0b240705c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxz</definition>
+        <argsstring></argsstring>
+        <name>Mxz</name>
+        <qualifiedname>srTEbmDat::Mxz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="31" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a8db6ec7c94707f943c6fdf15ee2b6734" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxpz</definition>
+        <argsstring></argsstring>
+        <name>Mxpz</name>
+        <qualifiedname>srTEbmDat::Mxpz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="31" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1af916479ba33d1a0e80d2f65a8ca99752" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxzp</definition>
+        <argsstring></argsstring>
+        <name>Mxzp</name>
+        <qualifiedname>srTEbmDat::Mxzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="31" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a245fa8ff9d79aa9e80baca46328863f7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxpzp</definition>
+        <argsstring></argsstring>
+        <name>Mxpzp</name>
+        <qualifiedname>srTEbmDat::Mxpzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="31" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a13da3b29cd933675bb5b4ce779d2001a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mee</definition>
+        <argsstring></argsstring>
+        <name>Mee</name>
+        <qualifiedname>srTEbmDat::Mee</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="32" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1ab925a46bb8163c25af58e16c44ca9e34" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mss</definition>
+        <argsstring></argsstring>
+        <name>Mss</name>
+        <qualifiedname>srTEbmDat::Mss</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="33" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a773ad5aedc511f999074ed57e99d297a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mse</definition>
+        <argsstring></argsstring>
+        <name>Mse</name>
+        <qualifiedname>srTEbmDat::Mse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="34" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a25cd635edcbdfb39d2025dc0f9722ee2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxe</definition>
+        <argsstring></argsstring>
+        <name>Mxe</name>
+        <qualifiedname>srTEbmDat::Mxe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="35" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a9c6d4164a1a73cc43ab5b7db2cd2ded4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxpe</definition>
+        <argsstring></argsstring>
+        <name>Mxpe</name>
+        <qualifiedname>srTEbmDat::Mxpe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="35" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1afe61bceaf0f72e425a6a3f829022ea05" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mze</definition>
+        <argsstring></argsstring>
+        <name>Mze</name>
+        <qualifiedname>srTEbmDat::Mze</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="35" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a204982e4fd1542c53f7fddd42d3c0a82" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mzpe</definition>
+        <argsstring></argsstring>
+        <name>Mzpe</name>
+        <qualifiedname>srTEbmDat::Mzpe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="35" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a45becd8a3cd484394cbab2bb9f5aaf47" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxs</definition>
+        <argsstring></argsstring>
+        <name>Mxs</name>
+        <qualifiedname>srTEbmDat::Mxs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="36" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1abfaf05712e2b51cad41a596e9b989606" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mxps</definition>
+        <argsstring></argsstring>
+        <name>Mxps</name>
+        <qualifiedname>srTEbmDat::Mxps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="36" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1ab7ccb593b834fdb4dd23f92bfc641a6b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mzs</definition>
+        <argsstring></argsstring>
+        <name>Mzs</name>
+        <qualifiedname>srTEbmDat::Mzs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="36" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a50c6aa2cd64ae2ef8377f4b668511826" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Mzps</definition>
+        <argsstring></argsstring>
+        <name>Mzps</name>
+        <qualifiedname>srTEbmDat::Mzps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="36" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1ad79dacf988824b93019205e89ffd227b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::SigmaRelE</definition>
+        <argsstring></argsstring>
+        <name>SigmaRelE</name>
+        <qualifiedname>srTEbmDat::SigmaRelE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="38" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1ad4de7bd97376bad5bba15e0a6a0ee923" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::Gamma</definition>
+        <argsstring></argsstring>
+        <name>Gamma</name>
+        <qualifiedname>srTEbmDat::Gamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="39" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a5119ac17ed86e6255ff796f44308773b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::GammaEm2</definition>
+        <argsstring></argsstring>
+        <name>GammaEm2</name>
+        <qualifiedname>srTEbmDat::GammaEm2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="39" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1ac2309a1dbd8832c7c71d351d253c7103" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTEbmDat::nQ</definition>
+        <argsstring></argsstring>
+        <name>nQ</name>
+        <qualifiedname>srTEbmDat::nQ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="40" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a4dce15a22f550939ff29b8aa517667b0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTEbmDat::TypeDistrTransverse</definition>
+        <argsstring></argsstring>
+        <name>TypeDistrTransverse</name>
+        <qualifiedname>srTEbmDat::TypeDistrTransverse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="42" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a37e2b3381c0205429824378a56f6b4e1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTEbmDat::TypeDistrLongitudinal</definition>
+        <argsstring></argsstring>
+        <name>TypeDistrLongitudinal</name>
+        <qualifiedname>srTEbmDat::TypeDistrLongitudinal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="43" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a9d1c3f8f9326100d54d5686fd60c2b5e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEbmDat::ShotNoiseFactor</definition>
+        <argsstring></argsstring>
+        <name>ShotNoiseFactor</name>
+        <qualifiedname>srTEbmDat::ShotNoiseFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="44" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a965c45c637b7050d1b518019000e12de" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTEbmDat::pElecDistr</definition>
+        <argsstring></argsstring>
+        <name>pElecDistr</name>
+        <qualifiedname>srTEbmDat::pElecDistr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="46" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1aad124305e56c460b43797dad7b0c8c16" prot="public" static="no" mutable="no">
+        <type>void **</type>
+        <definition>void** srTEbmDat::wElecDistr</definition>
+        <argsstring></argsstring>
+        <name>wElecDistr</name>
+        <qualifiedname>srTEbmDat::wElecDistr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="49" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1ac453cd2ae24ded1f464bc9bf3665a89e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTEbmDat::hStateElecDistr</definition>
+        <argsstring></argsstring>
+        <name>hStateElecDistr</name>
+        <qualifiedname>srTEbmDat::hStateElecDistr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="50" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1af28157ce60c43c8bfebca7aeb8282168" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTEbmDat::nTotMacroPart</definition>
+        <argsstring></argsstring>
+        <name>nTotMacroPart</name>
+        <qualifiedname>srTEbmDat::nTotMacroPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="52" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_ebm_dat_1a778f5310f8f5e1d908700fcb19448cab" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTEbmDat::InputWasModified</definition>
+        <argsstring></argsstring>
+        <name>InputWasModified</name>
+        <qualifiedname>srTEbmDat::InputWasModified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="54" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_ebm_dat_1ac5c07f23bf802b9d01eba99ab900e59c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEbmDat::srTEbmDat</definition>
+        <argsstring>()</argsstring>
+        <name>srTEbmDat</name>
+        <qualifiedname>srTEbmDat::srTEbmDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="56" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a161367ba4cdfe26ab11f33d07ecbc591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEbmDat::srTEbmDat</definition>
+        <argsstring>(double I, double InNeb, double *pMom1, int nMom1, double *pMom2, int nMom2, double s, int nq=-1)</argsstring>
+        <name>srTEbmDat</name>
+        <qualifiedname>srTEbmDat::srTEbmDat</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InNeb</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pMom1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nMom1</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pMom2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nMom2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nq</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="60" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="60" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a8d37d029223ae4e12660c7bb3b84c983" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEbmDat::PresetAll</definition>
+        <argsstring>()</argsstring>
+        <name>PresetAll</name>
+        <qualifiedname>srTEbmDat::PresetAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="109" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="109" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a67cae74bc06e2a76b2b05990785a5da4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEbmDat::SetupGamma</definition>
+        <argsstring>(double ElectronEnergyInGeV)</argsstring>
+        <name>SetupGamma</name>
+        <qualifiedname>srTEbmDat::SetupGamma</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ElectronEnergyInGeV</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="136" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="136" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a575b808dfa085b2b21bb7cd65b36aaa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEbmDat::SetNewEnergy</definition>
+        <argsstring>(double NewEnergy_GeV)</argsstring>
+        <name>SetNewEnergy</name>
+        <qualifiedname>srTEbmDat::SetNewEnergy</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>NewEnergy_GeV</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="143" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="143" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1ab74edc4c55b2dc1c7c54d0eeb24eddf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEbmDat::SetCurrentAndMom2</definition>
+        <argsstring>(double inI, double *pMom2, int nMom2)</argsstring>
+        <name>SetCurrentAndMom2</name>
+        <qualifiedname>srTEbmDat::SetCurrentAndMom2</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>inI</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pMom2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nMom2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="149" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="149" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a0f82367842181bc66a7000f2f8f88b41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEbmDat::GetMom1</definition>
+        <argsstring>(double *pMom1)</argsstring>
+        <name>GetMom1</name>
+        <qualifiedname>srTEbmDat::GetMom1</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pMom1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="177" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="177" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a7df6d7b83150f1c29e429dcd5870d6a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEbmDat::GetMom2</definition>
+        <argsstring>(double *pMom2)</argsstring>
+        <name>GetMom2</name>
+        <qualifiedname>srTEbmDat::GetMom2</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pMom2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="186" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="186" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a4ee6ad0b430d4e5fd72bf365f4cc479e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::GetSigmaE_GeV</definition>
+        <argsstring>()</argsstring>
+        <name>GetSigmaE_GeV</name>
+        <qualifiedname>srTEbmDat::GetSigmaE_GeV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="202" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="202" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a507ce536738a64b37c356f5ed9a6720e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::GetSigma_x</definition>
+        <argsstring>()</argsstring>
+        <name>GetSigma_x</name>
+        <qualifiedname>srTEbmDat::GetSigma_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="207" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="207" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a66c6666bc8bcd708b6c07ccda5add90b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::GetSigma_dxds</definition>
+        <argsstring>()</argsstring>
+        <name>GetSigma_dxds</name>
+        <qualifiedname>srTEbmDat::GetSigma_dxds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="208" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1aa2421158d73f636977fc253cb7bfb909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::GetSigma_z</definition>
+        <argsstring>()</argsstring>
+        <name>GetSigma_z</name>
+        <qualifiedname>srTEbmDat::GetSigma_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="209" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1abb49002975fb74b4e74ab7f050ac02f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::GetSigma_dzds</definition>
+        <argsstring>()</argsstring>
+        <name>GetSigma_dzds</name>
+        <qualifiedname>srTEbmDat::GetSigma_dzds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="210" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1ad498fd423592262fb9f3e8946166f5b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::GetSigma_s</definition>
+        <argsstring>()</argsstring>
+        <name>GetSigma_s</name>
+        <qualifiedname>srTEbmDat::GetSigma_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="211" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a97aa74adb58dfbbf3c21fcb7225bc7b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::EmittanceX</definition>
+        <argsstring>()</argsstring>
+        <name>EmittanceX</name>
+        <qualifiedname>srTEbmDat::EmittanceX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="213" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="213" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a08d4cc073488f5c078414ffda016f393" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::EmittanceZ</definition>
+        <argsstring>()</argsstring>
+        <name>EmittanceZ</name>
+        <qualifiedname>srTEbmDat::EmittanceZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="217" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a12d4bf30c6d0d4b1297242aeb0f3b3c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::NormalizedEmittanceX</definition>
+        <argsstring>()</argsstring>
+        <name>NormalizedEmittanceX</name>
+        <qualifiedname>srTEbmDat::NormalizedEmittanceX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="221" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="221" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1afd2a5527c0234babb3e114342952d279" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::NormalizedEmittanceZ</definition>
+        <argsstring>()</argsstring>
+        <name>NormalizedEmittanceZ</name>
+        <qualifiedname>srTEbmDat::NormalizedEmittanceZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="226" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="226" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a3ca492b3cfe4534a886c1150a4c57e5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::AlphaX</definition>
+        <argsstring>()</argsstring>
+        <name>AlphaX</name>
+        <qualifiedname>srTEbmDat::AlphaX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="231" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1ab2cb437bdac3a4ab078afb251cdc89ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::AlphaZ</definition>
+        <argsstring>()</argsstring>
+        <name>AlphaZ</name>
+        <qualifiedname>srTEbmDat::AlphaZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="235" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a5021328b018b6c61b9333fa018e91f19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::MultForPartDistrFunc</definition>
+        <argsstring>(char x_or_z)</argsstring>
+        <name>MultForPartDistrFunc</name>
+        <qualifiedname>srTEbmDat::MultForPartDistrFunc</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="240" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="240" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1ad335fd900384f294c013246bb8fd4153" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::BetaPartDistr</definition>
+        <argsstring>(char x_or_z)</argsstring>
+        <name>BetaPartDistr</name>
+        <qualifiedname>srTEbmDat::BetaPartDistr</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="245" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="245" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1ad1d14aec77d4ea78b0cf98f83d1fb8c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::GammaPartDistr</definition>
+        <argsstring>(char x_or_z)</argsstring>
+        <name>GammaPartDistr</name>
+        <qualifiedname>srTEbmDat::GammaPartDistr</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="246" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="246" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1afe1ec1237aec227b150a0bba9373ebe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::AlphaPartDistr</definition>
+        <argsstring>(char x_or_z)</argsstring>
+        <name>AlphaPartDistr</name>
+        <qualifiedname>srTEbmDat::AlphaPartDistr</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="247" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="247" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1ab655912bfc54ffca244f769545aef191" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::ThetaPartDistr</definition>
+        <argsstring>(char x_or_xp, char z_or_zp)</argsstring>
+        <name>ThetaPartDistr</name>
+        <qualifiedname>srTEbmDat::ThetaPartDistr</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_xp</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>z_or_zp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="248" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a064f6aad5a7f62a9276a4e68e3e32e00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::BgamPartDistr</definition>
+        <argsstring>()</argsstring>
+        <name>BgamPartDistr</name>
+        <qualifiedname>srTEbmDat::BgamPartDistr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="250" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="250" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a00ac7c09bbb1e930251c1ef76de180ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::PggPartDistr_NoCross</definition>
+        <argsstring>()</argsstring>
+        <name>PggPartDistr_NoCross</name>
+        <qualifiedname>srTEbmDat::PggPartDistr_NoCross</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="251" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="251" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a43bb2e9dde05b338439e1501e253bf6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::PssPartDistr_NoCross</definition>
+        <argsstring>()</argsstring>
+        <name>PssPartDistr_NoCross</name>
+        <qualifiedname>srTEbmDat::PssPartDistr_NoCross</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="252" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="252" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a72802cf8767b5a4056ea7ddf93585041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTEbmDat::Inv_B_rho</definition>
+        <argsstring>()</argsstring>
+        <name>Inv_B_rho</name>
+        <qualifiedname>srTEbmDat::Inv_B_rho</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="254" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="254" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1abc490dcb9dff22f73e2fe229faa12122" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTEbmDat::analyseDistribSymmetry</definition>
+        <argsstring>(char &amp;ElecBeamIsSymOverX, char &amp;ElecBeamIsSymOverZ)</argsstring>
+        <name>analyseDistribSymmetry</name>
+        <qualifiedname>srTEbmDat::analyseDistribSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>ElecBeamIsSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>ElecBeamIsSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="256" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="256" bodyend="265"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a02797ad202cb343b46984549c92b74de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int srTEbmDat::Mom2EmitAndTwiss</definition>
+        <argsstring>(double *pEmit, double *pBeta, double *pAlpha, double Sigma2, double SigmaPrime2, double MixMom, double SigmaE2, double Eta, double EtaPrime)</argsstring>
+        <name>Mom2EmitAndTwiss</name>
+        <qualifiedname>srTEbmDat::Mom2EmitAndTwiss</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pEmit</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBeta</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pAlpha</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Sigma2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>SigmaPrime2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MixMom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>SigmaE2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Eta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>EtaPrime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="267" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="267" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_ebm_dat_1a8d2739520abb48700b740408f8b6af87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int srTEbmDat::MomAndEmit2Twiss</definition>
+        <argsstring>(double *pBeta, double *pAlpha, double *pEta, double *pEmit, double Sigma2, double SigmaPrime2, double MixMom, double SigmaE2, double EtaPrime)</argsstring>
+        <name>MomAndEmit2Twiss</name>
+        <qualifiedname>srTEbmDat::MomAndEmit2Twiss</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pBeta</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pAlpha</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pEta</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pEmit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Sigma2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>SigmaPrime2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MixMom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>SigmaE2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>EtaPrime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="283" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="283" bodyend="317"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srebmdat_8h_source" kindref="compound">srebmdat.h</ref> Description: Electron beam class (header) Project: Synchrotron Radiation Workshop First release: 1998. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="22" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="22" bodyend="319"/>
+    <listofallmembers>
+      <member refid="classsr_t_ebm_dat_1afe1ec1237aec227b150a0bba9373ebe4" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>AlphaPartDistr</name></member>
+      <member refid="classsr_t_ebm_dat_1a3ca492b3cfe4534a886c1150a4c57e5b" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>AlphaX</name></member>
+      <member refid="classsr_t_ebm_dat_1ab2cb437bdac3a4ab078afb251cdc89ab" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>AlphaZ</name></member>
+      <member refid="classsr_t_ebm_dat_1abc490dcb9dff22f73e2fe229faa12122" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>analyseDistribSymmetry</name></member>
+      <member refid="classsr_t_ebm_dat_1ad335fd900384f294c013246bb8fd4153" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>BetaPartDistr</name></member>
+      <member refid="classsr_t_ebm_dat_1a064f6aad5a7f62a9276a4e68e3e32e00" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>BgamPartDistr</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_ebm_dat_1a1e596ca642afddc1de6525031b8b1097" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Current</name></member>
+      <member refid="classsr_t_ebm_dat_1ac2b230ab81cbd6ad71987d3328d050a5" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>CurrentPeak</name></member>
+      <member refid="classsr_t_ebm_dat_1a9fbd9bd87c78e61bc92afd40123fbf83" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>dxds0</name></member>
+      <member refid="classsr_t_ebm_dat_1a71222ec691ca05b594413c0897c202a4" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>dzds0</name></member>
+      <member refid="classsr_t_ebm_dat_1a97aa74adb58dfbbf3c21fcb7225bc7b2" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>EmittanceX</name></member>
+      <member refid="classsr_t_ebm_dat_1a08d4cc073488f5c078414ffda016f393" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>EmittanceZ</name></member>
+      <member refid="classsr_t_ebm_dat_1aca610d620e9820c72c0ee797d22d6fd8" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Energy</name></member>
+      <member refid="classsr_t_ebm_dat_1ad4de7bd97376bad5bba15e0a6a0ee923" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Gamma</name></member>
+      <member refid="classsr_t_ebm_dat_1a5119ac17ed86e6255ff796f44308773b" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GammaEm2</name></member>
+      <member refid="classsr_t_ebm_dat_1ad1d14aec77d4ea78b0cf98f83d1fb8c2" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GammaPartDistr</name></member>
+      <member refid="classsr_t_ebm_dat_1a0f82367842181bc66a7000f2f8f88b41" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetMom1</name></member>
+      <member refid="classsr_t_ebm_dat_1a7df6d7b83150f1c29e429dcd5870d6a7" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetMom2</name></member>
+      <member refid="classsr_t_ebm_dat_1a66c6666bc8bcd708b6c07ccda5add90b" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetSigma_dxds</name></member>
+      <member refid="classsr_t_ebm_dat_1abb49002975fb74b4e74ab7f050ac02f4" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetSigma_dzds</name></member>
+      <member refid="classsr_t_ebm_dat_1ad498fd423592262fb9f3e8946166f5b3" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetSigma_s</name></member>
+      <member refid="classsr_t_ebm_dat_1a507ce536738a64b37c356f5ed9a6720e" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetSigma_x</name></member>
+      <member refid="classsr_t_ebm_dat_1aa2421158d73f636977fc253cb7bfb909" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetSigma_z</name></member>
+      <member refid="classsr_t_ebm_dat_1a4ee6ad0b430d4e5fd72bf365f4cc479e" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>GetSigmaE_GeV</name></member>
+      <member refid="classsr_t_ebm_dat_1ac453cd2ae24ded1f464bc9bf3665a89e" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>hStateElecDistr</name></member>
+      <member refid="classsr_t_ebm_dat_1a778f5310f8f5e1d908700fcb19448cab" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>InputWasModified</name></member>
+      <member refid="classsr_t_ebm_dat_1a72802cf8767b5a4056ea7ddf93585041" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Inv_B_rho</name></member>
+      <member refid="classsr_t_ebm_dat_1a13da3b29cd933675bb5b4ce779d2001a" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mee</name></member>
+      <member refid="classsr_t_ebm_dat_1a02797ad202cb343b46984549c92b74de" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mom2EmitAndTwiss</name></member>
+      <member refid="classsr_t_ebm_dat_1a8d2739520abb48700b740408f8b6af87" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>MomAndEmit2Twiss</name></member>
+      <member refid="classsr_t_ebm_dat_1a773ad5aedc511f999074ed57e99d297a" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mse</name></member>
+      <member refid="classsr_t_ebm_dat_1ab925a46bb8163c25af58e16c44ca9e34" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mss</name></member>
+      <member refid="classsr_t_ebm_dat_1a5021328b018b6c61b9333fa018e91f19" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>MultForPartDistrFunc</name></member>
+      <member refid="classsr_t_ebm_dat_1a25cd635edcbdfb39d2025dc0f9722ee2" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxe</name></member>
+      <member refid="classsr_t_ebm_dat_1a9c6d4164a1a73cc43ab5b7db2cd2ded4" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxpe</name></member>
+      <member refid="classsr_t_ebm_dat_1abfaf05712e2b51cad41a596e9b989606" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxps</name></member>
+      <member refid="classsr_t_ebm_dat_1a5c24f0dab53c4fb82cce09bbb23fc169" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxpxp</name></member>
+      <member refid="classsr_t_ebm_dat_1a8db6ec7c94707f943c6fdf15ee2b6734" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxpz</name></member>
+      <member refid="classsr_t_ebm_dat_1a245fa8ff9d79aa9e80baca46328863f7" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxpzp</name></member>
+      <member refid="classsr_t_ebm_dat_1a45becd8a3cd484394cbab2bb9f5aaf47" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxs</name></member>
+      <member refid="classsr_t_ebm_dat_1a70b543e3baa92df3f8fdb21a71db0f6a" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxx</name></member>
+      <member refid="classsr_t_ebm_dat_1a98d6f742a1523c886c0c2a32062f791e" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxxp</name></member>
+      <member refid="classsr_t_ebm_dat_1a0501d4809c545b8faaf655b0b240705c" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxz</name></member>
+      <member refid="classsr_t_ebm_dat_1af916479ba33d1a0e80d2f65a8ca99752" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mxzp</name></member>
+      <member refid="classsr_t_ebm_dat_1afe61bceaf0f72e425a6a3f829022ea05" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mze</name></member>
+      <member refid="classsr_t_ebm_dat_1a204982e4fd1542c53f7fddd42d3c0a82" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mzpe</name></member>
+      <member refid="classsr_t_ebm_dat_1a50c6aa2cd64ae2ef8377f4b668511826" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mzps</name></member>
+      <member refid="classsr_t_ebm_dat_1a8040dcf0467f87c715b0a8fc6efbd904" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mzpzp</name></member>
+      <member refid="classsr_t_ebm_dat_1ab7ccb593b834fdb4dd23f92bfc641a6b" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mzs</name></member>
+      <member refid="classsr_t_ebm_dat_1a666124245c52be1c2f8e839f29950072" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mzz</name></member>
+      <member refid="classsr_t_ebm_dat_1a80460472d7a906c5eb3988c504f03e28" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Mzzp</name></member>
+      <member refid="classsr_t_ebm_dat_1a68781130759462c8151aaa46861e5388" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>Neb</name></member>
+      <member refid="classsr_t_ebm_dat_1a12d4bf30c6d0d4b1297242aeb0f3b3c9" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>NormalizedEmittanceX</name></member>
+      <member refid="classsr_t_ebm_dat_1afd2a5527c0234babb3e114342952d279" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>NormalizedEmittanceZ</name></member>
+      <member refid="classsr_t_ebm_dat_1ac2309a1dbd8832c7c71d351d253c7103" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>nQ</name></member>
+      <member refid="classsr_t_ebm_dat_1af28157ce60c43c8bfebca7aeb8282168" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>nTotMacroPart</name></member>
+      <member refid="classsr_t_ebm_dat_1a965c45c637b7050d1b518019000e12de" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>pElecDistr</name></member>
+      <member refid="classsr_t_ebm_dat_1a00ac7c09bbb1e930251c1ef76de180ab" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>PggPartDistr_NoCross</name></member>
+      <member refid="classsr_t_ebm_dat_1a8d37d029223ae4e12660c7bb3b84c983" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>PresetAll</name></member>
+      <member refid="classsr_t_ebm_dat_1a43bb2e9dde05b338439e1501e253bf6f" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>PssPartDistr_NoCross</name></member>
+      <member refid="classsr_t_ebm_dat_1acf255a0a731614fce40719ebfa37d426" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>s0</name></member>
+      <member refid="classsr_t_ebm_dat_1a9560b155b4c1881c9ae0c6d99e15dee5" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>sc</name></member>
+      <member refid="classsr_t_ebm_dat_1ab74edc4c55b2dc1c7c54d0eeb24eddf6" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>SetCurrentAndMom2</name></member>
+      <member refid="classsr_t_ebm_dat_1a575b808dfa085b2b21bb7cd65b36aaa8" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>SetNewEnergy</name></member>
+      <member refid="classsr_t_ebm_dat_1a67cae74bc06e2a76b2b05990785a5da4" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>SetupGamma</name></member>
+      <member refid="classsr_t_ebm_dat_1a9d1c3f8f9326100d54d5686fd60c2b5e" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>ShotNoiseFactor</name></member>
+      <member refid="classsr_t_ebm_dat_1ad79dacf988824b93019205e89ffd227b" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>SigmaRelE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>sign</name></member>
+      <member refid="classsr_t_ebm_dat_1ac5c07f23bf802b9d01eba99ab900e59c" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>srTEbmDat</name></member>
+      <member refid="classsr_t_ebm_dat_1a161367ba4cdfe26ab11f33d07ecbc591" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>srTEbmDat</name></member>
+      <member refid="classsr_t_ebm_dat_1ab655912bfc54ffca244f769545aef191" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>ThetaPartDistr</name></member>
+      <member refid="classsr_t_ebm_dat_1a37e2b3381c0205429824378a56f6b4e1" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>TypeDistrLongitudinal</name></member>
+      <member refid="classsr_t_ebm_dat_1a4dce15a22f550939ff29b8aa517667b0" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>TypeDistrTransverse</name></member>
+      <member refid="classsr_t_ebm_dat_1aad124305e56c460b43797dad7b0c8c16" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>wElecDistr</name></member>
+      <member refid="classsr_t_ebm_dat_1acdc44cd043a3ad75aa454fbb765f98d7" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>x0</name></member>
+      <member refid="classsr_t_ebm_dat_1a3205cf8799f034d0ba9f8a23dc0b7367" prot="public" virt="non-virtual"><scope>srTEbmDat</scope><name>z0</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTEbmDat</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

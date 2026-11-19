@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_opt_cryst_mesh_trf" kind="struct" language="C++" prot="public">
+    <compoundname>srTOptCrystMeshTrf</compoundname>
+    <includes refid="sroptcryst_8h" local="no">sroptcryst.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1a8190f5060b6d1d0eb5072da6e553d454" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTOptCrystMeshTrf::xStart</definition>
+        <argsstring></argsstring>
+        <name>xStart</name>
+        <qualifiedname>srTOptCrystMeshTrf::xStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="29" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1afa4d4dd2e58e73f1c6940a57c119b2b0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTOptCrystMeshTrf::xStep</definition>
+        <argsstring></argsstring>
+        <name>xStep</name>
+        <qualifiedname>srTOptCrystMeshTrf::xStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="29" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1aa20fd744d41fcc7be9bd098851fe0a70" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTOptCrystMeshTrf::zStart</definition>
+        <argsstring></argsstring>
+        <name>zStart</name>
+        <qualifiedname>srTOptCrystMeshTrf::zStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="30" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1a18aa6c6ad710e85765f26e6b6166ac31" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTOptCrystMeshTrf::zStep</definition>
+        <argsstring></argsstring>
+        <name>zStep</name>
+        <qualifiedname>srTOptCrystMeshTrf::zStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="30" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1a74de705b925015d8824413e8042e0f7c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTOptCrystMeshTrf::matrKLabRef[2][3]</definition>
+        <argsstring>[2][3]</argsstring>
+        <name>matrKLabRef</name>
+        <qualifiedname>srTOptCrystMeshTrf::matrKLabRef</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="31" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1a64f4bb0ed2b5ac7b8533356a715065b0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTOptCrystMeshTrf::crossTermsAreLarge</definition>
+        <argsstring></argsstring>
+        <name>crossTermsAreLarge</name>
+        <qualifiedname>srTOptCrystMeshTrf::crossTermsAreLarge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="32" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1acc0f17d71bdf272523f9574042fd4a01" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTOptCrystMeshTrf::xMeshTrfIsReq</definition>
+        <argsstring></argsstring>
+        <name>xMeshTrfIsReq</name>
+        <qualifiedname>srTOptCrystMeshTrf::xMeshTrfIsReq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="32" column="25" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_opt_cryst_mesh_trf_1a03bf74650c74d5b3d2adfc720fd393cc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTOptCrystMeshTrf::zMeshTrfIsReq</definition>
+        <argsstring></argsstring>
+        <name>zMeshTrfIsReq</name>
+        <qualifiedname>srTOptCrystMeshTrf::zMeshTrfIsReq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="32" column="39" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="sroptcryst_8h_source" kindref="compound">sroptcryst.h</ref> Description: Optical element: Crystal (header) Project: Synchrotron Radiation Workshop First release: 2013. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) Brookhaven National Laboratory, Upton, NY, USA Copyright (C) Diamond Light Source, UK All Rights Reserved</para>
+<para><simplesect kind="author"><para>J.Sutter, A.Suvorov, O.Chubar, A. Rodriguez-Fernandez, I. Petrov </para>
+</simplesect>
+<simplesect kind="version"><para>1.5 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" line="28" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h" bodystart="28" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1a64f4bb0ed2b5ac7b8533356a715065b0" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>crossTermsAreLarge</name></member>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1a74de705b925015d8824413e8042e0f7c" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>matrKLabRef</name></member>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1acc0f17d71bdf272523f9574042fd4a01" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>xMeshTrfIsReq</name></member>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1a8190f5060b6d1d0eb5072da6e553d454" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>xStart</name></member>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1afa4d4dd2e58e73f1c6940a57c119b2b0" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>xStep</name></member>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1a03bf74650c74d5b3d2adfc720fd393cc" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>zMeshTrfIsReq</name></member>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1aa20fd744d41fcc7be9bd098851fe0a70" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>zStart</name></member>
+      <member refid="structsr_t_opt_cryst_mesh_trf_1a18aa6c6ad710e85765f26e6b6166ac31" prot="public" virt="non-virtual"><scope>srTOptCrystMeshTrf</scope><name>zStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1370 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.uti_io_genesis &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.uti_io_genesis</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.uti_io_genesis</h1><div class="highlight"><pre>
+<span></span><span class="c1">#############################################################################</span>
+<span class="c1">#This is a subset of Gianluca&#39;s and Ilya&#39;s module to read-in Genesis output files</span>
+<span class="c1">#and to generate SRW wavefront structure</span>
+<span class="c1">#############################################################################</span>
+
+<span class="c1">#from mpi4py import MPI</span>
+<span class="c1">#comm  = MPI.COMM_WORLD   #Creates one common object &quot;communicator&quot; knwoning about processes</span>
+<span class="c1">#rank  = comm.Get_rank()  #Process number</span>
+<span class="c1">#nproc = comm.Get_size()  #Total number of processes</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">print_function</span>
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC04032024</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="k">except</span><span class="p">:</span>
+<span class="c1">#finally:</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1">#import string #Python 2.7 compatibility</span>
+<span class="c1">#from srwlib import *</span>
+
+<span class="c1">#from xframework.adaptors.genesis import *</span>
+<span class="c1">##################from ocelot.adaptors.genesis import *</span>
+
+<span class="c1">#from prop_lines import *</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">copy</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">struct</span>
+
+<span class="c1">#from scipy import interpolate</span>
+
+<span class="c1">##################################################################################################################</span>
+<span class="c1">############################################ ROUTINES FROM OCELOT ################################################</span>
+<span class="c1">####                                                                                                          ####</span>
+<span class="c1">#### These are to read the Genesis Output file; necessary here in order to make the module &#39;standalone&#39; ##########</span>
+<span class="c1">#######                                          i.e. without Ocelot                                    ##########</span>
+<span class="c1">##################################################################################################################              </span>
+
+<span class="c1">#import numpy as np</span>
+<span class="c1">#from copy import copy, deepcopy</span>
+
+<div class="viewcode-block" id="GenesisOutput">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io_genesis.GenesisOutput">[docs]</a>
+<span class="k">class</span><span class="w"> </span><span class="nc">GenesisOutput</span><span class="p">:</span>
+    
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">z</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">I</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">n</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">zSlice</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">E</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">aw</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">qfld</span> <span class="o">=</span> <span class="p">[]</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">sliceKeys</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sliceValues</span> <span class="o">=</span> <span class="p">{}</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">parameters</span> <span class="o">=</span> <span class="p">{}</span>
+    
+    <span class="k">def</span><span class="w"> </span><span class="fm">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        if name not in self.__dict__.keys():</span>
+<span class="sd">            return 0</span>
+<span class="sd">        else:</span>
+<span class="sd">            return self.__dict__[name]</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">parameters</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="k">return</span> <span class="mf">0.0</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">p</span><span class="p">,</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parameters</span><span class="p">[</span><span class="n">name</span><span class="p">]</span>
+            <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">,</span><span class="s1">&#39;E&#39;</span><span class="p">))</span></div>
+
+        
+
+<span class="c1">#******************************************************************************</span>
+<div class="viewcode-block" id="uti_io_read_Genesis_output">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io_genesis.uti_io_read_Genesis_output">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_io_read_Genesis_output</span><span class="p">(</span><span class="n">fileName</span><span class="p">,</span> <span class="n">_short</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<span class="c1">#def readGenesisOutput(fileName, ):</span>
+
+    <span class="n">out</span> <span class="o">=</span> <span class="n">GenesisOutput</span><span class="p">()</span>
+    
+    <span class="n">chunk</span> <span class="o">=</span> <span class="s1">&#39;header&#39;</span>
+    
+    <span class="c1">#nSlice = 0</span>
+    
+    <span class="n">f</span><span class="o">=</span><span class="nb">open</span><span class="p">(</span><span class="n">fileName</span><span class="p">,</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+
+        <span class="c1">#print(line)</span>
+        
+        <span class="c1">#tokens = line.replace(&#39;=&#39;, &#39; &#39;).split()</span>
+        <span class="n">tokens</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="c1">#chunk = &#39;none&#39;</span>
+            <span class="k">continue</span>
+        
+        <span class="k">if</span> <span class="n">tokens</span> <span class="o">==</span> <span class="p">[</span><span class="s1">&#39;z[m]&#39;</span><span class="p">,</span> <span class="s1">&#39;aw&#39;</span><span class="p">,</span> <span class="s1">&#39;qfld&#39;</span><span class="p">]:</span>
+
+            <span class="k">if</span><span class="p">(</span><span class="n">_short</span><span class="p">):</span> <span class="k">return</span> <span class="n">out</span> <span class="c1">#OC</span>
+            
+            <span class="n">chunk</span> <span class="o">=</span> <span class="s1">&#39;optics&#39;</span>
+            <span class="c1">#print &#39;reading optics &#39;</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;reading optics&#39;</span><span class="p">)</span>
+            <span class="k">continue</span>
+        
+        <span class="k">if</span> <span class="n">tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Input&#39;</span><span class="p">:</span>
+            <span class="n">chunk</span> <span class="o">=</span> <span class="s1">&#39;input&#39;</span>
+            <span class="c1">#print &#39;reading input parameters&#39;</span>
+            <span class="c1">#print(&#39;reading input parameters&#39;)</span>
+            <span class="k">continue</span>
+        
+        <span class="c1">#********** output: slice    10</span>
+        <span class="k">if</span> <span class="n">tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;**********&#39;</span><span class="p">:</span>
+            <span class="c1">#print &#39;slice:&#39;, tokens[3]</span>
+            <span class="n">chunk</span> <span class="o">=</span> <span class="s1">&#39;slices&#39;</span>
+            <span class="n">nSlice</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+         
+        <span class="k">if</span> <span class="n">tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;power&#39;</span><span class="p">:</span>
+            <span class="n">chunk</span> <span class="o">=</span> <span class="s1">&#39;slice&#39;</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">sliceKeys</span> <span class="o">=</span> <span class="n">copy</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
+            <span class="c1">#out.sliceValues[nSlice] = copy.copy(tokens)</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">sliceValues</span><span class="p">[</span><span class="n">nSlice</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)):</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">sliceValues</span><span class="p">[</span><span class="n">nSlice</span><span class="p">][</span><span class="n">out</span><span class="o">.</span><span class="n">sliceKeys</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="c1">#print &#39;reading slices&#39;</span>
+            <span class="c1">#print out.sliceKeys</span>
+            <span class="c1">#print out.sliceValues[nSlice]</span>
+            <span class="k">continue</span>
+            
+        <span class="k">if</span> <span class="n">chunk</span> <span class="o">==</span> <span class="s1">&#39;optics&#39;</span><span class="p">:</span>
+            <span class="n">z</span><span class="p">,</span><span class="n">aw</span><span class="p">,</span><span class="n">qfld</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span><span class="n">tokens</span><span class="p">)</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">z</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">aw</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">aw</span><span class="p">)</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">qfld</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">qfld</span><span class="p">)</span>
+            
+        <span class="k">if</span> <span class="n">chunk</span> <span class="o">==</span> <span class="s1">&#39;input&#39;</span><span class="p">:</span>
+            <span class="c1">#tokens=line.replace(&#39;=&#39;,&#39;&#39;).strip().split()</span>
+            <span class="n">tokens</span><span class="o">=</span><span class="n">line</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="p">,</span><span class="s1">&#39; &#39;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="c1">#OC: fix to ensure correct parsing of tokens like &#39;nslice=10932&#39;</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">parameters</span><span class="p">[</span><span class="n">tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+            <span class="c1">#print(&#39;input:&#39;, tokens)</span>
+
+        <span class="k">if</span> <span class="n">chunk</span> <span class="o">==</span> <span class="s1">&#39;slice&#39;</span><span class="p">:</span>
+
+            <span class="n">vals</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">float</span><span class="p">,</span><span class="n">tokens</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">hexversion</span> <span class="o">&gt;=</span> <span class="mh">0x030000F0</span><span class="p">:</span> <span class="n">vals</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">vals</span><span class="p">)</span> <span class="c1">#OC: for compatibility with Py3</span>
+            
+            <span class="c1">#print vals</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">vals</span><span class="p">)):</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">sliceValues</span><span class="p">[</span><span class="n">nSlice</span><span class="p">][</span><span class="n">out</span><span class="o">.</span><span class="n">sliceKeys</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">vals</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            
+            <span class="c1">#out.zSlice.append(vals[2])</span>
+            <span class="c1">#out.aw.append(aw)</span>
+            <span class="c1">#out.qfld.append(qfld)</span>
+
+        <span class="k">if</span> <span class="n">chunk</span> <span class="o">==</span> <span class="s1">&#39;slices&#39;</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">tokens</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;current&#39;</span><span class="p">:</span>
+                <span class="c1">#print tokens[1]</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">I</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">n</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nSlice</span><span class="p">)</span>
+
+    <span class="c1">#out.nSlices = int(out(&#39;nslice&#39;))</span>
+    <span class="c1">#out.nSlices = len(out.sliceValues) </span>
+    <span class="c1">#out.nZ = len(out.sliceValues[1][out.sliceKeys[0]])</span>
+
+    <span class="c1">#print &#39;nSlice&#39;, out.nSlices</span>
+    <span class="c1">#print &#39;nZ&#39;, out.nZ</span>
+    <span class="c1">#print(&#39;nSlice&#39;, out.nSlices)</span>
+    <span class="c1">#print(&#39;nZ&#39;, out.nZ)</span>
+
+    <span class="k">return</span> <span class="n">out</span></div>
+
+
+<span class="c1">#******************************************************************************</span>
+<span class="c1">#def uti_io_read_Genesis_rad(fileName=&#39;simulation.gout.dfl&#39;, npoints=51, slice_start=0, slice_end = -1, idx=None):</span>
+<div class="viewcode-block" id="uti_io_read_Genesis_rad">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io_genesis.uti_io_read_Genesis_rad">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_io_read_Genesis_rad</span><span class="p">(</span><span class="n">fileName</span><span class="o">=</span><span class="s1">&#39;simulation.gout.dfl&#39;</span><span class="p">,</span> <span class="n">_ncar</span><span class="o">=</span><span class="mi">51</span><span class="p">,</span> <span class="n">_mult</span><span class="o">=</span><span class="mf">1.</span><span class="p">,</span> <span class="n">_slice_skip_per</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_slice_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_slice_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">_align_out</span><span class="o">=</span><span class="s1">&#39;txy&#39;</span><span class="p">):</span>
+    
+    <span class="c1">#def read_in_chunks(_file, _size=1024):</span>
+    <span class="c1">#    while True:</span>
+    <span class="c1">#        data = _file.read(_size)</span>
+    <span class="c1">#        if not data:</span>
+    <span class="c1">#            break</span>
+    <span class="c1">#        yield data</span>
+
+    <span class="c1">#def read_in_data_block(_file, _ofst=0, _size=1024):</span>
+    <span class="c1">#    if(_ofst &gt; 0): _file.seek(_ofst)</span>
+    <span class="c1">#    return _file.read(_size)</span>
+
+    <span class="n">ncarE2</span> <span class="o">=</span> <span class="n">_ncar</span><span class="o">*</span><span class="n">_ncar</span>
+    <span class="n">slice_size</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">ncarE2</span><span class="o">*</span><span class="mi">16</span><span class="p">)</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">fileName</span><span class="p">,</span><span class="s1">&#39;rb&#39;</span><span class="p">)</span>
+    
+    <span class="n">f</span><span class="o">.</span><span class="n">seek</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+    <span class="c1">#total_data_len = f.tell() / 8 / 2</span>
+    <span class="n">total_data_len</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">tell</span><span class="p">()</span> <span class="o">/</span> <span class="mi">16</span> <span class="c1"># = _ncar*_ncar*n_slice</span>
+
+    <span class="n">nSliceTot</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">total_data_len</span><span class="o">/</span><span class="n">ncarE2</span><span class="p">))</span>
+    <span class="n">iSliceEnd</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">_slice_end</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_slice_end</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">):</span> <span class="n">iSliceEnd</span> <span class="o">=</span> <span class="n">nSliceTot</span> <span class="o">-</span> <span class="mi">1</span>
+
+    <span class="n">nSliceToRead</span> <span class="o">=</span> <span class="nb">int</span><span class="p">((</span><span class="n">iSliceEnd</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">_slice_start</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">_slice_skip_per</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+    <span class="n">nResVal</span> <span class="o">=</span> <span class="n">nSliceToRead</span><span class="o">*</span><span class="n">ncarE2</span><span class="o">*</span><span class="mi">2</span>
+    
+    <span class="c1">#print(&#39;starting array allocation...&#39;)</span>
+    <span class="n">resFldData</span> <span class="o">=</span> <span class="n">srwl_uti_array_alloc</span><span class="p">(</span><span class="s1">&#39;f&#39;</span><span class="p">,</span> <span class="n">nResVal</span><span class="p">)</span>
+    <span class="c1">#print(&#39;done&#39;)</span>
+
+    <span class="c1">#if _slice_start &gt; 0:</span>
+    <span class="c1">#    f.seek(slice_size*slice_start,0)</span>
+
+    <span class="c1">#if slice_end &gt; 0:</span>
+    <span class="c1">#    data_size = (slice_end - slice_start) * slice_size</span>
+    <span class="c1">#else:</span>
+    <span class="c1">#    data_size = total_data_len * 16 - (slice_start) * slice_size</span>
+
+    <span class="c1">#print(&#39;slice size = &#39;, slice_size)</span>
+    <span class="c1">#print(&#39;data size = &#39;, data_size)</span>
+    <span class="c1">#print(&#39;total_data_len = &#39;, total_data_len)</span>
+    
+    <span class="c1">#ncar = int(np.sqrt((slice_size/16)))</span>
+    <span class="c1">#print(&#39;ncar=&#39;, ncar)</span>
+    
+    <span class="c1">#n_slices = total_data_len / (slice_size/16)</span>
+    
+    <span class="c1">#if idx == None:</span>
+        <span class="c1">#slices = np.zeros([n_slices,ncar,ncar], dtype=complex)</span>
+        <span class="c1">#slices = array(&#39;f&#39;, [0]*(n_slices*ncar*ncar*2))</span>
+        <span class="c1">#slices = srwl_uti_array_alloc(&#39;f&#39;, (total_data_len*2))</span>
+    <span class="c1">#else:</span>
+        <span class="c1">#slices = np.zeros([len(idx),ncar,ncar], dtype=complex)</span>
+        <span class="c1">#slices = array(&#39;f&#39;, [0]*(len(idx)*ncar*ncar*2))</span>
+        <span class="c1">#slices = srwl_uti_array_alloc(&#39;f&#39;, (len(idx)*ncarE2*2))</span>
+
+    <span class="n">perT</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">perX</span> <span class="o">=</span> <span class="n">nSliceToRead</span><span class="o">*</span><span class="n">perT</span>
+    <span class="n">perY</span> <span class="o">=</span> <span class="n">perX</span><span class="o">*</span><span class="n">_ncar</span>
+
+    <span class="k">if</span><span class="p">((</span><span class="n">_align_out</span> <span class="o">==</span> <span class="s1">&#39;xyt&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_align_out</span> <span class="o">==</span> <span class="s1">&#39;xye&#39;</span><span class="p">)):</span>
+        <span class="n">perX</span> <span class="o">=</span> <span class="mi">2</span>
+        <span class="n">perY</span> <span class="o">=</span> <span class="n">perX</span><span class="o">*</span><span class="n">_ncar</span>
+        <span class="n">perT</span> <span class="o">=</span> <span class="n">perY</span><span class="o">*</span><span class="n">_ncar</span>
+    <span class="k">elif</span><span class="p">((</span><span class="n">_align_out</span> <span class="o">==</span> <span class="s1">&#39;yxt&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_align_out</span> <span class="o">==</span> <span class="s1">&#39;yxe&#39;</span><span class="p">)):</span>
+        <span class="n">perY</span> <span class="o">=</span> <span class="mi">2</span>
+        <span class="n">perX</span> <span class="o">=</span> <span class="n">perY</span><span class="o">*</span><span class="n">_ncar</span>
+        <span class="n">perT</span> <span class="o">=</span> <span class="n">perX</span><span class="o">*</span><span class="n">_ncar</span>
+    <span class="c1">#else...</span>
+
+    <span class="n">nSliceToRead_mi1</span> <span class="o">=</span> <span class="n">nSliceToRead</span> <span class="o">-</span> <span class="mi">1</span>
+
+    <span class="n">ofstFile</span> <span class="o">=</span> <span class="n">_slice_start</span><span class="o">*</span><span class="n">slice_size</span>
+    <span class="n">ofstFileStep</span> <span class="o">=</span> <span class="n">_slice_skip_per</span><span class="o">*</span><span class="n">slice_size</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">seek</span><span class="p">(</span><span class="n">ofstFile</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">iSlice</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nSliceToRead</span><span class="p">):</span>
+        <span class="n">piece</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">slice_size</span><span class="p">)</span>
+        <span class="n">iSlice_perT</span> <span class="o">=</span> <span class="n">iSlice</span><span class="o">*</span><span class="n">perT</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">iy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_ncar</span><span class="p">):</span>
+            <span class="n">iy_perY</span> <span class="o">=</span> <span class="n">iy</span><span class="o">*</span><span class="n">perY</span>
+            <span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_ncar</span><span class="p">):</span>
+                <span class="n">ofstRes</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">iSlice_perT</span> <span class="o">+</span> <span class="n">ix</span><span class="o">*</span><span class="n">perX</span> <span class="o">+</span> <span class="n">iy_perY</span><span class="p">)</span>
+                <span class="n">i16</span> <span class="o">=</span> <span class="n">i</span><span class="o">*</span><span class="mi">16</span>
+                <span class="n">i16p8</span> <span class="o">=</span> <span class="n">i16</span> <span class="o">+</span> <span class="mi">8</span>
+                <span class="n">resFldData</span><span class="p">[</span><span class="n">ofstRes</span><span class="p">]</span> <span class="o">=</span> <span class="n">_mult</span><span class="o">*</span><span class="p">(</span><span class="n">struct</span><span class="o">.</span><span class="n">unpack</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="n">piece</span><span class="p">[</span><span class="n">i16</span> <span class="p">:</span> <span class="n">i16p8</span><span class="p">])[</span><span class="mi">0</span><span class="p">])</span>
+                <span class="n">resFldData</span><span class="p">[</span><span class="n">ofstRes</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">_mult</span><span class="o">*</span><span class="p">(</span><span class="n">struct</span><span class="o">.</span><span class="n">unpack</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="n">piece</span><span class="p">[</span><span class="n">i16p8</span> <span class="p">:</span> <span class="n">i16p8</span> <span class="o">+</span> <span class="mi">8</span><span class="p">])[</span><span class="mi">0</span><span class="p">])</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">_slice_skip_per</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">iSlice</span> <span class="o">&lt;</span> <span class="n">nSliceToRead_mi1</span><span class="p">):</span> <span class="n">f</span><span class="o">.</span><span class="n">seek</span><span class="p">(</span><span class="n">ofstFileStep</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="c1">#move to next read position</span>
+
+        <span class="c1">#print(&#39;slices read:&#39;, iSlice)</span>
+    <span class="k">return</span> <span class="n">resFldData</span></div>
+
+
+<span class="c1">#******************************************************************************</span>
+<div class="viewcode-block" id="uti_io_set_wfr_from_Genesis_files">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io_genesis.uti_io_set_wfr_from_Genesis_files">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_io_set_wfr_from_Genesis_files</span><span class="p">(</span><span class="n">_fpGenOut</span><span class="p">,</span> <span class="n">_fpGenRad</span><span class="p">,</span> <span class="n">_pol</span><span class="o">=</span><span class="s1">&#39;h&#39;</span><span class="p">,</span> <span class="n">_slice_skip_per</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_slice_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_slice_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">):</span> <span class="c1">#OC18122023</span>
+<span class="c1">#def uti_io_set_wfr_from_Genesis_files(_fpGenOut, _fpGenRad, _pol=&#39;h&#39;, _slice_skip_per=0, _slice_start=0, _slice_end=-1):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Sets up SRW wavefront from Genesis output</span>
+<span class="sd">    :param _fpGenOut: file path to Genesis Output file</span>
+<span class="sd">    :param _fpGenRad: file path to Genesis Radiation file</span>
+<span class="sd">    :param _pol: polarization (&#39;h&#39; for horizontal, &#39;v&#39; for vertical,...)</span>
+<span class="sd">    :param _slice_skip_per: number of consequtive slice to skip after reading-in one slice</span>
+<span class="sd">    :param _slice_start: first slice number (in the Genesis file) to read in</span>
+<span class="sd">    :param _slice_end: last slice number (in the Genesis file) to read in</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14159265358979</span>
+    <span class="n">lightSpeed</span> <span class="o">=</span> <span class="mf">2.9979245812E+08</span> <span class="c1">#Speed of Light [m/c]</span>
+    <span class="n">light_eV_mu</span> <span class="o">=</span> <span class="mf">1.23984186</span>
+    <span class="c1">#vacimp = 376.7303135 #Vacuum impedance in Ohms</span>
+    <span class="c1">#eev = 510998.902 #Energy units (mc^2) in eV</span>
+
+    <span class="n">fpGenOutIsStr</span> <span class="o">=</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_fpGenOut</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="c1">#OC18122023</span>
+    
+    <span class="k">if</span><span class="p">(</span><span class="n">fpGenOutIsStr</span><span class="p">):</span> <span class="c1">#OC18122023</span>
+
+        <span class="n">outGenesis</span> <span class="o">=</span> <span class="n">uti_io_read_Genesis_output</span><span class="p">(</span><span class="n">_fpGenOut</span><span class="p">)</span>
+    
+        <span class="n">ncar</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;ncar&#39;</span><span class="p">))</span>
+        <span class="n">zrayl</span> <span class="o">=</span> <span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;zrayl&#39;</span><span class="p">)</span>
+        <span class="n">rmax0</span> <span class="o">=</span> <span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;rmax0&#39;</span><span class="p">)</span>
+        <span class="n">xlamds</span> <span class="o">=</span> <span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;xlamds&#39;</span><span class="p">)</span>
+        <span class="n">rxbeam</span> <span class="o">=</span> <span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;rxbeam&#39;</span><span class="p">)</span>
+        <span class="n">rybeam</span> <span class="o">=</span> <span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;rybeam&#39;</span><span class="p">)</span>
+        <span class="n">zsep</span> <span class="o">=</span> <span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;zsep&#39;</span><span class="p">)</span>
+        <span class="n">ntail</span> <span class="o">=</span> <span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;ntail&#39;</span><span class="p">)</span>
+        <span class="n">itdp</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">outGenesis</span><span class="p">(</span><span class="s1">&#39;itdp&#39;</span><span class="p">))</span>
+        <span class="c1">#xlamd = outGenesis(&#39;xlamd&#39;)</span>
+
+        <span class="n">w0</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">zrayl</span><span class="o">*</span><span class="n">xlamds</span><span class="o">/</span><span class="n">pi</span><span class="p">)</span>
+        <span class="n">sigrB</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">rxbeam</span><span class="o">*</span><span class="n">rxbeam</span> <span class="o">+</span> <span class="n">rybeam</span><span class="o">*</span><span class="n">rybeam</span><span class="p">)</span>
+        <span class="n">dGrid</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">rmax0</span><span class="o">*</span><span class="p">(</span><span class="n">sigrB</span> <span class="o">+</span> <span class="n">w0</span><span class="p">)</span> <span class="c1">#Mesh from -grid to +grid; This is the genesis input parameter dgrid/2</span>
+    
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">_fpGenOut</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span> <span class="c1">#OC18122023</span>
+
+        <span class="n">ncar</span> <span class="o">=</span> <span class="n">_fpGenOut</span><span class="p">[</span><span class="s1">&#39;ncar&#39;</span><span class="p">]</span>
+        <span class="n">dGrid</span> <span class="o">=</span> <span class="n">_fpGenOut</span><span class="p">[</span><span class="s1">&#39;dgrid&#39;</span><span class="p">]</span>
+        <span class="n">xlamds</span> <span class="o">=</span> <span class="n">_fpGenOut</span><span class="p">[</span><span class="s1">&#39;xlamds&#39;</span><span class="p">]</span>
+        <span class="n">zsep</span> <span class="o">=</span> <span class="n">_fpGenOut</span><span class="p">[</span><span class="s1">&#39;zsep&#39;</span><span class="p">]</span>
+        <span class="n">ntail</span> <span class="o">=</span> <span class="n">_fpGenOut</span><span class="p">[</span><span class="s1">&#39;ntail&#39;</span><span class="p">]</span>
+        <span class="n">itdp</span> <span class="o">=</span> <span class="n">_fpGenOut</span><span class="p">[</span><span class="s1">&#39;itdp&#39;</span><span class="p">]</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Unrecognized radiation parameters structure&#39;</span><span class="p">)</span>
+
+    <span class="n">photEn_xlamds</span> <span class="o">=</span> <span class="n">light_eV_mu</span><span class="o">*</span><span class="mf">1.e-06</span><span class="o">/</span><span class="n">xlamds</span>
+
+    <span class="c1">#This defines a constant to be used for conversion (multiplication) of GENESIS Electric field</span>
+    <span class="c1">#to SRW TD Electric Field in units of sqrt(W/mm^2)</span>
+    <span class="c1">#xkper0 = 2*pi/xlamd #undulator &quot;wavenumber&quot;</span>
+    <span class="c1">#xks = 2*pi/xlamds</span>
+    <span class="c1">#convE_Gen2SRW = (1e-03)*xkper0*xkper0*eev/(xks*sqrt(vacimp))</span>
+
+    <span class="n">xStep</span> <span class="o">=</span> <span class="mf">2.</span><span class="o">*</span><span class="n">dGrid</span><span class="o">/</span><span class="p">(</span><span class="n">ncar</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">convE_Gen2SRW</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="mf">1.e-06</span><span class="o">/</span><span class="p">(</span><span class="n">xStep</span><span class="o">*</span><span class="n">xStep</span><span class="p">))</span> <span class="c1">#? See Genesis 1.3 manual, page 41</span>
+    <span class="c1">#convE_Gen2SRW = 1. #?</span>
+    <span class="c1">#print(&#39;convE_Gen2SRW=&#39;, convE_Gen2SRW)</span>
+
+    <span class="n">arEx</span> <span class="o">=</span> <span class="n">uti_io_read_Genesis_rad</span><span class="p">(</span><span class="n">_fpGenRad</span><span class="p">,</span> <span class="n">ncar</span><span class="p">,</span> <span class="n">_mult</span><span class="o">=</span><span class="n">convE_Gen2SRW</span><span class="p">,</span> <span class="n">_slice_skip_per</span><span class="o">=</span><span class="n">_slice_skip_per</span><span class="p">)</span>
+    <span class="n">lenArE</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arEx</span><span class="p">)</span>
+    <span class="n">nt</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">lenArE</span><span class="o">/</span><span class="p">(</span><span class="n">ncar</span><span class="o">*</span><span class="n">ncar</span><span class="o">*</span><span class="mi">2</span><span class="p">)))</span>
+    <span class="n">arEy</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_pol</span> <span class="o">==</span> <span class="s1">&#39;v&#39;</span><span class="p">):</span> <span class="c1">#to treat circular polarization!?</span>
+        <span class="n">arEy</span> <span class="o">=</span> <span class="n">arEx</span>
+        <span class="n">arEx</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">arEx</span> <span class="o">==</span> <span class="kc">None</span><span class="p">):</span> <span class="n">arEx</span> <span class="o">=</span> <span class="n">srwl_uti_array_alloc</span><span class="p">(</span><span class="s1">&#39;f&#39;</span><span class="p">,</span> <span class="n">lenArE</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">arEy</span> <span class="o">==</span> <span class="kc">None</span><span class="p">):</span> <span class="n">arEy</span> <span class="o">=</span> <span class="n">srwl_uti_array_alloc</span><span class="p">(</span><span class="s1">&#39;f&#39;</span><span class="p">,</span> <span class="n">lenArE</span><span class="p">)</span>
+
+    <span class="n">tStepOrig</span> <span class="o">=</span> <span class="n">xlamds</span><span class="o">*</span><span class="n">zsep</span><span class="o">/</span><span class="n">lightSpeed</span><span class="p">;</span>
+    <span class="n">tStep</span> <span class="o">=</span> <span class="n">tStepOrig</span><span class="o">*</span><span class="p">(</span><span class="n">_slice_skip_per</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">tStartOrig</span> <span class="o">=</span> <span class="n">xlamds</span><span class="o">*</span><span class="n">zsep</span><span class="o">*</span><span class="n">ntail</span><span class="o">/</span><span class="n">lightSpeed</span><span class="p">;</span>
+    <span class="n">tStart</span> <span class="o">=</span> <span class="n">tStartOrig</span> <span class="o">+</span> <span class="n">_slice_start</span><span class="o">*</span><span class="n">tStepOrig</span>
+    <span class="n">tEnd</span> <span class="o">=</span> <span class="n">tStart</span> <span class="o">+</span> <span class="n">tStep</span><span class="o">*</span><span class="p">(</span><span class="n">nt</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">presFT</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#presentation/domain: 0- frequency (photon energy), 1- time</span>
+    
+    <span class="k">if</span><span class="p">(</span><span class="n">itdp</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="n">tStart</span> <span class="o">=</span> <span class="n">photEn_xlamds</span> <span class="c1">#to treat harmonics!!!</span>
+        <span class="n">tStep</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">presFT</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="n">wfr</span> <span class="o">=</span> <span class="n">SRWLWfr</span><span class="p">(</span><span class="n">arEx</span><span class="p">,</span> <span class="n">arEy</span><span class="p">,</span> <span class="n">_typeE</span><span class="o">=</span><span class="s1">&#39;f&#39;</span><span class="p">,</span>
+                  <span class="n">_eStart</span><span class="o">=</span><span class="n">tStart</span><span class="p">,</span> <span class="n">_eFin</span><span class="o">=</span><span class="n">tEnd</span><span class="p">,</span> <span class="n">_ne</span><span class="o">=</span><span class="n">nt</span><span class="p">,</span>
+                  <span class="n">_xStart</span><span class="o">=-</span><span class="n">dGrid</span><span class="p">,</span> <span class="n">_xFin</span><span class="o">=</span><span class="n">dGrid</span><span class="p">,</span> <span class="n">_nx</span><span class="o">=</span><span class="n">ncar</span><span class="p">,</span>
+                  <span class="n">_yStart</span><span class="o">=-</span><span class="n">dGrid</span><span class="p">,</span> <span class="n">_yFin</span><span class="o">=</span><span class="n">dGrid</span><span class="p">,</span> <span class="n">_ny</span><span class="o">=</span><span class="n">ncar</span><span class="p">,</span> <span class="n">_zStart</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">wfr</span><span class="o">.</span><span class="n">avgPhotEn</span> <span class="o">=</span> <span class="n">photEn_xlamds</span>
+    <span class="n">wfr</span><span class="o">.</span><span class="n">presFT</span> <span class="o">=</span> <span class="n">presFT</span>
+    <span class="n">wfr</span><span class="o">.</span><span class="n">unitElFld</span> <span class="o">=</span> <span class="mi">2</span> <span class="c1">#electric field units are sqrt(J/eV/mm^2) or sqrt(W/mm^2), depending on representation (freq. or time)</span>
+
+    <span class="k">return</span> <span class="n">wfr</span></div>
+
+
+
+<span class="sd">&#39;&#39;&#39;    </span>
+<span class="sd">    n = 0</span>
+<span class="sd">    #id = 0</span>
+<span class="sd">    iss = 0</span>
+<span class="sd">    </span>
+<span class="sd">    numSlicesToReadAtOnce = 10 #to tune</span>
+
+<span class="sd">    #for piece in read_in_chunks(f, size  = slice_size):</span>
+<span class="sd">    for piece in read_in_chunks(f, size = numSlicesToReadAtOnce*slice_size):</span>
+
+<span class="sd">        print(&#39;slices read:&#39;, iss)</span>
+
+<span class="sd">        for iSliceRead in range(numSlicesToReadAtOnce):</span>
+
+<span class="sd">            if (idx == None) or (n in idx):</span>
+<span class="sd">                #print &#39;reading&#39;, n</span>
+<span class="sd">                #if ( len(piece) / 16 != ncar**2):</span>
+<span class="sd">                    #print &#39;warning, wrong slice size&#39;</span>
+<span class="sd">                    #print(&#39;warning, wrong slice size&#39;)</span>
+<span class="sd">        </span>
+<span class="sd">                #for i in xrange(len(piece) / 16 ):</span>
+<span class="sd">                for i in range(ncarE2): #OC: for compatibility with Py3</span>
+<span class="sd">                </span>
+<span class="sd">                    i2 = i % _ncar</span>
+<span class="sd">                    i1 = int(i / _ncar)</span>
+<span class="sd">                    #print struct.unpack(&#39;d&#39;,piece[16*i:16*i+8])</span>
+<span class="sd">                    #slices[id,i1,i2] = struct.unpack(&#39;d&#39;,piece[16*i:16*i+8])[0] + 1j*struct.unpack(&#39;d&#39;,piece[16*i+8:16*(i+1)])[0]</span>
+<span class="sd">                    ofst = iss + i1*perX + i2*perY</span>
+<span class="sd">                    slices[ofst] = struct.unpack(&#39;d&#39;, piece[16*i:16*i+8])[0]</span>
+<span class="sd">                    slices[ofst + 1] = struct.unpack(&#39;d&#39;, piece[16*i+8:16*(i+1)])[0]</span>
+
+<span class="sd">                    #if(slices[ofst] != 0.): print(slices[ofst], slices[ofst + 1])</span>
+
+<span class="sd">                #print(&#39;slice #&#39;, iss, &#39; read&#39;)</span>
+
+<span class="sd">                #id += 1</span>
+<span class="sd">                iss += 1</span>
+<span class="sd">            n += 1</span>
+<span class="sd">    </span>
+<span class="sd">    #print(&#39;read slices: &#39;, slices.shape)</span>
+<span class="sd">    return slices</span>
+
+
+<span class="sd">def readRadiationFile_mpi(comm=None, fileName=&#39;simulation.gout.dfl&#39;, npoints=51):</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">    not advisable to be used with very small n_proc due to memory overhead ~ file_size / n_proc  </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">    from mpi4py import MPI</span>
+<span class="sd">    </span>
+<span class="sd">    def read_in_chunks(file, size=1024):</span>
+<span class="sd">        while True:</span>
+<span class="sd">            data = file.read(size)</span>
+<span class="sd">            if not data:</span>
+<span class="sd">                break</span>
+<span class="sd">            yield data</span>
+
+<span class="sd">    </span>
+<span class="sd">    rank = comm.Get_rank()</span>
+<span class="sd">    nproc = comm.Get_size()</span>
+<span class="sd">        </span>
+<span class="sd">    f = open(fileName,&#39;rb&#39;)</span>
+<span class="sd">    f.seek(0,2)</span>
+<span class="sd">    total_data_len = f.tell() / 8 / 2</span>
+<span class="sd">    f.seek(0,0)</span>
+<span class="sd">    slice_size = int(2.0*npoints*npoints * 8.0)</span>
+<span class="sd">    n_slices = int(total_data_len / (npoints**2))</span>
+
+<span class="sd">    ncar = int(np.sqrt((slice_size/16)))</span>
+<span class="sd">    </span>
+<span class="sd">    local_data_len = int(n_slices / nproc)</span>
+<span class="sd">    </span>
+<span class="sd">    n_extra = n_slices - local_data_len * nproc</span>
+<span class="sd">    </span>
+<span class="sd">    tmp_buf = np.zeros([local_data_len,ncar,ncar], dtype=complex)</span>
+
+<span class="sd">    </span>
+<span class="sd">    if rank == 0:</span>
+<span class="sd">        slice_start  = rank * local_data_len</span>
+<span class="sd">        slices = np.zeros([n_slices,ncar,ncar], dtype=complex)</span>
+<span class="sd">        slices_to_read = local_data_len + n_extra</span>
+<span class="sd">    else:</span>
+<span class="sd">        slice_start = rank * local_data_len + n_extra</span>
+<span class="sd">        slices = []</span>
+<span class="sd">        slices_to_read = local_data_len</span>
+<span class="sd">        </span>
+<span class="sd">    n = 0</span>
+<span class="sd">    </span>
+<span class="sd">    f.seek(slice_start*slice_size, 0)</span>
+
+<span class="sd">    print &#39;rank&#39;, rank, &#39; reading&#39;, slice_start, slices_to_read, n_extra</span>
+
+<span class="sd">    for piece in read_in_chunks(f, size  = slice_size):</span>
+<span class="sd">                </span>
+<span class="sd">        if n &gt;= slices_to_read :</span>
+<span class="sd">            break</span>
+<span class="sd">        </span>
+<span class="sd">        if ( len(piece) / 16 != ncar**2):</span>
+<span class="sd">            print &#39;warning, wrong slice size&#39;</span>
+<span class="sd">    </span>
+<span class="sd">        for i in xrange(len(piece) / 16 ):</span>
+<span class="sd">            i2 = i % ncar</span>
+<span class="sd">            i1 = int(i / ncar)</span>
+<span class="sd">            if rank == 0:</span>
+<span class="sd">                #print n, n_extra</span>
+<span class="sd">                v = struct.unpack(&#39;d&#39;,piece[16*i:16*i+8])[0] + 1j*struct.unpack(&#39;d&#39;,piece[16*i+8:16*(i+1)])[0]</span>
+<span class="sd">                slices[n,i1,i2] = v</span>
+<span class="sd">                if n - n_extra &gt;= 0:</span>
+<span class="sd">                    tmp_buf[n-n_extra,i1,i2] = v</span>
+<span class="sd">            else:</span>
+<span class="sd">                tmp_buf[n,i1,i2] = struct.unpack(&#39;d&#39;,piece[16*i:16*i+8])[0] + 1j*struct.unpack(&#39;d&#39;,piece[16*i+8:16*(i+1)])[0] </span>
+<span class="sd">        n += 1</span>
+<span class="sd">    #print rank, &#39;tmp_buf=&#39;, tmp_buf</span>
+<span class="sd">    comm.Gather([tmp_buf,  MPI.COMPLEX], [slices[n_extra:], MPI.COMPLEX])</span>
+<span class="sd">    </span>
+<span class="sd">    return slices</span>
+
+
+<span class="sd">#################################################################################################</span>
+<span class="sd">####################################   End routines from Ocelot #################################</span>
+<span class="sd">#################################################################################################</span>
+
+<span class="sd">#################################################################################################</span>
+<span class="sd">####################             Routines NOT used in prop_par.py           #####################</span>
+<span class="sd">####################          but useful for near-future extensions         #####################</span>
+<span class="sd">#################################################################################################</span>
+
+<span class="sd">def fluence(field,Xdim,Ydim,nx,ny,Ntotph):</span>
+
+<span class="sd">    Dx = Xdim/nx</span>
+<span class="sd">    Dy = Ydim/ny</span>
+<span class="sd">    print(&#39;Dx = &#39;,Dx,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;Dy = &#39;,Dy,&#39; m&#39;)</span>
+<span class="sd">    integral = 0    </span>
+<span class="sd">    maxintens = field[0]*field[0] + field[1]*field[1]    </span>
+<span class="sd">    for j in np.arange(0,len(field),2):        </span>
+<span class="sd">        intens = field[j]*field[j] + field[j+1]*field[j+1]</span>
+<span class="sd">        integral = integral + intens * Dx * Dy</span>
+<span class="sd">        if maxintens &lt; intens: maxintens = intens        </span>
+<span class="sd">    result = Ntotph*maxintens/integral</span>
+<span class="sd">    print(&#39;max intensity = &#39;,maxintens,&#39; A.U.&#39;)</span>
+<span class="sd">    print(&#39;integrated intensity = &#39;,integral,&#39; A.U.&#39;)</span>
+<span class="sd">    print(&#39;Xdim = &#39;,Xdim,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;Ydim = &#39;,Ydim,&#39; m&#39;)</span>
+<span class="sd">                        </span>
+<span class="sd">    return result</span>
+
+
+<span class="sd">def fluenceI(Inte,Xdim,Ydim,nx,ny,Ntotph):</span>
+
+<span class="sd">    Dx = Xdim/nx</span>
+<span class="sd">    Dy = Ydim/ny</span>
+<span class="sd">    print(&#39;Dx = &#39;,Dx,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;Dy = &#39;,Dy,&#39; m&#39;)</span>
+<span class="sd">    integral = 0    </span>
+<span class="sd">    maxintens = Inte[0]    </span>
+<span class="sd">    for j in np.arange(0,len(Inte),1):        </span>
+<span class="sd">        intens = Inte[j]</span>
+<span class="sd">        integral = integral + intens * Dx * Dy</span>
+<span class="sd">        if maxintens &lt; intens: maxintens = intens        </span>
+<span class="sd">    result = Ntotph*maxintens/integral</span>
+<span class="sd">    print(&#39;max intensity = &#39;,maxintens,&#39; A.U.&#39;)</span>
+<span class="sd">    print(&#39;integrated intensity = &#39;,integral,&#39; A.U.&#39;)</span>
+<span class="sd">    print(&#39;Xdim = &#39;,Xdim,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;Ydim = &#39;,Ydim,&#39; m&#39;)</span>
+<span class="sd">                        </span>
+<span class="sd">    return result</span>
+
+
+
+<span class="sd">def writeres(namef, dataX, dataY):</span>
+
+<span class="sd">    f1 = open(namef, &#39;w&#39;)</span>
+<span class="sd">    for i in range(len(dataX)):</span>
+<span class="sd">        f1.write(&#39;%s &#39; %(dataX[i]) + &#39;%s&#39; %(dataY[i]) +&#39;\n&#39;)        </span>
+<span class="sd">    f1.close()</span>
+<span class="sd">    </span>
+
+
+
+
+<span class="sd">def findsourceave(field, wfr0, zini, zfin, zstep, slicein, slicefin):</span>
+<span class="sd">    </span>
+<span class="sd">    reg_arzi = []</span>
+<span class="sd">    wfrini = copy.deepcopy(wfr0)</span>
+<span class="sd">    NX = wfrini.mesh.nx</span>
+<span class="sd">    NY = wfrini.mesh.ny</span>
+<span class="sd">    </span>
+<span class="sd">    #print(&#39;nx0&#39;,nx0)</span>
+<span class="sd">    #print(&#39;ny0&#39;,ny0)</span>
+<span class="sd">    R_Xs0=[]</span>
+<span class="sd">    R_Xf0=[]</span>
+<span class="sd">    R_nx0=[]</span>
+<span class="sd">    R_Ys0=[]</span>
+<span class="sd">    R_Yf0=[]</span>
+<span class="sd">    R_ny0=[]</span>
+<span class="sd">    </span>
+<span class="sd">    for qsl in range(slicein,slicefin):</span>
+
+<span class="sd">        print(&#39;Finding the source. Processing slice nr &#39;,qsl-slicein+1,&#39; out of &#39;,slicefin-slicein) </span>
+<span class="sd">        sl = field[qsl]</span>
+<span class="sd">        count = 0</span>
+<span class="sd">        for j in range(NY):</span>
+<span class="sd">            for k in range(NX):</span>
+<span class="sd">                wfrini.arEx[count] = np.float(np.real(sl[j][k]))</span>
+<span class="sd">                count = count + 1</span>
+<span class="sd">                wfrini.arEx[count] = np.float(np.imag(sl[j][k]))</span>
+<span class="sd">                count = count + 1</span>
+<span class="sd">        OUT = findsource(wfrini, zini, zfin, zstep)</span>
+<span class="sd">        registerARZI = OUT[5]</span>
+<span class="sd">        registerMESH = OUT[8]</span>
+
+<span class="sd">        </span>
+<span class="sd">        </span>
+<span class="sd">        inte_registerARZI = []</span>
+<span class="sd">        </span>
+<span class="sd">        </span>
+<span class="sd">        if qsl == slicein:</span>
+<span class="sd">            for num in range(len(registerARZI)):</span>
+<span class="sd">                R_Xs0.append(registerMESH[num].xStart)</span>
+<span class="sd">                R_Xf0.append(registerMESH[num].xFin)</span>
+<span class="sd">                R_nx0.append(registerMESH[num].nx)</span>
+<span class="sd">                R_Ys0.append(registerMESH[num].yStart)</span>
+<span class="sd">                R_Yf0.append(registerMESH[num].yFin)</span>
+<span class="sd">                R_ny0.append(registerMESH[num].ny)</span>
+
+<span class="sd">        for num in range(len(registerARZI)):</span>
+
+<span class="sd">            Xs0 = R_Xs0[num]</span>
+<span class="sd">            Xf0 = R_Xf0[num]</span>
+<span class="sd">            nx0 = R_nx0[num]</span>
+<span class="sd">            Ys0 = R_Ys0[num]</span>
+<span class="sd">            Yf0 = R_Yf0[num]</span>
+<span class="sd">            ny0 = R_ny0[num]</span>
+<span class="sd">            </span>
+<span class="sd">                  </span>
+<span class="sd">            XMESH = np.linspace(Xs0, Xf0, nx0)</span>
+<span class="sd">            YMESH = np.linspace(Ys0, Yf0, ny0)</span>
+<span class="sd">            </span>
+<span class="sd">            #print(Xs0, &#39; &#39;, Xf0, &#39; &#39;,nx0, &#39; &#39;,ny0)                </span>
+<span class="sd">            Xs=registerMESH[num].xStart</span>
+<span class="sd">            Xf=registerMESH[num].xFin</span>
+<span class="sd">            nx=registerMESH[num].nx</span>
+<span class="sd">            Ys=registerMESH[num].yStart</span>
+<span class="sd">            Yf=registerMESH[num].yFin</span>
+<span class="sd">            ny=registerMESH[num].ny</span>
+<span class="sd">            Xact = np.linspace(Xs, Xf, nx)</span>
+<span class="sd">            Yact = np.linspace(Ys, Yf, ny)</span>
+<span class="sd">            dataI = np.array( registerARZI[num] )</span>
+<span class="sd">            zI    = dataI.reshape( ny, nx )</span>
+<span class="sd">            Interdata = interpolate.interp2d(Xact, Yact, zI)</span>
+<span class="sd">            zI_inte    = Interdata(XMESH, YMESH)</span>
+<span class="sd">            INT_arI   = zI_inte.reshape(ny0,nx0)</span>
+<span class="sd">            inte_registerARZI.append(np.array(INT_arI))</span>
+<span class="sd">            #print(&#39;slice &#39;,qsl,&#39; len = &#39;,len(inte_registerARZI),&#39; with &#39;,len(np.array(INT_arI)))</span>
+
+
+<span class="sd">            </span>
+<span class="sd">            #plotinte(str(qsl)+&#39;_&#39;+str(num)+&#39;old_pos&#39; ,Xs,  Xf,  nx,  Ys,  Yf,  ny,  zI)</span>
+<span class="sd">            #plotinte(str(qsl)+&#39;_&#39;+str(num)+&#39;new_pos&#39; ,Xs0, Xf0, nx0, Ys0, Yf0, ny0, INT_arI)</span>
+<span class="sd">            </span>
+<span class="sd">        </span>
+<span class="sd">        if qsl == slicein:</span>
+<span class="sd">            reg_arzi=np.array(inte_registerARZI)</span>
+<span class="sd">        else:</span>
+<span class="sd">            reg_arzi = reg_arzi + np.array(inte_registerARZI)</span>
+<span class="sd">            </span>
+
+<span class="sd">    InteWaist = 0  </span>
+<span class="sd">    registerI = []</span>
+<span class="sd">    registerZ = OUT[1]    </span>
+<span class="sd">    register_fwhm_X = []</span>
+<span class="sd">    register_fwhm_Y = []</span>
+
+
+<span class="sd">    #print(len(reg_arzi))</span>
+<span class="sd">    #print(len(reg_arzi[0]))</span>
+<span class="sd">    #print(len(reg_arzi[0][0]))</span>
+
+<span class="sd">    #print(len(reg_arzi),&#39;... e` 19?&#39;)</span>
+<span class="sd">    </span>
+<span class="sd">    InteWaist = 0</span>
+<span class="sd">    for k in range(len(reg_arzi)):        </span>
+<span class="sd">        intens = np.max(reg_arzi[k])</span>
+<span class="sd">        registerI.append(intens)        </span>
+<span class="sd">        if intens &gt; InteWaist:</span>
+<span class="sd">            InteWaist = intens                       </span>
+<span class="sd">            WaistPos = OUT[1][k]</span>
+<span class="sd">            xwaist = 1e6 * np.linspace(R_Xs0[k], R_Xf0[k], R_nx0[k] )</span>
+<span class="sd">            ywaist = 1e6 * np.linspace(R_Ys0[k], R_Yf0[k], R_ny0[k] )</span>
+<span class="sd">            </span>
+<span class="sd">        x = 1e6 * np.linspace(R_Xs0[k], R_Xf0[k], R_nx0[k] )</span>
+<span class="sd">        y = 1e6 * np.linspace(R_Ys0[k], R_Yf0[k], R_ny0[k] )</span>
+<span class="sd">        arIpy=np.sum(reg_arzi[k],1)</span>
+<span class="sd">        arIpyf, fwhmy=fwhm_gauss_fit(y,arIpy)        </span>
+<span class="sd">        arIpx=np.sum(reg_arzi[k],0)</span>
+<span class="sd">        arIpxf, fwhmx=fwhm_gauss_fit(x,arIpx)        </span>
+<span class="sd">        register_fwhm_X.append(fwhmx)</span>
+<span class="sd">        register_fwhm_Y.append(fwhmy) </span>
+<span class="sd">          </span>
+<span class="sd">    return [registerZ,registerI,WaistPos,InteWaist,register_fwhm_X,register_fwhm_Y,reg_arzi, xwaist, ywaist]</span>
+<span class="sd">        </span>
+
+
+
+
+
+<span class="sd">def findsource(wfrini1, zini, zfin, zstep):</span>
+
+<span class="sd">    Zpos = zini-zstep</span>
+<span class="sd">    flagf    = 0</span>
+<span class="sd">    j = 1</span>
+<span class="sd">    registerI = []</span>
+<span class="sd">    registerZ = []</span>
+<span class="sd">    registerARZI = []</span>
+<span class="sd">    register_fwhm_X = []</span>
+<span class="sd">    register_fwhm_Y = []</span>
+<span class="sd">    register_mesh   = []</span>
+<span class="sd">    print(&#39;Initial wavefront position = &#39;,wfrini1.mesh.zStart)</span>
+
+<span class="sd">    while Zpos&gt;zfin:</span>
+<span class="sd">        </span>
+<span class="sd">        Drift_1 = SRWLOptD(-j*zstep+zini) #Drift    </span>
+<span class="sd">        #Wavefront Propagation Parameters with OM:</span>
+<span class="sd">        #                    [ 0] [1] [2]  [3] [4] [5]  [6]  [7]  [8]  [9] [10] [11]         </span>
+<span class="sd">        ppDrift_1 =          [ 1,  1, 1.0,  0,  0, 1.0, 1.0, 1.0, 1.0,  0,  0,   0]   </span>
+<span class="sd">        ppFinal =            [ 0,  0, 1.0,  0,  0, 1.0, 1.0, 1.0, 1.0,  0,  0,   0]</span>
+
+<span class="sd">        #ppDrift_1 =          [ 0,  0, 1.0,  0,  0, 1.0, 2.0, 1.0, 2.0,  0,  0,   0]   </span>
+<span class="sd">        #ppFinal =            [ 0,  0, 1.0,  0,  0, 0.5, 0.5, 0.5, 0.5,  0,  0,   0]</span>
+<span class="sd">        </span>
+<span class="sd">        optBL = SRWLOptC([Drift_1],  [ppDrift_1, ppFinal])</span>
+<span class="sd">        wfr1c = copy.deepcopy(wfrini1)                </span>
+<span class="sd">        srwl.PropagElecField(wfr1c, optBL)</span>
+<span class="sd">        arI = array(&#39;f&#39;, [0]*wfr1c.mesh.nx*wfr1c.mesh.ny) #&quot;flat&quot; array to take 2D intensity data</span>
+<span class="sd">        srwl.CalcIntFromElecField(arI, wfr1c, 6, 0, 3, wfr1c.mesh.eStart, 0, 0) #extracts intensity        </span>
+<span class="sd">        arP = array(&#39;d&#39;, [0]*wfr1c.mesh.nx*wfr1c.mesh.ny) #&quot;flat&quot; array to take 2D phase data (note it should be &#39;d&#39;)</span>
+<span class="sd">        srwl.CalcIntFromElecField(arP, wfr1c, 0, 4, 3, wfr1c.mesh.eStart, 0, 0) #extracts radiation phase</span>
+<span class="sd">        register_mesh.append(wfr1c.mesh)</span>
+<span class="sd">        dataI = np.array( arI )</span>
+<span class="sd">        zI=dataI.reshape( wfr1c.mesh.ny, wfr1c.mesh.nx )</span>
+<span class="sd">        registerARZI.append(zI)</span>
+<span class="sd">        x = 1e6 * np.linspace(wfr1c.mesh.xStart, wfr1c.mesh.xFin, wfr1c.mesh.nx )</span>
+<span class="sd">        y = 1e6 * np.linspace(wfr1c.mesh.yStart, wfr1c.mesh.yFin, wfr1c.mesh.ny )</span>
+<span class="sd">        arIpy=np.sum(zI,1)</span>
+<span class="sd">        arIpyf, fwhmy=fwhm_gauss_fit(y,arIpy)        </span>
+<span class="sd">        arIpx=np.sum(zI,0)</span>
+<span class="sd">        arIpxf, fwhmx=fwhm_gauss_fit(x,arIpx)        </span>
+<span class="sd">        register_fwhm_X.append(fwhmx)</span>
+<span class="sd">        register_fwhm_Y.append(fwhmy) </span>
+<span class="sd">        field = wfr1c.arEx</span>
+<span class="sd">        maxintens = field[0]*field[0] + field[1]*field[1]    </span>
+<span class="sd">        for k in np.arange(0,len(field),2):        </span>
+<span class="sd">            intens = field[k]*field[k] + field[k+1]*field[k+1]</span>
+<span class="sd">            if maxintens &lt; intens: maxintens = intens</span>
+<span class="sd">        registerI.append(maxintens)</span>
+<span class="sd">        registerZ.append(Zpos)           </span>
+<span class="sd">        Zpos = Zpos - zstep</span>
+<span class="sd">        j = j+1</span>
+<span class="sd">        #plotinte(&#39;singlePOS&#39;+str(j) ,wfr1c.mesh.xStart, wfr1c.mesh.xFin, wfr1c.mesh.nx,  wfr1c.mesh.yStart, wfr1c.mesh.yFin, wfr1c.mesh.ny,   zI)</span>
+
+<span class="sd">    InteWaist = np.max(registerI)    </span>
+<span class="sd">    maxind = np.argmax(registerI)</span>
+<span class="sd">    WaistPos = registerZ[maxind]</span>
+
+<span class="sd">    [wfr1d, arI, arP] = Source_Prop(Len_drft = WaistPos-zini, Wfrin = wfrini1) </span>
+
+<span class="sd">    </span>
+<span class="sd">    return [wfr1d,registerZ,registerI,WaistPos,InteWaist,registerARZI,register_fwhm_X,register_fwhm_Y,register_mesh]</span>
+
+
+
+
+<span class="sd">def Source_slice(wfrG=[], zin = 0.0, zfin = -40., zstep=1.0):</span>
+
+<span class="sd">    # ****************************** Finds the source position for slice slicen ************************************</span>
+
+<span class="sd">    OUT    = findsource(wfrG, zin, zfin, zstep)</span>
+<span class="sd">    registerZ       = OUT[1]</span>
+<span class="sd">    registerI       = OUT[2]</span>
+<span class="sd">    register_fwhm_X = OUT[6]</span>
+<span class="sd">    register_fwhm_Y = OUT[7]</span>
+<span class="sd">    writeres(res_dir+&#39;IvsZ_sl&#39;+str(slicen+1)+&#39;.dat&#39;,registerZ,registerI)</span>
+<span class="sd">    writeres(res_dir+&#39;fwhmXvsZ_sl&#39;+str(slicen+1)+&#39;.dat&#39;,registerZ,register_fwhm_X)</span>
+<span class="sd">    writeres(res_dir+&#39;fwhmYvsZ_sl&#39;+str(slicen+1)+&#39;.dat&#39;,registerZ,register_fwhm_Y)</span>
+
+<span class="sd">    WfrGTempl = OUT[0]</span>
+
+<span class="sd">    arIP = array(&#39;f&#39;, [0]*WfrGTempl.mesh.nx*WfrGTempl.mesh.ny) #&quot;flat&quot; array to take 2D intensity data</span>
+<span class="sd">    srwl.CalcIntFromElecField(arIP, WfrGTempl, 6, 0, 3, WfrGTempl.mesh.eStart, 0, 0) #extracts intensity    </span>
+<span class="sd">    arPP = array(&#39;d&#39;, [0]*WfrGTempl.mesh.nx*WfrGTempl.mesh.ny) #&quot;flat&quot; array to take 2D phase data (note it should be &#39;d&#39;)</span>
+<span class="sd">    srwl.CalcIntFromElecField(arPP, WfrGTempl, 0, 4, 3, WfrGTempl.mesh.eStart, 0, 0) </span>
+<span class="sd">    plotfield(&quot;Source_sl&quot;+str(sample+1), WfrGTempl.mesh.xStart, WfrGTempl.mesh.xFin, WfrGTempl.mesh.nx, WfrGTempl.mesh.yStart, WfrGTempl.mesh.yFin, WfrGTempl.mesh.ny, arIP, arPP)</span>
+
+<span class="sd">  </span>
+
+
+<span class="sd">def xyprofave(pulse, tgrid, slicein, slicefin):</span>
+<span class="sd">   </span>
+<span class="sd">    print(&#39;Finding the average profile&#39;)</span>
+<span class="sd">    for j in range(slicein,slicefin):</span>
+<span class="sd">        slices = pulse[j]</span>
+<span class="sd">        OUT = xyprofile(slices,tgrid)</span>
+<span class="sd">        if j == slicein :</span>
+<span class="sd">            Xcutave = OUT[0][1]</span>
+<span class="sd">            Ycutave = OUT[1][1]</span>
+<span class="sd">        else :</span>
+<span class="sd">            Xcutave = Xcutave + OUT[0][1]</span>
+<span class="sd">            Ycutave = Ycutave + OUT[1][1]</span>
+<span class="sd">    Xcoord = OUT[0][0]</span>
+<span class="sd">    Ycoord = OUT[1][0]</span>
+<span class="sd">    Xcutave = Xcutave/(slicefin-slicein)</span>
+<span class="sd">    Ycutave = Ycutave/(slicefin-slicein)</span>
+
+<span class="sd">    return [[Xcoord, Xcutave],[Ycoord, Ycutave]]</span>
+
+
+
+
+
+<span class="sd">def xydivave(pulse, tgrid, slicein, slicefin, lambd):</span>
+<span class="sd">   </span>
+<span class="sd">    print(&#39;Finding the average divergence&#39;)</span>
+<span class="sd">    for j in range(slicein,slicefin):</span>
+<span class="sd">        slices = pulse[j]</span>
+<span class="sd">        OUT = xydiv(slices,tgrid,lambd)</span>
+<span class="sd">        if j == slicein :</span>
+<span class="sd">            Xcutave = OUT[0][1]</span>
+<span class="sd">            Ycutave = OUT[1][1]</span>
+<span class="sd">        else :</span>
+<span class="sd">            Xcutave = Xcutave + OUT[0][1]</span>
+<span class="sd">            Ycutave = Ycutave + OUT[1][1]</span>
+<span class="sd">    Xcoord = OUT[0][0]</span>
+<span class="sd">    Ycoord = OUT[1][0]</span>
+<span class="sd">    Xcutave = Xcutave/(slicefin-slicein)</span>
+<span class="sd">    Ycutave = Ycutave/(slicefin-slicein)</span>
+
+<span class="sd">    return [[Xcoord, Xcutave],[Ycoord, Ycutave]]</span>
+
+
+
+
+
+<span class="sd">def xyprofile(slices, tgrid):</span>
+
+<span class="sd">    Xpos = int(np.argmax(np.abs(slices))/len(slices))</span>
+<span class="sd">    Ypos = len(slices) -1 - int(np.argmax(np.abs(slices))/len(slices))</span>
+<span class="sd">    ##print(&#39;max = &#39;,np.max(np.abs(slices)),&#39; maxpos = &#39;,np.argmax(slices))</span>
+<span class="sd">    ##print(&#39;XPOS = &#39;,Xpos,&#39; YPOS = &#39;,Ypos,&#39; MIDDLE = &#39;,int(len(slices)/2))</span>
+<span class="sd">    ##print(&#39;slmax = &#39;,slices[Xpos,Ypos],&#39; &#39;,slices[Ypos,Xpos])</span>
+<span class="sd">    #Xcut = np.abs(slices[int(len(slices)/2),:])**2</span>
+<span class="sd">    #Ycut = np.abs(slices[:,int(len(slices)/2)])**2</span>
+<span class="sd">    Xcut = np.abs(slices[Xpos,:])**2</span>
+<span class="sd">    Ycut = np.abs(slices[:,Ypos])**2</span>
+<span class="sd">    Xcoord = np.linspace(-tgrid,tgrid,len(Xcut))</span>
+<span class="sd">    Ycoord = np.linspace(-tgrid,tgrid,len(Xcut))    </span>
+<span class="sd">    #matplotlib.pyplot.figure()</span>
+<span class="sd">    #matplotlib.pyplot.plot(Xcoord,Xcut)</span>
+<span class="sd">    #matplotlib.pyplot.show()</span>
+<span class="sd">    #matplotlib.pyplot.figure()</span>
+<span class="sd">    #matplotlib.pyplot.plot(Ycoord,Ycut)</span>
+<span class="sd">    #matplotlib.pyplot.show()</span>
+
+<span class="sd">    return [[Xcoord, Xcut],[Ycoord, Ycut]]</span>
+
+
+
+
+
+<span class="sd">def xydiv(slices, tgrid, lambd):    </span>
+
+<span class="sd">    fslices = np.fft.fftshift(np.fft.fft2(slices))</span>
+
+<span class="sd">    KXpos = int(np.argmax(np.abs(fslices))/len(fslices))</span>
+<span class="sd">    KYpos = len(fslices) - 1 - int(np.argmax(np.abs(fslices))/len(fslices))</span>
+<span class="sd">    ##print(&#39;KXPOS = &#39;,KXpos,&#39; KYPOS = &#39;,KYpos,&#39; MIDDLE = &#39;,int(len(fslices)/2))</span>
+<span class="sd">                  </span>
+<span class="sd">    #KXcut = np.abs(fslices[int(len(slices)/2),:])**2</span>
+<span class="sd">    #KYcut = np.abs(fslices[:,int(len(slices)/2)])**2</span>
+<span class="sd">    KXcut = np.abs(fslices[KXpos,:])**2</span>
+<span class="sd">    KYcut = np.abs(fslices[:,KYpos])**2  </span>
+<span class="sd">    KXmax = 2*pi/(2*tgrid/len(KXcut))/2.0 #Total range is 2pi/(smallest size); smallest size is 2tgrid/len(KXcut); Max is total range/2</span>
+<span class="sd">    KYmax = 2*pi/(2*tgrid/len(KYcut))/2.0</span>
+<span class="sd">    THXmax = KXmax * lambd/(2*np.pi)</span>
+<span class="sd">    THYmax = KYmax * lambd/(2*np.pi)        </span>
+<span class="sd">    THXcoord = np.linspace(-THXmax,THXmax,len(KXcut))</span>
+<span class="sd">    THYcoord = np.linspace(-THYmax,THYmax,len(KYcut))    </span>
+<span class="sd">    #matplotlib.pyplot.figure()</span>
+<span class="sd">    #matplotlib.pyplot.plot(THXcoord,KXcut)</span>
+<span class="sd">    #matplotlib.pyplot.show()</span>
+<span class="sd">    #matplotlib.pyplot.figure()</span>
+<span class="sd">    #matplotlib.pyplot.plot(THYcoord,KYcut)</span>
+<span class="sd">    #matplotlib.pyplot.show()</span>
+<span class="sd">    </span>
+<span class="sd">    return [[THXcoord, KXcut],[THYcoord, KYcut]]</span>
+
+
+
+<span class="sd">def ProDiv_slice(sl = [], dgrid = 1.0, xlamds = 1.0):</span>
+
+<span class="sd">    # ****************************** Calculates profile and divergence of slice slicen ************************************</span>
+
+<span class="sd">    xy   = xyprofile(sl,dgrid)</span>
+<span class="sd">    writeres(res_dir+&#39;X_prof_sl&#39;+str(slicen+1)+&#39;.dat&#39;,xy[0][0],xy[0][1])</span>
+<span class="sd">    writeres(res_dir+&#39;Y_prof_sl&#39;+str(slicen+1)+&#39;.dat&#39;,xy[1][0],xy[1][1])</span>
+<span class="sd">    matplotlib.pyplot.figure()</span>
+<span class="sd">    matplotlib.pyplot.plot(xy[0][0],xy[0][1])</span>
+<span class="sd">    savefig(res_dir+&#39;X_prof_sl&#39;+str(slicen+1)+&#39;.png&#39;)</span>
+<span class="sd">    matplotlib.pyplot.figure()</span>
+<span class="sd">    matplotlib.pyplot.plot(xy[1][0],xy[1][1])</span>
+<span class="sd">    savefig(res_dir+&#39;Y_prof_sl&#39;+str(slicen+1)+&#39;.png&#39;)</span>
+
+<span class="sd">    thxy = xydiv(sl,dgrid,xlamds)</span>
+<span class="sd">    writeres(res_dir+&#39;X_div_sl&#39;+str(slicen+1)+&#39;.dat&#39;,thxy[0][0],thxy[0][1])</span>
+<span class="sd">    writeres(res_dir+&#39;Y_div_sl&#39;+str(slicen+1)+&#39;.dat&#39;,thxy[1][0],thxy[1][1])</span>
+<span class="sd">    matplotlib.pyplot.figure()</span>
+<span class="sd">    matplotlib.pyplot.plot(thxy[0][0],thxy[0][1])</span>
+<span class="sd">    savefig(res_dir+&#39;X_div_sl&#39;+str(slicen+1)+&#39;.png&#39;)</span>
+<span class="sd">    matplotlib.pyplot.figure()</span>
+<span class="sd">    matplotlib.pyplot.plot(thxy[1][0],thxy[1][1])</span>
+<span class="sd">    savefig(res_dir+&#39;Y_div_sl&#39;+str(slicen+1)+&#39;.png&#39;)</span>
+
+<span class="sd">def GenWfr_slice(wfrG = []):</span>
+
+<span class="sd">    # **********************Calculating Genesis Wavefront and extracting Intensity for slice slicen:</span>
+
+<span class="sd">    XsG=wfrG.mesh.xStart</span>
+<span class="sd">    XfG=wfrG.mesh.xFin</span>
+<span class="sd">    nxG=wfrG.mesh.nx</span>
+<span class="sd">    YsG=wfrG.mesh.yStart</span>
+<span class="sd">    YfG=wfrG.mesh.yFin</span>
+<span class="sd">    nyG=wfrG.mesh.ny</span>
+
+<span class="sd">    arIG = array(&#39;f&#39;, [0]*nxG*nyG) #&quot;flat&quot; array to take 2D intensity data</span>
+<span class="sd">    srwl.CalcIntFromElecField(arIG, wfrG, 6, 0, 3, wfrG.mesh.eStart, 0, 0) #extracts intensity</span>
+<span class="sd">    arPG = array(&#39;d&#39;, [0]*nxG*nyG) #&quot;flat&quot; array to take 2D phase data (note it should be &#39;d&#39;)</span>
+<span class="sd">    srwl.CalcIntFromElecField(arPG, wfrG, 0, 4, 3, wfrG.mesh.eStart, 0, 0) #extracts radiation phase</span>
+<span class="sd">    plotfield(&quot;Gen_out_sl&quot;+str(slicen+1), XsG, XfG, nxG, YsG, YfG, nyG, arIG, arPG)</span>
+
+
+
+<span class="sd">def AveSourcePos(field = [], wfrG=[], zin = -20.0, zfin = -40.0, step = 1.0, slicein=-20.0, slicefin=-40.0):</span>
+
+
+<span class="sd">    # ****************************** Finds the average source position ************************************</span>
+
+<span class="sd">    OUTAVE = findsourceave(field, wfrG, -20.0, -40.0, 1.0, slicein, slicefin)</span>
+<span class="sd">    registerZ_ave       = OUTAVE[0]</span>
+<span class="sd">    registerI_ave       = OUTAVE[1]</span>
+<span class="sd">    register_fwhm_X_ave = OUTAVE[4]</span>
+<span class="sd">    register_fwhm_Y_ave = OUTAVE[5]</span>
+<span class="sd">    reg_arzi_ave        = OUTAVE[6]</span>
+<span class="sd">    writeres(res_dir+&#39;IvsZ_ave.dat&#39;,registerZ_ave,registerI_ave)</span>
+<span class="sd">    writeres(res_dir+&#39;fwhmXvsZ_ave.dat&#39;,registerZ_ave,register_fwhm_X_ave)</span>
+<span class="sd">    writeres(res_dir+&#39;fwhmYvsZ_ave.dat&#39;,registerZ_ave,register_fwhm_Y_ave)</span>
+<span class="sd">    maxind = np.argmax(registerI_ave)</span>
+
+<span class="sd">    x = OUTAVE[7]</span>
+<span class="sd">    y = OUTAVE[8]</span>
+<span class="sd">    arIpy=np.sum(reg_arzi_ave[maxind],1)</span>
+<span class="sd">    arIpx=np.sum(reg_arzi_ave[maxind],0)</span>
+<span class="sd">    #These are summed! The previous ones are cut </span>
+<span class="sd">    writeres(res_dir+&#39;IvsX_ave.dat&#39;,x,arIpx)</span>
+<span class="sd">    writeres(res_dir+&#39;IvsY_ave.dat&#39;,y,arIpy)</span>
+
+<span class="sd">    return OUTAVE[2]   </span>
+
+
+<span class="sd">      </span>
+<span class="sd">def prtfluence(wfr = [], arI=[], MESH = [] ):</span>
+
+<span class="sd">    Xs = MESH[0]</span>
+<span class="sd">    Xf = MESH[1]</span>
+<span class="sd">    nx = MESH[2]</span>
+<span class="sd">    Ys = MESH[3]</span>
+<span class="sd">    Yf = MESH[4]        </span>
+<span class="sd">    ny = MESH[5]</span>
+<span class="sd">    pixel_area=(Xf-Xs)*(Yf-Ys)/nx/ny</span>
+<span class="sd">    integral=sum([x*pixel_area for x in arI])</span>
+<span class="sd">    np.disp(&#39;integral_area(a.u.)= &#39;+str(integral/1000000))</span>
+
+<span class="sd">    np.disp(&#39;max_intensity= &#39;+str(round_sig(max(arI),3)))</span>
+<span class="sd">    np.disp(&#39;pixel_area= &#39;+str(pixel_area))</span>
+<span class="sd">    Ntotph = 1</span>
+<span class="sd">    flux = fluence(wfr.arEx, Xf-Xs, Yf-Ys, nx, ny, 1)</span>
+<span class="sd">    print(&#39;X size = &#39;,Xf-Xs,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;Y size = &#39;,Yf-Ys,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;X mesh = &#39;,nx,&#39; points&#39;)</span>
+<span class="sd">    print(&#39;Y mesh = &#39;,ny,&#39; points&#39;)</span>
+<span class="sd">    print(&#39;Total fluence is &#39;,flux,&#39;*Nph in ph/m2&#39;)</span>
+<span class="sd">    print(&#39;also corresponding to &#39;,flux/1.0e6,&#39;*Nph in ph/mm2&#39;)</span>
+
+
+<span class="sd">def AVE_prtfluence(INT_arI_ave_P = [], MESH = []):</span>
+
+<span class="sd">    XsP0 = MESH[0]</span>
+<span class="sd">    XfP0 = MESH[1]</span>
+<span class="sd">    nxP0 = MESH[2]</span>
+<span class="sd">    YsP0 = MESH[3]</span>
+<span class="sd">    YfP0 = MESH[4]        </span>
+<span class="sd">    nyP0 = MESH[5]</span>
+<span class="sd">    pixel_area=(XfP0-XsP0)*(YfP0-YsP0)/nxP0/nyP0</span>
+<span class="sd">    integral=sum([x*pixel_area for x in INT_arI_ave_P])    </span>
+<span class="sd">    np.disp(&#39;integral_area(a.u.)= &#39;+str(integral/1000000))</span>
+
+<span class="sd">    np.disp(&#39;max_intensity= &#39;+str(round_sig(max(INT_arI_ave_P),3)))</span>
+<span class="sd">    np.disp(&#39;pixel_area= &#39;+str(pixel_area))</span>
+<span class="sd">    Ntotph = 1</span>
+<span class="sd">    flux = fluenceI(INT_arI_ave_P, XfP0-XsP0, YfP0-YsP0, nxP0, nyP0, 1)</span>
+<span class="sd">    print(&#39;X size = &#39;,XfP0-XsP0,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;Y size = &#39;,YfP0-YsP0,&#39; m&#39;)</span>
+<span class="sd">    print(&#39;X mesh = &#39;,nxP0,&#39; points&#39;)</span>
+<span class="sd">    print(&#39;Y mesh = &#39;,nyP0,&#39; points&#39;)</span>
+<span class="sd">    print(&#39;Total fluence is &#39;,flux,&#39; ph/m2&#39;)</span>
+<span class="sd">    print(&#39;also corresponding to &#39;,flux/1.0e6,&#39; ph/mm2&#39;)</span>
+
+
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">#################################################################################################</span>
+<span class="sd">####################           Routines strictly used in prop_par.py        #####################</span>
+<span class="sd">#################################################################################################</span>
+
+<span class="sd">def GeneRead(comm=[], filename=&#39;D:\prog\data\PROP\sase2.4p1keV.tap.1.out.dfl&#39;, Tmesh=301, PhEne = 4100.0, dgrid = 1.0):</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">    Reads the Genesis file and gives back wavefront backbone and field as a np.array</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    wfrG = SRWLWfr()               #Initial Electric Field Wavefront</span>
+<span class="sd">    wfrG.allocate(1, Tmesh, Tmesh) #Numbers of points vs Photon Energy (1), Horizontal and Vertical Positions (dummy)</span>
+<span class="sd">    wfrG.mesh.zStart =  0.0        #Longitudinal Position [m] at which Electric Field has to be calculated, i.e. the position of the first optical element</span>
+<span class="sd">    wfrG.mesh.eStart =  PhEne      #Initial Photon Energy [eV]</span>
+<span class="sd">    wfrG.mesh.eFin   =  PhEne      #Final Photon Energy [eV]</span>
+<span class="sd">    wfrG.mesh.xStart = -dgrid      #Initial Horizontal Position [m]</span>
+<span class="sd">    wfrG.mesh.xFin   =  dgrid      #Final Horizontal Position [m]</span>
+<span class="sd">    wfrG.mesh.yStart = -dgrid      #Initial Vertical Position [m]</span>
+<span class="sd">    wfrG.mesh.yFin   =  dgrid      #Final Vertical Position [m]</span>
+
+<span class="sd">    wfrG.partBeam.partStatMom1.x  = 0.0     #Some information about the source in the Wavefront structure</span>
+<span class="sd">    wfrG.partBeam.partStatMom1.y  = 0.0</span>
+<span class="sd">    wfrG.partBeam.partStatMom1.z  = 0.0</span>
+<span class="sd">    wfrG.partBeam.partStatMom1.xp = 0.0</span>
+<span class="sd">    wfrG.partBeam.partStatMom1.yp = 0.0</span>
+
+<span class="sd">    #Reading Genesis field file</span>
+<span class="sd">    print(&#39;Reading Genesis field file...&#39;)</span>
+<span class="sd">    field=readRadiationFile_mpi(comm=comm, fileName=filename, npoints=Tmesh)</span>
+<span class="sd">    print(&#39;...Done.&#39;,rank,&#39;. &#39;,len(field))</span>
+<span class="sd">    </span>
+<span class="sd">    return [wfrG, field]</span>
+
+
+<span class="sd">def Source_Prop(Len_drft = 0.1, Wfrin = []):</span>
+<span class="sd">    </span>
+<span class="sd">    #**********************Calculating virtual Source Wavefront and extracting Intensity:</span>
+
+<span class="sd">    Drift_1 = SRWLOptD(Len_drft) #Drift    </span>
+<span class="sd">    # 2colors U2 sase3 :</span>
+<span class="sd">    #                    [ 0] [1] [2]  [3] [4] [5]  [6]  [7]  [8]  [9] [10] [11] </span>
+<span class="sd">    ppDrift_1 =          [ 0,  0, 1.0,  0,  0, 1.0, 2.0, 1.0, 2.0,  0,  0,   0]   </span>
+<span class="sd">    ppFinal =            [ 0,  0, 1.0,  0,  0, 0.5, 1.0, 0.5, 1.0,  0,  0,   0]</span>
+
+<span class="sd">    # Usual source sase1</span>
+<span class="sd">    #ppDrift_1 =          [ 0,  0, 1.0,  0,  0, 1.0, 2.0, 1.0, 2.0,  0,  0,   0]   </span>
+<span class="sd">    #ppFinal =            [ 0,  0, 1.0,  0,  0, 0.25, 2.0, 0.25, 2.0,  0,  0,   0]</span>
+<span class="sd">   </span>
+<span class="sd">    </span>
+<span class="sd">    #2colors_backUndu sase3</span>
+<span class="sd">    #ppDrift_1 =          [ 0,  0, 1.0,  0,  0, 16.0, 1.0, 16.0, 1.0,  0,  0,   0]   </span>
+<span class="sd">    #ppFinal =            [ 0,  0, 1.0,  0,  0, 1.0, 0.1, 1.0, 0.1,  0,  0,   0]</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">    optBL = SRWLOptC([Drift_1],  [ppDrift_1, ppFinal])</span>
+<span class="sd">    wfr1d = copy.deepcopy(Wfrin)</span>
+<span class="sd">    srwl.PropagElecField(wfr1d, optBL)</span>
+<span class="sd">    arI = array(&#39;f&#39;, [0]*wfr1d.mesh.nx*wfr1d.mesh.ny) #&quot;flat&quot; array to take 2D intensity data</span>
+<span class="sd">    srwl.CalcIntFromElecField(arI, wfr1d, 6, 0, 3, wfr1d.mesh.eStart, 0, 0) #extracts intensity    </span>
+<span class="sd">    arP = array(&#39;d&#39;, [0]*wfr1d.mesh.nx*wfr1d.mesh.ny) #&quot;flat&quot; array to take 2D phase data (note it should be &#39;d&#39;)</span>
+<span class="sd">    srwl.CalcIntFromElecField(arP, wfr1d, 0, 4, 3, wfr1d.mesh.eStart, 0, 0) #extracts radiation phase</span>
+
+<span class="sd">    return [wfr1d, arI, arP]</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+
+<span class="sd">def FullProp(zprop = 933.0, wfrS = [], line = SASE1_SPB_line, ppFinal = [ 0,  0, 1.0,  1,  0, 1.0, 1.0, 1.0, 1.0,  0,  0,   0]):</span>
+<span class="sd">    </span>
+<span class="sd">    print line</span>
+<span class="sd">    [ Act_Elem_box, Act_Param_box ] = line(zprop)</span>
+<span class="sd">    Act_Param_box.append( ppFinal )</span>
+<span class="sd">    OptBL = SRWLOptC(Act_Elem_box, Act_Param_box)</span>
+<span class="sd">    wfrP = copy.deepcopy(wfrS) #Genesis backpropagated    </span>
+<span class="sd">    srwl.PropagElecField(wfrP, OptBL)</span>
+<span class="sd">    </span>
+<span class="sd">    return wfrP</span>
+<span class="sd">    </span>
+<span class="sd">    </span>
+<span class="sd">def AVE_Save_Inte(wfrP=[], MESH = [], INT_arI_ave_P = [],  firstslice = 1):</span>
+
+<span class="sd">    XsP=wfrP.mesh.xStart</span>
+<span class="sd">    XfP=wfrP.mesh.xFin</span>
+<span class="sd">    nxP=wfrP.mesh.nx</span>
+<span class="sd">    YsP=wfrP.mesh.yStart</span>
+<span class="sd">    YfP=wfrP.mesh.yFin</span>
+<span class="sd">    nyP=wfrP.mesh.ny</span>
+<span class="sd">    </span>
+<span class="sd">    arIP = array(&#39;f&#39;, [0]*nxP*nyP) #&quot;flat&quot; array to take 2D intensity data</span>
+<span class="sd">    srwl.CalcIntFromElecField(arIP, wfrP, 6, 0, 3, wfrP.mesh.eStart, 0, 0) #extracts intensity</span>
+<span class="sd">    if firstslice == 1:        </span>
+<span class="sd">        INT_arI_ave_P = np.array(arIP)        </span>
+<span class="sd">        XsP0 = XsP</span>
+<span class="sd">        XfP0 = XfP</span>
+<span class="sd">        YsP0 = YsP</span>
+<span class="sd">        YfP0 = YfP</span>
+<span class="sd">        nxP0 = nxP</span>
+<span class="sd">        nyP0 = nyP</span>
+<span class="sd">    else:</span>
+<span class="sd">        XsP0 = MESH[0]</span>
+<span class="sd">        XfP0 = MESH[1]</span>
+<span class="sd">        nxP0 = MESH[2]</span>
+<span class="sd">        YsP0 = MESH[3]</span>
+<span class="sd">        YfP0 = MESH[4]        </span>
+<span class="sd">        nyP0 = MESH[5]</span>
+<span class="sd">        XMESH = np.linspace(XsP0, XfP0, nxP0)</span>
+<span class="sd">        YMESH = np.linspace(YsP0, YfP0, nyP0)</span>
+<span class="sd">        dataI = np.array( arIP )</span>
+<span class="sd">        zI    = dataI.reshape( nyP, nxP )</span>
+<span class="sd">        Xact = np.linspace(XsP, XfP, nxP)</span>
+<span class="sd">        Yact = np.linspace(YsP, YfP, nyP)</span>
+<span class="sd">        Interdata = interpolate.interp2d(Xact, Yact, zI)</span>
+<span class="sd">        zI_inte    = Interdata(XMESH, YMESH)</span>
+<span class="sd">        INT_arIP   = zI_inte.reshape(nyP*nxP)</span>
+<span class="sd">        INT_arI_ave_P = INT_arI_ave_P + np.array(INT_arIP)</span>
+
+<span class="sd">    wfrP.mesh.xStart = XsP0</span>
+<span class="sd">    wfrP.mesh.xFin   = XfP0</span>
+<span class="sd">    wfrP.mesh.nx     = nxP0</span>
+<span class="sd">    wfrP.mesh.yStart = YsP0</span>
+<span class="sd">    wfrP.mesh.yFin   = YfP0</span>
+<span class="sd">    wfrP.mesh.ny     = nyP0</span>
+<span class="sd">    wfrP.mesh.ne     = 1</span>
+<span class="sd">    </span>
+
+<span class="sd">    return [INT_arI_ave_P, [XsP0,XfP0,nxP0,YsP0,YfP0,nyP0]]</span>
+
+
+<span class="sd">######################################</span>
+<span class="sd">####GRATINGS ROUTINES TO BE TESTED####</span>
+<span class="sd">######################################</span>
+
+
+<span class="sd">def fftpulse(field_in = []):</span>
+
+<span class="sd">    fft_field = field_in</span>
+<span class="sd">    nslice = len(field_in)</span>
+<span class="sd">    xmesh  = len(field_in[0])</span>
+<span class="sd">    ymesh  = len(field_in[0,0])</span>
+
+<span class="sd">    for j in range(xmesh):</span>
+<span class="sd">        for k in range(ymesh):</span>
+<span class="sd">            fft_field[:,j,k] = np.fft.fft(field_in[:,j,k])    </span>
+
+<span class="sd">    return fft_field</span>
+
+<span class="sd">def ifftpulse(field_in = []):</span>
+
+<span class="sd">    ifft_field = field_in</span>
+<span class="sd">    nslice = len(field_in)</span>
+<span class="sd">    xmesh  = len(field_in[0])</span>
+<span class="sd">    ymesh  = len(field_in[0,0])</span>
+
+<span class="sd">    for j in range(xmesh):</span>
+<span class="sd">        for k in range(ymesh):</span>
+<span class="sd">            ifft_field[:,j,k] = np.fft.ifft(field_in[:,j,k])    </span>
+
+
+<span class="sd">    return ifft_field</span>
+
+<span class="sd">    </span>
+
+<span class="sd">def grating(field_in = [], leng = 1, xlamds = 0.0, z1 = 0.0, z2 = 0.0, r_t = 0.0, r_s = 0.0, theta_i = 0.0, theta_d =0.0, dtheta_d, d0 = 0.0, d1 = 0.0, d2 = 0.0, aberration = False):</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+<span class="sd">    % field_in is the input complex field</span>
+<span class="sd">    % field_out is the output complex field</span>
+<span class="sd">    % leng is transverse size of the mesh (dgrid*2)</span>
+<span class="sd">    % xlamds is wavelength</span>
+<span class="sd">    % z1 and z2 are distances to source and image in order to calculate </span>
+<span class="sd">    %   aberration effect (we use semi-analytical approach to propagate, </span>
+<span class="sd">    %   so we need to provide this information)</span>
+<span class="sd">    % R_t is tangential radius of curvature</span>
+<span class="sd">    % R_s is sagittal radius of curvature</span>
+<span class="sd">    % Teta_i and Teta_d are incidence and reflection angles (obviously one can </span>
+<span class="sd">    %   calculate it now internaly within function. I keep dummy input variable</span>
+<span class="sd">    %   to save time on revriting all versiong of script code.</span>
+<span class="sd">    % dTheta_d is angle deviation of the field from principle ray direction</span>
+<span class="sd">    %   after grating. It is used to introduce different angles of reflected</span>
+<span class="sd">    %   field from grating at different  wavelengths if time-dependent (3D) field</span>
+<span class="sd">    %   is propagated, resulting in pusle-front tilt.</span>
+<span class="sd">    % D0, D1, D2 are grating coefficients (in out case 1123[l/mm] 1.6[l/mm2] 0.002[l/mm3])</span>
+<span class="sd">    % aberration is logical value, that defines whether include aberration effects, or not</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<span class="sd">    </span>
+<span class="sd">    theta_d  = np.arccos(np.cos(theta_i)-xlamds*d0*1.0e3)</span>
+<span class="sd">    k        = 2.0*np.pi/xlamds</span>
+<span class="sd">    gr_asym  = theta_i/theta_d         # grating asymmetry factor GG: assumes grazing angles sin angle ~ angle (?)</span>
+<span class="sd">    gr_sigma = 1.0/(d0*1.0e3)          # sigma parameter of grating (1/k)</span>
+<span class="sd">    gr_alpha = d1*1.0e6/(d0*1.0e3)**2  # alpha parameter of grating (old=1,8) (n1/k/k) !!</span>
+<span class="sd">    d2       = d2*1.0e9                # in 1/m**3</span>
+<span class="sd">    if d2 == 0.0:</span>
+<span class="sd">        n=0</span>
+<span class="sd">        d2=1.0</span>
+<span class="sd">    else</span>
+<span class="sd">        n=1</span>
+
+<span class="sd">    # calculation of the sagittal focal distance </span>
+<span class="sd">    f_s = r_s/( np.sin(theta_i) + np.sin(theta_d) )</span>
+<span class="sd">    #print &#39;f_g_s = &#39;, f_s</span>
+
+<span class="sd">    # calculation of the tangential focal distance </span>
+<span class="sd">    #1. vls contribution</span>
+<span class="sd">    f_t_vls   = gr_sigma**2 * np.sin(theta_d)**2/xlamds/gr_alpha  #!!! original!!!!</span>
+<span class="sd">    f_g_t_vls = gr_sigma**2/xlamds/gr_alpha</span>
+<span class="sd">    #2. curvature contribution</span>
+<span class="sd">    f_t_c     = r_t/(1.0/theta_d+theta_i/theta_d**2)              #tangential focal distance due to curvature</span>
+<span class="sd">    #3. final tangential focal distance</span>
+<span class="sd">    f_t       = 1.0 / ( 1.0/f_t_vls + 1.0/f_t_c )    </span>
+<span class="sd">    #print &#39;f_g_t = &#39;,f_t,&#39; m,  f_g_t_c = &#39;,f_t_c,&#39; m,  f_g_t_vls = &#39;,f_t_vls,&#39; m&#39;</span>
+
+<span class="sd">    m      = len(fiel_in)</span>
+<span class="sd">    dx     = leng/m</span>
+<span class="sd">    dy     = dx</span>
+<span class="sd">    x1     = np.linspace( (m-1.0)/2.0*dx, ((m-1.0)/2.0 + 1-m))*dx, m )</span>
+<span class="sd">    y1     = np.linspace( (m-1.0)/2.0*dy, ((m-1.0)/2.0 + 1-m))*dy, m )</span>
+<span class="sd">    xx, yy = np.meshgrid(x1, y1) </span>
+
+<span class="sd">    #c_20=(theta_i**2/z1 + theta_i/r_t + theta_d**2/z2 + theta_d/r_t)/2</span>
+<span class="sd">    if aberration == True:</span>
+<span class="sd">        c_30 = ( n*np.pi*2.0/K/3.0*d2 ) + ( np.sin(theta_i)**2/z1 - np.sin(theta_i)/r_t ) * np.cos(theta_i)/2.0/z1 - ( np.sin(theta_d)**2/z2 - sin(theta_d)/r_t )*cos(theta_d)/2.0/z2</span>
+<span class="sd">        c_12 = ( -theta_i/r_s/z1 + 1.0/z1**2 + theta_d/r_s/z2 - 1/z2**2)/2.0</span>
+<span class="sd">    else</span>
+<span class="sd">        c_30 = 0</span>
+<span class="sd">        c_12 = 0</span>
+<span class="sd">     </span>
+
+<span class="sd">    # enegry conservation calculations</span>
+<span class="sd">    dm   = np.round( m*(1.0-gr_asym)/2.0 )</span>
+<span class="sd">    p_in = np.sum(np.abs(field_in(dm:m-dm))**2)</span>
+<span class="sd">    </span>
+<span class="sd">    fx    = interpolate.interp2d(xx, yy, field_in)</span>
+<span class="sd">    x     = fx(xx, yy*gr_asym)</span>
+<span class="sd">    p_out = np.sum(np.abs(x)**2)</span>
+<span class="sd">    </span>
+<span class="sd">    if pout ~= 0.0:</span>
+<span class="sd">        x = x*np.sqrt(p_in/p_out)</span>
+<span class="sd">    </span>
+<span class="sd">    x = x * np.exp(-1j*k/f_s/2.0*(xx**2))                #focusing sag</span>
+<span class="sd">    x = x * np.exp(-1j*k/f_t/2.0*(yy**2))                #focusing tang</span>
+<span class="sd">    x = x * np.exp(1j*k*c_30*(yy**33)/theta_d**3)        #aberration c_30 </span>
+<span class="sd">    x = x.* np.exp(1j*k*c_12*xx**2 * yy/theta_d)         #aberration c_12</span>
+
+<span class="sd">    x = np.abs(x)*np.exp(1j*(np.angle(x)+dtheta_d*k*yy)) #phase tilt</span>
+<span class="sd">        </span>
+<span class="sd">    field_out=x;</span>
+<span class="sd">        </span>
+<span class="sd">    return field_out</span>
+<span class="sd">&#39;&#39;&#39;</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

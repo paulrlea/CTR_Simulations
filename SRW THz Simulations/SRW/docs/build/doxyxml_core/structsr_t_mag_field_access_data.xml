@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_mag_field_access_data" kind="struct" language="C++" prot="public">
+    <compoundname>srTMagFieldAccessData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_mag_field_access_data_1aaefcb2ec5d1b3ee5864e913b9dc939d4" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTMagFieldAccessData::wBx</definition>
+        <argsstring></argsstring>
+        <name>wBx</name>
+        <qualifiedname>srTMagFieldAccessData::wBx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1732" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1732" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_mag_field_access_data_1aed142dd194f52a9843f160944286c28a" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTMagFieldAccessData::wBz</definition>
+        <argsstring></argsstring>
+        <name>wBz</name>
+        <qualifiedname>srTMagFieldAccessData::wBz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1732" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1732" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_mag_field_access_data_1a1d28f2989841b46ec303ff23aa83f642" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFieldAccessData::hStateBx</definition>
+        <argsstring></argsstring>
+        <name>hStateBx</name>
+        <qualifiedname>srTMagFieldAccessData::hStateBx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1733" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_mag_field_access_data_1a9a15de37b79d023efbc135eaeabf972a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFieldAccessData::hStateBz</definition>
+        <argsstring></argsstring>
+        <name>hStateBz</name>
+        <qualifiedname>srTMagFieldAccessData::hStateBz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1733" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1733" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1730" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1730" bodyend="1734"/>
+    <listofallmembers>
+      <member refid="structsr_t_mag_field_access_data_1a1d28f2989841b46ec303ff23aa83f642" prot="public" virt="non-virtual"><scope>srTMagFieldAccessData</scope><name>hStateBx</name></member>
+      <member refid="structsr_t_mag_field_access_data_1a9a15de37b79d023efbc135eaeabf972a" prot="public" virt="non-virtual"><scope>srTMagFieldAccessData</scope><name>hStateBz</name></member>
+      <member refid="structsr_t_mag_field_access_data_1aaefcb2ec5d1b3ee5864e913b9dc939d4" prot="public" virt="non-virtual"><scope>srTMagFieldAccessData</scope><name>wBx</name></member>
+      <member refid="structsr_t_mag_field_access_data_1aed142dd194f52a9843f160944286c28a" prot="public" virt="non-virtual"><scope>srTMagFieldAccessData</scope><name>wBz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

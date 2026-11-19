@@ -1,0 +1,759 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mirror_paraboloid" kind="class" language="C++" prot="public">
+    <compoundname>srTMirrorParaboloid</compoundname>
+    <basecompoundref refid="classsr_t_mirror" prot="public" virt="non-virtual">srTMirror</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1ad587dbc5a293b32e54f09cd465155797" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_f</definition>
+        <argsstring></argsstring>
+        <name>m_f</name>
+        <qualifiedname>srTMirrorParaboloid::m_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1007" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a62aab599c026f9c1dd3d269a5ca837e9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_angGraz</definition>
+        <argsstring></argsstring>
+        <name>m_angGraz</name>
+        <qualifiedname>srTMirrorParaboloid::m_angGraz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1007" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1ac566f550a144997ca1153193bd21ec7a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_radSag</definition>
+        <argsstring></argsstring>
+        <name>m_radSag</name>
+        <qualifiedname>srTMirrorParaboloid::m_radSag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1007" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a4967d035212b062fbace54a7f75515b3" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMirrorParaboloid::m_uc</definition>
+        <argsstring></argsstring>
+        <name>m_uc</name>
+        <qualifiedname>srTMirrorParaboloid::m_uc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1008" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1af8be204c928a2c763e0b6497516bcfd2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_a</definition>
+        <argsstring></argsstring>
+        <name>m_a</name>
+        <qualifiedname>srTMirrorParaboloid::m_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1010" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a18543b8cd7cf5a643f506e16271535f5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_b</definition>
+        <argsstring></argsstring>
+        <name>m_b</name>
+        <qualifiedname>srTMirrorParaboloid::m_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1010" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a3d315cd1676d69dd82821ea8b60847db" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_xcLocNorm</definition>
+        <argsstring></argsstring>
+        <name>m_xcLocNorm</name>
+        <qualifiedname>srTMirrorParaboloid::m_xcLocNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1011" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a51bd9e7b5ff5ebad73a7498d9153d547" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_zcLocNorm</definition>
+        <argsstring></argsstring>
+        <name>m_zcLocNorm</name>
+        <qualifiedname>srTMirrorParaboloid::m_zcLocNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1011" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1af9facb9c926cbd90facb660094d9764c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_cxx</definition>
+        <argsstring></argsstring>
+        <name>m_cxx</name>
+        <qualifiedname>srTMirrorParaboloid::m_cxx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1013" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a81258bd377f3d685d870c074f11bbb8b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_cxz</definition>
+        <argsstring></argsstring>
+        <name>m_cxz</name>
+        <qualifiedname>srTMirrorParaboloid::m_cxz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1013" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a8224480d4e06a17bf91f059ec3c123b0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_c2</definition>
+        <argsstring></argsstring>
+        <name>m_c2</name>
+        <qualifiedname>srTMirrorParaboloid::m_c2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1015" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a22645ab3ec73c6521ec272c3c5fb9c99" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_xMinLocNorm</definition>
+        <argsstring></argsstring>
+        <name>m_xMinLocNorm</name>
+        <qualifiedname>srTMirrorParaboloid::m_xMinLocNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1016" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1aeb6e8806bc5b8993b82db5bc69ea3dd9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_xMaxLocNorm</definition>
+        <argsstring></argsstring>
+        <name>m_xMaxLocNorm</name>
+        <qualifiedname>srTMirrorParaboloid::m_xMaxLocNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1016" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1a35d7c21460b9fe4ceb2af3e8ef8c2ec0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_yMinLocNorm</definition>
+        <argsstring></argsstring>
+        <name>m_yMinLocNorm</name>
+        <qualifiedname>srTMirrorParaboloid::m_yMinLocNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1016" column="36" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mirror_paraboloid_1ab48215df4e1b4bcba5408d2a659f7b99" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::m_yMaxLocNorm</definition>
+        <argsstring></argsstring>
+        <name>m_yMaxLocNorm</name>
+        <qualifiedname>srTMirrorParaboloid::m_yMaxLocNorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1016" column="50" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mirror_paraboloid_1add4b311300dc7b46e03e5d8b062ee187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTMirrorParaboloid::srTMirrorParaboloid</definition>
+        <argsstring>(const SRWLOptMirPar &amp;mirPar)</argsstring>
+        <name>srTMirrorParaboloid</name>
+        <qualifiedname>srTMirrorParaboloid::srTMirrorParaboloid</qualifiedname>
+        <param>
+          <type>const SRWLOptMirPar &amp;</type>
+          <declname>mirPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1021" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.cpp" bodystart="3535" bodyend="3552"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mirror_paraboloid_1aef1273c2406a799746bd877471be1755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMirrorParaboloid::DetermineParaboloidParamsInLocFrame</definition>
+        <argsstring>()</argsstring>
+        <name>DetermineParaboloidParamsInLocFrame</name>
+        <qualifiedname>srTMirrorParaboloid::DetermineParaboloidParamsInLocFrame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1023" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1023" bodyend="1056"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mirror_paraboloid_1a19ca72a2b2e419194a32d5053a8d0581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::dZdTgCrd</definition>
+        <argsstring>(double x)</argsstring>
+        <name>dZdTgCrd</name>
+        <qualifiedname>srTMirrorParaboloid::dZdTgCrd</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1058" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1058" bodyend="1061"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mirror_paraboloid_1ab5e6d30e1792803c4becb9be0db4f237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTMirrorParaboloid::dZdSgCrd</definition>
+        <argsstring>(double y)</argsstring>
+        <name>dZdSgCrd</name>
+        <qualifiedname>srTMirrorParaboloid::dZdSgCrd</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1062" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1062" bodyend="1065"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mirror_paraboloid_1a5cdddf3eb5fb90d0afdf4226c57a5a0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMirrorParaboloid::FindLimitsInLocNormFrame</definition>
+        <argsstring>(double xc, double yc, double &amp;xMin, double &amp;xMax, double &amp;yMin, double &amp;yMax)</argsstring>
+        <name>FindLimitsInLocNormFrame</name>
+        <qualifiedname>srTMirrorParaboloid::FindLimitsInLocNormFrame</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>xc</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yc</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>xMin</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>xMax</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>yMin</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>yMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1067" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1067" bodyend="1089"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mirror_paraboloid_1a1405ff65abf72fe81f95fa30da3f2add" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool srTMirrorParaboloid::FindRayIntersectWithSurfInLocFrame</definition>
+        <argsstring>(TVector3d &amp;inP, TVector3d &amp;inV, TVector3d &amp;resP, TVector3d *pResN=0)</argsstring>
+        <name>FindRayIntersectWithSurfInLocFrame</name>
+        <qualifiedname>srTMirrorParaboloid::FindRayIntersectWithSurfInLocFrame</qualifiedname>
+        <reimplements refid="classsr_t_mirror_1ac388f2b2adb45aca275b7ac602544fa6">FindRayIntersectWithSurfInLocFrame</reimplements>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>inP</declname>
+        </param>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>inV</declname>
+        </param>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>resP</declname>
+        </param>
+        <param>
+          <type>TVector3d *</type>
+          <declname>pResN</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1091" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1091" bodyend="1166"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="3">
+        <label>srTFocusingElem</label>
+        <link refid="classsr_t_focusing_elem"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srTGenOptElem</label>
+        <link refid="classsr_t_gen_opt_elem"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTMirror</label>
+        <link refid="classsr_t_mirror"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMirrorParaboloid</label>
+        <link refid="classsr_t_mirror_paraboloid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTShapedOptElem</label>
+        <link refid="classsr_t_shaped_opt_elem"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="3">
+        <label>srTFocusingElem</label>
+        <link refid="classsr_t_focusing_elem"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srTGenOptElem</label>
+        <link refid="classsr_t_gen_opt_elem"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>WfrTransmLimits</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTMirror</label>
+        <link refid="classsr_t_mirror"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMirrorParaboloid</label>
+        <link refid="classsr_t_mirror_paraboloid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srTRadResize</label>
+        <link refid="structsr_t_rad_resize"/>
+      </node>
+      <node id="8">
+        <label>srTSRWRadStructAccessData</label>
+        <link refid="classsr_t_s_r_w_rad_struct_access_data"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>pResAfter</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTShapedOptElem</label>
+        <link refid="classsr_t_shaped_opt_elem"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_pPrevWfr</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srTransvLimits</label>
+        <link refid="structsr_transv_limits"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" line="1005" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h" bodystart="1005" bodyend="1167"/>
+    <listofallmembers>
+      <member refid="classsr_t_gen_opt_elem_1ab13ad9139c8dc69e068179dd81d4f4d8" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>AddPtrOfActualOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4f393ccc53c73cd7a147b01f89fc115b" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>AllowAutoSwitchToUndersamplingMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4c78271502b6df63c7da3c2ad628e47d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>AnalizeFringes</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad1bed2641971f988321e0ebf6b2c673e" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>AnalizeFringes2D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad3a32ec7df9c4daf65c3c33db54b508a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>AnalizeFringesAroundPoint</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a6cf02fc2a701694eec265b4e06e17868" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>CalcOutputFrame</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a118e553e3d4aa8714eca605cda339256" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ChangeWfrRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa9aa59180ae07eaa42ea6cb7841ba14e" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ChangeWfrRepresMeth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8a453d33b34af2a809db441d003894f1" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ChangeWfrRepresMeth_1</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a63e2a92d1a59afa2fb6869022d56a714" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckAndCorrectSecondOrderRadAngMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a84c6c00ac42ac71aad2746971b02bc24" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckForLowOrderInterp</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8e4f849b82b61b06b38657b923f7b853" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckForLowOrderInterp1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8ac73aa141900c70a715bf37cdfc0df9" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckIfOversamplingIsReal</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ad9c05cefc272cda4fb1504321dac9cfc" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckIfPointIsWithinOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a32660d9da9111414d0897583c3f60a04" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckIfScenarioCanBeExecutedOrSuggestReduced</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0ba9255e0d34955ef926c506a71bca5d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckIfSpotShouldBeResized</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad15d5e724b4c6f0a3c8bc13031b0ca1a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckMemoryAvailable</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a65cd285f6309a9233dc055bb47ac063c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckPostResizeCenterCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af6b8bbe1425ab09db330d45e3b7bac9e" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckRadStructForPropagation</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a7b3a3d0c65966e790080888d8de132fa" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckRelCenPosAndSetPostResizeParamPmIfNecessary</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ace236641796254618f2e35c72f3e1231" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckRMS_Sizes1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a418eee9725358ec0f0bc5cb1476620fe" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CheckWidthMax1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aee7a5be05de521b0ba2325c631b9ccd4" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ChooseTreatExOrEzBasedOnMax</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5824d1398c0b39b074f14b0e97c1f3ea" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ComputeRadMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0c7292063da4555765b650f2c017f711" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CorrectResParMinNumPo</name></member>
+      <member refid="classsr_t_gen_opt_elem_1adef0443c54eafbeabd18a1f6ff301953" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a55f89cec1dab7d5c39c3df95a8dead91" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1ceb207bbca1fcc9e1a6d66861e79444" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CosAndSinPi</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aabffbeef4db34096fde2ec66cf2a4e2c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>CountFringes</name></member>
+      <member refid="classsr_t_mirror_1a2371d41d85b2eea3ad85e77585b3ab58" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>DefineGrating</name></member>
+      <member refid="classsr_t_mirror_1a10bbd4fdb24fa1117974f391673fe2df" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>DefineMirror</name></member>
+      <member refid="classsr_t_mirror_1ad7982f3a00e9fdc197170c81c389f0ba" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>DefineMirror</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab62e714a0f785b9c4f518d4bf9f13afd" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>DefinePropagScenario</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3624ae5d07b6555f3f958d2edf64f3d8" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>DefinePropagScenario1D</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1aef1273c2406a799746bd877471be1755" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>DetermineParaboloidParamsInLocFrame</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1ab5e6d30e1792803c4becb9be0db4f237" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>dZdSgCrd</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a19ca72a2b2e419194a32d5053a8d0581" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>dZdTgCrd</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8f2bac1ad19b6bac919bac6e3be27db7" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>EnsureCoordRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a353927c0eee040dd25267cf3b9091c3e" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mirror_1a8e2391ff42b0a696773ef0fc99d1d487" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>EstimateFocalLengths</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9613aa5db4a44e66f39ecf3a2bc3e8f8" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>EstimateMemoryNeededForPropag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab51a02133eb9ce500323ff250741056d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>EstimateMinNpForQuadTerm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a72660522643354b4ef8315509191f7a6" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>EstimateMinNpToResolveOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1a3b12f9f0d10ff6af6e9dd5f1b1306c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>EstimateNominalNpForUnderSampling</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a84df93c6deac1ba5ece485d848aa38a9" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ExtractPhase1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a46c105077968e5f3a00e4dfa7cffe393" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ExtractRadSectVsXorZ</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3d790fc80a058b9af3ec47355c8ed721" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ExtractRadSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1b8b178b585ec6288767e0cf58f27e7f" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>ExtractTransmCharact</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3282e75b8fece3bbf71bae03a4aaf9d6" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ExtraDataExpected</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeb668a9c94aea8a06e84521fa8ab55b5" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ExtraMemSizeForResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac737aaedbac92080d8b911521cb46a10" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ExtraMemSizeForResizeE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a098c5c6438d49536b1cb4f9ffba22856" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FillOutRadFromInRad</name></member>
+      <member refid="classsr_t_mirror_1a99277b51a2b90b6037228f3e400f97e8" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindBasisVectorTransAndExtents</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af52e275fbf668838778da8ed924baa87" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindCenterWithRespectToThresh</name></member>
+      <member refid="classsr_t_mirror_1a62f2f13590898cc1687919f890a423e9" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindElemExtentsAlongOptAxes</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3483d20708685faa37edab55622ec269" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindIntensityBorders1D</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1afdfd6c9be50c549cd94eebe48ee026b3" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindInWaveFrontNormal</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a5cdddf3eb5fb90d0afdf4226c57a5a0d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindLimitsInLocNormFrame</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a92795d439403b1986968004b874193b7" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindLineIntersectWithPlane</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeedc87a419d1b09d3fd31fdc0f5932e8" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindLongCoordOfHorBaseVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a39835985e013f9296f8f643b6daaff83" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindLowestAndUppestPoints</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a41d3220fe9670dd3a89469896e9f1feb" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindMaximumAbsReE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a061ff7fa3359de27c0864b65d8a21d76" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindMinMaxRatio</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a489680535fe82436227c1a70b241f172" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindPostResizeCenterCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a76f3c8885483f3ea87a89b18ca9e67c5" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindPostResizeForRange1D</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1abfcbd1f71966c2fbbd24c222c145d24f" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>FindRayIntersectWithSurface</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a1405ff65abf72fe81f95fa30da3f2add" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>FindRayIntersectWithSurfInLocFrame</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afd0bcd789ec22cd60ccb94c4f8e1bea4" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindRelPrecForRangeOverWfr1D</name></member>
+      <member refid="classsr_t_mirror_1a15781eb05f8fa0f8550e42f2b38cc212" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>FindSurfNormalInLocFrame</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae19b72ee288b77d65d3a1d5d36a64331" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindThresholdBorders</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a437c6ec9de4066bb43fe84c7a668b7b4" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FindWidestWfrMeshParam</name></member>
+      <member refid="classsr_t_focusing_elem_1a98e99e65d404e40a34d21b8581407d84" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FocDistX</name></member>
+      <member refid="classsr_t_focusing_elem_1a903bc5648f05de8b7c7571a07fe1af50" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FocDistZ</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afe8e5eb2b610ac77765e55c3d103f459" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FormalMag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a637197f9c18cad64ef0542ff11186bde" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FormalPhase</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a5a2d16b718d769458a553cb02016433b" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FromLabToLocFrame_Point</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a670ea6820b35b921fde0d707b570b6b8" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FromLabToLocFrame_Vector</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a109eeb5d8333d07ce5b5f8a71c193122" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FromLocToLabFrame_Point</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a27ba9c9d8117b508ac92dfaf0b480134" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>FromLocToLabFrame_Vector</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a54151eba73aa52e8ff81c934eb9a0b69" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>GenAuxPropagate4x4PropMatr</name></member>
+      <member refid="classsr_t_gen_opt_elem_1abb22e3134a4842d4c8b3f7870ee1e441" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>GenAuxPropagateRadMoments</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acfb0ba7b42d0fe3896b34e80a18b91fb" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>GenExtractPhase</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a63ac112b841e21138a4776e5edc3c43c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>GetCellDataForInterpol</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a35c7d2466d77cf3b3840738a4b7fa7b6" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>GetCellDataForInterpol1D</name></member>
+      <member refid="classsr_t_mirror_1a435048ffe68199604b023ac963a3addc" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>GetComplexReflectCoefFromTable</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aa4ecb63299ab3fa413e990b1beaaf8da" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>GetElemDimsInLocFrame</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ace7be357e70634661842343ecc1288d7" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>GPUImplFeatures</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8993844ac986866286184a3d307a7a8c" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>HalfPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a25aed205a1cc8b1fc27117f44f3a71bd" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ImproveReAndIm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae8b261ef1990b1eb2545da84337d2e24" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>Initialize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6b1041bddfc07a6de0286199f11f8493" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>IntegerOffsetCoord</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a36ae3ae294da2a3cd7690ee3099a597c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>IntegrateElField1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9842cac9d3d4d7a713242b1112c669ce" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpLin</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a81e2dff0eeb0b6eb67bcfd0acaccb828" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolF</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4350dce7d98fd2e01923ed2b6eea90ec" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolF1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac46d687edb2259f79f4dfd6eadc05762" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolF_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa373eb78681852434b9dbb1e66c97681" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolF_LowOrder1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac5fd69f95b011f634bd7c8979fd5084a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolFI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5d87c6b5787a818ba3846926f96ec78d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolFI1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1add7227c65a2de74a33ec3d80bd167158" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolFI_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acb4fbce2d459475111c7db1722a1a453" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>InterpolFI_LowOrder1D</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1af8be204c928a2c763e0b6497516bcfd2" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_a</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a62aab599c026f9c1dd3d269a5ca837e9" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_angGraz</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ab8b0d857b3ae794a208b333cd7734fea" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_angRot1</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aa221cd9d8586b7c56b1c83a32309adf6" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_angRot2</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ae0b784cd7ac5e43f0247abccd1fecc98" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_angRot3</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a58500d9db6799d810f513ad4b3164a04" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_apertShape</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1abf8a1df28f2835cd78cb2accc8997a44" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_axRot1</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aa7f2bf5fccb7421b4e132719e1ff0eeb" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_axRot2</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aabffdb22df2f10fbef185fc73c1b2e40" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_axRot3</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a18543b8cd7cf5a643f506e16271535f5" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_b</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a8224480d4e06a17bf91f059ec3c123b0" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_c2</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aaae1ea63445713ad91385f0fd55ed255" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_cenOfstDim1</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a776c58229d5feb03335f780c1718030b" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_cenOfstDim2</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1af9facb9c926cbd90facb660094d9764c" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_cxx</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a81258bd377f3d685d870c074f11bbb8b" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_cxz</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ad7965fb4fdad6f29788638ce0b942a0d" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_eHorOut</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aebfdbd1895774c3db483f392b21757a7" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_eVertOut</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a3eca141ea81c3ea620e189247d908674" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_extAlongOptAxIn</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1afa980888fbd35d95b6861b6cb863dc4c" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_extAlongOptAxOut</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1ad587dbc5a293b32e54f09cd465155797" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_f</name></member>
+      <member refid="classsr_t_mirror_1a03973a49fd07226f6b67ab8d5cfbd969" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grAng</name></member>
+      <member refid="classsr_t_mirror_1af66031af80ec61c7f3804f7f4ca5f0de" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grAuxAnamorphMagnH</name></member>
+      <member refid="classsr_t_mirror_1a5d9b66f2942b63451fbc521856bdf735" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grAuxAnamorphMagnV</name></member>
+      <member refid="classsr_t_mirror_1a1965fdfdba5b9a04c8e52dfe35540388" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grAuxCosAng</name></member>
+      <member refid="classsr_t_mirror_1acfff7a7d4b9ccb5920f05509a1099f7f" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grAuxElecFldAnamorphMagnFact</name></member>
+      <member refid="classsr_t_mirror_1a6e33807687bdf8139d60c0b6ba981575" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grAuxEphAvg</name></member>
+      <member refid="classsr_t_mirror_1a9c9428288952797586bae9aa84d52295" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grAuxSinAng</name></member>
+      <member refid="classsr_t_mirror_1a02f8fce4bdee5f65c7748741f8ad85b4" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grDen</name></member>
+      <member refid="classsr_t_mirror_1a16813b148531e1ab73ce9b9430b25955" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grDen1</name></member>
+      <member refid="classsr_t_mirror_1ad8c376742bec98fc1219450aaee32943" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grDen2</name></member>
+      <member refid="classsr_t_mirror_1a72e76a55922ea3109453921f28cdc44c" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grDen3</name></member>
+      <member refid="classsr_t_mirror_1ada8ef9f46333ab9e329278322f50287f" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grDen4</name></member>
+      <member refid="classsr_t_mirror_1aaed648d6b2b5485e59bb6b568a372be9" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_grM</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a52ab20e0cfdf21dba96225ed0dc6c7d3" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_halfDim1</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aefae06858249b32481b9d8e7431d76ae" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_halfDim2</name></member>
+      <member refid="classsr_t_mirror_1a7e88b9a3ce1bdb55a76de1f8fd131497" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_inWfrCh</name></member>
+      <member refid="classsr_t_mirror_1a0523c6102d69636906f6b9c3ca253010" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_inWfrCv</name></member>
+      <member refid="classsr_t_mirror_1afefff38269d58ac0028cff5e3db4c9de" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_inWfrRh</name></member>
+      <member refid="classsr_t_mirror_1a106e539c045f46f4b70830a7afa639fd" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_inWfrRv</name></member>
+      <member refid="classsr_t_mirror_1a304e1d747326fdd175171aebc878a485" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_isConvex</name></member>
+      <member refid="classsr_t_mirror_1a8eeb4f888f322829ea8283b689167f70" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_isGrating</name></member>
+      <member refid="classsr_t_mirror_1a601b2c37f6f730cf418f2baefb04deb4" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_longPosEndPropPart</name></member>
+      <member refid="classsr_t_mirror_1a232e9e18a64cfaea5e547350a467203c" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_longPosStartPropPart</name></member>
+      <member refid="classsr_t_mirror_1af2b1362fc8e0f5861020c0c40a8a8040" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_nps</name></member>
+      <member refid="classsr_t_mirror_1aed19e1bb34195ddcc6ecfb58511a7878" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_npt</name></member>
+      <member refid="classsr_t_mirror_1ad4ea805bee732f03e66f1880b75253f0" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_numPartsProp</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a13dbce4b8e76c2a114f64787cd1ece5f" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_pPrevWfr</name></member>
+      <member refid="classsr_t_mirror_1a1cb5939d602546deebb7372668558850" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_propMeth</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3760d3094c00623976076d9948216f14" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_PropWfrInPlace</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1ac566f550a144997ca1153193bd21ec7a" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_radSag</name></member>
+      <member refid="classsr_t_mirror_1ae901983f25b459a1a72ebde8093ee41f" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_reflData</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aab80e7e607e753819793db2424400309" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_treatInOut</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a4967d035212b062fbace54a7f75515b3" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_uc</name></member>
+      <member refid="classsr_t_mirror_1ad45d6360c7d0a0c4637ad48a668e19a7" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_vCenNorm</name></member>
+      <member refid="classsr_t_mirror_1a938e0cd53043c89b14121bc9712c7a59" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_vCenTang</name></member>
+      <member refid="classsr_t_mirror_1ace5c1c474b26d683f0bf195b3278f619" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_vHorOutIn</name></member>
+      <member refid="classsr_t_mirror_1a3c5c7823b992d8a5c493d1ac60056e66" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_vInLoc</name></member>
+      <member refid="classsr_t_mirror_1aa454bc65fb259b237438dc0beffe975b" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_vOutLoc</name></member>
+      <member refid="classsr_t_mirror_1a887ed0b469654a943589d517f0232fa2" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_vPtOutLoc</name></member>
+      <member refid="classsr_t_mirror_1af7b8c28833201cd3f5f35d88cc15bce2" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_vVerOutIn</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aad2404f8f0aa3eeef1fec9937d0bca80" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_wfrInterpMode</name></member>
+      <member refid="classsr_t_focusing_elem_1a36deb97b257ba9c1a871e56cc6747648" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_wfrRadWasProp</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a3d315cd1676d69dd82821ea8b60847db" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_xcLocNorm</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1aeb6e8806bc5b8993b82db5bc69ea3dd9" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_xMaxLocNorm</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a22645ab3ec73c6521ec272c3c5fb9c99" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_xMinLocNorm</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1ab48215df4e1b4bcba5408d2a659f7b99" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_yMaxLocNorm</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a35d7c21460b9fe4ceb2af3e8ef8c2ec0" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_yMinLocNorm</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1a51bd9e7b5ff5ebad73a7498d9153d547" prot="private" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>m_zcLocNorm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6778d64918c087476300d6c5213b0c26" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>MakePostPropagationProc</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa2578bdf79bf3b0f0be343772c1bdb75" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MakeSimpleOversamplingTestAndCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acd8a7c72a7dc5d6d0ca0c82b9383e1dc" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MakeWfrEdgeCorrection</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a408880ad9a2bcc18ec32b0fe6738f281" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MakeWfrEdgeCorrection1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab8b0582b96b3ab07e6445ad2a1d4b9ec" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MaxIntInHorString</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a353bfbbf7f209c8420912e1f1c97cfd0" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MaxIntInVertString</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a688f6ecb6d335df53b838ebafcf3fa52" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MemoryIsSufficientForProp</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9a8f9ac8d506aa38881d8c35a9d8571a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MemoryIsSufficientForResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac5430c55e5c4fa3b532f5b093aa73b19" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MemoryIsSufficientForTwoResize</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ab27e3663e59e2c6f6f31ababc95a56f7" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>ModifElecFieldAtSurf</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0633c0907ad4ba957afdc6f02f8ad489" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>MultSquareMatrByVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2c7409d5cfc3bce9890eeeda2ee4cde9" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>One_dTwoPI</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a94691a07bc735473e452ae1141595432" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>OneRayTrace</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae48f7a6621a159b972003f336720ca21" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4213b1607e1bc16e8169a5060b7a7d59" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PostResizeAndTryToImproveResolInSmallSpot</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aeb06230ffa8afd2c7f89c2146d0a1d58" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PredictPhase</name></member>
+      <member refid="classsr_t_focusing_elem_1a1e7e691e7f809afb4b3acfe0dc05d065" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>Propagate4x4PropMatr</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a8f0decded05b4a8bd28456d6911401ef" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PropagateByRays</name></member>
+      <member refid="classsr_t_mirror_1a5c68d04f3eff72ba015b189066d45a68" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiation</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5cbc519005c4ddfddc6d36e55855ae8c" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationMeth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9e81d35cecc9e8f9c6e2be478734aa25" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationMeth_2</name></member>
+      <member refid="classsr_t_mirror_1a19183fd07b36769925482539db5f635f" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationSimple</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a103486f86ba28e39984ac7457d865fc3" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationSimple1D</name></member>
+      <member refid="classsr_t_mirror_1a49f185f292374f943d52c115cc3c4212" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationSimple_FourierByParts</name></member>
+      <member refid="classsr_t_mirror_1a9780d362265411d202f38453f2d596c6" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationSimple_LocRayTracing</name></member>
+      <member refid="classsr_t_mirror_1aebb959e2ae75ba704b4710369f0b128a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationSimple_ThinElem</name></member>
+      <member refid="classsr_t_mirror_1a1f29016e45d35e5d958a2d559eeb7478" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationSingleE_Meth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab5155468d4901568acb537f1023f4b34" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationSingleE_Meth_2</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8142349004a6e00373d874750572cb8a" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadiationTest</name></member>
+      <member refid="classsr_t_focusing_elem_1a216151b9e785c377acfe8df25b3e2800" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateRadMoments</name></member>
+      <member refid="classsr_t_mirror_1aa867b1c740b2e6deab06a74240f8d8b0" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateWaveFrontRadius</name></member>
+      <member refid="classsr_t_focusing_elem_1a599e3fb8fd53b8108028a623bec11899" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>PropagateWaveFrontRadius1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1387909109241815bb5cd4464a49d2a1" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>RadOptPathDiff</name></member>
+      <member refid="classsr_t_mirror_1affeb03ad264ba659c8f14fc9d4833118" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>RadPointModifier</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a77bbdfaef546f794172f699d8e3c5df6" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>RadPointModifier1D</name></member>
+      <member refid="classsr_t_mirror_1a6aa59a66b871addbca125eb3c8a9dda3" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadPointModifier_FourierByParts</name></member>
+      <member refid="classsr_t_mirror_1a7c4ea992f38eeada3fa7535ba9329758" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadPointModifier_ThinElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae4f3ba0128efd182f7a67f1d3c7fb65a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadRearrangeOnRegularMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a537c8fdde7ac93d0a2d8fcb0436d4015" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeCore</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1230cf82ac392afb75ebd54164772b2d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeCore1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a543ccb84f77a41d84b62839bae7c94a1" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeCore_OnlyLargerRange</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a36a78d9c6760bec62ca7eeecb8ecb923" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeCore_OnlyLargerRangeE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afb3ee42ea5101edba3b629c9e0c56fd4" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeCoreE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aaf79e5ea4009e0786958ad36e3110771" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeGen</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a3ab6b260efcc83262cabfc693115fce5" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeGen1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac01066d999137b12de77fb8401532983" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RadResizeGenE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af70fc1c6f568398b1b5783be1bec9cb4" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>RangeShouldBeAdjustedAtPropag</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ac63cba8df816ffafe3fa2e1c1492275a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RecomputeRadMomentsIfPossible</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0df2e849495f042e2d269136bf79bde0" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ReduceBiggerResizeParamUntilFitMemory</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2e5fa121784a52654c286ef1f4730685" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ReflectVect</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad28c32f7021e3b7337a107751cf1e6ce" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ReInterpolateWfrDataOnNewTransvMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a48cfea088831804de2aef84414354e2b" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ReInterpolateWfrSliceSingleE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9ee5cf9ff8e5d8d551ff0932892e2483" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RejectSmallResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a46d60cc88087a936150f06b249c13a97" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RemoveSliceConstE_FromGenRadStruct</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad740f180b169d99589d5e401af59602f" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RemoveUndersamplingByResizingOrStop</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5e47abd2df2982c48def95a408c05518" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ResizePropagateAndAnalizeFringes1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a645baffd2fd9a7b8962e51a84d753360" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>ResolutionShouldBeAdjustedAtPropag</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a8fa4a76e622e0e6dbeeba814c1fa548b" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>RotPlane</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a20a624b4b483c23e5c0e25437d774952" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetRadRepres</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aab2e8b76487bdbb8cb7cdd56d7642644" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetRadRepres1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af9fc775bd4bad1e27dd9b03b0a6c95dd" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupCellDataI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a872faf1a3f58840fa34893a19e09e57d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupCellDataI1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa97bd992fdcb0c6c2da25212f89a0188" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupCharacteristicSections1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a10d3b3ae74bf71620b6fcc9207afadd7" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupExpCorrArray</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a795f1679a9624c2dea7ee3355e803425" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>SetupInAndOutPlanes</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6c32903217900dceebf1ac79af5a5063" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupInterpolAux02</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1912b71ca535545231a40d81e29ddaea" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupInterpolAux02_1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa16d0e8bd5b73dba826f6ef9986a12ac" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupInterpolAux02_LowOrder</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0292a9cf551bd263ce8fef2ee5a3b7cb" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupInterpolAux02_LowOrder1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ae67a5a5700247cd18ab8533d4b54e2af" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupMxxMzzArr</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ab222a766dc8219bde4b125e0be63131f" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>SetupNativeTransformation</name></member>
+      <member refid="classsr_t_mirror_1ad8e3752e986e0a093f21cab8fa7970f2" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupNativeTransFromLocToBeamFrame</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa393b2bedf1689d89353edc8e6d83660" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupNewRadStructFromSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad91e0fd24c14146e465b357151bcb2c6" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupOpticalElement</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a0b70e241442e6df59b930d95fbf8048e" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>SetupPreOrient</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a570241c8a03a0062d5d7f20627cae619" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupRadSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a092509412ed382acbf11669cedb77629" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupRadXorZSectFromSliceConstE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aa4146574cf910f3205c94c4263fb8c9c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupSectionArraysVsXandZ</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad90ea54a9ad9c8e74deb3dc58748766f" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupWfrEdgeCorrData</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a24a6aaacfce972fde8162e8116a7ad24" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SetupWfrEdgeCorrData1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acabf51b65c5aa9e90ecb485f162eec58" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ShowCurrentOverSamplingFactors</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>sign</name></member>
+      <member refid="classsr_t_focusing_elem_1a6ae4c1aea8b51e83974e44996fe0da08" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>srTFocusingElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a901bd017a85fbe5cbe7e3ea7e7d1c82c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>srTGenOptElem</name></member>
+      <member refid="classsr_t_mirror_1ade0445a07c8a409d8e21d0b501570f6e" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>srTMirror</name></member>
+      <member refid="classsr_t_mirror_1a96cf72f5fe0654d5418f7ce5a5f1f2ae" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>srTMirror</name></member>
+      <member refid="classsr_t_mirror_paraboloid_1add4b311300dc7b46e03e5d8b062ee187" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>srTMirrorParaboloid</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ab4204b1d3131620dd62a3b79d814ac51" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>srTShapedOptElem</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2b8a49381c200e6563d56beea26efb7c" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SteerPostResizeParam</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a86a07c82cd04348b91cb18ba91b803bb" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SuggestResolResizeCoef</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a1fd869db1d5e3f664fc3bbfb3697aca4" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SuggestScenarioThatFitsMemory</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a25745710ad5ccd73b8a9cec91744f4a0" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>SuitableConditionsForUnderSamplingMode</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a584fc2005d5283d9e7b0ab618afd5e3d" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>SurfaceFunction</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1ab25bd9eacc80c6aca4101adc4c7cc4bd" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>SurfaceNormalAtPoint</name></member>
+      <member refid="classsr_t_mirror_1abc510f948ec1f043cd6b35f40b0c2c9c" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>SurfHeightInLocFrame</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a391141d9cb93969eaeddefb08b97bac1" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>Theta</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6438f1cbc9dc0fb5055c305e0948fffd" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>ThreePIdTwo</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1affcdf60494666e55dfc80e471fa4f24e" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>TraceRayInLocFrame</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad363aa021b7133d810e776d3de643bbf" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TransferResizeParam</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a62458bd6e68810644fda3e2051b33107" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TransHndl</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a60580993dc1605d5103408c112acb1e0" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TransNomHndl</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1a7645d0e978d2c2509a794c40796be92b" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TransvCenPoint</name></member>
+      <member refid="classsr_t_gen_opt_elem_1acfe4a9d2171edef80b453181727c6190" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TraverseRad1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a905899b131de33ff2e0629ce7874592b" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TraverseRadZXE</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a2e458eeec156a4feead4207eae9acb56" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TreatPhaseShift</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a00b50e016a4aa88520b282aa66b88dd9" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TreatStronglyOscillatingTerm</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a74e0bfde8f242c9c5299f7b6a6f9e895" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TreatStronglyOscillatingTerm1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1afcce8a391ddb315a88327b60f1f5e081" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TreatStronglyOscillatingTermIrregMesh</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ad0a880529ddb8823e88e7049eb37dade" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TreatStronglyOscillatingTermIrregMeshTrf</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a8bc9def079a47c45ac37eb73a41627d6" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TryToRemoveUndersamplingByResizing</name></member>
+      <member refid="classsr_t_gen_opt_elem_1ab66040c60b23168e607e308fb1ea5103" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TryToSetUnderSamplingMode</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a89dc0180ff56ca4d7bd6c125e965f87a" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TuneAndKeepResolution1D</name></member>
+      <member refid="classsr_t_focusing_elem_1aecb2e065fb4a0eb8be6bb1a3267623e5" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TuneRadForPropMeth_1</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4461c85c29200643d7aae3f5075cabe9" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TuneRangeNotDegradingPrec1D</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a5ebbc3ddd28fdd3de2b9c4ca33caa342" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TuneStepToKeepInterpLimitsTheSameAtResize</name></member>
+      <member refid="classsr_t_gen_opt_elem_1af470aefcbb47ebe8c4f2ef77a0727167" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>TwoPI</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a9055ce7f8baed27657d3e0745f06a2c8" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>UnderSamplingModeCanBeSuggested</name></member>
+      <member refid="classsr_t_gen_opt_elem_1aaf6a9665fa87a64c10fb6c433784749d" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>UpdateGenRadStructSliceConstE_Meth_0</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a90886303cd1e92bdb05ebf0975cd5389" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>UpdateGenRadStructSliceConstE_Meth_2</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a6fb9f08e0fcf36b6418473aca0fbbe12" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>WaveFrontTermCanBeTreated</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a0061045be32bde47093efb5eb9748d75" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>WaveFrontTermCanBeTreated1D</name></member>
+      <member refid="classsr_t_mirror_1ad2ff09acf72afb69d4078a3b266dd877" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>WfrInterpolOnOrigGrid</name></member>
+      <member refid="classsr_t_shaped_opt_elem_1aa69d2e9a056ce6e2fc53e46355cd20c6" prot="public" virt="non-virtual" ambiguityscope="srTFocusingElem::"><scope>srTMirrorParaboloid</scope><name>WfrInterpolOnOrigGrid</name></member>
+      <member refid="classsr_t_mirror_1aabc87fe6ff08bfaeb3d5cff87b25d489" prot="public" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>WfrInterpolOnOrigGrid2</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4c5c991b74946799e9f4617ad0d82009" prot="protected" virt="non-virtual"><scope>srTMirrorParaboloid</scope><name>WfrTransmLimits</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>~CGenObject</name></member>
+      <member refid="classsr_t_gen_opt_elem_1a4f3c4953420c0ab1be02557abe41d64a" prot="public" virt="virtual"><scope>srTMirrorParaboloid</scope><name>~srTGenOptElem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

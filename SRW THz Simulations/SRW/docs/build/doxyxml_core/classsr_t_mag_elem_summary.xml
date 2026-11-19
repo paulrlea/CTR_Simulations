@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_elem_summary" kind="class" language="C++" prot="public">
+    <compoundname>srTMagElemSummary</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_elem_summary_1a08523fc6967e7ca8aa952e613d31dfe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTMagElemSummary::SetupMagElement</definition>
+        <argsstring>(srTStringVect *, CHMagFld &amp;)</argsstring>
+        <name>SetupMagElement</name>
+        <qualifiedname>srTMagElemSummary::SetupMagElement</qualifiedname>
+        <param>
+          <type>srTStringVect *</type>
+          <defname>pMagElemInfo</defname>
+        </param>
+        <param>
+          <type>CHMagFld &amp;</type>
+          <defname>MagElemHndl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1721" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="36" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="1719" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="1719" bodyend="1722"/>
+    <listofallmembers>
+      <member refid="classsr_t_mag_elem_summary_1a08523fc6967e7ca8aa952e613d31dfe6" prot="public" virt="non-virtual"><scope>srTMagElemSummary</scope><name>SetupMagElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

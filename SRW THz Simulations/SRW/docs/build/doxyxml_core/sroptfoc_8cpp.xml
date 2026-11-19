@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="sroptfoc_8cpp" kind="file" language="C++">
+    <compoundname>sroptfoc.cpp</compoundname>
+    <includes refid="sroptfoc_8h" local="yes">sroptfoc.h</includes>
+    <incdepgraph>
+      <node id="21">
+        <label>srebmdat.h</label>
+        <link refid="srebmdat_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>srercode.h</label>
+        <link refid="srercode_8h_source"/>
+      </node>
+      <node id="14">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptfoc.cpp</label>
+        <link refid="sroptfoc_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>srradind.h</label>
+        <link refid="srradind_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>srradstr.h</label>
+        <link refid="srradstr_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>srwfrsmp.h</label>
+        <link refid="srwfrsmp_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>cmplxd.h</label>
+      </node>
+      <node id="6">
+        <label>cstdlib</label>
+      </node>
+      <node id="20">
+        <label>ctype.h</label>
+      </node>
+      <node id="7">
+        <label>gmtrans.h</label>
+      </node>
+      <node id="8">
+        <label>gmvect.h</label>
+      </node>
+      <node id="28">
+        <label>list</label>
+      </node>
+      <node id="16">
+        <label>map</label>
+      </node>
+      <node id="12">
+        <label>math.h</label>
+      </node>
+      <node id="9">
+        <label>smartptr.h</label>
+      </node>
+      <node id="13">
+        <label>srigorre.h</label>
+      </node>
+      <node id="23">
+        <label>srinterf.h</label>
+      </node>
+      <node id="26">
+        <label>srwlib.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="17">
+        <label>stlstart.h</label>
+      </node>
+      <node id="15">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>string.h</label>
+      </node>
+      <node id="27">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sroptfoc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//int<sp/>srTFocusingElem::TuneRadForPropMeth_1(srTSRWRadStructAccessData*<sp/>pRadAccessData,<sp/>srTRadResize&amp;<sp/>PostResize)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classsr_t_focusing_elem_1aecb2e065fb4a0eb8be6bb1a3267623e5" kindref="member">srTFocusingElem::TuneRadForPropMeth_1</ref>(<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>*<sp/>pRadAccessData,<sp/><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref>&amp;<sp/>PostResize,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>pvGPU)<sp/></highlight><highlight class="comment">//HG12082025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ratios" kindref="compound">srTMomentsRatios</ref>*<sp/>MomRatArray<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="structsr_t_moments_ratios" kindref="compound">srTMomentsRatios</ref>[pRadAccessData-&gt;ne];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MomRatArray<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>MEMORY_ALLOCATION_FAILURE;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pRadAccessData-&gt;Pres<sp/>!=<sp/>0)<sp/></highlight><highlight class="comment">//<sp/>Go<sp/>to<sp/>spatial...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(result<sp/>=<sp/>SetRadRepres(pRadAccessData,<sp/>0))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>SetRadRepres(pRadAccessData,<sp/>0,<sp/>0,<sp/>0,<sp/>pvGPU))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//HG01082025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(result<sp/>=<sp/>PropagateRadMoments(pRadAccessData,<sp/>MomRatArray))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>PropagateRadMoments(pRadAccessData,<sp/>MomRatArray,<sp/>pvGPU))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//HG01082025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_moments_ratios" kindref="compound">srTMomentsRatios</ref>*<sp/>tMomRatArray<sp/>=<sp/>MomRatArray;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>pxMaxMomX<sp/>=<sp/>(float)(1.e-23),<sp/>pxMinMomX<sp/>=<sp/>(float)(1.e+23),<sp/>pzMaxMomX<sp/>=<sp/>(float)(1.e-23),<sp/>pzMinMomX<sp/>=<sp/>(float)(1.e+23);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>pxMaxMomZ<sp/>=<sp/>(float)(1.e-23),<sp/>pxMinMomZ<sp/>=<sp/>(float)(1.e+23),<sp/>pzMaxMomZ<sp/>=<sp/>(float)(1.e-23),<sp/>pzMinMomZ<sp/>=<sp/>(float)(1.e+23);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pxMaxMomX<sp/>=<sp/>1.e-23,<sp/>pxMinMomX<sp/>=<sp/>1.e+23,<sp/>pzMaxMomX<sp/>=<sp/>1.e-23,<sp/>pzMinMomX<sp/>=<sp/>1.e+23;<sp/></highlight><highlight class="comment">//OC130311</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pxMaxMomZ<sp/>=<sp/>1.e-23,<sp/>pxMinMomZ<sp/>=<sp/>1.e+23,<sp/>pzMaxMomZ<sp/>=<sp/>1.e-23,<sp/>pzMinMomZ<sp/>=<sp/>1.e+23;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ie=0;<sp/>ie&lt;pRadAccessData-&gt;ne;<sp/>ie++)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RxpxpMomX<sp/>&gt;<sp/>pxMaxMomX)<sp/>pxMaxMomX<sp/>=<sp/>tMomRatArray-&gt;RxpxpMomX;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RxpxpMomZ<sp/>&gt;<sp/>pxMaxMomZ)<sp/>pxMaxMomZ<sp/>=<sp/>tMomRatArray-&gt;RxpxpMomZ;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RxpxpMomX<sp/>&lt;<sp/>pxMinMomX)<sp/>pxMinMomX<sp/>=<sp/>tMomRatArray-&gt;RxpxpMomX;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RxpxpMomZ<sp/>&lt;<sp/>pxMinMomZ)<sp/>pxMinMomZ<sp/>=<sp/>tMomRatArray-&gt;RxpxpMomZ;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RzpzpMomX<sp/>&gt;<sp/>pzMaxMomX)<sp/>pzMaxMomX<sp/>=<sp/>tMomRatArray-&gt;RzpzpMomX;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RzpzpMomZ<sp/>&gt;<sp/>pzMaxMomZ)<sp/>pzMaxMomZ<sp/>=<sp/>tMomRatArray-&gt;RzpzpMomZ;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RzpzpMomX<sp/>&lt;<sp/>pzMinMomX)<sp/>pzMinMomX<sp/>=<sp/>tMomRatArray-&gt;RzpzpMomX;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(tMomRatArray-&gt;RzpzpMomZ<sp/>&lt;<sp/>pzMinMomZ)<sp/>pzMinMomZ<sp/>=<sp/>tMomRatArray-&gt;RzpzpMomZ;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tMomRatArray++;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>pxMax<sp/>=<sp/>(pxMaxMomX<sp/>&gt;<sp/>pxMaxMomZ)?<sp/>pxMaxMomX<sp/>:<sp/>pxMaxMomZ;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>pzMax<sp/>=<sp/>(pzMaxMomX<sp/>&gt;<sp/>pzMaxMomZ)?<sp/>pzMaxMomX<sp/>:<sp/>pzMaxMomZ;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pxMax<sp/>=<sp/>(pxMaxMomX<sp/>&gt;<sp/>pxMaxMomZ)?<sp/>pxMaxMomX<sp/>:<sp/>pxMaxMomZ;<sp/></highlight><highlight class="comment">//OC130311</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pzMax<sp/>=<sp/>(pzMaxMomX<sp/>&gt;<sp/>pzMaxMomZ)?<sp/>pzMaxMomX<sp/>:<sp/>pzMaxMomZ;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Only<sp/>the<sp/>following<sp/>is<sp/>used<sp/>for<sp/>tuning</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>very<sp/>unsafe<sp/>!!!<sp/>Needs<sp/>Reparation<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>pxdTot<sp/>=<sp/>(float)::fabs((FocDistX<sp/>-<sp/>pRadAccessData-&gt;RobsX)/FocDistX);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//float<sp/>pzdTot<sp/>=<sp/>(float)::fabs((FocDistZ<sp/>-<sp/>pRadAccessData-&gt;RobsZ)/FocDistZ);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pxdTot<sp/>=<sp/>::fabs((FocDistX<sp/>-<sp/>pRadAccessData-&gt;RobsX)/FocDistX);<sp/></highlight><highlight class="comment">//OC130311</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pzdTot<sp/>=<sp/>::fabs((FocDistZ<sp/>-<sp/>pRadAccessData-&gt;RobsZ)/FocDistZ);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pdMinimumAllowed<sp/>=<sp/>0.03;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pxdTot<sp/>&lt;<sp/>pdMinimumAllowed)<sp/>pxdTot<sp/>=<sp/>pdMinimumAllowed;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pzdTot<sp/>&lt;<sp/>pdMinimumAllowed)<sp/>pzdTot<sp/>=<sp/>pdMinimumAllowed;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref><sp/>RadResize;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>RadResize.pxm<sp/>=<sp/>RadResize.pxd<sp/>=<sp/>RadResize.pzm<sp/>=<sp/>RadResize.pzd<sp/>=<sp/>1.;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ResizeTol<sp/>=<sp/>0.15;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>xResizeNeeded<sp/>=<sp/>(pxdTot<sp/>-<sp/>1.<sp/>&gt;<sp/>ResizeTol);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>zResizeNeeded<sp/>=<sp/>(pzdTot<sp/>-<sp/>1.<sp/>&gt;<sp/>ResizeTol);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xResizeNeeded)<sp/>RadResize.pxd<sp/>=<sp/>pxdTot;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(zResizeNeeded)<sp/>RadResize.pzd<sp/>=<sp/>pzdTot;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(xResizeNeeded<sp/>||<sp/>zResizeNeeded)<sp/>if(result<sp/>=<sp/>RadResizeGen(*pRadAccessData,<sp/>RadResize))<sp/>return<sp/>result;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xResizeNeeded<sp/>||<sp/>zResizeNeeded)<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(result<sp/>=<sp/>RadResizeGen(*pRadAccessData,<sp/>RadResize,<sp/>pvGPU))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//HG01082025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>PostResize.pxm<sp/>=<sp/>PostResize.pzm<sp/>=<sp/>PostResize.pxd<sp/>=<sp/>PostResize.pzd<sp/>=<sp/>1.;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>xPostResizeNeeded<sp/>=<sp/>(1.-<sp/>ResizeTol<sp/>&gt;<sp/>pxdTot);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>zPostResizeNeeded<sp/>=<sp/>(1.-<sp/>ResizeTol<sp/>&gt;<sp/>pzdTot);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xPostResizeNeeded)<sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostResize.pxd<sp/>=<sp/>pxMax;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(zPostResizeNeeded)<sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostResize.pzd<sp/>=<sp/>pzMax;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(MomRatArray<sp/>!=<sp/>0)<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>MomRatArray;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptfoc.cpp"/>
+  </compounddef>
+</doxygen>

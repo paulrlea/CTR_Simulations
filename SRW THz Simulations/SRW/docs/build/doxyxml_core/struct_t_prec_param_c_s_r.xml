@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="struct_t_prec_param_c_s_r" kind="struct" language="C++" prot="public">
+    <compoundname>TPrecParamCSR</compoundname>
+    <includes refid="srcradint_8h" local="no">srcradint.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_t_prec_param_c_s_r_1af02d78f1b92d81f5dbc4ecd425d08704" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TPrecParamCSR::m_MethNo</definition>
+        <argsstring></argsstring>
+        <name>m_MethNo</name>
+        <qualifiedname>TPrecParamCSR::m_MethNo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="46" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_prec_param_c_s_r_1ac637675bd90f4d206d78515cfc9c0fdd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TPrecParamCSR::m_PrecPar</definition>
+        <argsstring></argsstring>
+        <name>m_PrecPar</name>
+        <qualifiedname>TPrecParamCSR::m_PrecPar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="47" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_prec_param_c_s_r_1a9ee7af5b79f8b898edc13516df61d64e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TPrecParamCSR::m_sStep</definition>
+        <argsstring></argsstring>
+        <name>m_sStep</name>
+        <qualifiedname>TPrecParamCSR::m_sStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="48" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_prec_param_c_s_r_1a0a4695f2488136d7ee5a16f962c72bc2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TPrecParamCSR::m_sIntegStart</definition>
+        <argsstring></argsstring>
+        <name>m_sIntegStart</name>
+        <qualifiedname>TPrecParamCSR::m_sIntegStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="48" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_prec_param_c_s_r_1ac4826ee4cbb7952c1bb460cc956583ed" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TPrecParamCSR::m_sIntegEnd</definition>
+        <argsstring></argsstring>
+        <name>m_sIntegEnd</name>
+        <qualifiedname>TPrecParamCSR::m_sIntegEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="48" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_prec_param_c_s_r_1ac803cae475d5baeb48532c5790096c84" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TPrecParamCSR::m_NxNzOversampFact</definition>
+        <argsstring></argsstring>
+        <name>m_NxNzOversampFact</name>
+        <qualifiedname>TPrecParamCSR::m_NxNzOversampFact</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="49" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_prec_param_c_s_r_1a320a1f3940c0c37d68f1bf2fc63bb378" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TPrecParamCSR::m_MC_NumMacroPart</definition>
+        <argsstring></argsstring>
+        <name>m_MC_NumMacroPart</name>
+        <qualifiedname>TPrecParamCSR::m_MC_NumMacroPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="50" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_t_prec_param_c_s_r_1aa1918e55ce80871d0be43690e1ea5507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TPrecParamCSR::setupFromArray</definition>
+        <argsstring>(double *_pdPar)</argsstring>
+        <name>setupFromArray</name>
+        <qualifiedname>TPrecParamCSR::setupFromArray</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>_pdPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="52" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="52" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srcradint_8h_source" kindref="compound">srcradint.h</ref> Description: CSR calculation (header) Project: Synchrotron Radiation Workshop First release: 2006. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) Synchrotron SOLEIL, Gif-sur-Yvette, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" line="44" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h" bodystart="44" bodyend="97"/>
+    <listofallmembers>
+      <member refid="struct_t_prec_param_c_s_r_1a320a1f3940c0c37d68f1bf2fc63bb378" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>m_MC_NumMacroPart</name></member>
+      <member refid="struct_t_prec_param_c_s_r_1af02d78f1b92d81f5dbc4ecd425d08704" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>m_MethNo</name></member>
+      <member refid="struct_t_prec_param_c_s_r_1ac803cae475d5baeb48532c5790096c84" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>m_NxNzOversampFact</name></member>
+      <member refid="struct_t_prec_param_c_s_r_1ac637675bd90f4d206d78515cfc9c0fdd" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>m_PrecPar</name></member>
+      <member refid="struct_t_prec_param_c_s_r_1ac4826ee4cbb7952c1bb460cc956583ed" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>m_sIntegEnd</name></member>
+      <member refid="struct_t_prec_param_c_s_r_1a0a4695f2488136d7ee5a16f962c72bc2" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>m_sIntegStart</name></member>
+      <member refid="struct_t_prec_param_c_s_r_1a9ee7af5b79f8b898edc13516df61d64e" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>m_sStep</name></member>
+      <member refid="struct_t_prec_param_c_s_r_1aa1918e55ce80871d0be43690e1ea5507" prot="public" virt="non-virtual"><scope>TPrecParamCSR</scope><name>setupFromArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

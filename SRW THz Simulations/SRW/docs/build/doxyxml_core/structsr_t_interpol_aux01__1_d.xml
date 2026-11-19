@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_interpol_aux01__1_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTInterpolAux01_1D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_interpol_aux01__1_d_1a515d17538f83e0bf48f89d899a91918e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTInterpolAux01_1D::cA1</definition>
+        <argsstring></argsstring>
+        <name>cA1</name>
+        <qualifiedname>srTInterpolAux01_1D::cA1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1637" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux01__1_d_1add179c0f56a5190673ca9be1075896a7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTInterpolAux01_1D::cA2</definition>
+        <argsstring></argsstring>
+        <name>cA2</name>
+        <qualifiedname>srTInterpolAux01_1D::cA2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1637" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux01__1_d_1ae7709c888ef132d0a33677c2a8618ec8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTInterpolAux01_1D::cA3</definition>
+        <argsstring></argsstring>
+        <name>cA3</name>
+        <qualifiedname>srTInterpolAux01_1D::cA3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1637" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_interpol_aux01__1_d_1a91cbde362edea154ce6481e852fc6a68" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTInterpolAux01_1D::cLA1</definition>
+        <argsstring></argsstring>
+        <name>cLA1</name>
+        <qualifiedname>srTInterpolAux01_1D::cLA1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1638" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1638" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_interpol_aux01__1_d_1a63e893dbd734c17cc2bb625bee7a1f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTInterpolAux01_1D::srTInterpolAux01_1D</definition>
+        <argsstring>()</argsstring>
+        <name>srTInterpolAux01_1D</name>
+        <qualifiedname>srTInterpolAux01_1D::srTInterpolAux01_1D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1640" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1640" bodyend="1647"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1635" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1635" bodyend="1648"/>
+    <listofallmembers>
+      <member refid="structsr_t_interpol_aux01__1_d_1a515d17538f83e0bf48f89d899a91918e" prot="public" virt="non-virtual"><scope>srTInterpolAux01_1D</scope><name>cA1</name></member>
+      <member refid="structsr_t_interpol_aux01__1_d_1add179c0f56a5190673ca9be1075896a7" prot="public" virt="non-virtual"><scope>srTInterpolAux01_1D</scope><name>cA2</name></member>
+      <member refid="structsr_t_interpol_aux01__1_d_1ae7709c888ef132d0a33677c2a8618ec8" prot="public" virt="non-virtual"><scope>srTInterpolAux01_1D</scope><name>cA3</name></member>
+      <member refid="structsr_t_interpol_aux01__1_d_1a91cbde362edea154ce6481e852fc6a68" prot="public" virt="non-virtual"><scope>srTInterpolAux01_1D</scope><name>cLA1</name></member>
+      <member refid="structsr_t_interpol_aux01__1_d_1a63e893dbd734c17cc2bb625bee7a1f71" prot="public" virt="non-virtual"><scope>srTInterpolAux01_1D</scope><name>srTInterpolAux01_1D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

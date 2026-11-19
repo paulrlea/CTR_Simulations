@@ -1,0 +1,394 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.uti_plot_com &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.uti_plot_com</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.uti_plot_com</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;uti_plot_com module containing plot utilities not specific to a particular backend</span>
+
+<span class="sd">.. moduleauthor:: </span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">copy</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">array</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">traceback</span>
+<span class="c1">#import sys</span>
+<span class="c1">#import numpy as np</span>
+
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC15112022</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_math</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_io</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">uti_math</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">uti_io</span>
+<span class="c1">#import uti_math</span>
+<span class="c1">#import uti_io</span>
+
+<span class="c1">#****************************************************************************</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">_multicolumn_file_load</span><span class="p">(</span><span class="n">fname</span><span class="p">):</span> <span class="c1">#MR31102017</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">header</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+        <span class="n">header</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">header</span><span class="p">]</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">uti_io</span><span class="o">.</span><span class="n">read_ascii_data_cols</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">_i_col_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_col_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">_n_line_skip</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">d</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">header</span><span class="p">):</span>
+        <span class="n">k_no_units</span> <span class="o">=</span> <span class="n">k</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;[&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">units</span> <span class="o">=</span> <span class="n">k</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;[&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;]&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">d</span><span class="p">[</span><span class="n">k_no_units</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;data&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">],</span>
+            <span class="s1">&#39;label&#39;</span><span class="p">:</span> <span class="n">k</span><span class="p">,</span>
+            <span class="s1">&#39;units&#39;</span><span class="p">:</span> <span class="n">units</span><span class="p">,</span>
+        <span class="p">}</span>
+    <span class="c1"># data, mode, allrange, arLabels, arUnits</span>
+    <span class="k">return</span> <span class="n">d</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[]</span>
+
+<span class="c1">#****************************************************************************</span>
+<span class="c1">#OBSOLETE</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">_traj_file_load</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="n">traj_axis</span><span class="o">=</span><span class="s1">&#39;x&#39;</span><span class="p">):</span>  <span class="c1">#MR20160725</span>
+    <span class="n">nLinesHead</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">hlp</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nLinesHead</span><span class="p">):</span>
+            <span class="n">hlp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">())</span>
+
+    <span class="n">data</span> <span class="o">=</span> <span class="n">uti_io</span><span class="o">.</span><span class="n">read_ascii_data_cols</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">_i_col_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_col_end</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">_n_line_skip</span><span class="o">=</span><span class="n">nLinesHead</span><span class="p">)</span>
+
+    <span class="n">mode</span> <span class="o">=</span> <span class="mi">3</span>
+    <span class="n">allrange</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>  <span class="c1"># z-coordinate begin</span>
+        <span class="n">data</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span>  <span class="c1"># z-coordinate end</span>
+        <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span>  <span class="c1"># number of points</span>
+        <span class="nb">min</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>  <span class="c1"># x-coordinate begin</span>
+        <span class="nb">max</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>  <span class="c1"># x-coordinate end</span>
+        <span class="mi">1</span><span class="p">,</span>
+        <span class="nb">min</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span>  <span class="c1"># y-coordinate begin</span>
+        <span class="nb">max</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span>  <span class="c1"># y-coordinate end</span>
+        <span class="mi">1</span><span class="p">,</span>
+    <span class="p">]</span>
+    <span class="n">arLabels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Longitudinal Position&#39;</span><span class="p">,</span> <span class="s1">&#39;Horizontal Position&#39;</span><span class="p">,</span> <span class="s1">&#39;Vertical Position&#39;</span><span class="p">]</span>
+    <span class="n">arUnits</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">traj_axis</span> <span class="o">==</span> <span class="s1">&#39;x&#39;</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">arLabels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Horizontal Coordinate&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">traj_axis</span> <span class="o">==</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+        <span class="n">arLabels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;Vertical Coordinate&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Parameter &quot;axis&quot; has wrong value: </span><span class="si">{}</span><span class="s1">. Allowed values are &quot;x&quot; and &quot;y&quot;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">traj_axis</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">data</span><span class="p">,</span> <span class="n">mode</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">arLabels</span><span class="p">,</span> <span class="n">arUnits</span>
+
+<span class="c1">#****************************************************************************</span>
+<span class="c1">#def srw_ascii_load(fname):</span>
+<span class="c1">#def file_load(_fname, _read_labels=1):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">_file_load</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span> <span class="c1">#MR20160725</span>
+    <span class="n">nLinesHead</span> <span class="o">=</span> <span class="mi">11</span>
+    <span class="n">hlp</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="c1">#with open(_fname,&#39;r&#39;) as f: hlp = f.readlines(nLinesHead)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span><span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nLinesHead</span><span class="p">):</span>
+            <span class="n">hlp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">readline</span><span class="p">())</span>
+  
+    <span class="c1">#ne, nx, ny, ns    = [   int(hlp[i].replace(&#39;#&#39;,&#39;&#39;).split()[0]) for i in [3,6,9,10] ]</span>
+    <span class="n">ne</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">ny</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">hlp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">9</span><span class="p">]]</span>
+    <span class="n">ns</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">testStr</span> <span class="o">=</span> <span class="n">hlp</span><span class="p">[</span><span class="n">nLinesHead</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">testStr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;#&#39;</span><span class="p">:</span>
+        <span class="n">ns</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">testStr</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">else</span><span class="p">:</span> <span class="n">nLinesHead</span> <span class="o">-=</span> <span class="mi">1</span>
+
+    <span class="n">e0</span><span class="p">,</span><span class="n">e1</span><span class="p">,</span><span class="n">x0</span><span class="p">,</span><span class="n">x1</span><span class="p">,</span><span class="n">y0</span><span class="p">,</span><span class="n">y1</span> <span class="o">=</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">hlp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">]]</span>
+
+    <span class="c1">#data = np.squeeze(np.loadtxt(_fname, dtype=np.float64)) #get data from file (C-aligned flat)</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">uti_io</span><span class="o">.</span><span class="n">read_ascii_data_cols</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">_i_col_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_col_end</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_n_line_skip</span><span class="o">=</span><span class="n">nLinesHead</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="n">allrange</span> <span class="o">=</span> <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span>
+
+    <span class="n">arLabels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Photon Energy&#39;</span><span class="p">,</span> <span class="s1">&#39;Horizontal Position&#39;</span><span class="p">,</span> <span class="s1">&#39;Vertical Position&#39;</span><span class="p">,</span> <span class="s1">&#39;Intensity&#39;</span><span class="p">]</span>
+    <span class="n">arUnits</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;eV&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="s1">&#39;ph/s/.1%bw/mm^2&#39;</span><span class="p">]</span>
+
+    <span class="k">if</span> <span class="n">_read_labels</span><span class="p">:</span>
+
+        <span class="n">arTokens</span> <span class="o">=</span> <span class="n">hlp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; [&#39;</span><span class="p">)</span>
+        <span class="n">arLabels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">arTokens</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+        <span class="n">arUnits</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">arTokens</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">arUnits</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">arTokens</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;] &#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="c1">#print(arLabels[3], arUnits[3])</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+            <span class="n">arTokens</span> <span class="o">=</span> <span class="n">hlp</span><span class="p">[</span><span class="n">i</span><span class="o">*</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+            <span class="n">nTokens</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arTokens</span><span class="p">)</span>
+            <span class="n">nTokensLabel</span> <span class="o">=</span> <span class="n">nTokens</span> <span class="o">-</span> <span class="mi">3</span>
+            <span class="n">nTokensLabel_mi_1</span> <span class="o">=</span> <span class="n">nTokensLabel</span> <span class="o">-</span> <span class="mi">1</span>
+            <span class="n">strLabel</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nTokensLabel</span><span class="p">):</span>
+                <span class="n">strLabel</span> <span class="o">+=</span> <span class="n">arTokens</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">2</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">nTokensLabel_mi_1</span><span class="p">:</span> <span class="n">strLabel</span> <span class="o">+=</span> <span class="s1">&#39; &#39;</span>
+            <span class="n">arLabels</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">strLabel</span>
+            <span class="n">arUnits</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">arTokens</span><span class="p">[</span><span class="n">nTokens</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;[&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;]&#39;</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+    <span class="n">m</span> <span class="o">=</span> <span class="n">_enum</span><span class="p">(</span><span class="s1">&#39;T&#39;</span><span class="p">,</span><span class="s1">&#39;V&#39;</span><span class="p">,</span><span class="s1">&#39;H&#39;</span><span class="p">,</span><span class="s1">&#39;E&#39;</span><span class="p">,</span><span class="s1">&#39;HV&#39;</span><span class="p">,</span><span class="s1">&#39;EV&#39;</span><span class="p">,</span><span class="s1">&#39;EH&#39;</span><span class="p">,</span><span class="s1">&#39;EHV&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">ne</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">nx</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">ny</span><span class="o">==</span><span class="mi">1</span> <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">T</span>
+    <span class="k">if</span> <span class="n">ne</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">nx</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">ny</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">V</span>
+    <span class="k">if</span> <span class="n">ne</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">nx</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">ny</span><span class="o">==</span><span class="mi">1</span> <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">H</span>
+    <span class="k">if</span> <span class="n">ne</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">nx</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">ny</span><span class="o">==</span><span class="mi">1</span> <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">E</span>
+    <span class="k">if</span> <span class="n">ne</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">nx</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">ny</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">HV</span>
+    <span class="k">if</span> <span class="n">ne</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">nx</span><span class="o">==</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">ny</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">EV</span>
+    <span class="k">if</span> <span class="n">ne</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">nx</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">ny</span><span class="o">==</span><span class="mi">1</span> <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">EH</span>
+    <span class="k">if</span> <span class="n">ne</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">nx</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="ow">and</span> <span class="n">ny</span><span class="o">&gt;</span><span class="mi">1</span>  <span class="p">:</span> <span class="n">mode</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">EHV</span>
+
+    <span class="c1">#print(mode)</span>
+    <span class="k">return</span> <span class="n">data</span><span class="p">,</span> <span class="n">mode</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">arLabels</span><span class="p">,</span> <span class="n">arUnits</span>
+
+<span class="c1">#****************************************************************************</span>
+<span class="c1">#def file_load(fname, read_labels=1, traj_report=False, traj_axis=&#39;x&#39;): #MR20160729</span>
+<span class="c1">#    if not traj_report:</span>
+<span class="c1">#        return _file_load(fname, read_labels)</span>
+<span class="c1">#    else:</span>
+<span class="c1">#        return _traj_file_load(fname, traj_axis)</span>
+
+<div class="viewcode-block" id="file_load">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_com.file_load">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">file_load</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="n">read_labels</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">multicolumn_data</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span> <span class="c1">#MR31102017</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">multicolumn_data</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_file_load</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span> <span class="n">read_labels</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_multicolumn_file_load</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span></div>
+
+
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="rescale">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_com.rescale">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">rescale</span><span class="p">(</span><span class="n">maxabsval</span><span class="p">,</span> <span class="n">strval</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Force labels to 1.0e-3 boundary which contains maxabsval</span>
+<span class="sd">    :param double maxabsval: absolute value on axis</span>
+<span class="sd">    :param str strval: units</span>
+<span class="sd">    :return (multiplier, strval): axis multiplier, axis label</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">mult</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">maxabsval</span><span class="o">&gt;=</span><span class="mf">1.0e2</span> <span class="ow">and</span> <span class="n">maxabsval</span><span class="o">&lt;</span><span class="mf">1.0e5</span><span class="p">:</span>
+        <span class="n">mult</span> <span class="o">=</span> <span class="mf">1.0e-3</span>
+        <span class="n">strval</span> <span class="o">=</span> <span class="s1">&#39;k&#39;</span><span class="o">+</span><span class="n">strval</span>
+    <span class="k">if</span> <span class="n">maxabsval</span><span class="o">&gt;=</span><span class="mf">1.0e5</span> <span class="ow">and</span> <span class="n">maxabsval</span><span class="o">&lt;</span><span class="mf">1.0e8</span><span class="p">:</span>
+        <span class="n">mult</span> <span class="o">=</span> <span class="mf">1.0e-6</span>
+        <span class="n">strval</span> <span class="o">=</span> <span class="s1">&#39;M&#39;</span><span class="o">+</span><span class="n">strval</span>
+    <span class="k">if</span> <span class="n">maxabsval</span><span class="o">&gt;=</span><span class="mf">1.0e8</span> <span class="ow">and</span> <span class="n">maxabsval</span><span class="o">&lt;</span><span class="mf">1.0e11</span><span class="p">:</span>
+        <span class="n">mult</span> <span class="o">=</span> <span class="mf">1.0e-6</span>
+        <span class="n">strval</span> <span class="o">=</span> <span class="s1">&#39;G&#39;</span><span class="o">+</span><span class="n">strval</span>
+    <span class="k">if</span> <span class="n">maxabsval</span><span class="o">&gt;=</span><span class="mf">1.0e-4</span> <span class="ow">and</span> <span class="n">maxabsval</span><span class="o">&lt;</span><span class="mf">1.0e-1</span><span class="p">:</span>
+        <span class="n">mult</span> <span class="o">=</span> <span class="mf">1.0e3</span>
+        <span class="n">strval</span> <span class="o">=</span> <span class="s1">&#39;m&#39;</span><span class="o">+</span><span class="n">strval</span>
+    <span class="k">if</span> <span class="n">maxabsval</span><span class="o">&gt;=</span><span class="mf">1.0e-7</span> <span class="ow">and</span> <span class="n">maxabsval</span><span class="o">&lt;</span><span class="mf">1.0e-4</span><span class="p">:</span>
+        <span class="n">mult</span> <span class="o">=</span> <span class="mf">1.0e6</span>
+        <span class="n">strval</span> <span class="o">=</span> <span class="s1">&#39;u&#39;</span><span class="o">+</span><span class="n">strval</span>
+    <span class="k">if</span> <span class="n">maxabsval</span><span class="o">&gt;=</span><span class="mf">1.0e-10</span> <span class="ow">and</span> <span class="n">maxabsval</span><span class="o">&lt;</span><span class="mf">1.0e-7</span><span class="p">:</span>
+        <span class="n">mult</span> <span class="o">=</span> <span class="mf">1.0e9</span>
+        <span class="n">strval</span> <span class="o">=</span> <span class="s1">&#39;n&#39;</span><span class="o">+</span><span class="n">strval</span>
+    <span class="k">if</span> <span class="n">maxabsval</span><span class="o">&gt;</span><span class="mf">1.0e-13</span> <span class="ow">and</span> <span class="n">maxabsval</span><span class="o">&lt;</span><span class="mf">1.0e-10</span><span class="p">:</span>
+        <span class="n">mult</span> <span class="o">=</span> <span class="mf">1.0e12</span>
+        <span class="n">strval</span> <span class="o">=</span> <span class="s1">&#39;p&#39;</span><span class="o">+</span><span class="n">strval</span>
+    <span class="k">return</span> <span class="n">mult</span><span class="p">,</span> <span class="n">strval</span></div>
+
+
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="rescale_range">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_com.rescale_range">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">rescale_range</span><span class="p">(</span><span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">,</span> <span class="n">_ec</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_xc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_yc</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adjust graph axis ranges and labels to be 1.0e-3 boundary</span>
+
+<span class="sd">    :param tuple allrange: Order of ranges: e, x, y</span>
+<span class="sd">    :param tuple _ar_units: units for ranges [e, x, y]</span>
+<span class="sd">    :param </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">allrange</span>
+
+    <span class="c1">#em = abs(np.array([e0,e1])).max()</span>
+    <span class="c1">#xm = abs(np.array([x0,x1])).max()</span>
+    <span class="c1">#ym = abs(np.array([y0,y1])).max()</span>
+
+    <span class="n">abs_e0</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">e0</span><span class="p">);</span> <span class="n">abs_e1</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">e1</span><span class="p">)</span>
+    <span class="n">em</span> <span class="o">=</span> <span class="n">abs_e0</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">em</span> <span class="o">&lt;</span> <span class="n">abs_e1</span><span class="p">):</span> <span class="n">em</span> <span class="o">=</span> <span class="n">abs_e1</span>
+
+    <span class="n">abs_x0</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">x0</span><span class="p">);</span> <span class="n">abs_x1</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">x1</span><span class="p">)</span>
+    <span class="n">xm</span> <span class="o">=</span> <span class="n">abs_x0</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">xm</span> <span class="o">&lt;</span> <span class="n">abs_x1</span><span class="p">):</span> <span class="n">xm</span> <span class="o">=</span> <span class="n">abs_x1</span>
+
+    <span class="n">abs_y0</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">y0</span><span class="p">);</span> <span class="n">abs_y1</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">y1</span><span class="p">)</span>
+    <span class="n">ym</span> <span class="o">=</span> <span class="n">abs_y0</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">ym</span> <span class="o">&lt;</span> <span class="n">abs_y1</span><span class="p">):</span> <span class="n">ym</span> <span class="o">=</span> <span class="n">abs_y1</span>
+    
+    <span class="c1">#mult_e, str_e = _rescale(em,&quot;eV&quot;)</span>
+    <span class="c1">#mult_x, str_x = _rescale(xm,&quot;m&quot;)</span>
+    <span class="c1">#mult_y, str_y = _rescale(ym,&quot;m&quot;)</span>
+    <span class="c1">#mult_e, str_e = _rescale(em, _ar_units[0])</span>
+    <span class="c1">#mult_x, str_x = _rescale(xm, _ar_units[1])</span>
+    <span class="c1">#mult_y, str_y = _rescale(ym, _ar_units[2])</span>
+    <span class="n">mult_e</span><span class="p">,</span> <span class="n">str_e</span> <span class="o">=</span> <span class="n">rescale</span><span class="p">(</span><span class="n">em</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">mult_x</span><span class="p">,</span> <span class="n">str_x</span> <span class="o">=</span> <span class="n">rescale</span><span class="p">(</span><span class="n">xm</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">mult_y</span><span class="p">,</span> <span class="n">str_y</span> <span class="o">=</span> <span class="n">rescale</span><span class="p">(</span><span class="n">ym</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+    <span class="n">e0s</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">e0</span><span class="o">*</span><span class="n">mult_e</span><span class="p">)</span> <span class="c1">#this is done to avoid in the labels numbers like &quot;12.700000000001&quot;</span>
+    <span class="n">e1s</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">e1</span><span class="o">*</span><span class="n">mult_e</span><span class="p">)</span>
+    <span class="n">x0s</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">x0</span><span class="o">*</span><span class="n">mult_x</span><span class="p">)</span>
+    <span class="n">x1s</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">x1</span><span class="o">*</span><span class="n">mult_x</span><span class="p">)</span>
+    <span class="n">y0s</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">y0</span><span class="o">*</span><span class="n">mult_y</span><span class="p">)</span>
+    <span class="n">y1s</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">y1</span><span class="o">*</span><span class="n">mult_y</span><span class="p">)</span>
+    <span class="n">ecs</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">_ec</span><span class="o">*</span><span class="n">mult_e</span><span class="p">)</span>
+    <span class="n">xcs</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">_xc</span><span class="o">*</span><span class="n">mult_x</span><span class="p">)</span>
+    <span class="n">ycs</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">num_round</span><span class="p">(</span><span class="n">_yc</span><span class="o">*</span><span class="n">mult_y</span><span class="p">)</span>
+    
+    <span class="c1">#allnewrange = e0*mult_e, e1*mult_e, ne, x0*mult_x, x1*mult_x, nx, y0*mult_y, y1*mult_y, ny, _ec*mult_e, _xc*mult_x, _yc*mult_y</span>
+    <span class="n">allnewrange</span> <span class="o">=</span> <span class="n">e0s</span><span class="p">,</span> <span class="n">e1s</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0s</span><span class="p">,</span> <span class="n">x1s</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0s</span><span class="p">,</span> <span class="n">y1s</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">ecs</span><span class="p">,</span> <span class="n">xcs</span><span class="p">,</span> <span class="n">ycs</span>
+    <span class="n">strval</span> <span class="o">=</span> <span class="n">str_e</span><span class="p">,</span> <span class="n">str_x</span><span class="p">,</span> <span class="n">str_y</span>
+    <span class="k">return</span> <span class="n">allnewrange</span><span class="p">,</span> <span class="n">strval</span></div>
+
+    
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="rescale_dim">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_com.rescale_dim">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">rescale_dim</span><span class="p">(</span><span class="n">_range</span><span class="p">,</span> <span class="n">_base_unit</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Adjust range and units of a value (&quot;dimension&quot; of a plot) to be 1.0e-3 boundary</span>
+
+<span class="sd">    :param list _range: min. and max. value of a range to be adjusted</span>
+<span class="sd">    :param sting _base_unit: base unit (e.g. [m], [eV],...)</span>
+<span class="sd">    :return: tuple containing new adjusted range and unit</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1">#xm = abs(np.array([_range[0], _range[1]])).max()</span>
+    <span class="n">abs_x0</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">_range</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span> <span class="n">abs_x1</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">_range</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">xm</span> <span class="o">=</span> <span class="n">abs_x0</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">xm</span> <span class="o">&lt;</span> <span class="n">abs_x1</span><span class="p">):</span> <span class="n">xm</span> <span class="o">=</span> <span class="n">abs_x1</span>
+    
+    <span class="n">mult</span><span class="p">,</span> <span class="n">unit</span> <span class="o">=</span> <span class="n">rescale</span><span class="p">(</span><span class="n">xm</span><span class="p">,</span> <span class="n">_base_unit</span><span class="p">)</span>
+    <span class="n">newrange</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">_range</span><span class="p">)</span>
+    <span class="n">newrange</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*=</span> <span class="n">mult</span><span class="p">;</span> <span class="n">newrange</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*=</span> <span class="n">mult</span>
+    <span class="k">return</span> <span class="n">newrange</span><span class="p">,</span> <span class="n">unit</span></div>
+
+ 
+<span class="c1">#****************************************************************************</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">_enum</span><span class="p">(</span><span class="o">*</span><span class="n">sequential</span><span class="p">,</span> <span class="o">**</span><span class="n">named</span><span class="p">):</span>
+    <span class="n">enums</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">sequential</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sequential</span><span class="p">))),</span> <span class="o">**</span><span class="n">named</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">type</span><span class="p">(</span><span class="s1">&#39;Enum&#39;</span><span class="p">,</span> <span class="p">(),</span> <span class="n">enums</span><span class="p">)</span>
+
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

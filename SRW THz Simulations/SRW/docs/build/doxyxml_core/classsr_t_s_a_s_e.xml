@@ -1,0 +1,1755 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_s_a_s_e" kind="class" language="C++" prot="public">
+    <compoundname>srTSASE</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a66ea69b2908cd1786fa80512efa97425" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTSASE::EEV</definition>
+        <argsstring></argsstring>
+        <name>EEV</name>
+        <qualifiedname>srTSASE::EEV</qualifiedname>
+        <initializer>= 510998.902</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="40" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a03ae02a9cc0d8cb13cb6ddefa8c9b61e" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTSASE::VACIMP</definition>
+        <argsstring></argsstring>
+        <name>VACIMP</name>
+        <qualifiedname>srTSASE::VACIMP</qualifiedname>
+        <initializer>= 376.7303135</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="41" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a349354fa6477c90de61e1519620b72e4" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTSASE::PlankConstReduced</definition>
+        <argsstring></argsstring>
+        <name>PlankConstReduced</name>
+        <qualifiedname>srTSASE::PlankConstReduced</qualifiedname>
+        <initializer>= 1.0545887E-34</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="43" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1acacdea26dfb78706a9641925017b35ab" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTSASE::SpeedOfLight</definition>
+        <argsstring></argsstring>
+        <name>SpeedOfLight</name>
+        <qualifiedname>srTSASE::SpeedOfLight</qualifiedname>
+        <initializer>= 2.99792458E08</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="44" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1ae49176c66b6cc3cb8cda1c241fd3eac3" prot="private" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long srTSASE::NPMAX</definition>
+        <argsstring></argsstring>
+        <name>NPMAX</name>
+        <qualifiedname>srTSASE::NPMAX</qualifiedname>
+        <initializer>= 300001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="46" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a72c4b0fbb6e603d042721aeadbc3b90a" prot="private" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long srTSASE::NDMAX</definition>
+        <argsstring></argsstring>
+        <name>NDMAX</name>
+        <qualifiedname>srTSASE::NDMAX</qualifiedname>
+        <initializer>= 1250000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="47" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1ad105f8a4cfd7b62365491e9d257fddcc" prot="private" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long srTSASE::NHMAX</definition>
+        <argsstring></argsstring>
+        <name>NHMAX</name>
+        <qualifiedname>srTSASE::NHMAX</qualifiedname>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="48" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1aa3b6bfb72bb5b0e70fa7db65dc4efcbc" prot="private" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long srTSASE::NCMAX</definition>
+        <argsstring></argsstring>
+        <name>NCMAX</name>
+        <qualifiedname>srTSASE::NCMAX</qualifiedname>
+        <initializer>= 201</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="49" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1abe3833c86ca7017fc44de0eb9aa7b73b" prot="private" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long srTSASE::NRGRID</definition>
+        <argsstring></argsstring>
+        <name>NRGRID</name>
+        <qualifiedname>srTSASE::NRGRID</qualifiedname>
+        <initializer>= 400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="50" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a7d3c407ddf1a099b9f9e418926f9846f" prot="private" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long srTSASE::NZMAX</definition>
+        <argsstring></argsstring>
+        <name>NZMAX</name>
+        <qualifiedname>srTSASE::NZMAX</qualifiedname>
+        <initializer>= 10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="51" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1ab45da06ef3d58dde9c96733932a7037b" prot="private" static="yes" mutable="no">
+        <type>long</type>
+        <definition>long srTSASE::NSMAX</definition>
+        <argsstring></argsstring>
+        <name>NSMAX</name>
+        <qualifiedname>srTSASE::NSMAX</qualifiedname>
+        <initializer>= 50000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="52" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a4758be28e27c3cb63add4b351338a8dc" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTSASE::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>srTSASE::PI</qualifiedname>
+        <initializer>= 3.14159265358979</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="54" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a3567e509e24893b3fa5876b69c5d00ca" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double srTSASE::TWOPI</definition>
+        <argsstring></argsstring>
+        <name>TWOPI</name>
+        <qualifiedname>srTSASE::TWOPI</qualifiedname>
+        <initializer>= 6.28318530717958</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="55" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a696221a5c3b3514fc85a9aaf3c6a59fb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTSASE::m_ElecDistribShouldBeUsed</definition>
+        <argsstring></argsstring>
+        <name>m_ElecDistribShouldBeUsed</name>
+        <qualifiedname>srTSASE::m_ElecDistribShouldBeUsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="62" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a0965f1020fc324a5b76c0621f42c4ff5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSASE::m_dwSeedRad</definition>
+        <argsstring></argsstring>
+        <name>m_dwSeedRad</name>
+        <qualifiedname>srTSASE::m_dwSeedRad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="63" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a1a836aef652ba608991398fd73c8f895" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_send" kindref="compound">srTSend</ref> *</type>
+        <definition>srTSend* srTSASE::pSend</definition>
+        <argsstring></argsstring>
+        <name>pSend</name>
+        <qualifiedname>srTSASE::pSend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="67" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a3966855f89c758f199637d4a75d0001a" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_comp_progress_indicator" kindref="compound">srTCompProgressIndicator</ref></type>
+        <definition>srTCompProgressIndicator srTSASE::CompProgressInd</definition>
+        <argsstring></argsstring>
+        <name>CompProgressInd</name>
+        <qualifiedname>srTSASE::CompProgressInd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="70" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a9eca6b69bb6be0ad87a120471c8c9cde" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref></type>
+        <definition>srTEbmDat srTSASE::EbmDat</definition>
+        <argsstring></argsstring>
+        <name>EbmDat</name>
+        <qualifiedname>srTSASE::EbmDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="72" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1ae30678953a8779f5ba9900aa5c8e9f84" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_mag_group" kindref="compound">srTMagGroup</ref></type>
+        <definition>srTMagGroup srTSASE::MagDat</definition>
+        <argsstring></argsstring>
+        <name>MagDat</name>
+        <qualifiedname>srTSASE::MagDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="73" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a143ea5c2a320169d16700125bfc91b51" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_s_a_s_e" kindref="compound">srTRadSASE</ref></type>
+        <definition>srTRadSASE srTSASE::InRad</definition>
+        <argsstring></argsstring>
+        <name>InRad</name>
+        <qualifiedname>srTSASE::InRad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="74" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1ac1d171c8910d81fd0163bdd51489eb3c" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref></type>
+        <definition>srTSRWRadStructAccessData srTSASE::SeedRad</definition>
+        <argsstring></argsstring>
+        <name>SeedRad</name>
+        <qualifiedname>srTSASE::SeedRad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="75" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a9933b206b3ce723edb2547b0f622f946" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref></type>
+        <definition>srTWfrSmp srTSASE::DistrInfoDat</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDat</name>
+        <qualifiedname>srTSASE::DistrInfoDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="76" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a4a76e6f3f5a2034c4c42ba256f589789" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_prec_s_a_s_e" kindref="compound">srTPrecSASE</ref></type>
+        <definition>srTPrecSASE srTSASE::PrecDat</definition>
+        <argsstring></argsstring>
+        <name>PrecDat</name>
+        <qualifiedname>srTSASE::PrecDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="77" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_s_a_s_e_1a84b10b2fe200dc73f66c8dfad896332e" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_control_access_s_a_s_e" kindref="compound">srTControlAccessSASE</ref></type>
+        <definition>srTControlAccessSASE srTSASE::ControlSASE</definition>
+        <argsstring></argsstring>
+        <name>ControlSASE</name>
+        <qualifiedname>srTSASE::ControlSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="78" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a2ba57805c16d1ed4bdf3bf98a0c92b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTSASE::srTSASE</definition>
+        <argsstring>()</argsstring>
+        <name>srTSASE</name>
+        <qualifiedname>srTSASE::srTSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="81" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="81" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a7c7fb7523bb744be03bfe76835bdfbea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::InitGenesisStructs_OLD</definition>
+        <argsstring>()</argsstring>
+        <name>InitGenesisStructs_OLD</name>
+        <qualifiedname>srTSASE::InitGenesisStructs_OLD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="95" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1abd3b4267a206b1d7feb7d2b84140502f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::InitMainGenesisStructs</definition>
+        <argsstring>()</argsstring>
+        <name>InitMainGenesisStructs</name>
+        <qualifiedname>srTSASE::InitMainGenesisStructs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="96" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="767" bodyend="780"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ad1c10914fc000c72484b91f17e9dbb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ReleaseGenesisStructs</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseGenesisStructs</name>
+        <qualifiedname>srTSASE::ReleaseGenesisStructs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="99" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="784" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aeaac20085fb51144f27738a9efed1526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::CheckInputConsistency</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInputConsistency</name>
+        <qualifiedname>srTSASE::CheckInputConsistency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="100" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="797" bodyend="966"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1af3996455bc8f04c27e3096bea5fc3bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::ConvertInputDataToGenesisFormat</definition>
+        <argsstring>(int numHarm)</argsstring>
+        <name>ConvertInputDataToGenesisFormat</name>
+        <qualifiedname>srTSASE::ConvertInputDataToGenesisFormat</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>&lt;&gt;0 =&gt; all higher harmonics are calculated up to nharm</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="101" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="970" bodyend="1258"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1acf438b07ab7e674a9c00861ccb9b4276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::SetupOutputControlStruct</definition>
+        <argsstring>(int numHarm)</argsstring>
+        <name>SetupOutputControlStruct</name>
+        <qualifiedname>srTSASE::SetupOutputControlStruct</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="102" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1290" bodyend="1315"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ad5a9990e3125bf7ed00fd4411d083826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::AuxvalGenesisPlus</definition>
+        <argsstring>()</argsstring>
+        <name>AuxvalGenesisPlus</name>
+        <qualifiedname>srTSASE::AuxvalGenesisPlus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="103" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1262" bodyend="1270"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ab265dc5c1b98ef16bb48817b0fabc9d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::DiagnoGenesisPlus</definition>
+        <argsstring>(long PassCount, long istepz, long islice, int numHarm)</argsstring>
+        <name>DiagnoGenesisPlus</name>
+        <qualifiedname>srTSASE::DiagnoGenesisPlus</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>PassCount</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>istepz</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>islice</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="104" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1319" bodyend="1473"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ad0d34bf6cd83955cd1a2cbf73c136d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::GenesisCompDrive</definition>
+        <argsstring>(srTSRWRadStructAccessData *arRadAccessData, int numHarm)</argsstring>
+        <name>GenesisCompDrive</name>
+        <qualifiedname>srTSASE::GenesisCompDrive</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>arRadAccessData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><itemizedlist>
+<listitem><para>end run *<zwj/>/</para>
+</listitem></itemizedlist>
+</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="107" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3426" bodyend="3661"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a2506bf9ff161ddf3060786fe575d5e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::OutResDistrib</definition>
+        <argsstring>(long _istepz, long _islice, double _xkw0)</argsstring>
+        <name>OutResDistrib</name>
+        <qualifiedname>srTSASE::OutResDistrib</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>_istepz</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_islice</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_xkw0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="109" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1527" bodyend="1533"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aa2c2c072d37e74281574d6b7c827cf19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::OutElecDistrib</definition>
+        <argsstring>(long _istepz, long _islice)</argsstring>
+        <name>OutElecDistrib</name>
+        <qualifiedname>srTSASE::OutElecDistrib</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>_istepz</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_islice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><verbatim>  if ((ippart.le.0).or.(ispart.le.0)) return   !no output at all
+  if (mod(istepz,ippart).ne.0) return          !output ippartth step
+  if (mod(islice,ispart).ne.0) return          !output ispartth slice
+</verbatim> c if (istepz.eq.0) call rpos(0,xpart,ypart) call getpsi(p1) c if (npart.lt.npart0) then ! check for particle loss do iz=npart+1,npart0 ! indicate lost particles with neg. energy gamma(iz)=-1. enddo endif c write(npar,rec=irecpar) (gamma(iz),iz=1,npart0) write(npar,rec=irecpar+1) (p1(iz),iz=1,npart0) write(npar,rec=irecpar+2) (xpart(iz)/xkper0,iz=1,npart0) write(npar,rec=irecpar+3) (ypart(iz)/xkper0,iz=1,npart0) write(npar,rec=irecpar+4) (px(iz),iz=1,npart0) write(npar,rec=irecpar+5) (py(iz),iz=1,npart0) irecpar=irecpar+6</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="110" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1537" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a80c0f28c7625329e949ef5eaed6f4e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::OutDumpResDistrib</definition>
+        <argsstring>(int _islice)</argsstring>
+        <name>OutDumpResDistrib</name>
+        <qualifiedname>srTSASE::OutDumpResDistrib</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>_islice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><itemizedlist>
+<listitem><para>writing the record *<zwj/>/</para>
+</listitem></itemizedlist>
+</para>
+<para><itemizedlist>
+<listitem><para>field distribution *<zwj/>/</para>
+</listitem></itemizedlist>
+</para>
+<para><itemizedlist>
+<listitem><para>dump field , escaping beam *<zwj/>/</para>
+</listitem></itemizedlist>
+</para>
+<para><verbatim>  if (islice.le.firstout) return       ! suppress for IOTAIL=0
+</verbatim> c c particle distribution c if (idmppar.ne.0) then if (npart.lt.npart0) then do i=npart+1,npart0 ! check for particle losses gamma(i)=-1. ! indicate lost particles with neg. energy enddo endif c <linebreak/>
+ c writing the record c j=6*(islice-firstout-1)+1 write(ndmp2,rec=j) (gamma(i),i=1,npart0) write(ndmp2,rec=j+1) (theta(i),i=1,npart0) write(ndmp2,rec=j+2) (xpart(i)/xkper0,i=1,npart0) write(ndmp2,rec=j+3) (ypart(i)/xkper0,i=1,npart0) write(ndmp2,rec=j+4) (px(i),i=1,npart0) write(ndmp2,rec=j+5) (py(i),i=1,npart0) endif c c field distribution c if (idmpfld.eq.0) return <linebreak/>
+ c c problems arise if the dump is used for another run c any change in undulator period. the field has twice a scaling c with xkper0 - 1. eikonal equation + 2. normalization of dxy c scltmp=dxy*eev*xkper0/xks/dsqrt(vacimp) ! c write(ndump,rec=islice-firstout) (crfield(i)*scltmp,i=1,ncar*ncar) c if ((itdp.eq.0).or.(islice.lt.nslice)) return c do j=nslp-1,1,-1 ! dump field , escaping beam call pulltimerec(crwork3,ncar,j) i0=nslice+nslp-j-firstout write(ndump,rec=i0) (crwork3(i)*scltmp,i=1,ncar*ncar) enddo</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="111" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1652" bodyend="1835"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1af05e0e7d92fb4f5cc1b56f751c426456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::EstimateGenesisNSLP</definition>
+        <argsstring>()</argsstring>
+        <name>EstimateGenesisNSLP</name>
+        <qualifiedname>srTSASE::EstimateGenesisNSLP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="112" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3416" bodyend="3422"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a9bfb97964529c49cdfd749bcce3a408a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::PrepSRWRadStructTD</definition>
+        <argsstring>(srTSRWRadStructAccessData *arRadAccessData, int numHarm)</argsstring>
+        <name>PrepSRWRadStructTD</name>
+        <qualifiedname>srTSASE::PrepSRWRadStructTD</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>arRadAccessData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="115" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3834" bodyend="3889"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a28ed2ca5da4ff8c9ecd530d014604914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::CopyRadSliceToSRWRadStructTD</definition>
+        <argsstring>(int iSlice, srTSRWRadStructAccessData *arRadAccessData, int numHarm)</argsstring>
+        <name>CopyRadSliceToSRWRadStructTD</name>
+        <qualifiedname>srTSASE::CopyRadSliceToSRWRadStructTD</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>iSlice</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>arRadAccessData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="117" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3745" bodyend="3830"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a7f5a593f812d6f4a61989912cf38ddc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::FillInSRWRadStruct</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>FillInSRWRadStruct</name>
+        <qualifiedname>srTSASE::FillInSRWRadStruct</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="118" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3665" bodyend="3741"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1adfec8c782e6d0ea992087d175a1fcb96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::InitAuxWfrParams</definition>
+        <argsstring>(srTSRWRadStructAccessData *arSRWRadAccessData, int numHarm)</argsstring>
+        <name>InitAuxWfrParams</name>
+        <qualifiedname>srTSASE::InitAuxWfrParams</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>arSRWRadAccessData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="119" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3893" bodyend="3921"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a8da125bec7a95d07a823a009be760bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::PropagateWavefrontToObservationPlane</definition>
+        <argsstring>(srTSRWRadStructAccessData *arSRWRadAccessData, int numHarm)</argsstring>
+        <name>PropagateWavefrontToObservationPlane</name>
+        <qualifiedname>srTSASE::PropagateWavefrontToObservationPlane</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>arSRWRadAccessData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numHarm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><verbatim>double OneUndSegmLength = inputcom_1.nwig*inputcom_1.xlamd;
+double Rinit = 0.25*OneUndSegmLength; //assuming saturation happens there
+RadAccessData.InitialSetupOf4x4PropMatr(Rinit);
+RadAccessData.RobsX = RadAccessData.RobsZ = Rinit;
+RadAccessData.RobsXAbsErr = RadAccessData.RobsZAbsErr = 0.01*Rinit; // To steer
+</verbatim></para>
+<para>long MaxStepNo = simcom_1.istepz;</para>
+<para>RadAccessData.xc = diagcom_1.xpos[MaxStepNo]; RadAccessData.zc = diagcom_1.ypos[MaxStepNo]; RadAccessData.UnderSamplingX = RadAccessData.UnderSamplingZ = 1; RadAccessData.SetupNonZeroWavefrontLimitsAtCreation();</para>
+<para><ref refid="classsr_t_gen_opt_elem" kindref="compound">srTGenOptElem</ref> AuxOptElem; if(result = AuxOptElem.ComputeRadMoments(&amp;RadAccessData)) return result; RadAccessData.RobsX = RadAccessData.RobsZ = 0.;</para>
+<para>double EndLongPosOfTheUndulator = 0.; double DriftLength = DistrInfoDat.yStart - EndLongPosOfTheUndulator; bool ThereIsDrift = (::fabs(DriftLength) &gt; 1.E-06); if(!ThereIsDrift) // no propagation needed { if(DistrInfoDat.AllowAutoChoiceOfNxNzForPropagat) { if(result = ResizeForOtimalSamplingInSpot(RadAccessData)) return result; } else { if(result = ResizeForSpecifiedSampling(RadAccessData)) return result; } } else { if(result = ResizeAndPropagateFromWaist(RadAccessData)) return result;</para>
+<para>//dddddddddddddddddd //propagate using a special method } //DistrInfoDat.AllowAutoChoiceOfNxNzForPropagat = 0;</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="121" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3925" bodyend="3978"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ad701d25f64b45d0c25219e4d018816d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::ResizeForOtimalSamplingInSpot</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>ResizeForOtimalSamplingInSpot</name>
+        <qualifiedname>srTSASE::ResizeForOtimalSamplingInSpot</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="122" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3982" bodyend="4040"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a72acd8d8021528416bcafced89b6c081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::ResizeForSpecifiedSampling</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>ResizeForSpecifiedSampling</name>
+        <qualifiedname>srTSASE::ResizeForSpecifiedSampling</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="123" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="4044" bodyend="4073"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a85d66b7205f1cfe825bb6dc1997af339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::ResizeAndPropagateFromWaist</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>ResizeAndPropagateFromWaist</name>
+        <qualifiedname>srTSASE::ResizeAndPropagateFromWaist</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="124" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="4077" bodyend="4171"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a682fda1538993ded25780eac77ec1dbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::CheckCorrectParamAndResize</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;, srTRadResize &amp;, char)</argsstring>
+        <name>CheckCorrectParamAndResize</name>
+        <qualifiedname>srTSASE::CheckCorrectParamAndResize</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref> &amp;</type>
+          <defname>RadResize</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <defname>AllowUnderSampling</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="125" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="4175" bodyend="4220"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a96890e6afaf0bea1e17170fa89e77a4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::EstimHarmNumFromPhotEn</definition>
+        <argsstring>(srTWigComSASE &amp;WigCom)</argsstring>
+        <name>EstimHarmNumFromPhotEn</name>
+        <qualifiedname>srTSASE::EstimHarmNumFromPhotEn</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wig_com_s_a_s_e" kindref="compound">srTWigComSASE</ref> &amp;</type>
+          <declname>WigCom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="126" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1274" bodyend="1286"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a3a0b4c4d88c26125d20b41034d242d74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTSASE::RadMeshRange</definition>
+        <argsstring>()</argsstring>
+        <name>RadMeshRange</name>
+        <qualifiedname>srTSASE::RadMeshRange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><verbatim>    RWAIST = dSQRT(2.d0*ZRAYL/XKS)
+
+    RW0 = RWAIST * dSQRT(1.0d0+(ZWAIST/ZRAYL)**2)
+</verbatim> c c Maximum radius for the radial mesh (normalized) XYMAX = RMAX0 * XKPER0 * (RW0+dSQRT(RXBEAM**2+RYBEAM**2))/2.d0 DXY=2.D0*XYMAX/float(NCAR-1) !grid seperation</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="129" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1477" bodyend="1501"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a0bb3ef877d566d6dd6b374d4a9d92c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::UpdateInterface</definition>
+        <argsstring>(long)</argsstring>
+        <name>UpdateInterface</name>
+        <qualifiedname>srTSASE::UpdateInterface</qualifiedname>
+        <param>
+          <type>long</type>
+          <defname>PassCount</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="130" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1505" bodyend="1522"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ac6b50d7a10d86ea995228a7d8fc6b5b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTSASE::RadFieldMultip</definition>
+        <argsstring>()</argsstring>
+        <name>RadFieldMultip</name>
+        <qualifiedname>srTSASE::RadFieldMultip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="131" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="340" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a85cdf86a7bc438161e30e8793ae834ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTSASE::TDElecFieldConvConstSRW2GENESIS</definition>
+        <argsstring>()</argsstring>
+        <name>TDElecFieldConvConstSRW2GENESIS</name>
+        <qualifiedname>srTSASE::TDElecFieldConvConstSRW2GENESIS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="132" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="330" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aa06d8570bf1a298c9a9c06f1f18f2385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::CreateWavefrontElField</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>CreateWavefrontElField</name>
+        <qualifiedname>srTSASE::CreateWavefrontElField</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="134" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="4224" bodyend="4263"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ad9d151a9837ed3d1775c1ada1ea3a7a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::CreateWavefrontElField</definition>
+        <argsstring>(srTSRWRadStructAccessData *, int)</argsstring>
+        <name>CreateWavefrontElField</name>
+        <qualifiedname>srTSASE::CreateWavefrontElField</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <defname>arSRWRadAccessData</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>numHarm</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="135" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="4267" bodyend="4304"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ac918986b536965d2292847f05ce64e48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::loadbeam_srw</definition>
+        <argsstring>(f2c_integer *, f2c_doublereal *)</argsstring>
+        <name>loadbeam_srw</name>
+        <qualifiedname>srTSASE::loadbeam_srw</qualifiedname>
+        <param>
+          <type>f2c_integer *</type>
+          <defname>islice</defname>
+        </param>
+        <param>
+          <type>f2c_doublereal *</type>
+          <defname>xkper0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="137" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="1841" bodyend="2009"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a82e9deb87a45c54e7c8daa9ed6478cf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::readpart_srw</definition>
+        <argsstring>(f2c_integer *)</argsstring>
+        <name>readpart_srw</name>
+        <qualifiedname>srTSASE::readpart_srw</qualifiedname>
+        <param>
+          <type>f2c_integer *</type>
+          <defname>islice</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="138" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="2162" bodyend="2270"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a2e65c8f4b0c1b0fb1fcadd77d1787a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::initrun_srw</definition>
+        <argsstring>()</argsstring>
+        <name>initrun_srw</name>
+        <qualifiedname>srTSASE::initrun_srw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="139" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="2274" bodyend="2419"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a9ed1fa64e3701d40c5280a950ced0320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::loadslpfld_srw</definition>
+        <argsstring>(f2c_integer *nslp)</argsstring>
+        <name>loadslpfld_srw</name>
+        <qualifiedname>srTSASE::loadslpfld_srw</qualifiedname>
+        <param>
+          <type>f2c_integer *</type>
+          <declname>nslp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="140" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="2574" bodyend="2726"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aeb5325cc222976bc0f9493bebcb09536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::readfield_srw</definition>
+        <argsstring>(f2c_doublecomplex *cin, f2c_integer *irec)</argsstring>
+        <name>readfield_srw</name>
+        <qualifiedname>srTSASE::readfield_srw</qualifiedname>
+        <param>
+          <type><ref refid="structf2c__doublecomplex" kindref="compound">f2c_doublecomplex</ref> *</type>
+          <declname>cin</declname>
+        </param>
+        <param>
+          <type>f2c_integer *</type>
+          <declname>irec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="141" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="3127" bodyend="3412"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a6947fa58caa54f272501abd23af7fd12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::loadrad_srw</definition>
+        <argsstring>(f2c_integer *islice)</argsstring>
+        <name>loadrad_srw</name>
+        <qualifiedname>srTSASE::loadrad_srw</qualifiedname>
+        <param>
+          <type>f2c_integer *</type>
+          <declname>islice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="142" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="2847" bodyend="3000"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a96007674da75b70fd94773e00a71a007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::Alloc_tbunchcom</definition>
+        <argsstring>()</argsstring>
+        <name>Alloc_tbunchcom</name>
+        <qualifiedname>srTSASE::Alloc_tbunchcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="144" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="480" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1addd8070c1b07992545a361668588c5a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::Alloc_cartcom</definition>
+        <argsstring>()</argsstring>
+        <name>Alloc_cartcom</name>
+        <qualifiedname>srTSASE::Alloc_cartcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="145" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="516" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1af1af5f796a91c4784a0a1b7e639976b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::Alloc_beamcom</definition>
+        <argsstring>()</argsstring>
+        <name>Alloc_beamcom</name>
+        <qualifiedname>srTSASE::Alloc_beamcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="147" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="535" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ae5c59fb911165a29f8cb0622a64c2e12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::Alloc_wigcom</definition>
+        <argsstring>()</argsstring>
+        <name>Alloc_wigcom</name>
+        <qualifiedname>srTSASE::Alloc_wigcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="148" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="560" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a37373abdeaf09b7aebe6af376cccf27e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::Alloc_diagcom</definition>
+        <argsstring>()</argsstring>
+        <name>Alloc_diagcom</name>
+        <qualifiedname>srTSASE::Alloc_diagcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="149" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="578" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aa86f6eb32c987ab8b7bcb1f2991f5eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::Alloc_workspace</definition>
+        <argsstring>()</argsstring>
+        <name>Alloc_workspace</name>
+        <qualifiedname>srTSASE::Alloc_workspace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="150" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="604" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aa52efffbbaa9579897be39f0747fd4a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::Alloc_tslipcom</definition>
+        <argsstring>(int nWfr, int nSlices)</argsstring>
+        <name>Alloc_tslipcom</name>
+        <qualifiedname>srTSASE::Alloc_tslipcom</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nWfr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nSlices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="152" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="626" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a03acf708f928c86c5f58d36c7795e0f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::Free_tbunchcom</definition>
+        <argsstring>()</argsstring>
+        <name>Free_tbunchcom</name>
+        <qualifiedname>srTSASE::Free_tbunchcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="154" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="641" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ab314a7f4fa2f3ce6dc0b9dfe7def4946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::Free_cartcom</definition>
+        <argsstring>()</argsstring>
+        <name>Free_cartcom</name>
+        <qualifiedname>srTSASE::Free_cartcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="155" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="672" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a1bde96eaf334d261945abfff1b65dab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::Free_beamcom</definition>
+        <argsstring>()</argsstring>
+        <name>Free_beamcom</name>
+        <qualifiedname>srTSASE::Free_beamcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="156" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="687" bodyend="704"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a846caca9975203a40b666f62a34b16d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::Free_wigcom</definition>
+        <argsstring>()</argsstring>
+        <name>Free_wigcom</name>
+        <qualifiedname>srTSASE::Free_wigcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="157" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="706" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a868341a9fe93eac1c9d420d73e6d2f6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::Free_diagcom</definition>
+        <argsstring>()</argsstring>
+        <name>Free_diagcom</name>
+        <qualifiedname>srTSASE::Free_diagcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="158" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="720" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a089df2c27130e3a84eab7cd7b1d0c916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::Free_workspace</definition>
+        <argsstring>()</argsstring>
+        <name>Free_workspace</name>
+        <qualifiedname>srTSASE::Free_workspace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="159" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="743" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a21430e53224d61e663cecc5f51cf640d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::Free_tslipcom</definition>
+        <argsstring>()</argsstring>
+        <name>Free_tslipcom</name>
+        <qualifiedname>srTSASE::Free_tslipcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="160" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="760" bodyend="763"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a58e145dc37f123207f9301e28cc1d258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroPtrs_tbunchcom</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs_tbunchcom</name>
+        <qualifiedname>srTSASE::ZeroPtrs_tbunchcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="162" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="359" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a3095a2b89486289fac6e0c5b962f0ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroPtrs_cartcom</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs_cartcom</name>
+        <qualifiedname>srTSASE::ZeroPtrs_cartcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="163" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="389" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ad9ce74cef4539ca9212469bfb3d4545e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroPtrs_beamcom</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs_beamcom</name>
+        <qualifiedname>srTSASE::ZeroPtrs_beamcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="164" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="400" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a1a121353e3cb325818997221538d1d48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroPtrs_wigcom</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs_wigcom</name>
+        <qualifiedname>srTSASE::ZeroPtrs_wigcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="165" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="419" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ace3a4cfb0dfe6a915e4ba5a11afc9cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroPtrs_diagcom</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs_diagcom</name>
+        <qualifiedname>srTSASE::ZeroPtrs_diagcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="166" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="433" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1ad570e1eca77720ff3662f52d31f9bad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroPtrs_workspace</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs_workspace</name>
+        <qualifiedname>srTSASE::ZeroPtrs_workspace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="167" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="456" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a484aeacd7a390697961a0e2625659567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroPtrs_tslipcom</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroPtrs_tslipcom</name>
+        <qualifiedname>srTSASE::ZeroPtrs_tslipcom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="168" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.cpp" bodystart="473" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1af206094b0ecabed37a5bb551136891c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTSASE::RoundDoubleToInt</definition>
+        <argsstring>(double x)</argsstring>
+        <name>RoundDoubleToInt</name>
+        <qualifiedname>srTSASE::RoundDoubleToInt</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="170" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="170" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aa02d1544a45bde05c24c505a5c31e89d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroArr</definition>
+        <argsstring>(double *arr, long long n)</argsstring>
+        <name>ZeroArr</name>
+        <qualifiedname>srTSASE::ZeroArr</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="177" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="177" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a653d20799a47a4d422eee954d00c4721" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroArr</definition>
+        <argsstring>(f2c_integer *arr, long long n)</argsstring>
+        <name>ZeroArr</name>
+        <qualifiedname>srTSASE::ZeroArr</qualifiedname>
+        <param>
+          <type>f2c_integer *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="185" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="185" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1abcab48dcd5233df837e37f1a6acd673a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTSASE::ZeroArr</definition>
+        <argsstring>(f2c_doublecomplex *arr, long long n)</argsstring>
+        <name>ZeroArr</name>
+        <qualifiedname>srTSASE::ZeroArr</qualifiedname>
+        <param>
+          <type><ref refid="structf2c__doublecomplex" kindref="compound">f2c_doublecomplex</ref> *</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="193" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="193" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a1e0f5976cb7e274418ee7fa20147e4b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool srTSASE::CheckIfElecDistrShouldBeUsed</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfElecDistrShouldBeUsed</name>
+        <qualifiedname>srTSASE::CheckIfElecDistrShouldBeUsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="221" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="221" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1a4932ba09a53b5bfd072006eac3ad21f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTSASE::InterpBilin3D</definition>
+        <argsstring>(double rx100, double rx010, double rx001, double f000, double f100, double f010, double f001, double f110, double f101, double f011, double f111)</argsstring>
+        <name>InterpBilin3D</name>
+        <qualifiedname>srTSASE::InterpBilin3D</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>rx100</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rx010</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rx001</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f000</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f100</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f010</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f001</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f110</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f101</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f011</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f111</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="234" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="234" bodyend="248"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_s_a_s_e_1aaab822d1711e061b39086c848856ba85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>long</type>
+        <definition>static long srTSASE::FindMaxArrElemInd</definition>
+        <argsstring>(T *arToSearch, long len_arToSearch, T &amp;maxElem)</argsstring>
+        <name>FindMaxArrElemInd</name>
+        <qualifiedname>srTSASE::FindMaxArrElemInd</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>arToSearch</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>len_arToSearch</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>maxElem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="203" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="203" bodyend="219"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="3">
+        <label>srTCompProgressIndicator</label>
+        <link refid="classsr_t_comp_progress_indicator"/>
+      </node>
+      <node id="13">
+        <label>srTControlAccessSASE</label>
+        <link refid="structsr_t_control_access_s_a_s_e"/>
+      </node>
+      <node id="4">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srTMagGroup</label>
+        <link refid="classsr_t_mag_group"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>srTPrecSASE</label>
+        <link refid="structsr_t_prec_s_a_s_e"/>
+      </node>
+      <node id="10">
+        <label>srTRadResize</label>
+        <link refid="structsr_t_rad_resize"/>
+      </node>
+      <node id="8">
+        <label>srTRadSASE</label>
+        <link refid="structsr_t_rad_s_a_s_e"/>
+      </node>
+      <node id="1">
+        <label>srTSASE</label>
+        <link refid="classsr_t_s_a_s_e"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pSend</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>CompProgressInd</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>MagDat</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>InRad</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>SeedRad</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>DistrInfoDat</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>PrecDat</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>ControlSASE</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>srTSRWRadStructAccessData</label>
+        <link refid="classsr_t_s_r_w_rad_struct_access_data"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>pResAfter</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTSend</label>
+        <link refid="classsr_t_send"/>
+      </node>
+      <node id="11">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" line="38" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h" bodystart="38" bodyend="249"/>
+    <listofallmembers>
+      <member refid="classsr_t_s_a_s_e_1af1af5f796a91c4784a0a1b7e639976b7" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Alloc_beamcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1addd8070c1b07992545a361668588c5a9" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Alloc_cartcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a37373abdeaf09b7aebe6af376cccf27e" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Alloc_diagcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a96007674da75b70fd94773e00a71a007" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Alloc_tbunchcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1aa52efffbbaa9579897be39f0747fd4a2" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Alloc_tslipcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1ae5c59fb911165a29f8cb0622a64c2e12" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Alloc_wigcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1aa86f6eb32c987ab8b7bcb1f2991f5eaf" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Alloc_workspace</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad5a9990e3125bf7ed00fd4411d083826" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>AuxvalGenesisPlus</name></member>
+      <member refid="classsr_t_s_a_s_e_1a682fda1538993ded25780eac77ec1dbd" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>CheckCorrectParamAndResize</name></member>
+      <member refid="classsr_t_s_a_s_e_1a1e0f5976cb7e274418ee7fa20147e4b4" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>CheckIfElecDistrShouldBeUsed</name></member>
+      <member refid="classsr_t_s_a_s_e_1aeaac20085fb51144f27738a9efed1526" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>CheckInputConsistency</name></member>
+      <member refid="classsr_t_s_a_s_e_1a3966855f89c758f199637d4a75d0001a" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>CompProgressInd</name></member>
+      <member refid="classsr_t_s_a_s_e_1a84b10b2fe200dc73f66c8dfad896332e" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ControlSASE</name></member>
+      <member refid="classsr_t_s_a_s_e_1af3996455bc8f04c27e3096bea5fc3bdf" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ConvertInputDataToGenesisFormat</name></member>
+      <member refid="classsr_t_s_a_s_e_1a28ed2ca5da4ff8c9ecd530d014604914" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>CopyRadSliceToSRWRadStructTD</name></member>
+      <member refid="classsr_t_s_a_s_e_1aa06d8570bf1a298c9a9c06f1f18f2385" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>CreateWavefrontElField</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad9d151a9837ed3d1775c1ada1ea3a7a2" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>CreateWavefrontElField</name></member>
+      <member refid="classsr_t_s_a_s_e_1ab265dc5c1b98ef16bb48817b0fabc9d4" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>DiagnoGenesisPlus</name></member>
+      <member refid="classsr_t_s_a_s_e_1a9933b206b3ce723edb2547b0f622f946" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>DistrInfoDat</name></member>
+      <member refid="classsr_t_s_a_s_e_1a9eca6b69bb6be0ad87a120471c8c9cde" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>EbmDat</name></member>
+      <member refid="classsr_t_s_a_s_e_1a66ea69b2908cd1786fa80512efa97425" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>EEV</name></member>
+      <member refid="classsr_t_s_a_s_e_1af05e0e7d92fb4f5cc1b56f751c426456" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>EstimateGenesisNSLP</name></member>
+      <member refid="classsr_t_s_a_s_e_1a96890e6afaf0bea1e17170fa89e77a4c" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>EstimHarmNumFromPhotEn</name></member>
+      <member refid="classsr_t_s_a_s_e_1a7f5a593f812d6f4a61989912cf38ddc5" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>FillInSRWRadStruct</name></member>
+      <member refid="classsr_t_s_a_s_e_1aaab822d1711e061b39086c848856ba85" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>FindMaxArrElemInd</name></member>
+      <member refid="classsr_t_s_a_s_e_1a1bde96eaf334d261945abfff1b65dab3" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Free_beamcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1ab314a7f4fa2f3ce6dc0b9dfe7def4946" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Free_cartcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a868341a9fe93eac1c9d420d73e6d2f6a" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Free_diagcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a03acf708f928c86c5f58d36c7795e0f6" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Free_tbunchcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a21430e53224d61e663cecc5f51cf640d" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Free_tslipcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a846caca9975203a40b666f62a34b16d7" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Free_wigcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a089df2c27130e3a84eab7cd7b1d0c916" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>Free_workspace</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad0d34bf6cd83955cd1a2cbf73c136d75" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>GenesisCompDrive</name></member>
+      <member refid="classsr_t_s_a_s_e_1adfec8c782e6d0ea992087d175a1fcb96" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>InitAuxWfrParams</name></member>
+      <member refid="classsr_t_s_a_s_e_1a7c7fb7523bb744be03bfe76835bdfbea" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>InitGenesisStructs_OLD</name></member>
+      <member refid="classsr_t_s_a_s_e_1abd3b4267a206b1d7feb7d2b84140502f" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>InitMainGenesisStructs</name></member>
+      <member refid="classsr_t_s_a_s_e_1a2e65c8f4b0c1b0fb1fcadd77d1787a68" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>initrun_srw</name></member>
+      <member refid="classsr_t_s_a_s_e_1a143ea5c2a320169d16700125bfc91b51" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>InRad</name></member>
+      <member refid="classsr_t_s_a_s_e_1a4932ba09a53b5bfd072006eac3ad21f3" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>InterpBilin3D</name></member>
+      <member refid="classsr_t_s_a_s_e_1ac918986b536965d2292847f05ce64e48" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>loadbeam_srw</name></member>
+      <member refid="classsr_t_s_a_s_e_1a6947fa58caa54f272501abd23af7fd12" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>loadrad_srw</name></member>
+      <member refid="classsr_t_s_a_s_e_1a9ed1fa64e3701d40c5280a950ced0320" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>loadslpfld_srw</name></member>
+      <member refid="classsr_t_s_a_s_e_1a0965f1020fc324a5b76c0621f42c4ff5" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>m_dwSeedRad</name></member>
+      <member refid="classsr_t_s_a_s_e_1a696221a5c3b3514fc85a9aaf3c6a59fb" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>m_ElecDistribShouldBeUsed</name></member>
+      <member refid="classsr_t_s_a_s_e_1ae30678953a8779f5ba9900aa5c8e9f84" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>MagDat</name></member>
+      <member refid="classsr_t_s_a_s_e_1aa3b6bfb72bb5b0e70fa7db65dc4efcbc" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>NCMAX</name></member>
+      <member refid="classsr_t_s_a_s_e_1a72c4b0fbb6e603d042721aeadbc3b90a" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>NDMAX</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad105f8a4cfd7b62365491e9d257fddcc" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>NHMAX</name></member>
+      <member refid="classsr_t_s_a_s_e_1ae49176c66b6cc3cb8cda1c241fd3eac3" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>NPMAX</name></member>
+      <member refid="classsr_t_s_a_s_e_1abe3833c86ca7017fc44de0eb9aa7b73b" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>NRGRID</name></member>
+      <member refid="classsr_t_s_a_s_e_1ab45da06ef3d58dde9c96733932a7037b" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>NSMAX</name></member>
+      <member refid="classsr_t_s_a_s_e_1a7d3c407ddf1a099b9f9e418926f9846f" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>NZMAX</name></member>
+      <member refid="classsr_t_s_a_s_e_1a80c0f28c7625329e949ef5eaed6f4e92" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>OutDumpResDistrib</name></member>
+      <member refid="classsr_t_s_a_s_e_1aa2c2c072d37e74281574d6b7c827cf19" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>OutElecDistrib</name></member>
+      <member refid="classsr_t_s_a_s_e_1a2506bf9ff161ddf3060786fe575d5e83" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>OutResDistrib</name></member>
+      <member refid="classsr_t_s_a_s_e_1a4758be28e27c3cb63add4b351338a8dc" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>PI</name></member>
+      <member refid="classsr_t_s_a_s_e_1a349354fa6477c90de61e1519620b72e4" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>PlankConstReduced</name></member>
+      <member refid="classsr_t_s_a_s_e_1a4a76e6f3f5a2034c4c42ba256f589789" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>PrecDat</name></member>
+      <member refid="classsr_t_s_a_s_e_1a9bfb97964529c49cdfd749bcce3a408a" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>PrepSRWRadStructTD</name></member>
+      <member refid="classsr_t_s_a_s_e_1a8da125bec7a95d07a823a009be760bed" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>PropagateWavefrontToObservationPlane</name></member>
+      <member refid="classsr_t_s_a_s_e_1a1a836aef652ba608991398fd73c8f895" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>pSend</name></member>
+      <member refid="classsr_t_s_a_s_e_1ac6b50d7a10d86ea995228a7d8fc6b5b0" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>RadFieldMultip</name></member>
+      <member refid="classsr_t_s_a_s_e_1a3a0b4c4d88c26125d20b41034d242d74" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>RadMeshRange</name></member>
+      <member refid="classsr_t_s_a_s_e_1aeb5325cc222976bc0f9493bebcb09536" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>readfield_srw</name></member>
+      <member refid="classsr_t_s_a_s_e_1a82e9deb87a45c54e7c8daa9ed6478cf3" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>readpart_srw</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad1c10914fc000c72484b91f17e9dbb18" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ReleaseGenesisStructs</name></member>
+      <member refid="classsr_t_s_a_s_e_1a85d66b7205f1cfe825bb6dc1997af339" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ResizeAndPropagateFromWaist</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad701d25f64b45d0c25219e4d018816d9" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ResizeForOtimalSamplingInSpot</name></member>
+      <member refid="classsr_t_s_a_s_e_1a72acd8d8021528416bcafced89b6c081" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ResizeForSpecifiedSampling</name></member>
+      <member refid="classsr_t_s_a_s_e_1af206094b0ecabed37a5bb551136891c8" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>RoundDoubleToInt</name></member>
+      <member refid="classsr_t_s_a_s_e_1ac1d171c8910d81fd0163bdd51489eb3c" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>SeedRad</name></member>
+      <member refid="classsr_t_s_a_s_e_1acf438b07ab7e674a9c00861ccb9b4276" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>SetupOutputControlStruct</name></member>
+      <member refid="classsr_t_s_a_s_e_1acacdea26dfb78706a9641925017b35ab" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>SpeedOfLight</name></member>
+      <member refid="classsr_t_s_a_s_e_1a2ba57805c16d1ed4bdf3bf98a0c92b86" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>srTSASE</name></member>
+      <member refid="classsr_t_s_a_s_e_1a85cdf86a7bc438161e30e8793ae834ef" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>TDElecFieldConvConstSRW2GENESIS</name></member>
+      <member refid="classsr_t_s_a_s_e_1a3567e509e24893b3fa5876b69c5d00ca" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>TWOPI</name></member>
+      <member refid="classsr_t_s_a_s_e_1a0bb3ef877d566d6dd6b374d4a9d92c0d" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>UpdateInterface</name></member>
+      <member refid="classsr_t_s_a_s_e_1a03ae02a9cc0d8cb13cb6ddefa8c9b61e" prot="private" virt="non-virtual"><scope>srTSASE</scope><name>VACIMP</name></member>
+      <member refid="classsr_t_s_a_s_e_1aa02d1544a45bde05c24c505a5c31e89d" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroArr</name></member>
+      <member refid="classsr_t_s_a_s_e_1a653d20799a47a4d422eee954d00c4721" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroArr</name></member>
+      <member refid="classsr_t_s_a_s_e_1abcab48dcd5233df837e37f1a6acd673a" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroArr</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad9ce74cef4539ca9212469bfb3d4545e" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroPtrs_beamcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a3095a2b89486289fac6e0c5b962f0ce8" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroPtrs_cartcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1ace3a4cfb0dfe6a915e4ba5a11afc9cf8" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroPtrs_diagcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a58e145dc37f123207f9301e28cc1d258" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroPtrs_tbunchcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a484aeacd7a390697961a0e2625659567" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroPtrs_tslipcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1a1a121353e3cb325818997221538d1d48" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroPtrs_wigcom</name></member>
+      <member refid="classsr_t_s_a_s_e_1ad570e1eca77720ff3662f52d31f9bad9" prot="public" virt="non-virtual"><scope>srTSASE</scope><name>ZeroPtrs_workspace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_comp_progress_indicator" kind="class" language="C++" prot="public">
+    <compoundname>srTCompProgressIndicator</compoundname>
+    <includes refid="srprgind_8h" local="no">srprgind.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a1f3991443b7d565436729ca74326816e" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTCompProgressIndicator::ProgressIndicatorIsUsed</definition>
+        <argsstring></argsstring>
+        <name>ProgressIndicatorIsUsed</name>
+        <qualifiedname>srTCompProgressIndicator::ProgressIndicatorIsUsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="35" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1ae0608d4a8db5379369589bff8ba35f84" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTCompProgressIndicator::CallsAreCountedInside</definition>
+        <argsstring></argsstring>
+        <name>CallsAreCountedInside</name>
+        <qualifiedname>srTCompProgressIndicator::CallsAreCountedInside</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="35" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a289a0fd232636b03e44e654ae3f37414" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTCompProgressIndicator::TotalAmOfOutPoints</definition>
+        <argsstring></argsstring>
+        <name>TotalAmOfOutPoints</name>
+        <qualifiedname>srTCompProgressIndicator::TotalAmOfOutPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="37" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a9e6b6d427b7126b3ee021f6249a55fcb" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTCompProgressIndicator::PrevAmOfPoints</definition>
+        <argsstring></argsstring>
+        <name>PrevAmOfPoints</name>
+        <qualifiedname>srTCompProgressIndicator::PrevAmOfPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="37" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a1e20ecd4ce61eaca494b4c211806379c" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTCompProgressIndicator::PrevAmOfPointsShown</definition>
+        <argsstring></argsstring>
+        <name>PrevAmOfPointsShown</name>
+        <qualifiedname>srTCompProgressIndicator::PrevAmOfPointsShown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="37" column="45" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a2f700c59ef7ed6e25e9fb1c59540b866" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTCompProgressIndicator::CallsCount</definition>
+        <argsstring></argsstring>
+        <name>CallsCount</name>
+        <qualifiedname>srTCompProgressIndicator::CallsCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="37" column="65" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a03bf2d69d08ce76b618ee9dfda4579d8" prot="private" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t srTCompProgressIndicator::UpdateTimeInt</definition>
+        <argsstring></argsstring>
+        <name>UpdateTimeInt</name>
+        <qualifiedname>srTCompProgressIndicator::UpdateTimeInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="38" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a537935c751764d906c1dae80b60033d4" prot="private" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t srTCompProgressIndicator::PrevUpdateClock</definition>
+        <argsstring></argsstring>
+        <name>PrevUpdateClock</name>
+        <qualifiedname>srTCompProgressIndicator::PrevUpdateClock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="38" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a52ab8f4aec562b6415bffdbaf676cbb2" prot="private" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t srTCompProgressIndicator::StartCompClock</definition>
+        <argsstring></argsstring>
+        <name>StartCompClock</name>
+        <qualifiedname>srTCompProgressIndicator::StartCompClock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="38" column="39" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_comp_progress_indicator_1a3f5b8a64022add7564b947d0642b7384" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTCompProgressIndicator::ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <qualifiedname>srTCompProgressIndicator::ErrorCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="42" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_comp_progress_indicator_1aa1cb6f43d5f7b826065014c6ecace13a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTCompProgressIndicator::srTCompProgressIndicator</definition>
+        <argsstring>(long long InTotalAmOfOutPoints, double UpdateTimeInt_s, char CountCallsInside=0)</argsstring>
+        <name>srTCompProgressIndicator</name>
+        <qualifiedname>srTCompProgressIndicator::srTCompProgressIndicator</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>InTotalAmOfOutPoints</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>UpdateTimeInt_s</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>CountCallsInside</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="45" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_comp_progress_indicator_1a3e09c42719e711fd87b7cc6d3359b04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTCompProgressIndicator::srTCompProgressIndicator</definition>
+        <argsstring>()</argsstring>
+        <name>srTCompProgressIndicator</name>
+        <qualifiedname>srTCompProgressIndicator::srTCompProgressIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="53" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_comp_progress_indicator_1a19069968a8fe904836c5f2a8e5edfdca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTCompProgressIndicator::~srTCompProgressIndicator</definition>
+        <argsstring>()</argsstring>
+        <name>~srTCompProgressIndicator</name>
+        <qualifiedname>srTCompProgressIndicator::~srTCompProgressIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="57" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_comp_progress_indicator_1aff6da0ca0c526bb94ffc59d290e3e3d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTCompProgressIndicator::InitializeIndicator</definition>
+        <argsstring>(long long InTotalAmOfOutPoints, double UpdateTimeInt_s, char CountCallsInside=0)</argsstring>
+        <name>InitializeIndicator</name>
+        <qualifiedname>srTCompProgressIndicator::InitializeIndicator</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>InTotalAmOfOutPoints</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>UpdateTimeInt_s</declname>
+          <defname>InUpdateTimeInt_s</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>CountCallsInside</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>File: srprgind.cpp Description: Computation &quot;Progress Indicator&quot; (programmed and is proved to work only with IGOR Pro) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="63" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.cpp" bodystart="18" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_comp_progress_indicator_1ae03b0e4052f02cf007a545d4652c400f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTCompProgressIndicator::UpdateIndicator</definition>
+        <argsstring>(long long CurPoint=0)</argsstring>
+        <name>UpdateIndicator</name>
+        <qualifiedname>srTCompProgressIndicator::UpdateIndicator</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>CurPoint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="66" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="66" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_comp_progress_indicator_1a75d1fd5111a719501556f258dff7592d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTCompProgressIndicator::DestroyIndicator</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyIndicator</name>
+        <qualifiedname>srTCompProgressIndicator::DestroyIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="108" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="108" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_comp_progress_indicator_1a069c3f2a99e953be38c809ed0f0d46d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long srTCompProgressIndicator::EstimateCurrentPosition</definition>
+        <argsstring>(clock_t CurrentClock, long long CurPoint)</argsstring>
+        <name>EstimateCurrentPosition</name>
+        <qualifiedname>srTCompProgressIndicator::EstimateCurrentPosition</qualifiedname>
+        <param>
+          <type>clock_t</type>
+          <declname>CurrentClock</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>CurPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="127" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="127" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srprgind_8h_source" kindref="compound">srprgind.h</ref> Description: Computation &quot;Progress Indicator&quot; (programmed and is proved to work only with IGOR Pro) header Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" line="29" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprgind.h" bodystart="29" bodyend="145"/>
+    <listofallmembers>
+      <member refid="classsr_t_comp_progress_indicator_1ae0608d4a8db5379369589bff8ba35f84" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>CallsAreCountedInside</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a2f700c59ef7ed6e25e9fb1c59540b866" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>CallsCount</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a75d1fd5111a719501556f258dff7592d" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>DestroyIndicator</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a3f5b8a64022add7564b947d0642b7384" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a069c3f2a99e953be38c809ed0f0d46d6" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>EstimateCurrentPosition</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1aff6da0ca0c526bb94ffc59d290e3e3d6" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>InitializeIndicator</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a9e6b6d427b7126b3ee021f6249a55fcb" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>PrevAmOfPoints</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a1e20ecd4ce61eaca494b4c211806379c" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>PrevAmOfPointsShown</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a537935c751764d906c1dae80b60033d4" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>PrevUpdateClock</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a1f3991443b7d565436729ca74326816e" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>ProgressIndicatorIsUsed</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1aa1cb6f43d5f7b826065014c6ecace13a" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>srTCompProgressIndicator</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a3e09c42719e711fd87b7cc6d3359b04b" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>srTCompProgressIndicator</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a52ab8f4aec562b6415bffdbaf676cbb2" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>StartCompClock</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a289a0fd232636b03e44e654ae3f37414" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>TotalAmOfOutPoints</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1ae03b0e4052f02cf007a545d4652c400f" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>UpdateIndicator</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a03bf2d69d08ce76b618ee9dfda4579d8" prot="private" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>UpdateTimeInt</name></member>
+      <member refid="classsr_t_comp_progress_indicator_1a19069968a8fe904836c5f2a8e5edfdca" prot="public" virt="non-virtual"><scope>srTCompProgressIndicator</scope><name>~srTCompProgressIndicator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

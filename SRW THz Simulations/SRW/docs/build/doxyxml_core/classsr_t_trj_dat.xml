@@ -1,0 +1,2932 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_trj_dat" kind="class" language="C++" prot="public">
+    <compoundname>srTTrjDat</compoundname>
+    <basecompoundref refid="classsr_t_gen_trj_dat" prot="public" virt="non-virtual">srTGenTrjDat</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_trj_dat_1adfcdb71549edfd238b5965cab80fa05a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::xCorr</definition>
+        <argsstring></argsstring>
+        <name>xCorr</name>
+        <qualifiedname>srTTrjDat::xCorr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="51" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a1fb06d57b6b148229b11f4614f68733b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::BtxCorr</definition>
+        <argsstring></argsstring>
+        <name>BtxCorr</name>
+        <qualifiedname>srTTrjDat::BtxCorr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="51" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1ac3b7ec7cb9e594232bd12627a3c514a5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::zCorr</definition>
+        <argsstring></argsstring>
+        <name>zCorr</name>
+        <qualifiedname>srTTrjDat::zCorr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="51" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a80311bbf635c5bc00835b2212f25d09b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::BtzCorr</definition>
+        <argsstring></argsstring>
+        <name>BtzCorr</name>
+        <qualifiedname>srTTrjDat::BtzCorr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="51" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a9b69f46608102f9a0f2c5c5156b454c7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::IntBtxE2Corr</definition>
+        <argsstring></argsstring>
+        <name>IntBtxE2Corr</name>
+        <qualifiedname>srTTrjDat::IntBtxE2Corr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="51" column="36" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a048ba0ca32b8ed691a8c1a7ab82b3c20" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::IntBtzE2Corr</definition>
+        <argsstring></argsstring>
+        <name>IntBtzE2Corr</name>
+        <qualifiedname>srTTrjDat::IntBtzE2Corr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="51" column="49" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1ac0f7e8d51ada832669d64e2d7ac1742e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::BtxCorrForX</definition>
+        <argsstring></argsstring>
+        <name>BtxCorrForX</name>
+        <qualifiedname>srTTrjDat::BtxCorrForX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="52" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a78f8f7c18e9a8e2d310eac8e8df1f085" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::BtzCorrForZ</definition>
+        <argsstring></argsstring>
+        <name>BtzCorrForZ</name>
+        <qualifiedname>srTTrjDat::BtzCorrForZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="52" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a7c5d203537f5200ba30de29a8a28885f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::BtxCorrForXe2</definition>
+        <argsstring></argsstring>
+        <name>BtxCorrForXe2</name>
+        <qualifiedname>srTTrjDat::BtxCorrForXe2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="52" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1ab7f27c2c7a3361df2f927f84b13be411" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::BtzCorrForZe2</definition>
+        <argsstring></argsstring>
+        <name>BtzCorrForZe2</name>
+        <qualifiedname>srTTrjDat::BtzCorrForZe2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="52" column="46" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1acd964cde755538785f8765458b2e957d" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTTrjDat::AllCf</definition>
+        <argsstring></argsstring>
+        <name>AllCf</name>
+        <qualifiedname>srTTrjDat::AllCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="55" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a016907c3ff051c232d454c18c647d71c" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::BxPlnCf</definition>
+        <argsstring></argsstring>
+        <name>BxPlnCf</name>
+        <qualifiedname>srTTrjDat::BxPlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="56" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1ac45bd711b1aca95c9d491442826449e4" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::BzPlnCf</definition>
+        <argsstring></argsstring>
+        <name>BzPlnCf</name>
+        <qualifiedname>srTTrjDat::BzPlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="57" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a6df5228546f35824e56a1e4ec8f1b1e6" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::BtxPlnCf</definition>
+        <argsstring></argsstring>
+        <name>BtxPlnCf</name>
+        <qualifiedname>srTTrjDat::BtxPlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="58" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1af749a02d1752945732c223270f78685d" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::BtzPlnCf</definition>
+        <argsstring></argsstring>
+        <name>BtzPlnCf</name>
+        <qualifiedname>srTTrjDat::BtzPlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="59" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1adb71ba8d63ea0722d7735bb01bf38998" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::xPlnCf</definition>
+        <argsstring></argsstring>
+        <name>xPlnCf</name>
+        <qualifiedname>srTTrjDat::xPlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="60" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1aa674d7449a6b7767a92085d54c71a3c8" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::zPlnCf</definition>
+        <argsstring></argsstring>
+        <name>zPlnCf</name>
+        <qualifiedname>srTTrjDat::zPlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="61" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a9d26829ae8eb6c7eae8f59e7a4c1c697" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::IntBtx2PlnCf</definition>
+        <argsstring></argsstring>
+        <name>IntBtx2PlnCf</name>
+        <qualifiedname>srTTrjDat::IntBtx2PlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="62" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a67405c6644ed093b31cb36bd890b897c" prot="private" static="no" mutable="no">
+        <type>double **</type>
+        <definition>double** srTTrjDat::IntBtz2PlnCf</definition>
+        <argsstring></argsstring>
+        <name>IntBtz2PlnCf</name>
+        <qualifiedname>srTTrjDat::IntBtz2PlnCf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="63" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a6dace2fc37cb145fc812e5909fd47efe" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTTrjDat::IntBtxE2Arr</definition>
+        <argsstring></argsstring>
+        <name>IntBtxE2Arr</name>
+        <qualifiedname>srTTrjDat::IntBtxE2Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="66" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1add22df382f1c1d92b10138369c9a0f2b" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTTrjDat::IntBtzE2Arr</definition>
+        <argsstring></argsstring>
+        <name>IntBtzE2Arr</name>
+        <qualifiedname>srTTrjDat::IntBtzE2Arr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="66" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a47ab82bd9f4f461ecff838499b7df7e4" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTTrjDat::m_estimMinNpForRadInteg</definition>
+        <argsstring></argsstring>
+        <name>m_estimMinNpForRadInteg</name>
+        <qualifiedname>srTTrjDat::m_estimMinNpForRadInteg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="69" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a79eb6fcff0692e98d64bff6c2fa74975" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTTrjDat::AuxBxLen</definition>
+        <argsstring></argsstring>
+        <name>AuxBxLen</name>
+        <qualifiedname>srTTrjDat::AuxBxLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="74" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a4fa1673cde01fef6c429079c24fdbd35" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTTrjDat::AuxBzLen</definition>
+        <argsstring></argsstring>
+        <name>AuxBzLen</name>
+        <qualifiedname>srTTrjDat::AuxBzLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="74" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1ae7082dfaedba80283a41e9ee5d814f15" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_fun_der" kindref="compound">srTFunDer</ref> *</type>
+        <definition>srTFunDer* srTTrjDat::BxInData</definition>
+        <argsstring></argsstring>
+        <name>BxInData</name>
+        <qualifiedname>srTTrjDat::BxInData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="76" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a744ee94f7f9c6b540a63005a1100f78b" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_fun_der" kindref="compound">srTFunDer</ref> *</type>
+        <definition>srTFunDer* srTTrjDat::BzInData</definition>
+        <argsstring></argsstring>
+        <name>BzInData</name>
+        <qualifiedname>srTTrjDat::BzInData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="77" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a4598822fe4d1e7521fb9dbccd428cd29" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTTrjDat::LenFieldData</definition>
+        <argsstring></argsstring>
+        <name>LenFieldData</name>
+        <qualifiedname>srTTrjDat::LenFieldData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="79" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1ae2f26041fa62999219efc1fc9b91df2d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::sStart</definition>
+        <argsstring></argsstring>
+        <name>sStart</name>
+        <qualifiedname>srTTrjDat::sStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="80" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a2c8c448b61577b124b94fe7ffeaa2fda" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::sStep</definition>
+        <argsstring></argsstring>
+        <name>sStep</name>
+        <qualifiedname>srTTrjDat::sStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="80" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1ae9b72992746b093313f60a2bf5300e8e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::Inv_Step</definition>
+        <argsstring></argsstring>
+        <name>Inv_Step</name>
+        <qualifiedname>srTTrjDat::Inv_Step</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="80" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a93659a0338f65ef09f28d44c3286de3b" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_wave_access_data_d1_d" kindref="compound">srTWaveAccessDataD1D</ref></type>
+        <definition>srTWaveAccessDataD1D srTTrjDat::xTrjInData</definition>
+        <argsstring></argsstring>
+        <name>xTrjInData</name>
+        <qualifiedname>srTTrjDat::xTrjInData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="82" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1afbcb3e598c38631d4e665a5a974e9f97" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_wave_access_data_d1_d" kindref="compound">srTWaveAccessDataD1D</ref></type>
+        <definition>srTWaveAccessDataD1D srTTrjDat::zTrjInData</definition>
+        <argsstring></argsstring>
+        <name>zTrjInData</name>
+        <qualifiedname>srTTrjDat::zTrjInData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="82" column="33" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a3031c0d2de8e5437fac2c44bc566ccb7" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTTrjDat::CompFromTrj</definition>
+        <argsstring></argsstring>
+        <name>CompFromTrj</name>
+        <qualifiedname>srTTrjDat::CompFromTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="83" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a49b22b5a0a5462eaa9e8a62d8024203d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTTrjDat::NperTot</definition>
+        <argsstring></argsstring>
+        <name>NperTot</name>
+        <qualifiedname>srTTrjDat::NperTot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="85" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a083b95801ea08ec611acd73d78b5e92a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTTrjDat::NperLeft</definition>
+        <argsstring></argsstring>
+        <name>NperLeft</name>
+        <qualifiedname>srTTrjDat::NperLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="85" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a581ef95fd1c4ce53685e5973f84fd1b3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::FieldZeroTolerance</definition>
+        <argsstring></argsstring>
+        <name>FieldZeroTolerance</name>
+        <qualifiedname>srTTrjDat::FieldZeroTolerance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="87" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a2ec0d929cd2d7f6f9173a35daf37a679" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTTrjDat::MaxMemAvail</definition>
+        <argsstring></argsstring>
+        <name>MaxMemAvail</name>
+        <qualifiedname>srTTrjDat::MaxMemAvail</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="88" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a07fc578542f82ce14423b41a8380ce96" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTTrjDat::InputWasModified</definition>
+        <argsstring></argsstring>
+        <name>InputWasModified</name>
+        <qualifiedname>srTTrjDat::InputWasModified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="89" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a6dd4e362440c128cc1919775fb679790" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTTrjDat::LastCompWasNotOK</definition>
+        <argsstring></argsstring>
+        <name>LastCompWasNotOK</name>
+        <qualifiedname>srTTrjDat::LastCompWasNotOK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="89" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_trj_dat_1a2a99e4da740223cabf7ddf73665b98fe" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTTrjDat::m_doNotDeleteData</definition>
+        <argsstring></argsstring>
+        <name>m_doNotDeleteData</name>
+        <qualifiedname>srTTrjDat::m_doNotDeleteData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="90" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_trj_dat_1ac2468ea2c2f41a2f5a2b48a29c3ccc6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjDat::srTTrjDat</definition>
+        <argsstring>(srTEbmDat *pEbmDat, srTMagFldTrUnif *pMagElem)</argsstring>
+        <name>srTTrjDat</name>
+        <qualifiedname>srTTrjDat::srTTrjDat</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pEbmDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_fld_tr_unif" kindref="compound">srTMagFldTrUnif</ref> *</type>
+          <declname>pMagElem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="93" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1997" bodyend="2002"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a06db4099c37b61bba8b8c9563dbe55f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjDat::srTTrjDat</definition>
+        <argsstring>(SRWLPrtTrj *pTrj)</argsstring>
+        <name>srTTrjDat</name>
+        <qualifiedname>srTTrjDat::srTTrjDat</qualifiedname>
+        <param>
+          <type>SRWLPrtTrj *</type>
+          <declname>pTrj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="94" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="2006" bodyend="2044"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a59d501c95ed688f8f0c07e118097b67f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjDat::srTTrjDat</definition>
+        <argsstring>()</argsstring>
+        <name>srTTrjDat</name>
+        <qualifiedname>srTTrjDat::srTTrjDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="96" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a80736b31948b6f46ed2579cb055583cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTTrjDat::~srTTrjDat</definition>
+        <argsstring>()</argsstring>
+        <name>~srTTrjDat</name>
+        <qualifiedname>srTTrjDat::~srTTrjDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="100" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="100" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aeb486c0a5596fe4d96c457f316f24f2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTTrjDat::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="110" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="110" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a7575ea251849ae50ef98e5989af3b92d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::DeleteInitialFieldData</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteInitialFieldData</name>
+        <qualifiedname>srTTrjDat::DeleteInitialFieldData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="140" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="140" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1affdf03859062ddbd1c0376a6c83271d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::CompDerivForFieldData</definition>
+        <argsstring>(srTFunDer *)</argsstring>
+        <name>CompDerivForFieldData</name>
+        <qualifiedname>srTTrjDat::CompDerivForFieldData</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_fun_der" kindref="compound">srTFunDer</ref> *</type>
+          <defname>InitialFieldData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="149" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="298" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a583f8e3ae98b6211356211e007010498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::SetupFldPlnCf</definition>
+        <argsstring>(srTFunDer *, double **)</argsstring>
+        <name>SetupFldPlnCf</name>
+        <qualifiedname>srTTrjDat::SetupFldPlnCf</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_fun_der" kindref="compound">srTFunDer</ref> *</type>
+          <defname>InitialFieldData</defname>
+        </param>
+        <param>
+          <type>double **</type>
+          <defname>FldPlnCf</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="150" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="698" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a9151f14e0f1b31291ac23e6f3f621e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::AllocateMemoryForCfs</definition>
+        <argsstring>()</argsstring>
+        <name>AllocateMemoryForCfs</name>
+        <qualifiedname>srTTrjDat::AllocateMemoryForCfs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="152" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="76" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a13cfce8a3853ce9d522cb9fd6c44d664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::AllocateMemoryForCfs_FromTrj</definition>
+        <argsstring>()</argsstring>
+        <name>AllocateMemoryForCfs_FromTrj</name>
+        <qualifiedname>srTTrjDat::AllocateMemoryForCfs_FromTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="153" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="131" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a38034c9bd09f970e0922059bf688d94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::AllocateMemoryForCfsFromTrj</definition>
+        <argsstring>(long long np)</argsstring>
+        <name>AllocateMemoryForCfsFromTrj</name>
+        <qualifiedname>srTTrjDat::AllocateMemoryForCfsFromTrj</qualifiedname>
+        <param>
+          <type>long long</type>
+          <declname>np</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="155" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="194" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a29c01c2bab26e966e6b8e48e3f1b683a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::DeallocateMemoryForCfs</definition>
+        <argsstring>()</argsstring>
+        <name>DeallocateMemoryForCfs</name>
+        <qualifiedname>srTTrjDat::DeallocateMemoryForCfs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="157" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="253" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1af421b81fa7955e7ad091ebce7356e7f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTTrjDat::Derivative</definition>
+        <argsstring>(double *, double, int, int=5)</argsstring>
+        <name>Derivative</name>
+        <qualifiedname>srTTrjDat::Derivative</qualifiedname>
+        <param>
+          <type>double *</type>
+          <defname>f</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>h</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>PoIndx</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>AmOfPo</defname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="159" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="293" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a289108be0150ebdd4f588b9e221045b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CubPln</definition>
+        <argsstring>(double, double, double, double, double *)</argsstring>
+        <name>CubPln</name>
+        <qualifiedname>srTTrjDat::CubPln</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>f1</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>f2</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>fpr1</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>fpr2</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>aa</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="160" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="325" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a43bb3588b8295cef2f5ac62445c0166a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTTrjDat::Field</definition>
+        <argsstring>(char, double)</argsstring>
+        <name>Field</name>
+        <qualifiedname>srTTrjDat::Field</qualifiedname>
+        <param>
+          <type>char</type>
+          <defname>FieldID</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="161" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="336" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ac919592f74210e0a7631b1e8adf02f3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataDerivedAtPointPowDens</definition>
+        <argsstring>(double s, double &amp;Btx, double &amp;Btz, double &amp;X, double &amp;Z, double &amp;Bx, double &amp;Bz)</argsstring>
+        <name>CompTrjDataDerivedAtPointPowDens</name>
+        <qualifiedname>srTTrjDat::CompTrjDataDerivedAtPointPowDens</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a57af3541a84b66e5e7dd05725a18c16c">CompTrjDataDerivedAtPointPowDens</reimplements>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btz</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Z</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Bx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Bz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="163" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="479" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a885bc7915327cf8b815fe68f11fa6756" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataDerivedAtPointPowDens_FromTrj</definition>
+        <argsstring>(double s, double &amp;Btx, double &amp;Btz, double &amp;X, double &amp;Z, double &amp;Bx, double &amp;Bz)</argsstring>
+        <name>CompTrjDataDerivedAtPointPowDens_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTrjDataDerivedAtPointPowDens_FromTrj</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btz</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Z</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Bx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Bz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="164" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="521" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aa8c87618fdd35e538ab2346efaf45d97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataAndFieldWithDerAtPoint</definition>
+        <argsstring>(char, double, double &amp;, double &amp;, double &amp;, double &amp;, double &amp;)</argsstring>
+        <name>CompTrjDataAndFieldWithDerAtPoint</name>
+        <qualifiedname>srTTrjDat::CompTrjDataAndFieldWithDerAtPoint</qualifiedname>
+        <param>
+          <type>char</type>
+          <defname>x_or_z</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>dBds</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>B</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>Bt</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>Crd</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>IntBtE2</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="165" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="558" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a2495eefa45c29542de4f6f72be6a1b32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataAndFieldWithDerAtPoint_FromTrj</definition>
+        <argsstring>(char x_or_z, double s, double &amp;dBds, double &amp;B, double &amp;Bt, double &amp;Crd, double &amp;IntBtE2)</argsstring>
+        <name>CompTrjDataAndFieldWithDerAtPoint_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTrjDataAndFieldWithDerAtPoint_FromTrj</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dBds</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Bt</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Crd</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntBtE2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="166" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="862" bodyend="892"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a5799813713e8be4379a16596a070d2b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataAndFieldWithDerAtPoint_FromTrjInitial</definition>
+        <argsstring>(char x_or_z, double s, double &amp;dBds, double &amp;B, double &amp;Bt, double &amp;Crd, double &amp;IntBtE2)</argsstring>
+        <name>CompTrjDataAndFieldWithDerAtPoint_FromTrjInitial</name>
+        <qualifiedname>srTTrjDat::CompTrjDataAndFieldWithDerAtPoint_FromTrjInitial</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dBds</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Bt</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Crd</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntBtE2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="167" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="896" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a5c0a2d094fb1456aca447790e1e9a915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataDerivedAtPoint</definition>
+        <argsstring>(char, double, double &amp;, double &amp;, double &amp;)</argsstring>
+        <name>CompTrjDataDerivedAtPoint</name>
+        <qualifiedname>srTTrjDat::CompTrjDataDerivedAtPoint</qualifiedname>
+        <param>
+          <type>char</type>
+          <defname>x_or_z</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>Bt</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>Crd</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>IntBtE2</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="168" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="349" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ad5d2bb004a0cf89d94dc4607d63fb48f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataDerivedAtPoint_FromTrj</definition>
+        <argsstring>(char x_or_z, double s, double &amp;Bt, double &amp;Crd, double &amp;IntBtE2)</argsstring>
+        <name>CompTrjDataDerivedAtPoint_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTrjDataDerivedAtPoint_FromTrj</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Bt</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Crd</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntBtE2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="169" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="390" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1adb85f87bce3373fdb58632eb1fd62c2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataDerivedAtPoint</definition>
+        <argsstring>(double sArg, double &amp;Btx, double &amp;Crdx, double &amp;IntBtE2x, double &amp;Btz, double &amp;Crdz, double &amp;IntBtE2z)</argsstring>
+        <name>CompTrjDataDerivedAtPoint</name>
+        <qualifiedname>srTTrjDat::CompTrjDataDerivedAtPoint</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sArg</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Crdx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntBtE2x</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btz</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Crdz</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntBtE2z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="170" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="398" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aa91c63a94b8b7262884535df584fab5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataDerivedAtPoint_FromTrj</definition>
+        <argsstring>(double s, double &amp;Btx, double &amp;Crdx, double &amp;IntBtxE2, double &amp;Btz, double &amp;Crdz, double &amp;IntBtzE2)</argsstring>
+        <name>CompTrjDataDerivedAtPoint_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTrjDataDerivedAtPoint_FromTrj</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Crdx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntBtxE2</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btz</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Crdz</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>IntBtzE2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="171" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="431" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a73e3865cf4e6ec3dfcd9ca019b538320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, double *pIntBtxE2, double *pIntBtzE2, double *pBx, double *pBz)</argsstring>
+        <name>CompTotalTrjData</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtxE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtzE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="180" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1129" bodyend="1180"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aa55fd5f21cd7c8a592229ea3439ed577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData_FromTrj</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, double *pIntBtxE2, double *pIntBtzE2, double *pBx, double *pBz)</argsstring>
+        <name>CompTotalTrjData_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData_FromTrj</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtxE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtzE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="181" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1185" bodyend="1248"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a9363a179f6992bfa3b9fc810ac25f94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, double *pIntBtxE2, double *pIntBtzE2, double *pBx, double *pBz, double *pdBxds, double *pdBzds)</argsstring>
+        <name>CompTotalTrjData</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a284362ce49a5db8baa7029d16d7d7512">CompTotalTrjData</reimplements>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtxE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtzE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pdBxds</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pdBzds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="182" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1253" bodyend="1309"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ab04715e67b091faf0cc0b03275f287f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData_FromTrj</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, double *pIntBtxE2, double *pIntBtzE2, double *pBx, double *pBz, double *pdBxds, double *pdBzds)</argsstring>
+        <name>CompTotalTrjData_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData_FromTrj</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtxE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtzE2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pdBxds</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pdBzds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="183" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1314" bodyend="1360"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aa6f7c09c0ce5fcb2ed3203f9fecfec37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjDataTrjDisp</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, char DistUn)</argsstring>
+        <name>CompTotalTrjDataTrjDisp</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjDataTrjDisp</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>DistUn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="184" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1365" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a41302317e1a365e74d19abd07aa3b2a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjDataTrjDisp_FromTrj</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, char DistUn)</argsstring>
+        <name>CompTotalTrjDataTrjDisp_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjDataTrjDisp_FromTrj</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>DistUn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="185" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1416" bodyend="1456"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a27dc90da5e130d73c2525ffb590eadf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, double *pBx, double *pBz)</argsstring>
+        <name>CompTotalTrjData</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a31108ff81a978eb47065cb1f4ae97b17">CompTotalTrjData</reimplements>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="186" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1024" bodyend="1077"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a7426a27de1a5a3a8fdc95b2f4d67833c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData_FromTrj</definition>
+        <argsstring>(double sSt, double sEn, long long Np, double *pBtx, double *pBtz, double *pX, double *pZ, double *pBx, double *pBz)</argsstring>
+        <name>CompTotalTrjData_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData_FromTrj</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>sSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEn</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="187" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1082" bodyend="1124"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ad4cde7e6f81bcb900673f2c4e1b8beb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData</definition>
+        <argsstring>(srTFieldBasedArrayKeys &amp;Keys, srTFieldBasedArrays &amp;FieldBasedArrays)</argsstring>
+        <name>CompTotalTrjData</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1acda8942c19197a61b28c43c7d6536623">CompTotalTrjData</reimplements>
+        <param>
+          <type><ref refid="structsr_t_field_based_array_keys" kindref="compound">srTFieldBasedArrayKeys</ref> &amp;</type>
+          <declname>Keys</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FieldBasedArrays</declname>
+        </param>
+        <briefdescription>
+<para>void <ref refid="classsr_t_trj_dat_1ad4cde7e6f81bcb900673f2c4e1b8beb6" kindref="member">srTTrjDat::CompTotalTrjData(srTFieldBasedArrayKeys&amp; Keys, srTFieldBasedArrays&amp; FieldBasedArrays)</ref> {// Attention: length units are m at the input/output here ! if(CompFromTrj) { CompTotalTrjData_FromTrj(Keys, FieldBasedArrays); return;} </para>
+        </briefdescription>
+        <detaileddescription>
+<para>double &amp;dxds0 = EbmDat.dxds0, &amp;x0 = EbmDat.x0, &amp;dzds0 = EbmDat.dzds0, &amp;z0 = EbmDat.z0, &amp;s0 = EbmDat.s0;</para>
+<para>double dxds0E2 = dxds0*dxds0; double dzds0E2 = dzds0*dzds0; double s = FieldBasedArrays.sStart; double sStp = FieldBasedArrays.sStep;</para>
+<para>double *pBx = FieldBasedArrays.BxArr, *pBz = FieldBasedArrays.BzArr; double *pBtx = FieldBasedArrays.BtxArr, *pBtz = FieldBasedArrays.BtzArr; double *pX = FieldBasedArrays.XArr, *pZ = FieldBasedArrays.ZArr; double *pIntBtxE2 = FieldBasedArrays.IntBtxE2Arr, *pIntBtzE2 = FieldBasedArrays.IntBtzE2Arr; double *pdBxds = FieldBasedArrays.dBxdsArr, *pdBzds = FieldBasedArrays.dBzdsArr;</para>
+<para>double BufCrd; for(int i=0; i&lt;FieldBasedArrays.Ns; i++) { int Indx = int((s - sStart)/sStep); if(Indx &gt;= LenFieldData - 1) Indx = LenFieldData - 2; double sb = sStart + Indx*sStep; double smsb = s - sb;</para>
+<para>double *B_CfP, *Bt_CfP, *C_CfP, *IntBt2_CfP;</para>
+<para>if(VerFieldIsNotZero) { B_CfP = BzPlnCf[Indx]; Bt_CfP = BtxPlnCf[Indx]; C_CfP = xPlnCf[Indx]; IntBt2_CfP = IntBtx2PlnCf[Indx];</para>
+<para>if(Keys.dBzds_) <emphasis>(pdBzds++) = B_CfP[1] + smsb</emphasis>(2.*B_CfP[2] + 3.*smsb*B_CfP[3]); if(Keys.Bz_) <emphasis>(pBz++) = *B_CfP + smsb</emphasis>(<emphasis>(B_CfP+1) + smsb</emphasis>(<emphasis>(B_CfP+2) + smsb</emphasis>(<emphasis>(B_CfP+3)))); if(Keys.Btx_) *(pBtx++) = BtxCorr + BetaNormConst</emphasis>(Pol04(smsb, Bt_CfP+1) + <emphasis>Bt_CfP); if(Keys.X_ || Keys.IntBtxE2_) BufCrd = BetaNormConst</emphasis>(Pol05(smsb, C_CfP+1) + <emphasis>C_CfP); if(Keys.X_) *(pX++) = xCorr + BtxCorrForX*s + BufCrd; if(Keys.IntBtxE2_) *(pIntBtxE2++) = IntBtxE2Corr + BtxCorrForXe2*s + 2.*BtxCorrForX*BufCrd + BetaNormConstE2</emphasis>(Pol09(smsb, IntBt2_CfP+1) + *IntBt2_CfP); } else { if(Keys.dBzds_) *(pdBzds++) = 0.; if(Keys.Bz_) *(pBz++) = 0.; double s_mi_s0 = s - s0; if(Keys.Btx_) *(pBtx++) = dxds0; if(Keys.X_) *(pX++) = x0 + dxds0*s_mi_s0; if(Keys.IntBtxE2_) *(pIntBtxE2++) = dxds0E2*s_mi_s0; } if(HorFieldIsNotZero) { B_CfP = BxPlnCf[Indx]; Bt_CfP = BtzPlnCf[Indx]; C_CfP = zPlnCf[Indx]; IntBt2_CfP = IntBtz2PlnCf[Indx];</para>
+<para>if(Keys.dBxds_) <emphasis>(pdBxds++) = B_CfP[1] + smsb</emphasis>(2.*B_CfP[2] + 3.*smsb*B_CfP[3]); if(Keys.Bx_) <emphasis>(pBx++) = *B_CfP + smsb</emphasis>(<emphasis>(B_CfP+1) + smsb</emphasis>(<emphasis>(B_CfP+2) + smsb</emphasis>(<emphasis>(B_CfP+3)))); if(Keys.Btz_) *(pBtz++) = BtzCorr - BetaNormConst</emphasis>(Pol04(smsb, Bt_CfP+1) + <emphasis>Bt_CfP); if(Keys.Z_ || Keys.IntBtzE2_) BufCrd = -BetaNormConst</emphasis>(Pol05(smsb, C_CfP+1) + <emphasis>C_CfP); if(Keys.Z_) *(pZ++) = zCorr + BtzCorrForZ*s + BufCrd; if(Keys.IntBtzE2_) *(pIntBtzE2++) = IntBtzE2Corr + BtzCorrForZe2*s + 2.*BtzCorrForZ*BufCrd + BetaNormConstE2</emphasis>(Pol09(smsb, IntBt2_CfP+1) + *IntBt2_CfP); } else { if(Keys.dBzds_) *(pdBxds++) = 0.; if(Keys.Bx_) *(pBx++) = 0.; double s_mi_s0 = s - s0; if(Keys.Btz_) *(pBtz++) = dzds0; if(Keys.Z_) *(pZ++) = z0 + dzds0*s_mi_s0; if(Keys.IntBtzE2_) *(pIntBtzE2++) = dzds0E2*s_mi_s0; } s += sStp; } } </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="189" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="462" bodyend="961"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1adca814e696e5e419574ee0ac35a4619b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTotalTrjData_FromTrj</definition>
+        <argsstring>(srTFieldBasedArrayKeys &amp;Keys, srTFieldBasedArrays &amp;FieldBasedArrays)</argsstring>
+        <name>CompTotalTrjData_FromTrj</name>
+        <qualifiedname>srTTrjDat::CompTotalTrjData_FromTrj</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_field_based_array_keys" kindref="compound">srTFieldBasedArrayKeys</ref> &amp;</type>
+          <declname>Keys</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FieldBasedArrays</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="190" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="965" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a6d805b93f8d1aa65ca84b0c54e9605fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTTrjDat::Pol04</definition>
+        <argsstring>(double, double *)</argsstring>
+        <name>Pol04</name>
+        <qualifiedname>srTTrjDat::Pol04</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="192" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="627" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1acc7f987757ef94d2979f35bd5a6ab6c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTTrjDat::Pol05</definition>
+        <argsstring>(double, double *)</argsstring>
+        <name>Pol05</name>
+        <qualifiedname>srTTrjDat::Pol05</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="193" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="634" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1acab388a01bfcc5dca5f0d86b7104ac2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTTrjDat::Pol09</definition>
+        <argsstring>(double, double *)</argsstring>
+        <name>Pol09</name>
+        <qualifiedname>srTTrjDat::Pol09</qualifiedname>
+        <param>
+          <type>double</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="194" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="641" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a8fe2d693d19f54cb981f17edf6c1cfbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::ComponentArray</definition>
+        <argsstring>(int, char, double, double, long long, double *)</argsstring>
+        <name>ComponentArray</name>
+        <qualifiedname>srTTrjDat::ComponentArray</qualifiedname>
+        <param>
+          <type>int</type>
+          <defname>ComponNo</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <defname>x_or_z</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>sSt</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>sEn</defname>
+        </param>
+        <param>
+          <type>long long</type>
+          <defname>Ns</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>CompArray</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="197" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="603" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aa57b278ee03fd12c64072dc57c289e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::SetupIntegrPlnCfs</definition>
+        <argsstring>(char)</argsstring>
+        <name>SetupIntegrPlnCfs</name>
+        <qualifiedname>srTTrjDat::SetupIntegrPlnCfs</qualifiedname>
+        <param>
+          <type>char</type>
+          <defname>XorZ</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="199" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="335" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a789f65cb435ced8c9b7db1c275baa436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeInterpolatingStructure</definition>
+        <argsstring>()</argsstring>
+        <name>ComputeInterpolatingStructure</name>
+        <qualifiedname>srTTrjDat::ComputeInterpolatingStructure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="200" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="717" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a546e27e85c6e8b338fcd50ec7e74c86a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeInterpolatingStructure_FromTrj</definition>
+        <argsstring>()</argsstring>
+        <name>ComputeInterpolatingStructure_FromTrj</name>
+        <qualifiedname>srTTrjDat::ComputeInterpolatingStructure_FromTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="201" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="756" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a582bf62a8f1401ceec668ebe22694bac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeInterpolatingStructureFromTrj</definition>
+        <argsstring>(SRWLPrtTrj *pTrj)</argsstring>
+        <name>ComputeInterpolatingStructureFromTrj</name>
+        <qualifiedname>srTTrjDat::ComputeInterpolatingStructureFromTrj</qualifiedname>
+        <param>
+          <type>SRWLPrtTrj *</type>
+          <declname>pTrj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="202" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="2066" bodyend="2088"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ab06de83ef56d41fd667e407ba6ffed0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeInterpolatingStructure_FromTrj1D</definition>
+        <argsstring>(char x_or_z)</argsstring>
+        <name>ComputeInterpolatingStructure_FromTrj1D</name>
+        <qualifiedname>srTTrjDat::ComputeInterpolatingStructure_FromTrj1D</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="203" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1809" bodyend="1864"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a05dba8ad2656af91016dfac94c31d005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeInterpolatingStructureFromTrj1D</definition>
+        <argsstring>(char x_or_z, const SRWLPrtTrj &amp;trj)</argsstring>
+        <name>ComputeInterpolatingStructureFromTrj1D</name>
+        <qualifiedname>srTTrjDat::ComputeInterpolatingStructureFromTrj1D</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type>const SRWLPrtTrj &amp;</type>
+          <declname>trj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="204" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1868" bodyend="1926"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a4dd359f45a02ecffef7c1112a0a5a755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CoefsPol5thOrder</definition>
+        <argsstring>(double h, double *pf0, double *pCoef)</argsstring>
+        <name>CoefsPol5thOrder</name>
+        <qualifiedname>srTTrjDat::CoefsPol5thOrder</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pf0</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pCoef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="205" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="1037" bodyend="1056"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a4b5ee8bc3440acae82a48abcdf0186d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompCorrectionsForTrjDataDerived</definition>
+        <argsstring>()</argsstring>
+        <name>CompCorrectionsForTrjDataDerived</name>
+        <qualifiedname>srTTrjDat::CompCorrectionsForTrjDataDerived</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="208" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="648" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aeaaf67645a56d1f156116de0cdee4c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::MakeZeroInputFieldDer</definition>
+        <argsstring>()</argsstring>
+        <name>MakeZeroInputFieldDer</name>
+        <qualifiedname>srTTrjDat::MakeZeroInputFieldDer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="210" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="779" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aad1639b679eaaa46686570c368f0d51a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::EvaluateMemAvailBeforeTrjComp</definition>
+        <argsstring>()</argsstring>
+        <name>EvaluateMemAvailBeforeTrjComp</name>
+        <qualifiedname>srTTrjDat::EvaluateMemAvailBeforeTrjComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="211" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="792" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a0d87e081ed8a9d0503dfcdb32081e0f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::RecomputeHorOrVertField</definition>
+        <argsstring>(int AmOfBxValues, int AmOfBzValues)</argsstring>
+        <name>RecomputeHorOrVertField</name>
+        <qualifiedname>srTTrjDat::RecomputeHorOrVertField</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>AmOfBxValues</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmOfBzValues</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="213" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="213" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a045726dafd49e03a60270de3a717d346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::MagFieldPeriodicity</definition>
+        <argsstring>()</argsstring>
+        <name>MagFieldPeriodicity</name>
+        <qualifiedname>srTTrjDat::MagFieldPeriodicity</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a368afce083d776716ac20106b7ee4c8c">MagFieldPeriodicity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="216" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="216" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ad66cc533332ab2fd1f608ec31f357611" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>char</type>
+        <definition>char srTTrjDat::MagFieldIsConstant</definition>
+        <argsstring>()</argsstring>
+        <name>MagFieldIsConstant</name>
+        <qualifiedname>srTTrjDat::MagFieldIsConstant</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a6cf46e53671110062eba8415e225c521">MagFieldIsConstant</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="221" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="221" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a95bb0e91021ba475900b7a9a3ee616e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::SetUpFieldBasedArraysAtOnePeriod</definition>
+        <argsstring>(srTFieldBasedArrayKeys &amp;Keys, srTFieldBasedArrays &amp;FieldBasedArrays)</argsstring>
+        <name>SetUpFieldBasedArraysAtOnePeriod</name>
+        <qualifiedname>srTTrjDat::SetUpFieldBasedArraysAtOnePeriod</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a3f23ec8d7b27a5522aecca381ee68167">SetUpFieldBasedArraysAtOnePeriod</reimplements>
+        <param>
+          <type><ref refid="structsr_t_field_based_array_keys" kindref="compound">srTFieldBasedArrayKeys</ref> &amp;</type>
+          <declname>Keys</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FieldBasedArrays</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="223" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a82d05522679ff34ec1eb186c54c56e7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::SetUpFieldBasedArraysTotal</definition>
+        <argsstring>(srTFieldBasedArrayKeys &amp;Keys, srTFieldBasedArrays &amp;FieldBasedArrays)</argsstring>
+        <name>SetUpFieldBasedArraysTotal</name>
+        <qualifiedname>srTTrjDat::SetUpFieldBasedArraysTotal</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1aaf8c18b80259dcae5a6b2ec2887e6236">SetUpFieldBasedArraysTotal</reimplements>
+        <param>
+          <type><ref refid="structsr_t_field_based_array_keys" kindref="compound">srTFieldBasedArrayKeys</ref> &amp;</type>
+          <declname>Keys</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref> &amp;</type>
+          <declname>FieldBasedArrays</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="227" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="813" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a7c6734431a1925bce30ff9ab2fe1e8d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::AnalizeFieldSymmetry</definition>
+        <argsstring>(char &amp;FieldIsSymOverX, char &amp;FieldIsSymOverZ)</argsstring>
+        <name>AnalizeFieldSymmetry</name>
+        <qualifiedname>srTTrjDat::AnalizeFieldSymmetry</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a786a443a26f03dfd93f75ab9d6e2d4ba">AnalizeFieldSymmetry</reimplements>
+        <param>
+          <type>char &amp;</type>
+          <declname>FieldIsSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FieldIsSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="228" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1613" bodyend="1618"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a86f9c82f01df7150bfd785fdc4beada9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ShowLimitsAndInitInteg</definition>
+        <argsstring>(srTWfrSmp &amp;DistrInfoDat, char LongIntType, double &amp;sIntegStart, double &amp;sIntegFin, int &amp;AmOfPer, bool doInit=true)</argsstring>
+        <name>ShowLimitsAndInitInteg</name>
+        <qualifiedname>srTTrjDat::ShowLimitsAndInitInteg</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a4c8a6cc758f362cf6882d38ea8e19953">ShowLimitsAndInitInteg</reimplements>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <declname>DistrInfoDat</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>LongIntType</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sIntegStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sIntegFin</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfPer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doInit</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="229" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="830" bodyend="840"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a4d94e05088f1bc0860cada5630a2bc9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::InitTrjComp</definition>
+        <argsstring>()</argsstring>
+        <name>InitTrjComp</name>
+        <qualifiedname>srTTrjDat::InitTrjComp</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a25cf53d73324b1b7d70e66d1cb11ce05">InitTrjComp</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="230" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="230" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1afd876fdfcf801a7f771bc35293a3240d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::SetupLimitsByAnalizingField</definition>
+        <argsstring>(char LongIntType, double &amp;sStart, double &amp;sStep, long long &amp;Ns, long long &amp;OutNperTot, long long &amp;OutNperLeft)</argsstring>
+        <name>SetupLimitsByAnalizingField</name>
+        <qualifiedname>srTTrjDat::SetupLimitsByAnalizingField</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>LongIntType</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStep</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>Ns</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>OutNperTot</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>OutNperLeft</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="232" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1479" bodyend="1507"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ae290c717679cbe93b5251689964a74c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CountFieldExtrem</definition>
+        <argsstring>(int &amp;AmOfExtrem, double &amp;AbsMax)</argsstring>
+        <name>CountFieldExtrem</name>
+        <qualifiedname>srTTrjDat::CountFieldExtrem</qualifiedname>
+        <param>
+          <type>int &amp;</type>
+          <declname>AmOfExtrem</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>AbsMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="233" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1511" bodyend="1558"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1abccde716ab95aeda58ac8e0441056a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::FindFieldLimitsBasedOnTolValue</definition>
+        <argsstring>(double AbsTolForField, double &amp;sStartLoc, double &amp;sFinLoc)</argsstring>
+        <name>FindFieldLimitsBasedOnTolValue</name>
+        <qualifiedname>srTTrjDat::FindFieldLimitsBasedOnTolValue</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>AbsTolForField</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sStartLoc</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sFinLoc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="234" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1562" bodyend="1609"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a04814f69e084eb0d64f90c31275f28c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CheckFromTrjIfFieldCompAreZero</definition>
+        <argsstring>(SRWLPrtTrj &amp;trj, short &amp;horFieldIsNotZero, short &amp;verFieldIsNotZero)</argsstring>
+        <name>CheckFromTrjIfFieldCompAreZero</name>
+        <qualifiedname>srTTrjDat::CheckFromTrjIfFieldCompAreZero</qualifiedname>
+        <param>
+          <type>SRWLPrtTrj &amp;</type>
+          <declname>trj</declname>
+        </param>
+        <param>
+          <type>short &amp;</type>
+          <declname>horFieldIsNotZero</declname>
+        </param>
+        <param>
+          <type>short &amp;</type>
+          <declname>verFieldIsNotZero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="235" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="2048" bodyend="2062"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a1a4f2e9bee0bf34506453c4a2751b53d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ConvertToArbTrjDat</definition>
+        <argsstring>(char, srTWfrSmp &amp;, srTGenTrjHndl &amp;)</argsstring>
+        <name>ConvertToArbTrjDat</name>
+        <qualifiedname>srTTrjDat::ConvertToArbTrjDat</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a0c101409fd6b1ab1f63494036b207350">ConvertToArbTrjDat</reimplements>
+        <param>
+          <type>char</type>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+        </param>
+        <param>
+          <type>srTGenTrjHndl &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="237" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="237" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ada825b0822cec08b74c5d1ca7409f603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::ShowFullLimits</definition>
+        <argsstring>(double &amp;sIntegStart, double &amp;sIntegFin)</argsstring>
+        <name>ShowFullLimits</name>
+        <qualifiedname>srTTrjDat::ShowFullLimits</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1ada3d8485638984d29c51017f289caae7">ShowFullLimits</reimplements>
+        <param>
+          <type>double &amp;</type>
+          <declname>sIntegStart</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sIntegFin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="238" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="238" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a7066b9c3a6404b0d3bdd4cb93947e4e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::CheckAndSetupTrajectoryLimits</definition>
+        <argsstring>()</argsstring>
+        <name>CheckAndSetupTrajectoryLimits</name>
+        <qualifiedname>srTTrjDat::CheckAndSetupTrajectoryLimits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="248" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1623" bodyend="1651"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a1744c549778b3cf66e6d0394c4cff4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::SetupSourcePointFromTrajectory</definition>
+        <argsstring>()</argsstring>
+        <name>SetupSourcePointFromTrajectory</name>
+        <qualifiedname>srTTrjDat::SetupSourcePointFromTrajectory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="249" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1655" bodyend="1671"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ad6fedf859dfb02003c3e062989ec32f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeOneQuadPhaseTermFromTrj</definition>
+        <argsstring>(char x_or_z)</argsstring>
+        <name>ComputeOneQuadPhaseTermFromTrj</name>
+        <qualifiedname>srTTrjDat::ComputeOneQuadPhaseTermFromTrj</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="250" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1675" bodyend="1720"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1abd1c7ac3fddcf20aa5c07092b5e9cc58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeQuadPhaseTermsFromTrj</definition>
+        <argsstring>(const SRWLPrtTrj &amp;trj)</argsstring>
+        <name>ComputeQuadPhaseTermsFromTrj</name>
+        <qualifiedname>srTTrjDat::ComputeQuadPhaseTermsFromTrj</qualifiedname>
+        <param>
+          <type>const SRWLPrtTrj &amp;</type>
+          <declname>trj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="251" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1724" bodyend="1805"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a8ede74b879791dc51b05342ecd8a3ef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::ComputeQuadPhaseTermsFromTrj</definition>
+        <argsstring>()</argsstring>
+        <name>ComputeQuadPhaseTermsFromTrj</name>
+        <qualifiedname>srTTrjDat::ComputeQuadPhaseTermsFromTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="253" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="1099" bodyend="1107"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a3e290025c747fed2470ec70b37b16e8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::TrjCoordAngField</definition>
+        <argsstring>(double s, char x_or_z, double &amp;x, double &amp;dxds, double &amp;B)</argsstring>
+        <name>TrjCoordAngField</name>
+        <qualifiedname>srTTrjDat::TrjCoordAngField</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dxds</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="254" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="844" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a231de839a4284bbe345f604fa216b327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::FindOffestAndRelArg</definition>
+        <argsstring>(double Arg, srTWaveAccessDataD1D &amp;TrjInData, long long &amp;Offset, double &amp;RelArg)</argsstring>
+        <name>FindOffestAndRelArg</name>
+        <qualifiedname>srTTrjDat::FindOffestAndRelArg</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Arg</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data_d1_d" kindref="compound">srTWaveAccessDataD1D</ref> &amp;</type>
+          <declname>TrjInData</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>Offset</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>RelArg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="256" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="923" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a50e868ca1bdeb0958920450322b5ae4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::FindOffestAndRelArgFromTrj</definition>
+        <argsstring>(double Arg, const SRWLPrtTrj &amp;trj, long long &amp;Offset, double &amp;RelArg)</argsstring>
+        <name>FindOffestAndRelArgFromTrj</name>
+        <qualifiedname>srTTrjDat::FindOffestAndRelArgFromTrj</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Arg</declname>
+        </param>
+        <param>
+          <type>const SRWLPrtTrj &amp;</type>
+          <declname>trj</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>Offset</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>RelArg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="258" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="955" bodyend="1002"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a12a9a4d3bdceb4a3ca3f71bfdbc77f1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::InterpFuncAndDerivs</definition>
+        <argsstring>(double h, double x, double *pf0, double &amp;f, double &amp;dfdx, double &amp;d2fdx2, double &amp;d3fdx3)</argsstring>
+        <name>InterpFuncAndDerivs</name>
+        <qualifiedname>srTTrjDat::InterpFuncAndDerivs</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pf0</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dfdx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>d2fdx2</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>d3fdx3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="259" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="1006" bodyend="1033"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a261da30e935522a79c36fed7bec66c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::AllocateQuadPhaseTermsArrFromTrj</definition>
+        <argsstring>()</argsstring>
+        <name>AllocateQuadPhaseTermsArrFromTrj</name>
+        <qualifiedname>srTTrjDat::AllocateQuadPhaseTermsArrFromTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="261" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="1060" bodyend="1072"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aeefa884131558c357b8b16b8554b0c64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::AllocateQuadPhaseTermsArrFromTrj</definition>
+        <argsstring>(const SRWLPrtTrj &amp;trj)</argsstring>
+        <name>AllocateQuadPhaseTermsArrFromTrj</name>
+        <qualifiedname>srTTrjDat::AllocateQuadPhaseTermsArrFromTrj</qualifiedname>
+        <param>
+          <type>const SRWLPrtTrj &amp;</type>
+          <declname>trj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="262" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="1076" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1ae62e7db31bfebed48dc3c3e6493c105f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::DeallocateQuadPhaseTermsArr</definition>
+        <argsstring>()</argsstring>
+        <name>DeallocateQuadPhaseTermsArr</name>
+        <qualifiedname>srTTrjDat::DeallocateQuadPhaseTermsArr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="263" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="1091" bodyend="1095"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1af7cf2c79ed609dc453807b930313b143" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::CheckIfFieldIsZeroFromTrj</definition>
+        <argsstring>()</argsstring>
+        <name>CheckIfFieldIsZeroFromTrj</name>
+        <qualifiedname>srTTrjDat::CheckIfFieldIsZeroFromTrj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="264" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="1111" bodyend="1117"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1abca9a76251eb0a3c67952a307912be96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTTrjDat::FieldComponIsZero_FromTrj</definition>
+        <argsstring>(char x_or_z)</argsstring>
+        <name>FieldComponIsZero_FromTrj</name>
+        <qualifiedname>srTTrjDat::FieldComponIsZero_FromTrj</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="265" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1930" bodyend="1958"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1aace24acf06a971e74f5eeba611de2d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CountFieldExtremums</definition>
+        <argsstring>()</argsstring>
+        <name>CountFieldExtremums</name>
+        <qualifiedname>srTTrjDat::CountFieldExtremums</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="267" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1962" bodyend="1992"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1acd58fedf18e619fb666519dca442622e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTTrjDat::CompTrjDataForDisp</definition>
+        <argsstring>(double *pOutBtxData, double *pOutXData, double *pOutBtyData, double *pOutYData, double *pOutBtzData, double *pOutZData, long long ns, double sStart, double sStep)</argsstring>
+        <name>CompTrjDataForDisp</name>
+        <qualifiedname>srTTrjDat::CompTrjDataForDisp</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a1d96fa68aa064a69164ceeb5a1e41f8b">CompTrjDataForDisp</reimplements>
+        <param>
+          <type>double *</type>
+          <declname>pOutBtxData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutXData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutBtyData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutYData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutBtzData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pOutZData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ns</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="269" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.cpp" bodystart="1461" bodyend="1474"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1af17ba2a4359b3214d2918f2b0f03c8e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTTrjDat::EstimateIntermedVal</definition>
+        <argsstring>(double *pFunc, long long Ind, double sStp, double ds)</argsstring>
+        <name>EstimateIntermedVal</name>
+        <qualifiedname>srTTrjDat::EstimateIntermedVal</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pFunc</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Ind</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStp</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="272" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="272" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_trj_dat_1a5e7e7415811f7411ac8bc53a9d415741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>long long</type>
+        <definition>long long srTTrjDat::EstimMinNpForRadInteg</definition>
+        <argsstring>(char typeInt)</argsstring>
+        <name>EstimMinNpForRadInteg</name>
+        <qualifiedname>srTTrjDat::EstimMinNpForRadInteg</qualifiedname>
+        <reimplements refid="classsr_t_gen_trj_dat_1a6ee029b9203d93b789ca15fda454fa03">EstimMinNpForRadInteg</reimplements>
+        <param>
+          <type>char</type>
+          <declname>typeInt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="282" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="282" bodyend="288"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+      </node>
+      <node id="1">
+        <label>srTTrjDat</label>
+        <link refid="classsr_t_trj_dat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="3">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>srTFunDer</label>
+        <link refid="structsr_t_fun_der"/>
+      </node>
+      <node id="2">
+        <label>srTGenTrjDat</label>
+        <link refid="classsr_t_gen_trj_dat"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTTrjDat</label>
+        <link refid="classsr_t_trj_dat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>BxInData</edgelabel>
+          <edgelabel>BzInData</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>xTrjInData</edgelabel>
+          <edgelabel>zTrjInData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>srTWaveAccessDataD1D</label>
+        <link refid="structsr_t_wave_access_data_d1_d"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" line="49" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h" bodystart="49" bodyend="289"/>
+    <listofallmembers>
+      <member refid="classsr_t_trj_dat_1acd964cde755538785f8765458b2e957d" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>AllCf</name></member>
+      <member refid="classsr_t_trj_dat_1a9151f14e0f1b31291ac23e6f3f621e2c" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AllocateMemoryForCfs</name></member>
+      <member refid="classsr_t_trj_dat_1a13cfce8a3853ce9d522cb9fd6c44d664" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AllocateMemoryForCfs_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a38034c9bd09f970e0922059bf688d94d" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AllocateMemoryForCfsFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a261da30e935522a79c36fed7bec66c08" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AllocateQuadPhaseTermsArrFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1aeefa884131558c357b8b16b8554b0c64" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AllocateQuadPhaseTermsArrFromTrj</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a2491ebafa66a24625e7315823126df21" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AmOfExtremInBx</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a863c1eefd0f11a04051255d7e7fcb2a7" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AmOfExtremInBz</name></member>
+      <member refid="classsr_t_trj_dat_1a7c6734431a1925bce30ff9ab2fe1e8d9" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>AnalizeFieldSymmetry</name></member>
+      <member refid="classsr_t_trj_dat_1a79eb6fcff0692e98d64bff6c2fa74975" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AuxBxLen</name></member>
+      <member refid="classsr_t_trj_dat_1a4fa1673cde01fef6c429079c24fdbd35" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>AuxBzLen</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ab101aaa30e7e077953b025bfaf7d686a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>BetaNormConst</name></member>
+      <member refid="classsr_t_gen_trj_dat_1af5dba4b1001233a9e6fd1a3ada26f5b7" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>BetaNormConstE2</name></member>
+      <member refid="classsr_t_trj_dat_1a1fb06d57b6b148229b11f4614f68733b" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtxCorr</name></member>
+      <member refid="classsr_t_trj_dat_1ac0f7e8d51ada832669d64e2d7ac1742e" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtxCorrForX</name></member>
+      <member refid="classsr_t_trj_dat_1a7c5d203537f5200ba30de29a8a28885f" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtxCorrForXe2</name></member>
+      <member refid="classsr_t_trj_dat_1a6df5228546f35824e56a1e4ec8f1b1e6" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtxPlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1a80311bbf635c5bc00835b2212f25d09b" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtzCorr</name></member>
+      <member refid="classsr_t_trj_dat_1a78f8f7c18e9a8e2d310eac8e8df1f085" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtzCorrForZ</name></member>
+      <member refid="classsr_t_trj_dat_1ab7f27c2c7a3361df2f927f84b13be411" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtzCorrForZe2</name></member>
+      <member refid="classsr_t_trj_dat_1af749a02d1752945732c223270f78685d" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BtzPlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1ae7082dfaedba80283a41e9ee5d814f15" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>BxInData</name></member>
+      <member refid="classsr_t_trj_dat_1a016907c3ff051c232d454c18c647d71c" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BxPlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1a744ee94f7f9c6b540a63005a1100f78b" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>BzInData</name></member>
+      <member refid="classsr_t_trj_dat_1ac45bd711b1aca95c9d491442826449e4" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>BzPlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1a7066b9c3a6404b0d3bdd4cb93947e4e3" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CheckAndSetupTrajectoryLimits</name></member>
+      <member refid="classsr_t_trj_dat_1a04814f69e084eb0d64f90c31275f28c9" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CheckFromTrjIfFieldCompAreZero</name></member>
+      <member refid="classsr_t_trj_dat_1af7cf2c79ed609dc453807b930313b143" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CheckIfFieldIsZeroFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a4dd359f45a02ecffef7c1112a0a5a755" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CoefsPol5thOrder</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a8abde1f21b1130d70b762370f2eaafb0" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompBetaNormConst</name></member>
+      <member refid="classsr_t_trj_dat_1a4b5ee8bc3440acae82a48abcdf0186d4" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompCorrectionsForTrjDataDerived</name></member>
+      <member refid="classsr_t_trj_dat_1affdf03859062ddbd1c0376a6c83271d1" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompDerivForFieldData</name></member>
+      <member refid="classsr_t_trj_dat_1a3031c0d2de8e5437fac2c44bc566ccb7" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a8fe2d693d19f54cb981f17edf6c1cfbc" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComponentArray</name></member>
+      <member refid="classsr_t_trj_dat_1a73e3865cf4e6ec3dfcd9ca019b538320" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_trj_dat_1a9363a179f6992bfa3b9fc810ac25f94d" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_trj_dat_1a27dc90da5e130d73c2525ffb590eadf1" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_trj_dat_1ad4cde7e6f81bcb900673f2c4e1b8beb6" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData</name></member>
+      <member refid="classsr_t_trj_dat_1aa55fd5f21cd7c8a592229ea3439ed577" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1ab04715e67b091faf0cc0b03275f287f0" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a7426a27de1a5a3a8fdc95b2f4d67833c" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1adca814e696e5e419574ee0ac35a4619b" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTotalTrjData_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1aa6f7c09c0ce5fcb2ed3203f9fecfec37" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTotalTrjDataTrjDisp</name></member>
+      <member refid="classsr_t_trj_dat_1a41302317e1a365e74d19abd07aa3b2a6" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTotalTrjDataTrjDisp_FromTrj</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a8fd725bb4e0d3617727b57d24f20de88" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjCrdVel</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad37ff12468dca9b2c70c907cece19a80" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjCrdVelRK</name></member>
+      <member refid="classsr_t_trj_dat_1aa8c87618fdd35e538ab2346efaf45d97" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataAndFieldWithDerAtPoint</name></member>
+      <member refid="classsr_t_trj_dat_1a2495eefa45c29542de4f6f72be6a1b32" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataAndFieldWithDerAtPoint_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a5799813713e8be4379a16596a070d2b8" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataAndFieldWithDerAtPoint_FromTrjInitial</name></member>
+      <member refid="classsr_t_trj_dat_1a5c0a2d094fb1456aca447790e1e9a915" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataDerivedAtPoint</name></member>
+      <member refid="classsr_t_trj_dat_1adb85f87bce3373fdb58632eb1fd62c2f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataDerivedAtPoint</name></member>
+      <member refid="classsr_t_trj_dat_1ad5d2bb004a0cf89d94dc4607d63fb48f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataDerivedAtPoint_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1aa91c63a94b8b7262884535df584fab5f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataDerivedAtPoint_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1ac919592f74210e0a7631b1e8adf02f3c" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>CompTrjDataDerivedAtPointPowDens</name></member>
+      <member refid="classsr_t_trj_dat_1a885bc7915327cf8b815fe68f11fa6756" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjDataDerivedAtPointPowDens_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1acd58fedf18e619fb666519dca442622e" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>CompTrjDataForDisp</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acf6984c32c7960eff526b01255c4ebe0" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CompTrjKickMatr</name></member>
+      <member refid="classsr_t_trj_dat_1a789f65cb435ced8c9b7db1c275baa436" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeInterpolatingStructure</name></member>
+      <member refid="classsr_t_trj_dat_1a546e27e85c6e8b338fcd50ec7e74c86a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeInterpolatingStructure_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1ab06de83ef56d41fd667e407ba6ffed0f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeInterpolatingStructure_FromTrj1D</name></member>
+      <member refid="classsr_t_trj_dat_1a582bf62a8f1401ceec668ebe22694bac" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeInterpolatingStructureFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a05dba8ad2656af91016dfac94c31d005" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeInterpolatingStructureFromTrj1D</name></member>
+      <member refid="classsr_t_trj_dat_1ad6fedf859dfb02003c3e062989ec32f5" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeOneQuadPhaseTermFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1abd1c7ac3fddcf20aa5c07092b5e9cc58" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeQuadPhaseTermsFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a8ede74b879791dc51b05342ecd8a3ef9" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>ComputeQuadPhaseTermsFromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a1a4f2e9bee0bf34506453c4a2751b53d" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>ConvertToArbTrjDat</name></member>
+      <member refid="classsr_t_trj_dat_1ae290c717679cbe93b5251689964a74c3" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CountFieldExtrem</name></member>
+      <member refid="classsr_t_trj_dat_1aace24acf06a971e74f5eeba611de2d21" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CountFieldExtremums</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a9f603b4eb9a863d9b2c5208929cdd370" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_trj_dat_1a289108be0150ebdd4f588b9e221045b6" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>CubPln</name></member>
+      <member refid="classsr_t_trj_dat_1a29c01c2bab26e966e6b8e48e3f1b683a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>DeallocateMemoryForCfs</name></member>
+      <member refid="classsr_t_trj_dat_1ae62e7db31bfebed48dc3c3e6493c105f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>DeallocateQuadPhaseTermsArr</name></member>
+      <member refid="classsr_t_trj_dat_1a7575ea251849ae50ef98e5989af3b92d" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>DeleteInitialFieldData</name></member>
+      <member refid="classsr_t_trj_dat_1af421b81fa7955e7ad091ebce7356e7f4" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>Derivative</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad4b4e347f02e90a653e0acbb26b18d76" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>EbmDat</name></member>
+      <member refid="classsr_t_trj_dat_1af17ba2a4359b3214d2918f2b0f03c8e3" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>EstimateIntermedVal</name></member>
+      <member refid="classsr_t_trj_dat_1a5e7e7415811f7411ac8bc53a9d415741" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>EstimMinNpForRadInteg</name></member>
+      <member refid="classsr_t_trj_dat_1aad1639b679eaaa46686570c368f0d51a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>EvaluateMemAvailBeforeTrjComp</name></member>
+      <member refid="classsr_t_trj_dat_1a43bb3588b8295cef2f5ac62445c0166a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>Field</name></member>
+      <member refid="classsr_t_trj_dat_1abca9a76251eb0a3c67952a307912be96" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>FieldComponIsZero_FromTrj</name></member>
+      <member refid="classsr_t_trj_dat_1a581ef95fd1c4ce53685e5973f84fd1b3" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>FieldZeroTolerance</name></member>
+      <member refid="classsr_t_trj_dat_1abccde716ab95aeda58ac8e0441056a70" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>FindFieldLimitsBasedOnTolValue</name></member>
+      <member refid="classsr_t_trj_dat_1a231de839a4284bbe345f604fa216b327" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>FindOffestAndRelArg</name></member>
+      <member refid="classsr_t_trj_dat_1a50e868ca1bdeb0958920450322b5ae4a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>FindOffestAndRelArgFromTrj</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ace3f84c268057dce8810d49ac3dd71f3" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>funcDerivRK</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ad20d3c199cb0b38c8edbadab9c6efa99" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>HorFieldIsNotZero</name></member>
+      <member refid="classsr_t_trj_dat_1aeb486c0a5596fe4d96c457f316f24f2f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>Initialize</name></member>
+      <member refid="classsr_t_trj_dat_1a4d94e05088f1bc0860cada5630a2bc9f" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>InitTrjComp</name></member>
+      <member refid="classsr_t_trj_dat_1a07fc578542f82ce14423b41a8380ce96" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>InputWasModified</name></member>
+      <member refid="classsr_t_trj_dat_1a9d26829ae8eb6c7eae8f59e7a4c1c697" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>IntBtx2PlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1a6dace2fc37cb145fc812e5909fd47efe" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>IntBtxE2Arr</name></member>
+      <member refid="classsr_t_trj_dat_1a9b69f46608102f9a0f2c5c5156b454c7" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>IntBtxE2Corr</name></member>
+      <member refid="classsr_t_trj_dat_1a67405c6644ed093b31cb36bd890b897c" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>IntBtz2PlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1add22df382f1c1d92b10138369c9a0f2b" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>IntBtzE2Arr</name></member>
+      <member refid="classsr_t_trj_dat_1a048ba0ca32b8ed691a8c1a7ab82b3c20" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>IntBtzE2Corr</name></member>
+      <member refid="classsr_t_gen_trj_dat_1acb5eb428d7a635838191938f10039dd1" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>IntegrateKicks</name></member>
+      <member refid="classsr_t_trj_dat_1a12a9a4d3bdceb4a3ca3f71bfdbc77f1b" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>InterpFuncAndDerivs</name></member>
+      <member refid="classsr_t_trj_dat_1ae9b72992746b093313f60a2bf5300e8e" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>Inv_Step</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a59404ca0362887d9b349e60fdaa8cc4d" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>InvBetaNormConst</name></member>
+      <member refid="classsr_t_trj_dat_1a6dd4e362440c128cc1919775fb679790" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>LastCompWasNotOK</name></member>
+      <member refid="classsr_t_trj_dat_1a4598822fe4d1e7521fb9dbccd428cd29" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>LenFieldData</name></member>
+      <member refid="classsr_t_trj_dat_1a2a99e4da740223cabf7ddf73665b98fe" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>m_doNotDeleteData</name></member>
+      <member refid="classsr_t_trj_dat_1a47ab82bd9f4f461ecff838499b7df7e4" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>m_estimMinNpForRadInteg</name></member>
+      <member refid="classsr_t_trj_dat_1ad66cc533332ab2fd1f608ec31f357611" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>MagFieldIsConstant</name></member>
+      <member refid="classsr_t_trj_dat_1a045726dafd49e03a60270de3a717d346" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>MagFieldPeriodicity</name></member>
+      <member refid="classsr_t_trj_dat_1aeaaf67645a56d1f156116de0cdee4c74" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>MakeZeroInputFieldDer</name></member>
+      <member refid="classsr_t_trj_dat_1a2ec0d929cd2d7f6f9173a35daf37a679" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>MaxMemAvail</name></member>
+      <member refid="classsr_t_trj_dat_1a083b95801ea08ec611acd73d78b5e92a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>NperLeft</name></member>
+      <member refid="classsr_t_trj_dat_1a49b22b5a0a5462eaa9e8a62d8024203d" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>NperTot</name></member>
+      <member refid="classsr_t_trj_dat_1a6d805b93f8d1aa65ca84b0c54e9605fe" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>Pol04</name></member>
+      <member refid="classsr_t_trj_dat_1acc7f987757ef94d2979f35bd5a6ab6c7" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>Pol05</name></member>
+      <member refid="classsr_t_trj_dat_1acab388a01bfcc5dca5f0d86b7104ac2a" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>Pol09</name></member>
+      <member refid="classsr_t_trj_dat_1a0d87e081ed8a9d0503dfcdb32081e0f5" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>RecomputeHorOrVertField</name></member>
+      <member refid="classsr_t_trj_dat_1a95bb0e91021ba475900b7a9a3ee616e6" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>SetUpFieldBasedArraysAtOnePeriod</name></member>
+      <member refid="classsr_t_trj_dat_1a82d05522679ff34ec1eb186c54c56e7c" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>SetUpFieldBasedArraysTotal</name></member>
+      <member refid="classsr_t_trj_dat_1a583f8e3ae98b6211356211e007010498" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>SetupFldPlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1aa57b278ee03fd12c64072dc57c289e70" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>SetupIntegrPlnCfs</name></member>
+      <member refid="classsr_t_trj_dat_1afd876fdfcf801a7f771bc35293a3240d" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>SetupLimitsByAnalizingField</name></member>
+      <member refid="classsr_t_gen_trj_dat_1affce4e26a8cbc7642382adb990c78ac5" prot="public" virt="virtual" ambiguityscope="srTGenTrjDat::"><scope>srTTrjDat</scope><name>SetupLimitsByAnalizingField</name></member>
+      <member refid="classsr_t_trj_dat_1a1744c549778b3cf66e6d0394c4cff4ab" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>SetupSourcePointFromTrajectory</name></member>
+      <member refid="classsr_t_trj_dat_1ada825b0822cec08b74c5d1ca7409f603" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>ShowFullLimits</name></member>
+      <member refid="classsr_t_trj_dat_1a86f9c82f01df7150bfd785fdc4beada9" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>ShowLimitsAndInitInteg</name></member>
+      <member refid="classsr_t_gen_trj_dat_1ab9e8ba49732354dc2d66a50b6992df80" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a0d4e229cd153b880c373440226d1d814" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_gen_trj_dat_1aaf70e1faf054de3f29e0074cd797280c" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>srTGenTrjDat</name></member>
+      <member refid="classsr_t_trj_dat_1ac2468ea2c2f41a2f5a2b48a29c3ccc6c" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>srTTrjDat</name></member>
+      <member refid="classsr_t_trj_dat_1a06db4099c37b61bba8b8c9563dbe55f8" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>srTTrjDat</name></member>
+      <member refid="classsr_t_trj_dat_1a59d501c95ed688f8f0c07e118097b67f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>srTTrjDat</name></member>
+      <member refid="classsr_t_trj_dat_1ae2f26041fa62999219efc1fc9b91df2d" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>sStart</name></member>
+      <member refid="classsr_t_trj_dat_1a2c8c448b61577b124b94fe7ffeaa2fda" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>sStep</name></member>
+      <member refid="classsr_t_trj_dat_1a3e290025c747fed2470ec70b37b16e8b" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>TrjCoordAngField</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a9105ad2a446c16dbdfad7c9c7938083f" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>VerFieldIsNotZero</name></member>
+      <member refid="classsr_t_trj_dat_1adfcdb71549edfd238b5965cab80fa05a" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>xCorr</name></member>
+      <member refid="classsr_t_trj_dat_1adb71ba8d63ea0722d7735bb01bf38998" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>xPlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1a93659a0338f65ef09f28d44c3286de3b" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>xTrjInData</name></member>
+      <member refid="classsr_t_trj_dat_1ac3b7ec7cb9e594232bd12627a3c514a5" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>zCorr</name></member>
+      <member refid="classsr_t_trj_dat_1aa674d7449a6b7767a92085d54c71a3c8" prot="private" virt="non-virtual"><scope>srTTrjDat</scope><name>zPlnCf</name></member>
+      <member refid="classsr_t_trj_dat_1afbcb3e598c38631d4e665a5a974e9f97" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>zTrjInData</name></member>
+      <member refid="classsr_t_gen_trj_dat_1a329fd5b410e6b361ba5f21dc615a981b" prot="public" virt="virtual"><scope>srTTrjDat</scope><name>~srTGenTrjDat</name></member>
+      <member refid="classsr_t_trj_dat_1a80736b31948b6f46ed2579cb055583cc" prot="public" virt="non-virtual"><scope>srTTrjDat</scope><name>~srTTrjDat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

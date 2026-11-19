@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_s_mesh_data" kind="struct" language="C++" prot="public">
+    <compoundname>srTSMeshData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_s_mesh_data_1ae729061461310e4bfb1dadff2322679e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTSMeshData::s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <qualifiedname>srTSMeshData::s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="324" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_mesh_data_1aa8a50dcc9aabc3dab2fe3fe0a4b7df3b" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTSMeshData::LevelNo</definition>
+        <argsstring></argsstring>
+        <name>LevelNo</name>
+        <qualifiedname>srTSMeshData::LevelNo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="326" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_s_mesh_data_1a69f9a06b7320738d87218b400af00d41" prot="public" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTSMeshData::NoOfPoOnLev</definition>
+        <argsstring></argsstring>
+        <name>NoOfPoOnLev</name>
+        <qualifiedname>srTSMeshData::NoOfPoOnLev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="326" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="323" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="323" bodyend="327"/>
+    <listofallmembers>
+      <member refid="structsr_t_s_mesh_data_1aa8a50dcc9aabc3dab2fe3fe0a4b7df3b" prot="public" virt="non-virtual"><scope>srTSMeshData</scope><name>LevelNo</name></member>
+      <member refid="structsr_t_s_mesh_data_1a69f9a06b7320738d87218b400af00d41" prot="public" virt="non-virtual"><scope>srTSMeshData</scope><name>NoOfPoOnLev</name></member>
+      <member refid="structsr_t_s_mesh_data_1ae729061461310e4bfb1dadff2322679e" prot="public" virt="non-virtual"><scope>srTSMeshData</scope><name>s</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

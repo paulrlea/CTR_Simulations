@@ -1,0 +1,1006 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.uti_plot_matplotlib &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.uti_plot_matplotlib</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.uti_plot_matplotlib</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;uti_plot backend for matplotlib</span>
+
+<span class="sd">.. moduleauthor:: N. Canestrari, O. Chubar, R. Nagler, M. Rakitin</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">subprocess</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">platform</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">array</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC15112022</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_plot_com</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_math</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_plot</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">uti_plot_com</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">uti_math</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">uti_plot</span>
+<span class="c1">#import uti_plot_com</span>
+<span class="c1">#import uti_math</span>
+<span class="c1">#import uti_plot</span>
+
+<div class="viewcode-block" id="Backend">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend">[docs]</a>
+<span class="k">class</span><span class="w"> </span><span class="nc">Backend</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Set matplotlib backend depending on IPython state, mpld3 availability and fname_format</span>
+<span class="sd">        Tries `backend` based on what the execution context is (IPython, X11, etc.).</span>
+<span class="sd">        Will throw exception if matplotlib or pyplot cannot be imported.</span>
+
+<span class="sd">        :param str backend: attempted backend</span>
+<span class="sd">        :param str fname_format: where to save figs</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_running_in_ipython</span><span class="p">():</span>
+            <span class="n">backend</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_init_ipython</span><span class="p">(</span><span class="n">backend</span><span class="p">)</span>
+            <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span> <span class="o">=</span> <span class="n">matplotlib</span><span class="o">.</span><span class="n">pyplot</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">backend</span> <span class="o">==</span> <span class="n">uti_plot</span><span class="o">.</span><span class="n">DEFAULT_BACKEND</span><span class="p">:</span>
+                <span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_default_backend</span><span class="p">(</span><span class="n">fname_format</span><span class="p">)</span>
+            <span class="n">matplotlib</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="n">backend</span><span class="p">)</span>
+            <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span> <span class="o">=</span> <span class="n">matplotlib</span><span class="o">.</span><span class="n">pyplot</span>
+            <span class="n">matplotlib</span><span class="o">.</span><span class="n">pyplot</span><span class="o">.</span><span class="n">ioff</span><span class="p">()</span>
+            <span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_verify_pyplot</span><span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">fname_format</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Saving figures to &#39;</span> <span class="o">+</span> <span class="n">fname_format</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_backend</span> <span class="o">=</span> <span class="n">backend</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_fname_format</span> <span class="o">=</span> <span class="n">fname_format</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_figure_num</span> <span class="o">=</span> <span class="mi">0</span>
+  
+<div class="viewcode-block" id="Backend.uti_plot_show">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot_show">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_plot_show</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s1">&#39;Render the plots generated thus far; Prompts user to do the generation&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_pyplot_show</span><span class="p">()</span></div>
+
+
+    <span class="c1">#def plot1D(ar1d,x_range,labels=(&#39;energy, KeV&#39;,&#39;Ph/s/0.1%BW&#39;)):</span>
+<div class="viewcode-block" id="Backend.uti_plot1d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot1d">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_plot1d</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ar1d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Photon Energy [eV]&#39;</span><span class="p">,</span> <span class="s1">&#39;ph/s/0.1%bw&#39;</span><span class="p">)):</span>
+        <span class="c1">#fig = _pl.figure(figsize=(12,8))</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">ar1d</span><span class="p">,</span><span class="n">x_range</span><span class="p">,</span><span class="n">labels</span><span class="p">,</span><span class="n">fig</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_savefig</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Backend.uti_plot1d_ir">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot1d_ir">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_plot1d_ir</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">arY</span><span class="p">,</span> <span class="n">arX</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Longitudinal Position [m]&#39;</span><span class="p">,</span> <span class="s1">&#39;Horizontal Position [m]&#39;</span><span class="p">)):</span> <span class="c1">#1D plot on irregular mesh</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D_ir</span><span class="p">(</span><span class="n">arY</span><span class="p">,</span> <span class="n">arX</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">fig</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_savefig</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Backend.uti_plot1d_m">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot1d_m">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_plot1d_m</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ars</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;X&#39;</span><span class="p">,</span> <span class="s1">&#39;Y&#39;</span><span class="p">),</span> <span class="n">styles</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span> <span class="c1">#OC25102019</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D_m</span><span class="p">(</span><span class="n">ars</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="n">styles</span><span class="o">=</span><span class="n">styles</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="n">legend</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_savefig</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span></div>
+
+
+    <span class="c1">#def plot2D(ar2d,x_range,y_range,labels=(&#39;Horizontal position, mm&#39;,&#39;Vertical position, mm&#39;)):</span>
+<div class="viewcode-block" id="Backend.uti_plot2d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot2d">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_plot2d</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ar2d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Horizontal Position [m]&#39;</span><span class="p">,</span><span class="s1">&#39;Vertical Position [m]&#39;</span><span class="p">)):</span>
+        <span class="c1">#fig = _pl.figure(figsize=(12,8))</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_plot_2D</span><span class="p">(</span><span class="n">ar2d</span><span class="p">,</span><span class="n">x_range</span><span class="p">,</span><span class="n">y_range</span><span class="p">,</span><span class="n">labels</span><span class="p">,</span><span class="n">fig</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_savefig</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Backend.uti_plot2d1d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot2d1d">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_plot2d1d</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="n">x0</span> <span class="o">=</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span> <span class="n">x1</span> <span class="o">=</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span> <span class="n">nx</span> <span class="o">=</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="c1">#y0 = x_range[0]; y1 = y_range[1]; ny = y_range[2]</span>
+        <span class="n">y0</span> <span class="o">=</span> <span class="n">y_range</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span> <span class="n">y1</span> <span class="o">=</span> <span class="n">y_range</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">y_range</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="c1">#OC090714</span>
+
+        <span class="n">label2D</span> <span class="o">=</span> <span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span> <span class="n">label1H</span> <span class="o">=</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span> <span class="n">label1V</span> <span class="o">=</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+        <span class="n">fig</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">_graphs_joined</span><span class="p">:</span>
+            <span class="c1">#fig = _pl.figure(figsize=(12,5))</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mf">5.3</span><span class="p">))</span>
+           
+            <span class="bp">self</span><span class="o">.</span><span class="n">_plot_2D</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">label2D</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="mi">131</span><span class="p">)</span> <span class="c1">#showing graphs in one panel</span>
+        <span class="k">else</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot2d</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">label2D</span><span class="p">)</span>
+
+        <span class="n">xStep</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">nx</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="n">xStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">x1</span> <span class="o">-</span> <span class="n">x0</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">yStep</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">ny</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="n">yStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">y1</span> <span class="o">-</span> <span class="n">y0</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">ny</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">inperpOrd</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#interpolation order to use (1 to 3)</span>
+
+        <span class="c1">#_plot_1D(data[iy,:],range_x,label1H,fig,132)</span>
+        <span class="n">arCutX</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nx</span><span class="p">)</span>
+        <span class="n">xx</span> <span class="o">=</span> <span class="n">x0</span>
+        <span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nx</span><span class="p">):</span>
+            <span class="n">arCutX</span><span class="p">[</span><span class="n">ix</span><span class="p">]</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">interp_2d</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">yc</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">xStep</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">yStep</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">inperpOrd</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="n">xx</span> <span class="o">+=</span> <span class="n">xStep</span>
+        <span class="k">if</span> <span class="n">_graphs_joined</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">arCutX</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">label1H</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="mi">132</span><span class="p">)</span> <span class="c1">#OC150814</span>
+        <span class="k">else</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot1d</span><span class="p">(</span><span class="n">arCutX</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">label1H</span><span class="p">)</span>
+
+        <span class="c1">#_plot_1D(data[:,ix],range_y,label1V,fig,133)</span>
+        <span class="n">arCutY</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">ny</span><span class="p">)</span>
+        <span class="n">yy</span> <span class="o">=</span> <span class="n">y0</span>
+        <span class="k">for</span> <span class="n">iy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ny</span><span class="p">):</span>
+            <span class="c1">#arCutY[iy] = _interp_2d(xc, yy, x0, xStep, nx, y0, yStep, ny, data, inperpOrd, 1, 0)</span>
+            <span class="n">arCutY</span><span class="p">[</span><span class="n">iy</span><span class="p">]</span> <span class="o">=</span> <span class="n">uti_math</span><span class="o">.</span><span class="n">interp_2d</span><span class="p">(</span><span class="n">xc</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">xStep</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">yStep</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">inperpOrd</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="n">yy</span> <span class="o">+=</span> <span class="n">yStep</span>
+        <span class="k">if</span> <span class="n">_graphs_joined</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">arCutY</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">label1V</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="mi">133</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot1d</span><span class="p">(</span><span class="n">arCutY</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">label1V</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">_graphs_joined</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span> <span class="c1">#OC081115</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_savefig</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span></div>
+
+
+    <span class="c1">#def srw_ascii_plot(fname):</span>
+    <span class="c1">#def uti_data_file_plot(self, _fname, _read_labels=1, _e=0, _x=0, _y=0, _graphs_joined=1):</span>
+    <span class="c1">#def uti_data_file_plot(self, _fname, _read_labels=1, _e=0, _x=0, _y=0, _graphs_joined=1, _traj_report=False, _traj_axis=&#39;x&#39;): #MR20160729</span>
+    <span class="c1">#def uti_data_file_plot(self, _fname, _read_labels=1, _e=0, _x=0, _y=0, _graphs_joined=1, _traj_report=False, _traj_axis=&#39;x&#39;, _scale=&#39;linear&#39;, _width_pixels=None): #MR27012017</span>
+<div class="viewcode-block" id="Backend.uti_plot_data_file">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_plot_data_file">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_plot_data_file</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">_e</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="c1">#OC16112017 (renamed: uti_plot_data_file -&gt; uti_plot_data_file)</span>
+                           <span class="n">_multicolumn_data</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">_column_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_column_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="c1">#MR31102017</span>
+                           <span class="n">_scale</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span> <span class="n">_width_pixels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="c1">#data, mode, allrange = srw_ascii_load(fname)</span>
+        <span class="c1">#data, mode, allrange, arLabels, arUnits = _file_load(_fname, _read_labels)</span>
+        <span class="c1">#data, mode, allrange, arLabels, arUnits = uti_plot_com.file_load(_fname, _read_labels)</span>
+        <span class="c1">#data, mode, allrange, arLabels, arUnits = uti_plot_com.file_load(_fname, _read_labels, _traj_report, _traj_axis) #MR20160729</span>
+
+        <span class="c1">#data = np.array(data) #MR27012017 (lines added until &quot;pass&quot;)</span>
+        <span class="c1">#if _scale != &#39;linear&#39;:</span>
+        <span class="c1">#    available_scales = [&#39;log&#39;, &#39;log2&#39;, &#39;log10&#39;]</span>
+        <span class="c1">#    if _scale not in available_scales:</span>
+        <span class="c1">#        raise ValueError(&#39;Scale &quot;{}&quot; is not supported. Available scales: {}.&#39;.format(_scale, &#39;, &#39;.join(available_scales)))</span>
+        <span class="c1">#    data[np.where(data &lt;= 0.)] = 1.e-23</span>
+        <span class="c1">#    data = getattr(np, _scale)(data)</span>
+        <span class="c1">#if _width_pixels:</span>
+        <span class="c1">#    try:</span>
+        <span class="c1">#        from scipy.ndimage import zoom</span>
+        <span class="c1">#        data = np.reshape(data, (allrange[5], allrange[8]), order=&#39;f&#39;)</span>
+        <span class="c1">#        resize_factor = float(_width_pixels) / float(allrange[5])</span>
+        <span class="c1">#        print(&#39;Size before: {}  Dimensions: {}&#39;.format(data.size, data.shape))</span>
+        <span class="c1">#        data = zoom(data, resize_factor)</span>
+        <span class="c1">#        if _scale == &#39;linear&#39;:</span>
+        <span class="c1">#            data[np.where(data &lt; 0.)] = 0.0</span>
+        <span class="c1">#        print(&#39;Size after : {}  Dimensions: {}&#39;.format(data.size, data.shape))</span>
+        <span class="c1">#        allrange = list(allrange)</span>
+        <span class="c1">#        allrange[5] = data.shape[0]</span>
+        <span class="c1">#        allrange[8] = data.shape[1]</span>
+        <span class="c1">#        allrange = tuple(allrange)</span>
+        <span class="c1">#        data = np.reshape(data, (data.shape[0] * data.shape[1]), order=&#39;f&#39;)</span>
+        <span class="c1">#    except:</span>
+        <span class="c1">#        print(&#39;Cannot resize the image - scipy.ndimage.zoom() cannot be imported.&#39;)</span>
+        <span class="c1">#        pass</span>
+
+        <span class="n">data</span><span class="p">,</span> <span class="n">mode</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">arLabels</span><span class="p">,</span> <span class="n">arUnits</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">file_load</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="p">,</span> <span class="n">_multicolumn_data</span><span class="p">)</span> <span class="c1">#MR31102017</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">_multicolumn_data</span><span class="p">:</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        <span class="c1">#if mode == 3: #OC17112017 (commented-out)</span>
+        <span class="c1">#    try:</span>
+        <span class="c1">#        fwhm_dict = uti_math.fwhm(np.linspace(allrange[0], allrange[1], allrange[2]), data, return_as_dict=True)</span>
+        <span class="c1">#    except:</span>
+        <span class="c1">#        fwhm_dict = {&#39;fwhm&#39;: -1}</span>
+        <span class="c1">#    print(&#39;FWHM: {:.5f} [{}]&#39;.format(fwhm_dict[&#39;fwhm&#39;], arUnits[0]))</span>
+        <span class="k">if</span> <span class="n">_scale</span> <span class="o">!=</span> <span class="s1">&#39;linear&#39;</span><span class="p">:</span>
+            <span class="n">available_scales</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;log&#39;</span><span class="p">,</span> <span class="s1">&#39;log2&#39;</span><span class="p">,</span> <span class="s1">&#39;log10&#39;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">_scale</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">available_scales</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Scale &quot;</span><span class="si">{}</span><span class="s1">&quot; is not supported. Available scales: </span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">_scale</span><span class="p">,</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">available_scales</span><span class="p">)))</span>
+            <span class="n">data</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">data</span> <span class="o">&lt;=</span> <span class="mf">0.</span><span class="p">)]</span> <span class="o">=</span> <span class="mf">1.e-23</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">np</span><span class="p">,</span> <span class="n">_scale</span><span class="p">)(</span><span class="n">data</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">_width_pixels</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="kn">from</span><span class="w"> </span><span class="nn">scipy.ndimage</span><span class="w"> </span><span class="kn">import</span> <span class="n">zoom</span>
+                <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="p">(</span><span class="n">allrange</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">allrange</span><span class="p">[</span><span class="mi">8</span><span class="p">]),</span> <span class="n">order</span><span class="o">=</span><span class="s1">&#39;C&#39;</span><span class="p">)</span>
+                <span class="n">resize_factor</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">_width_pixels</span><span class="p">)</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="n">allrange</span><span class="p">[</span><span class="mi">5</span><span class="p">])</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Size before: </span><span class="si">{}</span><span class="s1">  Dimensions: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">size</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
+                <span class="n">data</span> <span class="o">=</span> <span class="n">zoom</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">resize_factor</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">_scale</span> <span class="o">==</span> <span class="s1">&#39;linear&#39;</span><span class="p">:</span>
+                    <span class="n">data</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">data</span> <span class="o">&lt;</span> <span class="mf">0.</span><span class="p">)]</span> <span class="o">=</span> <span class="mf">0.0</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Size after : </span><span class="si">{}</span><span class="s1">  Dimensions: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">size</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
+                <span class="n">allrange</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">allrange</span><span class="p">)</span>
+                <span class="n">allrange</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">allrange</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">allrange</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">allrange</span><span class="p">)</span>
+                <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">order</span><span class="o">=</span><span class="s1">&#39;C&#39;</span><span class="p">)</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cannot resize the image - scipy.ndimage.zoom() cannot be imported.&#39;</span><span class="p">)</span>
+                <span class="k">pass</span>
+
+        <span class="c1">#print(allrange)</span>
+        <span class="n">m</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_enum</span><span class="p">(</span><span class="s1">&#39;T&#39;</span><span class="p">,</span><span class="s1">&#39;V&#39;</span><span class="p">,</span><span class="s1">&#39;H&#39;</span><span class="p">,</span><span class="s1">&#39;E&#39;</span><span class="p">,</span><span class="s1">&#39;HV&#39;</span><span class="p">,</span><span class="s1">&#39;EV&#39;</span><span class="p">,</span><span class="s1">&#39;EH&#39;</span><span class="p">,</span><span class="s1">&#39;EHV&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">mode</span><span class="o">==</span><span class="n">m</span><span class="o">.</span><span class="n">T</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__mode_T</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">arLabels</span><span class="p">,</span> <span class="n">arUnits</span><span class="p">,</span> <span class="n">_e</span><span class="p">,</span> <span class="n">_x</span><span class="p">,</span> <span class="n">_y</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">mode</span><span class="o">==</span><span class="n">m</span><span class="o">.</span><span class="n">V</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__mode_V</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">mode</span><span class="o">==</span><span class="n">m</span><span class="o">.</span><span class="n">H</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__mode_H</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">mode</span><span class="o">==</span><span class="n">m</span><span class="o">.</span><span class="n">E</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__mode_E</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">arLabels</span><span class="p">,</span> <span class="n">arUnits</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">mode</span><span class="o">==</span><span class="n">m</span><span class="o">.</span><span class="n">HV</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__mode_HV</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">arLabels</span><span class="p">,</span> <span class="n">arUnits</span><span class="p">,</span> <span class="n">_x</span><span class="p">,</span> <span class="n">_y</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="p">)</span>
+        <span class="c1">#elif mode==m.EV:</span>
+        <span class="c1">#  fig = __mode_EV(data,allrange)</span>
+        <span class="c1">#elif mode==m.EH:</span>
+        <span class="c1">#  fig = __mode_EH(data,allrange)</span>
+        <span class="k">elif</span> <span class="n">mode</span><span class="o">==</span><span class="n">m</span><span class="o">.</span><span class="n">EHV</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__mode_EHV</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">arLabels</span><span class="p">,</span> <span class="n">arUnits</span><span class="p">,</span> <span class="n">_e</span><span class="p">,</span> <span class="n">_x</span><span class="p">,</span> <span class="n">_y</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">_multicolumn_data</span><span class="p">:</span> <span class="c1">#MR31102017</span>
+            <span class="n">available_cols</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+            <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">[</span><span class="n">_column_x</span><span class="p">,</span> <span class="n">_column_y</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">available_cols</span><span class="p">:</span>
+                    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Incorrect column specified: </span><span class="si">{}</span><span class="s1">.</span><span class="se">\n</span><span class="s1">Available columns: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">available_cols</span><span class="p">))</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D_XvsY</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">_column_x</span><span class="p">,</span> <span class="n">_column_y</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_savefig</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="Backend.uti_data_file_plot">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot_matplotlib.Backend.uti_data_file_plot">[docs]</a>
+    <span class="k">def</span><span class="w"> </span><span class="nf">uti_data_file_plot</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">_e</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                           <span class="n">_multicolumn_data</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">_column_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_column_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="c1">#MR31102017</span>
+                           <span class="n">_scale</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span> <span class="n">_width_pixels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot_data_file</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="p">,</span> <span class="n">_e</span><span class="p">,</span> <span class="n">_x</span><span class="p">,</span> <span class="n">_y</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="p">,</span> <span class="n">_multicolumn_data</span><span class="p">,</span> <span class="n">_column_x</span><span class="p">,</span> <span class="n">_column_y</span><span class="p">,</span> <span class="n">_scale</span><span class="p">,</span> <span class="n">_width_pixels</span><span class="p">)</span> <span class="c1">#OC16112017</span></div>
+
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_enum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">sequential</span><span class="p">,</span> <span class="o">**</span><span class="n">named</span><span class="p">):</span> <span class="c1">#Had to copy this in uti_plot_com</span>
+        <span class="n">enums</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">sequential</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sequential</span><span class="p">))),</span> <span class="o">**</span><span class="n">named</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">type</span><span class="p">(</span><span class="s1">&#39;Enum&#39;</span><span class="p">,</span> <span class="p">(),</span> <span class="n">enums</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_plot_1D_XvsY</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">column_x</span><span class="p">,</span> <span class="n">column_y</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="n">typ</span><span class="o">=</span><span class="mi">111</span><span class="p">):</span> <span class="c1">#MR31102017</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="n">figsize</span><span class="p">)</span>
+        <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">typ</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">column_x</span><span class="p">][</span><span class="s1">&#39;data&#39;</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="n">column_y</span><span class="p">][</span><span class="s1">&#39;data&#39;</span><span class="p">])</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">column_x</span><span class="p">][</span><span class="s1">&#39;label&#39;</span><span class="p">])</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">column_y</span><span class="p">][</span><span class="s1">&#39;label&#39;</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">fig</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_plot_1D_ir</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ary</span><span class="p">,</span> <span class="n">arx</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="n">typ</span><span class="o">=</span><span class="mi">111</span><span class="p">):</span> <span class="c1">#OC15112017</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">arx</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">array</span><span class="p">)):</span> <span class="n">arx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">arx</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ary</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">array</span><span class="p">)):</span> <span class="n">ary</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ary</span><span class="p">)</span>
+
+        <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">typ</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">arx</span><span class="p">,</span> <span class="n">ary</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+        <span class="c1">#ax.set_xlim(arx[0], arx[-1])</span>
+        <span class="c1">#ax.set_xlim(min(arx), max(arx))</span>
+
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">):</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_plot_1D</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ar1d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="n">typ</span><span class="o">=</span><span class="mi">111</span><span class="p">):</span>
+        <span class="n">lenAr1d</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ar1d</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lenAr1d</span> <span class="o">&gt;</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span> <span class="n">ar1d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ar1d</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">]])</span>
+        <span class="k">elif</span> <span class="n">lenAr1d</span> <span class="o">&lt;</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">]:</span>
+            <span class="n">auxAr</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">lenAr1d</span><span class="p">):</span> <span class="n">auxAr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ar1d</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="n">ar1d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">auxAr</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ar1d</span><span class="p">,(</span><span class="nb">list</span><span class="p">,</span><span class="n">array</span><span class="p">)):</span> <span class="n">ar1d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ar1d</span><span class="p">)</span>
+
+        <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">x_range</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">x_range</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+        <span class="c1">#print(&#39;_plot_1D:&#39;, x_range)</span>
+        
+        <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">typ</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">ar1d</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">x</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">):</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_plot_1D_m</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ars</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="n">typ</span><span class="o">=</span><span class="mi">111</span><span class="p">,</span> <span class="n">styles</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span> <span class="c1">#OC25102019</span>
+        <span class="c1">#Assumed: ars = [curve_1,curve_2,...], where curve_i can be:</span>
+        <span class="c1"># curve_i = [[y1_i,y2_i,...],[x_min_i,x_max_i,nx_i]] or</span>
+        <span class="c1"># curve_i = [[y1_i,y2_i,...],[x1_i,x2_i,...]] or</span>
+        <span class="c1"># curve_i = [[x1_i,y1_i],[x2_i,y2_i],...] </span>
+
+        <span class="n">nCurves</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ars</span><span class="p">)</span>
+        <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">typ</span><span class="p">)</span>
+
+        <span class="n">legendWasUsed</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nCurves</span><span class="p">):</span>
+            <span class="n">ar_i</span> <span class="o">=</span> <span class="n">ars</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="c1">#individual curve</span>
+            <span class="n">len_ar_i</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ar_i</span><span class="p">)</span>
+
+            <span class="n">curStyle</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">styles</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+                <span class="k">if</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">styles</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">array</span><span class="p">))):</span>
+                    <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">styles</span><span class="p">)):</span> <span class="n">curStyle</span> <span class="o">=</span> <span class="n">styles</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="n">curLegend</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">legend</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+                <span class="k">if</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">legend</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">array</span><span class="p">))):</span>
+                    <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">legend</span><span class="p">)):</span> <span class="n">curLegend</span> <span class="o">=</span> <span class="n">legend</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+                    
+            <span class="n">arx</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="n">ary</span> <span class="o">=</span> <span class="kc">None</span>
+
+            <span class="k">if</span><span class="p">(</span><span class="n">len_ar_i</span> <span class="o">==</span> <span class="mi">2</span><span class="p">):</span>
+                <span class="n">ar_i_0</span> <span class="o">=</span> <span class="n">ar_i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">ar_i_1</span> <span class="o">=</span> <span class="n">ar_i</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">len_ar_i_0</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ar_i_0</span><span class="p">)</span>
+                <span class="n">len_ar_i_1</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ar_i_1</span><span class="p">)</span>
+                <span class="c1">#if((len_ar_i_1 == 3) and (len_ar_i_0 == 3)): </span>
+                <span class="c1">#    if(ar_i_1[2] == 3): #assuming [[y1,y2,y3],[x_min_i,x_max_i,nx_i]]</span>
+                <span class="c1">#        ary = ar_i_0</span>
+                <span class="c1">#        arx = np.linspace(ar_i_1[0], ar_i_1[1], ar_i_1[2])</span>
+                <span class="c1">#    else: #assuming [[y1,y2,y3],[x1,x2,x3]]</span>
+                <span class="c1">#        ary = ar_i_0</span>
+                <span class="c1">#        arx = ar_i_1</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">len_ar_i_1</span> <span class="o">==</span> <span class="mi">3</span><span class="p">):</span> <span class="c1">#OC21022019</span>
+                    <span class="k">if</span><span class="p">(</span><span class="n">len_ar_i_0</span> <span class="o">==</span> <span class="mi">3</span><span class="p">):</span> 
+                        <span class="k">if</span><span class="p">(</span><span class="n">ar_i_1</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">==</span> <span class="mi">3</span><span class="p">):</span> <span class="c1">#assuming [[y1,y2,y3],[x_min_i,x_max_i,nx_i]]</span>
+                            <span class="n">ary</span> <span class="o">=</span> <span class="n">ar_i_0</span>
+                            <span class="n">arx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">ar_i_1</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ar_i_1</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">ar_i_1</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+                        <span class="k">else</span><span class="p">:</span> <span class="c1">#assuming [[y1,y2,y3],[x1,x2,x3]]</span>
+                            <span class="n">ary</span> <span class="o">=</span> <span class="n">ar_i_0</span>
+                            <span class="n">arx</span> <span class="o">=</span> <span class="n">ar_i_1</span>
+                    <span class="k">elif</span><span class="p">(</span><span class="n">len_ar_i_0</span> <span class="o">==</span> <span class="n">ar_i_1</span><span class="p">[</span><span class="mi">2</span><span class="p">]):</span> <span class="c1">#assuming [[y1,y2,y3,y4,...],[x_min_i,x_max_i,nx_i]]</span>
+                        <span class="n">ary</span> <span class="o">=</span> <span class="n">ar_i_0</span>
+                        <span class="n">arx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">ar_i_1</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ar_i_1</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">ar_i_1</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+                    
+                <span class="k">elif</span><span class="p">((</span><span class="n">len_ar_i_1</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">len_ar_i_0</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)):</span> <span class="c1">#assuming [[x1,y1],[x2,y2]]</span>
+                    <span class="n">arx</span> <span class="o">=</span> <span class="p">[</span><span class="n">ar_i_0</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">ar_i_1</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+                    <span class="n">ary</span> <span class="o">=</span> <span class="p">[</span><span class="n">ar_i_0</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">ar_i_1</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+
+                <span class="k">elif</span><span class="p">((</span><span class="n">len_ar_i_1</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">len_ar_i_1</span> <span class="o">==</span> <span class="n">len_ar_i_1</span><span class="p">)):</span> <span class="c1">#assuming [[y1,y2,...],[x1,x2,...]]</span>
+                    <span class="n">ary</span> <span class="o">=</span> <span class="n">ar_i_0</span>
+                    <span class="n">arx</span> <span class="o">=</span> <span class="n">ar_i_1</span>
+
+            <span class="k">elif</span><span class="p">(</span><span class="n">len_ar_i</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">):</span> <span class="c1">#assuming [[x1_i,y1_i],[x2_i,y2_i],...]</span>
+                <span class="n">arx</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">len_ar_i</span>
+                <span class="n">ary</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">len_ar_i</span>
+                <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">len_ar_i</span><span class="p">):</span>
+                    <span class="n">ar_ij</span> <span class="o">=</span> <span class="n">ar_i</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+                    <span class="n">arx</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">ar_ij</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                    <span class="n">ary</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">ar_ij</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                    
+            <span class="k">if</span><span class="p">((</span><span class="n">curStyle</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">curLegend</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)):</span> <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">arx</span><span class="p">,</span> <span class="n">ary</span><span class="p">)</span>
+            <span class="k">elif</span><span class="p">((</span><span class="n">curStyle</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">curLegend</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)):</span> <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">arx</span><span class="p">,</span> <span class="n">ary</span><span class="p">,</span> <span class="n">curStyle</span><span class="p">)</span>
+            <span class="k">elif</span><span class="p">((</span><span class="n">curStyle</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">curLegend</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)):</span> <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">arx</span><span class="p">,</span> <span class="n">ary</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">curLegend</span><span class="p">)</span>
+            <span class="k">elif</span><span class="p">((</span><span class="n">curStyle</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">curLegend</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)):</span> <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">arx</span><span class="p">,</span> <span class="n">ary</span><span class="p">,</span> <span class="n">curStyle</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">curLegend</span><span class="p">)</span>
+
+            <span class="k">if</span><span class="p">(</span><span class="n">curLegend</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">legendWasUsed</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="k">if</span><span class="p">(</span><span class="n">legendWasUsed</span><span class="p">):</span> <span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">):</span> <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_plot_2D</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ar2d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="n">typ</span><span class="o">=</span><span class="mi">111</span><span class="p">):</span>
+
+        <span class="c1">#totLen = int(x_range[2]*y_range[2])</span>
+        <span class="c1">#lenAr2d = len(ar2d)</span>
+        <span class="c1">#if lenAr2d &gt; totLen: ar2d = np.array(ar2d[0:totLen])</span>
+        <span class="c1">#elif lenAr2d &lt; totLen:</span>
+        <span class="c1">#    auxAr = array(&#39;d&#39;, [0]*lenAr2d)</span>
+        <span class="c1">#    for i in range(lenAr2d): auxAr[i] = ar2d[i]</span>
+        <span class="c1">#    ar2d = np.array(auxAr)</span>
+
+        <span class="c1">#if isinstance(ar2d,(list,array)): ar2d = np.array(ar2d)</span>
+        <span class="c1">#ar2d = ar2d.reshape(y_range[2],x_range[2])</span>
+
+        <span class="n">isDataAr</span> <span class="o">=</span> <span class="kc">False</span>  <span class="c1">#OC30052020</span>
+
+        <span class="c1">#TEST</span>
+        <span class="c1">#print(type(ar2d))</span>
+
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ar2d</span><span class="p">,</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">array</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">)):</span> <span class="c1">#OC16072020</span>
+        <span class="c1">#if isinstance(ar2d, (list, array)):</span>
+
+            <span class="n">isFlat</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ar2d</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="p">(</span><span class="nb">list</span><span class="p">,</span> <span class="n">array</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">)):</span> <span class="n">isFlat</span> <span class="o">=</span> <span class="kc">False</span> <span class="c1">#OC16072020</span>
+            <span class="c1">#if isinstance(ar2d[0], (list, array)): isFlat = False</span>
+
+            <span class="k">if</span><span class="p">((</span><span class="n">x_range</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">y_range</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">)):</span>
+                <span class="k">if</span> <span class="n">isFlat</span><span class="p">:</span> <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;Mesh / grid description for 2D plot is not provided&#39;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">x_range</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                    <span class="n">nx</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ar2d</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                    <span class="n">x_range</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">nx</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">y_range</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                    <span class="n">ny</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ar2d</span><span class="p">)</span>
+                    <span class="n">y_range</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">ny</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ny</span><span class="p">]</span>
+
+            <span class="k">if</span> <span class="n">isFlat</span><span class="p">:</span>
+                <span class="n">totLen</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">*</span><span class="n">y_range</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+                <span class="n">lenAr2d</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ar2d</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">lenAr2d</span> <span class="o">&gt;</span> <span class="n">totLen</span><span class="p">:</span> <span class="n">ar2d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ar2d</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">totLen</span><span class="p">])</span>
+                <span class="k">elif</span> <span class="n">lenAr2d</span> <span class="o">&lt;</span> <span class="n">totLen</span><span class="p">:</span>
+                    <span class="n">auxAr</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">lenAr2d</span><span class="p">)</span>
+                    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">lenAr2d</span><span class="p">):</span> <span class="n">auxAr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ar2d</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+                    <span class="n">ar2d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">auxAr</span><span class="p">)</span>
+            
+            <span class="n">ar2d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ar2d</span><span class="p">)</span>
+            <span class="n">ar2d</span> <span class="o">=</span> <span class="n">ar2d</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">y_range</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            <span class="n">isDataAr</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="k">else</span><span class="p">:</span> <span class="c1">#Perhaps this is not necessary? Image will be displayed in standard way then (with pixel row number starting from top)</span>
+            <span class="n">nx</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">ny</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">x_range</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">):</span>
+                <span class="n">nx</span><span class="p">,</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">ar2d</span><span class="o">.</span><span class="n">size</span>
+                <span class="n">x_range</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">nx</span><span class="p">]</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">y_range</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">):</span>
+                <span class="k">if</span><span class="p">(</span><span class="n">ny</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="n">nx</span><span class="p">,</span> <span class="n">ny</span> <span class="o">=</span> <span class="n">ar2d</span><span class="o">.</span><span class="n">size</span>
+                <span class="n">y_range</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">ny</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">ny</span><span class="p">]</span>
+
+        <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">typ</span><span class="p">)</span>
+           
+        <span class="c1">#x = np.linspace(x_range[0],x_range[1],x_range[2])</span>
+        <span class="c1">#y = np.linspace(y_range[0],y_range[1],y_range[2])</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">x_range</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">x_range</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">x_range</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="k">if</span> <span class="n">x_range</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">None</span> <span class="c1">#OC30052020</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">y_range</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">y_range</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">y_range</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="k">if</span> <span class="n">y_range</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="k">else</span> <span class="kc">None</span> 
+        
+        <span class="c1">#ax.pcolormesh(x,y,ar2d,cmap=self._pl.cm.Greys_r) #OC150814</span>
+        <span class="k">if</span> <span class="n">isDataAr</span><span class="p">:</span> <span class="n">ax</span><span class="o">.</span><span class="n">pcolormesh</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">ar2d</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">Greys_r</span><span class="p">)</span> <span class="c1">#OC30052020</span>
+        <span class="k">else</span><span class="p">:</span> <span class="n">ax</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">ar2d</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">Greys_r</span><span class="p">)</span> <span class="c1">#OC30052020 (assuming PIL.Image)</span>
+        
+        <span class="c1">#ax.set_xlim(x[0],x[-1])</span>
+        <span class="c1">#ax.set_ylim(y[0],y[-1])</span>
+        <span class="k">if</span> <span class="n">x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span> <span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">x</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#OC30052020</span>
+        <span class="k">if</span> <span class="n">y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span> <span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">y</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">):</span> <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">__mode_T</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">,</span> <span class="n">_ec</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_xc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_yc</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange)</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange, _ar_units, _ec, _xc, _yc)</span>
+        <span class="n">allrange</span><span class="p">,</span> <span class="n">units</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_range</span><span class="p">(</span><span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">,</span> <span class="n">_ec</span><span class="p">,</span> <span class="n">_xc</span><span class="p">,</span> <span class="n">_yc</span><span class="p">)</span>
+
+        <span class="c1">#e0, e1, ne, x0, x1, nx, y0, y1, ny = allrange</span>
+        <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">ec</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span> <span class="o">=</span> <span class="n">allrange</span>
+        <span class="c1">#toprint = (e0,e1,units[0], x0,x1,units[1], y0,y1,units[2], data[0]) #squeeze have reduced it to an array with one element.</span>
+        <span class="n">toprint</span> <span class="o">=</span> <span class="p">(</span><span class="n">e0</span><span class="p">,</span><span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">x0</span><span class="p">,</span><span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">y0</span><span class="p">,</span><span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">units</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span> <span class="c1">#squeeze have reduced it to an array with one element.</span>
+        <span class="c1">#sys.stdout.write(&#39;Total Flux for \nE: %f -&gt; %f %s\nX: %f -&gt; %f %s\nY: %f -&gt; %f %s\n is %f Ph/s/0.1%BW&#39; % toprint) </span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; for </span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: </span><span class="si">%f</span><span class="s1"> </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: </span><span class="si">%f</span><span class="s1"> </span><span class="si">%s</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: </span><span class="si">%f</span><span class="s1"> </span><span class="si">%s</span><span class="se">\n</span><span class="s1"> is </span><span class="si">%f</span><span class="s1"> </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">toprint</span><span class="p">)</span> 
+        <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">__mode_V</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">):</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange)</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange, _ar_units)</span>
+        <span class="n">allrange</span><span class="p">,</span> <span class="n">units</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_range</span><span class="p">(</span><span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">)</span>
+
+        <span class="c1">#e0, e1, ne, x0, x1, nx, y0, y1, ny = allrange</span>
+        <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">ec</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span> <span class="o">=</span> <span class="n">allrange</span>
+        <span class="n">range_y</span> <span class="o">=</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span>
+        <span class="c1">#label = (&quot;Vertical Position, [&quot;+units[2]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">range_y</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">fig</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">fig</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">__mode_H</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">):</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange)</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange, _ar_units)</span>
+        <span class="n">allrange</span><span class="p">,</span> <span class="n">units</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_range</span><span class="p">(</span><span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">)</span>
+
+        <span class="c1">#e0, e1, ne, x0, x1, nx, y0, y1, ny = allrange</span>
+        <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">ec</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span> <span class="o">=</span> <span class="n">allrange</span>
+        <span class="n">range_x</span> <span class="o">=</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span> 
+        <span class="c1">#label = (&quot;Horizontal Position, [&quot;+units[1]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">range_x</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">fig</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">fig</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">__mode_E</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">):</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange)</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange, _ar_units)</span>
+        <span class="n">allrange</span><span class="p">,</span> <span class="n">units</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_range</span><span class="p">(</span><span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">)</span>
+
+        <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">ec</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span> <span class="o">=</span> <span class="n">allrange</span>
+        <span class="n">range_e</span> <span class="o">=</span> <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span>
+        <span class="c1">#label = (&quot;Energy, [&quot;+units[0]+&quot;]&quot;,&quot;Ph/s/0.1%BW&quot;)</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+        <span class="c1">#fig = self._pl.figure(figsize=(4,4))</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span> <span class="c1">#OC17112017</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="n">range_e</span><span class="p">,</span><span class="n">label</span><span class="p">,</span><span class="n">fig</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">fig</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">__mode_HV</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">,</span> <span class="n">_xc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_yc</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+        <span class="c1">#Could be moved to uti_plot_com.py (since there is not Matplotlib-specific content)</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange)</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange, _ar_units, 0, _xc, _yc)</span>
+        <span class="n">allrange</span><span class="p">,</span> <span class="n">units</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_range</span><span class="p">(</span><span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">_xc</span><span class="p">,</span> <span class="n">_yc</span><span class="p">)</span>
+
+        <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">ec</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span> <span class="o">=</span> <span class="n">allrange</span>
+        <span class="n">range_x</span> <span class="o">=</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span>
+        <span class="n">range_y</span> <span class="o">=</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span>
+        <span class="c1">#print range_x, range_y</span>
+        <span class="c1">#x = np.linspace(x0, x1, nx)</span>
+        <span class="c1">#y = np.linspace(y0, y1, ny)</span>
+        <span class="c1">#ix = np.where(abs(x)==abs(x).min())[0][0]</span>
+        <span class="c1">#iy = np.where(abs(y)==abs(y).min())[0][0]</span>
+        <span class="c1">#label2D = (&quot;Horizontal Position, [&quot;+units[1]+&quot;]&quot;, &quot;Vertical Position, [&quot;+units[2]+&quot;]&quot;)</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">e0</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span> <span class="n">strTitle</span> <span class="o">+=</span> <span class="s1">&#39; at &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">e0</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+        <span class="n">label2D</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+        <span class="c1">#print(label2D)</span>
+
+        <span class="c1">#label1H = (&quot;Horizontal Position, [&quot;+units[1]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;At &#39;</span> <span class="o">+</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">yc</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">yc</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span> <span class="n">strTitle</span> <span class="o">+=</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">label1H</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+        <span class="c1">#label1V = (&quot;Vertical Position, [&quot;+units[2]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;At &#39;</span> <span class="o">+</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">xc</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">xc</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span> <span class="n">strTitle</span> <span class="o">+=</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">label1V</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">_ar_units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+        <span class="c1">#return plot_2D_1D(data, range_x, range_y, [label2D, label1H, label1V], _graphs_joined)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot2d1d</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">range_x</span><span class="p">,</span> <span class="n">range_y</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span><span class="p">,</span> <span class="p">[</span><span class="n">label2D</span><span class="p">,</span> <span class="n">label1H</span><span class="p">,</span> <span class="n">label1V</span><span class="p">],</span> <span class="n">_graphs_joined</span><span class="p">)</span>
+
+    <span class="c1">##    fig = None</span>
+    <span class="c1">##    if _graphs_joined:</span>
+    <span class="c1">##        fig = _pl.figure(figsize=(12,5))</span>
+    <span class="c1">##        _plot_2D(data, range_x, range_y, label2D, fig, 131) #showing graphs in one figure</span>
+    <span class="c1">##    else: uti_plot2d(data, range_x, range_y, label2D)</span>
+    <span class="c1">##</span>
+    <span class="c1">##    xStep = 0</span>
+    <span class="c1">##    if nx &gt; 1: xStep = (x1 - x0)/(nx - 1)</span>
+    <span class="c1">##    yStep = 0</span>
+    <span class="c1">##    if ny &gt; 1: yStep = (y1 - y0)/(ny - 1)</span>
+    <span class="c1">##    inperpOrd = 1 #interpolation order (1 to 3)</span>
+    <span class="c1">##</span>
+    <span class="c1">##    #_plot_1D(data[iy,:],range_x,label1H,fig,132)</span>
+    <span class="c1">##    arCutX = array(&#39;d&#39;, [0]*nx)</span>
+    <span class="c1">##    xx = x0</span>
+    <span class="c1">##    for ix in range(nx):</span>
+    <span class="c1">##        #arCutX[ix] = _interp_2d(xx, yc, x0, xStep, nx, y0, yStep, ny, data, inperpOrd, 1, 0)</span>
+    <span class="c1">##        arCutX[ix] = uti_math.interp_2d(xx, yc, x0, xStep, nx, y0, yStep, ny, data, inperpOrd, 1, 0)</span>
+    <span class="c1">##        xx += xStep</span>
+    <span class="c1">##    if _graphs_joined: _plot_1D(arCutX, range_x, label1H, fig, 132)</span>
+    <span class="c1">##    else: uti_plot1d(arCutX, range_x, label1H)</span>
+    <span class="c1">##</span>
+    <span class="c1">##    #_plot_1D(data[:,ix],range_y,label1V,fig,133)</span>
+    <span class="c1">##    arCutY = array(&#39;d&#39;, [0]*ny)</span>
+    <span class="c1">##    yy = y0</span>
+    <span class="c1">##    for iy in range(ny):</span>
+    <span class="c1">##        #arCutY[iy] = _interp_2d(xc, yy, x0, xStep, nx, y0, yStep, ny, data, inperpOrd, 1, 0)</span>
+    <span class="c1">##        arCutY[iy] = uti_math.interp_2d(xc, yy, x0, xStep, nx, y0, yStep, ny, data, inperpOrd, 1, 0)</span>
+    <span class="c1">##        yy += yStep</span>
+    <span class="c1">##    if _graphs_joined: _plot_1D(arCutY, range_y, label1V, fig, 133)</span>
+    <span class="c1">##    else: uti_plot1d(arCutY, range_y, label1V)</span>
+    <span class="c1">##</span>
+    <span class="c1">##    return fig</span>
+
+    <span class="c1">#def __mode_EV(data, allrange):</span>
+    <span class="c1">#  #to be updated</span>
+    <span class="c1">#  allrange, units = _rescale_range(allrange)</span>
+    <span class="c1">#  e0, e1, ne, x0, x1, nx, y0, y1, ny = allrange</span>
+    <span class="c1">#  range_e = e0, e1, ne  </span>
+    <span class="c1">#  range_y = y0, y1, ny</span>
+    <span class="c1">#  e = np.linspace(e0, e1, ne)</span>
+    <span class="c1">#  y = np.linspace(y0, y1, ny)</span>
+    <span class="c1">#  ie = np.where(data.sum(axis=1)==data.sum(axis=1).max())[0][0]</span>
+    <span class="c1">#  iy = np.where(abs(y).min())[0][0]</span>
+    <span class="c1">#  label1E = (&quot;Energy, [&quot;+units[0]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+    <span class="c1">#  label1V = (&quot;Vertical Position, [&quot;+units[2]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+    <span class="c1">#  fig = _pl.figure(figsize=(8,4))</span>
+    <span class="c1">#  _plot_1D(data[iy,:],range_e,label1E,fig,121)</span>
+    <span class="c1">#  _plot_1D(data[:,ie],range_y,label1V,fig,122)</span>
+    <span class="c1">#  return fig</span>
+
+    <span class="c1">#def __mode_EH(data, allrange):</span>
+    <span class="c1">#  #to be updated</span>
+    <span class="c1">#  allrange, units = _rescale_range(allrange)</span>
+    <span class="c1">#  e0, e1, ne, x0, x1, nx, y0, y1, ny = allrange</span>
+    <span class="c1">#  range_e = e0, e1, ne  </span>
+    <span class="c1">#  range_x = x0, x1, nx</span>
+    <span class="c1">#  e = np.linspace(e0, e1, ne)</span>
+    <span class="c1">#  x = np.linspace(x0, x1, nx)</span>
+    <span class="c1">#  ie = np.where(data.sum(axis=1)==data.sum(axis=1).max())[0][0]</span>
+    <span class="c1">#  ix = np.where(abs(y).min())[0][0]</span>
+    <span class="c1">#  label1E = (&quot;Energy, [&quot;+units[0]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+    <span class="c1">#  label1H = (&quot;Horizontal Position, [&quot;+units[1]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+    <span class="c1">#  fig = _pl.figure(figsize=(8,4))</span>
+    <span class="c1">#  _plot_1D(data[ix,:],range_e,label1E,fig,121)</span>
+    <span class="c1">#  _plot_1D(data[:,ie],range_x,label1H,fig,122)</span>
+    <span class="c1">#  return fig</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">__mode_EHV</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">,</span> <span class="n">_ec</span><span class="p">,</span> <span class="n">_xc</span><span class="p">,</span> <span class="n">_yc</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange)</span>
+        <span class="c1">#allrange, units = _rescale_range(allrange, _ar_units, _ec, _xc, _yc)</span>
+        <span class="n">allrange</span><span class="p">,</span> <span class="n">units</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_range</span><span class="p">(</span><span class="n">allrange</span><span class="p">,</span> <span class="n">_ar_units</span><span class="p">,</span> <span class="n">_ec</span><span class="p">,</span> <span class="n">_xc</span><span class="p">,</span> <span class="n">_yc</span><span class="p">)</span>
+
+        <span class="c1">#e0, e1, ne, x0, x1, nx, y0, y1, ny = allrange</span>
+        <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span><span class="p">,</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span><span class="p">,</span> <span class="n">ec</span><span class="p">,</span> <span class="n">xc</span><span class="p">,</span> <span class="n">yc</span> <span class="o">=</span> <span class="n">allrange</span>
+
+        <span class="c1">#e = np.linspace(e0, e1, ne)</span>
+        <span class="c1">#x = np.linspace(x0, x1, nx)</span>
+        <span class="c1">#y = np.linspace(y0, y1, ny)</span>
+        <span class="c1">#ie = np.where(data.sum(axis=1)==data.sum(axis=1).max())[0][0]</span>
+        <span class="c1">#ix = np.where(abs(x)==abs(x).min())[0][0]</span>
+        <span class="c1">#iy = np.where(abs(y)==abs(y).min())[0][0]</span>
+
+        <span class="n">range_e</span> <span class="o">=</span> <span class="n">e0</span><span class="p">,</span> <span class="n">e1</span><span class="p">,</span> <span class="n">ne</span>
+        <span class="n">range_x</span> <span class="o">=</span> <span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">nx</span>
+        <span class="n">range_y</span> <span class="o">=</span> <span class="n">y0</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">ny</span>
+
+        <span class="n">ie</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">ec</span> <span class="o">&gt;</span> <span class="n">e1</span><span class="p">:</span> <span class="n">ie</span> <span class="o">=</span> <span class="n">ne</span> <span class="o">-</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">ec</span> <span class="o">&gt;</span> <span class="n">e0</span><span class="p">:</span>
+                <span class="n">eStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">e1</span> <span class="o">-</span> <span class="n">e0</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">ne</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">eStep</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="n">ie</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">((</span><span class="n">ec</span> <span class="o">-</span> <span class="n">e0</span><span class="p">)</span><span class="o">/</span><span class="n">eStep</span><span class="p">))</span>
+        <span class="n">ix</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">nx</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">xc</span> <span class="o">&gt;</span> <span class="n">x1</span><span class="p">:</span> <span class="n">ix</span> <span class="o">=</span> <span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">xc</span> <span class="o">&gt;</span> <span class="n">x0</span><span class="p">:</span>
+                <span class="n">xStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">x1</span> <span class="o">-</span> <span class="n">x0</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">xStep</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="n">ix</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">((</span><span class="n">xc</span> <span class="o">-</span> <span class="n">x0</span><span class="p">)</span><span class="o">/</span><span class="n">xStep</span><span class="p">))</span>
+        <span class="n">iy</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">ny</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">yc</span> <span class="o">&gt;</span> <span class="n">y1</span><span class="p">:</span> <span class="n">iy</span> <span class="o">=</span> <span class="n">ny</span> <span class="o">-</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">yc</span> <span class="o">&gt;</span> <span class="n">y0</span><span class="p">:</span>
+                <span class="n">yStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">y1</span> <span class="o">-</span> <span class="n">y0</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">ny</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">yStep</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="n">iy</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">((</span><span class="n">yc</span> <span class="o">-</span> <span class="n">y0</span><span class="p">)</span><span class="o">/</span><span class="n">yStep</span><span class="p">))</span>
+
+        <span class="c1">#label2D = (&quot;Horizontal Position, [&quot;+units[1]+&quot;]&quot;, &quot;Vertical Position, [&quot;+units[2]+&quot;]&quot;)</span>
+        <span class="n">label2D</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+
+        <span class="c1">#label1E = (&quot;Energy, [&quot;+units[0]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+        <span class="n">label1E</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+
+        <span class="c1">#label1H = (&quot;Horizontal Position, [&quot;+units[1]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+        <span class="n">label1H</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+
+        <span class="c1">#label1V = (&quot;Vertical Position, [&quot;+units[2]+&quot;]&quot;,&quot;Ph/s/0.1%BW/mm^2&quot;)</span>
+        <span class="n">label1V</span> <span class="o">=</span> <span class="p">(</span><span class="n">_ar_labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">_ar_labels</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">)</span>
+
+        <span class="n">arCutXY</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nx</span><span class="o">*</span><span class="n">ny</span><span class="p">)</span>
+        <span class="n">perY</span> <span class="o">=</span> <span class="n">ne</span><span class="o">*</span><span class="n">nx</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">iiy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ny</span><span class="p">):</span>
+            <span class="n">perY_iiy</span> <span class="o">=</span> <span class="n">perY</span><span class="o">*</span><span class="n">iiy</span>
+            <span class="k">for</span> <span class="n">iix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nx</span><span class="p">):</span>
+                <span class="n">arCutXY</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">ie</span> <span class="o">+</span> <span class="n">ne</span><span class="o">*</span><span class="n">iix</span> <span class="o">+</span> <span class="n">perY_iiy</span><span class="p">]</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="n">arCutE</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">ne</span><span class="p">)</span>
+        <span class="n">perX_ix</span> <span class="o">=</span> <span class="n">ne</span><span class="o">*</span><span class="n">ix</span>
+        <span class="n">perY_iy</span> <span class="o">=</span> <span class="n">perY</span><span class="o">*</span><span class="n">iy</span>
+        <span class="k">for</span> <span class="n">iie</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ne</span><span class="p">):</span> <span class="n">arCutE</span><span class="p">[</span><span class="n">iie</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">iie</span> <span class="o">+</span> <span class="n">perX_ix</span> <span class="o">+</span> <span class="n">perY_iy</span><span class="p">]</span>
+
+        <span class="n">arCutX</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nx</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">iix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nx</span><span class="p">):</span> <span class="n">arCutX</span><span class="p">[</span><span class="n">iix</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">ie</span> <span class="o">+</span> <span class="n">ne</span><span class="o">*</span><span class="n">iix</span> <span class="o">+</span> <span class="n">perY_iy</span><span class="p">]</span>
+
+        <span class="n">arCutY</span> <span class="o">=</span> <span class="n">array</span><span class="p">(</span><span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">ny</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">iiy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ny</span><span class="p">):</span> <span class="n">arCutY</span><span class="p">[</span><span class="n">iiy</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">ie</span> <span class="o">+</span> <span class="n">perX_ix</span> <span class="o">+</span> <span class="n">perY</span><span class="o">*</span><span class="n">iiy</span><span class="p">]</span>
+
+        <span class="c1">#fig = _pl.figure(figsize=(8,8))</span>
+        <span class="c1">#_plot_2D(data[:,:,ie], range_x, range_y, label2D, fig, 221)</span>
+        <span class="c1">#_plot_1D(data[ix,iy,:],range_e,label1E,fig,224)</span>
+        <span class="c1">#_plot_1D(data[ie,:,iy],range_x,label1H,fig,222)</span>
+        <span class="c1">#_plot_1D(data[:,ix,ie],range_y,label1V,fig,223)</span>
+
+        <span class="n">fig</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">_graphs_joined</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_plot_2D</span><span class="p">(</span><span class="n">arCutXY</span><span class="p">,</span> <span class="n">range_x</span><span class="p">,</span> <span class="n">range_y</span><span class="p">,</span> <span class="n">label2D</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="mi">221</span><span class="p">)</span> <span class="c1">#showing graphs in one figure</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">arCutE</span><span class="p">,</span> <span class="n">range_e</span><span class="p">,</span> <span class="n">label1E</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="mi">222</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">arCutX</span><span class="p">,</span> <span class="n">range_x</span><span class="p">,</span> <span class="n">label1X</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="mi">223</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_plot_1D</span><span class="p">(</span><span class="n">arCutY</span><span class="p">,</span> <span class="n">range_y</span><span class="p">,</span> <span class="n">label1Y</span><span class="p">,</span> <span class="n">fig</span><span class="p">,</span> <span class="mi">224</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot2d</span><span class="p">(</span><span class="n">arCutXY</span><span class="p">,</span> <span class="n">range_x</span><span class="p">,</span> <span class="n">range_y</span><span class="p">,</span> <span class="n">label2D</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot1d</span><span class="p">(</span><span class="n">arCutE</span><span class="p">,</span> <span class="n">range_e</span><span class="p">,</span> <span class="n">label1E</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot1d</span><span class="p">(</span><span class="n">arCutX</span><span class="p">,</span> <span class="n">range_x</span><span class="p">,</span> <span class="n">label1X</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">uti_plot1d</span><span class="p">(</span><span class="n">arCutY</span><span class="p">,</span> <span class="n">range_y</span><span class="p">,</span> <span class="n">label1Y</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_maybe_savefig</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_maybe_savefig</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">figure</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;If there is an ``fname_format``, then save the pyplot `figure`</span>
+<span class="sd">        (if not None) to the computed file name</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">figure</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">figure</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fname_format</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">figure</span>
+        <span class="n">figure</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_fname_format</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_figure_num</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_figure_num</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">figure</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_pyplot_show</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;&#39;Render the plots, if the backend is interactive.</span>
+<span class="sd">        Plots saved to files (``fname_format``), have already been written.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">_HideGUIErrorOutput</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_pl</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_default_fname_format</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Use main program&#39;s name (or uti_plot if none) for default file format name.</span>
+<span class="sd">        The default file type is png</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">base</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">modules</span><span class="p">[</span><span class="s1">&#39;__main__&#39;</span><span class="p">][</span><span class="s1">&#39;__file__&#39;</span><span class="p">]))</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="n">base</span> <span class="o">=</span> <span class="s1">&#39;uti_plot&#39;</span>
+        <span class="n">fname_format</span> <span class="o">=</span> <span class="n">base</span> <span class="o">+</span> <span class="s1">&#39;-</span><span class="si">{}</span><span class="s1">.png&#39;</span>
+        <span class="k">return</span> <span class="n">fname_format</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_default_backend</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Selects backend based on execution context (X11, macosx, etc.).  If an</span>
+<span class="sd">        interactive backend is not possible, return _default_file_backend()</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">_running_in_x11</span><span class="p">()</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">_running_in_windows</span><span class="p">():</span>
+            <span class="n">backend</span> <span class="o">=</span> <span class="s1">&#39;TkAgg&#39;</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">_running_in_macosx</span><span class="p">():</span>
+            <span class="n">backend</span> <span class="o">=</span> <span class="s1">&#39;macosx&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_default_file_backend</span><span class="p">(</span><span class="n">fname_format</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_default_file_backend</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Returns &quot;agg&quot; for backend with fname_format.  If fname_format is none,</span>
+<span class="sd">        calls _default_fname_format() to compute fname_format.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">fname_format</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">fname_format</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_default_fname_format</span><span class="p">()</span>
+        <span class="k">return</span> <span class="p">(</span><span class="s1">&#39;agg&#39;</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_init_ipython</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">backend</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Tries `backend`.  Returns ``inline`` backend if default requested or</span>
+<span class="sd">        unable to load requested backend.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">backend</span> <span class="o">==</span> <span class="n">uti_plot</span><span class="o">.</span><span class="n">DEFAULT_BACKEND</span><span class="p">:</span>
+            <span class="n">backend</span> <span class="o">=</span> <span class="s1">&#39;inline&#39;</span>
+        <span class="n">is_mpld3</span> <span class="o">=</span> <span class="n">backend</span> <span class="o">==</span> <span class="s1">&#39;mpld3&#39;</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="s1">&#39;inline&#39;</span> <span class="k">if</span> <span class="n">is_mpld3</span> <span class="k">else</span> <span class="n">backend</span>
+        <span class="n">get_ipython</span><span class="p">()</span><span class="o">.</span><span class="n">magic</span><span class="p">(</span><span class="s1">&#39;matplotlib &#39;</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">is_mpld3</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="kn">import</span><span class="w"> </span><span class="nn">mpld3</span>
+                <span class="n">mpld3</span><span class="o">.</span><span class="n">enable_notebook</span><span class="p">()</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;mpld3: backend unavailable; plots will be inline&#39;</span><span class="p">)</span>
+                <span class="n">backend</span> <span class="o">=</span> <span class="s1">&#39;inline&#39;</span>
+        <span class="k">return</span> <span class="n">backend</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_verify_pyplot</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Create a pyplot figure and close it to be sure backend functions properly.</span>
+<span class="sd">        If backend fails, configures _default_file_backend().</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span>
+        <span class="n">pl</span> <span class="o">=</span> <span class="n">matplotlib</span><span class="o">.</span><span class="n">pyplot</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">pl</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span> <span class="c1">#OC08032020 (the line below throws exception with ~recent matplotlib)</span>
+            <span class="c1">#pl.figure(figsize=(0,0))</span>
+            <span class="n">pl</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="s1">&#39;all&#39;</span><span class="p">)</span>
+        <span class="k">except</span><span class="p">:</span>
+        <span class="c1">#except Exception as e:</span>
+            <span class="c1">#print(str(e))</span>
+            <span class="n">old</span> <span class="o">=</span> <span class="n">backend</span>
+            <span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_default_file_backend</span><span class="p">(</span><span class="n">fname_format</span><span class="p">)</span>
+            <span class="n">pl</span><span class="o">.</span><span class="n">switch_backend</span><span class="p">(</span><span class="n">backend</span><span class="p">)</span>
+            <span class="c1"># If this raises an exception, uti_plot will set backend to None </span>
+            <span class="n">pl</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+            <span class="n">pl</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="s1">&#39;all&#39;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">old</span> <span class="o">+</span> <span class="s1">&#39;: backend unavailable; plots will be saved to files&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_running_in_ipython</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s1">&#39;Is the current interpreter IPython?&#39;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">__IPYTHON__</span>
+            <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_running_in_macosx</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s1">&#39;Is Mac OS X running?&#39;</span>
+        <span class="k">return</span> <span class="n">platform</span><span class="o">.</span><span class="n">system</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;Darwin&#39;</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_running_in_windows</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s1">&#39;Is Darwin running?&#39;</span>
+        <span class="k">return</span> <span class="n">platform</span><span class="o">.</span><span class="n">system</span><span class="p">()</span> <span class="o">==</span> <span class="s1">&#39;Windows&#39;</span>
+
+    <span class="k">def</span><span class="w"> </span><span class="nf">_running_in_x11</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s1">&#39;Is X11 running?&#39;</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;DISPLAY&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">d</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">d</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="n">devnull</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">devnull</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span>
+        <span class="n">tries</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="c1"># xset is not in core install on some OSes</span>
+            <span class="p">[</span><span class="s1">&#39;xset&#39;</span><span class="p">,</span> <span class="s1">&#39;-q&#39;</span><span class="p">],</span>
+            <span class="c1"># This takes a couple of seconds</span>
+            <span class="p">[</span><span class="s1">&#39;xterm&#39;</span><span class="p">,</span> <span class="s1">&#39;/bin/true&#39;</span><span class="p">]]</span>
+        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tries</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">subprocess</span><span class="o">.</span><span class="n">call</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">devnull</span><span class="p">,</span> <span class="n">stderr</span><span class="o">=</span><span class="n">devnull</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">True</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="k">pass</span>
+        <span class="c1">#return false</span>
+        <span class="k">return</span> <span class="kc">False</span> <span class="c1">#MR19042016</span>
+
+    <span class="k">class</span><span class="w"> </span><span class="nc">_HideGUIErrorOutput</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Redirect low level stderr (fd #2) to os.devnull as context manager</span>
+
+<span class="sd">        TkAgg has a bug::</span>
+
+<span class="sd">            can&#39;t invoke &quot;event&quot; command:  application has been destroyed</span>
+<span class="sd">                while executing</span>
+<span class="sd">            &quot;event generate $w &lt;&lt;ThemeChanged&gt;&gt;&quot;</span>
+<span class="sd">                (procedure &quot;ttk::ThemeChanged&quot; line 6)</span>
+<span class="sd">                invoked from within</span>
+<span class="sd">            &quot;ttk::ThemeChanged&quot;</span>
+
+<span class="sd">        The output comes from C so it has to be redirected at the file descriptor</span>
+<span class="sd">        level.  This class does the low level redirection so that message doesn&#39;t</span>
+<span class="sd">        come out.  Example::</span>
+
+<span class="sd">            with HideGUIErrorOutput():</span>
+<span class="sd">                pl.show()</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="k">pass</span>
+
+        <span class="k">def</span><span class="w"> </span><span class="fm">__enter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="s1">&#39;Redirects stderr to devnull, saving _prev_stderr&#39;</span>
+            <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">sys</span><span class="o">.</span><span class="n">__stderr__</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">return</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
+            <span class="n">fno</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">__stderr__</span><span class="o">.</span><span class="n">fileno</span><span class="p">()</span> <span class="c1">#OC150814</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">fno</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="n">null</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">devnull</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">O_WRONLY</span><span class="p">)</span>
+                <span class="c1">#self._prev_stderr = os.dup(sys.__stderr__.fileno())</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_prev_stderr</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">dup</span><span class="p">(</span><span class="n">fno</span><span class="p">)</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">dup2</span><span class="p">(</span><span class="n">null</span><span class="p">,</span> <span class="n">sys</span><span class="o">.</span><span class="n">__stderr__</span><span class="o">.</span><span class="n">fileno</span><span class="p">())</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">null</span><span class="p">)</span>
+
+        <span class="k">def</span><span class="w"> </span><span class="fm">__exit__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exc_type</span><span class="p">,</span> <span class="n">exc_value</span><span class="p">,</span> <span class="n">traceback</span><span class="p">):</span>
+            <span class="s1">&#39;Redirects to _prev_stderr&#39;</span>
+            <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">stderr</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">sys</span><span class="o">.</span><span class="n">__stderr__</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">return</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">__stderr__</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
+            <span class="n">fno</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">__stderr__</span><span class="o">.</span><span class="n">fileno</span><span class="p">()</span> <span class="c1">#OC150814</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">fno</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="c1">#os.dup2(self._prev_stderr, sys.__stderr__.fileno())</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">dup2</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_prev_stderr</span><span class="p">,</span> <span class="n">fno</span><span class="p">)</span>
+                <span class="n">os</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_prev_stderr</span><span class="p">)</span></div>
+
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

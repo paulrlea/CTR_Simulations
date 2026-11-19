@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_resize1_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadResize1D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_resize1_d_1af0e77cf4e6fe623ed057aa4f4869f3f0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize1D::pm</definition>
+        <argsstring></argsstring>
+        <name>pm</name>
+        <qualifiedname>srTRadResize1D::pm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="532" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize1_d_1abb9eba315605fa7b7ee384116b79498a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize1D::pd</definition>
+        <argsstring></argsstring>
+        <name>pd</name>
+        <qualifiedname>srTRadResize1D::pd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="532" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize1_d_1af90f31a8bf0359211d791cdef8a36883" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize1D::RelCenPos</definition>
+        <argsstring></argsstring>
+        <name>RelCenPos</name>
+        <qualifiedname>srTRadResize1D::RelCenPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="534" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize1_d_1a49854815945e797647adabcddd4b3999" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize1D::RelCenPosTol</definition>
+        <argsstring></argsstring>
+        <name>RelCenPosTol</name>
+        <qualifiedname>srTRadResize1D::RelCenPosTol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="535" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize1_d_1a6dc6fbbf734838ec09820be50e8bf581" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadResize1D::UseOtherSideFFT</definition>
+        <argsstring></argsstring>
+        <name>UseOtherSideFFT</name>
+        <qualifiedname>srTRadResize1D::UseOtherSideFFT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="536" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize1_d_1a5f670f0d581e9c76d7318fc1c123bf4d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadResize1D::DoNotTreatSpherTerm</definition>
+        <argsstring></argsstring>
+        <name>DoNotTreatSpherTerm</name>
+        <qualifiedname>srTRadResize1D::DoNotTreatSpherTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="537" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_rad_resize1_d_1a101ce5bc55cdc5a16a53964813bf6384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadResize1D::srTRadResize1D</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadResize1D</name>
+        <qualifiedname>srTRadResize1D::srTRadResize1D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="538" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="538" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_resize1_d_1af11b2ef1650fd0bb1aabaa6b18a49a90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadResize1D::SetRelCenPosTolToEnforceCenterCorr</definition>
+        <argsstring>()</argsstring>
+        <name>SetRelCenPosTolToEnforceCenterCorr</name>
+        <qualifiedname>srTRadResize1D::SetRelCenPosTolToEnforceCenterCorr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="546" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="546" bodyend="551"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="531" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="531" bodyend="552"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_resize1_d_1a5f670f0d581e9c76d7318fc1c123bf4d" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>DoNotTreatSpherTerm</name></member>
+      <member refid="structsr_t_rad_resize1_d_1abb9eba315605fa7b7ee384116b79498a" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>pd</name></member>
+      <member refid="structsr_t_rad_resize1_d_1af0e77cf4e6fe623ed057aa4f4869f3f0" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>pm</name></member>
+      <member refid="structsr_t_rad_resize1_d_1af90f31a8bf0359211d791cdef8a36883" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>RelCenPos</name></member>
+      <member refid="structsr_t_rad_resize1_d_1a49854815945e797647adabcddd4b3999" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>RelCenPosTol</name></member>
+      <member refid="structsr_t_rad_resize1_d_1af11b2ef1650fd0bb1aabaa6b18a49a90" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>SetRelCenPosTolToEnforceCenterCorr</name></member>
+      <member refid="structsr_t_rad_resize1_d_1a101ce5bc55cdc5a16a53964813bf6384" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>srTRadResize1D</name></member>
+      <member refid="structsr_t_rad_resize1_d_1a6dc6fbbf734838ec09820be50e8bf581" prot="public" virt="non-virtual"><scope>srTRadResize1D</scope><name>UseOtherSideFFT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

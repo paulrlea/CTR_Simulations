@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_fringe_info" kind="struct" language="C++" prot="public">
+    <compoundname>srTFringeInfo</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_fringe_info_1a893f8fb18960a82bb7d0945ce3729067" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTFringeInfo::AmOfFringes</definition>
+        <argsstring></argsstring>
+        <name>AmOfFringes</name>
+        <qualifiedname>srTFringeInfo::AmOfFringes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1843" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_fringe_info_1a238facda65378c54ed0f284fac6eb491" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFringeInfo::LeftPointsPerFringe</definition>
+        <argsstring></argsstring>
+        <name>LeftPointsPerFringe</name>
+        <qualifiedname>srTFringeInfo::LeftPointsPerFringe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1844" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_fringe_info_1ab67d039067a4e4a6e2a489fe68d3762c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTFringeInfo::RightPointsPerFringe</definition>
+        <argsstring></argsstring>
+        <name>RightPointsPerFringe</name>
+        <qualifiedname>srTFringeInfo::RightPointsPerFringe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1844" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1844" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1842" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1842" bodyend="1845"/>
+    <listofallmembers>
+      <member refid="structsr_t_fringe_info_1a893f8fb18960a82bb7d0945ce3729067" prot="public" virt="non-virtual"><scope>srTFringeInfo</scope><name>AmOfFringes</name></member>
+      <member refid="structsr_t_fringe_info_1a238facda65378c54ed0f284fac6eb491" prot="public" virt="non-virtual"><scope>srTFringeInfo</scope><name>LeftPointsPerFringe</name></member>
+      <member refid="structsr_t_fringe_info_1ab67d039067a4e4a6e2a489fe68d3762c" prot="public" virt="non-virtual"><scope>srTFringeInfo</scope><name>RightPointsPerFringe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

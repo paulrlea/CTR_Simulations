@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_e_x_z_y" kind="struct" language="C++" prot="public">
+    <compoundname>srTEXZY</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_e_x_z_y_1a274967d1e969c30e65a9fc9fae1256a7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEXZY::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <qualifiedname>srTEXZY::e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="49" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_x_z_y_1afbb653c71ff2a28f6505c70355bd1a60" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEXZY::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>srTEXZY::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="49" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_x_z_y_1aa613071b34c6f582441d329ea21fdd33" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEXZY::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>srTEXZY::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="49" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_x_z_y_1a0a15366152eb17f5aa281f76c880a02b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEXZY::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>srTEXZY::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="49" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_x_z_y_1a3c87a6a9f2a365d5c1341929f8063409" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEXZY::dx</definition>
+        <argsstring></argsstring>
+        <name>dx</name>
+        <qualifiedname>srTEXZY::dx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="50" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_e_x_z_y_1a63c12546d15010248c0d8941339bd312" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTEXZY::dz</definition>
+        <argsstring></argsstring>
+        <name>dz</name>
+        <qualifiedname>srTEXZY::dz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="50" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_e_x_z_y_1a7b5c4890fdbf9e47fa87ca22e3f509aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTEXZY::srTEXZY</definition>
+        <argsstring>()</argsstring>
+        <name>srTEXZY</name>
+        <qualifiedname>srTEXZY::srTEXZY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="51" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="48" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="48" bodyend="52"/>
+    <listofallmembers>
+      <member refid="structsr_t_e_x_z_y_1a3c87a6a9f2a365d5c1341929f8063409" prot="public" virt="non-virtual"><scope>srTEXZY</scope><name>dx</name></member>
+      <member refid="structsr_t_e_x_z_y_1a63c12546d15010248c0d8941339bd312" prot="public" virt="non-virtual"><scope>srTEXZY</scope><name>dz</name></member>
+      <member refid="structsr_t_e_x_z_y_1a274967d1e969c30e65a9fc9fae1256a7" prot="public" virt="non-virtual"><scope>srTEXZY</scope><name>e</name></member>
+      <member refid="structsr_t_e_x_z_y_1a7b5c4890fdbf9e47fa87ca22e3f509aa" prot="public" virt="non-virtual"><scope>srTEXZY</scope><name>srTEXZY</name></member>
+      <member refid="structsr_t_e_x_z_y_1afbb653c71ff2a28f6505c70355bd1a60" prot="public" virt="non-virtual"><scope>srTEXZY</scope><name>x</name></member>
+      <member refid="structsr_t_e_x_z_y_1a0a15366152eb17f5aa281f76c880a02b" prot="public" virt="non-virtual"><scope>srTEXZY</scope><name>y</name></member>
+      <member refid="structsr_t_e_x_z_y_1aa613071b34c6f582441d329ea21fdd33" prot="public" virt="non-virtual"><scope>srTEXZY</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

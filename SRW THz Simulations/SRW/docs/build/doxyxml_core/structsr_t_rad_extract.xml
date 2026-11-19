@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_extract" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadExtract</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a8dc71e5a6ffad29b4cabbc5d2fe4288c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadExtract::PolarizCompon</definition>
+        <argsstring></argsstring>
+        <name>PolarizCompon</name>
+        <qualifiedname>srTRadExtract::PolarizCompon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1551" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1551" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a156b632c441cf6d4fad1a7f1edd4c55c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadExtract::Int_or_Phase</definition>
+        <argsstring></argsstring>
+        <name>Int_or_Phase</name>
+        <qualifiedname>srTRadExtract::Int_or_Phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1552" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a364bfa26d37c9c583024a1dc5264c7d1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadExtract::PlotType</definition>
+        <argsstring></argsstring>
+        <name>PlotType</name>
+        <qualifiedname>srTRadExtract::PlotType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1553" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a1fa662c80c249ce15c888684ffbce0b9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadExtract::TransvPres</definition>
+        <argsstring></argsstring>
+        <name>TransvPres</name>
+        <qualifiedname>srTRadExtract::TransvPres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1554" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1554" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a7bcb8dcfdaadd90b4db8533ca15af5b3" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTRadExtract::pMeth</definition>
+        <argsstring></argsstring>
+        <name>pMeth</name>
+        <qualifiedname>srTRadExtract::pMeth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1555" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a26bed8b5ee2b67b75a1cda69a5e78de0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadExtract::ePh</definition>
+        <argsstring></argsstring>
+        <name>ePh</name>
+        <qualifiedname>srTRadExtract::ePh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1558" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1acfa1aad68cb9269a9b4d6a236332cad5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadExtract::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>srTRadExtract::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1558" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a6584a404016f4c9a12a06face79b1a63" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadExtract::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>srTRadExtract::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1558" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a012a61d93f22221ab19c2502e149426a" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* srTRadExtract::pExtractedData</definition>
+        <argsstring></argsstring>
+        <name>pExtractedData</name>
+        <qualifiedname>srTRadExtract::pExtractedData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1560" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a5a2a6264321fe4491a4b8732df3ba27b" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTRadExtract::pExtractedDataD</definition>
+        <argsstring></argsstring>
+        <name>pExtractedDataD</name>
+        <qualifiedname>srTRadExtract::pExtractedDataD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1562" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1a0991e8e5f92bcb4b55e71d9fa7175f82" prot="public" static="no" mutable="no">
+        <type>waveHndl</type>
+        <definition>waveHndl srTRadExtract::wExtractedData</definition>
+        <argsstring></argsstring>
+        <name>wExtractedData</name>
+        <qualifiedname>srTRadExtract::wExtractedData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1564" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_extract_1ac092691dfbc909a22599d82e188bbd0f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadExtract::hStateExtractedData</definition>
+        <argsstring></argsstring>
+        <name>hStateExtractedData</name>
+        <qualifiedname>srTRadExtract::hStateExtractedData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1565" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1565" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_rad_extract_1a3a625e4f264b8cd8b4ab94631c7671cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadExtract::srTRadExtract</definition>
+        <argsstring>(int In_PolarizCompon, int In_Int_or_Phase, int In_SectID, int In_TransvPres, double In_e, double In_x, double In_z, char *In_pData, double *In_pMeth=0)</argsstring>
+        <name>srTRadExtract</name>
+        <qualifiedname>srTRadExtract::srTRadExtract</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>In_PolarizCompon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>In_Int_or_Phase</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>In_SectID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>In_TransvPres</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_e</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_z</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>In_pData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>In_pMeth</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1567" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1567" bodyend="1584"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_extract_1a56064e884ff3aa77248896530109f816" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadExtract::srTRadExtract</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadExtract</name>
+        <qualifiedname>srTRadExtract::srTRadExtract</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1585" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1585" bodyend="1588"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_extract_1a7fb95875704d289a379842267921dd18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadExtract::SetupExtractedWaveAccessData</definition>
+        <argsstring>(srTWaveAccessData *pWaveAccessData)</argsstring>
+        <name>SetupExtractedWaveAccessData</name>
+        <qualifiedname>srTRadExtract::SetupExtractedWaveAccessData</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pWaveAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1590" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1590" bodyend="1595"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1549" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1549" bodyend="1596"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_extract_1a26bed8b5ee2b67b75a1cda69a5e78de0" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>ePh</name></member>
+      <member refid="structsr_t_rad_extract_1ac092691dfbc909a22599d82e188bbd0f" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>hStateExtractedData</name></member>
+      <member refid="structsr_t_rad_extract_1a156b632c441cf6d4fad1a7f1edd4c55c" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>Int_or_Phase</name></member>
+      <member refid="structsr_t_rad_extract_1a012a61d93f22221ab19c2502e149426a" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>pExtractedData</name></member>
+      <member refid="structsr_t_rad_extract_1a5a2a6264321fe4491a4b8732df3ba27b" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>pExtractedDataD</name></member>
+      <member refid="structsr_t_rad_extract_1a364bfa26d37c9c583024a1dc5264c7d1" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>PlotType</name></member>
+      <member refid="structsr_t_rad_extract_1a7bcb8dcfdaadd90b4db8533ca15af5b3" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>pMeth</name></member>
+      <member refid="structsr_t_rad_extract_1a8dc71e5a6ffad29b4cabbc5d2fe4288c" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>PolarizCompon</name></member>
+      <member refid="structsr_t_rad_extract_1a7fb95875704d289a379842267921dd18" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>SetupExtractedWaveAccessData</name></member>
+      <member refid="structsr_t_rad_extract_1a3a625e4f264b8cd8b4ab94631c7671cb" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>srTRadExtract</name></member>
+      <member refid="structsr_t_rad_extract_1a56064e884ff3aa77248896530109f816" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>srTRadExtract</name></member>
+      <member refid="structsr_t_rad_extract_1a1fa662c80c249ce15c888684ffbce0b9" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>TransvPres</name></member>
+      <member refid="structsr_t_rad_extract_1a0991e8e5f92bcb4b55e71d9fa7175f82" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>wExtractedData</name></member>
+      <member refid="structsr_t_rad_extract_1acfa1aad68cb9269a9b4d6a236332cad5" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>x</name></member>
+      <member refid="structsr_t_rad_extract_1a6584a404016f4c9a12a06face79b1a63" prot="public" virt="non-virtual"><scope>srTRadExtract</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

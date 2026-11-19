@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_cell_of_mesh2_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTCellOfMesh2D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1ada91711bd5a1e6a0be2e404f3782a5c4" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_segm_of_mesh2_d" kindref="compound">srTSegmOfMesh2D</ref></type>
+        <definition>srTSegmOfMesh2D srTCellOfMesh2D::Side1</definition>
+        <argsstring></argsstring>
+        <name>Side1</name>
+        <qualifiedname>srTCellOfMesh2D::Side1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="258" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1a030ddfe4ca22a4ad9039fc8b19f5d2f1" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_segm_of_mesh2_d" kindref="compound">srTSegmOfMesh2D</ref></type>
+        <definition>srTSegmOfMesh2D srTCellOfMesh2D::Side2</definition>
+        <argsstring></argsstring>
+        <name>Side2</name>
+        <qualifiedname>srTCellOfMesh2D::Side2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="258" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1ab7010518841c5a91a17d3722327c9b99" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_segm_of_mesh2_d" kindref="compound">srTSegmOfMesh2D</ref></type>
+        <definition>srTSegmOfMesh2D srTCellOfMesh2D::Side3</definition>
+        <argsstring></argsstring>
+        <name>Side3</name>
+        <qualifiedname>srTCellOfMesh2D::Side3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="258" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1a56c01cb0f3820c319e4be084aaf125da" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_segm_of_mesh2_d" kindref="compound">srTSegmOfMesh2D</ref></type>
+        <definition>srTSegmOfMesh2D srTCellOfMesh2D::Side4</definition>
+        <argsstring></argsstring>
+        <name>Side4</name>
+        <qualifiedname>srTCellOfMesh2D::Side4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="258" column="35" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1a9233f4202df1e74a6a68ad14cbf6cbb0" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier srTCellOfMesh2D::f1</definition>
+        <argsstring></argsstring>
+        <name>f1</name>
+        <qualifiedname>srTCellOfMesh2D::f1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="259" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1a03847c663b160eeea95dbd31d13259bc" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier srTCellOfMesh2D::f2</definition>
+        <argsstring></argsstring>
+        <name>f2</name>
+        <qualifiedname>srTCellOfMesh2D::f2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="259" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1ab2cb1baa327ec9464aed0d91e8a18dbc" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier srTCellOfMesh2D::f3</definition>
+        <argsstring></argsstring>
+        <name>f3</name>
+        <qualifiedname>srTCellOfMesh2D::f3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="259" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_cell_of_mesh2_d_1a41b53585a5425af0fa7f23e2c1b68f3f" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_fourier" kindref="compound">srTEFourier</ref></type>
+        <definition>srTEFourier srTCellOfMesh2D::f4</definition>
+        <argsstring></argsstring>
+        <name>f4</name>
+        <qualifiedname>srTCellOfMesh2D::f4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="259" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>srTCellOfMesh2D</label>
+        <link refid="structsr_t_cell_of_mesh2_d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Side1</edgelabel>
+          <edgelabel>Side2</edgelabel>
+          <edgelabel>Side3</edgelabel>
+          <edgelabel>Side4</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>f1</edgelabel>
+          <edgelabel>f2</edgelabel>
+          <edgelabel>f3</edgelabel>
+          <edgelabel>f4</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srTEFourier</label>
+        <link refid="structsr_t_e_fourier"/>
+      </node>
+      <node id="2">
+        <label>srTSegmOfMesh2D</label>
+        <link refid="structsr_t_segm_of_mesh2_d"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="257" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="257" bodyend="260"/>
+    <listofallmembers>
+      <member refid="structsr_t_cell_of_mesh2_d_1a9233f4202df1e74a6a68ad14cbf6cbb0" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>f1</name></member>
+      <member refid="structsr_t_cell_of_mesh2_d_1a03847c663b160eeea95dbd31d13259bc" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>f2</name></member>
+      <member refid="structsr_t_cell_of_mesh2_d_1ab2cb1baa327ec9464aed0d91e8a18dbc" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>f3</name></member>
+      <member refid="structsr_t_cell_of_mesh2_d_1a41b53585a5425af0fa7f23e2c1b68f3f" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>f4</name></member>
+      <member refid="structsr_t_cell_of_mesh2_d_1ada91711bd5a1e6a0be2e404f3782a5c4" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>Side1</name></member>
+      <member refid="structsr_t_cell_of_mesh2_d_1a030ddfe4ca22a4ad9039fc8b19f5d2f1" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>Side2</name></member>
+      <member refid="structsr_t_cell_of_mesh2_d_1ab7010518841c5a91a17d3722327c9b99" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>Side3</name></member>
+      <member refid="structsr_t_cell_of_mesh2_d_1a56c01cb0f3820c319e4be084aaf125da" prot="public" virt="non-virtual"><scope>srTCellOfMesh2D</scope><name>Side4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

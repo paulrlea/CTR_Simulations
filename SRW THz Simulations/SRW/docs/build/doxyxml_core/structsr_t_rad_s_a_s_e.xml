@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_s_a_s_e" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadSASE</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_s_a_s_e_1acfb9027f118d71ab621b0ba71a5f00ce" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSASE::Power</definition>
+        <argsstring></argsstring>
+        <name>Power</name>
+        <qualifiedname>srTRadSASE::Power</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1980" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_s_a_s_e_1a0c0e6ace6a82d00c2b3dd4d03ecda5c8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSASE::WaistDiam</definition>
+        <argsstring></argsstring>
+        <name>WaistDiam</name>
+        <qualifiedname>srTRadSASE::WaistDiam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1981" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1981" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_s_a_s_e_1af45a8aba6b592eff99fd9a4f2b63add9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSASE::WaistLongPos</definition>
+        <argsstring></argsstring>
+        <name>WaistLongPos</name>
+        <qualifiedname>srTRadSASE::WaistLongPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1982" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_s_a_s_e_1a78184fc9a9d71f7e5fc45369f4a94fcc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadSASE::PhotonEnergySim</definition>
+        <argsstring></argsstring>
+        <name>PhotonEnergySim</name>
+        <qualifiedname>srTRadSASE::PhotonEnergySim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1983" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1983" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1979" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1979" bodyend="1984"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_s_a_s_e_1a78184fc9a9d71f7e5fc45369f4a94fcc" prot="public" virt="non-virtual"><scope>srTRadSASE</scope><name>PhotonEnergySim</name></member>
+      <member refid="structsr_t_rad_s_a_s_e_1acfb9027f118d71ab621b0ba71a5f00ce" prot="public" virt="non-virtual"><scope>srTRadSASE</scope><name>Power</name></member>
+      <member refid="structsr_t_rad_s_a_s_e_1a0c0e6ace6a82d00c2b3dd4d03ecda5c8" prot="public" virt="non-virtual"><scope>srTRadSASE</scope><name>WaistDiam</name></member>
+      <member refid="structsr_t_rad_s_a_s_e_1af45a8aba6b592eff99fd9a4f2b63add9" prot="public" virt="non-virtual"><scope>srTRadSASE</scope><name>WaistLongPos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

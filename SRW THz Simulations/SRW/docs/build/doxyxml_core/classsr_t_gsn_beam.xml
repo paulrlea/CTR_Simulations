@@ -1,0 +1,880 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_gsn_beam" kind="class" language="C++" prot="public">
+    <compoundname>srTGsnBeam</compoundname>
+    <basecompoundref refid="class_c_gen_object" prot="public" virt="non-virtual">CGenObject</basecompoundref>
+    <includes refid="srgsnbm_8h" local="no">srgsnbm.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a106ff8354d71222d1dc08472a81991eb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::LongDist</definition>
+        <argsstring></argsstring>
+        <name>LongDist</name>
+        <qualifiedname>srTGsnBeam::LongDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="25" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a83e6df8c4a427f7ecb03b64f4fd8efac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::NormConstElField</definition>
+        <argsstring></argsstring>
+        <name>NormConstElField</name>
+        <qualifiedname>srTGsnBeam::NormConstElField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="26" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a1e1b436097dae6037b1241b4eaaccc2a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::InvTwoSigXe2</definition>
+        <argsstring></argsstring>
+        <name>InvTwoSigXe2</name>
+        <qualifiedname>srTGsnBeam::InvTwoSigXe2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="27" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a2deb092488bc5a46d0a5fcdfab40e858" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::InvTwoSigZe2</definition>
+        <argsstring></argsstring>
+        <name>InvTwoSigZe2</name>
+        <qualifiedname>srTGsnBeam::InvTwoSigZe2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="27" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a1dc8abe1597f2e9ad76f8cd8eddfb7fb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_InvTwoSigTe2</definition>
+        <argsstring></argsstring>
+        <name>m_InvTwoSigTe2</name>
+        <qualifiedname>srTGsnBeam::m_InvTwoSigTe2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="27" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a896cf34817c1a0207018e06f0e20fe24" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_InvTwoSigPhotEnE2</definition>
+        <argsstring></argsstring>
+        <name>m_InvTwoSigPhotEnE2</name>
+        <qualifiedname>srTGsnBeam::m_InvTwoSigPhotEnE2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="27" column="49" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1acd00851feba1a05f62f1940b916e07ec" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::PropagMultX</definition>
+        <argsstring></argsstring>
+        <name>PropagMultX</name>
+        <qualifiedname>srTGsnBeam::PropagMultX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="28" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a8fac086d645b41a9de1c8482bba74b17" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::PropagMultZ</definition>
+        <argsstring></argsstring>
+        <name>PropagMultZ</name>
+        <qualifiedname>srTGsnBeam::PropagMultZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="28" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a2064e4b29eebced0ec7007f6e20ddf7f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::x0Prop</definition>
+        <argsstring></argsstring>
+        <name>x0Prop</name>
+        <qualifiedname>srTGsnBeam::x0Prop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="29" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1ad2065e197bdb7548cb561cbf4c918e09" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::z0Prop</definition>
+        <argsstring></argsstring>
+        <name>z0Prop</name>
+        <qualifiedname>srTGsnBeam::z0Prop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="29" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a0ce2e1310a92309e53ca2f4934941e48" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_NormConstElecFldT</definition>
+        <argsstring></argsstring>
+        <name>m_NormConstElecFldT</name>
+        <qualifiedname>srTGsnBeam::m_NormConstElecFldT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="31" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1adafb4d2fd21cc4281a85f17b387fbea6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_AvgPhotEn_enMult_PropInvRx_T</definition>
+        <argsstring></argsstring>
+        <name>m_AvgPhotEn_enMult_PropInvRx_T</name>
+        <qualifiedname>srTGsnBeam::m_AvgPhotEn_enMult_PropInvRx_T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="34" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a3fab940326b82fa57721ebb714d80240" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_AvgPhotEn_enMult_PropInvRz_T</definition>
+        <argsstring></argsstring>
+        <name>m_AvgPhotEn_enMult_PropInvRz_T</name>
+        <qualifiedname>srTGsnBeam::m_AvgPhotEn_enMult_PropInvRz_T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="34" column="39" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a6c48ae5244d8867d439301487aa49e6a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_PhaseLongDelay_T</definition>
+        <argsstring></argsstring>
+        <name>m_PhaseLongDelay_T</name>
+        <qualifiedname>srTGsnBeam::m_PhaseLongDelay_T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="34" column="70" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a9cf768133e5137d60c9ae9140f27fe39" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_PropInvTwoSigXe2_T</definition>
+        <argsstring></argsstring>
+        <name>m_PropInvTwoSigXe2_T</name>
+        <qualifiedname>srTGsnBeam::m_PropInvTwoSigXe2_T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="35" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1afa38f2d96c107b1f576a04a51dd7ea4a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_PropInvTwoSigZe2_T</definition>
+        <argsstring></argsstring>
+        <name>m_PropInvTwoSigZe2_T</name>
+        <qualifiedname>srTGsnBeam::m_PropInvTwoSigZe2_T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="35" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1ad28f1bed3dc173c9b10016df98a46aee" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_PropInvSigX_T</definition>
+        <argsstring></argsstring>
+        <name>m_PropInvSigX_T</name>
+        <qualifiedname>srTGsnBeam::m_PropInvSigX_T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="36" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1aa62d0371dcbd6b1d1f56317ec8ed36b6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_PropInvSigZ_T</definition>
+        <argsstring></argsstring>
+        <name>m_PropInvSigZ_T</name>
+        <qualifiedname>srTGsnBeam::m_PropInvSigZ_T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="36" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a0739af810c1dbc4bdf53ba02e39004b2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_NormConstElecFldT_Prop</definition>
+        <argsstring></argsstring>
+        <name>m_NormConstElecFldT_Prop</name>
+        <qualifiedname>srTGsnBeam::m_NormConstElecFldT_Prop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="36" column="40" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a46bcbba5233a8b56951b43bd96d40798" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref></type>
+        <definition>srTEbmDat srTGsnBeam::EbmDat</definition>
+        <argsstring></argsstring>
+        <name>EbmDat</name>
+        <qualifiedname>srTGsnBeam::EbmDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="40" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a0023bcf9575a8f30d8745d3ffd631094" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::SigmaX</definition>
+        <argsstring></argsstring>
+        <name>SigmaX</name>
+        <qualifiedname>srTGsnBeam::SigmaX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="42" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a8001a0d667a60aad411b0f7c39d3ba5b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::SigmaZ</definition>
+        <argsstring></argsstring>
+        <name>SigmaZ</name>
+        <qualifiedname>srTGsnBeam::SigmaZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="42" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a4a2c3bfdf3c257493173e7a44ca127ff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::SigmaT</definition>
+        <argsstring></argsstring>
+        <name>SigmaT</name>
+        <qualifiedname>srTGsnBeam::SigmaT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="42" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a9d1a2b9bb1621fe0f985a364e0e6aa6e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::SigmaPhotEn</definition>
+        <argsstring></argsstring>
+        <name>SigmaPhotEn</name>
+        <qualifiedname>srTGsnBeam::SigmaPhotEn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="42" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a4a3780b0a49e692c6817e58f970636c4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTGsnBeam::mx</definition>
+        <argsstring></argsstring>
+        <name>mx</name>
+        <qualifiedname>srTGsnBeam::mx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="43" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a7dce94e988936aaafc76897815e40b61" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTGsnBeam::mz</definition>
+        <argsstring></argsstring>
+        <name>mz</name>
+        <qualifiedname>srTGsnBeam::mz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="43" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1afe1af925336fa7907bf3fb9c2744a386" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTGsnBeam::Polar</definition>
+        <argsstring></argsstring>
+        <name>Polar</name>
+        <qualifiedname>srTGsnBeam::Polar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="43" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1ab19ff2c0264849ac07b6dd908f97aab8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTGsnBeam::TypeT</definition>
+        <argsstring></argsstring>
+        <name>TypeT</name>
+        <qualifiedname>srTGsnBeam::TypeT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="43" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a5f276f0a91538db15a3e58b9574b604b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::PhotPerBW</definition>
+        <argsstring></argsstring>
+        <name>PhotPerBW</name>
+        <qualifiedname>srTGsnBeam::PhotPerBW</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="44" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a8f8956a6c4bbdf695b6db89213378a9c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::RefractIndex</definition>
+        <argsstring></argsstring>
+        <name>RefractIndex</name>
+        <qualifiedname>srTGsnBeam::RefractIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="45" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a96320fa6e96c6a22be978196b54f75c3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_RepRate</definition>
+        <argsstring></argsstring>
+        <name>m_RepRate</name>
+        <qualifiedname>srTGsnBeam::m_RepRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="46" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1a7880af526aca56a62df3be861ceb6fa3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_PulseEn</definition>
+        <argsstring></argsstring>
+        <name>m_PulseEn</name>
+        <qualifiedname>srTGsnBeam::m_PulseEn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="46" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1aa92f7143b546f17d96078c656b6ad6c2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTGsnBeam::m_AvgPhotEn</definition>
+        <argsstring></argsstring>
+        <name>m_AvgPhotEn</name>
+        <qualifiedname>srTGsnBeam::m_AvgPhotEn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="46" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_gsn_beam_1af9919dc748ab34eb3ed6e7277d213fe3" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref></type>
+        <definition>srTWfrSmp srTGsnBeam::DistrInfoDat</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDat</name>
+        <qualifiedname>srTGsnBeam::DistrInfoDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="48" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_gsn_beam_1a08e773c87385c97c0aed0482d4643bd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTGsnBeam::srTGsnBeam</definition>
+        <argsstring>(double SpecFlux, int Polar, double sigX, int mx, double sigZ, int mz, double sigT, int typeT, double *pMom1, double s0, double RepRate=0, double PulseEn=0, double AvgPhotEn=0)</argsstring>
+        <name>srTGsnBeam</name>
+        <qualifiedname>srTGsnBeam::srTGsnBeam</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>SpecFlux</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Polar</declname>
+          <defname>InPolar</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sigX</declname>
+          <defname>InSigX_intens_m</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mx</declname>
+          <defname>In_mx</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sigZ</declname>
+          <defname>InSigZ_intens_m</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mz</declname>
+          <defname>In_mz</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sigT</declname>
+          <defname>InSigT_intens_s</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>typeT</declname>
+          <defname>InTypeT</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pMom1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>RepRate</declname>
+          <defname>RepRate_Hz</defname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>PulseEn</declname>
+          <defname>PulseEn_J</defname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>AvgPhotEn</declname>
+          <defname>AvgPhotEn_eV</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>File: srgsnbm.cpp Description: Gaussian beam Project: Synchrotron Radiation Workshop First release: 1998. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="50" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="19" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1ae15e831df35e0802b042da71de0c428c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTGsnBeam::srTGsnBeam</definition>
+        <argsstring>()</argsstring>
+        <name>srTGsnBeam</name>
+        <qualifiedname>srTGsnBeam::srTGsnBeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="51" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1af3c7b7ab45684784edab3157eafd0992" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTGsnBeam::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTGsnBeam::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="55" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1adc51aaa1ccf160b88e2d409ea82484d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTGsnBeam::CheckInputConsistency</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInputConsistency</name>
+        <qualifiedname>srTGsnBeam::CheckInputConsistency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="62" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="81" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1a84144968b630be0a0135e7e5a08ed96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTGsnBeam::SetupSourceConstantsFreqDomain</definition>
+        <argsstring>()</argsstring>
+        <name>SetupSourceConstantsFreqDomain</name>
+        <qualifiedname>srTGsnBeam::SetupSourceConstantsFreqDomain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="63" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="107" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1a5d4cab83866ba72ca5684355c24a0c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTGsnBeam::SetupSourceConstantsTimeDomain</definition>
+        <argsstring>()</argsstring>
+        <name>SetupSourceConstantsTimeDomain</name>
+        <qualifiedname>srTGsnBeam::SetupSourceConstantsTimeDomain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="64" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="143" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1a909c8866786f4723e7ce9a05f620d065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTGsnBeam::CreateWavefrontElFieldFreqDomain</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>CreateWavefrontElFieldFreqDomain</name>
+        <qualifiedname>srTGsnBeam::CreateWavefrontElFieldFreqDomain</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="65" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="227" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1a60f5a8a8f1a5adbb79f843b58a957ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTGsnBeam::CreateWavefrontElFieldTimeDomain</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;)</argsstring>
+        <name>CreateWavefrontElFieldTimeDomain</name>
+        <qualifiedname>srTGsnBeam::CreateWavefrontElFieldTimeDomain</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>RadAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="66" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="328" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1a07e0c3c8c0c1ca2e8e4c0398ca755dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTGsnBeam::ComputeElectricField</definition>
+        <argsstring>(srTWfrSmp *pWfrSmp, srTSRWRadStructAccessData *pWfr)</argsstring>
+        <name>ComputeElectricField</name>
+        <qualifiedname>srTGsnBeam::ComputeElectricField</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> *</type>
+          <declname>pWfr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="69" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="201" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1a24fc6b50951144a074d75ee7e2eecd7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTGsnBeam::Factorial</definition>
+        <argsstring>(long n)</argsstring>
+        <name>Factorial</name>
+        <qualifiedname>srTGsnBeam::Factorial</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="71" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="90" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1ad3d4cd07c5cde69e9f32c8d762f87e48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTGsnBeam::HermitePolynomial</definition>
+        <argsstring>(int n, double x)</argsstring>
+        <name>HermitePolynomial</name>
+        <qualifiedname>srTGsnBeam::HermitePolynomial</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="72" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.cpp" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_gsn_beam_1acbe5602f71c9e9cb73b113992439de2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTGsnBeam::SetupProperPolariz</definition>
+        <argsstring>(double ReA, double ImA, float *tRadX, float *tRadZ)</argsstring>
+        <name>SetupProperPolariz</name>
+        <qualifiedname>srTGsnBeam::SetupProperPolariz</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ReA</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ImA</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tRadX</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tRadZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="74" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="74" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="srgsnbm_8h_source" kindref="compound">srgsnbm.h</ref> Description: Gaussian beam (header) Project: Synchrotron Radiation Workshop First release: 1998. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTGsnBeam</label>
+        <link refid="classsr_t_gsn_beam"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="3">
+        <label>srTEbmDat</label>
+        <link refid="classsr_t_ebm_dat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTGsnBeam</label>
+        <link refid="classsr_t_gsn_beam"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>EbmDat</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>DistrInfoDat</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" line="23" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h" bodystart="23" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_gsn_beam_1adc51aaa1ccf160b88e2d409ea82484d6" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>CheckInputConsistency</name></member>
+      <member refid="classsr_t_gsn_beam_1a07e0c3c8c0c1ca2e8e4c0398ca755dee" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>ComputeElectricField</name></member>
+      <member refid="classsr_t_gsn_beam_1a909c8866786f4723e7ce9a05f620d065" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>CreateWavefrontElFieldFreqDomain</name></member>
+      <member refid="classsr_t_gsn_beam_1a60f5a8a8f1a5adbb79f843b58a957ea9" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>CreateWavefrontElFieldTimeDomain</name></member>
+      <member refid="classsr_t_gsn_beam_1af9919dc748ab34eb3ed6e7277d213fe3" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>DistrInfoDat</name></member>
+      <member refid="classsr_t_gsn_beam_1a46bcbba5233a8b56951b43bd96d40798" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>EbmDat</name></member>
+      <member refid="classsr_t_gsn_beam_1a24fc6b50951144a074d75ee7e2eecd7f" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>Factorial</name></member>
+      <member refid="classsr_t_gsn_beam_1ad3d4cd07c5cde69e9f32c8d762f87e48" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>HermitePolynomial</name></member>
+      <member refid="classsr_t_gsn_beam_1af3c7b7ab45684784edab3157eafd0992" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>Initialize</name></member>
+      <member refid="classsr_t_gsn_beam_1a1e1b436097dae6037b1241b4eaaccc2a" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>InvTwoSigXe2</name></member>
+      <member refid="classsr_t_gsn_beam_1a2deb092488bc5a46d0a5fcdfab40e858" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>InvTwoSigZe2</name></member>
+      <member refid="classsr_t_gsn_beam_1a106ff8354d71222d1dc08472a81991eb" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>LongDist</name></member>
+      <member refid="classsr_t_gsn_beam_1aa92f7143b546f17d96078c656b6ad6c2" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_AvgPhotEn</name></member>
+      <member refid="classsr_t_gsn_beam_1adafb4d2fd21cc4281a85f17b387fbea6" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_AvgPhotEn_enMult_PropInvRx_T</name></member>
+      <member refid="classsr_t_gsn_beam_1a3fab940326b82fa57721ebb714d80240" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_AvgPhotEn_enMult_PropInvRz_T</name></member>
+      <member refid="classsr_t_gsn_beam_1a896cf34817c1a0207018e06f0e20fe24" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_InvTwoSigPhotEnE2</name></member>
+      <member refid="classsr_t_gsn_beam_1a1dc8abe1597f2e9ad76f8cd8eddfb7fb" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_InvTwoSigTe2</name></member>
+      <member refid="classsr_t_gsn_beam_1a0ce2e1310a92309e53ca2f4934941e48" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_NormConstElecFldT</name></member>
+      <member refid="classsr_t_gsn_beam_1a0739af810c1dbc4bdf53ba02e39004b2" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_NormConstElecFldT_Prop</name></member>
+      <member refid="classsr_t_gsn_beam_1a6c48ae5244d8867d439301487aa49e6a" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_PhaseLongDelay_T</name></member>
+      <member refid="classsr_t_gsn_beam_1ad28f1bed3dc173c9b10016df98a46aee" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_PropInvSigX_T</name></member>
+      <member refid="classsr_t_gsn_beam_1aa62d0371dcbd6b1d1f56317ec8ed36b6" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_PropInvSigZ_T</name></member>
+      <member refid="classsr_t_gsn_beam_1a9cf768133e5137d60c9ae9140f27fe39" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_PropInvTwoSigXe2_T</name></member>
+      <member refid="classsr_t_gsn_beam_1afa38f2d96c107b1f576a04a51dd7ea4a" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_PropInvTwoSigZe2_T</name></member>
+      <member refid="classsr_t_gsn_beam_1a7880af526aca56a62df3be861ceb6fa3" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_PulseEn</name></member>
+      <member refid="classsr_t_gsn_beam_1a96320fa6e96c6a22be978196b54f75c3" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>m_RepRate</name></member>
+      <member refid="classsr_t_gsn_beam_1a4a3780b0a49e692c6817e58f970636c4" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>mx</name></member>
+      <member refid="classsr_t_gsn_beam_1a7dce94e988936aaafc76897815e40b61" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>mz</name></member>
+      <member refid="classsr_t_gsn_beam_1a83e6df8c4a427f7ecb03b64f4fd8efac" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>NormConstElField</name></member>
+      <member refid="classsr_t_gsn_beam_1a5f276f0a91538db15a3e58b9574b604b" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>PhotPerBW</name></member>
+      <member refid="classsr_t_gsn_beam_1afe1af925336fa7907bf3fb9c2744a386" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>Polar</name></member>
+      <member refid="classsr_t_gsn_beam_1acd00851feba1a05f62f1940b916e07ec" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>PropagMultX</name></member>
+      <member refid="classsr_t_gsn_beam_1a8fac086d645b41a9de1c8482bba74b17" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>PropagMultZ</name></member>
+      <member refid="classsr_t_gsn_beam_1a8f8956a6c4bbdf695b6db89213378a9c" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>RefractIndex</name></member>
+      <member refid="classsr_t_gsn_beam_1acbe5602f71c9e9cb73b113992439de2d" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>SetupProperPolariz</name></member>
+      <member refid="classsr_t_gsn_beam_1a84144968b630be0a0135e7e5a08ed96c" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>SetupSourceConstantsFreqDomain</name></member>
+      <member refid="classsr_t_gsn_beam_1a5d4cab83866ba72ca5684355c24a0c33" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>SetupSourceConstantsTimeDomain</name></member>
+      <member refid="classsr_t_gsn_beam_1a9d1a2b9bb1621fe0f985a364e0e6aa6e" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>SigmaPhotEn</name></member>
+      <member refid="classsr_t_gsn_beam_1a4a2c3bfdf3c257493173e7a44ca127ff" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>SigmaT</name></member>
+      <member refid="classsr_t_gsn_beam_1a0023bcf9575a8f30d8745d3ffd631094" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>SigmaX</name></member>
+      <member refid="classsr_t_gsn_beam_1a8001a0d667a60aad411b0f7c39d3ba5b" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>SigmaZ</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>sign</name></member>
+      <member refid="classsr_t_gsn_beam_1a08e773c87385c97c0aed0482d4643bd9" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>srTGsnBeam</name></member>
+      <member refid="classsr_t_gsn_beam_1ae15e831df35e0802b042da71de0c428c" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>srTGsnBeam</name></member>
+      <member refid="classsr_t_gsn_beam_1ab19ff2c0264849ac07b6dd908f97aab8" prot="public" virt="non-virtual"><scope>srTGsnBeam</scope><name>TypeT</name></member>
+      <member refid="classsr_t_gsn_beam_1a2064e4b29eebced0ec7007f6e20ddf7f" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>x0Prop</name></member>
+      <member refid="classsr_t_gsn_beam_1ad2065e197bdb7548cb561cbf4c918e09" prot="private" virt="non-virtual"><scope>srTGsnBeam</scope><name>z0Prop</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTGsnBeam</scope><name>~CGenObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_propag_multi_e" kind="class" language="C++" prot="public">
+    <compoundname>srTPropagMultiE</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classsr_t_propag_multi_e_1af0d19409c98c3c842329b843b2a150ef" prot="private" static="yes" mutable="no">
+        <type>CGenMathRand</type>
+        <definition>CGenMathRand srTPropagMultiE::gRandGen</definition>
+        <argsstring></argsstring>
+        <name>gRandGen</name>
+        <qualifiedname>srTPropagMultiE::gRandGen</qualifiedname>
+        <briefdescription>
+<para>File: srpropme.cpp Description: Feasilibility tests for computation of emission and propagation of Partially-Coherent SR from Finite-Emittance Electron Beam Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="59" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a0698936886adebe77ef68925731eaf9c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPropagMultiE::PropagateElecFieldStokes</definition>
+        <argsstring>(srTEbmDat &amp;EbmDat, srTSRWRadStructAccessData &amp;, srTGenOptElemHndl, double *pPrecPar, srTStokesStructAccessData &amp;)</argsstring>
+        <name>PropagateElecFieldStokes</name>
+        <qualifiedname>srTPropagMultiE::PropagateElecFieldStokes</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>EbmDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>InWfr</defname>
+        </param>
+        <param>
+          <type>srTGenOptElemHndl</type>
+          <defname>OptHndl</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pPrecPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <defname>OutStokes</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="63" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="122" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a322d973e11e95aafacc9f8d0e47b64a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPropagMultiE::PropagateElecFieldStokesAuto</definition>
+        <argsstring>(srTEbmDat &amp;ThickEbmDat, srTSRWRadStructAccessData &amp;InWfr, srTGenOptElemHndl OptHndl, double *pPrecPar, srTStokesStructAccessData &amp;OutStokes)</argsstring>
+        <name>PropagateElecFieldStokesAuto</name>
+        <qualifiedname>srTPropagMultiE::PropagateElecFieldStokesAuto</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>ThickEbmDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>InWfr</declname>
+        </param>
+        <param>
+          <type>srTGenOptElemHndl</type>
+          <declname>OptHndl</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pPrecPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>OutStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="64" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="23" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a6134ba89921105e80e4ff064d2541eec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPropagMultiE::EmitPropagElecFieldStokes</definition>
+        <argsstring>(srTTrjDat &amp;TrjDat, srTGenOptElemHndl, double *pPrecPar, srTStokesStructAccessData &amp;OutStokes)</argsstring>
+        <name>EmitPropagElecFieldStokes</name>
+        <qualifiedname>srTPropagMultiE::EmitPropagElecFieldStokes</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <declname>TrjDat</declname>
+        </param>
+        <param>
+          <type>srTGenOptElemHndl</type>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pPrecPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>OutStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="65" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="250" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1af99767f22bb8e6b0591781f9d797b9e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPropagMultiE::ReallocateStokesAccordingToWfr</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;LocWfr, srTStokesStructAccessData &amp;OutStokes)</argsstring>
+        <name>ReallocateStokesAccordingToWfr</name>
+        <qualifiedname>srTPropagMultiE::ReallocateStokesAccordingToWfr</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>LocWfr</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>OutStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="67" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="261" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a10b6c0446a7945ffa4f8f57119ba9a71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPropagMultiE::AddWfrToStokes</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;Wfr, srTStokesStructAccessData &amp;Stokes, long long MacroPartCount, double &amp;CurRelPrec)</argsstring>
+        <name>AddWfrToStokes</name>
+        <qualifiedname>srTPropagMultiE::AddWfrToStokes</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>Wfr</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>Stokes</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>MacroPartCount</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>CurRelPrec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="70" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="340" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a7efbe3654ee60577b6ffc5e783ec02f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPropagMultiE::AddWfrToStokesWithInterpXZ</definition>
+        <argsstring>(srTSRWRadStructAccessData &amp;Wfr, srTStokesStructAccessData &amp;Stokes, long long MacroPartCount)</argsstring>
+        <name>AddWfrToStokesWithInterpXZ</name>
+        <qualifiedname>srTPropagMultiE::AddWfrToStokesWithInterpXZ</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>Wfr</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>Stokes</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>MacroPartCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="72" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="282" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1aa8b47cd813404e80d9843b75992de075" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTPropagMultiE::SetupNextThinEbm</definition>
+        <argsstring>(srTEbmDat &amp;EbmDat, srTSigleElecVars &amp;, srTEbmDat &amp;OutThinEbmDat)</argsstring>
+        <name>SetupNextThinEbm</name>
+        <qualifiedname>srTPropagMultiE::SetupNextThinEbm</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>EbmDat</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_sigle_elec_vars" kindref="compound">srTSigleElecVars</ref> &amp;</type>
+          <defname>SigleElecVars</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>OutThinEbmDat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>if(SigleElecVars.VarX) { OutThinEbmDat.x0 = gRandGen.NextGaussRand(EbmDat.x0, sqrt(EbmDat.Mxx)); } if(SigleElecVars.VarXp) { OutThinEbmDat.dxds0 = gRandGen.NextGaussRand(EbmDat.dxds0, sqrt(EbmDat.Mxpxp)); } if(SigleElecVars.VarZ) { OutThinEbmDat.z0 = gRandGen.NextGaussRand(EbmDat.z0, sqrt(EbmDat.Mzz)); } if(SigleElecVars.VarZp) { OutThinEbmDat.dzds0 = gRandGen.NextGaussRand(EbmDat.dzds0, sqrt(EbmDat.Mzpzp)); }</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="74" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="382" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a026467a15232270475cd5e7730d9e92e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTPropagMultiE::SimulateWfrFromOffAxisEbm</definition>
+        <argsstring>(srTEbmDat &amp;OnAxisEbmDat, srTEbmDat &amp;OffAxisEbmDat, srTSigleElecVars &amp;, srTSRWRadStructAccessData &amp;Wfr)</argsstring>
+        <name>SimulateWfrFromOffAxisEbm</name>
+        <qualifiedname>srTPropagMultiE::SimulateWfrFromOffAxisEbm</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>OnAxisEbmDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>OffAxisEbmDat</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_sigle_elec_vars" kindref="compound">srTSigleElecVars</ref> &amp;</type>
+          <defname>SigleElecVars</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <declname>Wfr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="75" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="438" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a735222f8345fab3f83991c82d6bd3f64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void srTPropagMultiE::CalcStokesFromE</definition>
+        <argsstring>(float *tEx, float *tEz, float *Stokes)</argsstring>
+        <name>CalcStokesFromE</name>
+        <qualifiedname>srTPropagMultiE::CalcStokesFromE</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>tEx</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tEz</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>Stokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="77" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" bodystart="77" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_propag_multi_e_1a81b59c1d697dbb105954dfa3f354c53a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTPropagMultiE::ReallocateStokesAccordingToWfr</definition>
+        <argsstring>(srTWfrSmp &amp;WfrSmp, srTStokesStructAccessData &amp;OutStokes)</argsstring>
+        <name>ReallocateStokesAccordingToWfr</name>
+        <qualifiedname>srTPropagMultiE::ReallocateStokesAccordingToWfr</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> &amp;</type>
+          <declname>WfrSmp</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> &amp;</type>
+          <declname>OutStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="89" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.cpp" bodystart="560" bodyend="583"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" line="57" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h" bodystart="57" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classsr_t_propag_multi_e_1a10b6c0446a7945ffa4f8f57119ba9a71" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>AddWfrToStokes</name></member>
+      <member refid="classsr_t_propag_multi_e_1a7efbe3654ee60577b6ffc5e783ec02f8" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>AddWfrToStokesWithInterpXZ</name></member>
+      <member refid="classsr_t_propag_multi_e_1a735222f8345fab3f83991c82d6bd3f64" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>CalcStokesFromE</name></member>
+      <member refid="classsr_t_propag_multi_e_1a6134ba89921105e80e4ff064d2541eec" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>EmitPropagElecFieldStokes</name></member>
+      <member refid="classsr_t_propag_multi_e_1af0d19409c98c3c842329b843b2a150ef" prot="private" virt="non-virtual"><scope>srTPropagMultiE</scope><name>gRandGen</name></member>
+      <member refid="classsr_t_propag_multi_e_1a0698936886adebe77ef68925731eaf9c" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>PropagateElecFieldStokes</name></member>
+      <member refid="classsr_t_propag_multi_e_1a322d973e11e95aafacc9f8d0e47b64a2" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>PropagateElecFieldStokesAuto</name></member>
+      <member refid="classsr_t_propag_multi_e_1af99767f22bb8e6b0591781f9d797b9e3" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>ReallocateStokesAccordingToWfr</name></member>
+      <member refid="classsr_t_propag_multi_e_1a81b59c1d697dbb105954dfa3f354c53a" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>ReallocateStokesAccordingToWfr</name></member>
+      <member refid="classsr_t_propag_multi_e_1aa8b47cd813404e80d9843b75992de075" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>SetupNextThinEbm</name></member>
+      <member refid="classsr_t_propag_multi_e_1a026467a15232270475cd5e7730d9e92e" prot="public" virt="non-virtual"><scope>srTPropagMultiE</scope><name>SimulateWfrFromOffAxisEbm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

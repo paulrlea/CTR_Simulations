@@ -1,0 +1,1007 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_wfr_smp" kind="class" language="C++" prot="public">
+    <compoundname>srTWfrSmp</compoundname>
+    <basecompoundref refid="class_c_gen_object" prot="public" virt="non-virtual">CGenObject</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a5645f820a7ca46fd6e0ea86ac3affdde" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::LambStart</definition>
+        <argsstring></argsstring>
+        <name>LambStart</name>
+        <qualifiedname>srTWfrSmp::LambStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1aa3fa71a9d738f08089b58e2d61af204f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::LambEnd</definition>
+        <argsstring></argsstring>
+        <name>LambEnd</name>
+        <qualifiedname>srTWfrSmp::LambEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a5177a6f06682866b27b0d4e8c6f33b3d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::xStart</definition>
+        <argsstring></argsstring>
+        <name>xStart</name>
+        <qualifiedname>srTWfrSmp::xStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a86a0fa31ff5714a5022fccea18020703" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::xEnd</definition>
+        <argsstring></argsstring>
+        <name>xEnd</name>
+        <qualifiedname>srTWfrSmp::xEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="33" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a9e357c15fe29e5d83e190678d186482e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::yStart</definition>
+        <argsstring></argsstring>
+        <name>yStart</name>
+        <qualifiedname>srTWfrSmp::yStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a245e66e5c6cad942d4568efa568e2638" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::yEnd</definition>
+        <argsstring></argsstring>
+        <name>yEnd</name>
+        <qualifiedname>srTWfrSmp::yEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="45" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1ad4be7617887c678b92bdedbfed8696d0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::zStart</definition>
+        <argsstring></argsstring>
+        <name>zStart</name>
+        <qualifiedname>srTWfrSmp::zStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="50" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a20a268282917f0b1210e5db9ab847246" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::zEnd</definition>
+        <argsstring></argsstring>
+        <name>zEnd</name>
+        <qualifiedname>srTWfrSmp::zEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="57" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1aa1231065e7e54062aa942de3da1b1f54" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::tStart</definition>
+        <argsstring></argsstring>
+        <name>tStart</name>
+        <qualifiedname>srTWfrSmp::tStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="62" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1aaf4711839d16ccb581694813fdd0acf8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::tEnd</definition>
+        <argsstring></argsstring>
+        <name>tEnd</name>
+        <qualifiedname>srTWfrSmp::tEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="52" column="69" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a71fe9212c16f4d6e0ba985f79bcb4100" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTWfrSmp::nLamb</definition>
+        <argsstring></argsstring>
+        <name>nLamb</name>
+        <qualifiedname>srTWfrSmp::nLamb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="53" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a0144bf58534ce665bbe551512b2c9791" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTWfrSmp::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <qualifiedname>srTWfrSmp::nx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="53" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a77dfe111f5921a34abfaef43930a9b25" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTWfrSmp::ny</definition>
+        <argsstring></argsstring>
+        <name>ny</name>
+        <qualifiedname>srTWfrSmp::ny</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="53" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a4d47c2185fced1d292e7b10d39b0727c" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTWfrSmp::nz</definition>
+        <argsstring></argsstring>
+        <name>nz</name>
+        <qualifiedname>srTWfrSmp::nz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="53" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a5c328ad303ff4ec0d6cd47251a9e1b0b" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTWfrSmp::nt</definition>
+        <argsstring></argsstring>
+        <name>nt</name>
+        <qualifiedname>srTWfrSmp::nt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="53" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1ac1444f88ec92bd2ec97e1ae10c0eafc7" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::AllowAutoChoiceOfNxNzForPropagat</definition>
+        <argsstring></argsstring>
+        <name>AllowAutoChoiceOfNxNzForPropagat</name>
+        <qualifiedname>srTWfrSmp::AllowAutoChoiceOfNxNzForPropagat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="56" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a9c3c5e872953f6c0b34373865f9f386b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::NxNzOversamplingParam</definition>
+        <argsstring></argsstring>
+        <name>NxNzOversamplingParam</name>
+        <qualifiedname>srTWfrSmp::NxNzOversamplingParam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="57" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a11a591d0b89f80159382821dc44b1f16" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::DimensionsWereSetAuto</definition>
+        <argsstring></argsstring>
+        <name>DimensionsWereSetAuto</name>
+        <qualifiedname>srTWfrSmp::DimensionsWereSetAuto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="58" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a383c9868ae93bb6a7f5c50691ab07bf3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTWfrSmp::xMult</definition>
+        <argsstring></argsstring>
+        <name>xMult</name>
+        <qualifiedname>srTWfrSmp::xMult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="60" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1abcddb3973e2d8a666ca4a51794c554ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTWfrSmp::zMult</definition>
+        <argsstring></argsstring>
+        <name>zMult</name>
+        <qualifiedname>srTWfrSmp::zMult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="60" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a47871a4301be7dc7acad46bbfafbf5da" prot="public" static="no" mutable="no">
+        <type>TVector3d</type>
+        <definition>TVector3d srTWfrSmp::CenP</definition>
+        <argsstring></argsstring>
+        <name>CenP</name>
+        <qualifiedname>srTWfrSmp::CenP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="61" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a69ceefc6dcbb8cc584fc516af53c7a8f" prot="public" static="no" mutable="no">
+        <type>TVector3d</type>
+        <definition>TVector3d srTWfrSmp::vHor</definition>
+        <argsstring></argsstring>
+        <name>vHor</name>
+        <qualifiedname>srTWfrSmp::vHor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="61" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a7904ddbef0dfb700c6b094a012900266" prot="public" static="no" mutable="no">
+        <type>TVector3d</type>
+        <definition>TVector3d srTWfrSmp::vLong</definition>
+        <argsstring></argsstring>
+        <name>vLong</name>
+        <qualifiedname>srTWfrSmp::vLong</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="61" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1aa98be84f2433d10601447fc2bb9b4657" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTWfrSmp::obsPlaneIsTransv</definition>
+        <argsstring></argsstring>
+        <name>obsPlaneIsTransv</name>
+        <qualifiedname>srTWfrSmp::obsPlaneIsTransv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="62" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1abe7b6e3dc61bdffe9067208333ef0267" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTWfrSmp::NormalizingConst</definition>
+        <argsstring></argsstring>
+        <name>NormalizingConst</name>
+        <qualifiedname>srTWfrSmp::NormalizingConst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="64" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1aea7cae1d6723e8ce2d28b949d0b8027a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::LoopOrder[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>LoopOrder</name>
+        <qualifiedname>srTWfrSmp::LoopOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="65" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a59d5d8fbc420b00041454fbff891058d" prot="public" static="no" mutable="no">
+        <type>CSmartPtr&lt; double &gt;</type>
+        <definition>CSmartPtr&lt;double&gt; srTWfrSmp::m_spSurfData</definition>
+        <argsstring></argsstring>
+        <name>m_spSurfData</name>
+        <qualifiedname>srTWfrSmp::m_spSurfData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="69" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1ab1a6790a387118a937faec6439218103" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTWfrSmp::PresT</definition>
+        <argsstring></argsstring>
+        <name>PresT</name>
+        <qualifiedname>srTWfrSmp::PresT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="71" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a1ef5e2c6bbd8d8612aa18a36c2d05f8c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTWfrSmp::PhotonEnergyWavelengthUnits</definition>
+        <argsstring></argsstring>
+        <name>PhotonEnergyWavelengthUnits</name>
+        <qualifiedname>srTWfrSmp::PhotonEnergyWavelengthUnits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="72" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a54338e61f6aad1742a581761d1ee321f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTWfrSmp::BandwidthUnits</definition>
+        <argsstring></argsstring>
+        <name>BandwidthUnits</name>
+        <qualifiedname>srTWfrSmp::BandwidthUnits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="73" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1aba64957e93762ea31e1bdce19e88d50d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTWfrSmp::CoordUnits</definition>
+        <argsstring></argsstring>
+        <name>CoordUnits</name>
+        <qualifiedname>srTWfrSmp::CoordUnits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="75" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a86ca4325b2aa5eea96dc01f7a68cdee4" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::FluxComp</definition>
+        <argsstring></argsstring>
+        <name>FluxComp</name>
+        <qualifiedname>srTWfrSmp::FluxComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="76" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a7f47cdd05752d6759f77c0aa31383daf" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::TreatLambdaAsEnergyIn_eV</definition>
+        <argsstring></argsstring>
+        <name>TreatLambdaAsEnergyIn_eV</name>
+        <qualifiedname>srTWfrSmp::TreatLambdaAsEnergyIn_eV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="78" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a4c0e0b809f1540429cb42465914b3883" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::ShowPhaseOnly</definition>
+        <argsstring></argsstring>
+        <name>ShowPhaseOnly</name>
+        <qualifiedname>srTWfrSmp::ShowPhaseOnly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="79" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1ae6d81ac56f25c7f4cfba01a1d368815d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::PhaseDerOrder</definition>
+        <argsstring></argsstring>
+        <name>PhaseDerOrder</name>
+        <qualifiedname>srTWfrSmp::PhaseDerOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="80" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1afd7948ef942a8ed6d32713e1d60989df" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::InputWasModified</definition>
+        <argsstring></argsstring>
+        <name>InputWasModified</name>
+        <qualifiedname>srTWfrSmp::InputWasModified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="81" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a39362b17b6b49a4858041199960d662b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::RadDistrDataContShouldBeRebuild</definition>
+        <argsstring></argsstring>
+        <name>RadDistrDataContShouldBeRebuild</name>
+        <qualifiedname>srTWfrSmp::RadDistrDataContShouldBeRebuild</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="81" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1ad8605954b5862b6bff60b8eae66f7fe5" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::OnlyOnePoint</definition>
+        <argsstring></argsstring>
+        <name>OnlyOnePoint</name>
+        <qualifiedname>srTWfrSmp::OnlyOnePoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="82" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1ae059bd34c660b07b2bc97ad630696ceb" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::AssumeAllPhotonEnergies</definition>
+        <argsstring></argsstring>
+        <name>AssumeAllPhotonEnergies</name>
+        <qualifiedname>srTWfrSmp::AssumeAllPhotonEnergies</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="83" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1afe635a976bfba894b6bfb38cccf3f0d7" prot="public" static="no" mutable="no">
+        <type>srTDistanceOrAngle</type>
+        <definition>srTDistanceOrAngle srTWfrSmp::ArgType</definition>
+        <argsstring></argsstring>
+        <name>ArgType</name>
+        <qualifiedname>srTWfrSmp::ArgType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="85" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a12408976bce2f327c1ff1b7235872777" prot="public" static="no" mutable="no">
+        <type>srTDistanceOrAngle</type>
+        <definition>srTDistanceOrAngle srTWfrSmp::DistrNormType</definition>
+        <argsstring></argsstring>
+        <name>DistrNormType</name>
+        <qualifiedname>srTWfrSmp::DistrNormType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="85" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a7eab12561a896776c17e8f1a90363f8f" prot="public" static="no" mutable="no">
+        <type>srTDistrValType</type>
+        <definition>srTDistrValType srTWfrSmp::DistrValType</definition>
+        <argsstring></argsstring>
+        <name>DistrValType</name>
+        <qualifiedname>srTWfrSmp::DistrValType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="86" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a8562541c9b355edee807ec16a185b5a6" prot="public" static="no" mutable="no">
+        <type>srTDistrPolariz</type>
+        <definition>srTDistrPolariz srTWfrSmp::DistrPolariz</definition>
+        <argsstring></argsstring>
+        <name>DistrPolariz</name>
+        <qualifiedname>srTWfrSmp::DistrPolariz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="87" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a13f8943aa6a88fab178487a7e12b569d" prot="public" static="no" mutable="no">
+        <type>srTIntegrDistrMap</type>
+        <definition>srTIntegrDistrMap srTWfrSmp::IntegrDistrMap</definition>
+        <argsstring></argsstring>
+        <name>IntegrDistrMap</name>
+        <qualifiedname>srTWfrSmp::IntegrDistrMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="88" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1a2c8f0e3626432dd5a8a4ad5d9aa81496" prot="public" static="no" mutable="no">
+        <type>srTCoordOrAngPresentation</type>
+        <definition>srTCoordOrAngPresentation srTWfrSmp::CoordOrAngPresentation</definition>
+        <argsstring></argsstring>
+        <name>CoordOrAngPresentation</name>
+        <qualifiedname>srTWfrSmp::CoordOrAngPresentation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="90" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_wfr_smp_1ae6baa0e7268559ac08bcf5ab5b6ca6d6" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTWfrSmp::AngPresToSpeedUpCoordPres</definition>
+        <argsstring></argsstring>
+        <name>AngPresToSpeedUpCoordPres</name>
+        <qualifiedname>srTWfrSmp::AngPresToSpeedUpCoordPres</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="91" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_wfr_smp_1a2e2f242163be216aa86a532f342749eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTWfrSmp::srTWfrSmp</definition>
+        <argsstring>(double s, double hSt, double hFi, long hN, double vSt, double vFi, long vN, double *pSurfData, double eSt, double eFi, long eN, const char *PhotEnUnit, double tSt=0, double tFi=0, long tN=0, int presT=0, double *horOrtObsPlane=0, double *inNormObsPlane=0)</argsstring>
+        <name>srTWfrSmp</name>
+        <qualifiedname>srTWfrSmp::srTWfrSmp</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hFi</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>hN</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vFi</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>vN</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pSurfData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eSt</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eFi</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>eN</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>PhotEnUnit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tSt</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tFi</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>tN</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>presT</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>horOrtObsPlane</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>inNormObsPlane</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="93" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="93" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1a79a868ccd4044bd2ccf6c0553f7b3186" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTWfrSmp::srTWfrSmp</definition>
+        <argsstring>()</argsstring>
+        <name>srTWfrSmp</name>
+        <qualifiedname>srTWfrSmp::srTWfrSmp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="175" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1a2ac2ba642f1d5e91cc6602356be85e56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTWfrSmp::~srTWfrSmp</definition>
+        <argsstring>()</argsstring>
+        <name>~srTWfrSmp</name>
+        <qualifiedname>srTWfrSmp::~srTWfrSmp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="179" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1ab592d153b96a71f6244fc1e03243e595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTWfrSmp::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTWfrSmp::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="184" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="184" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1ad0690f0b4c7eb02d640d64d35225e288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool srTWfrSmp::IsDefined</definition>
+        <argsstring>()</argsstring>
+        <name>IsDefined</name>
+        <qualifiedname>srTWfrSmp::IsDefined</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="218" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="218" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1a14e3f00bdd9b4ba6bbe064ee34bbdbb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTWfrSmp::SetupLambda</definition>
+        <argsstring>(double Start, double End)</argsstring>
+        <name>SetupLambda</name>
+        <qualifiedname>srTWfrSmp::SetupLambda</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>End</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="228" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="228" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1a9518ae8aa0e42851c5f06a46849a0b26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTWfrSmp::RetrievePhotonEnergyOrWavelength</definition>
+        <argsstring>(double &amp;Start, double &amp;End)</argsstring>
+        <name>RetrievePhotonEnergyOrWavelength</name>
+        <qualifiedname>srTWfrSmp::RetrievePhotonEnergyOrWavelength</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>Start</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>End</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="244" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="244" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1abef8cfb2f2194343a3f347d0f56ac6d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTWfrSmp::EnsureZeroTransverseRangesForSinglePoints</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureZeroTransverseRangesForSinglePoints</name>
+        <qualifiedname>srTWfrSmp::EnsureZeroTransverseRangesForSinglePoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="258" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="258" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1a1eb2ef291d23834a1aa977aa570b5fbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTWfrSmp::OutRangesForFluxComp</definition>
+        <argsstring>(double &amp;dx, double &amp;dz)</argsstring>
+        <name>OutRangesForFluxComp</name>
+        <qualifiedname>srTWfrSmp::OutRangesForFluxComp</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>dz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="277" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="277" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1ac7fde2c7c3437bb2651bf88bb00a084f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool srTWfrSmp::ObsPlaneIsTransverse</definition>
+        <argsstring>()</argsstring>
+        <name>ObsPlaneIsTransverse</name>
+        <qualifiedname>srTWfrSmp::ObsPlaneIsTransverse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="298" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="298" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_wfr_smp_1af9b9a91a08daaa4c04f194ce5c6e741b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool srTWfrSmp::SetupTrfObsPlaneIfNecessary</definition>
+        <argsstring>(gmTrans &amp;trfObsPl)</argsstring>
+        <name>SetupTrfObsPlaneIfNecessary</name>
+        <qualifiedname>srTWfrSmp::SetupTrfObsPlaneIfNecessary</qualifiedname>
+        <param>
+          <type>gmTrans &amp;</type>
+          <declname>trfObsPl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="316" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="316" bodyend="353"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="1">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" line="49" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srwfrsmp.h" bodystart="49" bodyend="354"/>
+    <listofallmembers>
+      <member refid="classsr_t_wfr_smp_1ac1444f88ec92bd2ec97e1ae10c0eafc7" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>AllowAutoChoiceOfNxNzForPropagat</name></member>
+      <member refid="classsr_t_wfr_smp_1ae6baa0e7268559ac08bcf5ab5b6ca6d6" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>AngPresToSpeedUpCoordPres</name></member>
+      <member refid="classsr_t_wfr_smp_1afe635a976bfba894b6bfb38cccf3f0d7" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>ArgType</name></member>
+      <member refid="classsr_t_wfr_smp_1ae059bd34c660b07b2bc97ad630696ceb" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>AssumeAllPhotonEnergies</name></member>
+      <member refid="classsr_t_wfr_smp_1a54338e61f6aad1742a581761d1ee321f" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>BandwidthUnits</name></member>
+      <member refid="classsr_t_wfr_smp_1a47871a4301be7dc7acad46bbfafbf5da" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>CenP</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_wfr_smp_1a2c8f0e3626432dd5a8a4ad5d9aa81496" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>CoordOrAngPresentation</name></member>
+      <member refid="classsr_t_wfr_smp_1aba64957e93762ea31e1bdce19e88d50d" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>CoordUnits</name></member>
+      <member refid="classsr_t_wfr_smp_1a11a591d0b89f80159382821dc44b1f16" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>DimensionsWereSetAuto</name></member>
+      <member refid="classsr_t_wfr_smp_1a12408976bce2f327c1ff1b7235872777" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>DistrNormType</name></member>
+      <member refid="classsr_t_wfr_smp_1a8562541c9b355edee807ec16a185b5a6" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>DistrPolariz</name></member>
+      <member refid="classsr_t_wfr_smp_1a7eab12561a896776c17e8f1a90363f8f" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>DistrValType</name></member>
+      <member refid="classsr_t_wfr_smp_1abef8cfb2f2194343a3f347d0f56ac6d5" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>EnsureZeroTransverseRangesForSinglePoints</name></member>
+      <member refid="classsr_t_wfr_smp_1a86ca4325b2aa5eea96dc01f7a68cdee4" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>FluxComp</name></member>
+      <member refid="classsr_t_wfr_smp_1ab592d153b96a71f6244fc1e03243e595" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>Initialize</name></member>
+      <member refid="classsr_t_wfr_smp_1afd7948ef942a8ed6d32713e1d60989df" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>InputWasModified</name></member>
+      <member refid="classsr_t_wfr_smp_1a13f8943aa6a88fab178487a7e12b569d" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>IntegrDistrMap</name></member>
+      <member refid="classsr_t_wfr_smp_1ad0690f0b4c7eb02d640d64d35225e288" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>IsDefined</name></member>
+      <member refid="classsr_t_wfr_smp_1aa3fa71a9d738f08089b58e2d61af204f" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>LambEnd</name></member>
+      <member refid="classsr_t_wfr_smp_1a5645f820a7ca46fd6e0ea86ac3affdde" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>LambStart</name></member>
+      <member refid="classsr_t_wfr_smp_1aea7cae1d6723e8ce2d28b949d0b8027a" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>LoopOrder</name></member>
+      <member refid="classsr_t_wfr_smp_1a59d5d8fbc420b00041454fbff891058d" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>m_spSurfData</name></member>
+      <member refid="classsr_t_wfr_smp_1a71fe9212c16f4d6e0ba985f79bcb4100" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>nLamb</name></member>
+      <member refid="classsr_t_wfr_smp_1abe7b6e3dc61bdffe9067208333ef0267" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>NormalizingConst</name></member>
+      <member refid="classsr_t_wfr_smp_1a5c328ad303ff4ec0d6cd47251a9e1b0b" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>nt</name></member>
+      <member refid="classsr_t_wfr_smp_1a0144bf58534ce665bbe551512b2c9791" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>nx</name></member>
+      <member refid="classsr_t_wfr_smp_1a9c3c5e872953f6c0b34373865f9f386b" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>NxNzOversamplingParam</name></member>
+      <member refid="classsr_t_wfr_smp_1a77dfe111f5921a34abfaef43930a9b25" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>ny</name></member>
+      <member refid="classsr_t_wfr_smp_1a4d47c2185fced1d292e7b10d39b0727c" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>nz</name></member>
+      <member refid="classsr_t_wfr_smp_1aa98be84f2433d10601447fc2bb9b4657" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>obsPlaneIsTransv</name></member>
+      <member refid="classsr_t_wfr_smp_1ac7fde2c7c3437bb2651bf88bb00a084f" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>ObsPlaneIsTransverse</name></member>
+      <member refid="classsr_t_wfr_smp_1ad8605954b5862b6bff60b8eae66f7fe5" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>OnlyOnePoint</name></member>
+      <member refid="classsr_t_wfr_smp_1a1eb2ef291d23834a1aa977aa570b5fbd" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>OutRangesForFluxComp</name></member>
+      <member refid="classsr_t_wfr_smp_1ae6d81ac56f25c7f4cfba01a1d368815d" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>PhaseDerOrder</name></member>
+      <member refid="classsr_t_wfr_smp_1a1ef5e2c6bbd8d8612aa18a36c2d05f8c" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>PhotonEnergyWavelengthUnits</name></member>
+      <member refid="classsr_t_wfr_smp_1ab1a6790a387118a937faec6439218103" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>PresT</name></member>
+      <member refid="classsr_t_wfr_smp_1a39362b17b6b49a4858041199960d662b" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>RadDistrDataContShouldBeRebuild</name></member>
+      <member refid="classsr_t_wfr_smp_1a9518ae8aa0e42851c5f06a46849a0b26" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>RetrievePhotonEnergyOrWavelength</name></member>
+      <member refid="classsr_t_wfr_smp_1a14e3f00bdd9b4ba6bbe064ee34bbdbb3" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>SetupLambda</name></member>
+      <member refid="classsr_t_wfr_smp_1af9b9a91a08daaa4c04f194ce5c6e741b" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>SetupTrfObsPlaneIfNecessary</name></member>
+      <member refid="classsr_t_wfr_smp_1a4c0e0b809f1540429cb42465914b3883" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>ShowPhaseOnly</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>sign</name></member>
+      <member refid="classsr_t_wfr_smp_1a2e2f242163be216aa86a532f342749eb" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>srTWfrSmp</name></member>
+      <member refid="classsr_t_wfr_smp_1a79a868ccd4044bd2ccf6c0553f7b3186" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>srTWfrSmp</name></member>
+      <member refid="classsr_t_wfr_smp_1aaf4711839d16ccb581694813fdd0acf8" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>tEnd</name></member>
+      <member refid="classsr_t_wfr_smp_1a7f47cdd05752d6759f77c0aa31383daf" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>TreatLambdaAsEnergyIn_eV</name></member>
+      <member refid="classsr_t_wfr_smp_1aa1231065e7e54062aa942de3da1b1f54" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>tStart</name></member>
+      <member refid="classsr_t_wfr_smp_1a69ceefc6dcbb8cc584fc516af53c7a8f" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>vHor</name></member>
+      <member refid="classsr_t_wfr_smp_1a7904ddbef0dfb700c6b094a012900266" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>vLong</name></member>
+      <member refid="classsr_t_wfr_smp_1a86a0fa31ff5714a5022fccea18020703" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>xEnd</name></member>
+      <member refid="classsr_t_wfr_smp_1a383c9868ae93bb6a7f5c50691ab07bf3" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>xMult</name></member>
+      <member refid="classsr_t_wfr_smp_1a5177a6f06682866b27b0d4e8c6f33b3d" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>xStart</name></member>
+      <member refid="classsr_t_wfr_smp_1a245e66e5c6cad942d4568efa568e2638" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>yEnd</name></member>
+      <member refid="classsr_t_wfr_smp_1a9e357c15fe29e5d83e190678d186482e" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>yStart</name></member>
+      <member refid="classsr_t_wfr_smp_1a20a268282917f0b1210e5db9ab847246" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>zEnd</name></member>
+      <member refid="classsr_t_wfr_smp_1abcddb3973e2d8a666ca4a51794c554ea" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>zMult</name></member>
+      <member refid="classsr_t_wfr_smp_1ad4be7617887c678b92bdedbfed8696d0" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>zStart</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTWfrSmp</scope><name>~CGenObject</name></member>
+      <member refid="classsr_t_wfr_smp_1a2ac2ba642f1d5e91cc6602356be85e56" prot="public" virt="non-virtual"><scope>srTWfrSmp</scope><name>~srTWfrSmp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

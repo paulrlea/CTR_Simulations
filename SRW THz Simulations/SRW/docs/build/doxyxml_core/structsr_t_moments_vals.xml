@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_moments_vals" kind="struct" language="C++" prot="public">
+    <compoundname>srTMomentsVals</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_moments_vals_1af23118da9211d32f1739a0bfdf2681ae" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::TotPhot</definition>
+        <argsstring></argsstring>
+        <name>TotPhot</name>
+        <qualifiedname>srTMomentsVals::TotPhot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1ab7ecfb3ca6438c527adbc210f4144f0c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>srTMomentsVals::X</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a1a3fcac0bc406eeeeedfc34fc9817692" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::XP</definition>
+        <argsstring></argsstring>
+        <name>XP</name>
+        <qualifiedname>srTMomentsVals::XP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a845bf76cf8976a0cb88382b8b7fd67d3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::Z</definition>
+        <argsstring></argsstring>
+        <name>Z</name>
+        <qualifiedname>srTMomentsVals::Z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1acca4271670efbcc1a6e6dd5e5d311997" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::ZP</definition>
+        <argsstring></argsstring>
+        <name>ZP</name>
+        <qualifiedname>srTMomentsVals::ZP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a268ac21258d7094a7d0b342d78e83004" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::XX</definition>
+        <argsstring></argsstring>
+        <name>XX</name>
+        <qualifiedname>srTMomentsVals::XX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1aad5514298e7d2a7d0a92523ab8f005cf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::XXP</definition>
+        <argsstring></argsstring>
+        <name>XXP</name>
+        <qualifiedname>srTMomentsVals::XXP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="29" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a34e8b40a3f0938d7c06d0b3bcb855aee" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::XPXP</definition>
+        <argsstring></argsstring>
+        <name>XPXP</name>
+        <qualifiedname>srTMomentsVals::XPXP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="33" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1aaaf517e5a9a668f2bd36618068b30ee7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::ZZ</definition>
+        <argsstring></argsstring>
+        <name>ZZ</name>
+        <qualifiedname>srTMomentsVals::ZZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="38" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a38e855fab2ec13c1040b286dfedfd64e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::ZZP</definition>
+        <argsstring></argsstring>
+        <name>ZZP</name>
+        <qualifiedname>srTMomentsVals::ZZP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a5c9b2a586e3f9981d60daf8dd23ea08c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::ZPZP</definition>
+        <argsstring></argsstring>
+        <name>ZPZP</name>
+        <qualifiedname>srTMomentsVals::ZPZP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="395" column="45" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1aa122a2f1fbafd9e2d2a69a53ab5e1cc7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::Mxx</definition>
+        <argsstring></argsstring>
+        <name>Mxx</name>
+        <qualifiedname>srTMomentsVals::Mxx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="396" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1ad897831893eca0643e224065fb2de44d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::Mxxp</definition>
+        <argsstring></argsstring>
+        <name>Mxxp</name>
+        <qualifiedname>srTMomentsVals::Mxxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="396" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a51502e1e9ea4eb5b687102f180b937f6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::Mxpxp</definition>
+        <argsstring></argsstring>
+        <name>Mxpxp</name>
+        <qualifiedname>srTMomentsVals::Mxpxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="396" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a0a567a64f112b91d2cd341145159d692" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::Mzz</definition>
+        <argsstring></argsstring>
+        <name>Mzz</name>
+        <qualifiedname>srTMomentsVals::Mzz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="396" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1ae24643d5f3aaaf7588fe41d202cb9ef3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::Mzzp</definition>
+        <argsstring></argsstring>
+        <name>Mzzp</name>
+        <qualifiedname>srTMomentsVals::Mzzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="396" column="27" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1ab9b98f9e17d054eeca911a71c998607a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::Mzpzp</definition>
+        <argsstring></argsstring>
+        <name>Mzpzp</name>
+        <qualifiedname>srTMomentsVals::Mzpzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="396" column="32" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a3c5335c1c2d83c581f4153686a60ee7f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::SqrtMxx</definition>
+        <argsstring></argsstring>
+        <name>SqrtMxx</name>
+        <qualifiedname>srTMomentsVals::SqrtMxx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="397" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1a57b76b75c36c9e19d3e292c7ba88b433" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::SqrtMxpxp</definition>
+        <argsstring></argsstring>
+        <name>SqrtMxpxp</name>
+        <qualifiedname>srTMomentsVals::SqrtMxpxp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="397" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1ab3936cf25343adbcd67e9efffadc0d22" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::SqrtMzz</definition>
+        <argsstring></argsstring>
+        <name>SqrtMzz</name>
+        <qualifiedname>srTMomentsVals::SqrtMzz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="397" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_moments_vals_1aac342a2579d273eb18c45dfb19f1d7c8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMomentsVals::SqrtMzpzp</definition>
+        <argsstring></argsstring>
+        <name>SqrtMzpzp</name>
+        <qualifiedname>srTMomentsVals::SqrtMzpzp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="397" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_moments_vals_1aef860fe980aa244c32a2480dd6e10aed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMomentsVals::srTMomentsVals</definition>
+        <argsstring>(srTMomentsPtrs &amp;MomentsPtrs)</argsstring>
+        <name>srTMomentsVals</name>
+        <qualifiedname>srTMomentsVals::srTMomentsVals</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_moments_ptrs" kindref="compound">srTMomentsPtrs</ref> &amp;</type>
+          <declname>MomentsPtrs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="399" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="399" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_moments_vals_1a1e6710fcabbbf019fedca8d1589d9144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMomentsVals::srTMomentsVals</definition>
+        <argsstring>()</argsstring>
+        <name>srTMomentsVals</name>
+        <qualifiedname>srTMomentsVals::srTMomentsVals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="412" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="412" bodyend="412"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="390" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="390" bodyend="413"/>
+    <listofallmembers>
+      <member refid="structsr_t_moments_vals_1a51502e1e9ea4eb5b687102f180b937f6" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>Mxpxp</name></member>
+      <member refid="structsr_t_moments_vals_1aa122a2f1fbafd9e2d2a69a53ab5e1cc7" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>Mxx</name></member>
+      <member refid="structsr_t_moments_vals_1ad897831893eca0643e224065fb2de44d" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>Mxxp</name></member>
+      <member refid="structsr_t_moments_vals_1ab9b98f9e17d054eeca911a71c998607a" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>Mzpzp</name></member>
+      <member refid="structsr_t_moments_vals_1a0a567a64f112b91d2cd341145159d692" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>Mzz</name></member>
+      <member refid="structsr_t_moments_vals_1ae24643d5f3aaaf7588fe41d202cb9ef3" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>Mzzp</name></member>
+      <member refid="structsr_t_moments_vals_1a57b76b75c36c9e19d3e292c7ba88b433" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>SqrtMxpxp</name></member>
+      <member refid="structsr_t_moments_vals_1a3c5335c1c2d83c581f4153686a60ee7f" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>SqrtMxx</name></member>
+      <member refid="structsr_t_moments_vals_1aac342a2579d273eb18c45dfb19f1d7c8" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>SqrtMzpzp</name></member>
+      <member refid="structsr_t_moments_vals_1ab3936cf25343adbcd67e9efffadc0d22" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>SqrtMzz</name></member>
+      <member refid="structsr_t_moments_vals_1aef860fe980aa244c32a2480dd6e10aed" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>srTMomentsVals</name></member>
+      <member refid="structsr_t_moments_vals_1a1e6710fcabbbf019fedca8d1589d9144" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>srTMomentsVals</name></member>
+      <member refid="structsr_t_moments_vals_1af23118da9211d32f1739a0bfdf2681ae" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>TotPhot</name></member>
+      <member refid="structsr_t_moments_vals_1ab7ecfb3ca6438c527adbc210f4144f0c" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>X</name></member>
+      <member refid="structsr_t_moments_vals_1a1a3fcac0bc406eeeeedfc34fc9817692" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>XP</name></member>
+      <member refid="structsr_t_moments_vals_1a34e8b40a3f0938d7c06d0b3bcb855aee" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>XPXP</name></member>
+      <member refid="structsr_t_moments_vals_1a268ac21258d7094a7d0b342d78e83004" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>XX</name></member>
+      <member refid="structsr_t_moments_vals_1aad5514298e7d2a7d0a92523ab8f005cf" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>XXP</name></member>
+      <member refid="structsr_t_moments_vals_1a845bf76cf8976a0cb88382b8b7fd67d3" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>Z</name></member>
+      <member refid="structsr_t_moments_vals_1acca4271670efbcc1a6e6dd5e5d311997" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>ZP</name></member>
+      <member refid="structsr_t_moments_vals_1a5c9b2a586e3f9981d60daf8dd23ea08c" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>ZPZP</name></member>
+      <member refid="structsr_t_moments_vals_1aaaf517e5a9a668f2bd36618068b30ee7" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>ZZ</name></member>
+      <member refid="structsr_t_moments_vals_1a38e855fab2ec13c1040b286dfedfd64e" prot="public" virt="non-virtual"><scope>srTMomentsVals</scope><name>ZZP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

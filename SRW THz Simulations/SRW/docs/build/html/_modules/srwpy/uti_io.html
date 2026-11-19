@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.uti_io &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.uti_io</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.uti_io</h1><div class="highlight"><pre>
+<span></span><span class="c1">#############################################################################</span>
+<span class="c1"># Basic Input/Output Utility Functions</span>
+<span class="c1"># v 0.02</span>
+<span class="c1">#############################################################################</span>
+
+<span class="kn">from</span><span class="w"> </span><span class="nn">copy</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1">#**********************Auxiliary function to write auxiliary/debugging information to an ASCII file:</span>
+<div class="viewcode-block" id="write_text">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io.write_text">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">write_text</span><span class="p">(</span><span class="n">_text</span><span class="p">,</span> <span class="n">_file_path</span><span class="p">):</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">_text</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<span class="c1">#**********************Auxiliary function to read-in data comumns from ASCII file (2D table):</span>
+<div class="viewcode-block" id="read_ascii_data_cols">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io.read_ascii_data_cols">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">read_ascii_data_cols</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="n">_str_sep</span><span class="p">,</span> <span class="n">_i_col_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_col_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">_n_line_skip</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_float</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">_n_line_skip_end</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span> <span class="c1">#OC20042020</span>
+<span class="c1">#def read_ascii_data_cols(_file_path, _str_sep, _i_col_start=0, _i_col_end=-1, _n_line_skip=0, _float=True): #OC24112019</span>
+<span class="c1">#def read_ascii_data_cols(_file_path, _str_sep, _i_col_start=0, _i_col_end=-1, _n_line_skip=0):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Auxiliary function to read-in data comumns from ASCII file (2D table)</span>
+<span class="sd">    :param _file_path: full path (including file name) to the file</span>
+<span class="sd">    :param _str_sep: column separation symbol(s) (string)</span>
+<span class="sd">    :param _i_col_start: initial data column to read</span>
+<span class="sd">    :param _i_col_end: final data column to read</span>
+<span class="sd">    :param _n_line_skip: number of lines to skip in the beginning of the file</span>
+<span class="sd">    :return: 2D list containing data columns read</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+    <span class="n">resCols</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1">#nCol = _i_col_end - _i_col_start + 1</span>
+    <span class="c1">#for iCol in range(nCol):</span>
+    <span class="c1">#    resCols.append([])</span>
+
+    <span class="n">nRows</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span> <span class="o">-</span> <span class="n">_n_line_skip</span> <span class="o">-</span> <span class="n">_n_line_skip_end</span> <span class="c1">#OC20042020</span>
+    <span class="c1">#nRows = len(lines) - _n_line_skip</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nRows</span><span class="p">):</span>
+        <span class="n">curLine</span> <span class="o">=</span> <span class="n">lines</span><span class="p">[</span><span class="n">_n_line_skip</span> <span class="o">+</span> <span class="n">i</span><span class="p">]</span>
+        <span class="n">curLineParts</span> <span class="o">=</span> <span class="n">curLine</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">_str_sep</span><span class="p">)</span>
+        <span class="n">curNumParts</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">curLineParts</span><span class="p">)</span>
+        <span class="c1">#print(curLineParts)</span>
+
+        <span class="n">colCount</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">colCountTrue</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">iCol</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">curNumParts</span><span class="p">):</span>
+            <span class="n">curPart</span> <span class="o">=</span> <span class="n">curLineParts</span><span class="p">[</span><span class="n">iCol</span><span class="p">]</span>
+            <span class="c1">#print(curPart)</span>
+            
+            <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">curPart</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="k">if</span><span class="p">(((</span><span class="n">_i_col_start</span> <span class="o">&lt;=</span> <span class="n">colCount</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_i_col_start</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">))</span> <span class="ow">and</span> <span class="p">((</span><span class="n">colCount</span> <span class="o">&lt;=</span> <span class="n">_i_col_end</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">_i_col_end</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">))):</span>
+                    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">resCols</span><span class="p">)</span> <span class="o">&lt;</span> <span class="p">(</span><span class="n">colCountTrue</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span> <span class="n">resCols</span><span class="o">.</span><span class="n">append</span><span class="p">([])</span>
+                    <span class="c1">#resCols[colCountTrue].append(float(curPart))</span>
+                    <span class="k">if</span><span class="p">(</span><span class="n">_float</span><span class="p">):</span> <span class="n">resCols</span><span class="p">[</span><span class="n">colCountTrue</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">curPart</span><span class="p">))</span> <span class="c1">#OC24112019</span>
+                    <span class="k">else</span><span class="p">:</span> <span class="n">resCols</span><span class="p">[</span><span class="n">colCountTrue</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">curPart</span><span class="p">)</span>
+                    <span class="n">colCountTrue</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="n">colCount</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">resCols</span> <span class="c1">#attn: returns lists, not arrays!</span></div>
+
+
+<span class="c1">#**********************Auxiliary function to read-in data rows from ASCII file (2D table):</span>
+<div class="viewcode-block" id="read_ascii_data_rows">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io.read_ascii_data_rows">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">read_ascii_data_rows</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="n">_str_sep</span><span class="p">,</span> <span class="n">_i_col_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_col_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">_i_row_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_row_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">_try_float</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span> <span class="c1">#OC28012021</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Auxiliary function to read-in data rows from ASCII file (2D table)</span>
+<span class="sd">    :param _file_path: full path (including file name) to the file</span>
+<span class="sd">    :param _str_sep: column separation symbol(s) (string)</span>
+<span class="sd">    :param _i_col_start: initial data column to read</span>
+<span class="sd">    :param _i_col_end: final data column to read</span>
+<span class="sd">    :param _i_row_start: initial data row to read</span>
+<span class="sd">    :param _i_row_end: final data row to read</span>
+<span class="sd">    :param _try_float: attempt to convert input characters to float or not</span>
+<span class="sd">    :return: 2D list containing data rows read</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="n">i_row_start</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span><span class="p">(</span><span class="n">_i_row_start</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">else</span> <span class="n">_i_row_start</span>
+    <span class="n">i_row_end_p_1</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">((</span><span class="n">_i_row_end</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">_i_row_end</span> <span class="o">&lt;</span> <span class="n">i_row_end_p_1</span><span class="p">)):</span> <span class="n">i_row_end_p_1</span> <span class="o">=</span> <span class="n">_i_row_end</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="n">i_col_start</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span><span class="p">(</span><span class="n">_i_col_start</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="k">else</span> <span class="n">_i_col_start</span>
+    <span class="n">i_col_end_p_1</span> <span class="o">=</span> <span class="n">_i_col_end</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="n">resRows</span> <span class="o">=</span> <span class="p">[]</span>    
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i_row_start</span><span class="p">,</span> <span class="n">i_row_end_p_1</span><span class="p">):</span>
+        <span class="n">curLine</span> <span class="o">=</span> <span class="n">lines</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">curLineParts</span> <span class="o">=</span> <span class="n">curLine</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">_str_sep</span><span class="p">)</span>
+        <span class="n">curNumParts</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">curLineParts</span><span class="p">)</span>
+        <span class="c1">#print(curLineParts)</span>
+
+        <span class="n">i_col_end_p_1</span> <span class="o">=</span> <span class="n">curNumParts</span> <span class="k">if</span><span class="p">(</span><span class="n">_i_col_end</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">_i_col_end</span> <span class="o">&gt;=</span> <span class="n">curNumParts</span><span class="p">)</span> <span class="k">else</span> <span class="n">i_col_end_p_1</span>
+
+        <span class="n">curRow</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">iCol</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i_col_start</span><span class="p">,</span> <span class="n">i_col_end_p_1</span><span class="p">):</span>
+            <span class="n">curPart</span> <span class="o">=</span> <span class="n">curLineParts</span><span class="p">[</span><span class="n">iCol</span><span class="p">]</span>
+            <span class="c1">#print(curPart)</span>
+            
+            <span class="k">if</span><span class="p">(</span><span class="n">_try_float</span><span class="p">):</span>
+                <span class="k">try</span><span class="p">:</span> <span class="n">curPart</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">curPart</span><span class="p">)</span>
+                <span class="k">except</span><span class="p">:</span> <span class="k">pass</span>
+            <span class="n">curRow</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">curPart</span><span class="p">)</span>
+
+        <span class="n">resRows</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">curRow</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">resRows</span> <span class="c1">#attn: returns lists, not arrays!</span></div>
+
+
+<span class="c1">#**********************Auxiliary function to write (save) data comumns to ASCII file (2D table):</span>
+<div class="viewcode-block" id="write_ascii_data_cols">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io.write_ascii_data_cols">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">write_ascii_data_cols</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="n">_cols</span><span class="p">,</span> <span class="n">_str_sep</span><span class="p">,</span> <span class="n">_str_head</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_i_col_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_col_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Auxiliary function to write tabulated data (columns, i.e 2D table) to ASCII file</span>
+<span class="sd">    :param _file_path: full path (including file name) to the file to be (over-)written</span>
+<span class="sd">    :param _cols: array of data columns to be saved to file</span>
+<span class="sd">    :param _str_sep: column separation symbol(s) (string)</span>
+<span class="sd">    :param _str_head: header (string) to write before data columns</span>
+<span class="sd">    :param _i_col_start: initial data column to write</span>
+<span class="sd">    :param _i_col_end: final data column to write</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">_str_head</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="n">lenStrHead</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_str_head</span><span class="p">)</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">lenStrHead</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="n">strHead</span> <span class="o">=</span> <span class="n">_str_head</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_str_head</span><span class="p">[</span><span class="n">lenStrHead</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+                <span class="n">strHead</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="n">_str_head</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">strHead</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_cols</span> <span class="o">==</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">();</span> <span class="k">return</span>
+        
+    <span class="n">nCols</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_cols</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">nCols</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">();</span> <span class="k">return</span>
+
+    <span class="n">nLines</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_cols</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">nCols</span><span class="p">):</span>
+        <span class="n">newLen</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_cols</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">nLines</span> <span class="o">&lt;</span> <span class="n">newLen</span><span class="p">):</span> <span class="n">nLines</span> <span class="o">=</span> <span class="n">newLen</span>
+
+    <span class="n">strSep</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_str_sep</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">_str_sep</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span> <span class="n">strSep</span> <span class="o">=</span> <span class="n">_str_sep</span>
+
+    <span class="n">strTot</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="n">iColEndP1</span> <span class="o">=</span> <span class="n">nCols</span>
+    <span class="k">if</span><span class="p">((</span><span class="n">_i_col_end</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">_i_col_end</span> <span class="o">&lt;</span> <span class="n">nCols</span><span class="p">)):</span> <span class="n">iColEndP1</span> <span class="o">=</span> <span class="n">_i_col_end</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="n">iColEnd</span> <span class="o">=</span> <span class="n">iColEndP1</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="n">nLinesM1</span> <span class="o">=</span> <span class="n">nLines</span> <span class="o">-</span> <span class="mi">1</span>
+        
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nLines</span><span class="p">):</span>
+        <span class="n">curLine</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_i_col_start</span><span class="p">,</span> <span class="n">iColEndP1</span><span class="p">):</span>
+            <span class="n">curElem</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">_cols</span><span class="p">[</span><span class="n">j</span><span class="p">])):</span> <span class="n">curElem</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">_cols</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="n">i</span><span class="p">])</span> <span class="c1">#RN10122025</span>
+            <span class="c1">#if(i &lt; len(_cols[j])): curElem = repr(_cols[j][i])</span>
+            <span class="n">curLine</span> <span class="o">+=</span> <span class="n">curElem</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">j</span> <span class="o">&lt;</span> <span class="n">iColEnd</span><span class="p">):</span> <span class="n">curLine</span> <span class="o">+=</span> <span class="n">strSep</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">nLinesM1</span><span class="p">):</span> <span class="n">curLine</span> <span class="o">+=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
+        <span class="n">strTot</span> <span class="o">+=</span> <span class="n">curLine</span>
+        
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">strTot</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<span class="c1">#**********************Auxiliary function to write (save) data rows to ASCII file (2D table):</span>
+<div class="viewcode-block" id="write_ascii_data_rows">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io.write_ascii_data_rows">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">write_ascii_data_rows</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="n">_rows</span><span class="p">,</span> <span class="n">_str_sep</span><span class="p">,</span> <span class="n">_str_head</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_i_col_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_col_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">_i_row_start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_i_row_end</span><span class="o">=-</span><span class="mi">1</span><span class="p">):</span> <span class="c1">#OC16112019</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Auxiliary function to write tabulated data (columns, i.e 2D table) to ASCII file</span>
+<span class="sd">    :param _file_path: full path (including file name) to the file to be (over-)written</span>
+<span class="sd">    :param _rows: array of data rows (/lines) to be saved to file</span>
+<span class="sd">    :param _str_sep: column separation symbol(s) (string)</span>
+<span class="sd">    :param _str_head: header (string) to write before data columns</span>
+<span class="sd">    :param _i_col_start: initial data column to write</span>
+<span class="sd">    :param _i_col_end: final data column to write</span>
+<span class="sd">    :param _i_row_start: initial data row to write</span>
+<span class="sd">    :param _i_row_end: final data row to write</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">_file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">_str_head</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="n">lenStrHead</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_str_head</span><span class="p">)</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">lenStrHead</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="n">strHead</span> <span class="o">=</span> <span class="n">_str_head</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_str_head</span><span class="p">[</span><span class="n">lenStrHead</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+                <span class="n">strHead</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="n">_str_head</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">strHead</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_rows</span> <span class="o">==</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">();</span> <span class="k">return</span>
+        
+    <span class="n">nRows</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_rows</span><span class="p">)</span>
+    <span class="n">nCols</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_rows</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+    <span class="k">if</span><span class="p">((</span><span class="n">nRows</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">nCols</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)):</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">();</span> <span class="k">return</span>
+
+    <span class="n">strSep</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_str_sep</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">_str_sep</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span> <span class="n">strSep</span> <span class="o">=</span> <span class="n">_str_sep</span>
+
+    <span class="n">strTot</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="n">iColEndP1</span> <span class="o">=</span> <span class="n">nCols</span>
+    <span class="k">if</span><span class="p">((</span><span class="n">_i_col_end</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">_i_col_end</span> <span class="o">&lt;</span> <span class="n">nCols</span><span class="p">)):</span> <span class="n">iColEndP1</span> <span class="o">=</span> <span class="n">_i_col_end</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="n">iRowEndP1</span> <span class="o">=</span> <span class="n">nRows</span>
+    <span class="k">if</span><span class="p">((</span><span class="n">_i_row_end</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">_i_row_end</span> <span class="o">&lt;</span> <span class="n">nRows</span><span class="p">)):</span> <span class="n">iRowEndP1</span> <span class="o">=</span> <span class="n">_i_row_end</span> <span class="o">+</span> <span class="mi">1</span>
+
+    <span class="n">iColEnd</span> <span class="o">=</span> <span class="n">iColEndP1</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="n">iRowEnd</span> <span class="o">=</span> <span class="n">iRowEndP1</span> <span class="o">-</span> <span class="mi">1</span>
+        
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_i_row_start</span><span class="p">,</span> <span class="n">iRowEndP1</span><span class="p">):</span>
+        <span class="n">curLine</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+        <span class="n">curDataRow</span> <span class="o">=</span> <span class="n">_rows</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_i_col_start</span><span class="p">,</span> <span class="n">iColEndP1</span><span class="p">):</span>
+            <span class="n">curElem</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">curDataRow</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="c1">#RN10122025</span>
+            <span class="c1">#curElem = repr(curDataRow[j])</span>
+            <span class="n">curLine</span> <span class="o">+=</span> <span class="n">curElem</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">j</span> <span class="o">&lt;</span> <span class="n">iColEnd</span><span class="p">):</span> <span class="n">curLine</span> <span class="o">+=</span> <span class="n">strSep</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">iRowEnd</span><span class="p">):</span> <span class="n">curLine</span> <span class="o">+=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span>
+        <span class="n">strTot</span> <span class="o">+=</span> <span class="n">curLine</span>
+        
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">strTot</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+
+
+<span class="c1">#********************** Read data from an image file:</span>
+<div class="viewcode-block" id="read_image">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_io.read_image">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">read_image</span><span class="p">(</span><span class="n">image_path</span><span class="p">,</span> <span class="n">_do8bit</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>  <span class="c1">#OC23102019</span>
+<span class="c1">#def read_image(image_path):  # MR26102017</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Read data from an image file.</span>
+
+<span class="sd">    :param image_path: full path to the image.</span>
+<span class="sd">    :return: dict with the processed data.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">msg</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{0}</span><span class="s1"> library is not installed. Use &quot;pip install </span><span class="si">{0}</span><span class="s1">&quot; to install it.&#39;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;numpy&#39;</span><span class="p">))</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="kn">from</span><span class="w"> </span><span class="nn">PIL</span><span class="w"> </span><span class="kn">import</span> <span class="n">Image</span>
+    <span class="k">except</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ImportError</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;pillow&#39;</span><span class="p">))</span>
+
+    <span class="c1">#OC11112018 (as suggested by Rafael Celestre, to walk around image size limit)</span>
+    <span class="n">Image</span><span class="o">.</span><span class="n">MAX_IMAGE_PIXELS</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="c1"># Read the image:</span>
+    <span class="n">raw_image</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">image_path</span><span class="p">)</span>
+    <span class="n">image_format</span> <span class="o">=</span> <span class="n">raw_image</span><span class="o">.</span><span class="n">format</span>
+
+    <span class="c1">#OC23102019</span>
+    <span class="c1">#raw_image = raw_image.convert(&#39;L&#39;)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">_do8bit</span><span class="p">):</span> <span class="n">raw_image</span> <span class="o">=</span> <span class="n">raw_image</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="s1">&#39;L&#39;</span><span class="p">)</span>
+
+    <span class="c1"># Convert it to NumPy array:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">raw_image</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">image_format</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;TIFF&#39;</span><span class="p">,</span> <span class="s1">&#39;PNG&#39;</span><span class="p">,</span> <span class="s1">&#39;BMP&#39;</span><span class="p">,</span> <span class="s1">&#39;GIF&#39;</span><span class="p">,</span> <span class="s1">&#39;JPEG&#39;</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;&quot;</span><span class="si">{}</span><span class="s1">&quot; format is not supported at the moment.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">raw_image</span><span class="o">.</span><span class="n">format</span><span class="p">))</span>
+
+    <span class="c1"># Get bits per point:</span>
+    <span class="n">mode_to_bpp</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;1&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;L&#39;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span> <span class="s1">&#39;P&#39;</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span> <span class="s1">&#39;I;16&#39;</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span> <span class="s1">&#39;RGB&#39;</span><span class="p">:</span> <span class="mi">24</span><span class="p">,</span> <span class="s1">&#39;RGBA&#39;</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span> <span class="s1">&#39;CMYK&#39;</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span> <span class="s1">&#39;YCbCr&#39;</span><span class="p">:</span> <span class="mi">24</span><span class="p">,</span> <span class="s1">&#39;I&#39;</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span> <span class="s1">&#39;F&#39;</span><span class="p">:</span> <span class="mi">32</span><span class="p">}</span>
+    <span class="n">bpp</span> <span class="o">=</span> <span class="n">mode_to_bpp</span><span class="p">[</span><span class="n">raw_image</span><span class="o">.</span><span class="n">mode</span><span class="p">]</span>
+    <span class="n">limit_value</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="mi">2</span> <span class="o">**</span> <span class="n">bpp</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">&#39;data&#39;</span><span class="p">:</span> <span class="n">data</span><span class="p">,</span>
+        <span class="s1">&#39;raw_image&#39;</span><span class="p">:</span> <span class="n">raw_image</span><span class="p">,</span>
+        <span class="s1">&#39;limit_value&#39;</span><span class="p">:</span> <span class="n">limit_value</span><span class="p">,</span>
+    <span class="p">}</span></div>
+
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

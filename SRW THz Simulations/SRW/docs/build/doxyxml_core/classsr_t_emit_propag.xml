@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_emit_propag" kind="class" language="C++" prot="public">
+    <compoundname>srTEmitPropag</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_emit_propag_1a03e9d068e9319eb2ba71e789b6ba2faf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTEmitPropag::ComputeRadiation</definition>
+        <argsstring>(srTTrjDat &amp;, srTGenOptElemHndl &amp;, srTSRWRadStructAccessData &amp;, double *)</argsstring>
+        <name>ComputeRadiation</name>
+        <qualifiedname>srTEmitPropag::ComputeRadiation</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> &amp;</type>
+          <defname>TrjDat</defname>
+        </param>
+        <param>
+          <type>srTGenOptElemHndl &amp;</type>
+          <defname>OptElemHndl</defname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref> &amp;</type>
+          <defname>Wfr</defname>
+        </param>
+        <param>
+          <type>double *</type>
+          <defname>PrecPar</defname>
+        </param>
+        <briefdescription>
+<para>File: sremitpr.cpp Description: SR calculation, case when single-electron emission couples with wavefront propagation (to be implemented?) Project: Synchrotron Radiation Workshop First release: </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sremitpr.h" line="30" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sremitpr.cpp" bodystart="20" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sremitpr.h" line="26" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sremitpr.h" bodystart="26" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classsr_t_emit_propag_1a03e9d068e9319eb2ba71e789b6ba2faf" prot="public" virt="non-virtual"><scope>srTEmitPropag</scope><name>ComputeRadiation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

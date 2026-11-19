@@ -1,0 +1,802 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_mag_field_periodic" kind="class" language="C++" prot="public">
+    <compoundname>srTMagFieldPeriodic</compoundname>
+    <basecompoundref refid="classsr_t_mag_elem" prot="public" virt="non-virtual">srTMagElem</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1aeca0a9ec0f812bff6e420f8216b97eef" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::PerLength</definition>
+        <argsstring></argsstring>
+        <name>PerLength</name>
+        <qualifiedname>srTMagFieldPeriodic::PerLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="253" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a53adb49984e43cf6301c4d558bd092c8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::TotLength</definition>
+        <argsstring></argsstring>
+        <name>TotLength</name>
+        <qualifiedname>srTMagFieldPeriodic::TotLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="254" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1aab5c4a11ed568cc238dd44ce8425ab9d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::Fund_keV_per_GeV2</definition>
+        <argsstring></argsstring>
+        <name>Fund_keV_per_GeV2</name>
+        <qualifiedname>srTMagFieldPeriodic::Fund_keV_per_GeV2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="255" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a8b957592895242f1c26aaa7f48c88b5c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFieldPeriodic::AmOfHarm</definition>
+        <argsstring></argsstring>
+        <name>AmOfHarm</name>
+        <qualifiedname>srTMagFieldPeriodic::AmOfHarm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="256" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a0dac78f29289850be246bc300f2923b2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagFieldPeriodic::TypeOfUnd</definition>
+        <argsstring></argsstring>
+        <name>TypeOfUnd</name>
+        <qualifiedname>srTMagFieldPeriodic::TypeOfUnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="257" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a6d8eefaaf1345bea5e775e04c1f58b28" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::TaperPar_TU</definition>
+        <argsstring></argsstring>
+        <name>TaperPar_TU</name>
+        <qualifiedname>srTMagFieldPeriodic::TaperPar_TU</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="258" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a461e334fd7208f0b2ffdb0fdb7fd0870" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::PhaseSh_OK</definition>
+        <argsstring></argsstring>
+        <name>PhaseSh_OK</name>
+        <qualifiedname>srTMagFieldPeriodic::PhaseSh_OK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="258" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1aff2d41c444eea4e56b5129763a202b66" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::HalfKxE2pKzE2</definition>
+        <argsstring></argsstring>
+        <name>HalfKxE2pKzE2</name>
+        <qualifiedname>srTMagFieldPeriodic::HalfKxE2pKzE2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="259" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a54ef895229887222e174a41e3d988a29" prot="public" static="no" mutable="no">
+        <type>srTMagHarmVect</type>
+        <definition>srTMagHarmVect srTMagFieldPeriodic::HarmVect</definition>
+        <argsstring></argsstring>
+        <name>HarmVect</name>
+        <qualifiedname>srTMagFieldPeriodic::HarmVect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="261" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1aab3c622c04a59e3a24a408d0b194abda" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagFieldPeriodic::FieldSymmetryInd</definition>
+        <argsstring></argsstring>
+        <name>FieldSymmetryInd</name>
+        <qualifiedname>srTMagFieldPeriodic::FieldSymmetryInd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="262" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a69e6cfaf0046292fcf4f71a886a2c4f1" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTMagFieldPeriodic::FldPolar</definition>
+        <argsstring></argsstring>
+        <name>FldPolar</name>
+        <qualifiedname>srTMagFieldPeriodic::FldPolar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="263" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a85c1fad4967a701cce082d804e1cb085" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::sCen</definition>
+        <argsstring></argsstring>
+        <name>sCen</name>
+        <qualifiedname>srTMagFieldPeriodic::sCen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="265" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a9609cfbf032d5f6183c4264c71bda5ea" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::NatFocNxSASE</definition>
+        <argsstring></argsstring>
+        <name>NatFocNxSASE</name>
+        <qualifiedname>srTMagFieldPeriodic::NatFocNxSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="268" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a3529c0c097455668447b66e2b97cc34f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::NatFocNySASE</definition>
+        <argsstring></argsstring>
+        <name>NatFocNySASE</name>
+        <qualifiedname>srTMagFieldPeriodic::NatFocNySASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="268" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a3fde1a2a6c2dbb31568d861e8da938b1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFieldPeriodic::FldErrTypeSASE</definition>
+        <argsstring></argsstring>
+        <name>FldErrTypeSASE</name>
+        <qualifiedname>srTMagFieldPeriodic::FldErrTypeSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="269" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a13e8c8efbbf743f510cefc2dba731cfa" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::FldErrRMS</definition>
+        <argsstring></argsstring>
+        <name>FldErrRMS</name>
+        <qualifiedname>srTMagFieldPeriodic::FldErrRMS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="270" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a8bf675a7bc1c0b08ba28a0f2111916d3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTMagFieldPeriodic::TaperTypeSASE</definition>
+        <argsstring></argsstring>
+        <name>TaperTypeSASE</name>
+        <qualifiedname>srTMagFieldPeriodic::TaperTypeSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="271" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a420b2df82c3ecb31271c4391a87d548c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::TaperStartSASE</definition>
+        <argsstring></argsstring>
+        <name>TaperStartSASE</name>
+        <qualifiedname>srTMagFieldPeriodic::TaperStartSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="272" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_mag_field_periodic_1a2b5cd58ece803a571bfc91e9b8e1a943" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::TaperRelFldChgSASE</definition>
+        <argsstring></argsstring>
+        <name>TaperRelFldChgSASE</name>
+        <qualifiedname>srTMagFieldPeriodic::TaperRelFldChgSASE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="273" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a92d1b15708f91187047b70ae758bbed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFieldPeriodic::srTMagFieldPeriodic</definition>
+        <argsstring>(double Per, double L, double In_sCen, srTMagHarm *pHarm, int nHarm, char Type, double SpecPar)</argsstring>
+        <name>srTMagFieldPeriodic</name>
+        <qualifiedname>srTMagFieldPeriodic::srTMagFieldPeriodic</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>Per</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>L</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>In_sCen</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_harm" kindref="compound">srTMagHarm</ref> *</type>
+          <declname>pHarm</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHarm</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>Type</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>SpecPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="275" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="87" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1af866131cb665cd7697a6c2ca8910d726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFieldPeriodic::srTMagFieldPeriodic</definition>
+        <argsstring>(const SRWLMagFldU &amp;inUnd, const TVector3d &amp;inCenP, const TVector3d &amp;inAxV, double inAng=0)</argsstring>
+        <name>srTMagFieldPeriodic</name>
+        <qualifiedname>srTMagFieldPeriodic::srTMagFieldPeriodic</qualifiedname>
+        <param>
+          <type>const SRWLMagFldU &amp;</type>
+          <declname>inUnd</declname>
+        </param>
+        <param>
+          <type>const TVector3d &amp;</type>
+          <declname>inCenP</declname>
+        </param>
+        <param>
+          <type>const TVector3d &amp;</type>
+          <declname>inAxV</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>inAng</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="277" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="128" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a7611bc2c40cade6aa38a57fe204651eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFieldPeriodic::srTMagFieldPeriodic</definition>
+        <argsstring>()</argsstring>
+        <name>srTMagFieldPeriodic</name>
+        <qualifiedname>srTMagFieldPeriodic::srTMagFieldPeriodic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="278" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="278" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1acd96cddb56c5c0e7f4d30e6fcbe7ec99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTMagFieldPeriodic::~srTMagFieldPeriodic</definition>
+        <argsstring>()</argsstring>
+        <name>~srTMagFieldPeriodic</name>
+        <qualifiedname>srTMagFieldPeriodic::~srTMagFieldPeriodic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="292" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="292" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1acf61f4f9406c587ca95c3459b6f684c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::OutBasicData</definition>
+        <argsstring>(double *pPer, double *pL, double *psCen, int *pnHarm, char *pType, double *pSpecPar, double *pkeVperGeV2)</argsstring>
+        <name>OutBasicData</name>
+        <qualifiedname>srTMagFieldPeriodic::OutBasicData</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pPer</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pL</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>psCen</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>pnHarm</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>pType</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pSpecPar</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pkeVperGeV2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="297" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="297" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1ab9baec7804382b938b8d5137cdf0c6bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::OutHarmData</definition>
+        <argsstring>(int *ArrHarmNo, char *ArrXorZ, double *ArrK, double *ArrPhase)</argsstring>
+        <name>OutHarmData</name>
+        <qualifiedname>srTMagFieldPeriodic::OutHarmData</qualifiedname>
+        <param>
+          <type>int *</type>
+          <declname>ArrHarmNo</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>ArrXorZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ArrK</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>ArrPhase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="311" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="311" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a9157dae38a0de7e84baaddde061320b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTMagFieldPeriodic::SetupFieldBasedArrays</definition>
+        <argsstring>(srTEbmDat &amp;EbmDat, long long Ns, double *pBtx, double *pBtz, double *pX, double *pZ, double *pIntBtE2)</argsstring>
+        <name>SetupFieldBasedArrays</name>
+        <qualifiedname>srTMagFieldPeriodic::SetupFieldBasedArrays</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &amp;</type>
+          <declname>EbmDat</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Ns</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtx</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBtz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pX</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pZ</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pIntBtE2</declname>
+        </param>
+        <briefdescription>
+<para>File: srptrjdt.cpp Description: Calculation of Electron Trajectory in Periodic Magnetic Field of an ID Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="326" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srptrjdt.cpp" bodystart="20" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1ab623d794460c3fa5785a7d1a32ec7547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::AnalyzeFieldSymmetry</definition>
+        <argsstring>()</argsstring>
+        <name>AnalyzeFieldSymmetry</name>
+        <qualifiedname>srTMagFieldPeriodic::AnalyzeFieldSymmetry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="328" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="328" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a65801352b6fc80d89ebc7f402715db9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::AnalyzeFieldSymmetry</definition>
+        <argsstring>(char &amp;FieldIsSymOverX, char &amp;FieldIsSymOverZ)</argsstring>
+        <name>AnalyzeFieldSymmetry</name>
+        <qualifiedname>srTMagFieldPeriodic::AnalyzeFieldSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>FieldIsSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FieldIsSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="352" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="352" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a496cc57c8f5862fc2983dd3404f2ca1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::FindInitialTrjAngles</definition>
+        <argsstring>(double &amp;Btx0Gam, double &amp;Btz0Gam, double &amp;x0Gam, double &amp;z0Gam)</argsstring>
+        <name>FindInitialTrjAngles</name>
+        <qualifiedname>srTMagFieldPeriodic::FindInitialTrjAngles</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btx0Gam</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Btz0Gam</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>x0Gam</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>z0Gam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="378" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="378" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1ac0ffe950c69b65fdb77a55573d008fe3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::compB</definition>
+        <argsstring>(TVector3d &amp;inP, TVector3d &amp;outB)</argsstring>
+        <name>compB</name>
+        <qualifiedname>srTMagFieldPeriodic::compB</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1aad86a76ed2f1c00818cbd89aecd1517e">compB</reimplements>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>inP</declname>
+        </param>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>outB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="401" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="401" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a86ad99a94fbcc0cf1e3908aae0b243e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classsr_t_gen_trj_dat" kindref="compound">srTGenTrjDat</ref> *</type>
+        <definition>srTGenTrjDat * srTMagFieldPeriodic::CreateAndSetupNewTrjDat</definition>
+        <argsstring>(srTEbmDat *)</argsstring>
+        <name>CreateAndSetupNewTrjDat</name>
+        <qualifiedname>srTMagFieldPeriodic::CreateAndSetupNewTrjDat</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f3d59172df61710cdb0b992dd415257">CreateAndSetupNewTrjDat</reimplements>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <defname>pEbmDat</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="504" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="247" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a215cd04b43cc1b7a29693a4a2b21ddae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>double srTMagFieldPeriodic::GetLongExtent</definition>
+        <argsstring>()</argsstring>
+        <name>GetLongExtent</name>
+        <qualifiedname>srTMagFieldPeriodic::GetLongExtent</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a232f2de0e35ef82a24388402beb07a52">GetLongExtent</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="506" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="506" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1a1cdaddd93193fcd4db0244865609f52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::SetupWigSASE</definition>
+        <argsstring>(srTWigComSASE &amp;)</argsstring>
+        <name>SetupWigSASE</name>
+        <qualifiedname>srTMagFieldPeriodic::SetupWigSASE</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a3f92cf3d8c46c41133d508546258adf0">SetupWigSASE</reimplements>
+        <param>
+          <type><ref refid="structsr_t_wig_com_s_a_s_e" kindref="compound">srTWigComSASE</ref> &amp;</type>
+          <defname>WigCom</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="507" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="178" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1aa6c0d29c3072d39ba86a732251d8747f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::SetupExtMagFldU</definition>
+        <argsstring>(SRWLMagFldU &amp;, double &amp;)</argsstring>
+        <name>SetupExtMagFldU</name>
+        <qualifiedname>srTMagFieldPeriodic::SetupExtMagFldU</qualifiedname>
+        <param>
+          <type>SRWLMagFldU &amp;</type>
+          <defname>resU</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>sc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="508" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="221" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1aaf567530fb9a59425831cf37c3f73629" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void srTMagFieldPeriodic::ComputeSR_Stokes</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTWfrSmp *pWfrSmp, void *pPrcPar, srTStokesStructAccessData *pStokes)</argsstring>
+        <name>ComputeSR_Stokes</name>
+        <qualifiedname>srTMagFieldPeriodic::ComputeSR_Stokes</qualifiedname>
+        <reimplements refid="classsr_t_mag_elem_1a69c6557d77136c420890edbc850f1447">ComputeSR_Stokes</reimplements>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pPrcPar</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_stokes_struct_access_data" kindref="compound">srTStokesStructAccessData</ref> *</type>
+          <declname>pStokes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="510" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_mag_field_periodic_1aaa76ef021cd544e6aa733ffccaf7bf64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classsr_t_mag_fld_tr_unif" kindref="compound">srTMagFldTrUnif</ref> *</type>
+        <definition>srTMagFldTrUnif * srTMagFieldPeriodic::CreateAndSetupMagFldTrUnif</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAndSetupMagFldTrUnif</name>
+        <qualifiedname>srTMagFieldPeriodic::CreateAndSetupMagFldTrUnif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="511" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.cpp" bodystart="265" bodyend="270"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFieldPeriodic</label>
+        <link refid="classsr_t_mag_field_periodic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="2">
+        <label>srTMagElem</label>
+        <link refid="classsr_t_mag_elem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>srTMagFieldPeriodic</label>
+        <link refid="classsr_t_mag_field_periodic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" line="247" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h" bodystart="247" bodyend="512"/>
+    <listofallmembers>
+      <member refid="classsr_t_mag_field_periodic_1a8b957592895242f1c26aaa7f48c88b5c" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>AmOfHarm</name></member>
+      <member refid="classsr_t_mag_field_periodic_1ab623d794460c3fa5785a7d1a32ec7547" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>AnalyzeFieldSymmetry</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a65801352b6fc80d89ebc7f402715db9e" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>AnalyzeFieldSymmetry</name></member>
+      <member refid="class_c_gen_object_1a824848b8ef810997a7e589282107f52a" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>CGenObject</name></member>
+      <member refid="class_c_gen_object_1a4fc20fe9e62dee171aeba2b4db6066a1" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>CGenObject</name></member>
+      <member refid="classsr_t_mag_field_periodic_1ac0ffe950c69b65fdb77a55573d008fe3" prot="public" virt="virtual"><scope>srTMagFieldPeriodic</scope><name>compB</name></member>
+      <member refid="classsr_t_mag_elem_1a29334ee92aeae1302bd44858f91f0ae5" prot="public" virt="virtual"><scope>srTMagFieldPeriodic</scope><name>ComputeParticlePropagMatrix</name></member>
+      <member refid="classsr_t_mag_field_periodic_1aaf567530fb9a59425831cf37c3f73629" prot="public" virt="virtual"><scope>srTMagFieldPeriodic</scope><name>ComputeSR_Stokes</name></member>
+      <member refid="classsr_t_mag_field_periodic_1aaa76ef021cd544e6aa733ffccaf7bf64" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>CreateAndSetupMagFldTrUnif</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a86ad99a94fbcc0cf1e3908aae0b243e2" prot="public" virt="virtual"><scope>srTMagFieldPeriodic</scope><name>CreateAndSetupNewTrjDat</name></member>
+      <member refid="classsr_t_mag_elem_1a01f5d3342f3330d0e963f460c2dffd2e" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>ErrorCode</name></member>
+      <member refid="classsr_t_mag_field_periodic_1aab3c622c04a59e3a24a408d0b194abda" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>FieldSymmetryInd</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a496cc57c8f5862fc2983dd3404f2ca1c" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>FindInitialTrjAngles</name></member>
+      <member refid="classsr_t_mag_elem_1a54533daccbabf5881bee42ca30b191b1" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>FindMagElemWithSmallestLongPos</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a13e8c8efbbf743f510cefc2dba731cfa" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>FldErrRMS</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a3fde1a2a6c2dbb31568d861e8da938b1" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>FldErrTypeSASE</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a69e6cfaf0046292fcf4f71a886a2c4f1" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>FldPolar</name></member>
+      <member refid="classsr_t_mag_field_periodic_1aab5c4a11ed568cc238dd44ce8425ab9d" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>Fund_keV_per_GeV2</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a215cd04b43cc1b7a29693a4a2b21ddae" prot="public" virt="virtual"><scope>srTMagFieldPeriodic</scope><name>GetLongExtent</name></member>
+      <member refid="classsr_t_mag_elem_1a7e62327db200a87d6ddf555207339b67" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>GetMagnFieldLongLim</name></member>
+      <member refid="classsr_t_mag_elem_1a70a9a37dd07c73bf713ab826af5bcda8" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>gsEnd</name></member>
+      <member refid="classsr_t_mag_elem_1a43abb501d69d45297e09066ae801d283" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>gsStart</name></member>
+      <member refid="classsr_t_mag_field_periodic_1aff2d41c444eea4e56b5129763a202b66" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>HalfKxE2pKzE2</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a54ef895229887222e174a41e3d988a29" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>HarmVect</name></member>
+      <member refid="classsr_t_mag_elem_1ac0ebe888f5a07a05cd17c84c152a9b42" prot="protected" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>mTrans</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a9609cfbf032d5f6183c4264c71bda5ea" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>NatFocNxSASE</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a3529c0c097455668447b66e2b97cc34f" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>NatFocNySASE</name></member>
+      <member refid="classsr_t_mag_field_periodic_1acf61f4f9406c587ca95c3459b6f684c6" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>OutBasicData</name></member>
+      <member refid="classsr_t_mag_field_periodic_1ab9baec7804382b938b8d5137cdf0c6bb" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>OutHarmData</name></member>
+      <member refid="classsr_t_mag_field_periodic_1aeca0a9ec0f812bff6e420f8216b97eef" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>PerLength</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a461e334fd7208f0b2ffdb0fdb7fd0870" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>PhaseSh_OK</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a85c1fad4967a701cce082d804e1cb085" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>sCen</name></member>
+      <member refid="classsr_t_mag_field_periodic_1aa6c0d29c3072d39ba86a732251d8747f" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>SetupExtMagFldU</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a9157dae38a0de7e84baaddde061320b1" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>SetupFieldBasedArrays</name></member>
+      <member refid="classsr_t_mag_elem_1acabce67bb17aeb2d464ab19c377dc91a" prot="protected" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>SetupOrient</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a1cdaddd93193fcd4db0244865609f52d" prot="public" virt="virtual"><scope>srTMagFieldPeriodic</scope><name>SetupWigSASE</name></member>
+      <member refid="class_c_gen_object_1a83109ffe1b5554f486bee765c9060337" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>sign</name></member>
+      <member refid="classsr_t_mag_elem_1ac674012271e497a9dc72f71870ed1b96" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a29d606cf8d0e33d01eea70f4e52b5f1f" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_elem_1a3cb0bab06c584607936794066bfd23de" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>srTMagElem</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a92d1b15708f91187047b70ae758bbed0" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>srTMagFieldPeriodic</name></member>
+      <member refid="classsr_t_mag_field_periodic_1af866131cb665cd7697a6c2ca8910d726" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>srTMagFieldPeriodic</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a7611bc2c40cade6aa38a57fe204651eb" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>srTMagFieldPeriodic</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a6d8eefaaf1345bea5e775e04c1f58b28" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>TaperPar_TU</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a2b5cd58ece803a571bfc91e9b8e1a943" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>TaperRelFldChgSASE</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a420b2df82c3ecb31271c4391a87d548c" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>TaperStartSASE</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a8bf675a7bc1c0b08ba28a0f2111916d3" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>TaperTypeSASE</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a53adb49984e43cf6301c4d558bd092c8" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>TotLength</name></member>
+      <member refid="classsr_t_mag_field_periodic_1a0dac78f29289850be246bc300f2923b2" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>TypeOfUnd</name></member>
+      <member refid="class_c_gen_object_1aaf1a59d26950f09936817751160cb177" prot="public" virt="virtual"><scope>srTMagFieldPeriodic</scope><name>~CGenObject</name></member>
+      <member refid="classsr_t_mag_field_periodic_1acd96cddb56c5c0e7f4d30e6fcbe7ec99" prot="public" virt="non-virtual"><scope>srTMagFieldPeriodic</scope><name>~srTMagFieldPeriodic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

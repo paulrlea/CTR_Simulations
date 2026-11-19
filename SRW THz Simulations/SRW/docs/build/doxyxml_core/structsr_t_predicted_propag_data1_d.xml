@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_predicted_propag_data1_d" kind="struct" language="C++" prot="public">
+    <compoundname>srTPredictedPropagData1D</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_predicted_propag_data1_d_1a082853ce18fe6375f605fcaaa231bd7b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPredictedPropagData1D::CoordMomRat</definition>
+        <argsstring></argsstring>
+        <name>CoordMomRat</name>
+        <qualifiedname>srTPredictedPropagData1D::CoordMomRat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1863" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_predicted_propag_data1_d_1a514440104f9aaedeb12cdd76f0d8cb00" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPredictedPropagData1D::AngMomRat</definition>
+        <argsstring></argsstring>
+        <name>AngMomRat</name>
+        <qualifiedname>srTPredictedPropagData1D::AngMomRat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1863" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_predicted_propag_data1_d_1a1fc54dadd9abf851fa53bdb35cee7776" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPredictedPropagData1D::CoordMomRadCanBeModified</definition>
+        <argsstring></argsstring>
+        <name>CoordMomRadCanBeModified</name>
+        <qualifiedname>srTPredictedPropagData1D::CoordMomRadCanBeModified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1864" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_predicted_propag_data1_d_1ae8de96d2ec31d24034c3304adb011d4f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTPredictedPropagData1D::AngMomRatCanBeModified</definition>
+        <argsstring></argsstring>
+        <name>AngMomRatCanBeModified</name>
+        <qualifiedname>srTPredictedPropagData1D::AngMomRatCanBeModified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1864" column="31" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_predicted_propag_data1_d_1a3139f36cbb5da9d4147e631685779a9b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPredictedPropagData1D::SigmaCoord</definition>
+        <argsstring></argsstring>
+        <name>SigmaCoord</name>
+        <qualifiedname>srTPredictedPropagData1D::SigmaCoord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1866" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1866" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_predicted_propag_data1_d_1a3dd88b8b4b82ec2104280433ef932d98" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTPredictedPropagData1D::SigmaAng</definition>
+        <argsstring></argsstring>
+        <name>SigmaAng</name>
+        <qualifiedname>srTPredictedPropagData1D::SigmaAng</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1866" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1866" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_predicted_propag_data1_d_1ac524c61fd6aec927bbdbadc18ec6e077" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTPredictedPropagData1D::srTPredictedPropagData1D</definition>
+        <argsstring>()</argsstring>
+        <name>srTPredictedPropagData1D</name>
+        <qualifiedname>srTPredictedPropagData1D::srTPredictedPropagData1D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1868" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1868" bodyend="1871"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1861" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1861" bodyend="1872"/>
+    <listofallmembers>
+      <member refid="structsr_t_predicted_propag_data1_d_1a514440104f9aaedeb12cdd76f0d8cb00" prot="public" virt="non-virtual"><scope>srTPredictedPropagData1D</scope><name>AngMomRat</name></member>
+      <member refid="structsr_t_predicted_propag_data1_d_1ae8de96d2ec31d24034c3304adb011d4f" prot="public" virt="non-virtual"><scope>srTPredictedPropagData1D</scope><name>AngMomRatCanBeModified</name></member>
+      <member refid="structsr_t_predicted_propag_data1_d_1a1fc54dadd9abf851fa53bdb35cee7776" prot="public" virt="non-virtual"><scope>srTPredictedPropagData1D</scope><name>CoordMomRadCanBeModified</name></member>
+      <member refid="structsr_t_predicted_propag_data1_d_1a082853ce18fe6375f605fcaaa231bd7b" prot="public" virt="non-virtual"><scope>srTPredictedPropagData1D</scope><name>CoordMomRat</name></member>
+      <member refid="structsr_t_predicted_propag_data1_d_1a3dd88b8b4b82ec2104280433ef932d98" prot="public" virt="non-virtual"><scope>srTPredictedPropagData1D</scope><name>SigmaAng</name></member>
+      <member refid="structsr_t_predicted_propag_data1_d_1a3139f36cbb5da9d4147e631685779a9b" prot="public" virt="non-virtual"><scope>srTPredictedPropagData1D</scope><name>SigmaCoord</name></member>
+      <member refid="structsr_t_predicted_propag_data1_d_1ac524c61fd6aec927bbdbadc18ec6e077" prot="public" virt="non-virtual"><scope>srTPredictedPropagData1D</scope><name>srTPredictedPropagData1D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

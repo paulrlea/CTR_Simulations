@@ -1,0 +1,258 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.srwl_uti_src &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.srwl_uti_src</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.srwl_uti_src</h1><div class="highlight"><pre>
+<span></span><span class="c1">#############################################################################</span>
+<span class="c1"># SRWLib for Python Utility module for Synchrotron Sources (electron beams and ID parameters)</span>
+<span class="c1"># Author: O.C.</span>
+<span class="c1"># v 0.02</span>
+<span class="c1">#############################################################################</span>
+
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC15112022</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">srwlib</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1">#from srwlib import *</span>
+
+<span class="c1">#****************************************************************************</span>
+<span class="c1">#def srwl_uti_src_e_beams_predef():</span>
+<div class="viewcode-block" id="srwl_uti_src_e_beam_predef">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_src.srwl_uti_src_e_beam_predef">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_uti_src_e_beam_predef</span><span class="p">():</span> <span class="c1">#OC25012017</span>
+    <span class="c1">#E-Beam params in the order:        _Iavg, _e, _sig_e, _emit_x, _beta_x, _alpha_x, _eta_x, _eta_x_pr, _emit_y, _beta_y, _alpha_y</span>
+    <span class="n">allBeams</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="c1">#[&#39;NSLS-II Low Beta Day 1&#39;,     [0.5,    3,  0.89e-03,   0.9e-09,   2.02,     0,     0,      0,     8e-12,   1.06,      0]],</span>
+        <span class="c1">#[&#39;NSLS-II Low Beta Final&#39;,     [0.5,    3,  0.89e-03,  0.55e-09,   2.02,     0,     0,      0,     8e-12,   1.06,      0]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II Low Beta Day 1&#39;</span><span class="p">,</span>      <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>   <span class="mf">0.9e-09</span><span class="p">,</span>   <span class="mf">1.84</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span>   <span class="mf">1.17</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II Low Beta All IDs&#39;</span><span class="p">,</span>    <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.8e-03</span><span class="p">,</span>   <span class="mf">0.76e-09</span><span class="p">,</span>   <span class="mf">1.84</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>     <span class="mf">7e-12</span><span class="p">,</span>   <span class="mf">1.17</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II Low Beta Final&#39;</span><span class="p">,</span>      <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>  <span class="mf">0.55e-09</span><span class="p">,</span>   <span class="mf">1.84</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span>   <span class="mf">1.17</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="c1">#[&#39;NSLS-II High Beta Day 1&#39;,    [0.5,    3,  0.89e-03,   0.9e-09,  20.85,     0,     0,      0,     8e-12,    3.4,      0]],</span>
+        <span class="c1">#[&#39;NSLS-II High Beta Final&#39;,    [0.5,    3,  0.89e-03,  0.55e-09,  20.85,     0,     0,      0,     8e-12,    3.4,      0]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II High Beta Day 1&#39;</span><span class="p">,</span>     <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>   <span class="mf">0.9e-09</span><span class="p">,</span>   <span class="mf">20.1</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span>    <span class="mf">3.4</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II High Beta All IDs&#39;</span><span class="p">,</span>   <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.8e-03</span><span class="p">,</span>   <span class="mf">0.76e-09</span><span class="p">,</span>   <span class="mf">20.1</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>     <span class="mf">7e-12</span><span class="p">,</span>    <span class="mf">3.4</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II High Beta Final&#39;</span><span class="p">,</span>     <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>  <span class="mf">0.55e-09</span><span class="p">,</span>   <span class="mf">20.1</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span>    <span class="mf">3.4</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II 3PW Day 1&#39;</span><span class="p">,</span>           <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>   <span class="mf">0.9e-09</span><span class="p">,</span>  <span class="mf">2.956</span><span class="p">,</span> <span class="mf">1.932</span><span class="p">,</span> <span class="mf">0.137</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.105</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span> <span class="mf">19.653</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.806</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II 3PW Final&#39;</span><span class="p">,</span>           <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>  <span class="mf">0.55e-09</span><span class="p">,</span>  <span class="mf">2.956</span><span class="p">,</span> <span class="mf">1.932</span><span class="p">,</span> <span class="mf">0.137</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.105</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span> <span class="mf">19.653</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.806</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II BM Day 1&#39;</span><span class="p">,</span>            <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>   <span class="mf">0.9e-09</span><span class="p">,</span>    <span class="mf">1.5</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span> <span class="mf">0.137</span><span class="p">,</span>   <span class="o">-</span><span class="mf">0.1</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span>   <span class="mf">22.5</span><span class="p">,</span>   <span class="o">-</span><span class="mf">0.9</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;NSLS-II BM Final&#39;</span><span class="p">,</span>            <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>  <span class="mf">0.89e-03</span><span class="p">,</span>  <span class="mf">0.55e-09</span><span class="p">,</span>    <span class="mf">1.5</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span> <span class="mf">0.137</span><span class="p">,</span>   <span class="o">-</span><span class="mf">0.1</span><span class="p">,</span>     <span class="mf">8e-12</span><span class="p">,</span>   <span class="mf">22.5</span><span class="p">,</span>   <span class="o">-</span><span class="mf">0.9</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;DIAMOND Low Beta&#39;</span><span class="p">,</span>            <span class="p">[</span><span class="mf">0.3</span><span class="p">,</span>    <span class="mi">3</span><span class="p">,</span>   <span class="mf">1.0e-03</span><span class="p">,</span> <span class="mf">2.797e-09</span><span class="p">,</span>  <span class="mf">2.283</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span> <span class="mf">24.32e-12</span><span class="p">,</span>  <span class="mf">2.514</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;SOLEIL Short&#39;</span><span class="p">,</span>                <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">2.75</span><span class="p">,</span> <span class="mf">1.016e-03</span><span class="p">,</span>  <span class="mf">3.73e-09</span><span class="p">,</span>  <span class="mf">17.78</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>  <span class="mf">0.28</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>    <span class="mf">37e-12</span><span class="p">,</span>   <span class="mf">1.75</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;SOLEIL Medium&#39;</span><span class="p">,</span>               <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">2.75</span><span class="p">,</span> <span class="mf">1.016e-03</span><span class="p">,</span>  <span class="mf">3.73e-09</span><span class="p">,</span>    <span class="mf">4.0</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>  <span class="mf">0.13</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>    <span class="mf">37e-12</span><span class="p">,</span>   <span class="mf">1.77</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;SOLEIL Long&#39;</span><span class="p">,</span>                 <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">2.75</span><span class="p">,</span> <span class="mf">1.016e-03</span><span class="p">,</span>  <span class="mf">3.73e-09</span><span class="p">,</span>  <span class="mf">10.09</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span>   <span class="mf">0.2</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>    <span class="mf">37e-12</span><span class="p">,</span>   <span class="mf">8.01</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;SOLEIL BM 1 deg.&#39;</span><span class="p">,</span>            <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">2.75</span><span class="p">,</span> <span class="mf">1.016e-03</span><span class="p">,</span>  <span class="mf">3.73e-09</span><span class="p">,</span>  <span class="mf">0.603</span><span class="p">,</span> <span class="mf">0.776</span><span class="p">,</span> <span class="mf">0.039</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.088</span><span class="p">,</span>    <span class="mf">37e-12</span><span class="p">,</span>  <span class="mf">16.53</span><span class="p">,</span>  <span class="mf">0.931</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;SOLEIL BM 4 deg.&#39;</span><span class="p">,</span>            <span class="p">[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">2.75</span><span class="p">,</span> <span class="mf">1.016e-03</span><span class="p">,</span>  <span class="mf">3.73e-09</span><span class="p">,</span>  <span class="mf">0.375</span><span class="p">,</span> <span class="mf">0.024</span><span class="p">,</span> <span class="mf">0.021</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.037</span><span class="p">,</span>    <span class="mf">37e-12</span><span class="p">,</span>  <span class="mf">16.01</span><span class="p">,</span>  <span class="mf">0.899</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;ESRF Low Beta&#39;</span><span class="p">,</span>               <span class="p">[</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">6.04</span><span class="p">,</span>   <span class="mf">1.1e-03</span><span class="p">,</span>    <span class="mf">4.e-09</span><span class="p">,</span>   <span class="mf">0.35</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span> <span class="mf">0.031</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>    <span class="mf">25e-12</span><span class="p">,</span>   <span class="mf">2.97</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;ESRF High Beta&#39;</span><span class="p">,</span>              <span class="p">[</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">6.04</span><span class="p">,</span>   <span class="mf">1.1e-03</span><span class="p">,</span>    <span class="mf">4.e-09</span><span class="p">,</span>   <span class="mf">37.6</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span> <span class="mf">0.134</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>    <span class="mf">25e-12</span><span class="p">,</span>   <span class="mf">2.95</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;ESRF BM&#39;</span><span class="p">,</span>                     <span class="p">[</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">6.04</span><span class="p">,</span>   <span class="mf">1.1e-03</span><span class="p">,</span>    <span class="mf">4.e-09</span><span class="p">,</span>    <span class="mf">2.2</span><span class="p">,</span>  <span class="mf">1.43</span><span class="p">,</span> <span class="mf">0.045</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>    <span class="mf">25e-12</span><span class="p">,</span>   <span class="mf">34.9</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span> <span class="c1">#to correct _alpha_x, _alpha_y, _eta_x_pr</span>
+        <span class="p">[</span><span class="s1">&#39;ESRF-U BM&#39;</span><span class="p">,</span>                   <span class="p">[</span><span class="mf">0.2</span><span class="p">,</span>   <span class="mf">6.</span><span class="p">,</span>  <span class="mf">0.95e-03</span><span class="p">,</span>  <span class="mf">0.13e-09</span><span class="p">,</span> <span class="mf">1.8138</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.02</span><span class="p">,</span> <span class="mf">0.018</span><span class="p">,</span>  <span class="mf">0.016</span><span class="p">,</span>     <span class="mf">5e-12</span><span class="p">,</span> <span class="mf">2.5685</span><span class="p">,</span> <span class="mf">1.9307</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;APS&#39;</span><span class="p">,</span>                         <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span>    <span class="mi">7</span><span class="p">,</span>  <span class="mf">0.96e-03</span><span class="p">,</span>  <span class="mf">2.79e-09</span><span class="p">,</span>   <span class="mf">22.7</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span> <span class="mf">0.206</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>   <span class="mf">8.4e-12</span><span class="p">,</span>    <span class="mf">3.1</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="s1">&#39;SPring8 High Beta&#39;</span><span class="p">,</span>           <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span>    <span class="mi">8</span><span class="p">,</span>   <span class="mf">1.1e-03</span><span class="p">,</span>   <span class="mf">3.4e-09</span><span class="p">,</span>   <span class="mf">22.6</span><span class="p">,</span>     <span class="mi">0</span><span class="p">,</span> <span class="mf">0.107</span><span class="p">,</span>      <span class="mi">0</span><span class="p">,</span>   <span class="mf">6.8e-12</span><span class="p">,</span>    <span class="mf">5.6</span><span class="p">,</span>      <span class="mi">0</span><span class="p">]]</span>
+    <span class="p">]</span><span class="c1">#add more beams</span>
+    <span class="k">return</span> <span class="n">allBeams</span></div>
+
+
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="srwl_uti_src_e_beam">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_src.srwl_uti_src_e_beam">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_uti_src_e_beam</span><span class="p">(</span><span class="n">_nm</span><span class="p">,</span> <span class="n">_Iavg</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_e</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_sig_e</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_emit_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_beta_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_alpha_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_eta_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_eta_x_pr</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_emit_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_beta_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_alpha_y</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="c1">#def srwl_uti_src_e_beam(_nm):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Instantiates electron beam structures describing different existing sources</span>
+<span class="sd">    :param _nm: string identifying a source</span>
+<span class="sd">    :return: SRWLPartBeam object</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#allBeams = srwl_uti_src_e_beams_predef()</span>
+    <span class="n">allBeams</span> <span class="o">=</span> <span class="n">srwl_uti_src_e_beam_predef</span><span class="p">()</span> <span class="c1">#OC25012017</span>
+    <span class="n">sTest</span> <span class="o">=</span> <span class="n">_nm</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="n">sTest</span> <span class="o">=</span> <span class="n">sTest</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="n">sTest</span> <span class="o">=</span> <span class="n">sTest</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
+
+    <span class="n">resBeam</span> <span class="o">=</span> <span class="n">SRWLPartBeam</span><span class="p">()</span>
+    <span class="n">nBeams</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">allBeams</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nBeams</span><span class="p">):</span>
+        <span class="n">curInf</span> <span class="o">=</span> <span class="n">allBeams</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">curStr</span> <span class="o">=</span> <span class="n">curInf</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">curStr</span> <span class="o">=</span> <span class="n">curStr</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+        <span class="n">curStr</span> <span class="o">=</span> <span class="n">curStr</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+        <span class="n">curStr</span> <span class="o">=</span> <span class="n">curStr</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">sTest</span> <span class="o">==</span> <span class="n">curStr</span><span class="p">:</span>
+            <span class="n">ar</span> <span class="o">=</span> <span class="n">curInf</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_Iavg</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">_Iavg</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_e</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">_e</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_sig_e</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">_sig_e</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_emit_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">_emit_x</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_beta_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">_beta_x</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_alpha_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="n">_alpha_x</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_eta_x</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="n">_eta_x</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_eta_x_pr</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="n">_eta_x_pr</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_emit_y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span> <span class="o">=</span> <span class="n">_emit_y</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_beta_y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="n">_beta_y</span>
+            <span class="k">if</span><span class="p">(</span><span class="n">_alpha_y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="n">ar</span><span class="p">[</span><span class="mi">10</span><span class="p">]</span> <span class="o">=</span> <span class="n">_alpha_y</span>
+            <span class="n">resBeam</span><span class="o">.</span><span class="n">from_Twiss</span><span class="p">(</span><span class="n">_Iavg</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">_e</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">_sig_e</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">_emit_x</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">_beta_x</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">_alpha_x</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">_eta_x</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="n">_eta_x_pr</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">_emit_y</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">8</span><span class="p">],</span> <span class="n">_beta_y</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">9</span><span class="p">],</span> <span class="n">_alpha_y</span><span class="o">=</span><span class="n">ar</span><span class="p">[</span><span class="mi">10</span><span class="p">])</span>
+            <span class="k">return</span> <span class="n">resBeam</span>
+    <span class="k">return</span> <span class="kc">None</span></div>
+
+
+<span class="c1">#****************************************************************************</span>
+<div class="viewcode-block" id="srwl_uti_src_sph_wave">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.srwl_uti_src.srwl_uti_src_sph_wave">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">srwl_uti_src_sph_wave</span><span class="p">(</span><span class="n">_wfr</span><span class="p">,</span> <span class="n">_pol</span><span class="p">,</span> <span class="n">_norm</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span> <span class="c1">#Move it to different place (C part?)</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Auxiliary function: sets up spherical wavefront of a point source</span>
+<span class="sd">    :param _wfr: wavefront structure to be set up, using its input params</span>
+<span class="sd">    :param _pol: electric field polarization to set: =0 -Linear Horizontal; =1 -Linear Vertical;</span>
+<span class="sd">    :param _norm: normalizing coeficient</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">R</span> <span class="o">=</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">zStart</span> <span class="c1">#0.5*(_wfr.Rx + _wfr.Ry)</span>
+    <span class="n">Re2</span> <span class="o">=</span> <span class="n">R</span><span class="o">*</span><span class="n">R</span>
+    <span class="n">arE</span> <span class="o">=</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">arEx</span> <span class="k">if</span><span class="p">(</span><span class="n">_pol</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="k">else</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">arEy</span>
+
+    <span class="n">multE</span> <span class="o">=</span> <span class="n">_norm</span> <span class="c1">#to update, assuming _norm defining power of the source</span>
+    
+    <span class="n">eStep</span> <span class="o">=</span> <span class="mi">0</span> <span class="k">if</span><span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">ne</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="k">else</span> <span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">eFin</span> <span class="o">-</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">eStart</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">ne</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">xStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">xFin</span> <span class="o">-</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">xStart</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">nx</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">yStep</span> <span class="o">=</span> <span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">yFin</span> <span class="o">-</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">yStart</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">ny</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">yStart</span> <span class="o">-</span> <span class="n">yStep</span> <span class="o">-</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">yc</span>
+    <span class="k">for</span> <span class="n">iy</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">ny</span><span class="p">):</span>
+        <span class="n">y</span> <span class="o">+=</span> <span class="n">yStep</span>
+        <span class="n">ye2</span> <span class="o">=</span> <span class="n">y</span><span class="o">*</span><span class="n">y</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">xStart</span> <span class="o">-</span> <span class="n">xStep</span> <span class="o">-</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">xc</span>
+        <span class="k">for</span> <span class="n">ix</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">nx</span><span class="p">):</span>
+            <span class="n">x</span> <span class="o">+=</span> <span class="n">xStep</span>
+            <span class="n">xe2</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span>
+            <span class="n">curR</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">Re2</span> <span class="o">+</span> <span class="n">xe2</span> <span class="o">+</span> <span class="n">ye2</span><span class="p">)</span>
+            <span class="n">mult</span> <span class="o">=</span> <span class="n">multE</span><span class="o">/</span><span class="n">curR</span>
+            <span class="n">phEn</span> <span class="o">=</span> <span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">eFin</span> <span class="o">-</span> <span class="n">eStep</span>
+            <span class="k">for</span> <span class="n">ie</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">_wfr</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">ne</span><span class="p">):</span>
+                <span class="n">phEn</span> <span class="o">+=</span> <span class="n">eStep</span>
+                <span class="n">k</span> <span class="o">=</span> <span class="p">(</span><span class="mf">5.067730652e+06</span><span class="p">)</span><span class="o">*</span><span class="n">phEn</span>
+                <span class="n">ph</span> <span class="o">=</span> <span class="n">k</span><span class="o">*</span><span class="n">curR</span>
+                <span class="n">arE</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">mult</span><span class="o">*</span><span class="n">cos</span><span class="p">(</span><span class="n">ph</span><span class="p">)</span>
+                <span class="n">arE</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">mult</span><span class="o">*</span><span class="n">sin</span><span class="p">(</span><span class="n">ph</span><span class="p">)</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="mi">2</span></div>
+
+        
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

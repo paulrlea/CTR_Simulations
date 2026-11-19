@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_rad_resize" kind="struct" language="C++" prot="public">
+    <compoundname>srTRadResize</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_rad_resize_1af4e0c36cab1a7ff631f91a5eafd6c6e6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::pem</definition>
+        <argsstring></argsstring>
+        <name>pem</name>
+        <qualifiedname>srTRadResize::pem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="558" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a0008c24a743612b2bd2b7dfccd6eb8cc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::ped</definition>
+        <argsstring></argsstring>
+        <name>ped</name>
+        <qualifiedname>srTRadResize::ped</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="558" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a9dfe0ffdb5f428344338c7f1115f318e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::pxm</definition>
+        <argsstring></argsstring>
+        <name>pxm</name>
+        <qualifiedname>srTRadResize::pxm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="558" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a62ac69ac78b86a3f889f337da39e0aa8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::pxd</definition>
+        <argsstring></argsstring>
+        <name>pxd</name>
+        <qualifiedname>srTRadResize::pxd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="558" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1aec85e266233becaac38aaa33b2a2a6a7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::pzm</definition>
+        <argsstring></argsstring>
+        <name>pzm</name>
+        <qualifiedname>srTRadResize::pzm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="558" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a9fece02d11aca54e1fa54efda380c27d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::pzd</definition>
+        <argsstring></argsstring>
+        <name>pzd</name>
+        <qualifiedname>srTRadResize::pzd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="558" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a0853aa94d31cff79dd8d0c59ea38bb44" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::RelCenPosE</definition>
+        <argsstring></argsstring>
+        <name>RelCenPosE</name>
+        <qualifiedname>srTRadResize::RelCenPosE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="561" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1acea558e14170af5637f3148a0c972274" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::RelCenPosX</definition>
+        <argsstring></argsstring>
+        <name>RelCenPosX</name>
+        <qualifiedname>srTRadResize::RelCenPosX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="561" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a7e586dd23254be4a64e56eb63e82c8d4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::RelCenPosZ</definition>
+        <argsstring></argsstring>
+        <name>RelCenPosZ</name>
+        <qualifiedname>srTRadResize::RelCenPosZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="561" column="30" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a0f2f632f2aeb45b25f5f55de3e70ccf5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::RelCenPosTol</definition>
+        <argsstring></argsstring>
+        <name>RelCenPosTol</name>
+        <qualifiedname>srTRadResize::RelCenPosTol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="562" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a10f32368e0bbeb80c47f54d8b6648306" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadResize::ShiftTypeBeforeRes</definition>
+        <argsstring></argsstring>
+        <name>ShiftTypeBeforeRes</name>
+        <qualifiedname>srTRadResize::ShiftTypeBeforeRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="564" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a23e609418b8830a2c57830425370c4c9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::eCenShift</definition>
+        <argsstring></argsstring>
+        <name>eCenShift</name>
+        <qualifiedname>srTRadResize::eCenShift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="565" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a3efa720558c95e07b18850d701502d83" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::xCenShift</definition>
+        <argsstring></argsstring>
+        <name>xCenShift</name>
+        <qualifiedname>srTRadResize::xCenShift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="565" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1aeac4a175fa7c88823b76aba441a8915d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::zCenShift</definition>
+        <argsstring></argsstring>
+        <name>zCenShift</name>
+        <qualifiedname>srTRadResize::zCenShift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="565" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1adf0d28ccf2bbd2bd1b09d10455f2b023" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadResize::ModeBits</definition>
+        <argsstring></argsstring>
+        <name>ModeBits</name>
+        <qualifiedname>srTRadResize::ModeBits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="569" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a2f6ac13262a0abdaeb53c694ae581409" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::PropAutoPrec</definition>
+        <argsstring></argsstring>
+        <name>PropAutoPrec</name>
+        <qualifiedname>srTRadResize::PropAutoPrec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="570" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="570" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1acbd2cab9505fec813e957c6e590924ea" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::vLxOut</definition>
+        <argsstring></argsstring>
+        <name>vLxOut</name>
+        <qualifiedname>srTRadResize::vLxOut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="573" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1abe7b040663733596af9d34197b94a57e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::vLyOut</definition>
+        <argsstring></argsstring>
+        <name>vLyOut</name>
+        <qualifiedname>srTRadResize::vLyOut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="573" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1ac2f7444392253e3192a596755b7aa48d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::vLzOut</definition>
+        <argsstring></argsstring>
+        <name>vLzOut</name>
+        <qualifiedname>srTRadResize::vLzOut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="573" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1acc9aff3fa62e2f0b48840254ba5bb7a3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::vHxOut</definition>
+        <argsstring></argsstring>
+        <name>vHxOut</name>
+        <qualifiedname>srTRadResize::vHxOut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="574" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a41a5acd8fd119a09364949197c6063ff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::vHyOut</definition>
+        <argsstring></argsstring>
+        <name>vHyOut</name>
+        <qualifiedname>srTRadResize::vHyOut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="574" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1af720f1f20d68be14c8960041ccb3c9d2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::Rx</definition>
+        <argsstring></argsstring>
+        <name>Rx</name>
+        <qualifiedname>srTRadResize::Rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="576" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a47c298f1d500635d261e8b193fb20d78" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::xc</definition>
+        <argsstring></argsstring>
+        <name>xc</name>
+        <qualifiedname>srTRadResize::xc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="576" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1aea51890adac9ddaf9ce4eae03dfafece" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::Rz</definition>
+        <argsstring></argsstring>
+        <name>Rz</name>
+        <qualifiedname>srTRadResize::Rz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="576" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a04bb2fdfe2161013eb07dd4b6befc8c9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::zc</definition>
+        <argsstring></argsstring>
+        <name>zc</name>
+        <qualifiedname>srTRadResize::zc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="576" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a3b6d0d45a0139b3c966c7ca5d6f4592b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::eStart</definition>
+        <argsstring></argsstring>
+        <name>eStart</name>
+        <qualifiedname>srTRadResize::eStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="579" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1ab736d8cef48f9cd0e6f9227754e82b9e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::eStep</definition>
+        <argsstring></argsstring>
+        <name>eStep</name>
+        <qualifiedname>srTRadResize::eStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="579" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a3f68ae9e762298c8c83db035cd6e66c3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::xStart</definition>
+        <argsstring></argsstring>
+        <name>xStart</name>
+        <qualifiedname>srTRadResize::xStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="579" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1aef08ced8d33cdd52e053fd98be6d1a49" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::xStep</definition>
+        <argsstring></argsstring>
+        <name>xStep</name>
+        <qualifiedname>srTRadResize::xStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="579" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1af560f1208af1fb546d861f8419094b88" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::zStart</definition>
+        <argsstring></argsstring>
+        <name>zStart</name>
+        <qualifiedname>srTRadResize::zStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="579" column="34" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1abdf171f9d17aa202feecf054ad5dbd41" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadResize::zStep</definition>
+        <argsstring></argsstring>
+        <name>zStep</name>
+        <qualifiedname>srTRadResize::zStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="579" column="41" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a90b9f4b0dbff5e5a3a2c1a4327745feb" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadResize::ne</definition>
+        <argsstring></argsstring>
+        <name>ne</name>
+        <qualifiedname>srTRadResize::ne</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="580" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1a2b8bd6417214b26bb08989a8e8892343" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadResize::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <qualifiedname>srTRadResize::nx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="580" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_rad_resize_1aaad1cc836d987fd6a1aa632ed5e184a9" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadResize::nz</definition>
+        <argsstring></argsstring>
+        <name>nz</name>
+        <qualifiedname>srTRadResize::nz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="580" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="580" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_rad_resize_1a9de5edf60c4bb336f5ac26eb6efd04d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadResize::srTRadResize</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadResize</name>
+        <qualifiedname>srTRadResize::srTRadResize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="582" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="582" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_resize_1a3d535ae3ef4913e63367154ba7dff60f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadResize::useOtherSideFFT</definition>
+        <argsstring>(int in=-1)</argsstring>
+        <name>useOtherSideFFT</name>
+        <qualifiedname>srTRadResize::useOtherSideFFT</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>in</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="614" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="614" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_resize_1af27e27183469ffe1653a52b209e98bca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadResize::doNotTreatSpherTerm</definition>
+        <argsstring>(int in=-1)</argsstring>
+        <name>doNotTreatSpherTerm</name>
+        <qualifiedname>srTRadResize::doNotTreatSpherTerm</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>in</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="620" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="620" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_resize_1a0457c59c53c413eed431368ddf90931a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadResize::propAutoResizeBefore</definition>
+        <argsstring>(int in=-1)</argsstring>
+        <name>propAutoResizeBefore</name>
+        <qualifiedname>srTRadResize::propAutoResizeBefore</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>in</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="626" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="626" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_resize_1a9e040f568badf690dc2e300b051eedfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadResize::propAutoResizeAfter</definition>
+        <argsstring>(int in=-1)</argsstring>
+        <name>propAutoResizeAfter</name>
+        <qualifiedname>srTRadResize::propAutoResizeAfter</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>in</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="632" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="632" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_t_rad_resize_1a954f2152910b15eded8c15db150530e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char srTRadResize::propAllowUnderSamp</definition>
+        <argsstring>(int in=-1)</argsstring>
+        <name>propAllowUnderSamp</name>
+        <qualifiedname>srTRadResize::propAllowUnderSamp</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>in</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="638" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="638" bodyend="649"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="556" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="556" bodyend="650"/>
+    <listofallmembers>
+      <member refid="structsr_t_rad_resize_1af27e27183469ffe1653a52b209e98bca" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>doNotTreatSpherTerm</name></member>
+      <member refid="structsr_t_rad_resize_1a23e609418b8830a2c57830425370c4c9" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>eCenShift</name></member>
+      <member refid="structsr_t_rad_resize_1a3b6d0d45a0139b3c966c7ca5d6f4592b" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>eStart</name></member>
+      <member refid="structsr_t_rad_resize_1ab736d8cef48f9cd0e6f9227754e82b9e" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>eStep</name></member>
+      <member refid="structsr_t_rad_resize_1adf0d28ccf2bbd2bd1b09d10455f2b023" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>ModeBits</name></member>
+      <member refid="structsr_t_rad_resize_1a90b9f4b0dbff5e5a3a2c1a4327745feb" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>ne</name></member>
+      <member refid="structsr_t_rad_resize_1a2b8bd6417214b26bb08989a8e8892343" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>nx</name></member>
+      <member refid="structsr_t_rad_resize_1aaad1cc836d987fd6a1aa632ed5e184a9" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>nz</name></member>
+      <member refid="structsr_t_rad_resize_1a0008c24a743612b2bd2b7dfccd6eb8cc" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>ped</name></member>
+      <member refid="structsr_t_rad_resize_1af4e0c36cab1a7ff631f91a5eafd6c6e6" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>pem</name></member>
+      <member refid="structsr_t_rad_resize_1a954f2152910b15eded8c15db150530e8" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>propAllowUnderSamp</name></member>
+      <member refid="structsr_t_rad_resize_1a2f6ac13262a0abdaeb53c694ae581409" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>PropAutoPrec</name></member>
+      <member refid="structsr_t_rad_resize_1a9e040f568badf690dc2e300b051eedfb" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>propAutoResizeAfter</name></member>
+      <member refid="structsr_t_rad_resize_1a0457c59c53c413eed431368ddf90931a" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>propAutoResizeBefore</name></member>
+      <member refid="structsr_t_rad_resize_1a62ac69ac78b86a3f889f337da39e0aa8" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>pxd</name></member>
+      <member refid="structsr_t_rad_resize_1a9dfe0ffdb5f428344338c7f1115f318e" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>pxm</name></member>
+      <member refid="structsr_t_rad_resize_1a9fece02d11aca54e1fa54efda380c27d" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>pzd</name></member>
+      <member refid="structsr_t_rad_resize_1aec85e266233becaac38aaa33b2a2a6a7" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>pzm</name></member>
+      <member refid="structsr_t_rad_resize_1a0853aa94d31cff79dd8d0c59ea38bb44" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>RelCenPosE</name></member>
+      <member refid="structsr_t_rad_resize_1a0f2f632f2aeb45b25f5f55de3e70ccf5" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>RelCenPosTol</name></member>
+      <member refid="structsr_t_rad_resize_1acea558e14170af5637f3148a0c972274" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>RelCenPosX</name></member>
+      <member refid="structsr_t_rad_resize_1a7e586dd23254be4a64e56eb63e82c8d4" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>RelCenPosZ</name></member>
+      <member refid="structsr_t_rad_resize_1af720f1f20d68be14c8960041ccb3c9d2" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>Rx</name></member>
+      <member refid="structsr_t_rad_resize_1aea51890adac9ddaf9ce4eae03dfafece" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>Rz</name></member>
+      <member refid="structsr_t_rad_resize_1a10f32368e0bbeb80c47f54d8b6648306" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>ShiftTypeBeforeRes</name></member>
+      <member refid="structsr_t_rad_resize_1a9de5edf60c4bb336f5ac26eb6efd04d2" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>srTRadResize</name></member>
+      <member refid="structsr_t_rad_resize_1a3d535ae3ef4913e63367154ba7dff60f" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>useOtherSideFFT</name></member>
+      <member refid="structsr_t_rad_resize_1acc9aff3fa62e2f0b48840254ba5bb7a3" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>vHxOut</name></member>
+      <member refid="structsr_t_rad_resize_1a41a5acd8fd119a09364949197c6063ff" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>vHyOut</name></member>
+      <member refid="structsr_t_rad_resize_1acbd2cab9505fec813e957c6e590924ea" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>vLxOut</name></member>
+      <member refid="structsr_t_rad_resize_1abe7b040663733596af9d34197b94a57e" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>vLyOut</name></member>
+      <member refid="structsr_t_rad_resize_1ac2f7444392253e3192a596755b7aa48d" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>vLzOut</name></member>
+      <member refid="structsr_t_rad_resize_1a47c298f1d500635d261e8b193fb20d78" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>xc</name></member>
+      <member refid="structsr_t_rad_resize_1a3efa720558c95e07b18850d701502d83" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>xCenShift</name></member>
+      <member refid="structsr_t_rad_resize_1a3f68ae9e762298c8c83db035cd6e66c3" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>xStart</name></member>
+      <member refid="structsr_t_rad_resize_1aef08ced8d33cdd52e053fd98be6d1a49" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>xStep</name></member>
+      <member refid="structsr_t_rad_resize_1a04bb2fdfe2161013eb07dd4b6befc8c9" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>zc</name></member>
+      <member refid="structsr_t_rad_resize_1aeac4a175fa7c88823b76aba441a8915d" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>zCenShift</name></member>
+      <member refid="structsr_t_rad_resize_1af560f1208af1fb546d861f8419094b88" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>zStart</name></member>
+      <member refid="structsr_t_rad_resize_1abdf171f9d17aa202feecf054ad5dbd41" prot="public" virt="non-virtual"><scope>srTRadResize</scope><name>zStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

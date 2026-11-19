@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_t_drift_prop_buf_vars" kind="struct" language="C++" prot="public">
+    <compoundname>srTDriftPropBufVars</compoundname>
+    <includes refid="sroptdrf_8h" local="no">sroptdrf.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a658764488eebcb2c918f95e2b848c64e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTDriftPropBufVars::PassNo</definition>
+        <argsstring></argsstring>
+        <name>PassNo</name>
+        <qualifiedname>srTDriftPropBufVars::PassNo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="32" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a942b03cdd65db90714320c51e7878345" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::Pi_d_LambdaM_d_Length</definition>
+        <argsstring></argsstring>
+        <name>Pi_d_LambdaM_d_Length</name>
+        <qualifiedname>srTDriftPropBufVars::Pi_d_LambdaM_d_Length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="34" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a0d187aab8e224829b31f6e60b5ecba78" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::InvLength</definition>
+        <argsstring></argsstring>
+        <name>InvLength</name>
+        <qualifiedname>srTDriftPropBufVars::InvLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="35" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a2f50cda78e174a80a43c6e4fa934a4f0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::InvLength_d_Lambda</definition>
+        <argsstring></argsstring>
+        <name>InvLength_d_Lambda</name>
+        <qualifiedname>srTDriftPropBufVars::InvLength_d_Lambda</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="36" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a92f94519789a8c922ffda9eb16196f54" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::xc</definition>
+        <argsstring></argsstring>
+        <name>xc</name>
+        <qualifiedname>srTDriftPropBufVars::xc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="37" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a9f1cc2468f59b6a3ec225dd79e34c875" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::zc</definition>
+        <argsstring></argsstring>
+        <name>zc</name>
+        <qualifiedname>srTDriftPropBufVars::zc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="37" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a1a1e72bf716e57243628135e30373bb3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::ExtraConstPhase</definition>
+        <argsstring></argsstring>
+        <name>ExtraConstPhase</name>
+        <qualifiedname>srTDriftPropBufVars::ExtraConstPhase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="38" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a522219b01eb2f7829a754d1e32d0611e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::invRx</definition>
+        <argsstring></argsstring>
+        <name>invRx</name>
+        <qualifiedname>srTDriftPropBufVars::invRx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="39" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1aad44a7cbedd8dfafd9ce53f07b70de77" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::invRz</definition>
+        <argsstring></argsstring>
+        <name>invRz</name>
+        <qualifiedname>srTDriftPropBufVars::invRz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="39" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a8e031b54aa93dde2fb030dee138934e8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::sqrtAbsRxRz</definition>
+        <argsstring></argsstring>
+        <name>sqrtAbsRxRz</name>
+        <qualifiedname>srTDriftPropBufVars::sqrtAbsRxRz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="40" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1ac2fd70d25f0dc59f7bb971059f313eab" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::dPhaseSignR</definition>
+        <argsstring></argsstring>
+        <name>dPhaseSignR</name>
+        <qualifiedname>srTDriftPropBufVars::dPhaseSignR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="40" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a14e765631e1ee4a89a2a7c1db22048de" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::Pi_MultLambdaM_Rx</definition>
+        <argsstring></argsstring>
+        <name>Pi_MultLambdaM_Rx</name>
+        <qualifiedname>srTDriftPropBufVars::Pi_MultLambdaM_Rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="41" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a09be11233a7e6d7b9ebe4a88d253eb97" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::Pi_MultLambdaM_Rz</definition>
+        <argsstring></argsstring>
+        <name>Pi_MultLambdaM_Rz</name>
+        <qualifiedname>srTDriftPropBufVars::Pi_MultLambdaM_Rz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="41" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a5c0961d9ef5dc11c16915afbf1c37055" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::MultEn_TwoPi_L_d_LambdaM</definition>
+        <argsstring></argsstring>
+        <name>MultEn_TwoPi_L_d_LambdaM</name>
+        <qualifiedname>srTDriftPropBufVars::MultEn_TwoPi_L_d_LambdaM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="41" column="44" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a5a73e8bb0971ca714f8b71076eab08e0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::Lx</definition>
+        <argsstring></argsstring>
+        <name>Lx</name>
+        <qualifiedname>srTDriftPropBufVars::Lx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="42" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1abc72f7095b99899565947302b9a49c67" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::Lz</definition>
+        <argsstring></argsstring>
+        <name>Lz</name>
+        <qualifiedname>srTDriftPropBufVars::Lz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="42" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1aacaef3ba3b000e9a024d14cdbe08c3ff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::invRxL</definition>
+        <argsstring></argsstring>
+        <name>invRxL</name>
+        <qualifiedname>srTDriftPropBufVars::invRxL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="42" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1aa0792a65a9c07fbc8b7ef1ae924c7eda" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::invRzL</definition>
+        <argsstring></argsstring>
+        <name>invRzL</name>
+        <qualifiedname>srTDriftPropBufVars::invRzL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="42" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a0442426fa70354beded82153f321b0b3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::sqrt_LxLz_d_L</definition>
+        <argsstring></argsstring>
+        <name>sqrt_LxLz_d_L</name>
+        <qualifiedname>srTDriftPropBufVars::sqrt_LxLz_d_L</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="42" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1af379d263f8388ce52eff08bf638a1a41" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::phase_term_signLxLz</definition>
+        <argsstring></argsstring>
+        <name>phase_term_signLxLz</name>
+        <qualifiedname>srTDriftPropBufVars::phase_term_signLxLz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="42" column="42" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a159bd8bbe3131dbff960726cc4037ec2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::Pi_d_LambdaM_d_Rx</definition>
+        <argsstring></argsstring>
+        <name>Pi_d_LambdaM_d_Rx</name>
+        <qualifiedname>srTDriftPropBufVars::Pi_d_LambdaM_d_Rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="43" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a1d19e541386f59ee88eca476420bea9e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::Pi_d_LambdaM_d_Rz</definition>
+        <argsstring></argsstring>
+        <name>Pi_d_LambdaM_d_Rz</name>
+        <qualifiedname>srTDriftPropBufVars::Pi_d_LambdaM_d_Rz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="43" column="26" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a721a8670e4516832b7665142e85c2cf3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::kx_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring></argsstring>
+        <name>kx_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftPropBufVars::kx_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="44" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a1e40ae0098e73b4c7fa67225923decc0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::kxc_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring></argsstring>
+        <name>kxc_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftPropBufVars::kxc_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="44" column="36" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a485cc295f36b039ec24c1f781f8e66fe" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::kz_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring></argsstring>
+        <name>kz_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftPropBufVars::kz_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="44" column="65" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a952a0128ac1b49db81dfa86f50fbc142" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::kzc_AnalytTreatQuadPhaseTerm</definition>
+        <argsstring></argsstring>
+        <name>kzc_AnalytTreatQuadPhaseTerm</name>
+        <qualifiedname>srTDriftPropBufVars::kzc_AnalytTreatQuadPhaseTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="44" column="93" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1a77e4b20d2d06df5899b49d8ca59730f5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::TwoPiXc_d_LambdaMRx</definition>
+        <argsstring></argsstring>
+        <name>TwoPiXc_d_LambdaMRx</name>
+        <qualifiedname>srTDriftPropBufVars::TwoPiXc_d_LambdaMRx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="46" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1aa7345f059d1f447c1f0d534b6f7fcd0d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::TwoPiZc_d_LambdaMRz</definition>
+        <argsstring></argsstring>
+        <name>TwoPiZc_d_LambdaMRz</name>
+        <qualifiedname>srTDriftPropBufVars::TwoPiZc_d_LambdaMRz</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="46" column="28" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1af78769481a8270251d57280413ee54a3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::UnderSamplingX</definition>
+        <argsstring></argsstring>
+        <name>UnderSamplingX</name>
+        <qualifiedname>srTDriftPropBufVars::UnderSamplingX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="47" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_t_drift_prop_buf_vars_1ae316073830cb5279e54f1e864586060b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTDriftPropBufVars::UnderSamplingZ</definition>
+        <argsstring></argsstring>
+        <name>UnderSamplingZ</name>
+        <qualifiedname>srTDriftPropBufVars::UnderSamplingZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="47" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_t_drift_prop_buf_vars_1aa9d1c332cb68ff51f9f87c50811bfbc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTDriftPropBufVars::srTDriftPropBufVars</definition>
+        <argsstring>()</argsstring>
+        <name>srTDriftPropBufVars</name>
+        <qualifiedname>srTDriftPropBufVars::srTDriftPropBufVars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="61" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: <ref refid="sroptdrf_8h_source" kindref="compound">sroptdrf.h</ref> Description: Optical element: Drift space (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" line="31" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h" bodystart="31" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structsr_t_drift_prop_buf_vars_1ac2fd70d25f0dc59f7bb971059f313eab" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>dPhaseSignR</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a1a1e72bf716e57243628135e30373bb3" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>ExtraConstPhase</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a0d187aab8e224829b31f6e60b5ecba78" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>InvLength</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a2f50cda78e174a80a43c6e4fa934a4f0" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>InvLength_d_Lambda</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a522219b01eb2f7829a754d1e32d0611e" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>invRx</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1aacaef3ba3b000e9a024d14cdbe08c3ff" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>invRxL</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1aad44a7cbedd8dfafd9ce53f07b70de77" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>invRz</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1aa0792a65a9c07fbc8b7ef1ae924c7eda" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>invRzL</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a721a8670e4516832b7665142e85c2cf3" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>kx_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a1e40ae0098e73b4c7fa67225923decc0" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>kxc_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a485cc295f36b039ec24c1f781f8e66fe" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>kz_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a952a0128ac1b49db81dfa86f50fbc142" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>kzc_AnalytTreatQuadPhaseTerm</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a5a73e8bb0971ca714f8b71076eab08e0" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>Lx</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1abc72f7095b99899565947302b9a49c67" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>Lz</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a5c0961d9ef5dc11c16915afbf1c37055" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>MultEn_TwoPi_L_d_LambdaM</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a658764488eebcb2c918f95e2b848c64e" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>PassNo</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1af379d263f8388ce52eff08bf638a1a41" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>phase_term_signLxLz</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a942b03cdd65db90714320c51e7878345" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>Pi_d_LambdaM_d_Length</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a159bd8bbe3131dbff960726cc4037ec2" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>Pi_d_LambdaM_d_Rx</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a1d19e541386f59ee88eca476420bea9e" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>Pi_d_LambdaM_d_Rz</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a14e765631e1ee4a89a2a7c1db22048de" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>Pi_MultLambdaM_Rx</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a09be11233a7e6d7b9ebe4a88d253eb97" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>Pi_MultLambdaM_Rz</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a0442426fa70354beded82153f321b0b3" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>sqrt_LxLz_d_L</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a8e031b54aa93dde2fb030dee138934e8" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>sqrtAbsRxRz</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1aa9d1c332cb68ff51f9f87c50811bfbc9" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>srTDriftPropBufVars</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a77e4b20d2d06df5899b49d8ca59730f5" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>TwoPiXc_d_LambdaMRx</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1aa7345f059d1f447c1f0d534b6f7fcd0d" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>TwoPiZc_d_LambdaMRz</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1af78769481a8270251d57280413ee54a3" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>UnderSamplingX</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1ae316073830cb5279e54f1e864586060b" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>UnderSamplingZ</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a92f94519789a8c922ffda9eb16196f54" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>xc</name></member>
+      <member refid="structsr_t_drift_prop_buf_vars_1a9f1cc2468f59b6a3ec225dd79e34c875" prot="public" virt="non-virtual"><scope>srTDriftPropBufVars</scope><name>zc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

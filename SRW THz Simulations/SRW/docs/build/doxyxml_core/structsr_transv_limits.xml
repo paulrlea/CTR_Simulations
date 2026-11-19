@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_transv_limits" kind="struct" language="C++" prot="public">
+    <compoundname>srTransvLimits</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_transv_limits_1a267849c6e81933cc798807646b39cde3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTransvLimits::Xmin</definition>
+        <argsstring></argsstring>
+        <name>Xmin</name>
+        <qualifiedname>srTransvLimits::Xmin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1966" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_transv_limits_1a27d7dcb478b64b45b4e750e4321420df" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTransvLimits::Xmax</definition>
+        <argsstring></argsstring>
+        <name>Xmax</name>
+        <qualifiedname>srTransvLimits::Xmax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1966" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_transv_limits_1a6281cd7c7aaad92859cb28b846d0ebaf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTransvLimits::Ymin</definition>
+        <argsstring></argsstring>
+        <name>Ymin</name>
+        <qualifiedname>srTransvLimits::Ymin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1966" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_transv_limits_1a387608d4ae41530cb2399eaa5bf759a1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTransvLimits::Ymax</definition>
+        <argsstring></argsstring>
+        <name>Ymax</name>
+        <qualifiedname>srTransvLimits::Ymax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1966" column="23" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_transv_limits_1ac3df129bec8ce8568f96c9d507927656" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTransvLimits::LimitsAreDefined</definition>
+        <argsstring></argsstring>
+        <name>LimitsAreDefined</name>
+        <qualifiedname>srTransvLimits::LimitsAreDefined</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1967" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1967" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsr_transv_limits_1ae62ad58523005d01c0de3d5c4f9d14a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTransvLimits::srTransvLimits</definition>
+        <argsstring>()</argsstring>
+        <name>srTransvLimits</name>
+        <qualifiedname>srTransvLimits::srTransvLimits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1968" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1968" bodyend="1968"/>
+      </memberdef>
+      <memberdef kind="function" id="structsr_transv_limits_1a05fcf82eb761d476b0f0bdc0df4c42bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTransvLimits::Setup</definition>
+        <argsstring>(double InXmin, double InDelX, double InYmin, double InDelY)</argsstring>
+        <name>Setup</name>
+        <qualifiedname>srTransvLimits::Setup</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>InXmin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InDelX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InYmin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InDelY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1970" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1970" bodyend="1974"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="1965" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="1965" bodyend="1975"/>
+    <listofallmembers>
+      <member refid="structsr_transv_limits_1ac3df129bec8ce8568f96c9d507927656" prot="public" virt="non-virtual"><scope>srTransvLimits</scope><name>LimitsAreDefined</name></member>
+      <member refid="structsr_transv_limits_1a05fcf82eb761d476b0f0bdc0df4c42bd" prot="public" virt="non-virtual"><scope>srTransvLimits</scope><name>Setup</name></member>
+      <member refid="structsr_transv_limits_1ae62ad58523005d01c0de3d5c4f9d14a2" prot="public" virt="non-virtual"><scope>srTransvLimits</scope><name>srTransvLimits</name></member>
+      <member refid="structsr_transv_limits_1a27d7dcb478b64b45b4e750e4321420df" prot="public" virt="non-virtual"><scope>srTransvLimits</scope><name>Xmax</name></member>
+      <member refid="structsr_transv_limits_1a267849c6e81933cc798807646b39cde3" prot="public" virt="non-virtual"><scope>srTransvLimits</scope><name>Xmin</name></member>
+      <member refid="structsr_transv_limits_1a387608d4ae41530cb2399eaa5bf759a1" prot="public" virt="non-virtual"><scope>srTransvLimits</scope><name>Ymax</name></member>
+      <member refid="structsr_transv_limits_1a6281cd7c7aaad92859cb28b846d0ebaf" prot="public" virt="non-virtual"><scope>srTransvLimits</scope><name>Ymin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

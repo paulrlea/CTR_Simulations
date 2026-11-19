@@ -1,0 +1,1265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_rad_int_power_density" kind="class" language="C++" prot="public">
+    <compoundname>srTRadIntPowerDensity</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1ae0c94fdc773263789265e9f9f6575833" prot="private" static="no" mutable="no">
+        <type><ref refid="classsr_t_cos_and_sin_comp" kindref="compound">srTCosAndSinComp</ref></type>
+        <definition>srTCosAndSinComp srTRadIntPowerDensity::CosAndSinComp</definition>
+        <argsstring></argsstring>
+        <name>CosAndSinComp</name>
+        <qualifiedname>srTRadIntPowerDensity::CosAndSinComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="47" column="18" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1aad5b3892f2551bdb0ce74f31bbaefb0b" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPowerDensity::LongIntTypeG</definition>
+        <argsstring></argsstring>
+        <name>LongIntTypeG</name>
+        <qualifiedname>srTRadIntPowerDensity::LongIntTypeG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="49" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1ad75e4fed78c99f8315f3587d63e3e5c3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::sIntegStartG</definition>
+        <argsstring></argsstring>
+        <name>sIntegStartG</name>
+        <qualifiedname>srTRadIntPowerDensity::sIntegStartG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="50" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a713d6bc4b2cb2e82012ce85f43643d8a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::sIntegFinG</definition>
+        <argsstring></argsstring>
+        <name>sIntegFinG</name>
+        <qualifiedname>srTRadIntPowerDensity::sIntegFinG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="50" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a6c24154b7287cec25c715f89846256f9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::AmOfPerG</definition>
+        <argsstring></argsstring>
+        <name>AmOfPerG</name>
+        <qualifiedname>srTRadIntPowerDensity::AmOfPerG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="51" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1ac42d18e43d94fddd18323a3e16bdb547" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTRadIntPowerDensity::BtxArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BtxArrP</name>
+        <qualifiedname>srTRadIntPowerDensity::BtxArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="53" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a24041717794b9742c232fc396feb4f64" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPowerDensity::XArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>XArrP</name>
+        <qualifiedname>srTRadIntPowerDensity::XArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="53" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a438a1de652f43918363b98a1e8d0c0a7" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPowerDensity::BxArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BxArrP</name>
+        <qualifiedname>srTRadIntPowerDensity::BxArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="53" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a134269a1ca3127a5e46c8fdd07f591a7" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* srTRadIntPowerDensity::BtzArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BtzArrP</name>
+        <qualifiedname>srTRadIntPowerDensity::BtzArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="54" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a8a2d64dbb81c4e5f597efd32f0fbc35a" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPowerDensity::ZArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>ZArrP</name>
+        <qualifiedname>srTRadIntPowerDensity::ZArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="54" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a80082c1571af7f7e1720f87f5da48bda" prot="private" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * srTRadIntPowerDensity::BzArrP[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>BzArrP</name>
+        <qualifiedname>srTRadIntPowerDensity::BzArrP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="54" column="22" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1aea49f04b7801056aa6690d4dee262dae" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long srTRadIntPowerDensity::AmOfPointsOnLevel[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>AmOfPointsOnLevel</name>
+        <qualifiedname>srTRadIntPowerDensity::AmOfPointsOnLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="56" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a1b280f855f0132dbadddac464bf19441" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadIntPowerDensity::NumberOfLevelsFilledG</definition>
+        <argsstring></argsstring>
+        <name>NumberOfLevelsFilledG</name>
+        <qualifiedname>srTRadIntPowerDensity::NumberOfLevelsFilledG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="57" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1af97cc43d16ea25b48a6537840c63637b" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long srTRadIntPowerDensity::MaxLevelForMeth_01G</definition>
+        <argsstring></argsstring>
+        <name>MaxLevelForMeth_01G</name>
+        <qualifiedname>srTRadIntPowerDensity::MaxLevelForMeth_01G</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="58" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a7a886666c2df7036f03672184ecf65fe" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPowerDensity::ProbablyTheSameLoopG</definition>
+        <argsstring></argsstring>
+        <name>ProbablyTheSameLoopG</name>
+        <qualifiedname>srTRadIntPowerDensity::ProbablyTheSameLoopG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="59" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a68cdfc15504815befed8fce0de9959d2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::MaxFluxDensValG</definition>
+        <argsstring></argsstring>
+        <name>MaxFluxDensValG</name>
+        <qualifiedname>srTRadIntPowerDensity::MaxFluxDensValG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="60" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a303880e615dca2f5c595c412882dc26f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::CurrentAbsPrecG</definition>
+        <argsstring></argsstring>
+        <name>CurrentAbsPrecG</name>
+        <qualifiedname>srTRadIntPowerDensity::CurrentAbsPrecG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="60" column="24" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a1da135d16582513f6a779e694f2a8397" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::sIntegRelPrecG</definition>
+        <argsstring></argsstring>
+        <name>sIntegRelPrecG</name>
+        <qualifiedname>srTRadIntPowerDensity::sIntegRelPrecG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="60" column="40" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a49d1c7b8fee7cc91b552c9a24dd0b40c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::ActNormConstG</definition>
+        <argsstring></argsstring>
+        <name>ActNormConstG</name>
+        <qualifiedname>srTRadIntPowerDensity::ActNormConstG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="61" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a0dec20a5701267a9a64f3d2a05671266" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float srTRadIntPowerDensity::NotCompIntervBorders[1100]</definition>
+        <argsstring>[1100]</argsstring>
+        <name>NotCompIntervBorders</name>
+        <qualifiedname>srTRadIntPowerDensity::NotCompIntervBorders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="63" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a795b101c5461a18ee46f3bc40ca59c74" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_pair_of_float" kindref="compound">srTPairOfFloat</ref></type>
+        <definition>srTPairOfFloat srTRadIntPowerDensity::NotCompInterv[600]</definition>
+        <argsstring>[600]</argsstring>
+        <name>NotCompInterv</name>
+        <qualifiedname>srTRadIntPowerDensity::NotCompInterv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="64" column="16" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a2770260dda55d2e32707013f129fe7ac" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_e_x_z" kindref="compound">srTEXZ</ref></type>
+        <definition>srTEXZ srTRadIntPowerDensity::EXZ</definition>
+        <argsstring></argsstring>
+        <name>EXZ</name>
+        <qualifiedname>srTRadIntPowerDensity::EXZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="66" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a980fda30e13fbbdcda1ae70755becf88" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_field_based_arrays" kindref="compound">srTFieldBasedArrays</ref></type>
+        <definition>srTFieldBasedArrays srTRadIntPowerDensity::FieldBasedArrays</definition>
+        <argsstring></argsstring>
+        <name>FieldBasedArrays</name>
+        <qualifiedname>srTRadIntPowerDensity::FieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="67" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a0ed36236fc58dc2bb801322b2bbaa6e7" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char srTRadIntPowerDensity::MagFieldIsConstG</definition>
+        <argsstring></argsstring>
+        <name>MagFieldIsConstG</name>
+        <qualifiedname>srTRadIntPowerDensity::MagFieldIsConstG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="69" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a1fb13e92a2d3ed138eec21943e8a8336" prot="private" static="no" mutable="no">
+        <type>gmTrans</type>
+        <definition>gmTrans srTRadIntPowerDensity::TrLab2Loc</definition>
+        <argsstring></argsstring>
+        <name>TrLab2Loc</name>
+        <qualifiedname>srTRadIntPowerDensity::TrLab2Loc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="70" column="9" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a258becce5a787466629b1de8c36dc420" prot="private" static="no" mutable="no">
+        <type><ref refid="structsr_t_init_trj_coord_ang" kindref="compound">srTInitTrjCoordAng</ref></type>
+        <definition>srTInitTrjCoordAng srTRadIntPowerDensity::LocInitCoordAng</definition>
+        <argsstring></argsstring>
+        <name>LocInitCoordAng</name>
+        <qualifiedname>srTRadIntPowerDensity::LocInitCoordAng</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="71" column="20" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a19dd69921e4408a4f2b60caf78c432d7" prot="private" static="no" mutable="no">
+        <type>TVector3d</type>
+        <definition>TVector3d srTRadIntPowerDensity::PobsLocG</definition>
+        <argsstring></argsstring>
+        <name>PobsLocG</name>
+        <qualifiedname>srTRadIntPowerDensity::PobsLocG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="72" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1ab50ac7305c691e7fa470bfcc41eea5c1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::BconG</definition>
+        <argsstring></argsstring>
+        <name>BconG</name>
+        <qualifiedname>srTRadIntPowerDensity::BconG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="73" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a3a79adffea9cb6bffd52207739a6b582" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srTRadIntPowerDensity::RmaG</definition>
+        <argsstring></argsstring>
+        <name>RmaG</name>
+        <qualifiedname>srTRadIntPowerDensity::RmaG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="73" column="14" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a4b3f21b773fb68bd843d5e2f518f490b" prot="public" static="no" mutable="no">
+        <type>srTGenTrjHndl</type>
+        <definition>srTGenTrjHndl srTRadIntPowerDensity::TrjHndl</definition>
+        <argsstring></argsstring>
+        <name>TrjHndl</name>
+        <qualifiedname>srTRadIntPowerDensity::TrjHndl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="77" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a62c3afb9c21b689759b4ba45095198a2" prot="public" static="no" mutable="no">
+        <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref></type>
+        <definition>srTWfrSmp srTRadIntPowerDensity::DistrInfoDat</definition>
+        <argsstring></argsstring>
+        <name>DistrInfoDat</name>
+        <qualifiedname>srTRadIntPowerDensity::DistrInfoDat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="78" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1a010eff11802e4b4d1aa75a445bf8f02f" prot="public" static="no" mutable="no">
+        <type><ref refid="structsr_t_rad_int_pow_den_prec" kindref="compound">srTRadIntPowDenPrec</ref></type>
+        <definition>srTRadIntPowDenPrec srTRadIntPowerDensity::IntPowDenPrec</definition>
+        <argsstring></argsstring>
+        <name>IntPowDenPrec</name>
+        <qualifiedname>srTRadIntPowerDensity::IntPowDenPrec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="79" column="21" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_int_power_density_1aee9bce67adee816f0e09308ea7515eb6" prot="public" static="no" mutable="no">
+        <type>srTIntVect *</type>
+        <definition>srTIntVect* srTRadIntPowerDensity::pWarningsGen</definition>
+        <argsstring></argsstring>
+        <name>pWarningsGen</name>
+        <qualifiedname>srTRadIntPowerDensity::pWarningsGen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="81" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a484d0eccf6f30fd25b9a53f60421de2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntPowerDensity::srTRadIntPowerDensity</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadIntPowerDensity</name>
+        <qualifiedname>srTRadIntPowerDensity::srTRadIntPowerDensity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="83" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1adaff4bc71606131a3fe2dee424842168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadIntPowerDensity::~srTRadIntPowerDensity</definition>
+        <argsstring>()</argsstring>
+        <name>~srTRadIntPowerDensity</name>
+        <qualifiedname>srTRadIntPowerDensity::~srTRadIntPowerDensity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="87" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a9c7970a65ef06a3b66bb57391bf1cb4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>srTRadIntPowerDensity::Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="92" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="26" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a1f94cfe463a659f46fcbc23ce037b2c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::CheckInputConsistency</definition>
+        <argsstring>()</argsstring>
+        <name>CheckInputConsistency</name>
+        <qualifiedname>srTRadIntPowerDensity::CheckInputConsistency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="93" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="41" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a11b9b8bbbaf1df3d2a46c4f01df124f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::ComputePowerDensity</definition>
+        <argsstring>(srTEbmDat *pElecBeam, srTMagElem *pMagElem, srTWfrSmp *pWfrSmp, srTParPrecPowDens *pPrecPowDens, srTPowDensStructAccessData *pPow)</argsstring>
+        <name>ComputePowerDensity</name>
+        <qualifiedname>srTRadIntPowerDensity::ComputePowerDensity</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> *</type>
+          <declname>pElecBeam</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_mag_elem" kindref="compound">srTMagElem</ref> *</type>
+          <declname>pMagElem</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type>srTParPrecPowDens *</type>
+          <declname>pPrecPowDens</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> *</type>
+          <declname>pPow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="95" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="88" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1ae4b97eb15ce803705b5f68f05bd245c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::ComputePowerDensity</definition>
+        <argsstring>(srTTrjDat *pTrjDat, srTWfrSmp *pWfrSmp, srTParPrecPowDens *pPrecPowDens, srTPowDensStructAccessData *pPow)</argsstring>
+        <name>ComputePowerDensity</name>
+        <qualifiedname>srTRadIntPowerDensity::ComputePowerDensity</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>pTrjDat</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> *</type>
+          <declname>pWfrSmp</declname>
+        </param>
+        <param>
+          <type>srTParPrecPowDens *</type>
+          <declname>pPrecPowDens</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> *</type>
+          <declname>pPow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="96" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="124" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a92681dc8868da0b038ceab95b5f27be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::ComputeTotalPowerDensityDistr</definition>
+        <argsstring>(srTPowDensStructAccessData &amp;)</argsstring>
+        <name>ComputeTotalPowerDensityDistr</name>
+        <qualifiedname>srTRadIntPowerDensity::ComputeTotalPowerDensityDistr</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> &amp;</type>
+          <defname>PowDensAccessData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="98" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="145" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1aa1cf7843fa18976b7f9492afb9e9285d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::ComputePowerDensityAtPoint</definition>
+        <argsstring>(float *pPowDens)</argsstring>
+        <name>ComputePowerDensityAtPoint</name>
+        <qualifiedname>srTRadIntPowerDensity::ComputePowerDensityAtPoint</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pPowDens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="99" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="498" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a5c601702f2b440df591a33ac9a0774dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::SetUpFieldBasedArrays</definition>
+        <argsstring>()</argsstring>
+        <name>SetUpFieldBasedArrays</name>
+        <qualifiedname>srTRadIntPowerDensity::SetUpFieldBasedArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="100" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="54" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a60ccbe338d17a822aa431640544d18a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::AnalizeFinalResultsSymmetry</definition>
+        <argsstring>(char &amp;FinalResAreSymOverX, char &amp;FinalResAreSymOverZ)</argsstring>
+        <name>AnalizeFinalResultsSymmetry</name>
+        <qualifiedname>srTRadIntPowerDensity::AnalizeFinalResultsSymmetry</qualifiedname>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char &amp;</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="101" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="468" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a2e06019f4b8740fc6768f018059bd6d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::FillInSymPartsOfResults</definition>
+        <argsstring>(char FinalResAreSymOverX, char FinalResAreSymOverZ, srTPowDensStructAccessData &amp;PowDensAccessData)</argsstring>
+        <name>FillInSymPartsOfResults</name>
+        <qualifiedname>srTRadIntPowerDensity::FillInSymPartsOfResults</qualifiedname>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverX</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>FinalResAreSymOverZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> &amp;</type>
+          <declname>PowDensAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="102" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="825" bodyend="890"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1ae111944124e48291ab06407232a48da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::SetupNotCompIntervBorders</definition>
+        <argsstring>(double MinValNotComp, double sStart, double sStep, long long Np, long long &amp;AmOfInterv)</argsstring>
+        <name>SetupNotCompIntervBorders</name>
+        <qualifiedname>srTRadIntPowerDensity::SetupNotCompIntervBorders</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>MinValNotComp</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStep</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <declname>AmOfInterv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="104" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="749" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1ad7b8a9d3578ac1c6cb8e2519cdb48e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::TreatFiniteElecBeamEmittance</definition>
+        <argsstring>(srTPowDensStructAccessData &amp;, gmTrans *pTrfObsPl=0)</argsstring>
+        <name>TreatFiniteElecBeamEmittance</name>
+        <qualifiedname>srTRadIntPowerDensity::TreatFiniteElecBeamEmittance</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> &amp;</type>
+          <defname>PowDensAccessData</defname>
+        </param>
+        <param>
+          <type>gmTrans *</type>
+          <declname>pTrfObsPl</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="105" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="894" bodyend="953"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a33c6f2095bf6267f914c022009daaab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::TreatFiniteElecBeamEmittance1D</definition>
+        <argsstring>(srTPowDensStructAccessData &amp;, char)</argsstring>
+        <name>TreatFiniteElecBeamEmittance1D</name>
+        <qualifiedname>srTRadIntPowerDensity::TreatFiniteElecBeamEmittance1D</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> &amp;</type>
+          <defname>PowDensAccessData</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <defname>Treat1D</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="106" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="957" bodyend="964"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a7be2f5ab2ae1b138ff3089c0e632acb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::DetermineSingleElecPowDensEffSizes</definition>
+        <argsstring>(srTPowDensStructAccessData &amp;, double &amp;MxxPowSingleE, double &amp;MzzPowSingleE)</argsstring>
+        <name>DetermineSingleElecPowDensEffSizes</name>
+        <qualifiedname>srTRadIntPowerDensity::DetermineSingleElecPowDensEffSizes</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> &amp;</type>
+          <defname>PowDensAccessData</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>MxxPowSingleE</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>MzzPowSingleE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="107" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="968" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a8b83d0c2f07b6041e6076c0a36723704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::DetermineResizeBeforeConv</definition>
+        <argsstring>(double MxxElecEff, double MzzElecEff, double MxxPowSingleE, double MzzPowSingleE, srTRadResize &amp;Resize)</argsstring>
+        <name>DetermineResizeBeforeConv</name>
+        <qualifiedname>srTRadIntPowerDensity::DetermineResizeBeforeConv</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>MxxElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MxxPowSingleE</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzPowSingleE</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_resize" kindref="compound">srTRadResize</ref> &amp;</type>
+          <declname>Resize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="108" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="1017" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a97eb6a5d75fe26dae5d89a651e22244f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::ConstructDataForConv</definition>
+        <argsstring>(srTPowDensStructAccessData &amp;PowDensAccessData, float *NewData, long NewNx, long NewNz)</argsstring>
+        <name>ConstructDataForConv</name>
+        <qualifiedname>srTRadIntPowerDensity::ConstructDataForConv</qualifiedname>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> &amp;</type>
+          <declname>PowDensAccessData</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>NewData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NewNx</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NewNz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="110" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="1038" bodyend="1119"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a40bf24f53d6a75d5b1fe47115703df3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::PerformConvolutionWithGaussian</definition>
+        <argsstring>(float *AuxConvData, long NxAux, long NzAux, double MxxElecEff, double MzzElecEff)</argsstring>
+        <name>PerformConvolutionWithGaussian</name>
+        <qualifiedname>srTRadIntPowerDensity::PerformConvolutionWithGaussian</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NxAux</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NzAux</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MxxElecEff</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>MzzElecEff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="112" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="1123" bodyend="1183"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1ac01693ad6cd697fa1a25b20f9fe21872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::ExtractFinalDataAfterConv</definition>
+        <argsstring>(float *AuxConvData, long NxAux, long NzAux, srTPowDensStructAccessData &amp;PowDensAccessData)</argsstring>
+        <name>ExtractFinalDataAfterConv</name>
+        <qualifiedname>srTRadIntPowerDensity::ExtractFinalDataAfterConv</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>AuxConvData</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NxAux</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>NzAux</declname>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_pow_dens_struct_access_data" kindref="compound">srTPowDensStructAccessData</ref> &amp;</type>
+          <declname>PowDensAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="114" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="1187" bodyend="1211"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a4f6e862a46c661963e98b3cd844afbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::SetPrecParams</definition>
+        <argsstring>(srTParPrecPowDens *pPrecPowDens)</argsstring>
+        <name>SetPrecParams</name>
+        <qualifiedname>srTRadIntPowerDensity::SetPrecParams</qualifiedname>
+        <param>
+          <type>srTParPrecPowDens *</type>
+          <declname>pPrecPowDens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="116" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1aeea48dbf5b8e50065677ac84150793b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::TryToReduceIntegLimits</definition>
+        <argsstring>()</argsstring>
+        <name>TryToReduceIntegLimits</name>
+        <qualifiedname>srTRadIntPowerDensity::TryToReduceIntegLimits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="117" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="340" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1aab762d9301db08eb83979f511b52e25b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::SetupNativeRotation</definition>
+        <argsstring>()</argsstring>
+        <name>SetupNativeRotation</name>
+        <qualifiedname>srTRadIntPowerDensity::SetupNativeRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="118" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="418" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a15cb7a0dbc800156c5ead0bcfd7a3f4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::ComputePowerDensityAtPointConstMagField</definition>
+        <argsstring>(float *pPowDens)</argsstring>
+        <name>ComputePowerDensityAtPointConstMagField</name>
+        <qualifiedname>srTRadIntPowerDensity::ComputePowerDensityAtPointConstMagField</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pPowDens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="119" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.cpp" bodystart="731" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1ad56c5d2090760ebd2a85a1df8b36efa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadIntPowerDensity::FillNextLevel</definition>
+        <argsstring>(int LevelNo, double sStart, double sEnd, long long Np)</argsstring>
+        <name>FillNextLevel</name>
+        <qualifiedname>srTRadIntPowerDensity::FillNextLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>LevelNo</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sStart</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sEnd</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="122" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="122" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a1601b97b79b766be1691ab123ad9ffde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::DisposeAuxTrjArrays</definition>
+        <argsstring>()</argsstring>
+        <name>DisposeAuxTrjArrays</name>
+        <qualifiedname>srTRadIntPowerDensity::DisposeAuxTrjArrays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="139" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="139" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a155ce1e4c405e9727dbff866289d2733" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::ZeroAuxTrjPtrs</definition>
+        <argsstring>()</argsstring>
+        <name>ZeroAuxTrjPtrs</name>
+        <qualifiedname>srTRadIntPowerDensity::ZeroAuxTrjPtrs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="148" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="148" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1abe785cc47d1f81e80749cd12f71c8796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::PowDensFun</definition>
+        <argsstring>(double s, double Bx, double Btx, double X, double Bz, double Btz, double Z, double &amp;Fx, double &amp;Fz)</argsstring>
+        <name>PowDensFun</name>
+        <qualifiedname>srTRadIntPowerDensity::PowDensFun</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Bx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Btx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Bz</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Btz</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Z</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Fx</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>Fz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><verbatim>        double twoGamE2 = 2*GamE2;
+        double auxBetY = (1./GamE2) + Btx*Btx + Btz*Btz;
+        TVector3d vBet(Btx, 1. - 0.5*auxBetY - 0.125*auxBetY*auxBetY, Btz), vN(Nx, Ny, Nz);
+        TVector3d vBetPr(InvRx, -Btx*InvRx + Btz*InvRz, -InvRz), vN_mi_Bet = vN - vBet;
+        TVector3d vA = (twoGamE2*(vN^(vN_mi_Bet^vBetPr))) + ((2.*invRinst)*vN_mi_Bet);
+</verbatim></para>
+<para>TVector3d vA = (twoGamE2*(vN^(vN_mi_Bet^vBetPr))); //OC TEST********************* <verbatim>        double InvOne_p_GamBtE2 = 1./(twoGamE2*(1. - (vN*vBet)));
+        double ComFact = invRinst*invRinst*InvOne_p_GamBtE2*InvOne_p_GamBtE2*InvOne_p_GamBtE2*InvOne_p_GamBtE2*InvOne_p_GamBtE2;
+        double ComFact2 = ComFact*invRinst/(GamE2*InvOne_p_GamBtE2);
+        double ComFact_cosFactProj = ComFact*cosFactProj;
+
+        double half_vAe2 = 0.5*vA.y*vA.y;
+</verbatim> OC TEST********************* To uncomment here! Fx = ComFact_cosFactProj*(vA.x*vA.x + half_vAe2); //artificial trick: adding longitudinal component to transverse ones Fz = ComFact_cosFactProj*(vA.z*vA.z + half_vAe2); OC TEST********************* Fx = ::fabs(ComFact_cosFactProj*(vA.x*vA.x)); //artificial trick: adding longitudinal component to transverse ones Fz = ::fabs(ComFact_cosFactProj*(vA.z*vA.z)); END TEST <verbatim>        double half_scalProdY = 0.5*vEyP_y*vA.y;
+</verbatim> OC TEST********************* To uncomment here! Fx = ::fabs(Fx - ComFact2*(vEyP_x*vA.x + half_scalProdY)); Fz = ::fabs(Fz - ComFact2*(vEyP_z*vA.z + half_scalProdY));</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="157" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="157" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1aece6f7d8b712e5b2a7d04d72cbafbbd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::DetermineElecEffSizes</definition>
+        <argsstring>(double &amp;MxxElecEff, double &amp;MzzElecEff)</argsstring>
+        <name>DetermineElecEffSizes</name>
+        <qualifiedname>srTRadIntPowerDensity::DetermineElecEffSizes</qualifiedname>
+        <param>
+          <type>double &amp;</type>
+          <declname>MxxElecEff</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>MzzElecEff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="276" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="276" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1a7a59a320fc0a59af18333ebed5e3cd19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::PointLab2Loc</definition>
+        <argsstring>(TVector3d &amp;P)</argsstring>
+        <name>PointLab2Loc</name>
+        <qualifiedname>srTRadIntPowerDensity::PointLab2Loc</qualifiedname>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>P</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="285" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="285" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_int_power_density_1ab089bec65ff6d10062ec284b2864f22c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadIntPowerDensity::VectorLoc2Lab</definition>
+        <argsstring>(TVector3d &amp;V)</argsstring>
+        <name>VectorLoc2Lab</name>
+        <qualifiedname>srTRadIntPowerDensity::VectorLoc2Lab</qualifiedname>
+        <param>
+          <type>TVector3d &amp;</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="290" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="290" bodyend="294"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>CGenObject</label>
+        <link refid="class_c_gen_object"/>
+      </node>
+      <node id="4">
+        <label>srTRadIntPowDenPrec</label>
+        <link refid="structsr_t_rad_int_pow_den_prec"/>
+      </node>
+      <node id="1">
+        <label>srTRadIntPowerDensity</label>
+        <link refid="classsr_t_rad_int_power_density"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>DistrInfoDat</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>IntPowDenPrec</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>srTWfrSmp</label>
+        <link refid="classsr_t_wfr_smp"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" line="45" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h" bodystart="45" bodyend="295"/>
+    <listofallmembers>
+      <member refid="classsr_t_rad_int_power_density_1a49d1c7b8fee7cc91b552c9a24dd0b40c" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ActNormConstG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a6c24154b7287cec25c715f89846256f9" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>AmOfPerG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1aea49f04b7801056aa6690d4dee262dae" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>AmOfPointsOnLevel</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a60ccbe338d17a822aa431640544d18a4" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>AnalizeFinalResultsSymmetry</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ab50ac7305c691e7fa470bfcc41eea5c1" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>BconG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ac42d18e43d94fddd18323a3e16bdb547" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>BtxArrP</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a134269a1ca3127a5e46c8fdd07f591a7" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>BtzArrP</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a438a1de652f43918363b98a1e8d0c0a7" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>BxArrP</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a80082c1571af7f7e1720f87f5da48bda" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>BzArrP</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a1f94cfe463a659f46fcbc23ce037b2c5" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>CheckInputConsistency</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a11b9b8bbbaf1df3d2a46c4f01df124f9" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ComputePowerDensity</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ae4b97eb15ce803705b5f68f05bd245c4" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ComputePowerDensity</name></member>
+      <member refid="classsr_t_rad_int_power_density_1aa1cf7843fa18976b7f9492afb9e9285d" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ComputePowerDensityAtPoint</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a15cb7a0dbc800156c5ead0bcfd7a3f4c" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ComputePowerDensityAtPointConstMagField</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a92681dc8868da0b038ceab95b5f27be7" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ComputeTotalPowerDensityDistr</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a97eb6a5d75fe26dae5d89a651e22244f" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ConstructDataForConv</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ae0c94fdc773263789265e9f9f6575833" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>CosAndSinComp</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a303880e615dca2f5c595c412882dc26f" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>CurrentAbsPrecG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1aece6f7d8b712e5b2a7d04d72cbafbbd1" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>DetermineElecEffSizes</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a8b83d0c2f07b6041e6076c0a36723704" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>DetermineResizeBeforeConv</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a7be2f5ab2ae1b138ff3089c0e632acb6" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>DetermineSingleElecPowDensEffSizes</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a1601b97b79b766be1691ab123ad9ffde" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>DisposeAuxTrjArrays</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a62c3afb9c21b689759b4ba45095198a2" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>DistrInfoDat</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ac01693ad6cd697fa1a25b20f9fe21872" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ExtractFinalDataAfterConv</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a2770260dda55d2e32707013f129fe7ac" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>EXZ</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a980fda30e13fbbdcda1ae70755becf88" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>FieldBasedArrays</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a2e06019f4b8740fc6768f018059bd6d6" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>FillInSymPartsOfResults</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ad56c5d2090760ebd2a85a1df8b36efa0" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>FillNextLevel</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a9c7970a65ef06a3b66bb57391bf1cb4c" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>Initialize</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a010eff11802e4b4d1aa75a445bf8f02f" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>IntPowDenPrec</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a258becce5a787466629b1de8c36dc420" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>LocInitCoordAng</name></member>
+      <member refid="classsr_t_rad_int_power_density_1aad5b3892f2551bdb0ce74f31bbaefb0b" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>LongIntTypeG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a0ed36236fc58dc2bb801322b2bbaa6e7" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>MagFieldIsConstG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a68cdfc15504815befed8fce0de9959d2" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>MaxFluxDensValG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1af97cc43d16ea25b48a6537840c63637b" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>MaxLevelForMeth_01G</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a795b101c5461a18ee46f3bc40ca59c74" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>NotCompInterv</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a0dec20a5701267a9a64f3d2a05671266" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>NotCompIntervBorders</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a1b280f855f0132dbadddac464bf19441" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>NumberOfLevelsFilledG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a40bf24f53d6a75d5b1fe47115703df3b" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>PerformConvolutionWithGaussian</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a19dd69921e4408a4f2b60caf78c432d7" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>PobsLocG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a7a59a320fc0a59af18333ebed5e3cd19" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>PointLab2Loc</name></member>
+      <member refid="classsr_t_rad_int_power_density_1abe785cc47d1f81e80749cd12f71c8796" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>PowDensFun</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a7a886666c2df7036f03672184ecf65fe" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ProbablyTheSameLoopG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1aee9bce67adee816f0e09308ea7515eb6" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>pWarningsGen</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a3a79adffea9cb6bffd52207739a6b582" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>RmaG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a4f6e862a46c661963e98b3cd844afbd3" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>SetPrecParams</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a5c601702f2b440df591a33ac9a0774dd" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>SetUpFieldBasedArrays</name></member>
+      <member refid="classsr_t_rad_int_power_density_1aab762d9301db08eb83979f511b52e25b" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>SetupNativeRotation</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ae111944124e48291ab06407232a48da4" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>SetupNotCompIntervBorders</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a713d6bc4b2cb2e82012ce85f43643d8a" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>sIntegFinG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a1da135d16582513f6a779e694f2a8397" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>sIntegRelPrecG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ad75e4fed78c99f8315f3587d63e3e5c3" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>sIntegStartG</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a484d0eccf6f30fd25b9a53f60421de2d" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>srTRadIntPowerDensity</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ad7b8a9d3578ac1c6cb8e2519cdb48e81" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>TreatFiniteElecBeamEmittance</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a33c6f2095bf6267f914c022009daaab5" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>TreatFiniteElecBeamEmittance1D</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a4b3f21b773fb68bd843d5e2f518f490b" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>TrjHndl</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a1fb13e92a2d3ed138eec21943e8a8336" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>TrLab2Loc</name></member>
+      <member refid="classsr_t_rad_int_power_density_1aeea48dbf5b8e50065677ac84150793b9" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>TryToReduceIntegLimits</name></member>
+      <member refid="classsr_t_rad_int_power_density_1ab089bec65ff6d10062ec284b2864f22c" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>VectorLoc2Lab</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a24041717794b9742c232fc396feb4f64" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>XArrP</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a8a2d64dbb81c4e5f597efd32f0fbc35a" prot="private" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ZArrP</name></member>
+      <member refid="classsr_t_rad_int_power_density_1a155ce1e4c405e9727dbff866289d2733" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>ZeroAuxTrjPtrs</name></member>
+      <member refid="classsr_t_rad_int_power_density_1adaff4bc71606131a3fe2dee424842168" prot="public" virt="non-virtual"><scope>srTRadIntPowerDensity</scope><name>~srTRadIntPowerDensity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

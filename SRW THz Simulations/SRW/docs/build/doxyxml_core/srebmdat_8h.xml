@@ -1,0 +1,711 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="srebmdat_8h" kind="file" language="C++">
+    <compoundname>srebmdat.h</compoundname>
+    <includes local="no">math.h</includes>
+    <includes refid="srobject_8h" local="yes">srobject.h</includes>
+    <includedby refid="srgsnbm_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h</includedby>
+    <includedby refid="srgtrjdt_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h</includedby>
+    <includedby refid="srisosrc_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h</includedby>
+    <includedby refid="srpersto_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h</includedby>
+    <includedby refid="srptrjdt_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srptrjdt.h</includedby>
+    <includedby refid="srsend_8cpp" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.cpp</includedby>
+    <includedby refid="srstraux_8h" local="yes">/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h</label>
+        <link refid="srebmdat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>srobject.h</label>
+        <link refid="srobject_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>math.h</label>
+      </node>
+      <node id="6">
+        <label>smartptr.h</label>
+      </node>
+      <node id="7">
+        <label>stlstart.h</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="11">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srcradint.h</label>
+        <link refid="srcradint_8h_source"/>
+      </node>
+      <node id="4">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srctrjdt.h</label>
+        <link refid="srctrjdt_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h</label>
+        <link refid="srebmdat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sremitpr.h</label>
+        <link refid="sremitpr_8h_source"/>
+      </node>
+      <node id="2">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgsnbm.h</label>
+        <link refid="srgsnbm_8h_source"/>
+      </node>
+      <node id="3">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srgtrjdt.h</label>
+        <link refid="srgtrjdt_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srisosrc.h</label>
+        <link refid="srisosrc_8h_source"/>
+      </node>
+      <node id="16">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagcnt.h</label>
+        <link refid="srmagcnt_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmagfld.h</label>
+        <link refid="srmagfld_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srmatsta.h</label>
+        <link refid="srmatsta_8h_source"/>
+      </node>
+      <node id="26">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptang.h</label>
+        <link refid="sroptang_8h_source"/>
+      </node>
+      <node id="32">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptapt.h</label>
+        <link refid="sroptapt_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcnt.h</label>
+        <link refid="sroptcnt_8h_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptcryst.h</label>
+        <link refid="sroptcryst_8h_source"/>
+      </node>
+      <node id="30">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptdrf.h</label>
+        <link refid="sroptdrf_8h_source"/>
+      </node>
+      <node id="25">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptelm.h</label>
+        <link refid="sroptelm_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptfoc.h</label>
+        <link refid="sroptfoc_8h_source"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgrat.h</label>
+        <link refid="sroptgrat_8h_source"/>
+      </node>
+      <node id="35">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptgtr.h</label>
+        <link refid="sroptgtr_8h_source"/>
+      </node>
+      <node id="36">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sropthck.h</label>
+        <link refid="sropthck_8h_source"/>
+      </node>
+      <node id="43">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptmat.h</label>
+        <link refid="sroptmat_8h_source"/>
+      </node>
+      <node id="37">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptpsh.h</label>
+        <link refid="sroptpsh_8h_source"/>
+      </node>
+      <node id="31">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptshp.h</label>
+        <link refid="sroptshp_8h_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptsmr.h</label>
+        <link refid="sroptsmr_8h_source"/>
+      </node>
+      <node id="33">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptwgr.h</label>
+        <link refid="sroptwgr_8h_source"/>
+      </node>
+      <node id="38">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzp.h</label>
+        <link refid="sroptzp_8h_source"/>
+      </node>
+      <node id="39">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/sroptzps.h</label>
+        <link refid="sroptzps_8h_source"/>
+      </node>
+      <node id="8">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpersto.h</label>
+        <link refid="srpersto_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpowden.h</label>
+        <link refid="srpowden_8h_source"/>
+      </node>
+      <node id="18">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srprdint.h</label>
+        <link refid="srprdint_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srpropme.h</label>
+        <link refid="srpropme_8h_source"/>
+      </node>
+      <node id="7">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srptrjdt.h</label>
+        <link refid="srptrjdt_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradinc.h</label>
+        <link refid="srradinc_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradint.h</label>
+        <link refid="srradint_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h</label>
+        <link refid="srradmnp_8h_source"/>
+      </node>
+      <node id="44">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h</label>
+        <link refid="srremflp_8h_source"/>
+      </node>
+      <node id="12">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsase.h</label>
+        <link refid="srsase_8h_source"/>
+      </node>
+      <node id="9">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srsend.h</label>
+        <link refid="srsend_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstowig.h</label>
+        <link refid="srstowig_8h_source"/>
+      </node>
+      <node id="22">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h</label>
+        <link refid="srstraux_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srthckbm.h</label>
+        <link refid="srthckbm_8h_source"/>
+      </node>
+      <node id="20">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjaux.h</label>
+        <link refid="srtrjaux_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat.h</label>
+        <link refid="srtrjdat_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srtrjdat3d.h</label>
+        <link refid="srtrjdat3d_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsr_t_ebm_dat" prot="public">srTEbmDat</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="srebmdat_8h_1a78599fcd1b0bb026c712b0a95a9e6f14" prot="public" static="no">
+        <type>CSmartPtr&lt; <ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> &gt;</type>
+        <definition>typedef CSmartPtr&lt;srTEbmDat&gt; CHElBeam</definition>
+        <argsstring></argsstring>
+        <name>CHElBeam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" line="324" column="19" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/************************************************************************/</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__SREBMDAT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__SREBMDAT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;srobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classsr_t_ebm_dat" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_c_gen_object" kindref="compound">CGenObject</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Use<sp/>normal<sp/>units<sp/>in<sp/>this<sp/>structure:<sp/>GeV,<sp/>A,<sp/>m,<sp/>r<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Energy,<sp/>Current;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Neb,<sp/>CurrentPeak;<sp/></highlight><highlight class="comment">//number<sp/>of<sp/>electrons<sp/>in<sp/>bunch<sp/>and<sp/>peak<sp/>current<sp/>-<sp/>two<sp/>parameters<sp/>which<sp/>are<sp/>not<sp/>independent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s0,<sp/>x0,<sp/>dxds0,<sp/>z0,<sp/>dzds0,<sp/>sc;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mxx,<sp/>Mxxp,<sp/>Mxpxp;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mzz,<sp/>Mzzp,<sp/>Mzpzp;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mxz,<sp/>Mxpz,<sp/>Mxzp,<sp/>Mxpzp;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mee;<sp/></highlight><highlight class="comment">//(SigmaE/E)^2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mss;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mse;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mxe,<sp/>Mxpe,<sp/>Mze,<sp/>Mzpe;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Mxs,<sp/>Mxps,<sp/>Mzs,<sp/>Mzps;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SigmaRelE;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Gamma,<sp/>GammaEm2;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nQ;<sp/></highlight><highlight class="comment">//SRWL:<sp/>number<sp/>and<sp/>sign<sp/>of<sp/>charges<sp/>in<sp/>units<sp/>of<sp/>electron<sp/>charge;<sp/>&quot;-1&quot;<sp/>for<sp/>electron,<sp/>&quot;1&quot;<sp/>for<sp/>proton</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TypeDistrTransverse;<sp/></highlight><highlight class="comment">//<sp/>1-<sp/>uniform;<sp/>2-<sp/>Gaussian;<sp/>3-<sp/>parabolic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>TypeDistrLongitudinal;<sp/></highlight><highlight class="comment">//<sp/>1-<sp/>infinite<sp/>uniform;<sp/>2-<sp/>gaussian</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ShotNoiseFactor;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pElecDistr;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//waveHndl<sp/>wElecDistr;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//char**<sp/>wElecDistr;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>wElecDistr;<sp/></highlight><highlight class="comment">//OC26042019<sp/>(port<sp/>to<sp/>XOP7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hStateElecDistr;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//long<sp/>nTotMacroPart;<sp/>//(number<sp/>of<sp/>macro-particles)<sp/>x<sp/>(number<sp/>of<sp/>slices<sp/>vs<sp/>time)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>nTotMacroPart;<sp/></highlight><highlight class="comment">//OC26042019<sp/>(port<sp/>to<sp/>XOP7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>InputWasModified;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PresetAll();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>I,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>InNeb,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pMom1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nMom1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pMom2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nMom2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nq<sp/>=-1)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PresetAll();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Current<sp/>=<sp/>I;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Neb<sp/>=<sp/>InNeb;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Energy<sp/>=<sp/>x0<sp/>=<sp/>dxds0<sp/>=<sp/>z0<sp/>=<sp/>dzds0<sp/>=<sp/>sc<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pMom1<sp/>!=<sp/>0)<sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom1<sp/>&gt;<sp/>5)<sp/>{<sp/>Energy<sp/>=<sp/>pMom1[0];<sp/>x0<sp/>=<sp/>pMom1[1];<sp/>dxds0<sp/>=<sp/>pMom1[2];<sp/>z0<sp/>=<sp/>pMom1[3];<sp/>dzds0<sp/>=<sp/>pMom1[4];<sp/>sc<sp/>=<sp/>pMom1[5];}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom1<sp/>&gt;<sp/>4)<sp/>{<sp/>Energy<sp/>=<sp/>pMom1[0];<sp/>x0<sp/>=<sp/>pMom1[1];<sp/>dxds0<sp/>=<sp/>pMom1[2];<sp/>z0<sp/>=<sp/>pMom1[3];<sp/>dzds0<sp/>=<sp/>pMom1[4];}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom1<sp/>&gt;<sp/>3)<sp/>{<sp/>Energy<sp/>=<sp/>pMom1[0];<sp/>x0<sp/>=<sp/>pMom1[1];<sp/>dxds0<sp/>=<sp/>pMom1[2];<sp/>z0<sp/>=<sp/>pMom1[3];}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom1<sp/>&gt;<sp/>2)<sp/>{<sp/>Energy<sp/>=<sp/>pMom1[0];<sp/>x0<sp/>=<sp/>pMom1[1];<sp/>dxds0<sp/>=<sp/>pMom1[2];}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom1<sp/>&gt;<sp/>1)<sp/>{<sp/>Energy<sp/>=<sp/>pMom1[0];<sp/>x0<sp/>=<sp/>pMom1[1];}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom1<sp/>&gt;<sp/>0)<sp/>{<sp/>Energy<sp/>=<sp/>pMom1[0];}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mxx<sp/>=<sp/>Mxxp<sp/>=<sp/>Mxpxp<sp/>=<sp/>Mzz<sp/>=<sp/>Mzzp<sp/>=<sp/>Mzpzp<sp/>=<sp/>Mxz<sp/>=<sp/>Mxpz<sp/>=<sp/>Mxzp<sp/>=<sp/>Mxpzp<sp/>=<sp/>Mee<sp/>=<sp/>Mss<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mse<sp/>=<sp/>Mxe<sp/>=<sp/>Mxpe<sp/>=<sp/>Mze<sp/>=<sp/>Mzpe<sp/>=<sp/>Mxs<sp/>=<sp/>Mxps<sp/>=<sp/>Mzs<sp/>=<sp/>Mzps<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pMom2<sp/>!=<sp/>0)<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>20)<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];<sp/>Mee<sp/>=<sp/>pMom2[10];<sp/>Mss<sp/>=<sp/>pMom2[11];</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mse<sp/>=<sp/>pMom2[12];<sp/>Mxe<sp/>=<sp/>pMom2[13];<sp/>Mxpe<sp/>=<sp/>pMom2[14];<sp/>Mze<sp/>=<sp/>pMom2[15];<sp/>Mzpe<sp/>=<sp/>pMom2[16];<sp/>Mxs<sp/>=<sp/>pMom2[17];<sp/>Mxps<sp/>=<sp/>pMom2[18];<sp/>Mzs<sp/>=<sp/>pMom2[19];<sp/>Mzps<sp/>=<sp/>pMom2[20];</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>11)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];<sp/>Mee<sp/>=<sp/>pMom2[10];<sp/>Mss<sp/>=<sp/>pMom2[11];}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>10)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];<sp/>Mee<sp/>=<sp/>pMom2[10];}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>9)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>8)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>7)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>6)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>5)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>4)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>3)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>2)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>1)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>0)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s0<sp/>=<sp/>s;<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetupGamma(Energy);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SigmaRelE<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Mee<sp/>&gt;<sp/>0.)<sp/>SigmaRelE<sp/>=<sp/>sqrt(Mee);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nQ<sp/>=<sp/>nq;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pElecDistr<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nTotMacroPart<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PresetAll()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>InputWasModified<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Energy<sp/>=<sp/>Current<sp/>=<sp/>Gamma<sp/>=<sp/>GammaEm2<sp/>=<sp/>SigmaRelE<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Neb<sp/>=<sp/>CurrentPeak<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s0<sp/>=<sp/>sc<sp/>=<sp/>x0<sp/>=<sp/>dxds0<sp/>=<sp/>z0<sp/>=<sp/>dzds0<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mxx<sp/>=<sp/>Mxxp<sp/>=<sp/>Mxpxp<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mzz<sp/>=<sp/>Mzzp<sp/>=<sp/>Mzpzp<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mxz<sp/>=<sp/>Mxpz<sp/>=<sp/>Mxzp<sp/>=<sp/>Mxpzp<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mee<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//(SigmaE/E)^2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mse<sp/>=<sp/>Mxe<sp/>=<sp/>Mxpe<sp/>=<sp/>Mze<sp/>=<sp/>Mzpe<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mxs<sp/>=<sp/>Mxps<sp/>=<sp/>Mzs<sp/>=<sp/>Mzps<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mss<sp/>=<sp/>1.E+23;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nQ<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//SRWL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TypeDistrTransverse<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TypeDistrLongitudinal<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ShotNoiseFactor<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pElecDistr<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wElecDistr<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hStateElecDistr<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nTotMacroPart<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupGamma(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ElectronEnergyInGeV)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Energy<sp/>=<sp/>ElectronEnergyInGeV;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Gamma<sp/>=<sp/>ElectronEnergyInGeV*1000./0.511003414;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Gamma<sp/>!=<sp/>0.)<sp/>GammaEm2<sp/>=<sp/>1./Gamma/Gamma;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetNewEnergy(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NewEnergy_GeV)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Energy<sp/>=<sp/>NewEnergy_GeV;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetupGamma(NewEnergy_GeV);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetCurrentAndMom2(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>inI,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pMom2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nMom2)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Current<sp/>=<sp/>inI;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mxx<sp/>=<sp/>Mxxp<sp/>=<sp/>Mxpxp<sp/>=<sp/>Mzz<sp/>=<sp/>Mzzp<sp/>=<sp/>Mzpzp<sp/>=<sp/>Mxz<sp/>=<sp/>Mxpz<sp/>=<sp/>Mxzp<sp/>=<sp/>Mxpzp<sp/>=<sp/>Mee<sp/>=<sp/>Mss<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mse<sp/>=<sp/>Mxe<sp/>=<sp/>Mxpe<sp/>=<sp/>Mze<sp/>=<sp/>Mzpe<sp/>=<sp/>Mxs<sp/>=<sp/>Mxps<sp/>=<sp/>Mzs<sp/>=<sp/>Mzps<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pMom2<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>20)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];<sp/>Mee<sp/>=<sp/>pMom2[10];<sp/>Mss<sp/>=<sp/>pMom2[11];</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Mse<sp/>=<sp/>pMom2[12];<sp/>Mxe<sp/>=<sp/>pMom2[13];<sp/>Mxpe<sp/>=<sp/>pMom2[14];<sp/>Mze<sp/>=<sp/>pMom2[15];<sp/>Mzpe<sp/>=<sp/>pMom2[16];<sp/>Mxs<sp/>=<sp/>pMom2[17];<sp/>Mxps<sp/>=<sp/>pMom2[18];<sp/>Mzs<sp/>=<sp/>pMom2[19];<sp/>Mzps<sp/>=<sp/>pMom2[20];</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>11)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];<sp/>Mee<sp/>=<sp/>pMom2[10];<sp/>Mss<sp/>=<sp/>pMom2[11];}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>10)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];<sp/>Mee<sp/>=<sp/>pMom2[10];}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>9)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];<sp/>Mxpzp<sp/>=<sp/>pMom2[9];}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>8)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];<sp/>Mxzp<sp/>=<sp/>pMom2[8];}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>7)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];<sp/>Mxpz<sp/>=<sp/>pMom2[7];}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>6)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];<sp/>Mxz<sp/>=<sp/>pMom2[6];}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>5)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];<sp/>Mzpzp<sp/>=<sp/>pMom2[5];}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>4)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];<sp/>Mzzp<sp/>=<sp/>pMom2[4];}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>3)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];<sp/>Mzz<sp/>=<sp/>pMom2[3];}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>2)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];<sp/>Mxpxp<sp/>=<sp/>pMom2[2];}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>1)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];<sp/>Mxxp<sp/>=<sp/>pMom2[1];}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nMom2<sp/>&gt;<sp/>0)<sp/>{<sp/>Mxx<sp/>=<sp/>pMom2[0];}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetMom1(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pMom1)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pMom1<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom1[0]<sp/>=<sp/>Energy;<sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom1[1]<sp/>=<sp/>x0;<sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom1[2]<sp/>=<sp/>dxds0;<sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom1[3]<sp/>=<sp/>z0;<sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom1[4]<sp/>=<sp/>dzds0;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetMom2(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pMom2)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pMom2<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[0]<sp/>=<sp/>Mxx;<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[1]<sp/>=<sp/>Mxxp;<sp/></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[2]<sp/>=<sp/>Mxpxp;<sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[3]<sp/>=<sp/>Mzz;<sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[4]<sp/>=<sp/>Mzzp;<sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[5]<sp/>=<sp/>Mzpzp;<sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[6]<sp/>=<sp/>Mxz;<sp/></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[7]<sp/>=<sp/>Mxpz;<sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[8]<sp/>=<sp/>Mxzp;<sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[9]<sp/>=<sp/>Mxpzp;<sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[10]<sp/>=<sp/>Mee;<sp/></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pMom2[11]<sp/>=<sp/>Mss;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetSigmaE_GeV()</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SigmaRelE<sp/>=<sp/>::sqrt(::fabs(Mee));</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SigmaRelE*Energy;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetSigma_x()<sp/>{<sp/>return<sp/>::sqrt(::fabs(Mxx));}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetSigma_dxds()<sp/>{<sp/>return<sp/>::sqrt(::fabs(Mxpxp));}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetSigma_z()<sp/>{<sp/>return<sp/>::sqrt(::fabs(Mzz));}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetSigma_dzds()<sp/>{<sp/>return<sp/>::sqrt(::fabs(Mzpzp));}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetSigma_s()<sp/>{<sp/>return<sp/>::sqrt(::fabs(Mss));}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EmittanceX()</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrt(::fabs(Mxx*Mxpxp<sp/>-<sp/>Mxxp*Mxxp));</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EmittanceZ()</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrt(::fabs(Mzz*Mzpzp<sp/>-<sp/>Mzzp*Mzzp));</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NormalizedEmittanceX()</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>EmittanceX()*Gamma;<sp/></highlight><highlight class="comment">//<sp/>Check<sp/>this<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//return<sp/>EmittanceX()*Gamma/3.1415926;<sp/>//<sp/>Check<sp/>this<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>NormalizedEmittanceZ()</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>EmittanceZ()*Gamma;<sp/></highlight><highlight class="comment">//<sp/>Check<sp/>this<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//return<sp/>EmittanceZ()*Gamma/3.1415926;<sp/>//<sp/>Check<sp/>this<sp/>!!!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AlphaX()</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-Mxxp/EmittanceX();</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AlphaZ()</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-Mzzp/EmittanceZ();</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MultForPartDistrFunc(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>x_or_z)</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(x_or_z<sp/>==<sp/></highlight><highlight class="charliteral">&apos;x&apos;</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.5/(Mxx*Mxpxp<sp/>-<sp/>Mxxp*Mxxp);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.5/(Mzz*Mzpzp<sp/>-<sp/>Mzzp*Mzzp);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BetaPartDistr(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>x_or_z)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((x_or_z<sp/>==<sp/></highlight><highlight class="charliteral">&apos;x&apos;</highlight><highlight class="normal">)?<sp/>Mxx<sp/>:<sp/>Mzz)*MultForPartDistrFunc(x_or_z);}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GammaPartDistr(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>x_or_z)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((x_or_z<sp/>==<sp/></highlight><highlight class="charliteral">&apos;x&apos;</highlight><highlight class="normal">)?<sp/>Mxpxp<sp/>:<sp/>Mzpzp)*MultForPartDistrFunc(x_or_z);}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>AlphaPartDistr(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>x_or_z)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((x_or_z<sp/>==<sp/></highlight><highlight class="charliteral">&apos;x&apos;</highlight><highlight class="normal">)?<sp/>-Mxxp<sp/>:<sp/>-Mzzp)*MultForPartDistrFunc(x_or_z);}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ThetaPartDistr(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>x_or_xp,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>z_or_zp)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;}<sp/></highlight><highlight class="comment">//xz<sp/>cross-terms:<sp/>program<sp/>when<sp/>necessary</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>BgamPartDistr()<sp/>{<sp/>return<sp/>(Mee<sp/>&gt;<sp/>0)?<sp/>sqrt(Mee)<sp/>:<sp/>0;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>BgamPartDistr()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(Mee<sp/>&gt;<sp/>0)?<sp/>0.5/Mee<sp/>:<sp/>1e+50;}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PggPartDistr_NoCross()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(Mee<sp/>&gt;<sp/>0)?<sp/>0.5/Mee<sp/>:<sp/>1e+50;}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PssPartDistr_NoCross()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(Mss<sp/>&gt;<sp/>0)?<sp/>0.5/Mss<sp/>:<sp/>1e+50;}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Inv_B_rho()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.299792458*nQ/Energy;}<sp/></highlight><highlight class="comment">//1/(B*rho)<sp/>in<sp/>[1/(T*m)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>analyseDistribSymmetry(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>ElecBeamIsSymOverX,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>ElecBeamIsSymOverZ)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ElecBeamIsSymOverX<sp/>=<sp/>ElecBeamIsSymOverZ<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((Mxz<sp/>!=<sp/>0)<sp/>||<sp/>(Mxpz<sp/>!=<sp/>0)<sp/>||<sp/>(Mxzp<sp/>!=<sp/>0)<sp/>||<sp/>(Mxpzp<sp/>!=<sp/>0))</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ElecBeamIsSymOverX<sp/>=<sp/>ElecBeamIsSymOverZ<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((Mxe<sp/>!=<sp/>0)<sp/>||<sp/>(Mxpe<sp/>!=<sp/>0)<sp/>||<sp/>(Mxs<sp/>!=<sp/>0)<sp/>||<sp/>(Mxps<sp/>!=<sp/>0))<sp/>ElecBeamIsSymOverX<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((Mze<sp/>!=<sp/>0)<sp/>||<sp/>(Mzpe<sp/>!=<sp/>0)<sp/>||<sp/>(Mzs<sp/>!=<sp/>0)<sp/>||<sp/>(Mzps<sp/>!=<sp/>0))<sp/>ElecBeamIsSymOverZ<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Mom2EmitAndTwiss(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pEmit,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pBeta,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pAlpha,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Sigma2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SigmaPrime2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MixMom,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SigmaE2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Eta,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EtaPrime)</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MixMom2<sp/>=<sp/>MixMom*MixMom,<sp/>Eta2<sp/>=<sp/>Eta*Eta,<sp/>EtaPrime2<sp/>=<sp/>EtaPrime*EtaPrime;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Emit2<sp/>=<sp/>Sigma2*SigmaPrime2<sp/>-<sp/>MixMom2<sp/>-<sp/>SigmaE2*(EtaPrime2*Sigma2<sp/>+<sp/>Eta2*SigmaPrime2<sp/>-<sp/>2*MixMom*Eta*EtaPrime);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Emit2<sp/>&lt;=<sp/>0.)<sp/></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pEmit<sp/>=<sp/>0.;<sp/>*pBeta<sp/>=<sp/>0.;<sp/>*pAlpha<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pEmit<sp/>=<sp/>sqrt(Emit2);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pBeta<sp/>=<sp/>(Sigma2<sp/>-<sp/>SigmaE2*Eta2)/(*pEmit);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pAlpha<sp/>=<sp/>(SigmaE2*Eta*EtaPrime<sp/>-<sp/>MixMom)/(*pEmit);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MomAndEmit2Twiss(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pBeta,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pAlpha,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pEta,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>pEmit,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Sigma2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SigmaPrime2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MixMom,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>SigmaE2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>EtaPrime)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>MixMom2<sp/>=<sp/>MixMom*MixMom,<sp/>EtaPrime2<sp/>=<sp/>EtaPrime*EtaPrime;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//double<sp/>Emit2<sp/>=<sp/>Sigma2*SigmaPrime2<sp/>-<sp/>MixMom2<sp/>-<sp/>SigmaE2*(EtaPrime2*Sigma2<sp/>+<sp/>Eta2*SigmaPrime2<sp/>-<sp/>2*MixMom*Eta*EtaPrime);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((Sigma2<sp/>==<sp/>0)<sp/>||<sp/>(SigmaPrime2<sp/>==<sp/>0))</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pBeta<sp/>=<sp/>0.;<sp/>*pAlpha<sp/>=<sp/>0.;<sp/>*pEta<sp/>=<sp/>0.;<sp/>*pEmit<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(SigmaE2<sp/>&lt;=<sp/>0.)<sp/></highlight><highlight class="comment">//Modify<sp/>*pEmit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Emit2<sp/>=<sp/>Sigma2*SigmaPrime2<sp/>-<sp/>MixMom2;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Emit2<sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pBeta<sp/>=<sp/>0.;<sp/>*pAlpha<sp/>=<sp/>0.;<sp/>*pEta<sp/>=<sp/>0.;<sp/>*pEmit<sp/>=<sp/>0.;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pEmit<sp/>=<sp/>sqrt(Emit2);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//Assume<sp/>*pEmit<sp/>is<sp/>defined<sp/>at<sp/>input</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>C<sp/>=<sp/>Sigma2*EtaPrime2<sp/>+<sp/>((*pEmit)*(*pEmit)<sp/>-<sp/>Sigma2*SigmaPrime2<sp/>+<sp/>MixMom2)/SigmaE2;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>argRoot<sp/>=<sp/>MixMom2*EtaPrime2<sp/>-<sp/>SigmaPrime2*C;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(argRoot<sp/>&lt;<sp/>0.)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pEta<sp/>=<sp/>0.;<sp/></highlight><highlight class="comment">//?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>*pEta<sp/>=<sp/>(MixMom*EtaPrime<sp/>+<sp/>sqrt(argRoot))/SigmaPrime2;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pBeta<sp/>=<sp/>(Sigma2<sp/>-<sp/>SigmaE2*(*pEta)*(*pEta))/(*pEmit);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pAlpha<sp/>=<sp/>(SigmaE2*(*pEta)*EtaPrime<sp/>-<sp/>MixMom)/(*pEmit);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight><highlight class="comment">//typedef<sp/>CHandle&lt;srTEbmDat&gt;<sp/>CHElBeam;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>CSmartPtr&lt;srTEbmDat&gt;<sp/>CHElBeam;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight><highlight class="comment">//*************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srebmdat.h"/>
+  </compounddef>
+</doxygen>

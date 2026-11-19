@@ -1,0 +1,459 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>srwpy.uti_plot &mdash; SRW  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+      <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=fd6457a4" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+
+  
+      <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../../_static/copybutton.js?v=f281be69"></script>
+      <script src="../../_static/sg-tags.js?v=d80f6fa4"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            SRW
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Knowledge</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../knowledge/optical_element.html">Optical Element</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples Gallery</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbook/index.html">Cookbook (Examples)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Publications</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../literature.html">Literature</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/index.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../release-history.html">Release History</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRW</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">srwpy.uti_plot</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for srwpy.uti_plot</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;Simple 1D &amp; 2D plotting utilities package for &quot;Synchrotron Radiation Workshop&quot; (SRW).</span>
+
+<span class="sd">``uti_plot`` currently wraps ``matplotlib``, but other backends are</span>
+<span class="sd">planned.  If no suitable backend is available, ``uti_plot_init`` sets</span>
+<span class="sd">the backend to ``uti_plot_none`` so that the calling program is still</span>
+<span class="sd">functional.  This is useful for systems where there is no graphing</span>
+<span class="sd">library available, but you still want to see the results of the</span>
+<span class="sd">SRW program.</span>
+
+<span class="sd">Usage:</span>
+
+<span class="sd">    import uti_plot as up</span>
+
+<span class="sd">    up.uti_plot_init()</span>
+<span class="sd">    uti_plot1d(...)</span>
+<span class="sd">    uti_plot_show()</span>
+
+<span class="sd">Modules:</span>
+
+<span class="sd">    uti_plot</span>
+<span class="sd">        This module, which loads all other modules dynamically</span>
+
+<span class="sd">    uti_plot_matplotlib</span>
+<span class="sd">        Does the actually plotting using matplotlib.pyplot.  Currently, loaded in all cases except</span>
+<span class="sd">        when ``backend`` is ``None``</span>
+
+<span class="sd">    test_uti_plot</span>
+<span class="sd">        Simple tests for uti_plot</span>
+
+<span class="sd">.. moduleauthor:: Rob Nagler &lt;nagler@radiasoft.net&gt;</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="k">try</span><span class="p">:</span> <span class="c1">#OC15112022</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_plot_com</span>
+<span class="k">except</span><span class="p">:</span>
+    <span class="kn">import</span><span class="w"> </span><span class="nn">uti_plot_com</span>
+<span class="c1">#import uti_plot_com</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">traceback</span>
+
+<span class="n">_backend</span> <span class="o">=</span> <span class="kc">None</span>
+
+<span class="n">DEFAULT_BACKEND</span> <span class="o">=</span> <span class="s1">&#39;&lt;default&gt;&#39;</span>
+
+<div class="viewcode-block" id="uti_plot_init">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot_init">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot_init</span><span class="p">(</span><span class="n">backend</span><span class="o">=</span><span class="n">DEFAULT_BACKEND</span><span class="p">,</span> <span class="n">fname_format</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Initializes plotting engine with backend and, optionally, save plots to fname_format</span>
+
+<span class="sd">    Tries to initialize `backend` as the plotting engine.  If not found, an</span>
+<span class="sd">    error will be printed, and this module&#39;s functions will be no-ops.  If</span>
+<span class="sd">    DEFAULT_BACKEND provided, an appropriate backend will be chosen and printed.</span>
+<span class="sd">    Plots may also be saved if fname_format is supplied.</span>
+
+<span class="sd">    You may call ``uti_plot_init(None)`` explicitly so that no plotting occurs.</span>
+
+<span class="sd">    :param str backend: a matplot backend (TkAgg, etc.) or ``inline`` in IPython</span>
+<span class="sd">    :param str fname_format: where to save plots. format field is a sequential plot number, starting at 0.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">global</span> <span class="n">_backend</span>
+    <span class="k">if</span> <span class="n">backend</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1">#import uti_plot_matplotlib</span>
+            <span class="k">try</span><span class="p">:</span> <span class="c1">#HG16062025</span>
+                <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">uti_plot_matplotlib</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="kn">import</span><span class="w"> </span><span class="nn">uti_plot_matplotlib</span>
+            <span class="n">_backend</span> <span class="o">=</span> <span class="n">uti_plot_matplotlib</span><span class="o">.</span><span class="n">Backend</span><span class="p">(</span><span class="n">backend</span><span class="p">,</span> <span class="n">fname_format</span><span class="p">)</span>
+            <span class="k">return</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="n">traceback</span><span class="o">.</span><span class="n">print_exc</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">backend</span> <span class="o">+</span> <span class="s1">&#39;: unable to import specified backend (or its dependency); no plots&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">fname_format</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="c1">#raise Value(fname_format + &#39;: fname_format must be null if backend is None&#39;)</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">fname_format</span> <span class="o">+</span> <span class="s1">&#39;: fname_format must be null if backend is None&#39;</span><span class="p">)</span>
+    <span class="n">_backend</span> <span class="o">=</span> <span class="n">_BackendNone</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="uti_plot_show">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot_show">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot_show</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display the plots&quot;&quot;&quot;</span>
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+    <span class="n">_backend</span><span class="o">.</span><span class="n">uti_plot_show</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="uti_plot1d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot1d">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot1d</span><span class="p">(</span><span class="n">ar1d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Photon Energy [eV]&#39;</span><span class="p">,</span> <span class="s1">&#39;ph/s/0.1%bw&#39;</span><span class="p">),</span> <span class="n">units</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate one-dimensional line plot from given array</span>
+
+<span class="sd">    :param array ar1d: data points</span>
+<span class="sd">    :param list x_range: Passed to numpy.linspace(start sequence, stop sequnce, num samples)</span>
+<span class="sd">    :param tuple labels: [x-axis, y-axis]</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+    
+    <span class="k">if</span><span class="p">(</span><span class="n">units</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="n">x_range</span><span class="p">,</span> <span class="n">x_unit</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_dim</span><span class="p">(</span><span class="n">x_range</span><span class="p">,</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">units</span> <span class="o">=</span> <span class="p">[</span><span class="n">x_unit</span><span class="p">,</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span> <span class="k">else</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+    <span class="c1">#print(&#39;uti_plot1d:&#39;, x_range)</span>
+    <span class="n">_backend</span><span class="o">.</span><span class="n">uti_plot1d</span><span class="p">(</span><span class="n">ar1d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="uti_plot1d_ir">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot1d_ir">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot1d_ir</span><span class="p">(</span><span class="n">ary</span><span class="p">,</span> <span class="n">arx</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Longitudinal Position [m]&#39;</span><span class="p">,</span> <span class="s1">&#39;Horizontal Position [m]&#39;</span><span class="p">),</span> <span class="n">units</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span> <span class="c1">#OC25102019</span>
+<span class="c1">#def uti_plot1d_ir(ary, arx, labels=(&#39;Longitudinal Position [m]&#39;, &#39;Horizontal Position [m]&#39;), units=None): #OC15112017</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate one-dimensional line plot from given array</span>
+
+<span class="sd">    :param array arx: abscissa array</span>
+<span class="sd">    :param array ary: ordinate array</span>
+<span class="sd">    :param tuple labels: [x-axis, y-axis]</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+    
+    <span class="k">if</span><span class="p">(</span><span class="n">units</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="c1">#x_range = [min(arx), max(arx), len(arx)]</span>
+        <span class="c1">#x_range, x_unit = uti_plot_com.rescale_dim(x_range, units[0])</span>
+        <span class="c1">#units = [x_unit, units[1]]</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span> <span class="k">else</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+    <span class="c1">#OC25102019 (added stuff below)</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">arx</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="n">ary0</span> <span class="o">=</span> <span class="n">ary</span>
+        <span class="k">if</span><span class="p">(</span><span class="ow">not</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">ary0</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ary0</span><span class="p">,</span> <span class="n">array</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">ary0</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">))):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Incorrect definition of data arrays / lists to be plotted&quot;</span><span class="p">)</span>
+
+        <span class="n">lenData</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ary</span><span class="p">)</span>
+        <span class="c1">#arx = array.array(&#39;d&#39;, [0]*lenData)</span>
+        <span class="c1">#aryNew = array.array(&#39;d&#39;, [0]*lenData)</span>
+        <span class="n">arx</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">lenData</span>
+        <span class="n">aryNew</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">lenData</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">lenData</span><span class="p">):</span>
+            <span class="n">ay_i</span> <span class="o">=</span> <span class="n">ary</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="n">arx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ay_i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">aryNew</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">ay_i</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">ary</span> <span class="o">=</span> <span class="n">aryNew</span>
+    
+    <span class="n">_backend</span><span class="o">.</span><span class="n">uti_plot1d_ir</span><span class="p">(</span><span class="n">ary</span><span class="p">,</span> <span class="n">arx</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="uti_plot1d_m">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot1d_m">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot1d_m</span><span class="p">(</span><span class="n">ars</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;X&#39;</span><span class="p">,</span> <span class="s1">&#39;Y&#39;</span><span class="p">),</span> <span class="n">units</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">styles</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span> <span class="c1">#OC25102019</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Plot multiple one-dimensional curves in one graph</span>
+
+<span class="sd">    :param array ars: multiple data arrays, assuming: ars = [curve_1,curve_2,...], where curve_i can be:</span>
+<span class="sd">        curve_i = [[y1_i,y2_i,...],[x_min_i,x_max_i,nx_i]] or</span>
+<span class="sd">        curve_i = [[y1_i,y2_i,...],[x1_i,x2_i,...]] or</span>
+<span class="sd">        curve_i = [[x1_i,y1_i],[x2_i,y2_i],...] </span>
+<span class="sd">    :param tuple labels: (x-axis, y-axis)</span>
+<span class="sd">    :param tuple units: (x-units, y-units)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">units</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span> <span class="k">else</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+    <span class="n">_backend</span><span class="o">.</span><span class="n">uti_plot1d_m</span><span class="p">(</span><span class="n">ars</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">styles</span><span class="p">,</span> <span class="n">legend</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="uti_plot2d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot2d">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot2d</span><span class="p">(</span><span class="n">ar2d</span><span class="p">,</span> <span class="n">x_range</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">y_range</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Horizontal Position [m]&#39;</span><span class="p">,</span><span class="s1">&#39;Vertical Position [m]&#39;</span><span class="p">,</span> <span class="s1">&#39;Intensity&#39;</span><span class="p">),</span> <span class="n">units</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span> <span class="c1">#OC23082021</span>
+<span class="c1">#def uti_plot2d(ar2d, x_range=None, y_range=None, labels=(&#39;Horizontal Position [m]&#39;,&#39;Vertical Position [m]&#39;), units=None): #OC30052020</span>
+<span class="c1">#def uti_plot2d(ar2d, x_range=None, y_range=None, labels=(&#39;Horizontal Position [m]&#39;,&#39;Vertical Position [m]&#39;, &#39;Intensity&#39;), units=None, show=False): #OC16082021</span>
+<span class="c1">#def uti_plot2d(ar2d, x_range, y_range, labels=(&#39;Horizontal Position [m]&#39;,&#39;Vertical Position [m]&#39;), units=None):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate quad mesh plot from given &quot;flattened&quot; array</span>
+
+<span class="sd">    :param array ar2d: flat 2d array or list of data points, non-flat 2d array or list, or PIL image</span>
+<span class="sd">    :param list x_range: Passed to numpy.linspace(start sequence, stop sequnce, num samples)</span>
+<span class="sd">    :param list y_range: y axis (same structure as x_range)</span>
+<span class="sd">    :param tuple labels: (x-axis, y-axis, z-axis)</span>
+<span class="sd">    :param tuple units: (x-axis, y-axis, z-axis)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+
+    <span class="k">if</span><span class="p">((</span><span class="n">units</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">x_range</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">y_range</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)):</span> <span class="c1">#OC30052020</span>
+    <span class="c1">#if(units is not None):</span>
+        <span class="n">x_range</span><span class="p">,</span> <span class="n">x_unit</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_dim</span><span class="p">(</span><span class="n">x_range</span><span class="p">,</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">y_range</span><span class="p">,</span> <span class="n">y_unit</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_dim</span><span class="p">(</span><span class="n">y_range</span><span class="p">,</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">units</span> <span class="o">=</span> <span class="p">[</span><span class="n">x_unit</span><span class="p">,</span> <span class="n">y_unit</span><span class="p">,</span>  <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]]</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span> <span class="k">if</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span> <span class="k">else</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+    <span class="n">_backend</span><span class="o">.</span><span class="n">uti_plot2d</span><span class="p">(</span><span class="n">ar2d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span></div>
+
+    <span class="c1">#if(show): uti_plot_show() #OC16082021 (commented-out back)</span>
+
+<div class="viewcode-block" id="uti_plot2d1d">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot2d1d">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot2d1d</span><span class="p">(</span><span class="n">ar2d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="p">(</span><span class="s1">&#39;Horizontal Position&#39;</span><span class="p">,</span> <span class="s1">&#39;Vertical Position&#39;</span><span class="p">,</span> <span class="s1">&#39;Intensity&#39;</span><span class="p">),</span> <span class="n">units</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">graphs_joined</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span> <span class="c1">#OC23082021</span>
+<span class="c1">#def uti_plot2d1d(ar2d, x_range, y_range, x=0, y=0, labels=(&#39;Horizontal Position&#39;, &#39;Vertical Position&#39;, &#39;Intensity&#39;), units=None, graphs_joined=True, show=False): #OC16082021</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate 2d quad mesh plot from given &quot;flattened&quot; array, and 1d cuts passing through (x, y)</span>
+
+<span class="sd">    :param array ar2d: flat 2d array of data points</span>
+<span class="sd">    :param list x_range: Passed to numpy.linspace(start sequence, stop sequnce, num samples)</span>
+<span class="sd">    :param list y_range: y axis (same structure as x_range)</span>
+<span class="sd">    :param x: x value for 1d cut</span>
+<span class="sd">    :param y: y value for 1d cut</span>
+<span class="sd">    :param tuple labels: (x-axis, y-axis, z-axis)</span>
+<span class="sd">    :param tuple units: (x-axis, y-axis, z-axis)</span>
+<span class="sd">    :param graphs_joined: switch specifying whether the 2d plot and 1d cuts have to be displayed in one panel or separately</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">units</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">):</span> <span class="c1">#checking / re-scaling x, y</span>
+
+        <span class="c1">#OC17032019</span>
+        <span class="n">xRangeOrig</span> <span class="o">=</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">yRangeOrig</span> <span class="o">=</span> <span class="n">y_range</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">y_range</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c1">#AH30082019</span>
+        <span class="c1">#yStartOrig = y_range[1] - y_range[0]</span>
+        
+        <span class="n">x_range</span><span class="p">,</span> <span class="n">x_unit</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_dim</span><span class="p">(</span><span class="n">x_range</span><span class="p">,</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">y_range</span><span class="p">,</span> <span class="n">y_unit</span> <span class="o">=</span> <span class="n">uti_plot_com</span><span class="o">.</span><span class="n">rescale_dim</span><span class="p">(</span><span class="n">y_range</span><span class="p">,</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+        <span class="c1">#OC17032019</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">):</span> <span class="n">x</span> <span class="o">*=</span> <span class="p">(</span><span class="n">x_range</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">x_range</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">/</span><span class="n">xRangeOrig</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">y</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">):</span> <span class="n">y</span> <span class="o">*=</span> <span class="p">(</span><span class="n">y_range</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">y_range</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">/</span><span class="n">yRangeOrig</span>
+        
+        <span class="n">units</span> <span class="o">=</span> <span class="p">[</span><span class="n">x_unit</span><span class="p">,</span> <span class="n">y_unit</span><span class="p">,</span>  <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]]</span>
+
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">label2D</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+        <span class="c1">#strTitle = &#39;At &#39; + labels[1] + &#39;: &#39; + str(y)</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;At &#39;</span> <span class="o">+</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span> <span class="c1">#OC17032019</span>
+        
+        <span class="k">if</span> <span class="n">y</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span> <span class="n">strTitle</span> <span class="o">+=</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">label1X</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+
+        <span class="c1">#strTitle = &#39;At &#39; + labels[0] + &#39;: &#39; + str(x)</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;At &#39;</span> <span class="o">+</span> <span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span> <span class="c1">#OC17032019</span>
+        
+        <span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span> <span class="n">strTitle</span> <span class="o">+=</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">label1Y</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; [&#39;</span> <span class="o">+</span> <span class="n">units</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;]&#39;</span><span class="p">,</span> <span class="n">strTitle</span><span class="p">)</span>
+        
+    <span class="k">else</span><span class="p">:</span> <span class="c1">#OC081115</span>
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">label2D</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">strTitle</span><span class="p">)</span>
+
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;At &#39;</span> <span class="o">+</span> <span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+        <span class="n">label1X</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">strTitle</span><span class="p">)</span>
+
+        <span class="n">strTitle</span> <span class="o">=</span> <span class="s1">&#39;At &#39;</span> <span class="o">+</span> <span class="n">labels</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">label1Y</span> <span class="o">=</span> <span class="p">(</span><span class="n">labels</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">labels</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">strTitle</span><span class="p">)</span>
+
+    <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="n">label2D</span><span class="p">,</span> <span class="n">label1X</span><span class="p">,</span> <span class="n">label1Y</span><span class="p">]</span>
+
+    <span class="n">_backend</span><span class="o">.</span><span class="n">uti_plot2d1d</span><span class="p">(</span><span class="n">ar2d</span><span class="p">,</span> <span class="n">x_range</span><span class="p">,</span> <span class="n">y_range</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">graphs_joined</span><span class="p">)</span></div>
+
+    <span class="c1">#if(show): uti_plot_show() #OC16082021 (commented-out back)</span>
+
+<span class="c1">#def uti_plot_img(_img, _x_range=None, _y_range=None, ): #OC29052020</span>
+<span class="c1">#    _backend.uti_plot_img(_img)</span>
+
+<div class="viewcode-block" id="uti_plot_data_file">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_plot_data_file">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_plot_data_file</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">_e</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="c1">#Same as uti_data_file_plot, but better fits function name decoration rules in this module (uti_plot*)</span>
+                       <span class="n">_multicolumn_data</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">_column_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_column_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="c1">#MR31102017</span>
+                       <span class="n">_scale</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span> <span class="n">_width_pixels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate plot from configuration in _fname</span>
+
+<span class="sd">    :param str _fname: config loaded from here</span>
+<span class="sd">    :param bool _read_labels: whether to read labels from _fname</span>
+<span class="sd">    :param float _e: photon energy adjustment</span>
+<span class="sd">    :param float _x: horizonal position adjustment</span>
+<span class="sd">    :param float _y: vertical position adjustment</span>
+<span class="sd">    :param bool _graphs_joined: if true, all plots in a single figure</span>
+<span class="sd">    :param bool _multicolumn_data: if true, visualize multicolumn data data</span>
+<span class="sd">    :param str _column_x: column for horizontal axis</span>
+<span class="sd">    :param str _column_x: column for vertical axis</span>
+<span class="sd">    :param str _scale: the scale to use for plotting data (linear by default, but could use log, log2, log10)  </span>
+<span class="sd">    :param int _width_pixels: the width of the final plot in pixels  </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+    <span class="n">_backend</span><span class="o">.</span><span class="n">uti_plot_data_file</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="p">,</span> <span class="n">_e</span><span class="p">,</span> <span class="n">_x</span><span class="p">,</span> <span class="n">_y</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="p">,</span>
+                                <span class="n">_multicolumn_data</span><span class="p">,</span> <span class="n">_column_x</span><span class="p">,</span> <span class="n">_column_y</span><span class="p">,</span> <span class="c1">#MR31102017</span>
+                                <span class="n">_scale</span><span class="p">,</span> <span class="n">_width_pixels</span><span class="p">)</span></div>
+
+
+<span class="c1">#def uti_data_file_plot(_fname, _read_labels=1, _e=0, _x=0, _y=0, _graphs_joined=True):</span>
+<span class="c1">#def uti_data_file_plot(_fname, _read_labels=1, _e=0, _x=0, _y=0, _graphs_joined=True, _traj_report=False, _traj_axis=&#39;x&#39;): #MR29072016</span>
+<span class="c1">#def uti_data_file_plot(_fname, _read_labels=1, _e=0, _x=0, _y=0, _graphs_joined=True, _traj_report=False, _traj_axis=&#39;x&#39;, _scale=&#39;linear&#39;, _width_pixels=None): #MR20012017  </span>
+<div class="viewcode-block" id="uti_data_file_plot">
+<a class="viewcode-back" href="../../api/python/_modules/srwpy.html#srwpy.uti_plot.uti_data_file_plot">[docs]</a>
+<span class="k">def</span><span class="w"> </span><span class="nf">uti_data_file_plot</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">_e</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                       <span class="n">_multicolumn_data</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">_column_x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">_column_y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="c1">#MR31102017</span>
+                       <span class="n">_scale</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span> <span class="n">_width_pixels</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate plot from configuration in _fname</span>
+
+<span class="sd">    :param str _fname: config loaded from here</span>
+<span class="sd">    :param bool _read_labels: whether to read labels from _fname</span>
+<span class="sd">    :param float _e: photon energy adjustment</span>
+<span class="sd">    :param float _x: horizonal position adjustment</span>
+<span class="sd">    :param float _y: vertical position adjustment</span>
+<span class="sd">    :param bool _graphs_joined: if true, all plots in a single figure</span>
+<span class="sd">    :param bool _multicolumn_data: if true, visualize multicolumn data data</span>
+<span class="sd">    :param str _column_x: column for horizontal axis</span>
+<span class="sd">    :param str _column_x: column for vertical axis</span>
+<span class="sd">    :param str _scale: the scale to use for plotting data (linear by default, but could use log, log2, log10)  </span>
+<span class="sd">    :param int _width_pixels: the width of the final plot in pixels  </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#if &#39;_backend&#39; not in locals(): uti_plot_init() #?</span>
+    <span class="c1">#_backend.uti_data_file_plot(_fname, _read_labels, _e, _x, _y, _graphs_joined)</span>
+    <span class="c1">#_backend.uti_data_file_plot(_fname, _read_labels, _e, _x, _y, _graphs_joined, _traj_report, _traj_axis) #MR29072016</span>
+    <span class="c1">#_backend.uti_data_file_plot(_fname, _read_labels, _e, _x, _y, _graphs_joined, _traj_report, _traj_axis, _scale, _width_pixels) #MR20012017  </span>
+    <span class="c1">#_backend.uti_data_file_plot(_fname, _read_labels, _e, _x, _y, _graphs_joined,</span>
+    <span class="c1">#                            _multicolumn_data, _column_x, _column_y, #MR31102017</span>
+    <span class="c1">#                            _scale, _width_pixels)</span>
+    <span class="n">uti_plot_data_file</span><span class="p">(</span><span class="n">_fname</span><span class="p">,</span> <span class="n">_read_labels</span><span class="p">,</span> <span class="n">_e</span><span class="p">,</span> <span class="n">_x</span><span class="p">,</span> <span class="n">_y</span><span class="p">,</span> <span class="n">_graphs_joined</span><span class="p">,</span> <span class="n">_multicolumn_data</span><span class="p">,</span> <span class="n">_column_x</span><span class="p">,</span> <span class="n">_column_y</span><span class="p">,</span> <span class="n">_scale</span><span class="p">,</span> <span class="n">_width_pixels</span><span class="p">)</span> <span class="c1">#OC16112017</span></div>
+
+
+<span class="k">class</span><span class="w"> </span><span class="nc">_BackendBase</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__getattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_backend_call</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">_BackendMissing</span><span class="p">(</span><span class="n">_BackendBase</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_backend_call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">uti_plot_init</span><span class="p">()</span>
+        <span class="n">method_name</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">_getframe</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">f_code</span><span class="o">.</span><span class="n">co_name</span>
+        <span class="n">func</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">_backend</span><span class="p">,</span> <span class="n">method_name</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">_BackendNone</span><span class="p">(</span><span class="n">_BackendBase</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">_backend_call</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="n">_backend</span> <span class="o">=</span> <span class="n">_BackendMissing</span><span class="p">()</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Synchrotron Radiation Workshop, NSLS-II, Brookhaven National Lab.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

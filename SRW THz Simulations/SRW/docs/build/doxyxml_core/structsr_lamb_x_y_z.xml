@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="structsr_lamb_x_y_z" kind="struct" language="C++" prot="public">
+    <compoundname>srLambXYZ</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsr_lamb_x_y_z_1a331a8ec12a8190d2273e9d876aa63bd1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srLambXYZ::Lamb</definition>
+        <argsstring></argsstring>
+        <name>Lamb</name>
+        <qualifiedname>srLambXYZ::Lamb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="34" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_lamb_x_y_z_1ac2e92205f0008878dc25b192bcaf3f64" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srLambXYZ::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>srLambXYZ::x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="34" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_lamb_x_y_z_1a0b1d6628d48755fbda1a50a24a4c4ac4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srLambXYZ::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>srLambXYZ::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="34" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsr_lamb_x_y_z_1a345a1d5db6e90f6cbc4cc41a057117d1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double srLambXYZ::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>srLambXYZ::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="34" column="17" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" line="33" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srstraux.h" bodystart="33" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structsr_lamb_x_y_z_1a331a8ec12a8190d2273e9d876aa63bd1" prot="public" virt="non-virtual"><scope>srLambXYZ</scope><name>Lamb</name></member>
+      <member refid="structsr_lamb_x_y_z_1ac2e92205f0008878dc25b192bcaf3f64" prot="public" virt="non-virtual"><scope>srLambXYZ</scope><name>x</name></member>
+      <member refid="structsr_lamb_x_y_z_1a0b1d6628d48755fbda1a50a24a4c4ac4" prot="public" virt="non-virtual"><scope>srLambXYZ</scope><name>y</name></member>
+      <member refid="structsr_lamb_x_y_z_1a345a1d5db6e90f6cbc4cc41a057117d1" prot="public" virt="non-virtual"><scope>srLambXYZ</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

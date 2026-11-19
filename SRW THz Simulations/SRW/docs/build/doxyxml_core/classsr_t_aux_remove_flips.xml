@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_aux_remove_flips" kind="class" language="C++" prot="public">
+    <compoundname>srTAuxRemoveFlips</compoundname>
+    <includes refid="srremflp_8h" local="no">srremflp.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_aux_remove_flips_1a251a72476ba42249ca3cfcb1b0d38a60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxRemoveFlips::GenRemoveFlips</definition>
+        <argsstring>(srTWaveAccessData &amp;WaveData)</argsstring>
+        <name>GenRemoveFlips</name>
+        <qualifiedname>srTAuxRemoveFlips::GenRemoveFlips</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>WaveData</declname>
+        </param>
+        <briefdescription>
+<para>File: srremflp.cpp Description: Auxiliary (obsolete or rarely used) class for processing Radiation data Project: Synchrotron Radiation Workshop First release: 2000. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h" line="24" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.cpp" bodystart="28" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_remove_flips_1a3dd21bf9c4c3894a8f886d96309c40fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTAuxRemoveFlips::RemoveFlips1D</definition>
+        <argsstring>(double *pData, long long Np, long long i0, double Phi0)</argsstring>
+        <name>RemoveFlips1D</name>
+        <qualifiedname>srTAuxRemoveFlips::RemoveFlips1D</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Phi0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h" line="26" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.cpp" bodystart="65" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_remove_flips_1ad5bda5b1681f8ee5e8a5452be7820ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTAuxRemoveFlips::RemoveFlips1D</definition>
+        <argsstring>(float *pData, long long Np, long long i0, double Phi0)</argsstring>
+        <name>RemoveFlips1D</name>
+        <qualifiedname>srTAuxRemoveFlips::RemoveFlips1D</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Phi0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h" line="28" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.cpp" bodystart="128" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_remove_flips_1ae2c504b1c5ccb801e85df231aa907305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxRemoveFlips::RemoveFlips2D_D</definition>
+        <argsstring>(srTWaveAccessData &amp;WaveData)</argsstring>
+        <name>RemoveFlips2D_D</name>
+        <qualifiedname>srTAuxRemoveFlips::RemoveFlips2D_D</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>WaveData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h" line="30" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.cpp" bodystart="189" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_aux_remove_flips_1a137dd9dc891dcd780722752621802a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTAuxRemoveFlips::RemoveFlips2D_F</definition>
+        <argsstring>(srTWaveAccessData &amp;WaveData)</argsstring>
+        <name>RemoveFlips2D_F</name>
+        <qualifiedname>srTAuxRemoveFlips::RemoveFlips2D_F</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>WaveData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h" line="31" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.cpp" bodystart="235" bodyend="272"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>File: srremflp.cpp Description: Auxiliary (obsolete or rarely used) class for processing Radiation data (header) Project: Synchrotron Radiation Workshop First release: 2000. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h" line="21" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srremflp.h" bodystart="21" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classsr_t_aux_remove_flips_1a251a72476ba42249ca3cfcb1b0d38a60" prot="public" virt="non-virtual"><scope>srTAuxRemoveFlips</scope><name>GenRemoveFlips</name></member>
+      <member refid="classsr_t_aux_remove_flips_1a3dd21bf9c4c3894a8f886d96309c40fc" prot="public" virt="non-virtual"><scope>srTAuxRemoveFlips</scope><name>RemoveFlips1D</name></member>
+      <member refid="classsr_t_aux_remove_flips_1ad5bda5b1681f8ee5e8a5452be7820ef3" prot="public" virt="non-virtual"><scope>srTAuxRemoveFlips</scope><name>RemoveFlips1D</name></member>
+      <member refid="classsr_t_aux_remove_flips_1ae2c504b1c5ccb801e85df231aa907305" prot="public" virt="non-virtual"><scope>srTAuxRemoveFlips</scope><name>RemoveFlips2D_D</name></member>
+      <member refid="classsr_t_aux_remove_flips_1a137dd9dc891dcd780722752621802a53" prot="public" virt="non-virtual"><scope>srTAuxRemoveFlips</scope><name>RemoveFlips2D_F</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

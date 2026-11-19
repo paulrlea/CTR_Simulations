@@ -1,0 +1,1647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.12.0" xml:lang="en-US">
+  <compounddef id="classsr_t_rad_gen_manip" kind="class" language="C++" prot="public">
+    <compoundname>srTRadGenManip</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_gen_manip_1a9911e7c75218ff22d96a34c197bb004a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTRadGenManip::EhOK</definition>
+        <argsstring></argsstring>
+        <name>EhOK</name>
+        <qualifiedname>srTRadGenManip::EhOK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="46" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsr_t_rad_gen_manip_1a1530c838438145edce24426e7831b249" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool srTRadGenManip::EvOK</definition>
+        <argsstring></argsstring>
+        <name>EvOK</name>
+        <qualifiedname>srTRadGenManip::EvOK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="46" column="11" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsr_t_rad_gen_manip_1a8b226eba67439572852c92ce863878c6" prot="public" static="no" mutable="no">
+        <type>CHGenObj</type>
+        <definition>CHGenObj srTRadGenManip::hRadAccessData</definition>
+        <argsstring></argsstring>
+        <name>hRadAccessData</name>
+        <qualifiedname>srTRadGenManip::hRadAccessData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="54" column="10" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a4cba8bb73c49f34232fbae4e10cf1760" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadGenManip::srTRadGenManip</definition>
+        <argsstring>(CHGenObj &amp;In_hRadAccessData)</argsstring>
+        <name>srTRadGenManip</name>
+        <qualifiedname>srTRadGenManip::srTRadGenManip</qualifiedname>
+        <param>
+          <type>CHGenObj &amp;</type>
+          <declname>In_hRadAccessData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="60" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="60" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1af51d8531867666d0e394c1d767545a4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>srTRadGenManip::srTRadGenManip</definition>
+        <argsstring>()</argsstring>
+        <name>srTRadGenManip</name>
+        <qualifiedname>srTRadGenManip::srTRadGenManip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="74" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a996000ed118b970f51966f35679a4108" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ExtractRadiation</definition>
+        <argsstring>(int PolarizCompon, int Int_or_Phase, int SectID, int TransvPres, double e, double x, double z, char *pData, double *pMeth=0, srTTrjDat *pTrjDat=0, void *pvGPU=0)</argsstring>
+        <name>ExtractRadiation</name>
+        <qualifiedname>srTRadGenManip::ExtractRadiation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>PolarizCompon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Int_or_Phase</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>SectID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>TransvPres</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>pData</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pMeth</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classsr_t_trj_dat" kindref="compound">srTTrjDat</ref> *</type>
+          <declname>pTrjDat</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="87" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="87" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a0147190977660e99b95219917ed8655c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractRadiation</definition>
+        <argsstring>(srTRadExtract &amp;RadExtract, srTWaveAccessData &amp;ExtractedWaveData, void *pvGPU=0)</argsstring>
+        <name>ExtractRadiation</name>
+        <qualifiedname>srTRadGenManip::ExtractRadiation</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <declname>RadExtract</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>ExtractedWaveData</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="166" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="166" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a6cd18373ce5ce9d14f921b4ad80161c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity</definition>
+        <argsstring>(srTRadExtract &amp;RadExtract, void *pvGPU=0)</argsstring>
+        <name>ExtractSingleElecIntensity</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <declname>RadExtract</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="201" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="201" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a8c2c3b2e5c6858248fc8a10d94858f3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecMutualIntensity</definition>
+        <argsstring>(srTRadExtract &amp;RadExtract, void *pvGPU=0)</argsstring>
+        <name>ExtractSingleElecMutualIntensity</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecMutualIntensity</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <declname>RadExtract</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="216" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="216" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1adec73e284432ec94722de6805ddc25ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::TryToMakePhaseContinuous</definition>
+        <argsstring>(srTWaveAccessData &amp;WaveData)</argsstring>
+        <name>TryToMakePhaseContinuous</name>
+        <qualifiedname>srTRadGenManip::TryToMakePhaseContinuous</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <declname>WaveData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>int ExtractMultiElecMutualIntensity(srTRadExtract&amp; RadExtract, srTTrjDat* pTrjDat=0)
+{//OC23022020 (under development - OC23032020)
+    int PolCom = RadExtract.PolarizCompon;
+    int Int_or_ReE = RadExtract.Int_or_Phase;
+    if(Int_or_ReE != 9) return CAN_NOT_EXTRACT_MUT_INT;
+</verbatim></para>
+<para>if(RadExtract.PlotType == 0) return ExtractMultiElecMutualIntensityVsE(RadExtract); else if(RadExtract.PlotType == 1) return ExtractMultiElecMutualIntensityVsX(RadExtract); if(RadExtract.PlotType == 1) return ExtractMultiElecMutualIntensityVsX(RadExtract); else if(RadExtract.PlotType == 2) return ExtractMultiElecMutualIntensityVsZ(RadExtract); if(RadExtract.PlotType == 3) return ComputeMultiElecMutualIntensityVsXZ(RadExtract, pTrjDat); else if(RadExtract.PlotType == 4) return ExtractMultiElecMutualIntensityVsEX(RadExtract); else if(RadExtract.PlotType == 5) return ExtractMultiElecMutualIntensityVsEZ(RadExtract); else return ExtractMultiElecMutualIntensityEXZ(RadExtract); else return CAN_NOT_EXTRACT_MUT_INT; } </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="256" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3155" bodyend="3194"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a9cfbaa9426242963ceeec11306ce63a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::TryToMakePhaseContinuous1D</definition>
+        <argsstring>(double *pOutPhase, long long Np, long long i0, float Phi0)</argsstring>
+        <name>TryToMakePhaseContinuous1D</name>
+        <qualifiedname>srTRadGenManip::TryToMakePhaseContinuous1D</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>pOutPhase</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>Np</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>i0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Phi0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="257" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3198" bodyend="3258"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1acba5f040b83ebccc2983b17620b47e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity1DvsE</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecIntensity1DvsE</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity1DvsE</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="260" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="224" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a9e67ebea94631d144a3e3e29440eb18f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity1DvsX</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecIntensity1DvsX</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity1DvsX</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="261" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="324" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a68d8177ba16db9fa9320257810b0736e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity1DvsZ</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecIntensity1DvsZ</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity1DvsZ</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="262" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="500" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a02efd8ca3d0ff1b91dc190680052462e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity2DvsXZ</definition>
+        <argsstring>(srTRadExtract &amp;, void *pvGPU=0)</argsstring>
+        <name>ExtractSingleElecIntensity2DvsXZ</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity2DvsXZ</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="264" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="681" bodyend="954"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a9cd3b7ed7b5a17f058740b9b2cf2693c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity2DvsEX</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecIntensity2DvsEX</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity2DvsEX</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="268" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="958" bodyend="1029"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1aa1f85e6df831bbb22c8dfe5f390efc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity2DvsEZ</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecIntensity2DvsEZ</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity2DvsEZ</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="269" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="1033" bodyend="1104"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a0b919b391c4bd8b9ab9aac17a8edfd68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecIntensity3D</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecIntensity3D</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecIntensity3D</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="270" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="1108" bodyend="1177"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a1b9442827effb038a0a8bf9267fe828f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecMutualIntensityVsX</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecMutualIntensityVsX</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecMutualIntensityVsX</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>//OC06092018 Previous version, assuming special alignment (diagonal data first, etc.) int res = 0; int PolCom = RadExtract.PolarizCompon; int Int_or_ReE = RadExtract.Int_or_Phase; <ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>&amp; RadAccessData = <emphasis>((<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref></emphasis>)(hRadAccessData.ptr()));</para>
+<para>float *pMI = RadExtract.pExtractedData; float *pEx0 = RadAccessData.pBaseRadX; float *pEz0 = RadAccessData.pBaseRadZ;</para>
+<para>long long PerX = RadAccessData.ne &lt;&lt; 1; long long PerZ = PerX*RadAccessData.nx;</para>
+<para>long ie0=0, ie1=0, iz0=0, iz1=0; long long ie0=0, ie1=0, iz0=0, iz1=0; //OC26042019 double InvStepRelArg1, InvStepRelArg2;</para>
+<para>SetupIntCoord(&apos;z&apos;, RadExtract.z, iz0, iz1, InvStepRelArg2); SetupIntCoord(&apos;e&apos;, RadExtract.ePh, ie0, ie1, InvStepRelArg1);</para>
+<para>const double tolRelArg = 1.e-08; bool NeedInterp = true; if(((iz0 == iz1) || (fabs(InvStepRelArg2) &lt; tolRelArg)) &amp;&amp; ((ie0 == ie1) || (fabs(InvStepRelArg1) &lt; tolRelArg))) NeedInterp = false;</para>
+<para>int iter = 0, *pMeth = RadExtract.pMeth; //OC14122019 if(pMeth != 0) { if(*pMeth == 1) iter = *(pMeth + 1);}</para>
+<para>long Two_ie0 = ie0 &lt;&lt; 1, Two_ie1 = ie1 &lt;&lt; 1; long long Two_ie0 = ie0 &lt;&lt; 1, Two_ie1 = ie1 &lt;&lt; 1; //OC26042019 long long iz0PerZ = iz0*PerZ, iz1PerZ = iz1*PerZ; float *pEx_StartForX_iz0 = pEx0 + iz0PerZ, *pEx_StartForX_iz1 = pEx0 + iz1PerZ; float *pEz_StartForX_iz0 = pEz0 + iz0PerZ, *pEz_StartForX_iz1 = pEz0 + iz1PerZ; float *pEx_StartForE_iz0, *pEx_StartForE_iz1; float *pEz_StartForE_iz0, *pEz_StartForE_iz1;</para>
+<para>First RadAccessData.nx values are the &quot;normal&quot; intensity (real diagonal elements of mutual intensity) long nx = RadAccessData.nx; long long nx = RadAccessData.nx; //OC26042019 long long ixPerX = 0; for(long long ix=0; ix&lt;nx; ix++) //OC26042019 for(long ix=0; ix&lt;nx; ix++) { if(NeedInterp) { pEx_StartForE_iz0 = pEx_StartForX_iz0 + ixPerX; pEx_StartForE_iz1 = pEx_StartForX_iz1 + ixPerX; pEz_StartForE_iz0 = pEz_StartForX_iz0 + ixPerX; pEz_StartForE_iz1 = pEz_StartForX_iz1 + ixPerX; float *ExPtrs[] = { (pEx_StartForE_iz0 + Two_ie0), (pEx_StartForE_iz0 + Two_ie1), (pEx_StartForE_iz1 + Two_ie0), (pEx_StartForE_iz1 + Two_ie1)}; float *EzPtrs[] = { (pEz_StartForE_iz0 + Two_ie0), (pEz_StartForE_iz0 + Two_ie1), (pEz_StartForE_iz1 + Two_ie0), (pEz_StartForE_iz1 + Two_ie1)}; (pMI++) = IntensityComponentSimpleInterpol2D(ExPtrs, EzPtrs, InvStepRelArg1, InvStepRelArg2, PolCom, 0); } else { (pMI++) = IntensityComponent(pEx_StartForX_iz0 + ixPerX + Two_ie0, pEz_StartForX_iz0 + ixPerX + Two_ie0, PolCom, 0); } ixPerX += PerX; }</para>
+<para>float *pEx_StartForE_iz0_t, *pEx_StartForE_iz1_t; float *pEz_StartForE_iz0_t, *pEz_StartForE_iz1_t; float **ExPtrs, **EzPtrs, **ExPtrsT, **EzPtrsT; long nx_mi_1 = nx - 1; long long nx_mi_1 = nx - 1; //OC26042019 for(long long ixt=0; ixt&lt;nx_mi_1; ixt++) for(long ixt=0; ixt&lt;nx_mi_1; ixt++) { long long ixt_PerX = ixt*PerX; pEx_StartForE_iz0_t = pEx_StartForX_iz0 + ixt_PerX; pEz_StartForE_iz0_t = pEz_StartForX_iz0 + ixt_PerX;</para>
+<para>if(NeedInterp) { pEx_StartForE_iz1_t = pEx_StartForX_iz1 + ixt_PerX; pEz_StartForE_iz1_t = pEz_StartForX_iz1 + ixt_PerX; float *arExPtrs_t[] = { (pEx_StartForE_iz0_t + Two_ie0), (pEx_StartForE_iz0_t + Two_ie1), (pEx_StartForE_iz1_t + Two_ie0), (pEx_StartForE_iz1_t + Two_ie1)}; float *arEzPtrs_t[] = { (pEz_StartForE_iz0_t + Two_ie0), (pEz_StartForE_iz0_t + Two_ie1), (pEz_StartForE_iz1_t + Two_ie0), (pEz_StartForE_iz1_t + Two_ie1)}; ExPtrsT = arExPtrs_t; EzPtrsT = arEzPtrs_t; }</para>
+<para>for(long long ix=ixt+1; ix&lt;nx; ix++) //OC26042019 for(long ix=ixt+1; ix&lt;nx; ix++) { long long ix_PerX = ix*PerX; pEx_StartForE_iz0 = pEx_StartForX_iz0 + ix_PerX; pEz_StartForE_iz0 = pEz_StartForX_iz0 + ix_PerX;</para>
+<para>if(NeedInterp) { pEx_StartForE_iz1 = pEx_StartForX_iz1 + ix_PerX; pEz_StartForE_iz1 = pEz_StartForX_iz1 + ix_PerX; float *arExPtrs[] = { (pEx_StartForE_iz0 + Two_ie0), (pEx_StartForE_iz0 + Two_ie1), (pEx_StartForE_iz1 + Two_ie0), (pEx_StartForE_iz1 + Two_ie1)}; float *arEzPtrs[] = { (pEz_StartForE_iz0 + Two_ie0), (pEz_StartForE_iz0 + Two_ie1), (pEz_StartForE_iz1 + Two_ie0), (pEz_StartForE_iz1 + Two_ie1)}; ExPtrs = arExPtrs; EzPtrs = arEzPtrs; if(res = MutualIntensityComponentSimpleInterpol2D(ExPtrs, ExPtrsT, EzPtrs, EzPtrsT, InvStepRelArg1, InvStepRelArg2, PolCom, iter, pMI)) return res; //OC14122019 if(res = MutualIntensityComponentSimpleInterpol2D(ExPtrs, ExPtrsT, EzPtrs, EzPtrsT, InvStepRelArg1, InvStepRelArg2, PolCom, pMI)) return res; } else { float *pEx = pEx_StartForE_iz0 + Two_ie0, *pExT = pEx_StartForE_iz0_t + Two_ie0; float *pEz = pEz_StartForE_iz0 + Two_ie0, *pEzT = pEz_StartForE_iz0_t + Two_ie0; if(res = MutualIntensityComponent(pEx, pExT, pEz, pEzT, PolCom, iter, pMI)) return res; //OC14122019 if(res = MutualIntensityComponent(pEx, pExT, pEz, pEzT, PolCom, pMI)) return res; } pMI += 2; } }</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="272" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="1181" bodyend="1384"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a7b0618765f50b388598280b0c2b0b972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecMutualIntensityVsZ</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecMutualIntensityVsZ</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecMutualIntensityVsZ</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>//OC10092018 Previous version, assuming special alignment (diagonal data first, etc.) int res = 0; int PolCom = RadExtract.PolarizCompon; int Int_or_ReE = RadExtract.Int_or_Phase; <ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>&amp; RadAccessData = <emphasis>((<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref></emphasis>)(hRadAccessData.ptr()));</para>
+<para>float *pMI = RadExtract.pExtractedData; float *pEx0 = RadAccessData.pBaseRadX; float *pEz0 = RadAccessData.pBaseRadZ;</para>
+<para>long long PerX = RadAccessData.ne &lt;&lt; 1; long long PerZ = PerX*RadAccessData.nx;</para>
+<para>long ie0=0, ie1=0, ix0=0, ix1=0; long long ie0=0, ie1=0, ix0=0, ix1=0; //OC26042019 double InvStepRelArg1, InvStepRelArg2;</para>
+<para>SetupIntCoord(&apos;x&apos;, RadExtract.x, ix0, ix1, InvStepRelArg2); SetupIntCoord(&apos;e&apos;, RadExtract.ePh, ie0, ie1, InvStepRelArg1);</para>
+<para>const double tolRelArg = 1.e-08; bool NeedInterp = true; if(((ix0 == ix1) || (fabs(InvStepRelArg2) &lt; tolRelArg)) &amp;&amp; ((ie0 == ie1) || (fabs(InvStepRelArg1) &lt; tolRelArg))) NeedInterp = false;</para>
+<para>int iter = 0, *pMeth = RadExtract.pMeth; //OC14122019 if(pMeth != 0) { if(*pMeth == 1) iter = *(pMeth + 1); }</para>
+<para>long Two_ie0 = ie0 &lt;&lt; 1, Two_ie1 = ie1 &lt;&lt; 1; long long Two_ie0 = ie0 &lt;&lt; 1, Two_ie1 = ie1 &lt;&lt; 1; //OC26042019 long long ix0PerX = ix0*PerX, ix1PerX = ix1*PerX;</para>
+<para>float *pEx_StartForZ_ix0 = pEx0 + ix0PerX, *pEx_StartForZ_ix1 = pEx0 + ix1PerX; float *pEz_StartForZ_ix0 = pEz0 + ix0PerX, *pEz_StartForZ_ix1 = pEz0 + ix1PerX; float *pEx_StartForE_ix0, *pEx_StartForE_ix1; float *pEz_StartForE_ix0, *pEz_StartForE_ix1;</para>
+<para>First RadAccessData.nx values are the &quot;normal&quot; intensity (real diagonal elements of mutual intensity) long nz = RadAccessData.nz; long long nz = RadAccessData.nz; //OC26042019 long long izPerZ = 0; for(long long iz=0; iz&lt;nz; iz++) //OC26042019 for(long iz=0; iz&lt;nz; iz++) { pEx_StartForE_ix0 = pEx_StartForZ_ix0 + izPerZ; pEz_StartForE_ix0 = pEz_StartForZ_ix0 + izPerZ;</para>
+<para>if(NeedInterp) { pEx_StartForE_ix1 = pEx_StartForZ_ix1 + izPerZ; pEz_StartForE_ix1 = pEz_StartForZ_ix1 + izPerZ; float *ExPtrs[] = { (pEx_StartForE_ix0 + Two_ie0), (pEx_StartForE_ix0 + Two_ie1), (pEx_StartForE_ix1 + Two_ie0), (pEx_StartForE_ix1 + Two_ie1)}; float *EzPtrs[] = { (pEz_StartForE_ix0 + Two_ie0), (pEz_StartForE_ix0 + Two_ie1), (pEz_StartForE_ix1 + Two_ie0), (pEz_StartForE_ix1 + Two_ie1)};</para>
+<para>(pMI++) = IntensityComponentSimpleInterpol2D(ExPtrs, EzPtrs, InvStepRelArg1, InvStepRelArg2, PolCom, 0); } else { (pMI++) = IntensityComponent(pEx_StartForE_ix0 + Two_ie0, pEz_StartForE_ix0 + Two_ie0, PolCom, 0); } izPerZ += PerZ; }</para>
+<para>float *pEx_StartForE_ix0_t, *pEx_StartForE_ix1_t; float *pEz_StartForE_ix0_t, *pEz_StartForE_ix1_t; float **ExPtrs, **EzPtrs, **ExPtrsT, **EzPtrsT; long nz_mi_1 = nz - 1; for(long izt=0; izt&lt;nz_mi_1; izt++) long long nz_mi_1 = nz - 1; //OC26042019 for(long long izt=0; izt&lt;nz_mi_1; izt++) { long long izt_PerZ = izt*PerZ; pEx_StartForE_ix0_t = pEx_StartForZ_ix0 + izt_PerZ; pEz_StartForE_ix0_t = pEz_StartForZ_ix0 + izt_PerZ;</para>
+<para>if(NeedInterp) { pEx_StartForE_ix1_t = pEx_StartForZ_ix1 + izt_PerZ; pEz_StartForE_ix1_t = pEz_StartForZ_ix1 + izt_PerZ; float *arExPtrs_t[] = { (pEx_StartForE_ix0_t + Two_ie0), (pEx_StartForE_ix0_t + Two_ie1), (pEx_StartForE_ix1_t + Two_ie0), (pEx_StartForE_ix1_t + Two_ie1)}; float *arEzPtrs_t[] = { (pEz_StartForE_ix0_t + Two_ie0), (pEz_StartForE_ix0_t + Two_ie1), (pEz_StartForE_ix1_t + Two_ie0), (pEz_StartForE_ix1_t + Two_ie1)}; ExPtrsT = arExPtrs_t; EzPtrsT = arEzPtrs_t; }</para>
+<para>for(long long iz=izt+1; iz&lt;nz; iz++) //OC26042019 for(long iz=izt+1; iz&lt;nz; iz++) { long long iz_PerZ = iz*PerZ; pEx_StartForE_ix0 = pEx_StartForZ_ix0 + iz_PerZ; pEz_StartForE_ix0 = pEz_StartForZ_ix0 + iz_PerZ;</para>
+<para>if(NeedInterp) { pEx_StartForE_ix1 = pEx_StartForZ_ix1 + iz_PerZ; pEz_StartForE_ix1 = pEz_StartForZ_ix1 + iz_PerZ; float *arExPtrs[] = { (pEx_StartForE_ix0 + Two_ie0), (pEx_StartForE_ix0 + Two_ie1), (pEx_StartForE_ix1 + Two_ie0), (pEx_StartForE_ix1 + Two_ie1)}; float *arEzPtrs[] = { (pEz_StartForE_ix0 + Two_ie0), (pEz_StartForE_ix0 + Two_ie1), (pEz_StartForE_ix1 + Two_ie0), (pEz_StartForE_ix1 + Two_ie1)}; ExPtrs = arExPtrs; EzPtrs = arEzPtrs; if(res = MutualIntensityComponentSimpleInterpol2D(ExPtrs, ExPtrsT, EzPtrs, EzPtrsT, InvStepRelArg1, InvStepRelArg2, PolCom, iter, pMI)) return res; //OC14122019 if(res = MutualIntensityComponentSimpleInterpol2D(ExPtrs, ExPtrsT, EzPtrs, EzPtrsT, InvStepRelArg1, InvStepRelArg2, PolCom, pMI)) return res; } else { float *pEx = pEx_StartForE_ix0 + Two_ie0, *pExT = pEx_StartForE_ix0_t + Two_ie0; float *pEz = pEz_StartForE_ix0 + Two_ie0, *pEzT = pEz_StartForE_ix0_t + Two_ie0; if(res = MutualIntensityComponent(pEx, pExT, pEz, pEzT, PolCom, iter, pMI)) return res; //OC14122019 if(res = MutualIntensityComponent(pEx, pExT, pEz, pEzT, PolCom, pMI)) return res; } pMI += 2; } }</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="273" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="1388" bodyend="1596"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a16692ed6a68382eef91e6eb412231dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecMutualIntensityVsXZ</definition>
+        <argsstring>(srTRadExtract &amp;, void *pvGPU=0)</argsstring>
+        <name>ExtractSingleElecMutualIntensityVsXZ</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecMutualIntensityVsXZ</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pvGPU</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>//OC11092018 Previous version, assuming special alignment (diagonal data first, etc.) First RadAccessData.nx values are the &quot;normal&quot; intensity (real diagonal elements of mutual intensity) long long izPerZ = 0; for(long long iz=0; iz&lt;nz; iz++) //OC26042019 for(long iz=0; iz&lt;nz; iz++) { float *pEx_StartForX = pEx0 + izPerZ; float *pEz_StartForX = pEz0 + izPerZ;</para>
+<para>float *pEx_St = pEx_StartForX + Two_ie0; float *pEz_St = pEz_StartForX + Two_ie0; float *pEx_Fi = pEx_StartForX + Two_ie1; float *pEz_Fi = pEz_StartForX + Two_ie1;</para>
+<para>for(long long ix=0; ix&lt;nx; ix++) //OC26042019 for(long ix=0; ix&lt;nx; ix++) { if(NeedInterp) { (pMI++) = IntensityComponentSimpleInterpol(pEx_St, pEx_Fi, pEz_St, pEz_Fi, InvStepRelArg, PolCom, 0); } else { (pMI++) = IntensityComponent(pEx_St, pEz_St, PolCom, 0); } pEx_St += PerX; pEz_St += PerX; pEx_Fi += PerX; pEz_Fi += PerX; } izPerZ += PerZ; }</para>
+<para>float **ExPtrs, **EzPtrs, **ExPtrsT, **EzPtrsT; long long nxnz = nx*nz; long long nxnz_mi_1 = nxnz - 1; for(long long it=0; it&lt;nxnz_mi_1; it++) { long long it_PerX = it*PerX; if(NeedInterp) { float *pEx0_p_it_PerX = pEx0 + it_PerX; float *pEz0_p_it_PerX = pEz0 + it_PerX; float *arExPtrs_t[] = { (pEx0_p_it_PerX + Two_ie0), (pEx0_p_it_PerX + Two_ie1)}; float *arEzPtrs_t[] = { (pEz0_p_it_PerX + Two_ie0), (pEz0_p_it_PerX + Two_ie1)}; ExPtrsT = arExPtrs_t; EzPtrsT = arEzPtrs_t; }</para>
+<para>for(long long i=it+1; i&lt;nxnz; i++) { long long i_PerX = i*PerX; if(NeedInterp) { float *pEx0_p_i_PerX = pEx0 + i_PerX; float *pEz0_p_i_PerX = pEz0 + i_PerX; float *arExPtrs[] = { (pEx0_p_i_PerX + Two_ie0), (pEx0_p_i_PerX + Two_ie1)}; float *arEzPtrs[] = { (pEz0_p_i_PerX + Two_ie0), (pEz0_p_i_PerX + Two_ie1)}; ExPtrs = arExPtrs; EzPtrs = arEzPtrs; if(res = MutualIntensityComponentSimpleInterpol(ExPtrs, ExPtrsT, EzPtrs, EzPtrsT, InvStepRelArg, PolCom, pMI)) return res; } else { float *pEx = pEx0 + i_PerX + Two_ie0, *pExT = pEx0 + it_PerX + Two_ie0; float *pEz = pEz0 + i_PerX + Two_ie0, *pEzT = pEz0 + it_PerX + Two_ie0; if(res = MutualIntensityComponent(pEx, pExT, pEz, pEzT, PolCom, pMI)) return res; } pMI += 2; } }</para>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="275" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="1602" bodyend="2393"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a452be242eb19e74d1c63fb7a536437c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::SetupExtractedWaveData</definition>
+        <argsstring>(srTRadExtract &amp;, srTWaveAccessData &amp;)</argsstring>
+        <name>SetupExtractedWaveData</name>
+        <qualifiedname>srTRadGenManip::SetupExtractedWaveData</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> &amp;</type>
+          <defname>ExtrWaveData</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="291" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3067" bodyend="3151"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a6f0c1928a7362a606c4cc498958195cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::SetupIntCoord</definition>
+        <argsstring>(char, double, long long &amp;, long long &amp;, double &amp;)</argsstring>
+        <name>SetupIntCoord</name>
+        <qualifiedname>srTRadGenManip::SetupIntCoord</qualifiedname>
+        <param>
+          <type>char</type>
+          <defname>Cmpn</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>Arg</defname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <defname>i0</defname>
+        </param>
+        <param>
+          <type>long long &amp;</type>
+          <defname>i1</defname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <defname>InvStepRelArg</defname>
+        </param>
+        <briefdescription>
+<para>File: srradmnp.cpp Description: Various &quot;manipulations&quot; with Radiation data (e.g. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;extraction&quot; of Intensity from Electric Field, etc.) Project: Synchrotron Radiation Workshop First release: 2000</para>
+<para>Copyright (C) European Synchrotron Radiation Facility, Grenoble, France All Rights Reserved</para>
+<para><simplesect kind="author"><para>O.Chubar, P.Elleaume </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="292" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="35" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1aaa7bf2febdfabeb75ec476379cdbb8cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractFluxFromWfr</definition>
+        <argsstring>(srTRadExtract &amp;RadExtract, char s_or_m)</argsstring>
+        <name>ExtractFluxFromWfr</name>
+        <qualifiedname>srTRadGenManip::ExtractFluxFromWfr</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <declname>RadExtract</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>s_or_m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="295" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="295" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ae9b5af1b6da7031e03fa42c182a499af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractSingleElecFlux1DvsE</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractSingleElecFlux1DvsE</name>
+        <qualifiedname>srTRadGenManip::ExtractSingleElecFlux1DvsE</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="310" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="83" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a307b329a859e7f5916e193288f86af46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ExtractMultiElecFlux1DvsE</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ExtractMultiElecFlux1DvsE</name>
+        <qualifiedname>srTRadGenManip::ExtractMultiElecFlux1DvsE</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="311" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="147" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1aeb8a032dec7cf22f36c436314bdac0b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ComputeConvolutedIntensity</definition>
+        <argsstring>(srTRadExtract &amp;)</argsstring>
+        <name>ComputeConvolutedIntensity</name>
+        <qualifiedname>srTRadGenManip::ComputeConvolutedIntensity</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+<para>int srTRadGenManip::ComputeMultiElecMutualIntensityVsXZ(srTRadExtract&amp; RadExtract, srTTrjDat* pTrjDat) {//OC23022020 (under development - OC23032020) int res = 0; int PolCom = RadExtract.PolarizCompon; int Int_or_ReE = RadExtract.Int_or_Phase; <ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref>&amp; RadAccessData = <emphasis>((<ref refid="classsr_t_s_r_w_rad_struct_access_data" kindref="compound">srTSRWRadStructAccessData</ref></emphasis>)(hRadAccessData.ptr())); </para>
+        </briefdescription>
+        <detaileddescription>
+<para>float *pMI0 = RadExtract.pExtractedData; float *pEx0 = RadAccessData.pBaseRadX; float *pEz0 = RadAccessData.pBaseRadZ;</para>
+<para>long long nz = RadAccessData.nz, nx = RadAccessData.nx, ne = RadAccessData.ne; long long nxnz = nx*nz;</para>
+<para>long long PerX = ne &lt;&lt; 1; long long PerZ = PerX*nx; long long PerArg = nxnz &lt;&lt; 1; //Row or Column length of the complex MI matrix represented by real numbers</para>
+<para>long long ie0=0, ie1=0; double InvStepRelArg=0;</para>
+<para>SetupIntCoord(&apos;e&apos;, RadExtract.ePh, ie0, ie1, InvStepRelArg); const double tolRelArg = 1.e-08; bool DontNeedInterpE = false; if((ie0 == ie1) || (fabs(InvStepRelArg) &lt; tolRelArg)) DontNeedInterpE = true;</para>
+<para>double Rx = 0., Rz = 0., xc = 0., zc = 0.; int nElecXY = 1000, nElecX = 0, nElecY = 0, nElecE = 1; char elecIntMeth = 0; double *pMeth = RadExtract.pMeth; if(pMeth != 0) { if(*pMeth == 1) iter = *(pMeth + 1); else if(*pMeth == 2) iter = -1; Rx = pMeth[2], Rz = pMeth[3], xc = pMeth[4], zc = pMeth[5]; if(pMeth[8] &lt;= 0.) { if(pMeth[7] &gt; 0.) nElecXY = (int)pMeth[7]; nElecX = 0; nElecY = 0; } else { if(pMeth[7] &gt; 0.) nElecX = (int)pMeth[7]; nElecY = (int)pMeth[8]; nElecXY = 0; } if(pMeth[9] &gt;= 1.) nElecE = (int)pMeth[9]; if(pMeth[10] &gt;= 0.) elecIntMeth = (char)pMeth[10]; }</para>
+<para><ref refid="classsr_t_ebm_dat" kindref="compound">srTEbmDat</ref> EbmDat; if(res = RadAccessData.OutElectronBeamStruct(EbmDat)) return res; if((EbmDat.Mee &lt;= 0.) || (pTrjDat == 0)) nElecE = 1;</para>
+<para>CGenMathRand LocRand; <ref refid="classsr_t_rad_int" kindref="compound">srTRadInt</ref> RadInt; <ref refid="classsr_t_wfr_smp" kindref="compound">srTWfrSmp</ref> AuxSmp;</para>
+<para>double elecEc = EbmDat.Energy, elecSigE = 0.; if(nElecE &gt; 1) { elecSigE = sqrt(EbmDat.Mee)*elecEc; RadAccessData.SetObsParamFromWfr(AuxSmp); }</para>
+<para><verbatim>int nElecE_mi_1 = nElecE - 1;
+for(int iElecE=0; iElecE&lt;nElecE; iElecE++)
+{
+
+
+    if((pTrjDat != 0) &amp;&amp; (iElecE &lt; nElecE_mi_1))
+    {
+        double newElecE = LocRand.NextRandGauss(elecEc, elecSigE, elecIntMeth);
+        pTrjDat-&gt;EbmDat.Energy = newElecE;
+        pTrjDat-&gt;EbmDat.SetupGamma(newElecE);
+        if(res = pTrjDat-&gt;ComputeInterpolatingStructure_FromTrj()) return res;
+</verbatim></para>
+<para>RadInt.ComputeElectricFieldFreqDomain(pTrjDat, &amp;AuxSmp, &amp;precElecFld, &amp;wfr, 0); <verbatim>    }
+
+}
+
+
+return 0;
+</verbatim> } </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="313" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="2486" bodyend="2570"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a8ad21b4b66776b48746fb5a19147e4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::ConvoluteWithElecBeamOverTransvCoord</definition>
+        <argsstring>(float *, long, long)</argsstring>
+        <name>ConvoluteWithElecBeamOverTransvCoord</name>
+        <qualifiedname>srTRadGenManip::ConvoluteWithElecBeamOverTransvCoord</qualifiedname>
+        <param>
+          <type>float *</type>
+          <defname>DataToConv</defname>
+        </param>
+        <param>
+          <type>long</type>
+          <defname>Nx</defname>
+        </param>
+        <param>
+          <type>long</type>
+          <defname>Nz</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="315" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="2574" bodyend="2649"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ad064cc296618068c95037449488d9817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::PutConstPhotEnergySliceInExtractPlace</definition>
+        <argsstring>(long long, long long, long long, srTRadExtract &amp;, srTRadExtract &amp;)</argsstring>
+        <name>PutConstPhotEnergySliceInExtractPlace</name>
+        <qualifiedname>srTRadGenManip::PutConstPhotEnergySliceInExtractPlace</qualifiedname>
+        <param>
+          <type>long long</type>
+          <defname>ie</defname>
+        </param>
+        <param>
+          <type>long long</type>
+          <defname>NxSlice</defname>
+        </param>
+        <param>
+          <type>long long</type>
+          <defname>NzSlice</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>LocRadExtract</defname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_rad_extract" kindref="compound">srTRadExtract</ref> &amp;</type>
+          <defname>RadExtract</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="316" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="2929" bodyend="3063"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a532ff45cda9fa622e37c177767ccc5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::PropagateElecBeamMoments</definition>
+        <argsstring>(srTElecBeamMoments &amp;)</argsstring>
+        <name>PropagateElecBeamMoments</name>
+        <qualifiedname>srTRadGenManip::PropagateElecBeamMoments</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_elec_beam_moments" kindref="compound">srTElecBeamMoments</ref> &amp;</type>
+          <defname>ElecBeamMom</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="318" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="2719" bodyend="2839"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ac624acbc42e8cd90c49c4e98a7b9f961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::PadImZerosToRealData</definition>
+        <argsstring>(float *, long long, long long)</argsstring>
+        <name>PadImZerosToRealData</name>
+        <qualifiedname>srTRadGenManip::PadImZerosToRealData</qualifiedname>
+        <param>
+          <type>float *</type>
+          <defname>pData</defname>
+        </param>
+        <param>
+          <type>long long</type>
+          <defname>Nx</defname>
+        </param>
+        <param>
+          <type>long long</type>
+          <defname>Nz</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="321" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="2653" bodyend="2715"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ae6f14dd3fd439d58e1a0bc22511e6eb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ShiftData</definition>
+        <argsstring>(float *pStart, long long LenData, long long ShiftLen)</argsstring>
+        <name>ShiftData</name>
+        <qualifiedname>srTRadGenManip::ShiftData</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pStart</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>LenData</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>ShiftLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="324" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="324" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ada2dd2381942d4cacdab40572205c9d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::SetDataToZero</definition>
+        <argsstring>(float *pStart, long long LenData)</argsstring>
+        <name>SetDataToZero</name>
+        <qualifiedname>srTRadGenManip::SetDataToZero</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pStart</declname>
+        </param>
+        <param>
+          <type>long long</type>
+          <declname>LenData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="333" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="333" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a3e9d01a5f5dad88542aed5e302824e72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::SetupPolarizVect</definition>
+        <argsstring>(complex&lt; float &gt; *PolVect, int PolCom)</argsstring>
+        <name>SetupPolarizVect</name>
+        <qualifiedname>srTRadGenManip::SetupPolarizVect</qualifiedname>
+        <param>
+          <type>complex&lt; float &gt; *</type>
+          <declname>PolVect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PolCom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="340" column="6" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="340" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a1de85e827d2c4596cbe89225404228ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float srTRadGenManip::IntensityComponentSimpleInterpol</definition>
+        <argsstring>(float *pEx_St, float *pEx_Fi, float *pEz_St, float *pEz_Fi, double InvStepRelArg, int PolCom, int Int_or_ReE)</argsstring>
+        <name>IntensityComponentSimpleInterpol</name>
+        <qualifiedname>srTRadGenManip::IntensityComponentSimpleInterpol</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pEx_St</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pEx_Fi</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pEz_St</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pEz_Fi</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InvStepRelArg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PolCom</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Int_or_ReE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="358" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="358" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a951aa04a6c63dc03ec502393dbd65297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float srTRadGenManip::IntensityComponentSimpleInterpol2D</definition>
+        <argsstring>(float **ExPtrs, float **EzPtrs, double Arg1, double Arg2, int PolCom, int Int_or_ReE)</argsstring>
+        <name>IntensityComponentSimpleInterpol2D</name>
+        <qualifiedname>srTRadGenManip::IntensityComponentSimpleInterpol2D</qualifiedname>
+        <param>
+          <type>float **</type>
+          <declname>ExPtrs</declname>
+        </param>
+        <param>
+          <type>float **</type>
+          <declname>EzPtrs</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Arg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Arg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PolCom</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Int_or_ReE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="366" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="366" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a44a699eb2b62f180e6cf1f0e1556c238" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float srTRadGenManip::IntensityComponent</definition>
+        <argsstring>(float *pEx, float *pEz, int PolCom, int Int_or_ReE)</argsstring>
+        <name>IntensityComponent</name>
+        <qualifiedname>srTRadGenManip::IntensityComponent</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pEx</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pEz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PolCom</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Int_or_ReE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="380" column="7" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="380" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a65bee8ea0adeb5428702414cc1793914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double srTRadGenManip::FormalPhase</definition>
+        <argsstring>(float Re, float Im)</argsstring>
+        <name>FormalPhase</name>
+        <qualifiedname>srTRadGenManip::FormalPhase</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Re</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Im</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="447" column="8" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="447" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a47fa0a85c41509c13400cde3a31f92b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::MutualIntensityComponentSimpleInterpol</definition>
+        <argsstring>(float **ExPtrs, float **ExPtrsT, float **EzPtrs, float **EzPtrsT, double InvStepRelArg, int PolCom, double iter, float *pResMI)</argsstring>
+        <name>MutualIntensityComponentSimpleInterpol</name>
+        <qualifiedname>srTRadGenManip::MutualIntensityComponentSimpleInterpol</qualifiedname>
+        <param>
+          <type>float **</type>
+          <declname>ExPtrs</declname>
+        </param>
+        <param>
+          <type>float **</type>
+          <declname>ExPtrsT</declname>
+        </param>
+        <param>
+          <type>float **</type>
+          <declname>EzPtrs</declname>
+        </param>
+        <param>
+          <type>float **</type>
+          <declname>EzPtrsT</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>InvStepRelArg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PolCom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iter</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pResMI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="471" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="471" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ab6f65f60f9aa5b310d724a78c4fabe4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::MutualIntensityComponentSimpleInterpol2D</definition>
+        <argsstring>(float **ExPtrs, float **ExPtrsT, float **EzPtrs, float **EzPtrsT, double Arg1, double Arg2, int PolCom, double iter, float *pResMI)</argsstring>
+        <name>MutualIntensityComponentSimpleInterpol2D</name>
+        <qualifiedname>srTRadGenManip::MutualIntensityComponentSimpleInterpol2D</qualifiedname>
+        <param>
+          <type>float **</type>
+          <declname>ExPtrs</declname>
+        </param>
+        <param>
+          <type>float **</type>
+          <declname>ExPtrsT</declname>
+        </param>
+        <param>
+          <type>float **</type>
+          <declname>EzPtrs</declname>
+        </param>
+        <param>
+          <type>float **</type>
+          <declname>EzPtrsT</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Arg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Arg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PolCom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iter</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pResMI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="488" column="5" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="488" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a64c629f63ae457b4c11e51c0e5cda633" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int srTRadGenManip::MutualIntensityComponent</definition>
+        <argsstring>(float *pEx, float *pExT, float *pEz, float *pEzT, int PolCom, double iter, float *pResMI)</argsstring>
+        <name>MutualIntensityComponent</name>
+        <qualifiedname>srTRadGenManip::MutualIntensityComponent</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>pEx</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pExT</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pEz</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pEzT</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PolCom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iter</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pResMI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="512" column="12" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="512" bodyend="625"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a30c7044a1ca1fdcf5127995c57a08f66" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::PropagateElecBeamMoments</definition>
+        <argsstring>(srTElecBeamMoments &amp;ElecBeamMom, double *p4x4PropMatr, double *p4Vect)</argsstring>
+        <name>PropagateElecBeamMoments</name>
+        <qualifiedname>srTRadGenManip::PropagateElecBeamMoments</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_elec_beam_moments" kindref="compound">srTElecBeamMoments</ref> &amp;</type>
+          <declname>ElecBeamMom</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>p4x4PropMatr</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>p4Vect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="319" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="2843" bodyend="2925"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a38225806e70bd96e2b2178807c0a2a35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double srTRadGenManip::IntCylCrd</definition>
+        <argsstring>(double ph, void *par)</argsstring>
+        <name>IntCylCrd</name>
+        <qualifiedname>srTRadGenManip::IntCylCrd</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>ph</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>par</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="737" column="15" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="737" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ab083ad2248b54ff7a3108151235674fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool srTRadGenManip::CheckIfPointIsOutsideRectangles</definition>
+        <argsstring>(double x, double y, double *arRectPar, int nRect)</argsstring>
+        <name>CheckIfPointIsOutsideRectangles</name>
+        <qualifiedname>srTRadGenManip::CheckIfPointIsOutsideRectangles</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arRectPar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nRect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="754" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="754" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a27c8af72dee993ce981af5042ceac4b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void srTRadGenManip::CosAndSin</definition>
+        <argsstring>(double x, float &amp;Cos, float &amp;Sin)</argsstring>
+        <name>CosAndSin</name>
+        <qualifiedname>srTRadGenManip::CosAndSin</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>Cos</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>Sin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="770" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="770" bodyend="791"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1aeb7895c09c44c26e9f580c57d7e2675a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::IntProc</definition>
+        <argsstring>(srTWaveAccessData *pwI1, srTWaveAccessData *pwI2, double *arPar, int nPar)</argsstring>
+        <name>IntProc</name>
+        <qualifiedname>srTRadGenManip::IntProc</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI1</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="794" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3316" bodyend="3342"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ac5298e753239f07dfb561a1cef4d5fe2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::Int2DIntegOverAzim</definition>
+        <argsstring>(srTWaveAccessData *pwI1, srTWaveAccessData *pwI2, double *arPar, int nPar)</argsstring>
+        <name>Int2DIntegOverAzim</name>
+        <qualifiedname>srTRadGenManip::Int2DIntegOverAzim</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI1</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI2</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="796" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3346" bodyend="3552"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a3e1bee7dc7727fada9425cecc9f484ff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::MutualIntFillHalfHermit</definition>
+        <argsstring>(srTWaveAccessData *pwI)</argsstring>
+        <name>MutualIntFillHalfHermit</name>
+        <qualifiedname>srTRadGenManip::MutualIntFillHalfHermit</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="798" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3745" bodyend="3788"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1ae6e5d412b2cf8a39449d8b5e099e8a5e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::MutualIntSumPart</definition>
+        <argsstring>(srTWaveAccessData *pwI1, srTWaveAccessData *pwI2, long iterAvg=-1)</argsstring>
+        <name>MutualIntSumPart</name>
+        <qualifiedname>srTRadGenManip::MutualIntSumPart</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI1</declname>
+        </param>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI2</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>iterAvg</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="799" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3556" bodyend="3741"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a23c54df05ec2c9fceb9409224d52bc64" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::MutualIntTreatComQuadPhTerm</definition>
+        <argsstring>(srTWaveAccessData *pwI, double *arPar, int nPar)</argsstring>
+        <name>MutualIntTreatComQuadPhTerm</name>
+        <qualifiedname>srTRadGenManip::MutualIntTreatComQuadPhTerm</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="801" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3792" bodyend="3907"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a92d2efe26214dcae0516ca29e976c6aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::CohModesTreatComQuadPhTerm</definition>
+        <argsstring>(srTWaveAccessData *pwI, double *arPar, int nPar)</argsstring>
+        <name>CohModesTreatComQuadPhTerm</name>
+        <qualifiedname>srTRadGenManip::CohModesTreatComQuadPhTerm</qualifiedname>
+        <param>
+          <type><ref refid="structsr_t_wave_access_data" kindref="compound">srTWaveAccessData</ref> *</type>
+          <declname>pwI</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>arPar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nPar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="802" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="3911" bodyend="4042"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a58f6e23b1c8f62f9ad221dd291558485" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ComponInteg</definition>
+        <argsstring>(srTDataMD *pIntensOrigData, srTDataMD *pIntegParData, srTDataMD *pIntegResData)</argsstring>
+        <name>ComponInteg</name>
+        <qualifiedname>srTRadGenManip::ComponInteg</qualifiedname>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntensOrigData</declname>
+        </param>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntegParData</declname>
+        </param>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntegResData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="804" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="4046" bodyend="4089"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a4ca374896ddd265b2e054b2975e150c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ComponIntegVsPhotEn</definition>
+        <argsstring>(srTDataMD *pIntensOrigData, double eMin, double eMax, srTDataMD *pIntegResData)</argsstring>
+        <name>ComponIntegVsPhotEn</name>
+        <qualifiedname>srTRadGenManip::ComponIntegVsPhotEn</qualifiedname>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntensOrigData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eMax</declname>
+        </param>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntegResData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="805" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="4093" bodyend="4212"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a0f954926a301969681660defccd31370" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ComponIntegVsHorOrVertPos</definition>
+        <argsstring>(srTDataMD *pIntensOrigData, char x_or_z, double xMin, double xMax, srTDataMD *pIntegResData)</argsstring>
+        <name>ComponIntegVsHorOrVertPos</name>
+        <qualifiedname>srTRadGenManip::ComponIntegVsHorOrVertPos</qualifiedname>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntensOrigData</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xMax</declname>
+        </param>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntegResData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="806" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="4216" bodyend="4425"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a6a065610e4fa04554a88060c5c63f0d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ComponIntegVsHorAndVertPos</definition>
+        <argsstring>(srTDataMD *pIntensOrigData, double xMin, double xMax, double zMin, double zMax, srTDataMD *pIntegResData)</argsstring>
+        <name>ComponIntegVsHorAndVertPos</name>
+        <qualifiedname>srTRadGenManip::ComponIntegVsHorAndVertPos</qualifiedname>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntensOrigData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xMax</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zMax</declname>
+        </param>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntegResData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="807" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="4429" bodyend="4432"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a734e5c59d8f4f2d7fda4d854c0ef6207" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ComponIntegVsPhotEnAndPos</definition>
+        <argsstring>(srTDataMD *pIntensOrigData, char x_or_z, double zMin, double zMax, srTDataMD *pIntegResData)</argsstring>
+        <name>ComponIntegVsPhotEnAndPos</name>
+        <qualifiedname>srTRadGenManip::ComponIntegVsPhotEnAndPos</qualifiedname>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntensOrigData</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>x_or_z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zMax</declname>
+        </param>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntegResData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="808" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="4436" bodyend="4439"/>
+      </memberdef>
+      <memberdef kind="function" id="classsr_t_rad_gen_manip_1a0657069cf7efcb1a9aa67c1a2f76b9cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void srTRadGenManip::ComponIntegVsPhotEnAndHorAndVertPos</definition>
+        <argsstring>(srTDataMD *pIntensOrigData, double eMin, double eMax, double xMin, double xMax, double zMin, double zMax, srTDataMD *pIntegResData)</argsstring>
+        <name>ComponIntegVsPhotEnAndHorAndVertPos</name>
+        <qualifiedname>srTRadGenManip::ComponIntegVsPhotEnAndHorAndVertPos</qualifiedname>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntensOrigData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eMax</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xMax</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zMax</declname>
+        </param>
+        <param>
+          <type>srTDataMD *</type>
+          <declname>pIntegResData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="809" column="13" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.cpp" bodystart="4443" bodyend="4446"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" line="44" column="1" bodyfile="/home/paulrleaa/Documents/1_Research/Suli2026/SRW/cpp/src/core/srradmnp.h" bodystart="44" bodyend="810"/>
+    <listofallmembers>
+      <member refid="classsr_t_rad_gen_manip_1ab083ad2248b54ff7a3108151235674fa" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>CheckIfPointIsOutsideRectangles</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a92d2efe26214dcae0516ca29e976c6aa" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>CohModesTreatComQuadPhTerm</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a58f6e23b1c8f62f9ad221dd291558485" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ComponInteg</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a6a065610e4fa04554a88060c5c63f0d9" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ComponIntegVsHorAndVertPos</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a0f954926a301969681660defccd31370" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ComponIntegVsHorOrVertPos</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a4ca374896ddd265b2e054b2975e150c9" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ComponIntegVsPhotEn</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a0657069cf7efcb1a9aa67c1a2f76b9cf" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ComponIntegVsPhotEnAndHorAndVertPos</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a734e5c59d8f4f2d7fda4d854c0ef6207" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ComponIntegVsPhotEnAndPos</name></member>
+      <member refid="classsr_t_rad_gen_manip_1aeb8a032dec7cf22f36c436314bdac0b6" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ComputeConvolutedIntensity</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a8ad21b4b66776b48746fb5a19147e4ab" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ConvoluteWithElecBeamOverTransvCoord</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a27c8af72dee993ce981af5042ceac4b5" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>CosAndSin</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a9911e7c75218ff22d96a34c197bb004a" prot="private" virt="non-virtual"><scope>srTRadGenManip</scope><name>EhOK</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a1530c838438145edce24426e7831b249" prot="private" virt="non-virtual"><scope>srTRadGenManip</scope><name>EvOK</name></member>
+      <member refid="classsr_t_rad_gen_manip_1aaa7bf2febdfabeb75ec476379cdbb8cc" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractFluxFromWfr</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a307b329a859e7f5916e193288f86af46" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractMultiElecFlux1DvsE</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a996000ed118b970f51966f35679a4108" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractRadiation</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a0147190977660e99b95219917ed8655c" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractRadiation</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ae9b5af1b6da7031e03fa42c182a499af" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecFlux1DvsE</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a6cd18373ce5ce9d14f921b4ad80161c1" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity</name></member>
+      <member refid="classsr_t_rad_gen_manip_1acba5f040b83ebccc2983b17620b47e97" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity1DvsE</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a9e67ebea94631d144a3e3e29440eb18f" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity1DvsX</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a68d8177ba16db9fa9320257810b0736e" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity1DvsZ</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a9cd3b7ed7b5a17f058740b9b2cf2693c" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity2DvsEX</name></member>
+      <member refid="classsr_t_rad_gen_manip_1aa1f85e6df831bbb22c8dfe5f390efc86" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity2DvsEZ</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a02efd8ca3d0ff1b91dc190680052462e" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity2DvsXZ</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a0b919b391c4bd8b9ab9aac17a8edfd68" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecIntensity3D</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a8c2c3b2e5c6858248fc8a10d94858f3a" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecMutualIntensity</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a1b9442827effb038a0a8bf9267fe828f" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecMutualIntensityVsX</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a16692ed6a68382eef91e6eb412231dbe" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecMutualIntensityVsXZ</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a7b0618765f50b388598280b0c2b0b972" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ExtractSingleElecMutualIntensityVsZ</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a65bee8ea0adeb5428702414cc1793914" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>FormalPhase</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a8b226eba67439572852c92ce863878c6" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>hRadAccessData</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ac5298e753239f07dfb561a1cef4d5fe2" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>Int2DIntegOverAzim</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a38225806e70bd96e2b2178807c0a2a35" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>IntCylCrd</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a44a699eb2b62f180e6cf1f0e1556c238" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>IntensityComponent</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a1de85e827d2c4596cbe89225404228ca" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>IntensityComponentSimpleInterpol</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a951aa04a6c63dc03ec502393dbd65297" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>IntensityComponentSimpleInterpol2D</name></member>
+      <member refid="classsr_t_rad_gen_manip_1aeb7895c09c44c26e9f580c57d7e2675a" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>IntProc</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a64c629f63ae457b4c11e51c0e5cda633" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>MutualIntensityComponent</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a47fa0a85c41509c13400cde3a31f92b6" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>MutualIntensityComponentSimpleInterpol</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ab6f65f60f9aa5b310d724a78c4fabe4a" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>MutualIntensityComponentSimpleInterpol2D</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a3e1bee7dc7727fada9425cecc9f484ff" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>MutualIntFillHalfHermit</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ae6e5d412b2cf8a39449d8b5e099e8a5e" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>MutualIntSumPart</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a23c54df05ec2c9fceb9409224d52bc64" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>MutualIntTreatComQuadPhTerm</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ac624acbc42e8cd90c49c4e98a7b9f961" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>PadImZerosToRealData</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a532ff45cda9fa622e37c177767ccc5a7" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>PropagateElecBeamMoments</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a30c7044a1ca1fdcf5127995c57a08f66" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>PropagateElecBeamMoments</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ad064cc296618068c95037449488d9817" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>PutConstPhotEnergySliceInExtractPlace</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ada2dd2381942d4cacdab40572205c9d1" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>SetDataToZero</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a452be242eb19e74d1c63fb7a536437c4" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>SetupExtractedWaveData</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a6f0c1928a7362a606c4cc498958195cf" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>SetupIntCoord</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a3e9d01a5f5dad88542aed5e302824e72" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>SetupPolarizVect</name></member>
+      <member refid="classsr_t_rad_gen_manip_1ae6f14dd3fd439d58e1a0bc22511e6eb0" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>ShiftData</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a4cba8bb73c49f34232fbae4e10cf1760" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>srTRadGenManip</name></member>
+      <member refid="classsr_t_rad_gen_manip_1af51d8531867666d0e394c1d767545a4c" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>srTRadGenManip</name></member>
+      <member refid="classsr_t_rad_gen_manip_1adec73e284432ec94722de6805ddc25ec" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>TryToMakePhaseContinuous</name></member>
+      <member refid="classsr_t_rad_gen_manip_1a9cfbaa9426242963ceeec11306ce63a2" prot="public" virt="non-virtual"><scope>srTRadGenManip</scope><name>TryToMakePhaseContinuous1D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
