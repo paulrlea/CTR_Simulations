@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jupyter nbconvert *)",
+      "Bash(python3 *)",
+      "Read(//home/paulrleaa/Documents/1_Research/Suli2026/Literature/**)",
+      "Bash(pdfinfo /home/paulrleaa/Documents/1_Research/Suli2026/Literature/s41598-024-55156-9.pdf)",
+      "Bash(pdfinfo /home/paulrleaa/Documents/1_Research/Suli2026/Literature/MOP048.pdf)",
+      "Bash(pdfinfo /home/paulrleaa/Documents/1_Research/Suli2026/Literature/PersoNota_BeamNetUSAnalysis.pdf)"
+    ]
+  },
+  "worktree": {
+    "bgIsolation": "none"
+  }
+}
